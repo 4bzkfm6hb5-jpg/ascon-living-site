@@ -1,0 +1,85 @@
+{
+ "living": "Wohnzimmer mit großem L-Sofa",
+ "living-2": "Wohnzimmer mit Sofa und Pflanzen",
+ "living-tv": "TV-Wand im Wohnzimmer",
+ "living-3": "Sitzbereich an der Glastür",
+ "kitchen": "Offene Küche mit Esstisch",
+ "kitchen-2": "Küchenzeile mit gemusterten Fliesen",
+ "kitchen-3": "Küchengeräte auf der Arbeitsfläche",
+ "kitchen-dining": "Esstisch an den Küchenfenstern",
+ "kitchen-fridge": "Side-by-Side-Kühlschrank in der Küche",
+ "bed1": "Schlafzimmer 1 mit Kingsize-Bett",
+ "bed1-3": "Schlafzimmer 1, Blick zu den Fenstern",
+ "bed1-2": "Schminkecke in Schlafzimmer 1",
+ "bed2": "Schlafzimmer 2 mit Kingsize-Bett",
+ "bed2-2": "Schlafzimmer 2 mit Fernseher",
+ "bed2-3": "Schlafzimmer 2 mit Kunstwand",
+ "bed3": "Schlafzimmer 3 mit Kingsize-Bett",
+ "bed3-2": "Schlafzimmer 3 mit Fernseher",
+ "bed3-3": "Handtücher und Bettwäsche in Schlafzimmer 3",
+ "bath": "Bad mit Regendusche",
+ "bath-2": "Bad mit rundem Spiegel",
+ "bath-3": "Frische Handtücher im Bad",
+ "ent": "Entertainment-Raum mit Sofas",
+ "ent-karaoke": "Karaoke-Ecke mit Ambientebeleuchtung",
+ "ent-cinema": "Beamer-Leinwand im Entertainment-Raum",
+ "ent-tv": "Entertainment-Raum mit Fernseher",
+ "ent-mics": "Karaoke-Mikrofone und Fernbedienungen",
+ "ent-ps": "PlayStation mit zwei Controllern",
+ "entrance": "Eingang mit Treppe",
+ "hall": "Flur mit Zimmertüren",
+ "stairs": "Treppe zwischen den Etagen",
+ "roof-lounge": "Essgruppe mit Polstern auf der Dachterrasse",
+ "roof-terrace": "Dachterrasse mit Loungemöbeln, Pflanzen und Skyline-Blick",
+ "roof-bbq": "Grill auf der Dachterrasse",
+ "roof-night": "Lounge auf der Dachterrasse mit Lichterketten",
+ "roof-evening": "Lounge auf der Dachterrasse am Abend mit Lichterketten",
+ "roof-evening-2": "Essbereich auf der Dachterrasse am Abend",
+ "roof-skyline": "Skyline bei Nacht, von der Dachterrasse aus",
+ "hero": "Dachterrasse von ASCON LIVING mit Lounge, Pflanzen und Skyline von Ho-Chi-Minh-Stadt",
+ "_h": {
+  "living": [
+   "Wohnzimmer",
+   "Hier startet ihr in den Tag oder lasst ihn ausklingen: helles Wohnzimmer mit großem L-Sofa, Fernseher und großen Fenstern ins Grüne – Platz für die ganze Gruppe."
+  ],
+  "kitchen": [
+   "Küche & Essbereich",
+   "Gemeinsam kochen in der voll ausgestatteten Küche mit Kühlschrank, Geschirrspüler, Backofen, Herd, Mikrowelle, Kaffeemaschine, Wasserkocher und Reiskocher – und danach alle an einem Tisch essen."
+  ],
+  "bed1": [
+   "Schlafzimmer 1",
+   "Ein ruhiger Rückzugsort mit Kingsize-Bett, Klimaanlage und eigener Schminkecke."
+  ],
+  "bed2": [
+   "Schlafzimmer 2",
+   "Kingsize-Bett, Klimaanlage und Fernseher – gemütlich für einen ruhigen Abend im eigenen Zimmer."
+  ],
+  "bed3": [
+   "Schlafzimmer 3",
+   "Kingsize-Bett, Klimaanlage und Fernseher; frische Handtücher und Bettwäsche liegen bereit."
+  ],
+  "bath": [
+   "Bäder",
+   "Vier Bäder mit Regendusche, Handtüchern und Föhn – kein Anstehen am Morgen, auch wenn das Haus voll ist. Haltegriffe sind vorhanden."
+  ],
+  "ent": [
+   "Entertainment-Raum",
+   "Ein eigener Raum für gemeinsame Abende: Karaoke singen, einen Film über den Beamer schauen oder auf der PlayStation spielen – ideal für Gruppen."
+  ],
+  "hall": [
+   "Eingang & Flur",
+   "Per Zahlencode checkt ihr selbst ein; Treppen mit Haltegriffen verbinden die Etagen."
+  ],
+  "roof": [
+   "Dachterrasse & Flussblick",
+   "Terrasse mit Lounge, Essbereich und Grill, dazu Blick über Fluss und Skyline – ein ganzes Haus mit Flussblick, plus drei Balkone."
+  ]
+ },
+ "kitchen-dishes": "Küchenschrank mit Tellern und Schüsseln",
+ "kitchen-rice": "Reiskocher auf der Arbeitsfläche",
+ "kitchen-micro": "Mikrowelle in der Küche",
+ "bath-4": "Dusche mit Regenduschkopf",
+ "bath-5": "Föhn im Bad",
+ "bath-6": "Glasablage mit Becher im Bad",
+ "river-balcony": "Balkon mit Flussblick und Skyline"
+}

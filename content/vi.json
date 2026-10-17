@@ -1,0 +1,794 @@
+{
+ "lang": "vi",
+ "title_suffix": "",
+ "ui": {
+  "skip": "Chuyển đến nội dung",
+  "languages": "Ngôn ngữ",
+  "book_airbnb": "Đặt trên Airbnb",
+  "book_trip": "Đặt trên Trip.com",
+  "whatsapp": "Nhắn WhatsApp",
+  "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON.",
+  "address_label": "Địa chỉ",
+  "contact_label": "Liên hệ",
+  "more_label": "Thêm",
+  "guest_guide": "Ứng dụng hướng dẫn khách",
+  "read_more": "Xem thêm",
+  "source": "Nguồn",
+  "estimate": "ước tính",
+  "home": "Trang chủ",
+  "not_found_title": "Không tìm thấy trang",
+  "not_found_text": "Trang này không tồn tại. Về trang chủ:"
+ },
+ "nav": [
+  [
+   "home",
+   "Trang chủ"
+  ],
+  [
+   "house",
+   "Ngôi nhà"
+  ],
+  [
+   "rooftop",
+   "Sân thượng"
+  ],
+  [
+   "families",
+   "Gia đình & nhóm"
+  ],
+  [
+   "location",
+   "Vị trí"
+  ],
+  [
+   "booking",
+   "Đặt phòng & liên hệ"
+  ],
+  [
+   "faq",
+   "Hỏi đáp"
+  ],
+  [
+   "rules",
+   "Nội quy"
+  ],
+  [
+   "guide",
+   "Cẩm nang"
+  ]
+ ],
+ "pages": {
+  "home": {
+   "title": "Homestay Quận 7: nhà nguyên căn ven sông | ASCON LIVING",
+   "description": "Homestay quận 7 nguyên căn ven sông tại Tân Hưng, gần Phú Mỹ Hưng: 270 m², 3 phòng ngủ giường king, 4 phòng tắm, sân thượng, tối đa 6 khách.",
+   "h1": "Homestay Quận 7: thuê nguyên căn nhà ven sông cho nhóm của bạn",
+   "lead": "ASCON LIVING là ngôi nhà riêng khoảng 270 m² ven sông tại Tân Hưng, gần Phú Mỹ Hưng (Quận 7 cũ), có 3 phòng ngủ giường king, 4 phòng tắm và sân thượng nhìn ra sông và thành phố, dành cho tối đa 6 khách.",
+   "hero": [
+    "hero",
+    "Sân thượng ASCON LIVING với lounge, cây xanh và đường chân trời TP. Hồ Chí Minh"
+   ],
+   "sections": [
+    {
+     "h2": "Nhà nguyên căn Quận 7, không gian riêng cho cả nhóm",
+     "p": [
+      "Bạn thuê cả ngôi nhà: ba phòng ngủ giường king, bốn phòng tắm, ba ban công, phòng khách, bếp đầy đủ, phòng giải trí và sân thượng nhìn ra sông. Không có lễ tân, không dùng chung không gian với ai."
+     ],
+     "imgs": [
+      [
+       "living",
+       "Phòng khách với sofa lớn và cửa sổ nhìn ra vườn"
+      ],
+      [
+       "bed1",
+       "Phòng ngủ 1 với giường king"
+      ],
+      [
+       "roof-night",
+       "Sân thượng buổi tối với dây đèn"
+      ]
+     ]
+    },
+    {
+     "h2": "Điểm nổi bật",
+     "ul": [
+      "Nguyên căn khoảng 270 m², tối đa 6 khách",
+      "3 phòng ngủ giường king, 4 phòng tắm, 3 ban công",
+      "Sân thượng view sông và thành phố, có BBQ",
+      "Phòng giải trí có karaoke, máy chiếu và PlayStation",
+      "Bếp có máy rửa chén, lò nướng và máy pha cà phê",
+      "Tự nhận phòng bằng mã số, nhận phòng 14:00–23:00",
+      "Chủ nhà nói tiếng Việt, Anh, Đức, Hindi, Punjabi và Urdu"
+     ]
+    },
+    {
+     "h2": "Khám phá",
+     "cards": [
+      [
+       "Ngôi nhà",
+       "house",
+       "Phòng ngủ, phòng tắm, phòng khách, bếp và phòng giải trí."
+      ],
+      [
+       "Sân thượng",
+       "rooftop",
+       "View sông và thành phố."
+      ],
+      [
+       "Vị trí",
+       "location",
+       "Tân Hưng, gần Phú Mỹ Hưng."
+      ],
+      [
+       "Đặt phòng & liên hệ",
+       "booking",
+       "Airbnb, Trip.com hoặc WhatsApp."
+      ]
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  },
+  "house": {
+   "title": "Ngôi nhà: 3 phòng ngủ, 4 phòng tắm | ASCON LIVING",
+   "description": "Nhà nguyên căn Quận 7, homestay view sông có karaoke: 270 m², 3 phòng ngủ giường king, 4 phòng tắm, bếp đầy đủ và phòng giải trí.",
+   "h1": "Ngôi nhà: villa Quận 7 cho thuê theo ngày",
+   "lead": "Cả ngôi nhà khoảng 270 m² chỉ dành riêng cho nhóm của bạn.",
+   "sections": [
+    {
+     "h2": "Phòng khách",
+     "p": [
+      "Bắt đầu hay kết thúc ngày mới trong phòng khách sáng sủa với sofa chữ L lớn, TV và cửa sổ rộng nhìn ra cây xanh – đủ chỗ ngồi cho cả nhóm."
+     ],
+     "imgs": [
+      [
+       "living",
+       "Phòng khách với sofa chữ L lớn"
+      ],
+      [
+       "living-2",
+       "Phòng khách với sofa và cây xanh"
+      ],
+      [
+       "living-tv",
+       "Kệ TV trong phòng khách"
+      ],
+      [
+       "living-3",
+       "Góc ngồi cạnh cửa kính"
+      ]
+     ]
+    },
+    {
+     "h2": "Bếp & khu ăn uống",
+     "p": [
+      "Cùng nhau nấu nướng trong căn bếp đầy đủ: tủ lạnh, máy rửa chén, lò nướng, bếp nấu, lò vi sóng, máy pha cà phê, ấm đun nước và nồi cơm điện, rồi quây quần bên một bàn ăn."
+     ],
+     "imgs": [
+      [
+       "kitchen",
+       "Bếp mở với bàn ăn"
+      ],
+      [
+       "kitchen-2",
+       "Quầy bếp với gạch hoa văn"
+      ],
+      [
+       "kitchen-3",
+       "Thiết bị bếp trên mặt quầy"
+      ],
+      [
+       "kitchen-dishes",
+       "Tủ bếp với chén đĩa"
+      ],
+      [
+       "kitchen-rice",
+       "Nồi cơm điện trên quầy bếp"
+      ],
+      [
+       "kitchen-micro",
+       "Lò vi sóng trong bếp"
+      ],
+      [
+       "kitchen-fridge",
+       "Tủ lạnh hai cánh trong bếp"
+      ],
+      [
+       "kitchen-dining",
+       "Bàn ăn cạnh cửa sổ bếp"
+      ]
+     ]
+    },
+    {
+     "h2": "Phòng ngủ 1",
+     "p": [
+      "Không gian yên tĩnh với giường king, máy lạnh và góc trang điểm riêng."
+     ],
+     "imgs": [
+      [
+       "bed1",
+       "Phòng ngủ 1 với giường king"
+      ],
+      [
+       "bed1-3",
+       "Phòng ngủ 1, nhìn về phía cửa sổ"
+      ],
+      [
+       "bed1-2",
+       "Bàn trang điểm trong phòng ngủ 1"
+      ]
+     ]
+    },
+    {
+     "h2": "Phòng ngủ 2",
+     "p": [
+      "Giường king, máy lạnh và TV – thoải mái cho buổi tối riêng tư."
+     ],
+     "imgs": [
+      [
+       "bed2",
+       "Phòng ngủ 2 với giường king"
+      ],
+      [
+       "bed2-2",
+       "Phòng ngủ 2 có TV"
+      ],
+      [
+       "bed2-3",
+       "Phòng ngủ 2 với tranh treo tường"
+      ]
+     ]
+    },
+    {
+     "h2": "Phòng ngủ 3",
+     "p": [
+      "Giường king, máy lạnh và TV, có sẵn khăn tắm và chăn ga sạch."
+     ],
+     "imgs": [
+      [
+       "bed3",
+       "Phòng ngủ 3 với giường king"
+      ],
+      [
+       "bed3-2",
+       "Phòng ngủ 3 có TV"
+      ],
+      [
+       "bed3-3",
+       "Khăn tắm và chăn ga trong phòng ngủ 3"
+      ]
+     ]
+    },
+    {
+     "h2": "Phòng tắm",
+     "p": [
+      "Bốn phòng tắm có vòi sen, khăn tắm và máy sấy tóc – buổi sáng không phải chờ nhau dù nhà đông người. Có lắp tay vịn."
+     ],
+     "imgs": [
+      [
+       "bath",
+       "Phòng tắm với vòi sen"
+      ],
+      [
+       "bath-4",
+       "Vòi sen trong phòng tắm"
+      ],
+      [
+       "bath-2",
+       "Phòng tắm với gương tròn"
+      ],
+      [
+       "bath-3",
+       "Khăn tắm sạch trong phòng tắm"
+      ],
+      [
+       "bath-5",
+       "Máy sấy tóc trong phòng tắm"
+      ],
+      [
+       "bath-6",
+       "Kệ kính với cốc trong phòng tắm"
+      ]
+     ]
+    },
+    {
+     "h2": "Phòng giải trí",
+     "p": [
+      "Phòng riêng cho buổi tối cùng nhau – homestay có karaoke: hát, xem phim bằng máy chiếu hoặc chơi PlayStation."
+     ],
+     "imgs": [
+      [
+       "ent",
+       "Phòng giải trí với sofa"
+      ],
+      [
+       "ent-karaoke",
+       "Góc karaoke với đèn trang trí"
+      ],
+      [
+       "ent-cinema",
+       "Màn chiếu trong phòng giải trí"
+      ],
+      [
+       "ent-tv",
+       "Phòng giải trí có TV"
+      ],
+      [
+       "ent-mics",
+       "Micro karaoke và điều khiển"
+      ],
+      [
+       "ent-ps",
+       "PlayStation với hai tay cầm"
+      ]
+     ]
+    },
+    {
+     "h2": "Sân thượng & view sông",
+     "p": [
+      "Sân thượng có lounge, bàn ăn ngoài trời và BBQ, homestay view sông và thành phố, cùng ba ban công."
+     ],
+     "imgs": [
+      [
+       "roof-terrace",
+       "Sân thượng với nội thất lounge, cây xanh và view thành phố"
+      ],
+      [
+       "roof-lounge",
+       "Bộ bàn ăn có nệm trên sân thượng"
+      ],
+      [
+       "roof-night",
+       "Khu lounge sân thượng buổi tối với dây đèn"
+      ],
+      [
+       "roof-evening",
+       "Lounge sân thượng buổi tối với dây đèn"
+      ],
+      [
+       "roof-evening-2",
+       "Bàn ăn trên sân thượng buổi tối"
+      ],
+      [
+       "roof-bbq",
+       "Bếp nướng BBQ trên sân thượng"
+      ],
+      [
+       "roof-skyline",
+       "Thành phố về đêm nhìn từ sân thượng"
+      ],
+      [
+       "river-balcony",
+       "Ban công view sông và thành phố"
+      ]
+     ]
+    },
+    {
+     "h2": "Lối vào & hành lang",
+     "p": [
+      "Tự nhận phòng bằng mã số; cầu thang có tay vịn nối các tầng."
+     ],
+     "imgs": [
+      [
+       "entrance",
+       "Lối vào với cầu thang"
+      ],
+      [
+       "hall",
+       "Hành lang với cửa các phòng"
+      ],
+      [
+       "stairs",
+       "Cầu thang giữa các tầng"
+      ]
+     ]
+    },
+    {
+     "h2": "Tiện nghi",
+     "ul": [
+      "Máy lạnh và quạt",
+      "Wi-Fi",
+      "Máy giặt và bàn ủi",
+      "Két sắt",
+      "Thiết bị báo khói, bình chữa cháy, hộp sơ cứu",
+      "Tự nhận phòng bằng mã số (cổng ngoài dùng chìa khóa)",
+      "BBQ trên sân thượng"
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  },
+  "rooftop": {
+   "title": "Sân thượng view sông và thành phố | ASCON LIVING",
+   "description": "Sân thượng riêng của ASCON LIVING tại TP. Hồ Chí Minh: khu lounge, bàn ăn ngoài trời, BBQ, view sông và đường chân trời cả ngày lẫn đêm.",
+   "h1": "Sân thượng view sông và thành phố",
+   "lead": "Sân thượng có khu lounge, bàn ăn ngoài trời và bếp nướng BBQ.",
+   "sections": [
+    {
+     "h2": "Sân thượng",
+     "imgs": [
+      [
+       "roof-terrace",
+       "Sân thượng với nội thất lounge, cây xanh và view thành phố"
+      ],
+      [
+       "roof-lounge",
+       "Bộ bàn ăn có nệm trên sân thượng"
+      ],
+      [
+       "roof-bbq",
+       "Bếp nướng BBQ trên sân thượng"
+      ],
+      [
+       "river-balcony",
+       "Ban công view sông và thành phố"
+      ]
+     ]
+    },
+    {
+     "h2": "Buổi tối",
+     "imgs": [
+      [
+       "roof-night",
+       "Khu lounge sân thượng buổi tối với dây đèn"
+      ],
+      [
+       "roof-evening",
+       "Khu ngồi trên sân thượng buổi tối"
+      ],
+      [
+       "roof-evening-2",
+       "Bàn ăn trên sân thượng buổi tối"
+      ],
+      [
+       "roof-skyline",
+       "Thành phố về đêm nhìn từ sân thượng"
+      ]
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  },
+  "families": {
+   "title": "Homestay Sài Gòn cho gia đình & nhóm bạn | ASCON LIVING",
+   "description": "Homestay Sài Gòn cho nhóm bạn và gia đình: nhà nguyên căn tối đa 6 khách, 3 phòng ngủ giường king, 4 phòng tắm, bếp và phòng giải trí.",
+   "h1": "Homestay Sài Gòn nguyên căn cho gia đình và nhóm bạn",
+   "lead": "Ngôi nhà được bố trí cho nhóm tối đa 6 khách.",
+   "sections": [
+    {
+     "h2": "Ngôi nhà có gì cho nhóm",
+     "ul": [
+      "Tối đa 6 khách trong 3 phòng ngủ giường king",
+      "4 phòng tắm",
+      "Bếp đầy đủ với nồi cơm điện, lò nướng và máy rửa chén",
+      "Phòng giải trí có karaoke, máy chiếu, TV và PlayStation",
+      "Sân thượng có BBQ",
+      "Máy giặt; dịch vụ giặt ủi theo yêu cầu (30 EUR mỗi mẻ)",
+      "Đưa đón sân bay theo yêu cầu (50 EUR)",
+      "Gửi hành lý miễn phí"
+     ]
+    },
+    {
+     "h2": "Lưu ý",
+     "p": [
+      "Ngôi nhà có nhiều tầng với cầu thang và tay vịn. Thiết bị an toàn: báo khói, bình chữa cháy và hộp sơ cứu. Nếu có câu hỏi cụ thể, hãy nhắn WhatsApp cho chúng tôi trước khi đặt."
+     ],
+     "imgs": [
+      [
+       "kitchen-dining",
+       "Bàn ăn cho cả nhóm"
+      ],
+      [
+       "ent-cinema",
+       "Màn chiếu trong phòng giải trí"
+      ]
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  },
+  "location": {
+   "title": "Vị trí: Tân Hưng, gần Phú Mỹ Hưng | ASCON LIVING",
+   "description": "Vị trí ASCON LIVING: 389A Trần Xuân Soạn, Tân Hưng (Quận 7 cũ), TP. Hồ Chí Minh, gần Phú Mỹ Hưng, ven sông. Thời gian di chuyển ước tính.",
+   "h1": "Vị trí: ven sông tại Tân Hưng, gần Phú Mỹ Hưng",
+   "lead": "389A Đường Trần Xuân Soạn, Tân Hưng, TP. Hồ Chí Minh – thuộc Quận 7 cũ, gần Phú Mỹ Hưng, ngay cạnh sông.",
+   "sections": [
+    {
+     "h2": "Khu vực",
+     "p": [
+      "Từ đợt sắp xếp hành chính năm 2025, Quận 7 không còn là đơn vị quận; ngôi nhà hiện thuộc phường Tân Hưng. Nhiều người vẫn quen gọi khu vực này là Quận 7. Phú Mỹ Hưng là khu đô thị gần đó với trung tâm mua sắm, nhà hàng và công viên."
+     ]
+    },
+    {
+     "h2": "Di chuyển (ước tính)",
+     "note": "Tất cả thời gian đều là ước tính đi ô tô và phụ thuộc nhiều vào giao thông.",
+     "ul": [
+      "Sân bay Tân Sơn Nhất (SGN): khoảng 30–60 phút (ước tính)",
+      "Trung tâm thành phố (Quận 1 cũ): khoảng 15–30 phút (ước tính)",
+      "Phú Mỹ Hưng: khoảng 10–15 phút (ước tính)"
+     ]
+    },
+    {
+     "h2": "Bản đồ",
+     "p": [
+      "<a href=\"https://www.google.com/maps/search/?api=1&query=389A+Tr%E1%BA%A7n+Xu%C3%A2n+So%E1%BA%A1n+T%C3%A2n+H%C6%B0ng+Ho+Chi+Minh+City\" rel=\"noopener\">Mở địa chỉ trên Google Maps</a>. Hướng dẫn đến nhà chi tiết sẽ được gửi sau khi đặt phòng."
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  },
+  "booking": {
+   "title": "Đặt ASCON LIVING: Airbnb, Trip.com & WhatsApp",
+   "description": "Đặt nhà nguyên căn ASCON LIVING tại TP. Hồ Chí Minh trên Airbnb hoặc Trip.com, hoặc liên hệ WhatsApp +84 909 410 382 và email.",
+   "h1": "Đặt phòng và liên hệ",
+   "lead": "Đặt cả ngôi nhà trên nền tảng bạn quen dùng, hoặc nhắn cho chúng tôi trước nếu có câu hỏi.",
+   "sections": [
+    {
+     "h2": "Đặt trực tuyến",
+     "cta": true
+    },
+    {
+     "h2": "Liên hệ",
+     "p": [
+      "Điện thoại và WhatsApp: <a href=\"tel:{phone_e164}\">{phone}</a>",
+      "Email: <a href=\"mailto:{email}\">{email}</a>",
+      "Chúng tôi trả lời bằng tiếng Việt, Anh, Đức, Hindi, Punjabi hoặc Urdu."
+     ]
+    },
+    {
+     "h2": "Dịch vụ thêm theo yêu cầu",
+     "ul": [
+      "Đưa đón sân bay: 50 EUR",
+      "Giặt ủi: 30 EUR mỗi mẻ",
+      "Gửi hành lý: miễn phí"
+     ]
+    }
+   ]
+  },
+  "faq": {
+   "title": "Hỏi đáp: nhận phòng, nội quy, dịch vụ | ASCON LIVING",
+   "description": "Câu hỏi thường gặp về ASCON LIVING: giờ nhận và trả phòng, tự nhận phòng, số khách, thú cưng, hút thuốc, đưa đón sân bay và giặt ủi.",
+   "h1": "Câu hỏi thường gặp",
+   "lead": "Trả lời nhanh trước khi bạn đặt phòng.",
+   "sections": [
+    {
+     "faq": [
+      [
+       "Nhà ở được bao nhiêu khách?",
+       "Tối đa 6 khách. Nhà có 3 phòng ngủ, mỗi phòng một giường king, và 4 phòng tắm."
+      ],
+      [
+       "Giờ nhận và trả phòng?",
+       "Nhận phòng từ 14:00 đến 23:00, trả phòng trước 12:00."
+      ],
+      [
+       "Nhận phòng như thế nào?",
+       "Tự nhận phòng bằng mã số. Cổng ngoài dùng chìa khóa; hướng dẫn được gửi sau khi đặt."
+      ],
+      [
+       "Có phải thuê nguyên căn không?",
+       "Đúng, bạn thuê cả ngôi nhà khoảng 270 m², bao gồm sân thượng."
+      ],
+      [
+       "Có đưa đón sân bay không?",
+       "Có, theo yêu cầu với giá 50 EUR."
+      ],
+      [
+       "Có giặt đồ được không?",
+       "Có máy giặt và bàn ủi. Dịch vụ giặt ủi 30 EUR mỗi mẻ."
+      ],
+      [
+       "Có gửi hành lý được không?",
+       "Có, miễn phí."
+      ],
+      [
+       "Có cho mang thú cưng không?",
+       "Không."
+      ],
+      [
+       "Có được hút thuốc không?",
+       "Chỉ ở khu vực quy định."
+      ],
+      [
+       "Chủ nhà nói những ngôn ngữ nào?",
+       "Tiếng Việt, Anh, Đức, Hindi, Punjabi và Urdu."
+      ]
+     ]
+    }
+   ]
+  },
+  "rules": {
+   "title": "Nội quy | ASCON LIVING nhà nguyên căn Quận 7",
+   "description": "Nội quy ASCON LIVING: nhận phòng 14:00–23:00, trả phòng trước 12:00, tối đa 6 khách, không thú cưng, chỉ hút thuốc ở khu vực quy định.",
+   "h1": "Nội quy",
+   "lead": "Vài quy định đơn giản để mọi người đều thoải mái.",
+   "sections": [
+    {
+     "ul": [
+      "Nhận phòng 14:00–23:00, trả phòng trước 12:00",
+      "Tối đa 6 khách",
+      "Không mang thú cưng",
+      "Chỉ hút thuốc ở khu vực quy định",
+      "Vui lòng giữ gìn nhà và tôn trọng hàng xóm",
+      "Vui lòng đóng cổng và dùng mã số theo hướng dẫn"
+     ]
+    }
+   ]
+  },
+  "guide": {
+   "title": "Cẩm nang du lịch TP. Hồ Chí Minh | ASCON LIVING",
+   "description": "Mẹo thực tế cho TP. Hồ Chí Minh: đi cùng gia đình và di chuyển từ sân bay Tân Sơn Nhất về nhà.",
+   "h1": "Cẩm nang du lịch TP. Hồ Chí Minh",
+   "lead": "Hướng dẫn ngắn gọn, thiết thực cho chuyến đi Sài Gòn.",
+   "sections": [
+    {
+     "cards": [
+      [
+       "Ứng dụng ASCON LIVING Guide",
+       "guide-app",
+       "Ứng dụng miễn phí: địa điểm, chỉ đường, mẹo hay."
+      ],
+      [
+       "TP. Hồ Chí Minh cùng gia đình",
+       "guide-family",
+       "Mẹo cho chuyến đi gia đình thoải mái."
+      ],
+      [
+       "Đưa đón sân bay",
+       "guide-airport",
+       "Từ Tân Sơn Nhất về nhà."
+      ]
+     ]
+    }
+   ]
+  },
+  "guide-family": {
+   "title": "TP. Hồ Chí Minh cùng gia đình: mẹo hay | ASCON LIVING",
+   "description": "Mẹo thực tế khi đến TP. Hồ Chí Minh cùng trẻ nhỏ và gia đình: thời tiết nóng, giao thông, di chuyển và lên kế hoạch.",
+   "h1": "TP. Hồ Chí Minh cùng gia đình",
+   "lead": "Sài Gòn nhộn nhịp và nóng, nhưng rất thân thiện với gia đình nếu bạn chuẩn bị một chút.",
+   "sections": [
+    {
+     "h2": "Mẹo thực tế",
+     "ul": [
+      "Trời nóng quanh năm: nên tham quan vào buổi sáng hoặc chiều muộn, nghỉ ngơi buổi trưa.",
+      "Giao thông đông, xe máy rất nhiều – hãy nắm tay trẻ khi qua đường.",
+      "Ứng dụng gọi xe như Grab rất phổ biến, giúp gia đình di chuyển dễ dàng.",
+      "Uống nước đóng chai hoặc nước đã lọc.",
+      "Thuê nguyên căn có bếp giúp việc ăn uống và giấc ngủ trưa của trẻ nhỏ dễ dàng hơn."
+     ]
+    },
+    {
+     "h2": "Gợi ý trong ngày",
+     "ul": [
+      "Thảo Cầm Viên Sài Gòn, một trong những vườn thú lâu đời nhất Việt Nam",
+      "Công viên và lối đi bộ ven hồ, ven sông ở Phú Mỹ Hưng",
+      "Chợ Bến Thành ở trung tâm"
+     ]
+    }
+   ]
+  },
+  "guide-airport": {
+   "title": "Đưa đón sân bay Tân Sơn Nhất – Quận 7 | ASCON",
+   "description": "Cách đi từ sân bay Tân Sơn Nhất (SGN) đến ASCON LIVING ở Tân Hưng, Quận 7 cũ: xe riêng theo yêu cầu, ứng dụng gọi xe hoặc taxi.",
+   "h1": "Đưa đón sân bay: từ Tân Sơn Nhất về nhà",
+   "lead": "Sân bay quốc tế của TP. Hồ Chí Minh là Tân Sơn Nhất (SGN).",
+   "sections": [
+    {
+     "h2": "Các lựa chọn",
+     "ul": [
+      "Xe riêng do chúng tôi sắp xếp: 50 EUR theo yêu cầu – gửi thông tin chuyến bay qua WhatsApp.",
+      "Ứng dụng gọi xe (ví dụ Grab): đặt trong ứng dụng tại khu vực đón khách.",
+      "Taxi có đồng hồ tại điểm taxi chính thức."
+     ]
+    },
+    {
+     "h2": "Thời gian di chuyển",
+     "p": [
+      "Đi ô tô khoảng 30–60 phút (ước tính); giờ cao điểm có thể lâu hơn."
+     ]
+    }
+   ]
+  },
+  "imprint": {
+   "title": "Thông tin pháp lý | ASCON LIVING",
+   "description": "Thông tin pháp lý và đơn vị vận hành ASCON LIVING, TP. Hồ Chí Minh.",
+   "h1": "Thông tin pháp lý",
+   "lead": "",
+   "sections": [
+    {
+     "p": [
+      "<strong>Đơn vị vận hành:</strong> CÔNG TY TNHH ASCON LIVING VIỆT NAM",
+      "<strong>Mã số doanh nghiệp:</strong> 0319549605",
+      "<strong>Địa chỉ:</strong> 389A Đường Trần Xuân Soạn, Tân Hưng, TP. Hồ Chí Minh, Việt Nam",
+      "<strong>Điện thoại / WhatsApp:</strong> <a href=\"tel:{phone_e164}\">{phone}</a>",
+      "<strong>Email:</strong> <a href=\"mailto:{email}\">{email}</a>",
+      "Tất cả ảnh đều chụp ngôi nhà thật."
+     ]
+    }
+   ]
+  },
+  "privacy": {
+   "title": "Chính sách bảo mật | ASCON LIVING",
+   "description": "Chính sách bảo mật của website ASCON LIVING: không cookie, không công cụ phân tích, lưu trữ trên GitHub Pages.",
+   "h1": "Chính sách bảo mật",
+   "lead": "",
+   "sections": [
+    {
+     "p": [
+      "Website này là trang tĩnh lưu trữ trên GitHub Pages (GitHub, Inc.). Khi bạn truy cập, GitHub có thể xử lý dữ liệu kỹ thuật như địa chỉ IP trong nhật ký máy chủ vì mục đích bảo mật; xem chính sách quyền riêng tư của GitHub.",
+      "Chúng tôi không dùng cookie, công cụ phân tích hay theo dõi.",
+      "Một số phiên bản ngôn ngữ tải phông chữ từ Google Fonts, khi đó địa chỉ IP của bạn được gửi đến Google.",
+      "Khi bạn liên hệ qua WhatsApp, điện thoại hoặc email, chúng tôi chỉ dùng dữ liệu để trả lời và phục vụ kỳ nghỉ của bạn. Đặt phòng trên Airbnb hoặc Trip.com tuân theo chính sách của các nền tảng đó.",
+      "Đơn vị chịu trách nhiệm: CÔNG TY TNHH ASCON LIVING VIỆT NAM, 389A Đường Trần Xuân Soạn, Tân Hưng, TP. Hồ Chí Minh, Việt Nam, <a href=\"mailto:{email}\">{email}</a>. Bạn có thể yêu cầu xem hoặc xóa dữ liệu bất cứ lúc nào."
+     ]
+    }
+   ]
+  },
+  "guide-app": {
+   "title": "Ứng dụng ASCON LIVING Guide cho TP. Hồ Chí Minh",
+   "description": "Ứng dụng hướng dẫn miễn phí cho khách tại TP. Hồ Chí Minh: địa điểm xếp theo khoảng cách từ nhà, thời gian di chuyển, chỉ đường, bản đồ, 10 ngôn ngữ.",
+   "h1": "ASCON LIVING Guide: ứng dụng khám phá TP. Hồ Chí Minh",
+   "lead": "Cẩm nang miễn phí mở ngay trên trình duyệt điện thoại – không cần tải từ kho ứng dụng – cho bạn biết quanh nhà có gì và đi thế nào.",
+   "sections": [
+    {
+     "h2": "Đi từ A đến B thật dễ",
+     "p": [
+      "Mỗi địa điểm được xếp theo khoảng cách từ homestay, kèm thời gian di chuyển ước tính bằng ô tô, xe máy và đi bộ. Chạm “Route” để xem đường đi từ nhà hoặc mở địa điểm trên Google Maps. Bản đồ hiển thị tất cả địa điểm cùng lúc."
+     ],
+     "imgs": [
+      [
+       "app-place",
+       "Ứng dụng ASCON Guide: thẻ địa điểm với khoảng cách, thời gian di chuyển và nút Route"
+      ],
+      [
+       "app-map",
+       "Ứng dụng ASCON Guide: bản đồ các địa điểm quanh nhà"
+      ]
+     ]
+    },
+    {
+     "h2": "Có gì trong ứng dụng",
+     "ul": [
+      "<strong>Ẩm thực</strong> – quán ăn, bắt đầu với Top 10 của chúng tôi, kèm giờ mở cửa và giá tham khảo.",
+      "<strong>Cà phê & Tráng miệng</strong> – chỗ nghỉ chân với cà phê và đồ ngọt.",
+      "<strong>Bar & Về đêm</strong> – gợi ý cho buổi tối.",
+      "<strong>Trẻ em & Gia đình</strong> – đi chơi cùng con nhỏ.",
+      "<strong>Tham quan & Văn hóa</strong> – địa danh và nét văn hóa của thành phố.",
+      "<strong>Hoạt động & Giải trí</strong> – việc để làm trong và quanh thành phố.",
+      "<strong>Thư giãn</strong> – nơi nghỉ ngơi thư thái.",
+      "<strong>Mua sắm</strong> – nơi mua sắm.",
+      "<strong>Đi trong ngày</strong> – chuyến đi ra ngoài thành phố.",
+      "<strong>Thông tin & Khẩn cấp</strong> – đến sân bay Tân Sơn Nhất, đi lại, thẻ đưa cho tài xế, các chiêu lừa thường gặp và nút SOS."
+     ],
+     "imgs": [
+      [
+       "app-categories",
+       "Ứng dụng ASCON Guide: danh mục"
+      ],
+      [
+       "app-practical",
+       "Ứng dụng ASCON Guide: thông tin thực tế và khẩn cấp"
+      ]
+     ]
+    },
+    {
+     "h2": "Mười ngôn ngữ, cài lên màn hình chính",
+     "p": [
+      "Ứng dụng có tiếng Việt, Anh, Đức, Trung, Hàn, Nhật, Pháp, Tây Ban Nha, Bồ Đào Nha và Ả Rập. Thêm vào màn hình chính: sau khi mở lần đầu, nội dung được lưu trên điện thoại nên vẫn dùng được khi mạng yếu.",
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng ASCON Guide</a>"
+     ]
+    }
+   ]
+  }
+ }
+}

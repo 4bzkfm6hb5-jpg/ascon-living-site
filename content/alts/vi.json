@@ -1,0 +1,85 @@
+{
+ "living": "Phòng khách với sofa chữ L lớn",
+ "living-2": "Phòng khách với sofa và cây xanh",
+ "living-tv": "Kệ TV trong phòng khách",
+ "living-3": "Góc ngồi cạnh cửa kính",
+ "kitchen": "Bếp mở với bàn ăn",
+ "kitchen-2": "Quầy bếp với gạch hoa văn",
+ "kitchen-3": "Thiết bị bếp trên mặt quầy",
+ "kitchen-dining": "Bàn ăn cạnh cửa sổ bếp",
+ "kitchen-fridge": "Tủ lạnh hai cánh trong bếp",
+ "bed1": "Phòng ngủ 1 với giường king",
+ "bed1-3": "Phòng ngủ 1, nhìn về phía cửa sổ",
+ "bed1-2": "Bàn trang điểm trong phòng ngủ 1",
+ "bed2": "Phòng ngủ 2 với giường king",
+ "bed2-2": "Phòng ngủ 2 có TV",
+ "bed2-3": "Phòng ngủ 2 với tranh treo tường",
+ "bed3": "Phòng ngủ 3 với giường king",
+ "bed3-2": "Phòng ngủ 3 có TV",
+ "bed3-3": "Khăn tắm và chăn ga trong phòng ngủ 3",
+ "bath": "Phòng tắm với vòi sen",
+ "bath-2": "Phòng tắm với gương tròn",
+ "bath-3": "Khăn tắm sạch trong phòng tắm",
+ "ent": "Phòng giải trí với sofa",
+ "ent-karaoke": "Góc karaoke với đèn trang trí",
+ "ent-cinema": "Màn chiếu trong phòng giải trí",
+ "ent-tv": "Phòng giải trí có TV",
+ "ent-mics": "Micro karaoke và điều khiển",
+ "ent-ps": "PlayStation với hai tay cầm",
+ "entrance": "Lối vào với cầu thang",
+ "hall": "Hành lang với cửa các phòng",
+ "stairs": "Cầu thang giữa các tầng",
+ "roof-lounge": "Bộ bàn ăn có nệm trên sân thượng",
+ "roof-terrace": "Sân thượng với nội thất lounge, cây xanh và view thành phố",
+ "roof-bbq": "Bếp nướng BBQ trên sân thượng",
+ "roof-night": "Khu lounge sân thượng buổi tối với dây đèn",
+ "roof-evening": "Lounge sân thượng buổi tối với dây đèn",
+ "roof-evening-2": "Bàn ăn trên sân thượng buổi tối",
+ "roof-skyline": "Thành phố về đêm nhìn từ sân thượng",
+ "hero": "Sân thượng ASCON LIVING với lounge, cây xanh và đường chân trời TP. Hồ Chí Minh",
+ "_h": {
+  "living": [
+   "Phòng khách",
+   "Bắt đầu hay kết thúc ngày mới trong phòng khách sáng sủa với sofa chữ L lớn, TV và cửa sổ rộng nhìn ra cây xanh – đủ chỗ ngồi cho cả nhóm."
+  ],
+  "kitchen": [
+   "Bếp & khu ăn uống",
+   "Cùng nhau nấu nướng trong căn bếp đầy đủ: tủ lạnh, máy rửa chén, lò nướng, bếp nấu, lò vi sóng, máy pha cà phê, ấm đun nước và nồi cơm điện, rồi quây quần bên một bàn ăn."
+  ],
+  "bed1": [
+   "Phòng ngủ 1",
+   "Không gian yên tĩnh với giường king, máy lạnh và góc trang điểm riêng."
+  ],
+  "bed2": [
+   "Phòng ngủ 2",
+   "Giường king, máy lạnh và TV – thoải mái cho buổi tối riêng tư."
+  ],
+  "bed3": [
+   "Phòng ngủ 3",
+   "Giường king, máy lạnh và TV, có sẵn khăn tắm và chăn ga sạch."
+  ],
+  "bath": [
+   "Phòng tắm",
+   "Bốn phòng tắm có vòi sen, khăn tắm và máy sấy tóc – buổi sáng không phải chờ nhau dù nhà đông người. Có lắp tay vịn."
+  ],
+  "ent": [
+   "Phòng giải trí",
+   "Phòng riêng cho buổi tối cùng nhau – homestay có karaoke: hát, xem phim bằng máy chiếu hoặc chơi PlayStation."
+  ],
+  "hall": [
+   "Lối vào & hành lang",
+   "Tự nhận phòng bằng mã số; cầu thang có tay vịn nối các tầng."
+  ],
+  "roof": [
+   "Sân thượng & view sông",
+   "Sân thượng có lounge, bàn ăn ngoài trời và BBQ, homestay view sông và thành phố, cùng ba ban công."
+  ]
+ },
+ "kitchen-dishes": "Tủ bếp với chén đĩa",
+ "kitchen-rice": "Nồi cơm điện trên quầy bếp",
+ "kitchen-micro": "Lò vi sóng trong bếp",
+ "bath-4": "Vòi sen trong phòng tắm",
+ "bath-5": "Máy sấy tóc trong phòng tắm",
+ "bath-6": "Kệ kính với cốc trong phòng tắm",
+ "river-balcony": "Ban công view sông và thành phố"
+}
