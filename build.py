@@ -1,0 +1,116 @@
+#!/usr/bin/env python3
+"""Static site builder. Add content/<code>.json to publish a language; nothing else needed."""
+import json, os, html, shutil, datetime
+ROOT=os.path.dirname(os.path.abspath(__file__)); OUT=os.path.join(ROOT,'docs')
+SITE='https://4bzkfm6hb5-jpg.github.io/ascon-living-site'; BASE='/ascon-living-site'
+PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','families-groups/'),('muslim','muslim-travelers/'),
+('location','location/'),('booking','booking/'),('faq','faq/'),('rules','house-rules/'),('guide','guide/'),
+('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-halal','guide/halal-food/'),
+('imprint','imprint/'),('privacy','privacy/')]
+SLUG=dict(PAGES)
+F=json.load(open(f'{ROOT}/facts.json')); IMG=json.load(open(f'{ROOT}/tools/images.json'))
+LANGS=json.load(open(f'{ROOT}/languages.json'))
+CSS=open(f'{ROOT}/tools/style.css').read().replace('\n','')
+PUB=[l for l in LANGS if os.path.exists(f'{ROOT}/content/{l[0]}.json')]
+C={l[0]:json.load(open(f'{ROOT}/content/{l[0]}.json')) for l in PUB}
+TODAY=datetime.date.today().isoformat()
+WA_SVG='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.7-.5z"/></svg>'
+def url(code,pid): return f'{BASE}/{code}/{SLUG[pid]}'
+def sub(s,code): return s.replace('{L}',f'{BASE}/{code}/').replace('{phone_e164}',F['phone_e164']).replace('{phone}',F['phone']).replace('{email}',F['email'])
+def pic(name,alt,eager=False,sizes='(min-width:900px) 380px, 100vw'):
+    m=IMG[name]; ws=m['widths']; src=f'{BASE}/assets/img/{name}-'
+    ss=', '.join(f'{src}{w}.webp {w}w' for w in ws); w=ws[-1]; h=round(m['h']*w/m['w'])
+    attrs='fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
+    return f'<img src="{src}{ws[min(1,len(ws)-1)]}.webp" srcset="{ss}" sizes="{sizes}" width="{w}" height="{h}" alt="{html.escape(alt)}" {attrs}>'
+def cta(u):
+    return (f'<p><a class="btn b1" href="{F["airbnb"]}" rel="noopener">{u["book_airbnb"]}</a>'
+            f'<a class="btn b2" href="{F["trip"]}" rel="noopener">{u["book_trip"]}</a>'
+            f'<a class="btn wa" href="{F["wa"]}" rel="noopener">{u["whatsapp"]}</a></p>')
+def section(s,code,u):
+    o=[]
+    if 'h2' in s: o.append(f'<h2>{html.escape(s["h2"])}</h2>')
+    if 'note' in s: o.append(f'<p class="note">{sub(s["note"],code)}</p>')
+    for p in s.get('p',[]): o.append(f'<p>{sub(p,code)}</p>')
+    if 'ul' in s: o.append('<ul class="chk">'+''.join(f'<li>{sub(x,code)}</li>' for x in s['ul'])+'</ul>')
+    if 'imgs' in s: o.append('<div class="grid">'+''.join(f'<figure>{pic(n,a)}<figcaption>{html.escape(a)}</figcaption></figure>' for n,a in s['imgs'])+'</div>')
+    if 'faq' in s: o.append('<div class="faq">'+''.join(f'<details><summary>{html.escape(q)}</summary><p>{sub(a,code)}</p></details>' for q,a in s['faq'])+'</div>')
+    if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'])+'</div>')
+    if s.get('cta'): o.append(cta(u))
+    return '<section>'+''.join(o)+'</section>'
+def lodging(code,c):
+    return {"@context":"https://schema.org","@type":"LodgingBusiness","@id":SITE+'/#lodging',"name":F['name'],
+      "url":SITE+f'/{code}/',"image":[SITE+'/assets/img/hero-1440.webp',SITE+'/assets/img/og.jpg'],"logo":SITE+'/assets/img/logo-mark.png',
+      "description":c['pages']['home']['description'],"telephone":F['phone_e164'],"email":F['email'],
+      "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":F['locality'],"addressRegion":"Ho Chi Minh City","addressCountry":F['country']},
+      "checkinTime":F['checkin'],"checkoutTime":F['checkout'],"numberOfRooms":F['rooms'],"petsAllowed":False,
+      "knowsLanguage":F['languages'],"sameAs":[F['airbnb'],F['trip']],
+      "amenityFeature":[{"@type":"LocationFeatureSpecification","name":a,"value":True} for a in F['amenities']],
+      "containsPlace":{"@type":"House","name":F['name']+" – entire house","numberOfBedrooms":F['rooms'],"numberOfBathroomsTotal":F['bathrooms'],
+        "floorSize":{"@type":"QuantitativeValue","value":F['size_m2'],"unitCode":"MTK"},
+        "occupancy":{"@type":"QuantitativeValue","maxValue":F['max_guests'],"unitText":"guests"}}}
+def page(l,pid):
+    code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
+    title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
+    alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in PUB)+f'<link rel="alternate" hreflang="x-default" href="{SITE}/en/{SLUG[pid]}">'
+    fontlink=''; css=CSS
+    if font:
+        fontlink=f'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={font.replace(" ","+")}:wght@400;600&display=swap">'
+        css=css.replace(':root{',f':root{{--ff:"{font}";',1)
+    ld=[]
+    if pid in ('home','house','booking','location'): ld.append(lodging(code,c))
+    crumbs=[{"@type":"ListItem","position":1,"name":u['home'],"item":SITE+f'/{code}/'}]
+    if pid!='home':
+        if pid.startswith('guide-'): crumbs.append({"@type":"ListItem","position":2,"name":c['pages']['guide']['h1'],"item":SITE+f'/{code}/guide/'})
+        crumbs.append({"@type":"ListItem","position":len(crumbs)+1,"name":p['h1'],"item":canon})
+    ld.append({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":crumbs})
+    if pid.startswith('guide-'): ld.append({"@context":"https://schema.org","@type":"Article","headline":p['h1'],"description":p['description'],"inLanguage":hl,"image":SITE+'/assets/img/og.jpg',"author":{"@type":"Organization","name":F['name']},"mainEntityOfPage":canon,"dateModified":TODAY})
+    if pid=='faq': ld.append({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for s in p['sections'] for q,a in s.get('faq',[])]})
+    ldh=''.join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False).replace('</','<\\/')+'</script>' for x in ld)
+    navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else '')
+    nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(v)}</a>' for k,v in c['nav'])
+    picker='<details class="lang"><summary>🌐 '+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid]}" hreflang="{x[1]}" lang="{x[1]}">{x[2]}</a></li>' for x in PUB)+'</ul></details>'
+    lm=IMG['logo-mark']; lf=IMG['logo-full']
+    if pid=='home':
+        top=(f'<div class="hero">{pic(p["hero"][0],p["hero"][1],True,"100vw")}<div class="in"><h1>{html.escape(p["h1"])}</h1>'
+             f'<p>{html.escape(p["lead"])}</p><p class="motto">{u["motto"]}</p>{cta(u)}</div></div><div class="wrap">')
+    else:
+        top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')
+    body=''.join(section(s,code,u) for s in p['sections'])
+    return f'''<!doctype html><html lang="{hl}" dir="{dirn}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{html.escape(title)}</title><meta name="description" content="{html.escape(p['description'])}"><link rel="canonical" href="{canon}">{alts}
+<meta property="og:type" content="website"><meta property="og:site_name" content="ASCON LIVING"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(p['description'])}"><meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/img/og.jpg"><meta property="og:locale" content="{hl.replace('-','_')}"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{BASE}/favicon.png"><meta name="theme-color" content="#14233f">{fontlink}<style>{css}</style>{ldh}</head>
+<body><a class="skip" href="#main">{u['skip']}</a><header><div class="bar"><a class="brand" href="{url(code,'home')}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm['w']}" height="{lm['h']}" alt="ASCON LIVING logo">ASCON LIVING</a>{picker}</div><nav class="main" aria-label="Main">{nav}</nav></header>
+<main id="main">{top}{body}</div></main>
+<footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf['w']}" height="{lf['h']}" alt="ASCON LIVING" loading="lazy"><p class="motto">{u['motto']}</p></div>
+<div><strong>{u['address_label']}</strong><br>{F['street']}<br>{F['locality']}, Vietnam</div>
+<div><strong>{u['contact_label']}</strong><br><a href="tel:{F['phone_e164']}">{F['phone']}</a><br><a href="mailto:{F['email']}">{F['email']}</a><br><a href="{F['wa']}" rel="noopener">WhatsApp</a></div>
+<div><strong>{u['more_label']}</strong><br><a href="{url(code,'imprint')}">{c['pages']['imprint']['h1']}</a><br><a href="{url(code,'privacy')}">{c['pages']['privacy']['h1']}</a><br><a href="{F['guide']}" rel="noopener">{u['guest_guide']}</a></div></div></footer>
+<a class="fab" href="{F['wa']}" rel="noopener" aria-label="{u['whatsapp']}">{WA_SVG}</a></body></html>'''
+def main():
+    for code,*_ in LANGS: shutil.rmtree(f'{OUT}/{code}',ignore_errors=True)
+    urls=[]
+    for l in PUB:
+        for pid,slug in PAGES:
+            d=f'{OUT}/{l[0]}/{slug}'; os.makedirs(d,exist_ok=True)
+            open(f'{d}index.html','w').write(page(l,pid)); urls.append((pid,slug))
+    # sitemap with hreflang alternates (published languages only)
+    sm=['<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+    for l in PUB:
+        for pid,slug in PAGES:
+            alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in PUB)+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/en/{slug}"/>'
+            sm.append(f'<url><loc>{SITE}/{l[0]}/{slug}</loc><lastmod>{TODAY}</lastmod>{alts}</url>')
+    sm.append('</urlset>'); open(f'{OUT}/sitemap.xml','w').write('\n'.join(sm))
+    open(f'{OUT}/robots.txt','w').write(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
+    open(f'{OUT}/.nojekyll','w').write('')
+    codes=json.dumps([[x[0],x[1]] for x in PUB])
+    links=''.join(f'<li><a href="{BASE}/{x[0]}/" hreflang="{x[1]}" lang="{x[1]}">{x[2]}</a></li>' for x in PUB)
+    open(f'{OUT}/index.html','w').write(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ASCON LIVING – Ho Chi Minh City</title>
+<link rel="canonical" href="{SITE}/en/"><meta http-equiv="refresh" content="2;url={BASE}/en/"><meta name="robots" content="noindex,follow">
+<script>(function(){{var p={codes},n=(navigator.languages||[navigator.language||'en']);for(var i=0;i<n.length;i++){{var c=n[i].toLowerCase();for(var j=0;j<p.length;j++){{var h=p[j][1].toLowerCase();if(c===h||c.split('-')[0]===h.split('-')[0]){{location.replace('{BASE}/'+p[j][0]+'/');return}}}}}}location.replace('{BASE}/en/')}})()</script>
+<style>body{{font-family:system-ui,sans-serif;padding:2rem;color:#14233f}}</style></head><body><h1>ASCON LIVING</h1><p>Choose your language:</p><ul>{links}</ul></body></html>''')
+    en=C['en']['ui']
+    open(f'{OUT}/404.html','w').write(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{en['not_found_title']} | ASCON LIVING</title><meta name="robots" content="noindex"><style>{CSS}</style></head>
+<body><main class="wrap ph" style="max-width:700px;margin:auto;padding:48px 16px"><h1>{en['not_found_title']}</h1><p>{en['not_found_text']} <a href="{BASE}/en/">ASCON LIVING</a></p><ul>{links}</ul></main></body></html>''')
+    print('published:',[x[0] for x in PUB],'pages:',len(urls))
+if __name__=='__main__': main()
