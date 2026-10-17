@@ -357,10 +357,6 @@
       [
        "roof-skyline",
        "Thành phố về đêm nhìn từ sân thượng"
-      ],
-      [
-       "river-balcony",
-       "Ban công view sông và thành phố"
       ]
      ]
     },
@@ -421,10 +417,6 @@
       [
        "roof-bbq",
        "Bếp nướng BBQ trên sân thượng"
-      ],
-      [
-       "river-balcony",
-       "Ban công view sông và thành phố"
       ]
      ]
     },
@@ -648,6 +640,12 @@
        "Từ Tân Sơn Nhất về nhà."
       ]
      ]
+    },
+    {
+     "note": "Dành riêng cho khách của ASCON LIVING – bạn sẽ nhận mật khẩu sau khi đặt phòng.",
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng ASCON Guide</a>"
+     ]
     }
    ]
   },
@@ -784,7 +782,12 @@
     {
      "h2": "Mười ngôn ngữ, cài lên màn hình chính",
      "p": [
-      "Ứng dụng có tiếng Việt, Anh, Đức, Trung, Hàn, Nhật, Pháp, Tây Ban Nha, Bồ Đào Nha và Ả Rập. Thêm vào màn hình chính: sau khi mở lần đầu, nội dung được lưu trên điện thoại nên vẫn dùng được khi mạng yếu.",
+      "Ứng dụng có tiếng Việt, Anh, Đức, Trung, Hàn, Nhật, Pháp, Tây Ban Nha, Bồ Đào Nha và Ả Rập. Thêm vào màn hình chính: sau khi mở lần đầu, nội dung được lưu trên điện thoại nên vẫn dùng được khi mạng yếu."
+     ]
+    },
+    {
+     "note": "Dành riêng cho khách của ASCON LIVING – bạn sẽ nhận mật khẩu sau khi đặt phòng.",
+     "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng ASCON Guide</a>"
      ]
     }

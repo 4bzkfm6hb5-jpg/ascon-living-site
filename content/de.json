@@ -357,10 +357,6 @@
       [
        "roof-skyline",
        "Skyline bei Nacht, von der Dachterrasse aus"
-      ],
-      [
-       "river-balcony",
-       "Balkon mit Flussblick und Skyline"
       ]
      ]
     },
@@ -421,10 +417,6 @@
       [
        "roof-bbq",
        "Grill auf der Dachterrasse"
-      ],
-      [
-       "river-balcony",
-       "Balkon mit Flussblick und Skyline"
       ]
      ]
     },
@@ -648,6 +640,12 @@
        "Von Tân Sơn Nhất zum Haus."
       ]
      ]
+    },
+    {
+     "note": "Exklusiv für Gäste von ASCON LIVING – das Passwort erhaltet ihr nach der Buchung.",
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">ASCON Guide App öffnen</a>"
+     ]
     }
    ]
   },
@@ -784,7 +782,12 @@
     {
      "h2": "Zehn Sprachen, installierbar",
      "p": [
-      "Die App gibt es auf Deutsch, Englisch, Vietnamesisch, Chinesisch, Koreanisch, Japanisch, Französisch, Spanisch, Portugiesisch und Arabisch. Legt sie auf den Startbildschirm: Einmal geöffnet, speichert sie ihre Inhalte auf dem Handy und bleibt auch bei schwacher Verbindung nutzbar. Praktisch auch für Saigon mit Kindern: Die Kategorie „Kinder & Familie“ sammelt Ausflüge mit Kindern.",
+      "Die App gibt es auf Deutsch, Englisch, Vietnamesisch, Chinesisch, Koreanisch, Japanisch, Französisch, Spanisch, Portugiesisch und Arabisch. Legt sie auf den Startbildschirm: Einmal geöffnet, speichert sie ihre Inhalte auf dem Handy und bleibt auch bei schwacher Verbindung nutzbar. Praktisch auch für Saigon mit Kindern: Die Kategorie „Kinder & Familie“ sammelt Ausflüge mit Kindern."
+     ]
+    },
+    {
+     "note": "Exklusiv für Gäste von ASCON LIVING – das Passwort erhaltet ihr nach der Buchung.",
+     "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">ASCON Guide App öffnen</a>"
      ]
     }

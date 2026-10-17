@@ -4,7 +4,7 @@ import os, json
 SRC='/workspace/photos/fertig_v2'
 OUT=os.path.join(os.path.dirname(__file__),'..','docs','assets','img')
 os.makedirs(OUT,exist_ok=True)
-PICK={'hero':'Rooftop/021_746A9696','river-balcony':'Aussen_Fluss/058_IMG_f41a1c6b','roof-lounge':'Rooftop/020_746A9684','roof-terrace':'Rooftop/021_746A9696',
+PICK={'hero':'Rooftop/021_746A9696','roof-lounge':'Rooftop/020_746A9684','roof-terrace':'Rooftop/021_746A9696',
 'roof-night':'Rooftop/022_746A9772','roof-evening':'Rooftop/023_746A9778','roof-evening-2':'Rooftop/024_746A9782',
 'roof-skyline':'Rooftop/104_IMG_74314ee3','roof-bbq':'Rooftop/036_746A9682',
 'living':'Wohnzimmer/002_746A9488','living-2':'Wohnzimmer/003_746A9486','living-tv':'Wohnzimmer/004_746A9482','living-3':'Wohnzimmer/006_746A9498',

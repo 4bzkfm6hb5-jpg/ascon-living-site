@@ -357,10 +357,6 @@
       [
        "roof-skyline",
        "City skyline at night seen from the rooftop"
-      ],
-      [
-       "river-balcony",
-       "Balcony with river view and city skyline"
       ]
      ]
     },
@@ -421,10 +417,6 @@
       [
        "roof-bbq",
        "BBQ grill on the rooftop"
-      ],
-      [
-       "river-balcony",
-       "Balcony with river view and city skyline"
       ]
      ]
     },
@@ -648,6 +640,12 @@
        "From Tân Sơn Nhất to the house."
       ]
      ]
+    },
+    {
+     "note": "Exclusive for ASCON LIVING guests – you receive the password after booking.",
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open the ASCON Guide app</a>"
+     ]
     }
    ]
   },
@@ -784,7 +782,12 @@
     {
      "h2": "Ten languages, installable",
      "p": [
-      "The app is available in English, German, Vietnamese, Chinese, Korean, Japanese, French, Spanish, Portuguese and Arabic. Add it to your home screen: once opened, it keeps its content on your phone, so it stays usable even with a weak connection. Handy for family travel in Vietnam, too: the Kids & family category collects outings with children.",
+      "The app is available in English, German, Vietnamese, Chinese, Korean, Japanese, French, Spanish, Portuguese and Arabic. Add it to your home screen: once opened, it keeps its content on your phone, so it stays usable even with a weak connection. Handy for family travel in Vietnam, too: the Kids & family category collects outings with children."
+     ]
+    },
+    {
+     "note": "Exclusive for ASCON LIVING guests – you receive the password after booking.",
+     "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open the ASCON Guide app</a>"
      ]
     }
