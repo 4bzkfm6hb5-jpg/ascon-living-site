@@ -212,3 +212,15 @@ Each photo ID maps to a source file in `tools/images.py` (PICK = `/workspace/pho
 - `roof-terrace` → ascon-photos/064.jpg (unmodified)
 - `river-balcony` → ascon-photos/019.jpg (unmodified)
 - `river-city` → ascon-photos/080.jpg (unmodified)
+
+## Room detail pages (template ready, nothing published yet)
+Page IDs and URLs (same path in EN and DE, e.g. /en/house/kitchen/ ↔ /de/house/kitchen/; hreflang + sitemap pair automatically):
+- `room-entertainment` → /<lang>/house/karaoke-entertainment/
+- `room-living` → /<lang>/house/living-room/
+- `room-kitchen` → /<lang>/house/kitchen/
+- `room-master` → /<lang>/house/master-bedroom/
+- `room-bedroom-2` → /<lang>/house/bedroom-2/
+- `room-bedroom-3` → /<lang>/house/bedroom-3/
+- `room-bathrooms` → /<lang>/house/bathrooms/
+- `room-rooftop` → /<lang>/house/rooftop-terrace/ (the existing /rooftop/ page stays; say if this should replace it)
+Per page: title (≤60), meta description (≤155), H1, lead, optional cover photo (photo ID + alt), then any number of sections: H2, paragraphs, optional H3 sub-blocks with paragraphs, bullets, and a photo gallery (photo ID, alt text, optional caption). A page goes live in a language only when its text exists; house-page cards linking to it appear automatically then.
