@@ -70,7 +70,7 @@ def page(l,pid):
     lm=IMG['logo-mark']; lf=IMG['logo-full']
     if pid=='home':
         top=(f'<div class="hero">{pic(p["hero"][0],p["hero"][1],True,"100vw")}<div class="in"><h1>{html.escape(p["h1"])}</h1>'
-             f'<p>{html.escape(p["lead"])}</p><p class="motto">{u["motto"]}</p>{cta(u)}</div></div><div class="wrap">')
+             f'<p>{html.escape(p["lead"])}</p><p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u)}</div></div><div class="wrap">')
     else:
         top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')
     body=''.join(section(s,code,u) for s in p['sections'])
@@ -80,7 +80,7 @@ def page(l,pid):
 <link rel="icon" href="{BASE}/favicon.png"><meta name="theme-color" content="#14233f">{fontlink}<style>{css}</style>{ldh}</head>
 <body><a class="skip" href="#main">{u['skip']}</a><header><div class="bar"><a class="brand" href="{url(code,'home')}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm['w']}" height="{lm['h']}" alt="ASCON LIVING logo">ASCON LIVING</a>{picker}</div><nav class="main" aria-label="Main">{nav}</nav></header>
 <main id="main">{top}{body}</div></main>
-<footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf['w']}" height="{lf['h']}" alt="ASCON LIVING" loading="lazy"><p class="motto">{u['motto']}</p></div>
+<footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf['w']}" height="{lf['h']}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u['motto']}</p></div>
 <div><strong>{u['address_label']}</strong><br>{F['street']}<br>{F['locality']}, Vietnam</div>
 <div><strong>{u['contact_label']}</strong><br><a href="tel:{F['phone_e164']}">{F['phone']}</a><br><a href="mailto:{F['email']}">{F['email']}</a><br><a href="{F['wa']}" rel="noopener">WhatsApp</a></div>
 <div><strong>{u['more_label']}</strong><br><a href="{url(code,'imprint')}">{c['pages']['imprint']['h1']}</a><br><a href="{url(code,'privacy')}">{c['pages']['privacy']['h1']}</a><br><a href="{F['guide']}" rel="noopener">{u['guest_guide']}</a></div></div></footer>
