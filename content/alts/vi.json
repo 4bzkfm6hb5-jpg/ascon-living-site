@@ -30,7 +30,7 @@
  "hall": "Hành lang với cửa các phòng",
  "stairs": "Cầu thang giữa các tầng",
  "roof-lounge": "Bộ bàn ăn có nệm trên sân thượng",
- "roof-terrace": "Sân thượng với nội thất lounge, cây xanh và view thành phố",
+ "roof-terrace": "Sân thượng view sông và đường chân trời TP. Hồ Chí Minh",
  "roof-bbq": "Bếp nướng BBQ trên sân thượng",
  "roof-night": "Khu lounge sân thượng buổi tối với dây đèn",
  "roof-evening": "Lounge sân thượng buổi tối với dây đèn",
@@ -81,5 +81,7 @@
  "bath-4": "Vòi sen trong phòng tắm",
  "bath-5": "Máy sấy tóc trong phòng tắm",
  "bath-6": "Kệ kính với cốc trong phòng tắm",
- "river-balcony": "Ban công view sông và thành phố"
+ "river-balcony": "Lan can sân thượng nhìn ra sông và cây xanh",
+ "roof-day": "Sân thượng với nội thất lounge và cây xanh ban ngày",
+ "river-city": "View sông với tòa Landmark 81 ở phía xa"
 }

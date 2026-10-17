@@ -6,7 +6,7 @@
   "languages": "Ngôn ngữ",
   "book_airbnb": "Đặt trên Airbnb",
   "book_trip": "Đặt trên Trip.com",
-  "whatsapp": "Nhắn WhatsApp",
+  "whatsapp": "Đặt qua WhatsApp",
   "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON.",
   "address_label": "Địa chỉ",
   "contact_label": "Liên hệ",
@@ -17,7 +17,8 @@
   "estimate": "ước tính",
   "home": "Trang chủ",
   "not_found_title": "Không tìm thấy trang",
-  "not_found_text": "Trang này không tồn tại. Về trang chủ:"
+  "not_found_text": "Trang này không tồn tại. Về trang chủ:",
+  "zalo": "Đặt qua Zalo"
  },
  "nav": [
   [
@@ -60,12 +61,12 @@
  "pages": {
   "home": {
    "title": "Homestay Quận 7: nhà nguyên căn ven sông | ASCON LIVING",
-   "description": "Homestay quận 7 nguyên căn ven sông tại Tân Hưng, gần Phú Mỹ Hưng: 3 phòng ngủ giường đôi, sân thượng, tối đa 6 khách.",
+   "description": "Homestay quận 7 nguyên căn ven sông tại Tân Hưng, gần Phú Mỹ Hưng: 3 phòng ngủ giường đôi, sân thượng, BBQ và karaoke.",
    "h1": "Homestay Quận 7: thuê nguyên căn nhà ven sông cho nhóm của bạn",
-   "lead": "ASCON LIVING là ngôi nhà riêng ven sông tại Tân Hưng, gần Phú Mỹ Hưng (Quận 7 cũ), có 3 phòng ngủ giường đôi và sân thượng nhìn ra sông và thành phố, dành cho tối đa 6 khách.",
+   "lead": "ASCON LIVING là ngôi nhà riêng ven sông tại Tân Hưng, gần Phú Mỹ Hưng (Quận 7 cũ), có 3 phòng ngủ giường đôi và sân thượng nhìn ra sông và thành phố.",
    "hero": [
     "hero",
-    "Sân thượng ASCON LIVING với lounge, cây xanh và đường chân trời TP. Hồ Chí Minh"
+    "Sân thượng view sông và đường chân trời TP. Hồ Chí Minh"
    ],
    "sections": [
     {
@@ -91,7 +92,7 @@
     {
      "h2": "Điểm nổi bật",
      "ul": [
-      "Nguyên căn khoảng, tối đa 6 khách",
+      "Thuê nguyên căn với 3 phòng ngủ, không dùng chung với ai",
       "3 phòng ngủ giường đôi, 3 ban công",
       "Sân thượng view sông và thành phố, có BBQ",
       "Phòng giải trí có karaoke, máy chiếu và PlayStation",
@@ -332,7 +333,19 @@
      "imgs": [
       [
        "roof-terrace",
-       "Sân thượng với nội thất lounge, cây xanh và view thành phố"
+       "Sân thượng view sông và đường chân trời TP. Hồ Chí Minh"
+      ],
+      [
+       "river-balcony",
+       "Lan can sân thượng nhìn ra sông và cây xanh"
+      ],
+      [
+       "river-city",
+       "View sông với tòa Landmark 81 ở phía xa"
+      ],
+      [
+       "roof-day",
+       "Sân thượng với nội thất lounge và cây xanh ban ngày"
       ],
       [
        "roof-lounge",
@@ -363,7 +376,7 @@
     {
      "h2": "Lối vào & hành lang",
      "p": [
-      "Tự nhận phòng bằng mã số; cầu thang có tay vịn nối các tầng."
+      "Tự nhận phòng bằng mã số: cửa chính mở bằng mã riêng của bạn, còn cổng ngoài dùng chìa khóa do chủ nhà bàn giao hoặc hẹn trước với bạn. Bên trong, cầu thang có tay vịn nối các tầng."
      ],
      "imgs": [
       [
@@ -448,14 +461,14 @@
   },
   "families": {
    "title": "Homestay Sài Gòn cho gia đình & nhóm bạn | ASCON LIVING",
-   "description": "Homestay Sài Gòn cho nhóm bạn và gia đình: nhà nguyên căn tối đa 6 khách, 3 phòng ngủ giường đôi, bếp và phòng giải trí.",
+   "description": "Homestay Sài Gòn cho nhóm bạn và gia đình: nhà nguyên căn, 3 phòng ngủ giường đôi, bếp và phòng giải trí.",
    "h1": "Homestay Sài Gòn nguyên căn cho gia đình và nhóm bạn",
-   "lead": "Ngôi nhà được bố trí cho nhóm tối đa 6 khách.",
+   "lead": "Cả ngôi nhà dành riêng cho bạn, phù hợp cho gia đình và nhóm bạn.",
    "sections": [
     {
      "h2": "Ngôi nhà có gì cho nhóm",
      "ul": [
-      "Tối đa 6 khách trong 3 phòng ngủ giường đôi",
+      "3 phòng ngủ, mỗi phòng một giường đôi",
       "Phòng tắm",
       "Bếp đầy đủ với nồi cơm điện, lò nướng và máy rửa chén",
       "Phòng giải trí có karaoke, máy chiếu, TV và PlayStation",
@@ -548,15 +561,15 @@
   },
   "faq": {
    "title": "Hỏi đáp: nhận phòng, nội quy, dịch vụ | ASCON LIVING",
-   "description": "Câu hỏi thường gặp về ASCON LIVING: giờ nhận và trả phòng, tự nhận phòng, số khách, thú cưng, hút thuốc, đưa đón sân bay và giặt ủi.",
+   "description": "Câu hỏi thường gặp về ASCON LIVING: giờ nhận và trả phòng, tự nhận phòng, phòng ngủ, thú cưng, hút thuốc, đưa đón sân bay và giặt ủi.",
    "h1": "Câu hỏi thường gặp",
    "lead": "Trả lời nhanh trước khi bạn đặt phòng.",
    "sections": [
     {
      "faq": [
       [
-       "Nhà ở được bao nhiêu khách?",
-       "Tối đa 6 khách. Nhà có 3 phòng ngủ, mỗi phòng một giường đôi."
+       "Nhà có bao nhiêu phòng ngủ?",
+       "Nhà có 3 phòng ngủ, mỗi phòng một giường đôi."
       ],
       [
        "Giờ nhận và trả phòng?",
@@ -600,14 +613,14 @@
   },
   "rules": {
    "title": "Nội quy | ASCON LIVING nhà nguyên căn Quận 7",
-   "description": "Nội quy ASCON LIVING: nhận phòng 14:00–23:00, trả phòng trước 12:00, tối đa 6 khách, không thú cưng, chỉ hút thuốc ở khu vực quy định.",
+   "description": "Nội quy ASCON LIVING: nhận phòng 14:00–23:00, trả phòng trước 12:00, không thú cưng, chỉ hút thuốc ở khu vực quy định.",
    "h1": "Nội quy",
    "lead": "Vài quy định đơn giản để mọi người đều thoải mái.",
    "sections": [
     {
      "ul": [
       "Nhận phòng 14:00–23:00, trả phòng trước 12:00",
-      "Tối đa 6 khách",
+      "Giữ yên tĩnh vào buổi tối để tôn trọng hàng xóm",
       "Không mang thú cưng",
       "Chỉ hút thuốc ở khu vực quy định",
       "Vui lòng giữ gìn nhà và tôn trọng hàng xóm",
@@ -699,7 +712,7 @@
   },
   "imprint": {
    "title": "Thông tin pháp lý | ASCON LIVING",
-   "description": "Thông tin pháp lý và đơn vị vận hành ASCON LIVING, TP. Hồ Chí Minh.",
+   "description": "Thông tin pháp lý của ASCON LIVING: đơn vị vận hành, mã số đăng ký kinh doanh, địa chỉ tại Tân Hưng (Quận 7 cũ), TP. Hồ Chí Minh và thông tin liên hệ.",
    "h1": "Thông tin pháp lý",
    "lead": "",
    "sections": [
@@ -770,8 +783,8 @@
      ],
      "imgs": [
       [
-       "app-categories",
-       "Ứng dụng ASCON Guide: danh mục"
+       "app-category",
+       "Ứng dụng ASCON Guide: danh mục ẩm thực với Top 10 gần nhà"
       ],
       [
        "app-practical",

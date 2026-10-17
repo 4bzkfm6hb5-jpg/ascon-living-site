@@ -16,7 +16,6 @@
  "checkout": "12:00",
  "rooms": 3,
  "bathrooms": 4,
- "max_guests": 6,
  "size_m2": 270,
  "languages": [
   "de",
@@ -50,5 +49,6 @@
   "Self check-in (keypad)",
   "Free luggage storage"
  ],
- "regno": "0319549605"
+ "regno": "0319549605",
+ "zalo": "https://zalo.me/84909410382"
 }

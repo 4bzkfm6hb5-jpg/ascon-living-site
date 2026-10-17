@@ -6,7 +6,7 @@
   "languages": "Sprache",
   "book_airbnb": "Auf Airbnb buchen",
   "book_trip": "Auf Trip.com buchen",
-  "whatsapp": "WhatsApp schreiben",
+  "whatsapp": "Über WhatsApp buchen",
   "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON.",
   "address_label": "Adresse",
   "contact_label": "Kontakt",
@@ -17,7 +17,8 @@
   "estimate": "Schätzung",
   "home": "Start",
   "not_found_title": "Seite nicht gefunden",
-  "not_found_text": "Diese Seite gibt es nicht. Zur Startseite:"
+  "not_found_text": "Diese Seite gibt es nicht. Zur Startseite:",
+  "zalo": "Über Zalo buchen"
  },
  "nav": [
   [
@@ -60,12 +61,12 @@
  "pages": {
   "home": {
    "title": "Ho Chi Minh Unterkunft: ganzes Haus am Fluss | ASCON LIVING",
-   "description": "Ganzes Haus am Fluss in Tân Hưng nahe Phú Mỹ Hưng, Ho-Chi-Minh-Stadt: 3 Schlafzimmer mit Doppelbett, Dachterrasse, bis 6 Gäste.",
+   "description": "Ganzes Haus am Fluss in Tân Hưng nahe Phú Mỹ Hưng, Ho-Chi-Minh-Stadt: 3 Schlafzimmer mit Doppelbett, Dachterrasse, BBQ und Karaoke.",
    "h1": "Ho Chi Minh Unterkunft: das ganze Haus am Fluss für eure Gruppe",
-   "lead": "ASCON LIVING ist ein privates Haus am Fluss in Tân Hưng, nahe Phú Mỹ Hưng (ehemals District 7): 3 Schlafzimmer mit Doppelbetten und eine Dachterrasse mit Blick auf Fluss und Skyline, für bis zu 6 Gäste.",
+   "lead": "ASCON LIVING ist ein privates Haus am Fluss in Tân Hưng, nahe Phú Mỹ Hưng (ehemals District 7): 3 Schlafzimmer mit Doppelbetten und eine Dachterrasse mit Blick auf Fluss und Skyline.",
    "hero": [
     "hero",
-    "Dachterrasse von ASCON LIVING mit Lounge, Pflanzen und Skyline von Ho-Chi-Minh-Stadt"
+    "Dachterrasse mit Flussblick und Skyline von Ho-Chi-Minh-Stadt"
    ],
    "sections": [
     {
@@ -91,7 +92,7 @@
     {
      "h2": "Das Wichtigste auf einen Blick",
      "ul": [
-      "Ganzes Haus, für bis zu 6 Gäste",
+      "Ganzes Haus mit 3 Schlafzimmern, nichts wird geteilt",
       "3 Schlafzimmer mit Doppelbetten, 3 Balkone",
       "Dachterrasse mit Fluss- und Skyline-Blick, Grill",
       "Entertainment-Raum mit Karaoke, Beamer und PlayStation",
@@ -332,7 +333,19 @@
      "imgs": [
       [
        "roof-terrace",
-       "Dachterrasse mit Loungemöbeln, Pflanzen und Skyline-Blick"
+       "Dachterrasse mit Flussblick und Skyline von Ho-Chi-Minh-Stadt"
+      ],
+      [
+       "river-balcony",
+       "Terrassengeländer mit Blick auf Fluss und Grün"
+      ],
+      [
+       "river-city",
+       "Flussblick mit Skyline und Landmark 81 im Hintergrund"
+      ],
+      [
+       "roof-day",
+       "Dachterrasse mit Loungemöbeln und Pflanzen bei Tag"
       ],
       [
        "roof-lounge",
@@ -363,7 +376,7 @@
     {
      "h2": "Eingang & Flur",
      "p": [
-      "Per Zahlencode checkt ihr selbst ein; Treppen mit Haltegriffen verbinden die Etagen."
+      "Self-Check-in per Zahlencode: Die Haustür öffnet ihr mit eurem persönlichen Code, für das äußere Tor gibt es einen Schlüssel, den der Gastgeber übergibt oder vor der Anreise mit euch abstimmt. Treppen mit Handlauf verbinden die Etagen."
      ],
      "imgs": [
       [
@@ -448,14 +461,14 @@
   },
   "families": {
    "title": "Ferienhaus für Familien & Gruppen in Saigon | ASCON LIVING",
-   "description": "Ferienhaus in Vietnam mieten: ganzes Haus in Ho-Chi-Minh-Stadt für bis zu 6 Gäste mit 3 Schlafzimmernn, Küche und Entertainment-Raum.",
+   "description": "Ferienhaus in Vietnam mieten: ganzes Haus in Ho-Chi-Minh-Stadt mit 3 Schlafzimmern, Küche und Entertainment-Raum.",
    "h1": "Ganzes Haus in Ho-Chi-Minh-Stadt für Familien und Gruppen",
-   "lead": "Das Haus ist für Gruppen bis 6 Gäste ausgelegt.",
+   "lead": "Das ganze Haus gehört euch – ausgelegt für Familien und Freundesgruppen.",
    "sections": [
     {
      "h2": "Was das Haus für Gruppen bietet",
      "ul": [
-      "Bis zu 6 Gäste in 3 Schlafzimmern mit Doppelbetten",
+      "3 Schlafzimmer mit je einem Doppelbett",
       "Bäder",
       "Voll ausgestattete Küche mit Reiskocher, Backofen und Geschirrspüler",
       "Entertainment-Raum mit Karaoke, Beamer, Fernseher und PlayStation",
@@ -548,15 +561,15 @@
   },
   "faq": {
    "title": "FAQ: Check-in, Regeln & Service | ASCON LIVING",
-   "description": "Häufige Fragen zu ASCON LIVING: Check-in und Check-out, Self-Check-in, Gästezahl, Haustiere, Rauchen, Flughafentransfer und Wäscheservice.",
+   "description": "Häufige Fragen zu ASCON LIVING: Check-in und Check-out, Self-Check-in, Schlafzimmer, Haustiere, Rauchen, Flughafentransfer und Wäscheservice.",
    "h1": "Häufige Fragen",
    "lead": "Kurze Antworten vor der Buchung.",
    "sections": [
     {
      "faq": [
       [
-       "Wie viele Gäste können übernachten?",
-       "Bis zu 6 Gäste. Das Haus hat 3 Schlafzimmer mit je einem Doppelbett."
+       "Wie viele Schlafzimmer hat das Haus?",
+       "Das Haus hat 3 Schlafzimmer mit je einem Doppelbett."
       ],
       [
        "Wann sind Check-in und Check-out?",
@@ -600,14 +613,14 @@
   },
   "rules": {
    "title": "Hausregeln | ASCON LIVING Ho-Chi-Minh-Stadt",
-   "description": "Hausregeln von ASCON LIVING: Check-in 14:00–23:00 Uhr, Check-out bis 12:00 Uhr, max. 6 Gäste, keine Haustiere, Rauchen nur in vorgesehenen Bereichen.",
+   "description": "Hausregeln von ASCON LIVING: Check-in 14:00–23:00 Uhr, Check-out bis 12:00 Uhr, keine Haustiere, Rauchen nur in vorgesehenen Bereichen.",
    "h1": "Hausregeln",
    "lead": "Ein paar einfache Regeln, damit sich alle wohlfühlen.",
    "sections": [
     {
      "ul": [
       "Check-in 14:00–23:00 Uhr, Check-out bis 12:00 Uhr",
-      "Maximal 6 Gäste",
+      "Abendliche Ruhezeiten aus Rücksicht auf die Nachbarn",
       "Keine Haustiere",
       "Rauchen nur in vorgesehenen Bereichen",
       "Bitte Haus und Nachbarn respektieren",
@@ -699,7 +712,7 @@
   },
   "imprint": {
    "title": "Impressum | ASCON LIVING",
-   "description": "Impressum und Betreiberangaben von ASCON LIVING, Ho-Chi-Minh-Stadt.",
+   "description": "Impressum von ASCON LIVING: Angaben zum Betreiber, Unternehmensregisternummer, Adresse in Tân Hưng (District 7), Ho-Chi-Minh-Stadt, und Kontaktdaten.",
    "h1": "Impressum",
    "lead": "",
    "sections": [
@@ -741,7 +754,7 @@
     {
      "h2": "Ganz einfach von A nach B",
      "p": [
-      "Jeder Ort ist nach Entfernung zum Haus sortiert und zeigt geschätzte Fahrzeiten mit Auto, Roller und zu Fuß. Ein Tipp auf „Route“ zeigt den Weg vom Haus oder öffnet den Ort in Google Maps. Die Karte zeigt alle Orte auf einen Blick."
+      "Jeder Ort ist nach Entfernung zum Haus sortiert und zeigt geschätzte Fahrzeiten mit Auto, Roller und zu Fuß. Ein Tipp auf „Route“ zeigt den Weg vom Haus oder öffnet den Ort in Google Maps. Die Karte zeigt alle Orte auf einen Blick. Kurz gesagt: eine Vietnam Reise App, gemacht für eure Tage rund um ASCON LIVING."
      ],
      "imgs": [
       [
@@ -770,8 +783,8 @@
      ],
      "imgs": [
       [
-       "app-categories",
-       "ASCON Guide App: Kategorieübersicht"
+       "app-category",
+       "ASCON Guide App: Kategorie mit Top 10 in der Nähe"
       ],
       [
        "app-practical",

@@ -30,7 +30,7 @@
  "hall": "Hallway with bedroom doors",
  "stairs": "Staircase between floors",
  "roof-lounge": "Rooftop dining set with cushioned seating",
- "roof-terrace": "Rooftop terrace with lounge furniture, plants and skyline view",
+ "roof-terrace": "Rooftop terrace with river view and Ho Chi Minh City skyline",
  "roof-bbq": "BBQ grill on the rooftop",
  "roof-night": "Rooftop lounge at night with string lights",
  "roof-evening": "Rooftop lounge in the evening with string lights",
@@ -81,5 +81,7 @@
  "bath-4": "Bathroom shower with rain shower head",
  "bath-5": "Hair dryer in the bathroom",
  "bath-6": "Glass shelf with cup in the bathroom",
- "river-balcony": "Balcony with river view and city skyline"
+ "river-balcony": "Terrace railing with river view and greenery",
+ "roof-day": "Rooftop terrace with lounge furniture and plants by day",
+ "river-city": "River view with Landmark 81 skyline in the distance"
 }

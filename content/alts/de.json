@@ -30,7 +30,7 @@
  "hall": "Flur mit Zimmertüren",
  "stairs": "Treppe zwischen den Etagen",
  "roof-lounge": "Essgruppe mit Polstern auf der Dachterrasse",
- "roof-terrace": "Dachterrasse mit Loungemöbeln, Pflanzen und Skyline-Blick",
+ "roof-terrace": "Dachterrasse mit Flussblick und Skyline von Ho-Chi-Minh-Stadt",
  "roof-bbq": "Grill auf der Dachterrasse",
  "roof-night": "Lounge auf der Dachterrasse mit Lichterketten",
  "roof-evening": "Lounge auf der Dachterrasse am Abend mit Lichterketten",
@@ -81,5 +81,7 @@
  "bath-4": "Dusche mit Regenduschkopf",
  "bath-5": "Föhn im Bad",
  "bath-6": "Glasablage mit Becher im Bad",
- "river-balcony": "Balkon mit Flussblick und Skyline"
+ "river-balcony": "Terrassengeländer mit Blick auf Fluss und Grün",
+ "roof-day": "Dachterrasse mit Loungemöbeln und Pflanzen bei Tag",
+ "river-city": "Flussblick mit Skyline und Landmark 81 im Hintergrund"
 }

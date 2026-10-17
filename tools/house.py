@@ -5,7 +5,7 @@ ORDER=[('living',['living','living-2','living-tv','living-3']),
 ('bed1',['bed1','bed1-3','bed1-2']),('bed2',['bed2','bed2-2','bed2-3']),('bed3',['bed3','bed3-2','bed3-3']),
 ('bath',['bath','bath-4','bath-2','bath-3','bath-5','bath-6']),
 ('ent',['ent','ent-karaoke','ent-cinema','ent-tv','ent-mics','ent-ps']),
-('roof',['roof-terrace','roof-lounge','roof-night','roof-evening','roof-evening-2','roof-bbq','roof-skyline']),
+('roof',['roof-terrace','roof-lounge','roof-night','roof-evening','roof-evening-2','roof-bbq','roof-skyline','roof-day','river-balcony','river-city']),
 ('hall',['entrance','hall','stairs'])]
 for code in sys.argv[1:]:
     c=json.load(open(f'content/{code}.json')); A=json.load(open(f'content/alts/{code}.json'))

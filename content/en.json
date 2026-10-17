@@ -6,7 +6,7 @@
   "languages": "Language",
   "book_airbnb": "Book on Airbnb",
   "book_trip": "Book on Trip.com",
-  "whatsapp": "WhatsApp us",
+  "whatsapp": "Book via WhatsApp",
   "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON.",
   "address_label": "Address",
   "contact_label": "Contact",
@@ -17,7 +17,8 @@
   "estimate": "estimate",
   "home": "Home",
   "not_found_title": "Page not found",
-  "not_found_text": "This page does not exist. Go to the homepage:"
+  "not_found_text": "This page does not exist. Go to the homepage:",
+  "zalo": "Book via Zalo"
  },
  "nav": [
   [
@@ -60,12 +61,12 @@
  "pages": {
   "home": {
    "title": "Ho Chi Minh Villa: Entire Riverside House | ASCON LIVING",
-   "description": "Rent the entire ASCON LIVING riverside house near Phú Mỹ Hưng, Ho Chi Minh City: 3 bedrooms, rooftop terrace, up to 6 guests.",
+   "description": "Rent the entire ASCON LIVING riverside house near Phú Mỹ Hưng, Ho Chi Minh City: 3 bedrooms, rooftop terrace, BBQ and karaoke.",
    "h1": "Ho Chi Minh villa: the entire riverside house, just for your group",
-   "lead": "ASCON LIVING is a private riverside house in Tân Hưng near Phú Mỹ Hưng (former District 7) with 3 bedrooms and a rooftop terrace overlooking the river and skyline, for up to 6 guests.",
+   "lead": "ASCON LIVING is a private riverside house in Tân Hưng near Phú Mỹ Hưng (former District 7) with 3 bedrooms and a rooftop terrace overlooking the river and skyline.",
    "hero": [
     "hero",
-    "Rooftop terrace of ASCON LIVING with outdoor lounge, plants and the Ho Chi Minh City skyline"
+    "Rooftop terrace with river view and Ho Chi Minh City skyline"
    ],
    "sections": [
     {
@@ -91,7 +92,7 @@
     {
      "h2": "Highlights",
      "ul": [
-      "Entire house, for up to 6 guests",
+      "Entire house with 3 bedrooms, no shared spaces",
       "3 bedrooms with double beds, 3 balconies",
       "Rooftop terrace with river and skyline view, BBQ",
       "Entertainment room with karaoke, projector and PlayStation",
@@ -332,7 +333,19 @@
      "imgs": [
       [
        "roof-terrace",
-       "Rooftop terrace with lounge furniture, plants and skyline view"
+       "Rooftop terrace with river view and Ho Chi Minh City skyline"
+      ],
+      [
+       "river-balcony",
+       "Terrace railing with river view and greenery"
+      ],
+      [
+       "river-city",
+       "River view with Landmark 81 skyline in the distance"
+      ],
+      [
+       "roof-day",
+       "Rooftop terrace with lounge furniture and plants by day"
       ],
       [
        "roof-lounge",
@@ -363,7 +376,7 @@
     {
      "h2": "Entrance & Hallway",
      "p": [
-      "Self check-in via keypad leads you into the entrance; stairs with handrails connect the floors."
+      "Self check-in via keypad: the front door opens with your personal code, while the outer gate uses a key that the host hands over or arranges with you before arrival. Inside, stairs with handrails connect the floors."
      ],
      "imgs": [
       [
@@ -448,14 +461,14 @@
   },
   "families": {
    "title": "Entire House in HCMC for Families & Groups | ASCON LIVING",
-   "description": "Group and family stay in Ho Chi Minh City: entire house for up to 6 guests with 3 bedrooms, kitchen, karaoke, projector and rooftop BBQ.",
+   "description": "Group and family stay in Ho Chi Minh City: entire house with 3 bedrooms, kitchen, karaoke, projector and rooftop BBQ.",
    "h1": "Entire house in Ho Chi Minh City for families and groups",
-   "lead": "The house is laid out for groups of up to 6 guests.",
+   "lead": "Family accommodation, District 7 (Tân Hưng): the whole house is yours, laid out for families and groups of friends.",
    "sections": [
     {
      "h2": "Why groups choose a whole house",
      "ul": [
-      "Up to 6 guests in 3 bedrooms with double beds",
+      "3 bedrooms, each with a double bed",
       "Bathrooms",
       "Full kitchen with rice cooker, oven and dishwasher for home cooking",
       "Entertainment room with karaoke, projector, TV and PlayStation",
@@ -555,8 +568,8 @@
     {
      "faq": [
       [
-       "How many guests can stay?",
-       "Up to 6 guests. The house has 3 bedrooms, each with a double bed."
+       "How many bedrooms does the house have?",
+       "The house has 3 bedrooms, each with a double bed."
       ],
       [
        "What are the check-in and check-out times?",
@@ -600,14 +613,14 @@
   },
   "rules": {
    "title": "House Rules | ASCON LIVING Entire House Ho Chi Minh City",
-   "description": "House rules of ASCON LIVING: check-in 14:00–23:00, check-out by 12:00, max 6 guests, no pets, smoking only in designated areas.",
+   "description": "House rules of ASCON LIVING: check-in 14:00–23:00, check-out by 12:00, no pets, smoking only in designated areas.",
    "h1": "House rules",
    "lead": "A few simple rules so every group enjoys the house.",
    "sections": [
     {
      "ul": [
       "Check-in 14:00–23:00, check-out by 12:00",
-      "Maximum 6 guests",
+      "Quiet hours in the evening, out of respect for the neighbours",
       "No pets",
       "Smoking only in designated areas",
       "Please treat the house and neighbours with respect",
@@ -699,7 +712,7 @@
   },
   "imprint": {
    "title": "Imprint | ASCON LIVING",
-   "description": "Imprint and operator details of ASCON LIVING, Ho Chi Minh City.",
+   "description": "Imprint of ASCON LIVING: operator details, business registration number, address in Tân Hưng (District 7), Ho Chi Minh City, and contact information.",
    "h1": "Imprint",
    "lead": "",
    "sections": [
@@ -770,8 +783,8 @@
      ],
      "imgs": [
       [
-       "app-categories",
-       "ASCON Guide app: category overview"
+       "app-category",
+       "ASCON Guide app: Food category with the Top 10 nearby"
       ],
       [
        "app-practical",

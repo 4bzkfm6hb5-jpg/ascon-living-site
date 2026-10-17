@@ -25,14 +25,15 @@ def pic(name,alt,eager=False,sizes='(min-width:900px) 380px, 100vw'):
 def cta(u):
     return (f'<p><a class="btn b1" href="{F["airbnb"]}" rel="noopener">{u["book_airbnb"]}</a>'
             f'<a class="btn b2" href="{F["trip"]}" rel="noopener">{u["book_trip"]}</a>'
-            f'<a class="btn wa" href="{F["wa"]}" rel="noopener">{u["whatsapp"]}</a></p>')
+            f'<a class="btn wa" href="{F["wa"]}" rel="noopener">{u["whatsapp"]}</a>'
+            f'<a class="btn zl" href="{F["zalo"]}" rel="noopener">{u["zalo"]}</a></p>')
 def section(s,code,u):
     o=[]
     if 'h2' in s: o.append(f'<h2>{html.escape(s["h2"])}</h2>')
     if 'note' in s: o.append(f'<p class="note">{sub(s["note"],code)}</p>')
     for p in s.get('p',[]): o.append(f'<p>{sub(p,code)}</p>')
     if 'ul' in s: o.append('<ul class="chk">'+''.join(f'<li>{sub(x,code)}</li>' for x in s['ul'])+'</ul>')
-    if 'imgs' in s: o.append('<div class="grid">'+''.join(f'<figure>{pic(n,a)}<figcaption>{html.escape(a)}</figcaption></figure>' for n,a in s['imgs'])+'</div>')
+    if 'imgs' in s: o.append('<div class="grid">'+''.join(f'<figure>{pic(n+"@"+code if n+"@"+code in IMG else n,a)}<figcaption>{html.escape(a)}</figcaption></figure>' for n,a in s['imgs'])+'</div>')
     if 'faq' in s: o.append('<div class="faq">'+''.join(f'<details><summary>{html.escape(q)}</summary><p>{sub(a,code)}</p></details>' for q,a in s['faq'])+'</div>')
     if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'])+'</div>')
     if s.get('cta'): o.append(cta(u))
@@ -44,8 +45,9 @@ def lodging(code,c):
       "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":F['locality'],"addressRegion":"Ho Chi Minh City","addressCountry":F['country']},
       "checkinTime":F['checkin'],"checkoutTime":F['checkout'],"numberOfRooms":F['rooms'],"petsAllowed":False,
       "knowsLanguage":F['languages'],"sameAs":[F['airbnb'],F['trip']],
+      "contactPoint":[{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"email":F['email'],"url":F['wa']},{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"url":F['zalo']}],
       "amenityFeature":[{"@type":"LocationFeatureSpecification","name":a,"value":True} for a in F['amenities']],
-      "containsPlace":{"@type":"House","name":F['name']+" – entire house","numberOfBedrooms":F['rooms'],"occupancy":{"@type":"QuantitativeValue","maxValue":F['max_guests'],"unitText":"guests"}}}
+      "containsPlace":{"@type":"House","name":F['name']+" – entire house","numberOfBedrooms":F['rooms']}}
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
     title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
@@ -82,7 +84,7 @@ def page(l,pid):
 <main id="main">{top}{body}</div></main>
 <footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf['w']}" height="{lf['h']}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u['motto']}</p></div>
 <div><strong>{u['address_label']}</strong><br>{F['street']}<br>{F['locality']}, Vietnam</div>
-<div><strong>{u['contact_label']}</strong><br><a href="tel:{F['phone_e164']}">{F['phone']}</a><br><a href="mailto:{F['email']}">{F['email']}</a><br><a href="{F['wa']}" rel="noopener">WhatsApp</a></div>
+<div><strong>{u['contact_label']}</strong><br><a href="tel:{F['phone_e164']}">{F['phone']}</a><br><a href="mailto:{F['email']}">{F['email']}</a><br><a href="{F['wa']}" rel="noopener">WhatsApp</a> · <a href="{F['zalo']}" rel="noopener">Zalo</a></div>
 <div><strong>{u['more_label']}</strong><br><a href="{url(code,'imprint')}">{c['pages']['imprint']['h1']}</a><br><a href="{url(code,'privacy')}">{c['pages']['privacy']['h1']}</a><br><a href="{F['guide']}" rel="noopener">{u['guest_guide']}</a></div></div></footer>
 <a class="fab" href="{F['wa']}" rel="noopener" aria-label="{u['whatsapp']}">{WA_SVG}</a></body></html>'''
 def main():
