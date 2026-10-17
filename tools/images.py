@@ -47,7 +47,7 @@ m.save(f'{OUT}/logo-mark.png',optimize=True)
 f=mark.copy(); f.thumbnail((180,180)); c=Image.new('RGBA',(180,180),(255,255,255,0)); c.paste(f,((180-f.width)//2,(180-f.height)//2),f); c.save(os.path.join(OUT,'..','..','favicon.png'))
 full=lg.crop(lg.getbbox()); full.thumbnail((400,600)); full.save(f'{OUT}/logo-full.webp','WEBP',quality=90); meta['logo-full']={'w':full.width,'h':full.height}
 import glob
-for n in ['app-category','app-place','app-map','app-practical','app-place@de','app-category@de','app-practical@de','app-map@de']:
+for n in ['app-category','app-place','app-map','app-practical','app-place@de','app-category@de','app-practical@de','app-map@de']+[f'tg-{k}{v}' for k in ('welcome','picker','categories','map','practical') for v in ('','@de','@vi')]:  # tg-*: travel-guide app screenshots (live PWA, 390px phone), see /workspace/tg
     ws=[w for w in (390,780,366) if os.path.exists(f'{OUT}/{n}-{w}.webp')]; im2=Image.open(f'{OUT}/{n}-{ws[0]}.webp'); meta[n]={'w':im2.width,'h':im2.height,'widths':ws}
 json.dump(meta,open(os.path.join(os.path.dirname(__file__),'images.json'),'w'),indent=1)
 print(len(PICK),'images')

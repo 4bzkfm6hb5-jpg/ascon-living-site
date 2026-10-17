@@ -60,6 +60,10 @@
   [
    "guide",
    "Travel Guide"
+  ],
+  [
+   "travel-guide",
+   "Guide App"
   ]
  ],
  "pages": {
@@ -138,14 +142,14 @@
       [
        "ul",
        [
-        "**Living room** (about 40 m²): a large L-shaped sofa and a 75-inch 4K TV, plus a guest WC in the living area. → `/en/house/living-room/`",
-        "**Kitchen and dining**: stove, oven, microwave, rice cooker, kettle, dishes and a fridge of about 540 litres. → `/en/house/kitchen/`",
-        "**Entertainment room**: karaoke, 4K projector, PlayStation with PlayStation Plus, Netflix and movie nights. → `/en/house/karaoke-entertainment/`",
-        "**Master bedroom** (about 55 m²): 180×200 cm bed, 55-inch 4K TV, balcony, own bathroom. → `/en/house/master-bedroom/`",
-        "**Bedroom 2**: 160×200 cm bed, smart TV, own bathroom. → `/en/house/bedroom-2/`",
-        "**Bedroom 3**: an interior room without a window, dark and quiet, 160×200 cm bed, smart TV, own bathroom. → `/en/house/bedroom-3/`",
-        "**Bathrooms**: one for every bedroom, plus a guest WC. → `/en/house/bathrooms/`",
-        "**Rooftop terrace** (about 56–60 m²): BBQ, smoker, outdoor sofa, plants, solar lights, river and skyline view. → `/en/rooftop/`"
+        "<a href=\"{L}house/living-room/\"><strong>Living room</strong></a> (about 40 m²): a large L-shaped sofa and a 75-inch 4K TV, plus a guest WC in the living area.",
+        "<a href=\"{L}house/kitchen/\"><strong>Kitchen and dining</strong></a>: stove, oven, microwave, rice cooker, kettle, dishes and a fridge of about 540 litres.",
+        "<a href=\"{L}house/karaoke-entertainment/\"><strong>Entertainment room</strong></a>: karaoke, 4K projector, PlayStation with PlayStation Plus, Netflix and movie nights.",
+        "<a href=\"{L}house/master-bedroom/\"><strong>Master bedroom</strong></a> (about 55 m²): 180×200 cm bed, 55-inch 4K TV, balcony, own bathroom.",
+        "<a href=\"{L}house/bedroom-2/\"><strong>Bedroom 2</strong></a>: 160×200 cm bed, smart TV, own bathroom.",
+        "<a href=\"{L}house/bedroom-3/\"><strong>Bedroom 3</strong></a>: an interior room without a window, dark and quiet, 160×200 cm bed, smart TV, own bathroom.",
+        "<a href=\"{L}house/bathrooms/\"><strong>Bathrooms</strong></a>: one for every bedroom, plus a guest WC.",
+        "<a href=\"{L}rooftop/\"><strong>Rooftop terrace</strong></a> (about 56–60 m²): BBQ, smoker, outdoor sofa, plants, solar lights, river and skyline view."
        ]
       ]
      ],
@@ -280,7 +284,7 @@
      "flow": [
       [
        "p",
-       "The house is at 389A Đường Trần Xuân Soạn in Tân Hưng, the area still widely known as District 7. Restaurants and street food are nearby, and the rooftop looks out over the river to the District 1 skyline. Our ASCON Guide App, password-protected for guests, helps you find places to eat, things to do and the way there. More on the location page."
+       "The house is at 389A Đường Trần Xuân Soạn in Tân Hưng, the area still widely known as District 7. Restaurants and street food are nearby, and the rooftop looks out over the river to the District 1 skyline. Our free ASCON Guide App helps you find places to eat, things to do and the way there. More on the location page."
       ]
      ]
     },
@@ -318,6 +322,20 @@
        "Airbnb, Trip.com, WhatsApp or Zalo."
       ]
      ]
+    },
+    {
+     "h2": "Free travel guide app",
+     "p": [
+      "Plan your days with our free ASCON travel guide app: local tips, places to eat and visit, and a map, right in your phone's browser."
+     ],
+     "cards": [
+      [
+       "Free travel guide app",
+       "travel-guide",
+       "Local tips, places and a map for Ho Chi Minh City, free in your phone browser."
+      ]
+     ],
+     "_tg": 1
     },
     {
      "h2": "Frequently asked questions",
@@ -739,6 +757,20 @@
       "ASCON LIVING works best for people who want to travel together without living on top of each other. Families get a private bathroom for every bedroom, a kitchen for easy meals and an entertainment room that keeps kids and teenagers happy. Groups of friends get karaoke, game nights and BBQ evenings on the rooftop. Colleagues on a work trip get fast mesh WiFi, quiet bedrooms and a living room that doubles as a meeting space.",
       "If you're comparing Ho Chi Minh City vacation rentals, this is the difference: one private house, shared only with the people you came with. See our pages for families and for groups for more ideas."
      ]
+    },
+    {
+     "h2": "Free travel guide app",
+     "p": [
+      "Plan your days with our free ASCON travel guide app: local tips, places to eat and visit, and a map, right in your phone's browser."
+     ],
+     "cards": [
+      [
+       "Free travel guide app",
+       "travel-guide",
+       "Local tips, places and a map for Ho Chi Minh City, free in your phone browser."
+      ]
+     ],
+     "_tg": 1
     },
     {
      "cta": true
@@ -1194,7 +1226,7 @@
      "flow": [
       [
        "p",
-       "After booking you receive the password for the ASCON Guide App, our guest guide for Ho Chi Minh City. It includes a Kids & family category with outings for children, places to eat near the house and practical help for getting around. See also our guide to things to do in Ho Chi Minh City with kids."
+       "Our free ASCON Guide App is a guide to Ho Chi Minh City. It includes a Kids & family category with outings for children, places to eat near the house and practical help for getting around. See also our guide to things to do in Ho Chi Minh City with kids."
       ]
      ]
     },
@@ -1404,7 +1436,7 @@
          ],
          [
           "Planning",
-          "ASCON Guide App (password after booking)"
+          "Free ASCON Guide App"
          ]
         ]
        }
@@ -1565,7 +1597,7 @@
      "flow": [
       [
        "p",
-       "After booking you receive the arrival instructions for self check-in with the keypad lock and the key for the outer gate, plus the password for the ASCON Guide App, our guest guide to Ho Chi Minh City with places to eat, things to do and practical tips. Please read the house rules before you arrive; the most important one is simple: loud music only until 21:30."
+       "After booking you receive the arrival instructions for self check-in with the keypad lock and the key for the outer gate. Our free ASCON Guide App for Ho Chi Minh City has places to eat, things to do and practical tips. Please read the house rules before you arrive; the most important one is simple: loud music only until 21:30."
       ],
       [
        "h3",
@@ -1601,7 +1633,7 @@
        "Yes, an airport transfer can be arranged together with your booking."
       ],
       [
-       "When do I get the check-in instructions and the app password?",
+       "When do I get the check-in instructions?",
        "After booking."
       ]
      ]
@@ -1761,7 +1793,7 @@
       ],
       [
        "How do we get the ASCON Guide App?",
-       "You receive the password for our guest guide app after booking."
+       "Open it in your phone's browser; it is free and needs no password."
       ]
      ]
     },
@@ -1911,7 +1943,7 @@
   },
   "guide": {
    "title": "Ho Chi Minh City Travel Guide | ASCON LIVING",
-   "description": "Our Ho Chi Minh City travel guide: the password-protected ASCON Guide App for guests, tips for travelling with kids and getting from the airport.",
+   "description": "Our Ho Chi Minh City travel guide: the free ASCON Guide App, tips for travelling with kids and getting from the airport.",
    "h1": "Ho Chi Minh City travel guide",
    "lead": "Practical help for your stay in Saigon, from the airport to the best places to eat, with our own guide app made for ASCON LIVING guests.",
    "sections": [
@@ -1960,11 +1992,11 @@
      ]
     },
     {
-     "h2": "The ASCON Guide App: exclusive for guests",
+     "h2": "The free ASCON Guide App",
      "flow": [
       [
        "p",
-       "The heart of the guide is the ASCON Guide App, our own guest guide for the city. It is password-protected and made exclusively for ASCON LIVING guests: you receive the password after booking. It opens in your phone's browser, so there is nothing to install from an app store, and you can add it to your home screen."
+       "The heart of the guide is the ASCON Guide App, our own guest guide for the city. It is free, needs no password and opens in your phone's browser, so there is nothing to install from an app store, and you can add it to your home screen."
       ],
       [
        "h3",
@@ -2016,7 +2048,7 @@
      ]
     },
     {
-     "note": "Exclusive for ASCON LIVING guests: you receive the password after booking.",
+     "note": "Free to use, no password needed.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open the ASCON Guide app</a>"
      ]
@@ -2080,8 +2112,8 @@
      "h2": "Frequently asked questions",
      "faq": [
       [
-       "How do I get the password for the ASCON Guide App?",
-       "You receive the password after booking. The app is exclusive to ASCON LIVING guests."
+       "Do I need a password for the ASCON Guide App?",
+       "No. The app is free and opens straight in your phone's browser."
       ],
       [
        "Do I need to install the app from an app store?",
@@ -2095,7 +2127,7 @@
     },
     {
      "p": [
-      "Book your stay and get the ASCON Guide App password with your booking. Check your dates on Airbnb or Trip.com, or ask us on WhatsApp or Zalo."
+      "Book your stay and plan your days with the free ASCON Guide App. Check your dates on Airbnb or Trip.com, or ask us on WhatsApp or Zalo."
      ],
      "cta": true
     }
@@ -2186,9 +2218,9 @@
   },
   "guide-app": {
    "title": "ASCON Guide App: How to Get Around Ho Chi Minh City",
-   "description": "Our password-protected guest app for Ho Chi Minh City: places near the house, travel times, routes, a map and practical tips. Password after booking.",
+   "description": "Our free guide app for Ho Chi Minh City: places near the house, routes, a map and practical tips. No password, nothing to install.",
    "h1": "The ASCON Guide App: your Ho Chi Minh City guide in your pocket",
-   "lead": "A guest guide that opens in your phone's browser and shows you what's around the house and how to get there. Exclusive for ASCON LIVING guests; the password comes with your booking.",
+   "lead": "A guest guide that opens in your phone's browser and shows you what's around the house and how to get there. It is free and needs no password.",
    "sections": [
     {
      "h2": "How to get around Ho Chi Minh City, made easy",
@@ -2239,11 +2271,11 @@
     {
      "h2": "Ten languages, installable",
      "p": [
-      "The app is available in English, German, Vietnamese, Chinese, Korean, Japanese, French, Spanish, Portuguese and Arabic. Add it to your home screen: once opened, it keeps its content on your phone, so it stays usable even with a weak connection. Handy for family travel in Vietnam, too: the Kids & family category collects outings with children. You receive the password after booking, so you can start planning before you even land."
+      "The app is available in English, German, Vietnamese, Chinese, Korean, Japanese, French, Spanish, Portuguese and Arabic. Add it to your home screen: once opened, it keeps its content on your phone, so it stays usable even with a weak connection. Handy for family travel in Vietnam, too: the Kids & family category collects outings with children. It is free, so you can start planning before you even land."
      ]
     },
     {
-     "note": "Exclusive for ASCON LIVING guests: you receive the password after booking.",
+     "note": "Free to use, no password needed.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open the ASCON Guide app</a>"
      ]
@@ -2413,7 +2445,7 @@
      "flow": [
       [
        "p",
-       "Self check-in with a keypad means your group can arrive at any time, with a key for the outer gate. An airport transfer can be arranged with your booking, which helps when several people arrive with luggage. Fresh bedding, towels, toiletries, slippers and hot water are ready, and a laundry service is available. There are outdoor cameras at the entrance. Restaurants and street food are nearby, and the ASCON Guide App (password after booking) helps you find food, bars and things to do."
+       "Self check-in with a keypad means your group can arrive at any time, with a key for the outer gate. An airport transfer can be arranged with your booking, which helps when several people arrive with luggage. Fresh bedding, towels, toiletries, slippers and hot water are ready, and a laundry service is available. There are outdoor cameras at the entrance. Restaurants and street food are nearby, and the free ASCON Guide App helps you find food, bars and things to do."
       ]
      ]
     },
@@ -4715,6 +4747,58 @@
      "p": [
       "Stay at the river in Saigon? Check your dates on Airbnb or Trip.com, or send us a message on WhatsApp or Zalo at +84 909 410 382."
      ],
+     "cta": true
+    }
+   ]
+  },
+  "travel-guide": {
+   "title": "Free Travel Guide App for Ho Chi Minh City | ASCON",
+   "description": "See the free ASCON travel guide app: local tips, places to eat and visit, a map and practical help for Ho Chi Minh City. Opens in your phone browser.",
+   "h1": "Free travel guide app for Ho Chi Minh City",
+   "lead": "The ASCON Guide is a free web app with local tips and places around Ho Chi Minh City. It opens straight in your phone's browser: no password, nothing to install.",
+   "sections": [
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open the travel guide app</a>"
+     ]
+    },
+    {
+     "h2": "A look inside the app",
+     "p": [
+      "These are real screenshots of the app on a phone."
+     ],
+     "imgs": [
+      [
+       "tg-welcome",
+       "Welcome screen with the ASCON LIVING logo and motto"
+      ],
+      [
+       "tg-picker",
+       "Language picker: the app comes in ten languages"
+      ],
+      [
+       "tg-categories",
+       "Categories: food, cafés, bars, family outings and more"
+      ],
+      [
+       "tg-map",
+       "Map with places around the house"
+      ],
+      [
+       "tg-practical",
+       "Practical information and emergency help"
+      ]
+     ]
+    },
+    {
+     "h2": "Local tips and places",
+     "p": [
+      "Places are sorted into clear categories: food, cafés and desserts, bars and nightlife, kids and family, sights and culture, activities, relaxation, shopping, day trips, and practical and emergency information. The map shows the places around the house, and one tap on Route opens directions.",
+      "You can add the app to your home screen. More ideas for your stay are in our <a href=\"{L}guide/\">Ho Chi Minh City travel guide</a>.",
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open the travel guide app</a>"
+     ]
+    },
+    {
      "cta": true
     }
    ]

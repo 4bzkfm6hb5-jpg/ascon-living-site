@@ -61,6 +61,10 @@
   [
    "guide",
    "Reiseguide"
+  ],
+  [
+   "travel-guide",
+   "Guide-App"
   ]
  ],
  "pages": {
@@ -139,14 +143,14 @@
       [
        "ul",
        [
-        "**Wohnzimmer** (rund 40 m²): großes L-Sofa und 75-Zoll-4K-Fernseher, dazu ein Gäste-WC im Wohnbereich. → `/de/house/living-room/`",
-        "**Küche und Essbereich**: Herd, Backofen, Mikrowelle, Reiskocher, Wasserkocher, Geschirr und ein Kühlschrank mit rund 540 Litern. → `/de/house/kitchen/`",
-        "**Entertainment-Raum**: Karaoke, 4K-Projektor, PlayStation mit PlayStation Plus, Netflix und Filmabende. → `/de/house/karaoke-entertainment/`",
-        "**Hauptschlafzimmer** (rund 55 m²): 180×200-cm-Bett, 55-Zoll-4K-TV, Balkon, eigenes Bad. → `/de/house/master-bedroom/`",
-        "**Schlafzimmer 2**: 160×200-cm-Bett, Smart-TV, eigenes Bad. → `/de/house/bedroom-2/`",
-        "**Schlafzimmer 3**: Innenraum ohne Fenster, dunkel und ruhig, 160×200-cm-Bett, Smart-TV, eigenes Bad. → `/de/house/bedroom-3/`",
-        "**Bäder**: eines für jedes Schlafzimmer, dazu ein Gäste-WC. → `/de/house/bathrooms/`",
-        "**Dachterrasse** (rund 56–60 m²): Grill, Smoker, Outdoor-Sofa, Pflanzen, Solarleuchten, Blick auf Fluss und Skyline. → `/de/rooftop/`"
+        "<a href=\"{L}house/living-room/\"><strong>Wohnzimmer</strong></a> (rund 40 m²): großes L-Sofa und 75-Zoll-4K-Fernseher, dazu ein Gäste-WC im Wohnbereich.",
+        "<a href=\"{L}house/kitchen/\"><strong>Küche und Essbereich</strong></a>: Herd, Backofen, Mikrowelle, Reiskocher, Wasserkocher, Geschirr und ein Kühlschrank mit rund 540 Litern.",
+        "<a href=\"{L}house/karaoke-entertainment/\"><strong>Entertainment-Raum</strong></a>: Karaoke, 4K-Projektor, PlayStation mit PlayStation Plus, Netflix und Filmabende.",
+        "<a href=\"{L}house/master-bedroom/\"><strong>Hauptschlafzimmer</strong></a> (rund 55 m²): 180×200-cm-Bett, 55-Zoll-4K-TV, Balkon, eigenes Bad.",
+        "<a href=\"{L}house/bedroom-2/\"><strong>Schlafzimmer 2</strong></a>: 160×200-cm-Bett, Smart-TV, eigenes Bad.",
+        "<a href=\"{L}house/bedroom-3/\"><strong>Schlafzimmer 3</strong></a>: Innenraum ohne Fenster, dunkel und ruhig, 160×200-cm-Bett, Smart-TV, eigenes Bad.",
+        "<a href=\"{L}house/bathrooms/\"><strong>Bäder</strong></a>: eines für jedes Schlafzimmer, dazu ein Gäste-WC.",
+        "<a href=\"{L}rooftop/\"><strong>Dachterrasse</strong></a> (rund 56–60 m²): Grill, Smoker, Outdoor-Sofa, Pflanzen, Solarleuchten, Blick auf Fluss und Skyline."
        ]
       ]
      ],
@@ -281,7 +285,7 @@
      "flow": [
       [
        "p",
-       "Das Haus liegt in 389A Đường Trần Xuân Soạn in Tân Hưng, der Gegend, die die meisten noch Distrikt 7 nennen. Restaurants und Streetfood sind in der Nähe, und von der Dachterrasse schaut ihr über den Fluss auf die Skyline von Distrikt 1. Unsere passwortgeschützte ASCON Guide App hilft euch, Restaurants, Aktivitäten und den Weg dorthin zu finden. Mehr auf der Seite Lage."
+       "Das Haus liegt in 389A Đường Trần Xuân Soạn in Tân Hưng, der Gegend, die die meisten noch Distrikt 7 nennen. Restaurants und Streetfood sind in der Nähe, und von der Dachterrasse schaut ihr über den Fluss auf die Skyline von Distrikt 1. Unsere kostenlose ASCON Guide App hilft euch, Restaurants, Aktivitäten und den Weg dorthin zu finden. Mehr auf der Seite Lage."
       ]
      ]
     },
@@ -319,6 +323,20 @@
        "Airbnb, Trip.com, WhatsApp oder Zalo."
       ]
      ]
+    },
+    {
+     "h2": "Kostenlose Reiseführer-App",
+     "p": [
+      "Plant eure Tage mit unserer kostenlosen ASCON Reiseführer-App: lokale Tipps, Restaurants, Ausflugsziele und eine Karte, direkt im Browser eures Handys."
+     ],
+     "cards": [
+      [
+       "Kostenlose Reiseführer-App",
+       "travel-guide",
+       "Lokale Tipps, Orte und Karte für Ho-Chi-Minh-Stadt, kostenlos im Handy-Browser."
+      ]
+     ],
+     "_tg": 1
     },
     {
      "h2": "Häufige Fragen",
@@ -740,6 +758,20 @@
       "ASCON LIVING passt am besten zu allen, die gemeinsam reisen möchten, ohne sich auf die Füße zu treten. Familien bekommen ein eigenes Bad für jedes Schlafzimmer, eine Küche für unkomplizierte Mahlzeiten und einen Entertainment-Raum, der Kinder und Teenager bei Laune hält. Freundesgruppen bekommen Karaoke, Spieleabende und Grillabende auf der Dachterrasse. Kollegen auf Geschäftsreise bekommen schnelles Mesh-WLAN, ruhige Schlafzimmer und ein Wohnzimmer, das auch als Besprechungsraum funktioniert.",
       "Wer ein Ferienhaus in Vietnam mieten möchte, findet hier genau das: ein privates Haus, das ihr nur mit den Menschen teilt, mit denen ihr gekommen seid. Mehr Ideen findet ihr auf unseren Seiten für Familien und für Gruppen."
      ]
+    },
+    {
+     "h2": "Kostenlose Reiseführer-App",
+     "p": [
+      "Plant eure Tage mit unserer kostenlosen ASCON Reiseführer-App: lokale Tipps, Restaurants, Ausflugsziele und eine Karte, direkt im Browser eures Handys."
+     ],
+     "cards": [
+      [
+       "Kostenlose Reiseführer-App",
+       "travel-guide",
+       "Lokale Tipps, Orte und Karte für Ho-Chi-Minh-Stadt, kostenlos im Handy-Browser."
+      ]
+     ],
+     "_tg": 1
     },
     {
      "cta": true
@@ -1195,7 +1227,7 @@
      "flow": [
       [
        "p",
-       "Nach der Buchung bekommt ihr das Passwort für die ASCON Guide App, unseren Gäste-Guide für Ho-Chi-Minh-Stadt. Darin findet ihr eine Kategorie für Kinder und Familie mit Ausflügen für Kinder, Restaurants in der Nähe des Hauses und praktische Hilfe für unterwegs. Mehr Ideen für Ho-Chi-Minh-Stadt mit Kindern findet ihr in unserem Reiseführer."
+       "Unsere kostenlose ASCON Guide App ist ein Guide für Ho-Chi-Minh-Stadt. Darin findet ihr eine Kategorie für Kinder und Familie mit Ausflügen für Kinder, Restaurants in der Nähe des Hauses und praktische Hilfe für unterwegs. Mehr Ideen für Ho-Chi-Minh-Stadt mit Kindern findet ihr in unserem Reiseführer."
       ]
      ]
     },
@@ -1405,7 +1437,7 @@
          ],
          [
           "Planung",
-          "ASCON Guide App (Passwort nach der Buchung)"
+          "Kostenlose ASCON Guide App"
          ]
         ]
        }
@@ -1566,7 +1598,7 @@
      "flow": [
       [
        "p",
-       "Nach der Buchung bekommt ihr die Anleitung für den Self-Check-in per Zahlenschloss und den Schlüssel für das Außentor, außerdem das Passwort für die ASCON Guide App, unseren Gäste-Guide für Ho-Chi-Minh-Stadt mit Restaurants, Aktivitäten und praktischen Tipps. Bitte lest vor der Anreise die Hausregeln; die wichtigste ist einfach: Laute Musik nur bis 21:30 Uhr."
+       "Nach der Buchung bekommt ihr die Anleitung für den Self-Check-in per Zahlenschloss und den Schlüssel für das Außentor. Unsere kostenlose ASCON Guide App für Ho-Chi-Minh-Stadt zeigt Restaurants, Aktivitäten und praktische Tipps. Bitte lest vor der Anreise die Hausregeln; die wichtigste ist einfach: Laute Musik nur bis 21:30 Uhr."
       ],
       [
        "h3",
@@ -1602,7 +1634,7 @@
        "Ja, ein Flughafentransfer lässt sich mit der Buchung organisieren."
       ],
       [
-       "Wann bekomme ich die Check-in-Anleitung und das App-Passwort?",
+       "Wann bekomme ich die Check-in-Anleitung?",
        "Nach der Buchung."
       ]
      ]
@@ -1762,7 +1794,7 @@
       ],
       [
        "Wie bekommen wir die ASCON Guide App?",
-       "Das Passwort für unsere Gäste-App bekommt ihr nach der Buchung."
+       "Öffnet sie im Browser eures Handys; sie ist kostenlos und braucht kein Passwort."
       ]
      ]
     },
@@ -1912,7 +1944,7 @@
   },
   "guide": {
    "title": "Ho-Chi-Minh-Stadt Reiseführer | ASCON LIVING",
-   "description": "Unser Ho-Chi-Minh-Stadt Reiseführer: die passwortgeschützte ASCON Guide App für Gäste, Tipps für die Reise mit Kindern und die Anreise vom Flughafen.",
+   "description": "Unser Ho-Chi-Minh-Stadt Reiseführer: die kostenlose ASCON Guide App, Tipps für die Reise mit Kindern und die Anreise vom Flughafen.",
    "h1": "Ho-Chi-Minh-Stadt Reiseführer",
    "lead": "Praktische Hilfe für euren Aufenthalt in Saigon, vom Flughafen bis zu den besten Adressen zum Essen, mit unserer eigenen Guide-App für ASCON LIVING Gäste.",
    "sections": [
@@ -1961,11 +1993,11 @@
      ]
     },
     {
-     "h2": "Die ASCON Guide App: exklusiv für Gäste",
+     "h2": "Die kostenlose ASCON Guide App",
      "flow": [
       [
        "p",
-       "Herzstück des Reiseführers ist die ASCON Guide App, unser eigener Gäste-Guide für die Stadt. Sie ist passwortgeschützt und exklusiv für ASCON LIVING Gäste: Das Passwort bekommt ihr nach der Buchung. Sie öffnet sich im Browser eures Handys, ihr müsst also nichts aus einem App Store installieren, und ihr könnt sie auf den Startbildschirm legen."
+       "Herzstück des Reiseführers ist die ASCON Guide App, unser eigener Gäste-Guide für die Stadt. Sie ist kostenlos, braucht kein Passwort und öffnet sich im Browser eures Handys, ihr müsst also nichts aus einem App Store installieren, und ihr könnt sie auf den Startbildschirm legen."
       ],
       [
        "h3",
@@ -2017,7 +2049,7 @@
      ]
     },
     {
-     "note": "Exklusiv für ASCON LIVING Gäste: Das Passwort bekommt ihr nach der Buchung.",
+     "note": "Kostenlos, ohne Passwort.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">ASCON Guide App öffnen</a>"
      ]
@@ -2081,8 +2113,8 @@
      "h2": "Häufige Fragen",
      "faq": [
       [
-       "Wie bekomme ich das Passwort für die ASCON Guide App?",
-       "Das Passwort bekommt ihr nach der Buchung. Die App ist exklusiv für ASCON LIVING Gäste."
+       "Brauche ich ein Passwort für die ASCON Guide App?",
+       "Nein. Die App ist kostenlos und öffnet sich direkt im Browser eures Handys."
       ],
       [
        "Muss ich die App aus einem App Store installieren?",
@@ -2096,7 +2128,7 @@
     },
     {
      "p": [
-      "Bucht euren Aufenthalt und erhaltet das Passwort für die ASCON Guide App nach der Buchung. Prüft eure Termine bei Airbnb oder Trip.com oder fragt uns per WhatsApp oder Zalo."
+      "Bucht euren Aufenthalt und plant eure Tage mit der kostenlosen ASCON Guide App. Prüft eure Termine bei Airbnb oder Trip.com oder fragt uns per WhatsApp oder Zalo."
      ],
      "cta": true
     }
@@ -2187,9 +2219,9 @@
   },
   "guide-app": {
    "title": "ASCON Guide App: Vietnam Reise-App für Saigon | ASCON",
-   "description": "Unsere passwortgeschützte Gäste-App für Ho-Chi-Minh-Stadt: Orte nahe dem Haus, Fahrzeiten, Routen, Karte und praktische Tipps. Passwort nach Buchung.",
+   "description": "Unsere kostenlose Guide-App für Ho-Chi-Minh-Stadt: Orte nahe dem Haus, Routen, Karte und praktische Tipps. Ohne Passwort, ohne Installation.",
    "h1": "Die ASCON Guide App: euer Reiseführer für Saigon in der Tasche",
-   "lead": "Ein Gäste-Guide, der sich im Browser eures Handys öffnet und zeigt, was rund ums Haus liegt und wie ihr hinkommt. Exklusiv für ASCON LIVING Gäste; das Passwort bekommt ihr nach der Buchung.",
+   "lead": "Ein Gäste-Guide, der sich im Browser eures Handys öffnet und zeigt, was rund ums Haus liegt und wie ihr hinkommt. Er ist kostenlos und braucht kein Passwort.",
    "sections": [
     {
      "h2": "Ganz einfach von A nach B",
@@ -2240,11 +2272,11 @@
     {
      "h2": "Zehn Sprachen, installierbar",
      "p": [
-      "Die App gibt es auf Deutsch, Englisch, Vietnamesisch, Chinesisch, Koreanisch, Japanisch, Französisch, Spanisch, Portugiesisch und Arabisch. Legt sie auf den Startbildschirm: Einmal geöffnet, speichert sie ihre Inhalte auf dem Handy und bleibt auch bei schwacher Verbindung nutzbar. Praktisch auch für Saigon mit Kindern: Die Kategorie „Kinder & Familie“ sammelt Ausflüge mit Kindern. Das Passwort bekommt ihr nach der Buchung, so könnt ihr schon vor der Landung mit der Planung beginnen."
+      "Die App gibt es auf Deutsch, Englisch, Vietnamesisch, Chinesisch, Koreanisch, Japanisch, Französisch, Spanisch, Portugiesisch und Arabisch. Legt sie auf den Startbildschirm: Einmal geöffnet, speichert sie ihre Inhalte auf dem Handy und bleibt auch bei schwacher Verbindung nutzbar. Praktisch auch für Saigon mit Kindern: Die Kategorie „Kinder & Familie“ sammelt Ausflüge mit Kindern. Sie ist kostenlos, so könnt ihr schon vor der Landung mit der Planung beginnen."
      ]
     },
     {
-     "note": "Exklusiv für ASCON LIVING Gäste: Das Passwort bekommt ihr nach der Buchung.",
+     "note": "Kostenlos, ohne Passwort.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">ASCON Guide App öffnen</a>"
      ]
@@ -2414,7 +2446,7 @@
      "flow": [
       [
        "p",
-       "Dank Self-Check-in per Zahlenschloss kann eure Gruppe jederzeit ankommen, für das Außentor gibt es einen Schlüssel. Ein Flughafentransfer lässt sich mit der Buchung organisieren, praktisch, wenn mehrere Leute mit Gepäck anreisen. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind da, und ein Wäscheservice ist möglich. Es gibt Außenkameras im Eingangsbereich. Restaurants und Streetfood sind in der Nähe, und die ASCON Guide App (Passwort nach der Buchung) hilft euch, Essen, Bars und Aktivitäten zu finden."
+       "Dank Self-Check-in per Zahlenschloss kann eure Gruppe jederzeit ankommen, für das Außentor gibt es einen Schlüssel. Ein Flughafentransfer lässt sich mit der Buchung organisieren, praktisch, wenn mehrere Leute mit Gepäck anreisen. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind da, und ein Wäscheservice ist möglich. Es gibt Außenkameras im Eingangsbereich. Restaurants und Streetfood sind in der Nähe, und die kostenlose ASCON Guide App hilft euch, Essen, Bars und Aktivitäten zu finden."
       ]
      ]
     },
@@ -4748,6 +4780,58 @@
      "p": [
       "Am Fluss wohnen in Saigon? Prüft eure Daten auf Airbnb oder Trip.com, oder schreibt uns auf WhatsApp oder Zalo unter +84 909 410 382."
      ],
+     "cta": true
+    }
+   ]
+  },
+  "travel-guide": {
+   "title": "Kostenlose Reiseführer-App für Ho-Chi-Minh-Stadt | ASCON",
+   "description": "Die kostenlose ASCON Reiseführer-App: lokale Tipps, Restaurants, Ausflugsziele, Karte und praktische Hilfe für Ho-Chi-Minh-Stadt. Direkt im Handy-Browser.",
+   "h1": "Kostenlose Reiseführer-App für Ho-Chi-Minh-Stadt",
+   "lead": "Der ASCON Guide ist eine kostenlose Web-App mit lokalen Tipps und Orten rund um Ho-Chi-Minh-Stadt. Er öffnet sich direkt im Browser eures Handys: kein Passwort, keine Installation.",
+   "sections": [
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Reiseführer-App öffnen</a>"
+     ]
+    },
+    {
+     "h2": "Ein Blick in die App",
+     "p": [
+      "Das sind echte Screenshots der App auf dem Handy."
+     ],
+     "imgs": [
+      [
+       "tg-welcome",
+       "Startbildschirm mit Logo und Motto von ASCON LIVING"
+      ],
+      [
+       "tg-picker",
+       "Sprachauswahl: Die App gibt es in zehn Sprachen"
+      ],
+      [
+       "tg-categories",
+       "Kategorien: Essen, Cafés, Bars, Ausflüge mit Kindern und mehr"
+      ],
+      [
+       "tg-map",
+       "Karte mit Orten rund ums Haus"
+      ],
+      [
+       "tg-practical",
+       "Praktische Infos und Hilfe im Notfall"
+      ]
+     ]
+    },
+    {
+     "h2": "Lokale Tipps und Orte",
+     "p": [
+      "Die Orte sind in übersichtliche Kategorien sortiert: Essen, Cafés und Desserts, Bars und Nachtleben, Kinder und Familie, Sehenswürdigkeiten und Kultur, Aktivitäten, Entspannung, Shopping, Tagesausflüge sowie praktische Infos und Notfall. Die Karte zeigt die Orte rund ums Haus, und ein Tipp auf Route öffnet die Wegbeschreibung.",
+      "Ihr könnt die App auf den Startbildschirm legen. Weitere Ideen für euren Aufenthalt findet ihr in unserem <a href=\"{L}guide/\">Reiseführer für Ho-Chi-Minh-Stadt</a>.",
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Reiseführer-App öffnen</a>"
+     ]
+    },
+    {
      "cta": true
     }
    ]
