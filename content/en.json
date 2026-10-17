@@ -236,7 +236,7 @@
       ],
       [
        "p",
-       "Your safety matters. Cameras are installed outdoors only, never inside the house."
+       "There are outdoor cameras at the entrance."
       ],
       [
        "table",
@@ -663,11 +663,11 @@
      ]
     },
     {
-     "h2": "Arrival, entrance and safety",
+     "h2": "Arrival and entrance",
      "p": [
       "Arriving after a long flight should be simple, and it is. Check-in is self check-in with a keypad lock, so there is no waiting for someone to hand over keys and no stress if your flight lands late. You also receive a key for the outer gate. If you'd rather not deal with taxis at all, an airport transfer can be arranged together with your booking.",
       "Inside, the entrance and staircase connect the three floors and lead all the way up to the rooftop terrace. A hallway leads to the bedroom doors, giving each room a little privacy from the shared spaces.",
-      "Your safety is taken seriously. Cameras are installed outdoors only, never inside the house, so your privacy stays intact. There is also a safe for valuables, and loud music only until 21:30 keeps things friendly with the neighbours."
+      "There are outdoor cameras at the entrance. There is also a safe for valuables, and loud music only until 21:30 keeps things friendly with the neighbours."
      ],
      "imgs": [
       [
@@ -724,8 +724,8 @@
        "Self check-in with keypad lock, key for the outer gate"
       ],
       [
-       "Safety",
-       "Cameras outdoors only, none inside the house"
+       "Cameras",
+       "Outdoor cameras at the entrance"
       ],
       [
        "Services",
@@ -1173,11 +1173,11 @@
      ]
     },
     {
-     "h2": "Safe, simple and stress-free",
+     "h2": "Simple and stress-free",
      "flow": [
       [
        "p",
-       "Cameras are installed outdoors only, never inside. The house has a safe for passports and valuables. Self check-in with a keypad means you can arrive whenever your flight lands, and you receive a key for the outer gate."
+       "There are outdoor cameras at the entrance. The house has a safe for passports and valuables. Self check-in with a keypad means you can arrive whenever your flight lands, and you receive a key for the outer gate."
       ],
       [
        "h3",
@@ -1708,7 +1708,7 @@
      ]
     },
     {
-     "h2": "Safety and house rules",
+     "h2": "Valuables, cameras and house rules",
      "flow": [
       [
        "table",
@@ -1748,8 +1748,8 @@
      ],
      "faq": [
       [
-       "Is the house safe?",
-       "There is a safe for valuables, and cameras outdoors only, never inside the house."
+       "Is there a safe, and are there cameras?",
+       "There is a safe for valuables, and there are outdoor cameras at the entrance."
       ],
       [
        "Is there a rule for loud music?",
@@ -1849,11 +1849,11 @@
      ]
     },
     {
-     "h2": "Safety",
+     "h2": "Cameras",
      "flow": [
       [
        "p",
-       "Cameras are installed outdoors only, never inside the house. If anything is not working or you need help, message us on WhatsApp or Zalo."
+       "There are outdoor cameras at the entrance. If anything is not working or you need help, message us on WhatsApp or Zalo."
       ],
       [
        "table",
@@ -2413,7 +2413,7 @@
      "flow": [
       [
        "p",
-       "Self check-in with a keypad means your group can arrive at any time, with a key for the outer gate. An airport transfer can be arranged with your booking, which helps when several people arrive with luggage. Fresh bedding, towels, toiletries, slippers and hot water are ready, and a laundry service is available. Cameras are outdoors only. Restaurants and street food are nearby, and the ASCON Guide App (password after booking) helps you find food, bars and things to do."
+       "Self check-in with a keypad means your group can arrive at any time, with a key for the outer gate. An airport transfer can be arranged with your booking, which helps when several people arrive with luggage. Fresh bedding, towels, toiletries, slippers and hot water are ready, and a laundry service is available. There are outdoor cameras at the entrance. Restaurants and street food are nearby, and the ASCON Guide App (password after booking) helps you find food, bars and things to do."
       ]
      ]
     },
@@ -3073,6 +3073,14 @@
          ],
          [
           "Air fryer and toaster",
+          "Yes"
+         ],
+         [
+          "Dishwasher",
+          "Yes"
+         ],
+         [
+          "Coffee machine",
           "Yes"
          ],
          [
@@ -4605,7 +4613,7 @@
          ],
          [
           "Outdoor cameras",
-          "With motion detection and lights"
+          "At the entrance"
          ]
         ]
        }
@@ -4686,7 +4694,7 @@
      "flow": [
       [
        "p",
-       "Outdoor cameras with motion detection and lights watch the outside of the house. They add to the safety of the house when you come back late from the city."
+       "There are outdoor cameras at the entrance."
       ]
      ]
     },

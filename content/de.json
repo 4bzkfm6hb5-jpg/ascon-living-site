@@ -237,7 +237,7 @@
       ],
       [
        "p",
-       "Eure Sicherheit ist uns wichtig. Kameras sind ausschließlich außen angebracht, niemals im Haus."
+       "Es gibt Außenkameras im Eingangsbereich."
       ],
       [
        "table",
@@ -664,11 +664,11 @@
      ]
     },
     {
-     "h2": "Ankunft, Eingang und Sicherheit",
+     "h2": "Ankunft und Eingang",
      "p": [
       "Nach einem langen Flug soll die Ankunft einfach sein, und das ist sie. Ihr checkt selbst per Zahlenschloss ein, ohne auf eine Schlüsselübergabe zu warten und ohne Stress, falls euer Flug spät landet. Für das Außentor bekommt ihr zusätzlich einen Schlüssel. Wer sich nicht um ein Taxi kümmern möchte, kann mit der Buchung einen Flughafentransfer organisieren.",
       "Im Haus verbinden Eingang und Treppe die drei Etagen und führen bis hinauf zur Dachterrasse. Ein Flur führt zu den Schlafzimmertüren und gibt jedem Zimmer etwas Abstand zu den Gemeinschaftsräumen.",
-      "Eure Sicherheit nehmen wir ernst. Kameras sind ausschließlich außen angebracht, niemals im Haus, eure Privatsphäre bleibt also gewahrt. Für Wertsachen steht ein Safe bereit, und laute Musik nur bis 21:30 Uhr sorgt für ein gutes Verhältnis zu den Nachbarn."
+      "Es gibt Außenkameras im Eingangsbereich. Für Wertsachen steht ein Safe bereit, und laute Musik nur bis 21:30 Uhr sorgt für ein gutes Verhältnis zu den Nachbarn."
      ],
      "imgs": [
       [
@@ -725,8 +725,8 @@
        "Self-Check-in per Zahlenschloss, Schlüssel für das Außentor"
       ],
       [
-       "Sicherheit",
-       "Kameras nur außen, keine im Haus"
+       "Kameras",
+       "Außenkameras im Eingangsbereich"
       ],
       [
        "Service",
@@ -1174,11 +1174,11 @@
      ]
     },
     {
-     "h2": "Sicher, einfach und ohne Stress",
+     "h2": "Einfach und ohne Stress",
      "flow": [
       [
        "p",
-       "Kameras sind nur außen angebracht, niemals im Haus. Für Pässe und Wertsachen gibt es einen Safe. Dank Self-Check-in per Zahlenschloss könnt ihr ankommen, wann immer euer Flug landet, und für das Außentor bekommt ihr einen Schlüssel."
+       "Es gibt Außenkameras im Eingangsbereich. Für Pässe und Wertsachen gibt es einen Safe. Dank Self-Check-in per Zahlenschloss könnt ihr ankommen, wann immer euer Flug landet, und für das Außentor bekommt ihr einen Schlüssel."
       ],
       [
        "h3",
@@ -1709,7 +1709,7 @@
      ]
     },
     {
-     "h2": "Sicherheit und Hausregeln",
+     "h2": "Wertsachen, Kameras und Hausregeln",
      "flow": [
       [
        "table",
@@ -1749,8 +1749,8 @@
      ],
      "faq": [
       [
-       "Ist das Haus sicher?",
-       "Es gibt einen Safe für Wertsachen und Kameras nur außen, niemals im Haus."
+       "Gibt es einen Safe und Kameras?",
+       "Es gibt einen Safe für Wertsachen und Außenkameras im Eingangsbereich."
       ],
       [
        "Gibt es eine Regel für laute Musik?",
@@ -1850,11 +1850,11 @@
      ]
     },
     {
-     "h2": "Sicherheit",
+     "h2": "Kameras",
      "flow": [
       [
        "p",
-       "Kameras sind ausschließlich außen angebracht, niemals im Haus. Wenn etwas nicht funktioniert oder ihr Hilfe braucht, schreibt uns per WhatsApp oder Zalo."
+       "Es gibt Außenkameras im Eingangsbereich. Wenn etwas nicht funktioniert oder ihr Hilfe braucht, schreibt uns per WhatsApp oder Zalo."
       ],
       [
        "table",
@@ -2414,7 +2414,7 @@
      "flow": [
       [
        "p",
-       "Dank Self-Check-in per Zahlenschloss kann eure Gruppe jederzeit ankommen, für das Außentor gibt es einen Schlüssel. Ein Flughafentransfer lässt sich mit der Buchung organisieren, praktisch, wenn mehrere Leute mit Gepäck anreisen. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind da, und ein Wäscheservice ist möglich. Kameras sind nur außen angebracht. Restaurants und Streetfood sind in der Nähe, und die ASCON Guide App (Passwort nach der Buchung) hilft euch, Essen, Bars und Aktivitäten zu finden."
+       "Dank Self-Check-in per Zahlenschloss kann eure Gruppe jederzeit ankommen, für das Außentor gibt es einen Schlüssel. Ein Flughafentransfer lässt sich mit der Buchung organisieren, praktisch, wenn mehrere Leute mit Gepäck anreisen. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind da, und ein Wäscheservice ist möglich. Es gibt Außenkameras im Eingangsbereich. Restaurants und Streetfood sind in der Nähe, und die ASCON Guide App (Passwort nach der Buchung) hilft euch, Essen, Bars und Aktivitäten zu finden."
       ]
      ]
     },
@@ -3082,6 +3082,14 @@
          ],
          [
           "Heißluftfritteuse und Toaster",
+          "Ja"
+         ],
+         [
+          "Geschirrspüler",
+          "Ja"
+         ],
+         [
+          "Kaffeemaschine",
           "Ja"
          ],
          [
@@ -4638,7 +4646,7 @@
          ],
          [
           "Außenkameras",
-          "Mit Bewegungserkennung und Licht"
+          "Im Eingangsbereich"
          ]
         ]
        }
@@ -4719,7 +4727,7 @@
      "flow": [
       [
        "p",
-       "Außenkameras mit Bewegungserkennung und Licht überwachen die Außenseite des Hauses. Sie tragen zur Sicherheit bei, wenn ihr spät aus der Stadt zurückkommt."
+       "Es gibt Außenkameras im Eingangsbereich."
       ]
      ]
     },
