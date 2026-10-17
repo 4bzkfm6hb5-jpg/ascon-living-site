@@ -3,7 +3,7 @@
 import json, os, html, shutil, datetime
 ROOT=os.path.dirname(os.path.abspath(__file__)); OUT=os.path.join(ROOT,'docs')
 SITE='https://4bzkfm6hb5-jpg.github.io/ascon-living-site'; BASE='/ascon-living-site'
-PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','families-groups/'),
+PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','families/'),('groups','groups/'),
 ('location','location/'),('booking','booking/'),('faq','faq/'),('rules','house-rules/'),('guide','guide/'),
 ('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),
 ('imprint','imprint/'),('privacy','privacy/')]
@@ -13,6 +13,7 @@ LANGS=json.load(open(f'{ROOT}/languages.json'))
 CSS=open(f'{ROOT}/tools/style.css').read().replace('\n','')
 PUB=[l for l in LANGS if os.path.exists(f'{ROOT}/content/{l[0]}.json')]
 C={l[0]:json.load(open(f'{ROOT}/content/{l[0]}.json')) for l in PUB}
+def HAS(pid): return [x for x in PUB if pid in C[x[0]]['pages']]
 TODAY=datetime.date.today().isoformat()
 WA_SVG='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.7-.5z"/></svg>'
 def url(code,pid): return f'{BASE}/{code}/{SLUG[pid]}'
@@ -32,8 +33,12 @@ def section(s,code,u):
     if 'h2' in s: o.append(f'<h2>{html.escape(s["h2"])}</h2>')
     if 'note' in s: o.append(f'<p class="note">{sub(s["note"],code)}</p>')
     for p in s.get('p',[]): o.append(f'<p>{sub(p,code)}</p>')
+    for bl in s.get('blocks',[]):
+        if bl.get('h3'): o.append(f'<h3>{html.escape(bl["h3"])}</h3>')
+        for p in bl.get('p',[]): o.append(f'<p>{sub(p,code)}</p>')
     if 'ul' in s: o.append('<ul class="chk">'+''.join(f'<li>{sub(x,code)}</li>' for x in s['ul'])+'</ul>')
-    if 'imgs' in s: o.append('<div class="grid">'+''.join(f'<figure>{pic(n+"@"+code if n+"@"+code in IMG else n,a)}<figcaption>{html.escape(a)}</figcaption></figure>' for n,a in s['imgs'])+'</div>')
+    if 'table' in s: o.append('<div class="tbl"><table>'+''.join(f'<tr><th scope="row">{html.escape(k)}</th><td>{sub(v,code)}</td></tr>' for k,v in s['table'])+'</table></div>'+(f'<p class="note">{html.escape(s["table_note"])}</p>' if s.get('table_note') else ''))
+    if 'imgs' in s: o.append('<div class="grid">'+''.join(f'<figure>{pic(i[0]+"@"+code if i[0]+"@"+code in IMG else i[0],i[1])}<figcaption>{html.escape(i[2] if len(i)>2 and i[2] else i[1])}</figcaption></figure>' for i in s['imgs'])+'</div>')
     if 'faq' in s: o.append('<div class="faq">'+''.join(f'<details><summary>{html.escape(q)}</summary><p>{sub(a,code)}</p></details>' for q,a in s['faq'])+'</div>')
     if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'])+'</div>')
     if s.get('cta'): o.append(cta(u))
@@ -47,11 +52,11 @@ def lodging(code,c):
       "knowsLanguage":F['languages'],"sameAs":[F['airbnb'],F['trip']],
       "contactPoint":[{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"email":F['email'],"url":F['wa']},{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"url":F['zalo']}],
       "amenityFeature":[{"@type":"LocationFeatureSpecification","name":a,"value":True} for a in F['amenities']],
-      "containsPlace":{"@type":"House","name":F['name']+" – entire house","numberOfBedrooms":F['rooms']}}
+      "containsPlace":{"@type":"House","name":F['name']+" – entire house","numberOfRooms":F['rooms'],"numberOfBedrooms":F['rooms'],"numberOfFullBathrooms":F['bathrooms_full'],"numberOfPartialBathrooms":F['bathrooms_partial'],"floorSize":{"@type":"QuantitativeValue","minValue":F['size_m2_min'],"unitCode":"MTK"},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":a,"value":True} for a in F['amenities']]}}
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
     title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
-    alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in PUB)+f'<link rel="alternate" hreflang="x-default" href="{SITE}/en/{SLUG[pid]}">'
+    alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in HAS(pid))+f'<link rel="alternate" hreflang="x-default" href="{SITE}/en/{SLUG[pid]}">'
     fontlink=''; css=CSS
     if font:
         fontlink=f'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={font.replace(" ","+")}:wght@400;600&display=swap" media="print" onload="this.media=&#39;all&#39;">'
@@ -68,7 +73,7 @@ def page(l,pid):
     ldh=''.join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False).replace('</','<\\/')+'</script>' for x in ld)
     navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else '')
     nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(v)}</a>' for k,v in c['nav'])
-    picker='<details class="lang"><summary>🌐 '+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid]}" hreflang="{x[1]}" lang="{x[1]}">{x[2]}</a></li>' for x in PUB)+'</ul></details>'
+    picker='<details class="lang"><summary>🌐 '+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid] if pid in C[x[0]]["pages"] else ""}" hreflang="{x[1]}" lang="{x[1]}">{x[2]}</a></li>' for x in PUB)+'</ul></details>'
     lm=IMG['logo-mark']; lf=IMG['logo-full']
     if pid=='home':
         top=(f'<div class="hero">{pic(p["hero"][0],p["hero"][1],True,"100vw")}<div class="in"><h1>{html.escape(p["h1"])}</h1>'
@@ -89,18 +94,20 @@ def page(l,pid):
 <a class="fab" href="{F['wa']}" rel="noopener" aria-label="{u['whatsapp']}">{WA_SVG}</a></body></html>'''
 def main():
     for code,*_ in LANGS: shutil.rmtree(f'{OUT}/{code}',ignore_errors=True)
-    errs=[f'{l[0]}/{pid}: title {len(C[l[0]]["pages"][pid]["title"]+C[l[0]].get("title_suffix",""))} / desc {len(C[l[0]]["pages"][pid]["description"])}' for l in PUB for pid,_ in PAGES if len(C[l[0]]['pages'][pid]['title']+C[l[0]].get('title_suffix',''))>60 or len(C[l[0]]['pages'][pid]['description'])>160]
+    errs=[f'{l[0]}/{pid}: title {len(C[l[0]]["pages"][pid]["title"]+C[l[0]].get("title_suffix",""))} / desc {len(C[l[0]]["pages"][pid]["description"])}' for l in PUB for pid,_ in PAGES if pid in C[l[0]]['pages'] and (len(C[l[0]]['pages'][pid]['title']+C[l[0]].get('title_suffix',''))>60 or len(C[l[0]]['pages'][pid]['description'])>160)]
     if errs: raise SystemExit('SEO length errors:\n'+'\n'.join(errs))
     urls=[]
     for l in PUB:
         for pid,slug in PAGES:
+            if pid not in C[l[0]]['pages']: continue
             d=f'{OUT}/{l[0]}/{slug}'; os.makedirs(d,exist_ok=True)
             open(f'{d}index.html','w').write(page(l,pid)); urls.append((pid,slug))
     # sitemap with hreflang alternates (published languages only)
     sm=['<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for l in PUB:
         for pid,slug in PAGES:
-            alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in PUB)+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/en/{slug}"/>'
+            if pid not in C[l[0]]['pages']: continue
+            alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in HAS(pid))+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/en/{slug}"/>'
             sm.append(f'<url><loc>{SITE}/{l[0]}/{slug}</loc><lastmod>{TODAY}</lastmod>{alts}</url>')
     sm.append('</urlset>'); open(f'{OUT}/sitemap.xml','w').write('\n'.join(sm))
     open(f'{OUT}/robots.txt','w').write(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')

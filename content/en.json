@@ -35,7 +35,11 @@
   ],
   [
    "families",
-   "Families & Groups"
+   "Families"
+  ],
+  [
+   "groups",
+   "Groups"
   ],
   [
    "location",
@@ -63,7 +67,7 @@
    "title": "Ho Chi Minh Villa: Entire Riverside House | ASCON LIVING",
    "description": "Rent the entire ASCON LIVING riverside house near Phú Mỹ Hưng, Ho Chi Minh City: 3 bedrooms, rooftop terrace, BBQ and karaoke.",
    "h1": "Ho Chi Minh villa: the entire riverside house, just for your group",
-   "lead": "ASCON LIVING is a private riverside house in Tân Hưng near Phú Mỹ Hưng (former District 7) with 3 bedrooms and a rooftop terrace overlooking the river and skyline.",
+   "lead": "ASCON LIVING is a private riverside house in a quieter residential area of District 7 (Tân Hưng), Ho Chi Minh City: three floors, 3 bedrooms with en-suite bathrooms and a rooftop terrace overlooking the river and the District 1 skyline.",
    "hero": [
     "hero",
     "Rooftop terrace with river view and Ho Chi Minh City skyline"
@@ -72,7 +76,7 @@
     {
      "h2": "A Saigon homestay with the whole house to yourselves",
      "p": [
-      "You book the entire house: three bedrooms with double beds, bathrooms, three balconies, a living room, a full kitchen, an entertainment room and a rooftop terrace overlooking the river. There is no front desk and no shared space."
+      "You book the entire house for exclusive use: over 250 m² across three floors, 3 bedrooms each with its own bathroom and air conditioning, a guest WC, a living room, a private kitchen, an entertainment room and a rooftop terrace. As family accommodation District 7 guests have everything under one roof – no front desk and no shared spaces."
      ],
      "imgs": [
       [
@@ -92,12 +96,12 @@
     {
      "h2": "Highlights",
      "ul": [
-      "Entire house with 3 bedrooms, no shared spaces",
-      "3 bedrooms with double beds, 3 balconies",
-      "Rooftop terrace with river and skyline view, BBQ",
-      "Entertainment room with karaoke, projector and PlayStation",
-      "Fully equipped kitchen with dishwasher, oven and coffee machine",
-      "Self check-in with keypad, check-in 14:00–23:00",
+      "Entire private house, exclusive use – 3 floors, over 250 m²",
+      "3 bedrooms (180×200 cm and 2 × 160×200 cm beds), each with en-suite bathroom and own AC",
+      "Rooftop terrace (approx. 56–60 m²) with BBQ, smoker and river view",
+      "Entertainment room with karaoke, 4K projector and PlayStation",
+      "Fibre Wi-Fi up to 1 Gbit/s with mesh on every floor",
+      "Self check-in with smart lock, check-in 14:00–23:00",
       "Hosts speak German, English, Hindi, Punjabi, Urdu and Vietnamese"
      ]
     },
@@ -122,7 +126,7 @@
       [
        "Booking & Contact",
        "booking",
-       "Airbnb, Trip.com or WhatsApp."
+       "Airbnb, Trip.com, WhatsApp or Zalo."
       ]
      ]
     },
@@ -133,14 +137,14 @@
   },
   "house": {
    "title": "The House: 3 bedrooms | ASCON LIVING",
-   "description": "Inside ASCON LIVING: house with river view in Ho Chi Minh City – 3 bedrooms, kitchen and karaoke room.",
+   "description": "Inside ASCON LIVING: house with river view in District 7 – 3 bedrooms with en-suite bathrooms, 250+ m², karaoke, PlayStation and rooftop BBQ.",
    "h1": "The house: an entire villa in Ho Chi Minh City",
-   "lead": "The entire house, is for your group only.",
+   "lead": "The entire private house is yours alone: three floors plus a rooftop terrace and over 250 m² of living space in a quieter residential area of District 7. Modern, minimalist and calm, with wabi-sabi influences.",
    "sections": [
     {
      "h2": "Living Room",
      "p": [
-      "Start the day or wind down in a bright living room with a large L-shaped sofa, TV and big windows facing the greenery – enough seating for the whole group."
+      "Around 40 m² to gather in: a large L-shaped sofa, a 75-inch 4K TV and big windows facing the greenery. The air-conditioned living room is designed in grey, white, greige and black, and a guest WC is right next to it."
      ],
      "imgs": [
       [
@@ -164,7 +168,7 @@
     {
      "h2": "Kitchen & Dining",
      "p": [
-      "Cook together in a fully equipped kitchen with fridge, dishwasher, oven, stove, microwave, coffee machine, kettle and rice cooker, then sit down at one table for shared meals."
+      "A private kitchen with fridge (approx. 540 litres), dishwasher, oven, stove, microwave, coffee machine, kettle and rice cooker – well suited to self-catering and longer stays – plus one table for shared meals."
      ],
      "imgs": [
       [
@@ -193,7 +197,7 @@
       ],
       [
        "kitchen-fridge",
-       "Side-by-side fridge in the kitchen"
+       "Large side-by-side fridge (approx. 540 litres) in the kitchen"
       ],
       [
        "kitchen-dining",
@@ -204,12 +208,12 @@
     {
      "h2": "Bedroom 1",
      "p": [
-      "A calm retreat with a double bed, air conditioning and its own vanity corner."
+      "The master bedroom, approx. 55 m²: a 180×200 cm bed, 55-inch 4K TV, private balcony, its own air conditioning and an en-suite bathroom."
      ],
      "imgs": [
       [
        "bed1",
-       "Bedroom 1 with double bed"
+       "Master bedroom with 180×200 cm bed"
       ],
       [
        "bed1-3",
@@ -224,12 +228,12 @@
     {
      "h2": "Bedroom 2",
      "p": [
-      "Double bed, air conditioning and a TV – comfortable for a quiet evening in your own room."
+      "A 160×200 cm bed, smart TV, its own air conditioning and an en-suite bathroom – a comfortable room for a quiet evening."
      ],
      "imgs": [
       [
        "bed2",
-       "Bedroom 2 with double bed"
+       "Bedroom 2 with 160×200 cm bed"
       ],
       [
        "bed2-2",
@@ -244,12 +248,12 @@
     {
      "h2": "Bedroom 3",
      "p": [
-      "Double bed, air conditioning and a TV, with fresh towels and bed linen provided."
+      "A 160×200 cm bed, smart TV, its own air conditioning and an en-suite bathroom. This is an interior room with no window – quiet and dark for sleeping."
      ],
      "imgs": [
       [
        "bed3",
-       "Bedroom 3 with double bed"
+       "Bedroom 3 with 160×200 cm bed"
       ],
       [
        "bed3-2",
@@ -264,7 +268,7 @@
     {
      "h2": "Bathrooms",
      "p": [
-      "Bathrooms with rain showers, towels and hair dryers mean no queueing in the morning, even with a full house. Handrails are installed."
+      "Each of the 3 bedrooms has its own en-suite bathroom, and there is an extra guest WC in the living area – so nobody has to queue in the morning. Rain showers, towels, hair dryers and handrails are provided."
      ],
      "imgs": [
       [
@@ -296,7 +300,7 @@
     {
      "h2": "Entertainment Room",
      "p": [
-      "A separate room for evenings together – a villa with karaoke: sing, watch a film on the projector screen or play on the PlayStation."
+      "A separate room for evenings together – a villa with karaoke: sing, watch films on the 4K projector home cinema or play on the PlayStation with PlayStation Plus. The 4K smart TVs have Netflix (streaming depends on the available account and content)."
      ],
      "imgs": [
       [
@@ -328,7 +332,7 @@
     {
      "h2": "Rooftop & River View",
      "p": [
-      "Terrace with a lounge, outdoor dining area and BBQ grill, plus views across the river and the skyline – a house with river view from the top floor and three balconies."
+      "Approx. 56–60 m² on the top floor: BBQ and smoker, an outdoor lounge sofa with cushions and padded stools, plants and solar lights – with a direct view of the river and the District 1 skyline. A house with river view, from breakfast to sunset."
      ],
      "imgs": [
       [
@@ -376,7 +380,7 @@
     {
      "h2": "Entrance & Hallway",
      "p": [
-      "Self check-in via keypad: the front door opens with your personal code, while the outer gate uses a key that the host hands over or arranges with you before arrival. Inside, stairs with handrails connect the floors."
+      "Self check-in with a smart lock: the front door opens with your personal keypad code, while the outer gate uses a key that the host hands over or arranges with you before arrival. Inside, stairs with handrails connect the three floors."
      ],
      "imgs": [
       [
@@ -394,15 +398,63 @@
      ]
     },
     {
-     "h2": "Amenities",
-     "ul": [
-      "Air conditioning and fans",
-      "Wi-Fi",
-      "Washing machine and iron",
-      "Safe",
-      "Smoke detector, fire extinguisher, first-aid kit",
-      "Self check-in via keypad (the outer gate uses a key)",
-      "BBQ on the rooftop"
+     "h2": "Amenities at a glance",
+     "table": [
+      [
+       "House",
+       "Entire private house, exclusive use · 3 floors + rooftop terrace · over 250 m² living space"
+      ],
+      [
+       "Bedrooms",
+       "3 bedrooms, 3 beds (1 × 180×200 cm, 2 × 160×200 cm), each with its own air conditioning"
+      ],
+      [
+       "Bathrooms",
+       "3 en-suite bathrooms + guest WC in the living area"
+      ],
+      [
+       "Living room",
+       "Approx. 40 m², large L-shaped sofa, 75-inch 4K TV"
+      ],
+      [
+       "Entertainment",
+       "PlayStation with PlayStation Plus, 4K projector home cinema, karaoke, 4K smart TVs with Netflix*"
+      ],
+      [
+       "Kitchen",
+       "Private kitchen, fridge approx. 540 litres"
+      ],
+      [
+       "Air conditioning",
+       "4 air conditioners covering living and sleeping areas"
+      ],
+      [
+       "Internet",
+       "Fibre up to 1 Gbit/s down / 300 Mbit/s up (plan), mesh Wi-Fi on all three floors**"
+      ],
+      [
+       "Rooftop",
+       "Approx. 56–60 m², BBQ and smoker, lounge, river and District 1 skyline view"
+      ],
+      [
+       "Laundry",
+       "Washing machine and iron"
+      ],
+      [
+       "Access",
+       "Smart lock self check-in (keypad); outer gate key from the host"
+      ],
+      [
+       "Safety",
+       "Exterior cameras with motion detection, fire alarm, emergency equipment, first-aid kit on every floor"
+      ]
+     ],
+     "table_note": "* Streaming depends on the available account and content. ** Actual speed depends on device and network load – fine for video calls, streaming, gaming and remote work."
+    },
+    {
+     "h2": "Who the house suits",
+     "p": [
+      "Families get space to spread out and a kitchen for their own meals; groups of friends enjoy the karaoke room and rooftop BBQ; remote workers and longer stays benefit from fast fibre Wi-Fi and the large kitchen; and couples who want privacy have the whole house to themselves."
      ]
     },
     {
@@ -414,7 +466,7 @@
    "title": "Rooftop Terrace, River & Skyline View | ASCON LIVING",
    "description": "The private rooftop terrace of ASCON LIVING in Ho Chi Minh City: outdoor lounge, dining area, BBQ, river and skyline views by day and night.",
    "h1": "Rooftop terrace with river and skyline view",
-   "lead": "The rooftop terrace has an outdoor lounge, a dining area and a BBQ grill.",
+   "lead": "The private rooftop terrace has an outdoor lounge, a dining area, BBQ and smoker.",
    "sections": [
     {
      "h2": "The terrace",
@@ -431,6 +483,9 @@
        "roof-bbq",
        "BBQ grill on the rooftop"
       ]
+     ],
+     "p": [
+      "Approx. 56–60 m² with BBQ and smoker, an outdoor lounge sofa with cushions and padded stools, plants and solar lights – and a direct view of the river and the District 1 skyline."
      ]
     },
     {
@@ -460,19 +515,20 @@
    ]
   },
   "families": {
-   "title": "Entire House in HCMC for Families & Groups | ASCON LIVING",
-   "description": "Group and family stay in Ho Chi Minh City: entire house with 3 bedrooms, kitchen, karaoke, projector and rooftop BBQ.",
-   "h1": "Entire house in Ho Chi Minh City for families and groups",
-   "lead": "Family accommodation, District 7 (Tân Hưng): the whole house is yours, laid out for families and groups of friends.",
+   "title": "Family Accommodation District 7 | ASCON LIVING",
+   "description": "Family accommodation District 7, Ho Chi Minh City: entire private house, 3 bedrooms with en-suite bathrooms, private kitchen and rooftop terrace.",
+   "h1": "Family accommodation District 7: the entire house for your family",
+   "lead": "Looking for family accommodation District 7? The whole house is yours – space for families, groups of friends, remote workers on longer stays and couples.",
    "sections": [
     {
-     "h2": "Why groups choose a whole house",
+     "h2": "What families get",
      "ul": [
-      "3 bedrooms, each with a double bed",
-      "Bathrooms",
-      "Full kitchen with rice cooker, oven and dishwasher for home cooking",
-      "Entertainment room with karaoke, projector, TV and PlayStation",
-      "Rooftop terrace with BBQ",
+      "3 bedrooms, each with en-suite bathroom and its own air conditioning",
+      "Extra guest WC in the living area",
+      "Private kitchen with a large fridge (approx. 540 litres) for home cooking",
+      "Entertainment room with karaoke, 4K projector, TV and PlayStation",
+      "Rooftop terrace with BBQ and river view",
+      "Fibre Wi-Fi with mesh on all three floors – good for remote work",
       "Washing machine; laundry service on request (30 EUR per load)",
       "Airport transfer on request (50 EUR)",
       "Free luggage storage"
@@ -481,12 +537,12 @@
     {
      "h2": "Good to know",
      "p": [
-      "The house has several floors connected by stairs, with handrails. Safety equipment: smoke detector, fire extinguisher and first-aid kit. Contact us on WhatsApp with specific questions before booking."
+      "The house has three floors connected by stairs with handrails. Safety: exterior cameras with motion detection, fire alarm, emergency equipment and a first-aid kit on every floor. Message us on WhatsApp or Zalo with any questions before booking."
      ],
      "imgs": [
       [
        "kitchen-dining",
-       "Dining table for the whole group"
+       "Dining table for the whole family"
       ],
       [
        "ent-cinema",
@@ -508,7 +564,8 @@
     {
      "h2": "The area",
      "p": [
-      "Since the 2025 administrative reform, District 7 no longer exists as a district; the house is now in Tân Hưng ward. Many people still call the area District 7 (Quận 7). Phú Mỹ Hưng is the planned urban area nearby, with shopping, restaurants and parks."
+      "Since the 2025 administrative reform, District 7 no longer exists as a district; the house is now in Tân Hưng ward. Many people still call the area District 7 (Quận 7). Phú Mỹ Hưng is the planned urban area nearby, with shopping, restaurants and parks.",
+      "District 7 offers plenty of restaurants, street food, beer bars and shopping such as Lotte Mart, while the house itself sits in a quieter residential street."
      ]
     },
     {
@@ -516,8 +573,8 @@
      "note": "All times are rough estimates by car and depend strongly on traffic.",
      "ul": [
       "Tân Sơn Nhất International Airport (SGN): approx. 30–60 min (estimate)",
-      "City centre (former District 1): approx. 15–30 min (estimate)",
-      "Phú Mỹ Hưng: approx. 10–15 min (estimate)"
+      "City centre (former District 1): approx. 12 min by Grab (approximate, traffic-dependent)",
+      "Phú Mỹ Hưng: a short ride by car or Grab, approx. 10–15 min (estimate)"
      ]
     },
     {
@@ -561,15 +618,27 @@
   },
   "faq": {
    "title": "FAQ: Check-in, Rules & Services | ASCON LIVING",
-   "description": "Frequently asked questions about ASCON LIVING: check-in and check-out times, self check-in, number of guests, pets, smoking, airport transfer and laundry.",
+   "description": "Frequently asked questions about ASCON LIVING: check-in and check-out, self check-in, bedrooms and bathrooms, Wi-Fi, location, pets and laundry.",
    "h1": "Frequently asked questions",
    "lead": "Quick answers before you book.",
    "sections": [
     {
      "faq": [
       [
-       "How many bedrooms does the house have?",
-       "The house has 3 bedrooms, each with a double bed."
+       "How many bedrooms and bathrooms are there?",
+       "3 bedrooms with 3 beds (one 180×200 cm, two 160×200 cm). Each bedroom has its own en-suite bathroom and air conditioning, and there is an extra guest WC in the living area."
+      ],
+      [
+       "How fast is the Wi-Fi?",
+       "Fibre with up to 1 Gbit/s down and 300 Mbit/s up on the plan, with mesh Wi-Fi across all three floors. Actual speed depends on your device and network load; it is suitable for video calls, streaming, gaming and remote work."
+      ],
+      [
+       "How far is the city centre?",
+       "Approx. 12 minutes by Grab towards the centre (former District 1), depending on traffic."
+      ],
+      [
+       "Is the house safe?",
+       "There are exterior cameras with motion detection, a fire alarm, emergency equipment and a first-aid kit on every floor. Entry is via smart lock."
       ],
       [
        "What are the check-in and check-out times?",
@@ -613,18 +682,19 @@
   },
   "rules": {
    "title": "House Rules | ASCON LIVING Entire House Ho Chi Minh City",
-   "description": "House rules of ASCON LIVING: check-in 14:00–23:00, check-out by 12:00, no pets, smoking only in designated areas.",
+   "description": "House rules of ASCON LIVING: check-in 14:00–23:00, check-out by 12:00, no smoking indoors, quiet from 21:30, no parties, no pets.",
    "h1": "House rules",
    "lead": "A few simple rules so every group enjoys the house.",
    "sections": [
     {
      "ul": [
       "Check-in 14:00–23:00, check-out by 12:00",
-      "Quiet hours in the evening, out of respect for the neighbours",
+      "No smoking indoors; smoking only in designated outdoor areas",
+      "Loud music only until 21:30, quiet after that",
+      "No parties or events",
+      "Only registered guests may stay; guest registration takes place at check-in",
       "No pets",
-      "Smoking only in designated areas",
-      "Please treat the house and neighbours with respect",
-      "Please close the gate and use the keypad as instructed"
+      "Please close the outer gate and use the keypad as instructed"
      ]
     }
    ]
@@ -803,6 +873,48 @@
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open the ASCON Guide app</a>"
      ]
+    }
+   ]
+  },
+  "groups": {
+   "title": "Whole House Rental Ho Chi Minh | ASCON LIVING",
+   "description": "Whole house rental in Ho Chi Minh City for groups of friends: 3 bedrooms with en-suite bathrooms, karaoke, PlayStation, rooftop BBQ with river view.",
+   "h1": "Whole house rental Ho Chi Minh: the entire house for your group",
+   "lead": "The entire private house in District 7 is yours alone – three floors, over 250 m², no shared spaces.",
+   "sections": [
+    {
+     "h2": "What groups get",
+     "ul": [
+      "3 bedrooms (180×200 cm and 2 × 160×200 cm beds), each with en-suite bathroom and own air conditioning",
+      "Extra guest WC in the living area",
+      "Living room of approx. 40 m² with L-shaped sofa and 75-inch 4K TV",
+      "Entertainment room with karaoke, 4K projector home cinema and PlayStation with PlayStation Plus",
+      "Rooftop terrace (approx. 56–60 m²) with BBQ, smoker and river view",
+      "Private kitchen with fridge (approx. 540 litres)",
+      "Fibre Wi-Fi with mesh on all three floors"
+     ]
+    },
+    {
+     "h2": "Good to know",
+     "ul": [
+      "Loud music only until 21:30, quiet after that",
+      "No parties or events",
+      "Only registered guests; guest registration at check-in",
+      "No smoking indoors"
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Karaoke corner with ambient lighting"
+      ],
+      [
+       "roof-night",
+       "Rooftop lounge at night with string lights"
+      ]
+     ]
+    },
+    {
+     "cta": true
     }
    ]
   }
