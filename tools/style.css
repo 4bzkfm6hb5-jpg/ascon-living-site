@@ -40,3 +40,4 @@ footer a{color:#fff}footer img{height:90px;width:auto;border-radius:0}
 @media(min-width:900px){.hero{min-height:86vh}}
 [lang=ur] body,[lang=ur] h1,[lang=ur] h2{line-height:2.1}[lang=ur] h1,[lang=ur] h2,[lang=ur] h3{font-family:var(--ff)}
 .tbl{overflow-x:auto}.tbl table{width:100%;border-collapse:collapse;font-size:.95rem}.tbl th,.tbl td{text-align:start;vertical-align:top;padding:10px 12px;border-bottom:1px solid #e3e6ec}.tbl th{width:34%;color:var(--n);font-weight:600}
+.faq summary h2{display:inline;font-size:1rem;font-family:inherit;margin:0;font-weight:600;color:inherit}

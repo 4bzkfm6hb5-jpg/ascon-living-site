@@ -18,7 +18,8 @@
   "home": "Start",
   "not_found_title": "Seite nicht gefunden",
   "not_found_text": "Diese Seite gibt es nicht. Zur Startseite:",
-  "zalo": "Über Zalo buchen"
+  "zalo": "Über Zalo buchen",
+  "locality": "Tân Hưng, Ho-Chi-Minh-Stadt"
  },
  "nav": [
   [
@@ -64,9 +65,9 @@
  ],
  "pages": {
   "home": {
-   "title": "Ho Chi Minh Unterkunft: ganzes Haus privat | ASCON LIVING",
+   "title": "Ferienhaus Ho-Chi-Minh-Stadt, Distrikt 7 | ASCON LIVING",
    "description": "Das ganze ASCON LIVING Haus in Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt: 3 Schlafzimmer mit eigenem Bad, Dachterrasse mit Flussblick, Karaoke, BBQ.",
-   "h1": "Ho Chi Minh Unterkunft: das ganze Haus nur für euch",
+   "h1": "Ferienhaus in Ho-Chi-Minh-Stadt (Distrikt 7): ganzes Haus für Familien & Gruppen",
    "lead": "Ein privates Haus in Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt: drei Etagen, drei Schlafzimmer mit jeweils eigenem Bad, ein Entertainment-Raum für Karaoke- und Filmabende und eine Dachterrasse mit Blick über den Fluss auf die Skyline von Distrikt 1.",
    "hero": [
     "hero",
@@ -149,9 +150,9 @@
    ]
   },
   "house": {
-   "title": "Ferienhaus Ho Chi Minh: 3 Schlafzimmer mit Bad | ASCON",
+   "title": "Das Haus: 3 Schlafzimmer mit eigenem Bad | ASCON LIVING",
    "description": "Über 250 m² auf drei Etagen plus Dachterrasse: 3 Schlafzimmer mit eigenem Bad, 40 m² Wohnzimmer, Küche, Karaoke-Raum mit 4K-Beamer. Ho-Chi-Minh-Stadt.",
-   "h1": "Das Haus: euer Ferienhaus in Ho Chi Minh, Raum für Raum",
+   "h1": "Das Haus in Ho-Chi-Minh-Stadt, Raum für Raum",
    "lead": "Drei Etagen, eine Dachterrasse und über 250 m², die nur euch gehören. Hier seht ihr, was euch in jedem Raum erwartet und was ihr dort erleben könnt.",
    "sections": [
     {
@@ -618,7 +619,7 @@
     {
      "h2": "Tage planen mit der ASCON Guide App",
      "p": [
-      "Nach der Buchung bekommt ihr das Passwort für die ASCON Guide App, unseren Gäste-Guide für Ho-Chi-Minh-Stadt. Darin findet ihr eine Kategorie für Kinder und Familie mit Ausflügen für Kinder, Restaurants in der Nähe des Hauses und praktische Hilfe für die Fortbewegung in der Stadt. Mehr Tipps für Ho Chi Minh mit Kindern findet ihr in unserem Reiseführer."
+      "Nach der Buchung bekommt ihr das Passwort für die ASCON Guide App, unseren Gäste-Guide für Ho-Chi-Minh-Stadt. Darin findet ihr eine Kategorie für Kinder und Familie mit Ausflügen für Kinder, Restaurants in der Nähe des Hauses und praktische Hilfe für die Fortbewegung in der Stadt. Mehr Tipps für Ho-Chi-Minh-Stadt mit Kindern findet ihr in unserem Reiseführer."
      ]
     },
     {
@@ -703,8 +704,12 @@
     {
      "faq": [
       [
-       "Wie viele Schlafzimmer hat das Haus?",
-       "Das Haus hat 3 Schlafzimmer mit je einem Doppelbett."
+       "Wie viele Schlafzimmer und Bäder gibt es?",
+       "3 Schlafzimmer mit 3 Betten (einmal 180×200 cm, zweimal 160×200 cm). Jedes Schlafzimmer hat ein eigenes Bad und eine eigene Klimaanlage, dazu kommt ein Gäste-WC im Wohnbereich."
+      ],
+      [
+       "Wie buche ich?",
+       "Bucht direkt über Airbnb oder Trip.com oder schreibt uns per WhatsApp oder Zalo (+84 909 410 382)."
       ],
       [
        "Wann sind Check-in und Check-out?",
@@ -765,15 +770,15 @@
    ]
   },
   "guide": {
-   "title": "Ho Chi Minh Stadt Reiseführer | ASCON LIVING",
-   "description": "Unser Ho Chi Minh Stadt Reiseführer: die ASCON Guide App für Gäste, Tipps für die Reise mit Kindern und der Weg vom Flughafen zum Haus.",
-   "h1": "Ho Chi Minh Stadt Reiseführer",
+   "title": "Ho-Chi-Minh-Stadt Reiseführer | ASCON LIVING",
+   "description": "Unser Ho-Chi-Minh-Stadt Reiseführer: die ASCON Guide App für Gäste, Tipps für die Reise mit Kindern und der Weg vom Flughafen zum Haus.",
+   "h1": "Ho-Chi-Minh-Stadt Reiseführer",
    "lead": "Praktische Tipps für euren Aufenthalt in Saigon, vom Flughafen bis zu den besten Adressen zum Essen, und unsere eigene Guide-App für ASCON LIVING Gäste.",
    "sections": [
     {
      "h2": "Saigon, ganz entspannt",
      "p": [
-      "Ho-Chi-Minh-Stadt ist laut, köstlich, schnell und voller Überraschungen, und der erste Tag kann ganz schön viel sein. Unser Reiseführer macht es euch leichter. Wir haben die Fragen gesammelt, die Gäste uns am häufigsten stellen: wie ihr vom Flughafen zum Haus kommt, was man in Ho Chi Minh mit Kindern unternehmen kann, wo es rund um Distrikt 7 gutes Essen gibt und wie ihr euch ohne Stress in der Stadt bewegt.",
+      "Ho-Chi-Minh-Stadt ist laut, köstlich, schnell und voller Überraschungen, und der erste Tag kann ganz schön viel sein. Unser Reiseführer macht es euch leichter. Wir haben die Fragen gesammelt, die Gäste uns am häufigsten stellen: wie ihr vom Flughafen zum Haus kommt, was man in Ho-Chi-Minh-Stadt mit Kindern unternehmen kann, wo es rund um Distrikt 7 gutes Essen gibt und wie ihr euch ohne Stress in der Stadt bewegt.",
       "Herzstück ist die ASCON Guide App, unser eigener Gäste-Guide für die Stadt. Sie ist passwortgeschützt und exklusiv für ASCON LIVING Gäste gedacht: Das Passwort bekommt ihr nach der Buchung. Öffnet sie auf dem Handy, und Restaurants, Cafés, Sehenswürdigkeiten, Aktivitäten und praktische Hilfe sind rund ums Haus sortiert, mit Wegbeschreibung ab eurer Haustür.",
       "Plant schon vor der Landung und nutzt die App dann jeden Tag eures Aufenthalts. Ob erste Vietnamreise oder fünfte: Mit einem lokalen Guide in der Tasche verbringt ihr weniger Zeit mit Suchen und mehr Zeit mit Saigon-Insidertipps, die wirklich Spaß machen."
      ]
@@ -786,7 +791,7 @@
        "Unsere Gäste-App: Orte rund ums Haus, Routen und Tipps."
       ],
       [
-       "Ho Chi Minh mit Kindern",
+       "Ho-Chi-Minh-Stadt mit Kindern",
        "guide-family",
        "Ideen und praktische Tipps für einen entspannten Familienurlaub."
       ],
@@ -806,9 +811,9 @@
    ]
   },
   "guide-family": {
-   "title": "Ho Chi Minh mit Kindern: Tipps | ASCON LIVING",
+   "title": "Ho-Chi-Minh-Stadt mit Kindern: Tipps | ASCON LIVING",
    "description": "Praktische Tipps für Ho-Chi-Minh-Stadt mit Kindern: Hitze, Verkehr, Fortbewegung und Tagesplanung.",
-   "h1": "Ho Chi Minh mit Kindern: Saigon als Familie",
+   "h1": "Ho-Chi-Minh-Stadt mit Kindern: Saigon als Familie",
    "lead": "Saigon ist trubelig und warm, mit etwas Planung aber sehr familienfreundlich.",
    "sections": [
     {
@@ -957,7 +962,7 @@
   "groups": {
    "title": "Ganzes Haus mieten in Saigon für Gruppen | ASCON LIVING",
    "description": "Gruppenunterkunft in Saigon: privates Haus mit 3 Schlafzimmern mit eigenem Bad, Karaoke, 4K-Beamer, PlayStation und Grillabend mit Skyline-Blick.",
-   "h1": "Ganzes Haus mieten in Ho Chi Minh: Gruppenunterkunft in Saigon",
+   "h1": "Ganzes Haus mieten in Ho-Chi-Minh-Stadt: Gruppenunterkunft in Saigon",
    "lead": "Freundesreise, Familientreffen oder Team-Ausflug: ASCON LIVING bietet eurer Gruppe ein privates Haus mit drei Schlafzimmern mit eigenem Bad, einem Entertainment-Raum und einer Dachterrasse für lange gemeinsame Abende.",
    "sections": [
     {
