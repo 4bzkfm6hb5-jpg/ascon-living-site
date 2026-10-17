@@ -60,9 +60,9 @@
  "pages": {
   "home": {
    "title": "Homestay Quận 7: nhà nguyên căn ven sông | ASCON LIVING",
-   "description": "Homestay quận 7 nguyên căn ven sông tại Tân Hưng, gần Phú Mỹ Hưng: 270 m², 3 phòng ngủ giường king, 4 phòng tắm, sân thượng, tối đa 6 khách.",
+   "description": "Homestay quận 7 nguyên căn ven sông tại Tân Hưng, gần Phú Mỹ Hưng: 3 phòng ngủ giường đôi, sân thượng, tối đa 6 khách.",
    "h1": "Homestay Quận 7: thuê nguyên căn nhà ven sông cho nhóm của bạn",
-   "lead": "ASCON LIVING là ngôi nhà riêng khoảng 270 m² ven sông tại Tân Hưng, gần Phú Mỹ Hưng (Quận 7 cũ), có 3 phòng ngủ giường king, 4 phòng tắm và sân thượng nhìn ra sông và thành phố, dành cho tối đa 6 khách.",
+   "lead": "ASCON LIVING là ngôi nhà riêng ven sông tại Tân Hưng, gần Phú Mỹ Hưng (Quận 7 cũ), có 3 phòng ngủ giường đôi và sân thượng nhìn ra sông và thành phố, dành cho tối đa 6 khách.",
    "hero": [
     "hero",
     "Sân thượng ASCON LIVING với lounge, cây xanh và đường chân trời TP. Hồ Chí Minh"
@@ -71,7 +71,7 @@
     {
      "h2": "Nhà nguyên căn Quận 7, không gian riêng cho cả nhóm",
      "p": [
-      "Bạn thuê cả ngôi nhà: ba phòng ngủ giường king, bốn phòng tắm, ba ban công, phòng khách, bếp đầy đủ, phòng giải trí và sân thượng nhìn ra sông. Không có lễ tân, không dùng chung không gian với ai."
+      "Bạn thuê cả ngôi nhà: ba phòng ngủ giường đôi, phòng tắm, ba ban công, phòng khách, bếp đầy đủ, phòng giải trí và sân thượng nhìn ra sông. Không có lễ tân, không dùng chung không gian với ai."
      ],
      "imgs": [
       [
@@ -80,7 +80,7 @@
       ],
       [
        "bed1",
-       "Phòng ngủ 1 với giường king"
+       "Phòng ngủ 1 với giường đôi"
       ],
       [
        "roof-night",
@@ -91,8 +91,8 @@
     {
      "h2": "Điểm nổi bật",
      "ul": [
-      "Nguyên căn khoảng 270 m², tối đa 6 khách",
-      "3 phòng ngủ giường king, 4 phòng tắm, 3 ban công",
+      "Nguyên căn khoảng, tối đa 6 khách",
+      "3 phòng ngủ giường đôi, 3 ban công",
       "Sân thượng view sông và thành phố, có BBQ",
       "Phòng giải trí có karaoke, máy chiếu và PlayStation",
       "Bếp có máy rửa chén, lò nướng và máy pha cà phê",
@@ -131,10 +131,10 @@
    ]
   },
   "house": {
-   "title": "Ngôi nhà: 3 phòng ngủ, 4 phòng tắm | ASCON LIVING",
-   "description": "Nhà nguyên căn Quận 7, homestay view sông có karaoke: 270 m², 3 phòng ngủ giường king, 4 phòng tắm, bếp đầy đủ và phòng giải trí.",
+   "title": "Ngôi nhà: 3 phòng ngủ | ASCON LIVING",
+   "description": "Nhà nguyên căn Quận 7, homestay view sông có karaoke: 3 phòng ngủ giường đôi, bếp đầy đủ và phòng giải trí.",
    "h1": "Ngôi nhà: villa Quận 7 cho thuê theo ngày",
-   "lead": "Cả ngôi nhà khoảng 270 m² chỉ dành riêng cho nhóm của bạn.",
+   "lead": "Cả ngôi nhà chỉ dành riêng cho nhóm của bạn.",
    "sections": [
     {
      "h2": "Phòng khách",
@@ -203,12 +203,12 @@
     {
      "h2": "Phòng ngủ 1",
      "p": [
-      "Không gian yên tĩnh với giường king, máy lạnh và góc trang điểm riêng."
+      "Không gian yên tĩnh với giường đôi, máy lạnh và góc trang điểm riêng."
      ],
      "imgs": [
       [
        "bed1",
-       "Phòng ngủ 1 với giường king"
+       "Phòng ngủ 1 với giường đôi"
       ],
       [
        "bed1-3",
@@ -228,7 +228,7 @@
      "imgs": [
       [
        "bed2",
-       "Phòng ngủ 2 với giường king"
+       "Phòng ngủ 2 với giường đôi"
       ],
       [
        "bed2-2",
@@ -248,7 +248,7 @@
      "imgs": [
       [
        "bed3",
-       "Phòng ngủ 3 với giường king"
+       "Phòng ngủ 3 với giường đôi"
       ],
       [
        "bed3-2",
@@ -263,7 +263,7 @@
     {
      "h2": "Phòng tắm",
      "p": [
-      "Bốn phòng tắm có vòi sen, khăn tắm và máy sấy tóc – buổi sáng không phải chờ nhau dù nhà đông người. Có lắp tay vịn."
+      "Các phòng tắm có vòi sen, khăn tắm và máy sấy tóc – buổi sáng không phải chờ nhau dù nhà đông người. Có lắp tay vịn."
      ],
      "imgs": [
       [
@@ -448,15 +448,15 @@
   },
   "families": {
    "title": "Homestay Sài Gòn cho gia đình & nhóm bạn | ASCON LIVING",
-   "description": "Homestay Sài Gòn cho nhóm bạn và gia đình: nhà nguyên căn tối đa 6 khách, 3 phòng ngủ giường king, 4 phòng tắm, bếp và phòng giải trí.",
+   "description": "Homestay Sài Gòn cho nhóm bạn và gia đình: nhà nguyên căn tối đa 6 khách, 3 phòng ngủ giường đôi, bếp và phòng giải trí.",
    "h1": "Homestay Sài Gòn nguyên căn cho gia đình và nhóm bạn",
    "lead": "Ngôi nhà được bố trí cho nhóm tối đa 6 khách.",
    "sections": [
     {
      "h2": "Ngôi nhà có gì cho nhóm",
      "ul": [
-      "Tối đa 6 khách trong 3 phòng ngủ giường king",
-      "4 phòng tắm",
+      "Tối đa 6 khách trong 3 phòng ngủ giường đôi",
+      "Phòng tắm",
       "Bếp đầy đủ với nồi cơm điện, lò nướng và máy rửa chén",
       "Phòng giải trí có karaoke, máy chiếu, TV và PlayStation",
       "Sân thượng có BBQ",
@@ -556,7 +556,7 @@
      "faq": [
       [
        "Nhà ở được bao nhiêu khách?",
-       "Tối đa 6 khách. Nhà có 3 phòng ngủ, mỗi phòng một giường king, và 4 phòng tắm."
+       "Tối đa 6 khách. Nhà có 3 phòng ngủ, mỗi phòng một giường đôi."
       ],
       [
        "Giờ nhận và trả phòng?",
@@ -568,7 +568,7 @@
       ],
       [
        "Có phải thuê nguyên căn không?",
-       "Đúng, bạn thuê cả ngôi nhà khoảng 270 m², bao gồm sân thượng."
+       "Đúng, bạn thuê cả ngôi nhà khoảng, bao gồm sân thượng."
       ],
       [
        "Có đưa đón sân bay không?",

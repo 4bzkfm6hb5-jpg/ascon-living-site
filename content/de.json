@@ -60,9 +60,9 @@
  "pages": {
   "home": {
    "title": "Ho Chi Minh Unterkunft: ganzes Haus am Fluss | ASCON LIVING",
-   "description": "Ganzes Haus am Fluss in Tân Hưng nahe Phú Mỹ Hưng, Ho-Chi-Minh-Stadt: 270 m², 3 Schlafzimmer mit Kingsize-Bett, 4 Bäder, Dachterrasse, bis 6 Gäste.",
+   "description": "Ganzes Haus am Fluss in Tân Hưng nahe Phú Mỹ Hưng, Ho-Chi-Minh-Stadt: 3 Schlafzimmer mit Doppelbett, Dachterrasse, bis 6 Gäste.",
    "h1": "Ho Chi Minh Unterkunft: das ganze Haus am Fluss für eure Gruppe",
-   "lead": "ASCON LIVING ist ein privates Haus mit rund 270 m² am Fluss in Tân Hưng, nahe Phú Mỹ Hưng (ehemals District 7): 3 Schlafzimmer mit Kingsize-Betten, 4 Bäder und eine Dachterrasse mit Blick auf Fluss und Skyline, für bis zu 6 Gäste.",
+   "lead": "ASCON LIVING ist ein privates Haus am Fluss in Tân Hưng, nahe Phú Mỹ Hưng (ehemals District 7): 3 Schlafzimmer mit Doppelbetten und eine Dachterrasse mit Blick auf Fluss und Skyline, für bis zu 6 Gäste.",
    "hero": [
     "hero",
     "Dachterrasse von ASCON LIVING mit Lounge, Pflanzen und Skyline von Ho-Chi-Minh-Stadt"
@@ -71,7 +71,7 @@
     {
      "h2": "Saigon: wo übernachten? Im eigenen Haus",
      "p": [
-      "Ihr mietet das ganze Haus: drei Schlafzimmer mit Kingsize-Betten, vier Bäder, drei Balkone, Wohnzimmer, voll ausgestattete Küche, Entertainment-Raum und Dachterrasse mit Flussblick. Keine Rezeption, keine geteilten Räume."
+      "Ihr mietet das ganze Haus: drei Schlafzimmer mit Doppelbetten, Bäder, drei Balkone, Wohnzimmer, voll ausgestattete Küche, Entertainment-Raum und Dachterrasse mit Flussblick. Keine Rezeption, keine geteilten Räume."
      ],
      "imgs": [
       [
@@ -80,7 +80,7 @@
       ],
       [
        "bed1",
-       "Schlafzimmer 1 mit Kingsize-Bett"
+       "Schlafzimmer 1 mit Doppelbett"
       ],
       [
        "roof-night",
@@ -91,8 +91,8 @@
     {
      "h2": "Das Wichtigste auf einen Blick",
      "ul": [
-      "Ganzes Haus, ca. 270 m², für bis zu 6 Gäste",
-      "3 Schlafzimmer mit Kingsize-Betten, 4 Bäder, 3 Balkone",
+      "Ganzes Haus, für bis zu 6 Gäste",
+      "3 Schlafzimmer mit Doppelbetten, 3 Balkone",
       "Dachterrasse mit Fluss- und Skyline-Blick, Grill",
       "Entertainment-Raum mit Karaoke, Beamer und PlayStation",
       "Küche mit Geschirrspüler, Backofen und Kaffeemaschine",
@@ -131,10 +131,10 @@
    ]
   },
   "house": {
-   "title": "Ferienhaus Ho Chi Minh: 3 Schlafzimmer, 4 Bäder | ASCON",
-   "description": "Ferienhaus Ho Chi Minh von innen: ganzes Haus mit Flussblick, 270 m², 3 Schlafzimmer mit Kingsize-Bett, 4 Bäder, Küche, Karaoke-Raum.",
+   "title": "Ferienhaus Ho Chi Minh: 3 Schlafzimmer | ASCON",
+   "description": "Ferienhaus Ho Chi Minh von innen: ganzes Haus mit Flussblick, 3 Schlafzimmer mit Doppelbett, Küche, Karaoke-Raum.",
    "h1": "Das Haus: eure Villa in Ho-Chi-Minh-Stadt",
-   "lead": "Das ganze Haus mit rund 270 m² gehört während des Aufenthalts nur eurer Gruppe.",
+   "lead": "Das ganze Haus gehört während des Aufenthalts nur eurer Gruppe.",
    "sections": [
     {
      "h2": "Wohnzimmer",
@@ -203,12 +203,12 @@
     {
      "h2": "Schlafzimmer 1",
      "p": [
-      "Ein ruhiger Rückzugsort mit Kingsize-Bett, Klimaanlage und eigener Schminkecke."
+      "Ein ruhiger Rückzugsort mit Doppelbett, Klimaanlage und eigener Schminkecke."
      ],
      "imgs": [
       [
        "bed1",
-       "Schlafzimmer 1 mit Kingsize-Bett"
+       "Schlafzimmer 1 mit Doppelbett"
       ],
       [
        "bed1-3",
@@ -223,12 +223,12 @@
     {
      "h2": "Schlafzimmer 2",
      "p": [
-      "Kingsize-Bett, Klimaanlage und Fernseher – gemütlich für einen ruhigen Abend im eigenen Zimmer."
+      "Doppelbett, Klimaanlage und Fernseher – gemütlich für einen ruhigen Abend im eigenen Zimmer."
      ],
      "imgs": [
       [
        "bed2",
-       "Schlafzimmer 2 mit Kingsize-Bett"
+       "Schlafzimmer 2 mit Doppelbett"
       ],
       [
        "bed2-2",
@@ -243,12 +243,12 @@
     {
      "h2": "Schlafzimmer 3",
      "p": [
-      "Kingsize-Bett, Klimaanlage und Fernseher; frische Handtücher und Bettwäsche liegen bereit."
+      "Doppelbett, Klimaanlage und Fernseher; frische Handtücher und Bettwäsche liegen bereit."
      ],
      "imgs": [
       [
        "bed3",
-       "Schlafzimmer 3 mit Kingsize-Bett"
+       "Schlafzimmer 3 mit Doppelbett"
       ],
       [
        "bed3-2",
@@ -263,7 +263,7 @@
     {
      "h2": "Bäder",
      "p": [
-      "Vier Bäder mit Regendusche, Handtüchern und Föhn – kein Anstehen am Morgen, auch wenn das Haus voll ist. Haltegriffe sind vorhanden."
+      "Bäder mit Regendusche, Handtüchern und Föhn – kein Anstehen am Morgen, auch wenn das Haus voll ist. Haltegriffe sind vorhanden."
      ],
      "imgs": [
       [
@@ -448,15 +448,15 @@
   },
   "families": {
    "title": "Ferienhaus für Familien & Gruppen in Saigon | ASCON LIVING",
-   "description": "Ferienhaus in Vietnam mieten: ganzes Haus in Ho-Chi-Minh-Stadt für bis zu 6 Gäste mit 3 Kingsize-Schlafzimmern, 4 Bädern, Küche und Entertainment-Raum.",
+   "description": "Ferienhaus in Vietnam mieten: ganzes Haus in Ho-Chi-Minh-Stadt für bis zu 6 Gäste mit 3 Schlafzimmernn, Küche und Entertainment-Raum.",
    "h1": "Ganzes Haus in Ho-Chi-Minh-Stadt für Familien und Gruppen",
    "lead": "Das Haus ist für Gruppen bis 6 Gäste ausgelegt.",
    "sections": [
     {
      "h2": "Was das Haus für Gruppen bietet",
      "ul": [
-      "Bis zu 6 Gäste in 3 Schlafzimmern mit Kingsize-Betten",
-      "4 Bäder",
+      "Bis zu 6 Gäste in 3 Schlafzimmern mit Doppelbetten",
+      "Bäder",
       "Voll ausgestattete Küche mit Reiskocher, Backofen und Geschirrspüler",
       "Entertainment-Raum mit Karaoke, Beamer, Fernseher und PlayStation",
       "Dachterrasse mit Grill",
@@ -556,7 +556,7 @@
      "faq": [
       [
        "Wie viele Gäste können übernachten?",
-       "Bis zu 6 Gäste. Das Haus hat 3 Schlafzimmer mit je einem Kingsize-Bett und 4 Bäder."
+       "Bis zu 6 Gäste. Das Haus hat 3 Schlafzimmer mit je einem Doppelbett."
       ],
       [
        "Wann sind Check-in und Check-out?",
@@ -568,7 +568,7 @@
       ],
       [
        "Ist das ganze Haus privat?",
-       "Ja, ihr mietet das ganze Haus mit rund 270 m² inklusive Dachterrasse."
+       "Ja, ihr mietet das ganze Haus inklusive Dachterrasse."
       ],
       [
        "Gibt es einen Flughafentransfer?",

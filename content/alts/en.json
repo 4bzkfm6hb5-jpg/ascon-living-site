@@ -8,13 +8,13 @@
  "kitchen-3": "Kitchen appliances on the counter",
  "kitchen-dining": "Dining table by the kitchen windows",
  "kitchen-fridge": "Side-by-side fridge in the kitchen",
- "bed1": "Bedroom 1 with king bed",
+ "bed1": "Bedroom 1 with double bed",
  "bed1-3": "Bedroom 1, view towards the windows",
  "bed1-2": "Vanity corner in bedroom 1",
- "bed2": "Bedroom 2 with king bed",
+ "bed2": "Bedroom 2 with double bed",
  "bed2-2": "Bedroom 2 with TV",
  "bed2-3": "Bedroom 2 with art wall",
- "bed3": "Bedroom 3 with king bed",
+ "bed3": "Bedroom 3 with double bed",
  "bed3-2": "Bedroom 3 with TV",
  "bed3-3": "Towels and bed linen in bedroom 3",
  "bath": "Bathroom with rain shower",
@@ -48,19 +48,19 @@
   ],
   "bed1": [
    "Bedroom 1",
-   "A calm retreat with a king bed, air conditioning and its own vanity corner."
+   "A calm retreat with a double bed, air conditioning and its own vanity corner."
   ],
   "bed2": [
    "Bedroom 2",
-   "King bed, air conditioning and a TV – comfortable for a quiet evening in your own room."
+   "Double bed, air conditioning and a TV – comfortable for a quiet evening in your own room."
   ],
   "bed3": [
    "Bedroom 3",
-   "King bed, air conditioning and a TV, with fresh towels and bed linen provided."
+   "Double bed, air conditioning and a TV, with fresh towels and bed linen provided."
   ],
   "bath": [
    "Bathrooms",
-   "Four bathrooms with rain showers, towels and hair dryers mean no queueing in the morning, even with a full house. Handrails are installed."
+   "Bathrooms with rain showers, towels and hair dryers mean no queueing in the morning, even with a full house. Handrails are installed."
   ],
   "ent": [
    "Entertainment Room",

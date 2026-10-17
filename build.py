@@ -45,16 +45,14 @@ def lodging(code,c):
       "checkinTime":F['checkin'],"checkoutTime":F['checkout'],"numberOfRooms":F['rooms'],"petsAllowed":False,
       "knowsLanguage":F['languages'],"sameAs":[F['airbnb'],F['trip']],
       "amenityFeature":[{"@type":"LocationFeatureSpecification","name":a,"value":True} for a in F['amenities']],
-      "containsPlace":{"@type":"House","name":F['name']+" – entire house","numberOfBedrooms":F['rooms'],"numberOfBathroomsTotal":F['bathrooms'],
-        "floorSize":{"@type":"QuantitativeValue","value":F['size_m2'],"unitCode":"MTK"},
-        "occupancy":{"@type":"QuantitativeValue","maxValue":F['max_guests'],"unitText":"guests"}}}
+      "containsPlace":{"@type":"House","name":F['name']+" – entire house","numberOfBedrooms":F['rooms'],"occupancy":{"@type":"QuantitativeValue","maxValue":F['max_guests'],"unitText":"guests"}}}
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
     title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
     alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in PUB)+f'<link rel="alternate" hreflang="x-default" href="{SITE}/en/{SLUG[pid]}">'
     fontlink=''; css=CSS
     if font:
-        fontlink=f'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={font.replace(" ","+")}:wght@400;600&display=swap">'
+        fontlink=f'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={font.replace(" ","+")}:wght@400;600&display=swap" media="print" onload="this.media=&#39;all&#39;">'
         css=css.replace(':root{',f':root{{--ff:"{font}";',1)
     ld=[]
     if pid in ('home','house','booking','location'): ld.append(lodging(code,c))

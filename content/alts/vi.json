@@ -8,13 +8,13 @@
  "kitchen-3": "Thiết bị bếp trên mặt quầy",
  "kitchen-dining": "Bàn ăn cạnh cửa sổ bếp",
  "kitchen-fridge": "Tủ lạnh hai cánh trong bếp",
- "bed1": "Phòng ngủ 1 với giường king",
+ "bed1": "Phòng ngủ 1 với giường đôi",
  "bed1-3": "Phòng ngủ 1, nhìn về phía cửa sổ",
  "bed1-2": "Bàn trang điểm trong phòng ngủ 1",
- "bed2": "Phòng ngủ 2 với giường king",
+ "bed2": "Phòng ngủ 2 với giường đôi",
  "bed2-2": "Phòng ngủ 2 có TV",
  "bed2-3": "Phòng ngủ 2 với tranh treo tường",
- "bed3": "Phòng ngủ 3 với giường king",
+ "bed3": "Phòng ngủ 3 với giường đôi",
  "bed3-2": "Phòng ngủ 3 có TV",
  "bed3-3": "Khăn tắm và chăn ga trong phòng ngủ 3",
  "bath": "Phòng tắm với vòi sen",
@@ -48,7 +48,7 @@
   ],
   "bed1": [
    "Phòng ngủ 1",
-   "Không gian yên tĩnh với giường king, máy lạnh và góc trang điểm riêng."
+   "Không gian yên tĩnh với giường đôi, máy lạnh và góc trang điểm riêng."
   ],
   "bed2": [
    "Phòng ngủ 2",
@@ -60,7 +60,7 @@
   ],
   "bath": [
    "Phòng tắm",
-   "Bốn phòng tắm có vòi sen, khăn tắm và máy sấy tóc – buổi sáng không phải chờ nhau dù nhà đông người. Có lắp tay vịn."
+   "Các phòng tắm có vòi sen, khăn tắm và máy sấy tóc – buổi sáng không phải chờ nhau dù nhà đông người. Có lắp tay vịn."
   ],
   "ent": [
    "Phòng giải trí",

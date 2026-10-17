@@ -60,9 +60,9 @@
  "pages": {
   "home": {
    "title": "Ho Chi Minh Villa: Entire Riverside House | ASCON LIVING",
-   "description": "Rent the entire ASCON LIVING riverside house near Phú Mỹ Hưng, Ho Chi Minh City: 270 m², 3 king bedrooms, 4 bathrooms, rooftop terrace, up to 6 guests.",
+   "description": "Rent the entire ASCON LIVING riverside house near Phú Mỹ Hưng, Ho Chi Minh City: 3 bedrooms, rooftop terrace, up to 6 guests.",
    "h1": "Ho Chi Minh villa: the entire riverside house, just for your group",
-   "lead": "ASCON LIVING is a private 270 m² riverside house in Tân Hưng near Phú Mỹ Hưng (former District 7) with 3 king bedrooms, 4 bathrooms and a rooftop terrace overlooking the river and skyline, for up to 6 guests.",
+   "lead": "ASCON LIVING is a private riverside house in Tân Hưng near Phú Mỹ Hưng (former District 7) with 3 bedrooms and a rooftop terrace overlooking the river and skyline, for up to 6 guests.",
    "hero": [
     "hero",
     "Rooftop terrace of ASCON LIVING with outdoor lounge, plants and the Ho Chi Minh City skyline"
@@ -71,7 +71,7 @@
     {
      "h2": "A Saigon homestay with the whole house to yourselves",
      "p": [
-      "You book the entire house: three bedrooms with king beds, four bathrooms, three balconies, a living room, a full kitchen, an entertainment room and a rooftop terrace overlooking the river. There is no front desk and no shared space."
+      "You book the entire house: three bedrooms with double beds, bathrooms, three balconies, a living room, a full kitchen, an entertainment room and a rooftop terrace overlooking the river. There is no front desk and no shared space."
      ],
      "imgs": [
       [
@@ -80,7 +80,7 @@
       ],
       [
        "bed1",
-       "Bedroom 1 with king bed"
+       "Bedroom 1 with double bed"
       ],
       [
        "roof-night",
@@ -91,8 +91,8 @@
     {
      "h2": "Highlights",
      "ul": [
-      "Entire house, approx. 270 m², for up to 6 guests",
-      "3 bedrooms with king beds, 4 bathrooms, 3 balconies",
+      "Entire house, for up to 6 guests",
+      "3 bedrooms with double beds, 3 balconies",
       "Rooftop terrace with river and skyline view, BBQ",
       "Entertainment room with karaoke, projector and PlayStation",
       "Fully equipped kitchen with dishwasher, oven and coffee machine",
@@ -131,10 +131,10 @@
    ]
   },
   "house": {
-   "title": "The House: 3 King Bedrooms, 4 Baths | ASCON LIVING",
-   "description": "Inside ASCON LIVING: 270 m² house with river view in Ho Chi Minh City – 3 king bedrooms, 4 bathrooms, kitchen and karaoke room.",
-   "h1": "The house: an entire 270 m² villa in Ho Chi Minh City",
-   "lead": "The entire house, approx. 270 m², is for your group only.",
+   "title": "The House: 3 bedrooms | ASCON LIVING",
+   "description": "Inside ASCON LIVING: house with river view in Ho Chi Minh City – 3 bedrooms, kitchen and karaoke room.",
+   "h1": "The house: an entire villa in Ho Chi Minh City",
+   "lead": "The entire house, is for your group only.",
    "sections": [
     {
      "h2": "Living Room",
@@ -203,12 +203,12 @@
     {
      "h2": "Bedroom 1",
      "p": [
-      "A calm retreat with a king bed, air conditioning and its own vanity corner."
+      "A calm retreat with a double bed, air conditioning and its own vanity corner."
      ],
      "imgs": [
       [
        "bed1",
-       "Bedroom 1 with king bed"
+       "Bedroom 1 with double bed"
       ],
       [
        "bed1-3",
@@ -223,12 +223,12 @@
     {
      "h2": "Bedroom 2",
      "p": [
-      "King bed, air conditioning and a TV – comfortable for a quiet evening in your own room."
+      "Double bed, air conditioning and a TV – comfortable for a quiet evening in your own room."
      ],
      "imgs": [
       [
        "bed2",
-       "Bedroom 2 with king bed"
+       "Bedroom 2 with double bed"
       ],
       [
        "bed2-2",
@@ -243,12 +243,12 @@
     {
      "h2": "Bedroom 3",
      "p": [
-      "King bed, air conditioning and a TV, with fresh towels and bed linen provided."
+      "Double bed, air conditioning and a TV, with fresh towels and bed linen provided."
      ],
      "imgs": [
       [
        "bed3",
-       "Bedroom 3 with king bed"
+       "Bedroom 3 with double bed"
       ],
       [
        "bed3-2",
@@ -263,7 +263,7 @@
     {
      "h2": "Bathrooms",
      "p": [
-      "Four bathrooms with rain showers, towels and hair dryers mean no queueing in the morning, even with a full house. Handrails are installed."
+      "Bathrooms with rain showers, towels and hair dryers mean no queueing in the morning, even with a full house. Handrails are installed."
      ],
      "imgs": [
       [
@@ -448,15 +448,15 @@
   },
   "families": {
    "title": "Entire House in HCMC for Families & Groups | ASCON LIVING",
-   "description": "Group and family stay in Ho Chi Minh City: entire house for up to 6 guests with 3 king bedrooms, 4 bathrooms, kitchen, karaoke, projector and rooftop BBQ.",
+   "description": "Group and family stay in Ho Chi Minh City: entire house for up to 6 guests with 3 bedrooms, kitchen, karaoke, projector and rooftop BBQ.",
    "h1": "Entire house in Ho Chi Minh City for families and groups",
    "lead": "The house is laid out for groups of up to 6 guests.",
    "sections": [
     {
      "h2": "Why groups choose a whole house",
      "ul": [
-      "Up to 6 guests in 3 bedrooms with king beds",
-      "4 bathrooms",
+      "Up to 6 guests in 3 bedrooms with double beds",
+      "Bathrooms",
       "Full kitchen with rice cooker, oven and dishwasher for home cooking",
       "Entertainment room with karaoke, projector, TV and PlayStation",
       "Rooftop terrace with BBQ",
@@ -556,7 +556,7 @@
      "faq": [
       [
        "How many guests can stay?",
-       "Up to 6 guests. The house has 3 bedrooms, each with a king bed, and 4 bathrooms."
+       "Up to 6 guests. The house has 3 bedrooms, each with a double bed."
       ],
       [
        "What are the check-in and check-out times?",
@@ -568,7 +568,7 @@
       ],
       [
        "Is the whole house private?",
-       "Yes, you rent the entire house, approx. 270 m², including the rooftop terrace."
+       "Yes, you rent the entire house, including the rooftop terrace."
       ],
       [
        "Do you offer airport transfer?",
