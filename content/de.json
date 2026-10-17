@@ -673,7 +673,7 @@
      "imgs": [
       [
        "entrance",
-       "Eingang mit Treppe, Self-Check-in per Zahlenschloss"
+       "Eingang mit Treppe, Self-Check-in per Zahlenschloss, Schlüssel fürs Außentor"
       ],
       [
        "hall",
@@ -1898,7 +1898,7 @@
       ],
       [
        "Was, wenn wir spät ankommen?",
-       "Dank Self-Check-in per Zahlenschloss könnt ihr innerhalb des Check-in-Zeitraums ankommen, ohne auf jemanden zu warten."
+       "Dank Self-Check-in per Zahlenschloss könnt ihr innerhalb des Check-in-Zeitraums ankommen, ohne auf jemanden zu warten, für das Außentor gibt es einen Schlüssel."
       ]
      ]
     },
