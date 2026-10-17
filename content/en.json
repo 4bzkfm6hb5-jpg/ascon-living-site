@@ -64,45 +64,48 @@
  ],
  "pages": {
   "home": {
-   "title": "Ho Chi Minh Villa: Entire Riverside House | ASCON LIVING",
-   "description": "Rent the entire ASCON LIVING riverside house near Phú Mỹ Hưng, Ho Chi Minh City: 3 bedrooms, rooftop terrace, BBQ and karaoke.",
-   "h1": "Ho Chi Minh villa: the entire riverside house, just for your group",
-   "lead": "ASCON LIVING is a private riverside house in a quieter residential area of District 7 (Tân Hưng), Ho Chi Minh City: three floors, 3 bedrooms with en-suite bathrooms and a rooftop terrace overlooking the river and the District 1 skyline.",
+   "title": "Whole House in District 7, Ho Chi Minh City | ASCON LIVING",
+   "description": "Rent the whole ASCON LIVING house in Tân Hưng (District 7), Ho Chi Minh City: 3 en-suite bedrooms, rooftop with river view, karaoke and BBQ.",
+   "h1": "Whole house in District 7, Ho Chi Minh City – for families and groups",
+   "lead": "A private house in Tân Hưng (District 7), Ho Chi Minh City: three floors, three bedrooms that each have their own bathroom, an entertainment room for karaoke and movie nights, and a rooftop terrace that looks out over the river and the District 1 skyline.",
    "hero": [
     "hero",
-    "Rooftop terrace with river view and Ho Chi Minh City skyline"
+    "Rooftop terrace with river view and the District 1 skyline at ASCON LIVING, Ho Chi Minh City"
    ],
    "sections": [
     {
      "h2": "A Saigon homestay with the whole house to yourselves",
      "p": [
-      "You book the entire house for exclusive use: over 250 m² across three floors, 3 bedrooms each with its own bathroom and air conditioning, a guest WC, a living room, a private kitchen, an entertainment room and a rooftop terrace. As family accommodation District 7 guests have everything under one roof – no front desk and no shared spaces."
+      "At ASCON LIVING you don't book a room. You book the whole house. Over 250 m² of living space across three floors plus a rooftop terrace, and every square metre of it is yours for the length of your stay. No reception desk, no shared hallways, no strangers at the breakfast table.",
+      "Each of the three bedrooms has its own bathroom and its own air conditioning, so nobody queues for the shower in the morning and everyone sleeps at the temperature they like. There is a guest WC next to the living room, a fully equipped kitchen with a large fridge, and a living room of about 40 m² with an L-shaped sofa and a 75-inch 4K TV.",
+      "Then there are the parts that make evenings at home worth staying in for. The entertainment room has karaoke, a 4K projector, a PlayStation with PlayStation Plus and Netflix. Up on the rooftop you can fire up the BBQ or the smoker while the lights of the District 1 skyline come on across the river.",
+      "Arriving is easy: self check-in with a keypad lock, a key for the outer gate, and an airport transfer you can arrange with your booking. WiFi of up to 1 Gbit/s with mesh on every floor keeps calls, streaming and remote work running smoothly. Whether you're a family, a group of friends or colleagues on a work trip, this Saigon homestay gives you the privacy of your own home with everything already in place."
      ],
      "imgs": [
       [
        "living",
-       "Living room with large sofa and garden-facing windows"
+       "Living room with L-shaped sofa in the ASCON LIVING house, Ho Chi Minh City"
       ],
       [
        "bed1",
-       "Bedroom 1 with double bed"
+       "Master bedroom with 180×200 cm bed in the private house in Ho Chi Minh City"
       ],
       [
        "roof-night",
-       "Rooftop lounge at night with string lights"
+       "Rooftop lounge in the evening, softly lit for a night at home"
       ]
      ]
     },
     {
      "h2": "Highlights",
      "ul": [
-      "Entire private house, exclusive use – 3 floors, over 250 m²",
-      "3 bedrooms (180×200 cm and 2 × 160×200 cm beds), each with en-suite bathroom and own AC",
-      "Rooftop terrace (approx. 56–60 m²) with BBQ, smoker and river view",
-      "Entertainment room with karaoke, 4K projector and PlayStation",
-      "Fibre Wi-Fi up to 1 Gbit/s with mesh on every floor",
-      "Self check-in with smart lock, check-in 14:00–23:00",
-      "Hosts speak German, English, Hindi, Punjabi, Urdu and Vietnamese"
+      "The entire private house for exclusive use: 3 floors plus rooftop, over 250 m²",
+      "3 bedrooms, each with its own bathroom and AC (1 × 180×200 cm, 2 × 160×200 cm beds), plus a guest WC",
+      "Rooftop terrace of about 56–60 m² with BBQ, smoker, outdoor sofa and a view of the river and District 1 skyline",
+      "Entertainment room with karaoke, 4K projector, PlayStation with PlayStation Plus and Netflix",
+      "Living room with 75-inch 4K TV and L-shaped sofa",
+      "WiFi up to 1 Gbit/s with mesh on every floor",
+      "Self check-in with keypad lock; airport transfer and laundry service available"
      ]
     },
     {
@@ -111,17 +114,27 @@
       [
        "The House",
        "house",
-       "Bedrooms, bathrooms, living room, kitchen and entertainment room."
+       "Three en-suite bedrooms, a big living room, kitchen and entertainment room."
       ],
       [
        "Rooftop & View",
        "rooftop",
-       "Terrace with river and skyline view."
+       "BBQ evenings with the river and District 1 skyline in view."
+      ],
+      [
+       "Families",
+       "families",
+       "Space, privacy and a bathroom for every bedroom."
+      ],
+      [
+       "Groups",
+       "groups",
+       "Karaoke, movie nights and a rooftop for your crew."
       ],
       [
        "Location",
        "location",
-       "Tân Hưng, near Phú Mỹ Hưng."
+       "Tân Hưng (District 7), with restaurants and street food nearby."
       ],
       [
        "Booking & Contact",
@@ -136,44 +149,48 @@
    ]
   },
   "house": {
-   "title": "The House: 3 bedrooms | ASCON LIVING",
-   "description": "Inside ASCON LIVING: house with river view in District 7 – 3 bedrooms with en-suite bathrooms, 250+ m², karaoke, PlayStation and rooftop BBQ.",
-   "h1": "The house: an entire villa in Ho Chi Minh City",
-   "lead": "The entire private house is yours alone: three floors plus a rooftop terrace and over 250 m² of living space in a quieter residential area of District 7. Modern, minimalist and calm, with wabi-sabi influences.",
+   "title": "Ho Chi Minh House Rental: 3 En-Suite Bedrooms | ASCON",
+   "description": "Over 250 m² on three floors plus rooftop: 3 en-suite bedrooms, 40 m² living room, full kitchen, karaoke room with 4K projector. Ho Chi Minh City.",
+   "h1": "The house: your Ho Chi Minh house rental, room by room",
+   "lead": "Three floors, a rooftop terrace and over 250 m² of space that belong only to you. Here is what you'll find in every room, and what you can do there.",
    "sections": [
     {
-     "h2": "Living Room",
+     "h2": "Living room: the heart of the house",
      "p": [
-      "Around 40 m² to gather in: a large L-shaped sofa, a 75-inch 4K TV and big windows facing the greenery. The air-conditioned living room is designed in grey, white, greige and black, and a guest WC is right next to it."
+      "The living room is where the day starts and where everyone ends up again in the evening. At about 40 m² it has room to spread out properly. The large L-shaped sofa seats the whole family or group at once, with space to put your feet up, and the 75-inch 4K TV makes it the natural place for a football match, a cartoon morning with the kids or a series everyone has been meaning to start. Netflix is ready to go.",
+      "After a hot day in the city, kick off your shoes, sink into the sofa and let someone put the kettle on in the kitchen. Plants and the glass doors keep the space light and relaxed rather than formal. It's a living room meant to be lived in: kids building a blanket fort on the sofa, friends planning tomorrow's route, someone curled up with a book in the corner.",
+      "A guest WC is right here in the living area, so visitors and kids don't have to climb the stairs to a bedroom bathroom. And with mesh WiFi of up to 1 Gbit/s, the living room also works as an easy place to answer a few emails or join a video call while the others are out exploring."
      ],
      "imgs": [
       [
        "living",
-       "Living room with large L-shaped sofa"
+       "Living room with L-shaped sofa in the whole house rental, Ho Chi Minh City"
       ],
       [
        "living-2",
-       "Living room with sofa and plants"
+       "Bright living room with sofa and plants"
       ],
       [
        "living-tv",
-       "TV wall in the living room"
+       "75-inch 4K TV in the living room, set up for movie nights"
       ],
       [
        "living-3",
-       "Seating area by the glass doors"
+       "Seating area by the glass doors in the living room"
       ]
      ]
     },
     {
-     "h2": "Kitchen & Dining",
+     "h2": "Kitchen and dining: cook like a local",
      "p": [
-      "A private kitchen with fridge (approx. 540 litres), dishwasher, oven, stove, microwave, coffee machine, kettle and rice cooker – well suited to self-catering and longer stays – plus one table for shared meals."
+      "Some of the best meals in Saigon start at the market. Bring back fresh herbs, mangoes and a bag of whatever smelled best at the street stall, and cook it your way in your own kitchen. It is fully equipped with a stove, an oven, a microwave, a rice cooker, a kettle and all the plates, bowls and cutlery you need.",
+      "The large fridge has enough room for a group's groceries, cold drinks for the rooftop and the marinated meat for tonight's BBQ. Families can prepare breakfast exactly the way the kids like it, keep snacks and milk on hand, and skip the daily search for a restaurant that suits everyone. Staying a week or longer? Having a proper kitchen makes a real difference to both comfort and budget.",
+      "The dining table by the kitchen windows brings everyone together for the moments that matter on a trip: a slow breakfast before a day out, a shared dinner, a late-night round of cards with a cold drink. And on the evenings when nobody wants to cook, restaurants and street food are close by."
      ],
      "imgs": [
       [
        "kitchen",
-       "Open kitchen with dining table"
+       "Fully equipped kitchen with dining table in the Saigon homestay"
       ],
       [
        "kitchen-2",
@@ -181,54 +198,58 @@
       ],
       [
        "kitchen-3",
-       "Kitchen appliances on the counter"
+       "Kitchen counter with appliances for cooking at home"
       ],
       [
        "kitchen-dishes",
-       "Kitchen cabinet with plates and bowls"
+       "Kitchen cabinet stocked with plates and bowls"
       ],
       [
        "kitchen-rice",
-       "Rice cooker on the kitchen counter"
+       "Rice cooker on the kitchen counter, ready for a home-cooked meal"
       ],
       [
        "kitchen-micro",
-       "Microwave in the kitchen"
+       "Microwave in the guest kitchen"
       ],
       [
        "kitchen-fridge",
-       "Large side-by-side fridge (approx. 540 litres) in the kitchen"
+       "Large fridge in the kitchen with room for a group's groceries"
       ],
       [
        "kitchen-dining",
-       "Dining table by the kitchen windows"
+       "Dining table by the kitchen windows for family meals"
       ]
      ]
     },
     {
-     "h2": "Bedroom 1",
+     "h2": "Master bedroom: about 55 m² of calm",
      "p": [
-      "The master bedroom, approx. 55 m²: a 180×200 cm bed, 55-inch 4K TV, private balcony, its own air conditioning and an en-suite bathroom."
+      "The master bedroom is a suite in its own right. At about 55 m² it is bigger than many city apartments, with a 180×200 cm bed that leaves plenty of room for two, its own air conditioning and its own private bathroom.",
+      "A 55-inch 4K TV lets you finish the evening with a film in bed, and the private balcony is the place for the first coffee of the morning before the rest of the house wakes up. There is a vanity corner for getting ready without rushing, and the house has a safe for passports and valuables, so you can head out without worrying.",
+      "It's an easy choice for parents who want a little retreat after a long day with the kids, for a couple celebrating something special, or for whoever organised the trip and has earned the best room. Fresh bedding, towels, toiletries and slippers are ready when you arrive, so all you need to do is unpack."
      ],
      "imgs": [
       [
        "bed1",
-       "Master bedroom with 180×200 cm bed"
+       "Master bedroom with 180×200 cm bed in the private house in Ho Chi Minh City"
       ],
       [
        "bed1-3",
-       "Bedroom 1, view towards the windows"
+       "Spacious master bedroom, view towards the windows"
       ],
       [
        "bed1-2",
-       "Vanity corner in bedroom 1"
+       "Vanity corner in the master bedroom"
       ]
      ]
     },
     {
-     "h2": "Bedroom 2",
+     "h2": "Bedroom 2: comfort with its own bathroom",
      "p": [
-      "A 160×200 cm bed, smart TV, its own air conditioning and an en-suite bathroom – a comfortable room for a quiet evening."
+      "Bedroom 2 is a comfortable, well-sized room with a 160×200 cm bed, its own air conditioning and its own bathroom. That en-suite bathroom matters more than it sounds: on a family holiday or a trip with friends, it means everyone has their own space, their own shower and their own schedule.",
+      "A smart TV with Netflix makes it easy to wind down at the end of the day, whether that's a cartoon for the kids before bedtime or a few episodes of something for the grown-ups. The art wall gives the room a warm, personal feel, more home than hotel.",
+      "Bedroom 2 suits a second couple, two siblings or grandparents who want a quiet room of their own while staying close to the rest of the family. Fresh bedding, towels and slippers are ready, hot water is always available, and an iron is on hand if you need to look sharp for a meeting or a dinner out."
      ],
      "imgs": [
       [
@@ -237,7 +258,7 @@
       ],
       [
        "bed2-2",
-       "Bedroom 2 with TV"
+       "Bedroom 2 with smart TV"
       ],
       [
        "bed2-3",
@@ -246,38 +267,42 @@
      ]
     },
     {
-     "h2": "Bedroom 3",
+     "h2": "Bedroom 3: quiet, dark and made for deep sleep",
      "p": [
-      "A 160×200 cm bed, smart TV, its own air conditioning and an en-suite bathroom. This is an interior room with no window – quiet and dark for sleeping."
+      "Bedroom 3 is the room for people who take their sleep seriously. It is quiet and naturally dark, so it stays restful even after sunrise. That makes it ideal for jet-lagged travellers who need to sleep in, light sleepers, kids who nap in the afternoon, or anyone who wants to recover properly after a big night of karaoke.",
+      "Like the other bedrooms, it has a 160×200 cm bed, its own air conditioning and its own private bathroom. A smart TV with Netflix is there for a quiet evening in.",
+      "Fresh bed linen and towels are laid out for you, along with toiletries and slippers. Close the door, set the AC to your favourite temperature and sleep through until you're ready for the day. When you wake up, the kitchen, the living room and the rooftop are only a staircase away."
      ],
      "imgs": [
       [
        "bed3",
-       "Bedroom 3 with 160×200 cm bed"
+       "Bedroom 3 with 160×200 cm bed, quiet and dark for a good night's sleep"
       ],
       [
        "bed3-2",
-       "Bedroom 3 with TV"
+       "Bedroom 3 with smart TV"
       ],
       [
        "bed3-3",
-       "Towels and bed linen in bedroom 3"
+       "Fresh towels and bed linen in bedroom 3"
       ]
      ]
     },
     {
-     "h2": "Bathrooms",
+     "h2": "Bathrooms: one for every bedroom",
      "p": [
-      "Each of the 3 bedrooms has its own en-suite bathroom, and there is an extra guest WC in the living area – so nobody has to queue in the morning. Rain showers, towels, hair dryers and handrails are provided."
+      "No morning queue, no juggling who showers when. Each of the three bedrooms has its own private bathroom, and there is an extra guest WC in the living area. For families and groups, that alone can make the difference between a stressful morning and a relaxed one.",
+      "The bathrooms come with hot water, fresh towels and toiletries, so you can travel light and still feel looked after. The rain showers are the best way to rinse off a day of city heat and humidity before heading out again for dinner.",
+      "Because each bathroom belongs to one bedroom, everyone gets their own space to leave their things, get ready at their own pace and keep their routine, whether that's a toddler's bath time or a quick shower before a business meeting. Need fresh clothes for the rest of the trip? A laundry service is available on request."
      ],
      "imgs": [
       [
        "bath",
-       "Bathroom with rain shower"
+       "Private bathroom with rain shower"
       ],
       [
        "bath-4",
-       "Bathroom shower with rain shower head"
+       "Rain shower in one of the en-suite bathrooms"
       ],
       [
        "bath-2",
@@ -285,11 +310,11 @@
       ],
       [
        "bath-3",
-       "Fresh towels in the bathroom"
+       "Fresh towels in an en-suite bathroom"
       ],
       [
        "bath-5",
-       "Hair dryer in the bathroom"
+       "Bathroom vanity detail"
       ],
       [
        "bath-6",
@@ -298,14 +323,17 @@
      ]
     },
     {
-     "h2": "Entertainment Room",
+     "h2": "Entertainment room: karaoke, movies and games",
      "p": [
-      "A separate room for evenings together – a villa with karaoke: sing, watch films on the 4K projector home cinema or play on the PlayStation with PlayStation Plus. The 4K smart TVs have Netflix (streaming depends on the available account and content)."
+      "This is the room people talk about after the trip. The entertainment room turns an ordinary evening into the best night of the holiday, and you never have to leave the house.",
+      "Start with karaoke. Grab the microphones, dim the lights and let everyone pick a song, from the shy ones who need a duet partner to the ones who've been waiting all day for their big moment. When it's time to sit back, switch on the 4K projector for a movie night on the big screen: popcorn, the whole family on the sofas, and Netflix ready to stream.",
+      "For game nights there is a PlayStation with PlayStation Plus and two controllers, so you can play head-to-head racing, team up on a co-op adventure or run a family tournament where the kids beat the adults. It's an easy way for different generations to have fun together, and a perfect plan for a rainy afternoon.",
+      "If you've been looking for a private house with karaoke in Ho Chi Minh City, this is it, in a room of its own. Please keep in mind the house rule: loud music only until 21:30, which still leaves plenty of time for a proper session."
      ],
      "imgs": [
       [
        "ent",
-       "Entertainment room with sofas"
+       "Entertainment room with sofas, a private house with karaoke in Ho Chi Minh City"
       ],
       [
        "ent-karaoke",
@@ -313,63 +341,64 @@
       ],
       [
        "ent-cinema",
-       "Projector screen in the entertainment room"
+       "4K projector screen for movie nights in the entertainment room"
       ],
       [
        "ent-tv",
-       "Entertainment room with TV"
+       "Entertainment room with TV and seating"
       ],
       [
        "ent-mics",
-       "Karaoke microphones and remotes"
+       "Karaoke microphones and remotes ready for a sing-along"
       ],
       [
        "ent-ps",
-       "PlayStation with two controllers"
+       "PlayStation with two controllers for game nights"
       ]
      ]
     },
     {
-     "h2": "Rooftop & River View",
+     "h2": "Rooftop and river view",
      "p": [
-      "Approx. 56–60 m² on the top floor: BBQ and smoker, an outdoor lounge sofa with cushions and padded stools, plants and solar lights – with a direct view of the river and the District 1 skyline. A house with river view, from breakfast to sunset."
+      "The top of the house is a rooftop terrace of about 56–60 m², and it's where many guests spend their favourite hours. By day, plants and an outdoor sofa make it a calm place to read or drink a coffee. As the sun goes down, the river and the District 1 skyline turn into the backdrop for dinner.",
+      "Light the BBQ or the smoker, set the table and watch the city lights come on while the food cooks. Solar lights add a warm glow once it's dark. It's the spot for a birthday dinner, a sundowner with friends or a quiet last evening before the flight home. Read more on the Rooftop & View page."
      ],
      "imgs": [
       [
        "roof-terrace",
-       "Rooftop terrace with river view and Ho Chi Minh City skyline"
+       "Rooftop terrace with skyline view"
       ],
       [
        "river-balcony",
-       "Terrace railing with river view and greenery"
+       "River view from the terrace railing, framed by plants"
       ],
       [
        "river-city",
-       "River view with Landmark 81 skyline in the distance"
+       "River view towards the District 1 skyline from the house"
       ],
       [
        "roof-day",
-       "Rooftop terrace with lounge furniture and plants by day"
+       "Rooftop terrace by day with outdoor sofa and plants"
       ],
       [
        "roof-lounge",
-       "Rooftop dining set with cushioned seating"
+       "Rooftop dining table with cushioned seating"
       ],
       [
        "roof-night",
-       "Rooftop lounge at night with string lights"
+       "Rooftop lounge in the evening, softly lit for a night at home"
       ],
       [
        "roof-evening",
-       "Rooftop lounge in the evening with string lights"
+       "Rooftop seating area in the evening"
       ],
       [
        "roof-evening-2",
-       "Rooftop dining area in the evening"
+       "Rooftop dining area set for dinner in the evening"
       ],
       [
        "roof-bbq",
-       "BBQ grill on the rooftop"
+       "BBQ grill on the rooftop terrace, ready for a skyline barbecue"
       ],
       [
        "roof-skyline",
@@ -378,14 +407,16 @@
      ]
     },
     {
-     "h2": "Entrance & Hallway",
+     "h2": "Arrival, entrance and safety",
      "p": [
-      "Self check-in with a smart lock: the front door opens with your personal keypad code, while the outer gate uses a key that the host hands over or arranges with you before arrival. Inside, stairs with handrails connect the three floors."
+      "Arriving after a long flight should be simple, and it is. Check-in is self check-in with a keypad lock, so there is no waiting for someone to hand over keys and no stress if your flight lands late. You also receive a key for the outer gate. If you'd rather not deal with taxis at all, an airport transfer can be arranged together with your booking.",
+      "Inside, the entrance and staircase connect the three floors and lead all the way up to the rooftop terrace. A hallway leads to the bedroom doors, giving each room a little privacy from the shared spaces.",
+      "Your safety is taken seriously. Cameras are installed outdoors only, never inside the house, so your privacy stays intact. There is also a safe for valuables, and loud music only until 21:30 keeps things friendly with the neighbours."
      ],
      "imgs": [
       [
        "entrance",
-       "Entrance with staircase"
+       "Entrance with staircase, self check-in with keypad lock"
       ],
       [
        "hall",
@@ -393,7 +424,7 @@
       ],
       [
        "stairs",
-       "Staircase between floors"
+       "Staircase connecting the three floors"
       ]
      ]
     },
@@ -401,60 +432,56 @@
      "h2": "Amenities at a glance",
      "table": [
       [
-       "House",
-       "Entire private house, exclusive use · 3 floors + rooftop terrace · over 250 m² living space"
-      ],
-      [
        "Bedrooms",
-       "3 bedrooms, 3 beds (1 × 180×200 cm, 2 × 160×200 cm), each with its own air conditioning"
+       "Master about 55 m² (180×200 cm bed, 55-inch 4K TV, balcony); bedrooms 2 and 3 (160×200 cm beds, smart TV); bedroom 3 is an interior room with no window"
       ],
       [
        "Bathrooms",
-       "3 en-suite bathrooms + guest WC in the living area"
+       "3 private en-suite bathrooms plus guest WC"
       ],
       [
-       "Living room",
-       "Approx. 40 m², large L-shaped sofa, 75-inch 4K TV"
+       "Living",
+       "Living room about 40 m², L-shaped sofa, 75-inch 4K TV"
       ],
       [
        "Entertainment",
-       "PlayStation with PlayStation Plus, 4K projector home cinema, karaoke, 4K smart TVs with Netflix*"
+       "Karaoke, 4K projector, PlayStation with PlayStation Plus, Netflix"
       ],
       [
        "Kitchen",
-       "Private kitchen, fridge approx. 540 litres"
-      ],
-      [
-       "Air conditioning",
-       "4 air conditioners covering living and sleeping areas"
-      ],
-      [
-       "Internet",
-       "Fibre up to 1 Gbit/s down / 300 Mbit/s up (plan), mesh Wi-Fi on all three floors**"
+       "Stove, oven, microwave, rice cooker, kettle, large fridge (approx. 540 litres), dishes"
       ],
       [
        "Rooftop",
-       "Approx. 56–60 m², BBQ and smoker, lounge, river and District 1 skyline view"
+       "About 56–60 m², BBQ and smoker, outdoor sofa, plants, solar lights, river and skyline view"
       ],
       [
-       "Laundry",
-       "Washing machine and iron"
+       "Comfort",
+       "4 air conditioners, hot water, iron, safe, toiletries, slippers, bedding"
       ],
       [
-       "Access",
-       "Smart lock self check-in (keypad); outer gate key from the host"
+       "Internet",
+       "WiFi up to 1 Gbit/s, mesh on every floor"
+      ],
+      [
+       "Arrival",
+       "Self check-in with keypad lock, key for the outer gate"
       ],
       [
        "Safety",
-       "Exterior cameras with motion detection, fire alarm, emergency equipment, first-aid kit on every floor"
+       "Cameras outdoors only, none inside the house"
+      ],
+      [
+       "Services",
+       "Airport transfer with your booking, laundry service on request"
       ]
-     ],
-     "table_note": "* Streaming depends on the available account and content. ** Actual speed depends on device and network load – fine for video calls, streaming, gaming and remote work."
+     ]
     },
     {
      "h2": "Who the house suits",
      "p": [
-      "Families get space to spread out and a kitchen for their own meals; groups of friends enjoy the karaoke room and rooftop BBQ; remote workers and longer stays benefit from fast fibre Wi-Fi and the large kitchen; and couples who want privacy have the whole house to themselves."
+      "ASCON LIVING works best for people who want to travel together without living on top of each other. Families get a private bathroom for every bedroom, a kitchen for easy meals and an entertainment room that keeps kids and teenagers happy. Groups of friends get karaoke, game nights and BBQ evenings on the rooftop. Colleagues on a work trip get fast mesh WiFi, quiet bedrooms and a living room that doubles as a meeting space.",
+      "If you're comparing Ho Chi Minh City vacation rentals, this is the difference: one private house, shared only with the people you came with. See our pages for families and for groups for more ideas."
      ]
     },
     {
@@ -463,37 +490,56 @@
    ]
   },
   "rooftop": {
-   "title": "Rooftop Terrace, River & Skyline View | ASCON LIVING",
-   "description": "The private rooftop terrace of ASCON LIVING in Ho Chi Minh City: outdoor lounge, dining area, BBQ, river and skyline views by day and night.",
+   "title": "Rooftop Terrace with River & Skyline View | ASCON LIVING",
+   "description": "A private rooftop of about 56–60 m² with BBQ, smoker and outdoor sofa, overlooking the river and District 1 skyline. Ho Chi Minh City, District 7.",
    "h1": "Rooftop terrace with river and skyline view",
-   "lead": "The private rooftop terrace has an outdoor lounge, a dining area, BBQ and smoker.",
+   "lead": "About 56–60 m² at the top of the house, just for you: BBQ and smoker, an outdoor sofa, plants and a view across the river to the District 1 skyline.",
    "sections": [
     {
-     "h2": "The terrace",
+     "h2": "Your private terrace above the city",
+     "p": [
+      "Climb the stairs to the top of the house and the city opens up in front of you. The rooftop terrace is about 56–60 m² and belongs only to you and the people you're travelling with. Ahead lies the river, and beyond it the District 1 skyline, a view most hotel guests only see from a crowded rooftop bar.",
+      "During the day it's a green, relaxed corner of Saigon. Plants frame the space, the outdoor sofa invites you to stretch out with a coffee or a book, and kids can look out over the river and the city from above. It's a calm place to plan the day, catch up on messages or simply enjoy the fact that you have your own house with a view in Ho Chi Minh City.",
+      "When it's time to eat, the dining set seats everyone together. The BBQ and the smoker are right there, so the cook never has to miss the conversation. Shop for fresh seafood, skewers or vegetables at the market in the afternoon, store them in the large fridge downstairs, and you have the makings of the best dinner of your trip."
+     ],
      "imgs": [
       [
        "roof-terrace",
-       "Rooftop terrace with lounge furniture, plants and skyline view"
+       "Rooftop terrace with skyline view"
+      ],
+      [
+       "river-balcony",
+       "River view from the terrace railing, framed by plants"
+      ],
+      [
+       "river-city",
+       "River view towards the District 1 skyline from the house"
+      ],
+      [
+       "roof-day",
+       "Rooftop terrace by day with outdoor sofa and plants"
       ],
       [
        "roof-lounge",
-       "Rooftop dining set with cushioned seating"
+       "Rooftop dining table with cushioned seating"
       ],
       [
        "roof-bbq",
-       "BBQ grill on the rooftop"
+       "BBQ grill on the rooftop terrace, ready for a skyline barbecue"
       ]
-     ],
-     "p": [
-      "Approx. 56–60 m² with BBQ and smoker, an outdoor lounge sofa with cushions and padded stools, plants and solar lights – and a direct view of the river and the District 1 skyline."
      ]
     },
     {
-     "h2": "In the evening",
+     "h2": "Evenings on the rooftop: BBQ with a skyline view",
+     "p": [
+      "This is when the rooftop is at its best. As the sun sets, the sky over the river changes colour and the towers of District 1 light up one by one. Solar lights come on around the terrace and give the space a soft, warm glow without any effort.",
+      "Fire up the BBQ, or let something slow-cook in the smoker while everyone settles in on the outdoor sofa. Raise a glass to a birthday, a reunion or just a good day in the city. Friends can talk for hours here, and families can enjoy a relaxed dinner while the kids point out the lights of the skyline.",
+      "It also makes a lovely quiet spot for two once the others have gone to bed. Please keep the volume down from 21:30 out of respect for the neighbours; the view is just as good in a whisper."
+     ],
      "imgs": [
       [
        "roof-night",
-       "Rooftop lounge at night with string lights"
+       "Rooftop lounge in the evening, softly lit for a night at home"
       ],
       [
        "roof-evening",
@@ -501,7 +547,7 @@
       ],
       [
        "roof-evening-2",
-       "Rooftop dining area in the evening"
+       "Rooftop dining area set for dinner in the evening"
       ],
       [
        "roof-skyline",
@@ -515,39 +561,64 @@
    ]
   },
   "families": {
-   "title": "Family Accommodation District 7 | ASCON LIVING",
-   "description": "Family accommodation District 7, Ho Chi Minh City: entire private house, 3 bedrooms with en-suite bathrooms, private kitchen and rooftop terrace.",
-   "h1": "Family accommodation District 7: the entire house for your family",
-   "lead": "Looking for family accommodation District 7? The whole house is yours – space for families, groups of friends, remote workers on longer stays and couples.",
+   "title": "Family Accommodation District 7, Saigon | ASCON LIVING",
+   "description": "A whole private house for your family in District 7, Ho Chi Minh City: 3 bedrooms with own bathrooms, kitchen, movie room and rooftop with river view.",
+   "h1": "Family accommodation District 7: a whole house for your family",
+   "lead": "Travelling with kids, grandparents or the whole extended family? At ASCON LIVING you have the entire house to yourselves, with a bathroom for every bedroom and plenty of space to play, eat and rest.",
    "sections": [
     {
-     "h2": "What families get",
-     "ul": [
-      "3 bedrooms, each with en-suite bathroom and its own air conditioning",
-      "Extra guest WC in the living area",
-      "Private kitchen with a large fridge (approx. 540 litres) for home cooking",
-      "Entertainment room with karaoke, 4K projector, TV and PlayStation",
-      "Rooftop terrace with BBQ and river view",
-      "Fibre Wi-Fi with mesh on all three floors – good for remote work",
-      "Washing machine; laundry service on request (30 EUR per load)",
-      "Airport transfer on request (50 EUR)",
-      "Free luggage storage"
+     "h2": "Why families feel at home here",
+     "p": [
+      "Family trips work best when everyone has room to breathe. In a hotel, that usually means two or three separate rooms, often on different floors, and a lot of time spent in corridors and lifts. At ASCON LIVING the whole family stays under one roof, in one private house with over 250 m² of living space across three floors plus a rooftop terrace.",
+      "There are three bedrooms, and each one has its own bathroom and its own air conditioning. Parents can take the master bedroom of about 55 m² with its 180×200 cm bed, balcony and 55-inch 4K TV. Bedrooms 2 and 3 each have a 160×200 cm bed and a smart TV, perfect for kids, teenagers or grandparents. Bedroom 3 is quiet and dark, which makes it ideal for afternoon naps and for little ones who wake up with the sun. A guest WC in the living area saves trips upstairs during the day.",
+      "No other guests share the house, so nobody minds if the kids are lively in the morning, and you never have to keep them quiet in a hallway. In short: a 3-bedroom house that works as a family-friendly homestay, with all the privacy of your own home."
      ]
     },
     {
-     "h2": "Good to know",
+     "h2": "Meals the way your family likes them",
      "p": [
-      "The house has three floors connected by stairs with handrails. Safety: exterior cameras with motion detection, fire alarm, emergency equipment and a first-aid kit on every floor. Message us on WhatsApp or Zalo with any questions before booking."
+      "Picky eaters, early breakfasts, baby food, a craving for something familiar after a week of new flavours: a real kitchen solves all of that. The kitchen has a stove, an oven, a microwave, a rice cooker, a kettle and all the dishes you need, plus a large fridge for milk, fruit, snacks and drinks.",
+      "Cook a simple pasta for the kids and try something Vietnamese for yourselves, or bring back takeaway from the street food stalls and restaurants nearby and eat together at the dining table. On a warm evening, carry dinner up to the rooftop and grill on the BBQ with the river and the District 1 skyline in view."
      ],
      "imgs": [
       [
        "kitchen-dining",
-       "Dining table for the whole family"
+       "Dining table by the kitchen windows for family meals"
       ],
       [
-       "ent-cinema",
-       "Projector screen in the entertainment room"
+       "kitchen",
+       "Fully equipped kitchen for families staying in District 7"
       ]
+     ]
+    },
+    {
+     "h2": "Rainy afternoons and family movie nights",
+     "p": [
+      "Every family holiday needs a plan B, and in Saigon's rainy season you'll be glad to have one. The entertainment room turns an afternoon indoors into a highlight: a movie night with the 4K projector and Netflix, a family karaoke contest, or a PlayStation tournament where the kids finally get to beat their parents. The living room with its L-shaped sofa and 75-inch 4K TV is the second place to gather for cartoons or a family film.",
+      "When the kids are asleep, the grown-ups can head up to the rooftop for a quiet drink under the solar lights. Loud music only until 21:30 means everyone gets a good night's sleep."
+     ],
+     "imgs": [
+      [
+       "ent-cinema",
+       "4K projector screen for family movie nights in the entertainment room"
+      ],
+      [
+       "living-tv",
+       "75-inch 4K TV in the living room, set up for movie nights"
+      ]
+     ]
+    },
+    {
+     "h2": "Safe, simple and stress-free",
+     "p": [
+      "Parents think about safety first, so here are the facts. Cameras are installed outdoors only, never inside. The house has a safe for passports and valuables, and self check-in with a keypad lock means you can arrive whenever your flight lands, with a separate key for the outer gate.",
+      "Travelling with luggage, car seats and tired kids is easier with a transfer, so an airport transfer can be arranged together with your booking. Fresh bedding, towels, toiletries, slippers and hot water are ready when you arrive, an iron is on hand, and a laundry service is available for longer stays."
+     ]
+    },
+    {
+     "h2": "Plan your days with the ASCON Guide App",
+     "p": [
+      "After booking you receive the password for the ASCON Guide App, our guest guide for Ho Chi Minh City. It includes a Kids & family category with outings for children, places to eat close to the house, and practical help for getting around the city. See also our guide to things to do in Ho Chi Minh City with kids."
      ]
     },
     {
@@ -556,25 +627,32 @@
    ]
   },
   "location": {
-   "title": "Location: Tân Hưng near Phú Mỹ Hưng | ASCON LIVING",
-   "description": "Where ASCON LIVING is: 389A Trần Xuân Soạn, Tân Hưng (former District 7), Ho Chi Minh City, near Phú Mỹ Hưng, by the river. Estimated travel times.",
-   "h1": "Location: riverside in Tân Hưng, near Phú Mỹ Hưng",
-   "lead": "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh City – in the former District 7, near Phú Mỹ Hưng, right by the river.",
+   "title": "Homestay District 7 Ho Chi Minh: Location | ASCON LIVING",
+   "description": "ASCON LIVING is at 389A Đường Trần Xuân Soạn, Tân Hưng (District 7), Ho Chi Minh City, with restaurants and street food nearby and airport transfer.",
+   "h1": "Location: your homestay in District 7, Ho Chi Minh City",
+   "lead": "389A Đường Trần Xuân Soạn, Tân Hưng (District 7), Ho Chi Minh City, with a rooftop view across the river to the District 1 skyline.",
    "sections": [
     {
-     "h2": "The area",
+     "h2": "Tân Hưng, District 7: local life on your doorstep",
      "p": [
-      "Since the 2025 administrative reform, District 7 no longer exists as a district; the house is now in Tân Hưng ward. Many people still call the area District 7 (Quận 7). Phú Mỹ Hưng is the planned urban area nearby, with shopping, restaurants and parks.",
-      "District 7 offers plenty of restaurants, street food, beer bars and shopping such as Lotte Mart, while the house itself sits in a quieter residential street."
+      "ASCON LIVING is at 389A Đường Trần Xuân Soạn in Tân Hưng ward, the area most people still call District 7 (Quận 7). Since the 2025 administrative reform the old district names are no longer official, but you'll hear \"District 7\" from drivers and locals every day, and it's the easiest way to describe where you are staying.",
+      "What you get here is everyday Saigon life rather than a tourist strip. Restaurants and street food are close to the house, so breakfast can be a fresh bánh mì or a steaming bowl of phở, and dinner can be whatever smells best on the walk home. On evenings in, it's easy to pick up food nearby and carry it up to the rooftop.",
+      "From the rooftop terrace you look across the river to the District 1 skyline, so the city centre always feels within reach, and at night you get the lights without the noise. Back at the house, loud music only until 21:30 keeps things relaxed for you and the neighbours.",
+      "For ideas on where to eat, what to see and how to get around, our ASCON Guide App lists places around the house with directions. You receive the password after booking."
      ]
     },
     {
-     "h2": "Getting around (estimates)",
-     "note": "All times are rough estimates by car and depend strongly on traffic.",
+     "h2": "Getting there and getting around",
+     "note": "Travel times in Ho Chi Minh City depend heavily on traffic. Please allow extra time, especially at rush hour.",
+     "p": [
+      "Arriving at Tân Sơn Nhất International Airport? The simplest option is our airport transfer, which you can arrange together with your booking. Your driver brings you straight to the gate, and with self check-in by keypad lock you can walk in whenever you arrive, even late at night. You also receive a key for the outer gate.",
+      "During your stay, ride-hailing apps and taxis are the easiest way to reach the city centre, markets and sights. If you'd like to explore further, the ASCON Guide App shows routes from the house to each place and practical tips for getting around Ho Chi Minh City. Exact arrival instructions are sent after booking."
+     ],
      "ul": [
-      "Tân Sơn Nhất International Airport (SGN): approx. 30–60 min (estimate)",
-      "City centre (former District 1): approx. 12 min by Grab (approximate, traffic-dependent)",
-      "Phú Mỹ Hưng: a short ride by car or Grab, approx. 10–15 min (estimate)"
+      "Airport transfer: available with your booking",
+      "Self check-in with keypad lock, key for the outer gate",
+      "Restaurants and street food: close to the house",
+      "City centre (District 1): by ride-hailing app or taxi; check the app for current travel times"
      ]
     },
     {
@@ -634,11 +712,15 @@
       ],
       [
        "How far is the city centre?",
-       "Approx. 12 minutes by Grab towards the centre (former District 1), depending on traffic."
+       "The city centre (former District 1) is easy to reach by ride-hailing app or taxi; travel time depends on traffic."
       ],
       [
        "Is the house safe?",
-       "There are exterior cameras with motion detection, a fire alarm, emergency equipment and a first-aid kit on every floor. Entry is via smart lock."
+       "There are exterior cameras with motion detection (outdoors only, none inside the house), and access is by self check-in via keypad; the outer gate uses a key."
+      ],
+      [
+       "How do I book?",
+       "Book directly on Airbnb or Trip.com, or message us on WhatsApp or Zalo (+84 909 410 382)."
       ],
       [
        "What are the check-in and check-out times?",
@@ -701,31 +783,39 @@
   },
   "guide": {
    "title": "Ho Chi Minh City Travel Guide | ASCON LIVING",
-   "description": "Practical guides for Ho Chi Minh City: travelling with family and getting from Tân Sơn Nhất airport to the house.",
+   "description": "Our Ho Chi Minh City travel guide: the ASCON Guide App for guests, tips for travelling with kids and how to get from the airport to the house.",
    "h1": "Ho Chi Minh City travel guide",
-   "lead": "Short, practical guides for your stay in Saigon.",
+   "lead": "Practical tips for your stay in Saigon, from the airport to the best places to eat, and our own guide app, made for ASCON LIVING guests.",
    "sections": [
+    {
+     "h2": "Your Saigon, made easy",
+     "p": [
+      "Ho Chi Minh City is loud, delicious, fast and full of surprises, and the first day can feel like a lot. Our travel guide is here to make it easier. We've collected the questions guests ask us most: how to get from the airport to the house, what to do in Ho Chi Minh City with kids, where to eat near District 7 and how to get around the city without stress.",
+      "The heart of it is the ASCON Guide App, our own guest guide for the city. It's password-protected and made exclusively for ASCON LIVING guests: you receive the password after booking. Open it on your phone, and places to eat, cafés, sights, activities and practical help are all sorted around the house, with directions from your front door.",
+      "Start planning before you land, then use it every day of your stay. Whether it's your first trip to Vietnam or your fifth, a local guide in your pocket helps you spend less time searching and more time enjoying the city."
+     ]
+    },
     {
      "cards": [
       [
-       "ASCON LIVING Guide app",
+       "ASCON LIVING Guide App",
        "guide-app",
-       "Our free city app: places, routes and tips."
+       "Our guest app: places around the house, routes and tips."
       ],
       [
-       "Ho Chi Minh City with family",
+       "Ho Chi Minh City with kids",
        "guide-family",
-       "Tips for a relaxed family trip."
+       "Ideas and practical tips for a relaxed family trip."
       ],
       [
        "Airport transfer",
        "guide-airport",
-       "From Tân Sơn Nhất to the house."
+       "From Tân Sơn Nhất to the house, the easy way."
       ]
      ]
     },
     {
-     "note": "Exclusive for ASCON LIVING guests – you receive the password after booking.",
+     "note": "Exclusive for ASCON LIVING guests: you receive the password after booking.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open the ASCON Guide app</a>"
      ]
@@ -775,7 +865,7 @@
     {
      "h2": "Travel time",
      "p": [
-      "By car, plan roughly 30–60 minutes (estimate); rush hour can take longer."
+      "Travel time by car depends heavily on traffic; allow extra time, especially at rush hour."
      ]
     }
    ]
@@ -816,29 +906,44 @@
    ]
   },
   "guide-app": {
-   "title": "ASCON LIVING Guide App for Ho Chi Minh City",
-   "description": "Our free guest guide app for Ho Chi Minh City: places sorted by distance from the house, travel times, routes, map and practical tips in 10 languages.",
-   "h1": "The ASCON LIVING Guide: your app for Ho Chi Minh City",
-   "lead": "Our free guest guide opens in your phone's browser – no app store needed – and shows you what is around the house and how to get there.",
+   "title": "ASCON Guide App: How to Get Around Ho Chi Minh City",
+   "description": "Our password-protected guest app for Ho Chi Minh City: places near the house, travel times, routes, a map and practical tips. Password after booking.",
+   "h1": "The ASCON Guide App: your Ho Chi Minh City guide in your pocket",
+   "lead": "A guest guide that opens in your phone's browser and shows you what's around the house and how to get there. Exclusive for ASCON LIVING guests; the password comes with your booking.",
    "sections": [
     {
      "h2": "How to get around Ho Chi Minh City, made easy",
      "p": [
-      "Every place is sorted by distance from the homestay and shows estimated travel times by car, scooter and on foot. One tap on Route gives you directions from the house, or opens the place in Google Maps. The map shows all places at a glance."
+      "New city, new language, a traffic system that seems to run on instinct: getting around Saigon can be the trickiest part of the trip. The ASCON Guide App takes care of it. Every place is listed with its distance from the house and estimated travel times, and one tap on Route gives you directions from your front door. The map shows everything around you at a glance, so you can see what's close and plan a day that makes sense.",
+      "Want lunch near a sight you're visiting, or a café on the way back? Open the map, pick a spot and go. It's like having a friend in the city who already knows the way, available any time, without data-hungry searches or endless review scrolling."
      ],
      "imgs": [
       [
        "app-place",
-       "ASCON Guide app: place card with distance, travel times and Route button"
+       "ASCON Guide App place card with distance, travel times and Route button"
       ],
       [
        "app-map",
-       "ASCON Guide app: map of all places around the house"
+       "ASCON Guide App map of places around the house in Ho Chi Minh City"
       ]
      ]
     },
     {
      "h2": "What's inside",
+     "p": [
+      "The app is organised into clear categories so you find what you need quickly: food, starting with our Top 10 near the house; cafés and desserts; bars and nightlife; kids and family; sights and culture; activities; relaxation; shopping; day trips; and practical and emergency information for arrival, getting around and the moments when you need help fast.",
+      "For families, the Kids & family category is a handy shortcut to outings with children. For groups, the food and nightlife sections make it easy to plan the evening."
+     ],
+     "imgs": [
+      [
+       "app-category",
+       "ASCON Guide App food category with the Top 10 places near the house"
+      ],
+      [
+       "app-practical",
+       "ASCON Guide App practical and emergency information for Ho Chi Minh City"
+      ]
+     ],
      "ul": [
       "<strong>Food</strong> – places to eat, starting with our Top 10, with opening hours and price notes.",
       "<strong>Cafés & desserts</strong> – coffee and sweet stops for a break.",
@@ -850,26 +955,16 @@
       "<strong>Shopping</strong> – where to shop.",
       "<strong>Day trips</strong> – excursions beyond the city.",
       "<strong>Practical & emergency</strong> – arriving at Tân Sơn Nhất Airport, getting around, show-to-driver cards, common scams, plus an SOS button."
-     ],
-     "imgs": [
-      [
-       "app-category",
-       "ASCON Guide app: Food category with the Top 10 nearby"
-      ],
-      [
-       "app-practical",
-       "ASCON Guide app: practical and emergency information"
-      ]
      ]
     },
     {
      "h2": "Ten languages, installable",
      "p": [
-      "The app is available in English, German, Vietnamese, Chinese, Korean, Japanese, French, Spanish, Portuguese and Arabic. Add it to your home screen: once opened, it keeps its content on your phone, so it stays usable even with a weak connection. Handy for family travel in Vietnam, too: the Kids & family category collects outings with children."
+      "The app is available in English, German, Vietnamese, Chinese, Korean, Japanese, French, Spanish, Portuguese and Arabic. Add it to your home screen: once opened, it keeps its content on your phone, so it stays usable even with a weak connection. Handy for family travel in Vietnam, too: the Kids & family category collects outings with children. You receive the password after booking, so you can start planning before you even land."
      ]
     },
     {
-     "note": "Exclusive for ASCON LIVING guests – you receive the password after booking.",
+     "note": "Exclusive for ASCON LIVING guests: you receive the password after booking.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open the ASCON Guide app</a>"
      ]
@@ -877,40 +972,71 @@
    ]
   },
   "groups": {
-   "title": "Whole House Rental Ho Chi Minh | ASCON LIVING",
-   "description": "Whole house rental in Ho Chi Minh City for groups of friends: 3 bedrooms with en-suite bathrooms, karaoke, PlayStation, rooftop BBQ with river view.",
-   "h1": "Whole house rental Ho Chi Minh: the entire house for your group",
-   "lead": "The entire private house in District 7 is yours alone – three floors, over 250 m², no shared spaces.",
+   "title": "Whole House Rental Ho Chi Minh for Groups | ASCON LIVING",
+   "description": "Group accommodation in Saigon: a private house with 3 en-suite bedrooms, karaoke, 4K projector, PlayStation and a rooftop BBQ with skyline view.",
+   "h1": "Whole house rental Ho Chi Minh: group accommodation in Saigon",
+   "lead": "Friends' trip, family reunion or team getaway: ASCON LIVING gives your group a private house with three en-suite bedrooms, an entertainment room and a rooftop terrace for long evenings together.",
    "sections": [
     {
-     "h2": "What groups get",
-     "ul": [
-      "3 bedrooms (180×200 cm and 2 × 160×200 cm beds), each with en-suite bathroom and own air conditioning",
-      "Extra guest WC in the living area",
-      "Living room of approx. 40 m² with L-shaped sofa and 75-inch 4K TV",
-      "Entertainment room with karaoke, 4K projector home cinema and PlayStation with PlayStation Plus",
-      "Rooftop terrace (approx. 56–60 m²) with BBQ, smoker and river view",
-      "Private kitchen with fridge (approx. 540 litres)",
-      "Fibre Wi-Fi with mesh on all three floors"
+     "h2": "One house, one group, no strangers",
+     "p": [
+      "Travelling as a group is about the time you spend together, and that's hard when everyone is scattered across hotel rooms and corridors. At ASCON LIVING your group has the entire house: over 250 m² across three floors plus a rooftop terrace, shared with nobody but you.",
+      "Each of the three bedrooms has its own bathroom and its own air conditioning, so everyone keeps their privacy and their own routine. The master bedroom is about 55 m² with a 180×200 cm bed, a 55-inch 4K TV and a balcony. Bedrooms 2 and 3 have 160×200 cm beds and smart TVs. There's also a guest WC in the living area. Nobody fights over the bathroom, and nobody wakes the others when they head out early.",
+      "The shared spaces are made for being together. The living room of about 40 m² has a large L-shaped sofa and a 75-inch 4K TV, the kitchen is fully equipped, and the large fridge holds plenty of drinks for the evening. If you've been searching for a private house for groups in Ho Chi Minh City, this is a home with exactly that kind of space."
      ]
     },
     {
-     "h2": "Good to know",
-     "ul": [
-      "Loud music only until 21:30, quiet after that",
-      "No parties or events",
-      "Only registered guests; guest registration at check-in",
-      "No smoking indoors"
+     "h2": "Karaoke nights, movie marathons and game tournaments",
+     "p": [
+      "The entertainment room is your private party room. Start with karaoke: microphones in hand, lights down, and a playlist that only gets better as the evening goes on. Switch to the 4K projector for a movie marathon on the big screen with Netflix, or settle a long-running rivalry with a PlayStation tournament using PlayStation Plus.",
+      "No booking a karaoke room in town, no taxi home afterwards, no closing time but your own. Just remember the house rule: loud music only until 21:30, so plan the big numbers early and finish the night with a film."
      ],
      "imgs": [
       [
        "ent-karaoke",
-       "Karaoke corner with ambient lighting"
+       "Karaoke corner with ambient lighting for group nights"
       ],
       [
-       "roof-night",
-       "Rooftop lounge at night with string lights"
+       "ent-mics",
+       "Karaoke microphones and remotes ready for a sing-along"
+      ],
+      [
+       "ent-ps",
+       "PlayStation with two controllers for game nights"
       ]
+     ]
+    },
+    {
+     "h2": "Rooftop BBQ with the District 1 skyline",
+     "p": [
+      "The rooftop terrace of about 56–60 m² is where group trips become memories. Fire up the BBQ or the smoker, gather on the outdoor sofa and watch the lights of the District 1 skyline come on across the river. Celebrate a birthday, a bachelor or bachelorette weekend, a reunion with old friends or the end of a successful project. Solar lights keep the mood warm after dark."
+     ],
+     "imgs": [
+      [
+       "roof-night",
+       "Rooftop lounge in the evening, softly lit for a group night"
+      ],
+      [
+       "roof-bbq",
+       "BBQ grill on the rooftop terrace, ready for a skyline barbecue"
+      ],
+      [
+       "river-city",
+       "River view towards the District 1 skyline from the house"
+      ]
+     ]
+    },
+    {
+     "h2": "For colleagues and work trips too",
+     "p": [
+      "The house works just as well for business teams. WiFi of up to 1 Gbit/s with mesh on every floor handles video calls and uploads from any room. The living room and dining table double as a meeting space, the bedrooms are quiet, and an iron is ready before the client meeting. After work, the rooftop is a far better place to wind down than a hotel bar."
+     ]
+    },
+    {
+     "h2": "Easy arrival and everyday comfort",
+     "p": [
+      "Self check-in with a keypad lock means your group can arrive at any time, with a key for the outer gate. Airport transfer can be arranged with your booking, which is handy when several people arrive with luggage. Fresh bedding, towels, toiletries, slippers and hot water are ready, and a laundry service is available. Cameras are outdoors only.",
+      "Restaurants and street food are close by for nights when nobody wants to cook, and the ASCON Guide App (password sent after booking) helps you find places to eat, bars and things to do across the city."
      ]
     },
     {

@@ -7,6 +7,10 @@ PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','famili
 ('location','location/'),('booking','booking/'),('faq','faq/'),('rules','house-rules/'),('guide','guide/'),
 ('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),
 ('imprint','imprint/'),('privacy','privacy/')]
+# Room detail pages: published per language only once content/<code>.json has pages.<id> (no placeholders)
+ROOMS=[('room-entertainment','house/karaoke-entertainment/'),('room-living','house/living-room/'),('room-kitchen','house/kitchen/'),('room-master','house/master-bedroom/'),
+('room-bedroom-2','house/bedroom-2/'),('room-bedroom-3','house/bedroom-3/'),('room-bathrooms','house/bathrooms/'),('room-rooftop','house/rooftop-terrace/')]
+PAGES+=ROOMS
 SLUG=dict(PAGES)
 F=json.load(open(f'{ROOT}/facts.json')); IMG=json.load(open(f'{ROOT}/tools/images.json'))
 LANGS=json.load(open(f'{ROOT}/languages.json'))
@@ -39,20 +43,25 @@ def section(s,code,u):
     if 'ul' in s: o.append('<ul class="chk">'+''.join(f'<li>{sub(x,code)}</li>' for x in s['ul'])+'</ul>')
     if 'table' in s: o.append('<div class="tbl"><table>'+''.join(f'<tr><th scope="row">{html.escape(k)}</th><td>{sub(v,code)}</td></tr>' for k,v in s['table'])+'</table></div>'+(f'<p class="note">{html.escape(s["table_note"])}</p>' if s.get('table_note') else ''))
     if 'imgs' in s: o.append('<div class="grid">'+''.join(f'<figure>{pic(i[0]+"@"+code if i[0]+"@"+code in IMG else i[0],i[1])}<figcaption>{html.escape(i[2] if len(i)>2 and i[2] else i[1])}</figcaption></figure>' for i in s['imgs'])+'</div>')
-    if 'faq' in s: o.append('<div class="faq">'+''.join(f'<details><summary>{html.escape(q)}</summary><p>{sub(a,code)}</p></details>' for q,a in s['faq'])+'</div>')
-    if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'])+'</div>')
+    if 'faq' in s: o.append('<div class="faq">'+''.join(f'<details><summary><h2 class="q">{html.escape(q)}</h2></summary><p>{sub(a,code)}</p></details>' for q,a in s['faq'])+'</div>')
+    if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'] if pid in C[code]['pages'])+'</div>')
     if s.get('cta'): o.append(cta(u))
     return '<section>'+''.join(o)+'</section>'
 def lodging(code,c):
-    return {"@context":"https://schema.org","@type":"LodgingBusiness","@id":SITE+'/#lodging',"name":F['name'],
+    region='Ho-Chi-Minh-Stadt' if code=='de' else 'Ho Chi Minh City'
+    return {"@context":"https://schema.org","@type":"VacationRental","@id":SITE+'/#lodging',"name":F['name'],
       "url":SITE+f'/{code}/',"image":[SITE+'/assets/img/hero-1440.webp',SITE+'/assets/img/og.jpg'],"logo":SITE+'/assets/img/logo-mark.png',
       "description":c['pages']['home']['description'],"telephone":F['phone_e164'],"email":F['email'],
-      "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":F['locality'],"addressRegion":"Ho Chi Minh City","addressCountry":F['country']},
-      "checkinTime":F['checkin'],"checkoutTime":F['checkout'],"numberOfRooms":F['rooms'],"petsAllowed":False,
+      "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":"Tân Hưng","addressRegion":region,"addressCountry":F['country']},
+      "checkinTime":F['checkin'],"checkoutTime":F['checkout'],"petsAllowed":False,
       "knowsLanguage":F['languages'],"sameAs":[F['airbnb'],F['trip']],
       "contactPoint":[{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"email":F['email'],"url":F['wa']},{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"url":F['zalo']}],
       "amenityFeature":[{"@type":"LocationFeatureSpecification","name":a,"value":True} for a in F['amenities']],
-      "containsPlace":{"@type":"House","name":F['name']+" – entire house","numberOfRooms":F['rooms'],"numberOfBedrooms":F['rooms'],"numberOfFullBathrooms":F['bathrooms_full'],"numberOfPartialBathrooms":F['bathrooms_partial'],"floorSize":{"@type":"QuantitativeValue","minValue":F['size_m2_min'],"unitCode":"MTK"},"amenityFeature":[{"@type":"LocationFeatureSpecification","name":a,"value":True} for a in F['amenities']]}}
+      "containsPlace":{"@type":"Accommodation","additionalType":"EntirePlace","name":F['name'],"numberOfRooms":F['rooms'],"numberOfBedrooms":F['rooms'],
+        "numberOfBathroomsTotal":F['bathrooms_full']+F['bathrooms_partial'],"numberOfFullBathrooms":F['bathrooms_full'],"numberOfPartialBathrooms":F['bathrooms_partial'],
+        "bed":[{"@type":"BedDetails","numberOfBeds":1,"typeOfBed":"180×200 cm"},{"@type":"BedDetails","numberOfBeds":2,"typeOfBed":"160×200 cm"}],
+        "floorSize":{"@type":"QuantitativeValue","minValue":F['size_m2_min'],"unitCode":"MTK"},
+        "amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Self check-in via keypad; the outer gate uses a key","value":True}]}}
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
     title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
@@ -65,13 +74,14 @@ def page(l,pid):
     if pid in ('home','house','booking','location'): ld.append(lodging(code,c))
     crumbs=[{"@type":"ListItem","position":1,"name":u['home'],"item":SITE+f'/{code}/'}]
     if pid!='home':
+        if pid.startswith('room-'): crumbs.append({"@type":"ListItem","position":2,"name":c['pages']['house']['h1'],"item":SITE+f'/{code}/house/'})
         if pid.startswith('guide-'): crumbs.append({"@type":"ListItem","position":2,"name":c['pages']['guide']['h1'],"item":SITE+f'/{code}/guide/'})
         crumbs.append({"@type":"ListItem","position":len(crumbs)+1,"name":p['h1'],"item":canon})
     ld.append({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":crumbs})
     if pid.startswith('guide-'): ld.append({"@context":"https://schema.org","@type":"Article","headline":p['h1'],"description":p['description'],"inLanguage":hl,"image":SITE+'/assets/img/og.jpg',"author":{"@type":"Organization","name":F['name']},"mainEntityOfPage":canon,"dateModified":TODAY})
     if pid=='faq': ld.append({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for s in p['sections'] for q,a in s.get('faq',[])]})
     ldh=''.join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False).replace('</','<\\/')+'</script>' for x in ld)
-    navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else '')
+    navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else 'house' if pid.startswith('room-') else '')
     nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(v)}</a>' for k,v in c['nav'])
     picker='<details class="lang"><summary>🌐 '+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid] if pid in C[x[0]]["pages"] else ""}" hreflang="{x[1]}" lang="{x[1]}">{x[2]}</a></li>' for x in PUB)+'</ul></details>'
     lm=IMG['logo-mark']; lf=IMG['logo-full']
@@ -79,7 +89,7 @@ def page(l,pid):
         top=(f'<div class="hero">{pic(p["hero"][0],p["hero"][1],True,"100vw")}<div class="in"><h1>{html.escape(p["h1"])}</h1>'
              f'<p>{html.escape(p["lead"])}</p><p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u)}</div></div><div class="wrap">')
     else:
-        top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')
+        top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')+(f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,"(min-width:900px) 900px, 100vw")}</figure>' if p.get('cover') else '')
     body=''.join(section(s,code,u) for s in p['sections'])
     return f'''<!doctype html><html lang="{hl}" dir="{dirn}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><meta name="description" content="{html.escape(p['description'])}"><link rel="canonical" href="{canon}">{alts}
@@ -88,7 +98,7 @@ def page(l,pid):
 <body><a class="skip" href="#main">{u['skip']}</a><header><div class="bar"><a class="brand" href="{url(code,'home')}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm['w']}" height="{lm['h']}" alt="ASCON LIVING logo">ASCON LIVING</a>{picker}</div><nav class="main" aria-label="Main">{nav}</nav></header>
 <main id="main">{top}{body}</div></main>
 <footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf['w']}" height="{lf['h']}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u['motto']}</p></div>
-<div><strong>{u['address_label']}</strong><br>{F['street']}<br>{F['locality']}, Vietnam</div>
+<div><strong>{u['address_label']}</strong><br>{F['street']}<br>{u.get('locality',F['locality'])}, Vietnam</div>
 <div><strong>{u['contact_label']}</strong><br><a href="tel:{F['phone_e164']}">{F['phone']}</a><br><a href="mailto:{F['email']}">{F['email']}</a><br><a href="{F['wa']}" rel="noopener">WhatsApp</a> · <a href="{F['zalo']}" rel="noopener">Zalo</a></div>
 <div><strong>{u['more_label']}</strong><br><a href="{url(code,'imprint')}">{c['pages']['imprint']['h1']}</a><br><a href="{url(code,'privacy')}">{c['pages']['privacy']['h1']}</a><br><a href="{F['guide']}" rel="noopener">{u['guest_guide']}</a></div></div></footer>
 <a class="fab" href="{F['wa']}" rel="noopener" aria-label="{u['whatsapp']}">{WA_SVG}</a></body></html>'''

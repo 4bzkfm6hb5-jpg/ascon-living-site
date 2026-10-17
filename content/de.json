@@ -18,7 +18,8 @@
   "home": "Start",
   "not_found_title": "Seite nicht gefunden",
   "not_found_text": "Diese Seite gibt es nicht. Zur Startseite:",
-  "zalo": "Über Zalo buchen"
+  "zalo": "Über Zalo buchen",
+  "locality": "Tân Hưng, Ho-Chi-Minh-Stadt"
  },
  "nav": [
   [
@@ -35,7 +36,11 @@
   ],
   [
    "families",
-   "Familien & Gruppen"
+   "Familien"
+  ],
+  [
+   "groups",
+   "Gruppen"
   ],
   [
    "location",
@@ -60,45 +65,48 @@
  ],
  "pages": {
   "home": {
-   "title": "Ho Chi Minh Unterkunft: ganzes Haus am Fluss | ASCON LIVING",
-   "description": "Ganzes Haus am Fluss in Tân Hưng nahe Phú Mỹ Hưng, Ho-Chi-Minh-Stadt: 3 Schlafzimmer mit Doppelbett, Dachterrasse, BBQ und Karaoke.",
-   "h1": "Ho Chi Minh Unterkunft: das ganze Haus am Fluss für eure Gruppe",
-   "lead": "ASCON LIVING ist ein privates Haus am Fluss in Tân Hưng, nahe Phú Mỹ Hưng (ehemals District 7): 3 Schlafzimmer mit Doppelbetten und eine Dachterrasse mit Blick auf Fluss und Skyline.",
+   "title": "Ferienhaus Ho-Chi-Minh-Stadt, Distrikt 7 | ASCON LIVING",
+   "description": "Das ganze ASCON LIVING Haus in Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt: 3 Schlafzimmer mit eigenem Bad, Dachterrasse mit Flussblick, Karaoke, BBQ.",
+   "h1": "Ferienhaus in Ho-Chi-Minh-Stadt (Distrikt 7): ganzes Haus für Familien & Gruppen",
+   "lead": "Ein privates Haus in Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt: drei Etagen, drei Schlafzimmer mit jeweils eigenem Bad, ein Entertainment-Raum für Karaoke- und Filmabende und eine Dachterrasse mit Blick über den Fluss auf die Skyline von Distrikt 1.",
    "hero": [
     "hero",
-    "Dachterrasse mit Flussblick und Skyline von Ho-Chi-Minh-Stadt"
+    "Dachterrasse mit Flussblick und Skyline von Distrikt 1 bei ASCON LIVING, Ho-Chi-Minh-Stadt"
    ],
    "sections": [
     {
-     "h2": "Saigon: wo übernachten? Im eigenen Haus",
+     "h2": "Saigon: wo übernachten? Am besten im eigenen Haus",
      "p": [
-      "Ihr mietet das ganze Haus: drei Schlafzimmer mit Doppelbetten, Bäder, drei Balkone, Wohnzimmer, voll ausgestattete Küche, Entertainment-Raum und Dachterrasse mit Flussblick. Keine Rezeption, keine geteilten Räume."
+      "Bei ASCON LIVING bucht ihr kein Zimmer, sondern das ganze Haus. Über 250 m² Wohnfläche auf drei Etagen plus Dachterrasse, und jeder Quadratmeter gehört für die Dauer eures Aufenthalts nur euch. Keine Rezeption, keine geteilten Flure, keine fremden Gesichter am Frühstückstisch.",
+      "Jedes der drei Schlafzimmer hat ein eigenes Bad und eine eigene Klimaanlage. Morgens steht also niemand vor der Dusche Schlange, und jeder schläft bei der Temperatur, die ihm gefällt. Dazu kommen ein Gäste-WC neben dem Wohnzimmer, eine voll ausgestattete Küche mit großem Kühlschrank und ein rund 40 m² großes Wohnzimmer mit L-Sofa und 75-Zoll-4K-Fernseher.",
+      "Und dann gibt es die Räume, für die man abends gern zu Hause bleibt. Im Entertainment-Raum warten Karaoke, ein 4K-Beamer, eine PlayStation mit PlayStation Plus und Netflix. Oben auf der Dachterrasse werft ihr den Grill oder den Smoker an, während auf der anderen Flussseite die Lichter der Skyline von Distrikt 1 angehen.",
+      "Die Anreise ist unkompliziert: Self-Check-in per Zahlenschloss, ein Schlüssel für das Außentor und auf Wunsch ein Flughafentransfer, den ihr direkt mit der Buchung organisieren könnt. WLAN mit bis zu 1 Gbit/s und Mesh auf jeder Etage sorgt dafür, dass Videocalls, Streaming und Homeoffice reibungslos laufen. Ob Familie, Freundesgruppe oder Kollegen auf Geschäftsreise: Diese Unterkunft in Ho-Chi-Minh-Stadt bietet euch die Privatsphäre eines eigenen Zuhauses, in dem schon alles bereitsteht."
      ],
      "imgs": [
       [
        "living",
-       "Wohnzimmer mit großem Sofa und Fenstern zum Garten"
+       "Wohnzimmer mit L-Sofa im ASCON LIVING Haus in Ho-Chi-Minh-Stadt"
       ],
       [
        "bed1",
-       "Schlafzimmer 1 mit Doppelbett"
+       "Hauptschlafzimmer mit 180×200-cm-Bett im privaten Haus in Ho-Chi-Minh-Stadt"
       ],
       [
        "roof-night",
-       "Dachterrasse am Abend mit Lichterketten"
+       "Dachterrasse am Abend, gemütlich beleuchtet für einen Abend zu Hause"
       ]
      ]
     },
     {
      "h2": "Das Wichtigste auf einen Blick",
      "ul": [
-      "Ganzes Haus mit 3 Schlafzimmern, nichts wird geteilt",
-      "3 Schlafzimmer mit Doppelbetten, 3 Balkone",
-      "Dachterrasse mit Fluss- und Skyline-Blick, Grill",
-      "Entertainment-Raum mit Karaoke, Beamer und PlayStation",
-      "Küche mit Geschirrspüler, Backofen und Kaffeemaschine",
-      "Self-Check-in per Zahlencode, Check-in 14:00–23:00 Uhr",
-      "Gastgeber sprechen Deutsch, Englisch, Hindi, Punjabi, Urdu und Vietnamesisch"
+      "Das ganze private Haus zur alleinigen Nutzung: 3 Etagen plus Dachterrasse, über 250 m²",
+      "3 Schlafzimmer mit jeweils eigenem Bad und eigener Klimaanlage (1 × 180×200 cm, 2 × 160×200 cm), dazu ein Gäste-WC",
+      "Dachterrasse mit rund 56–60 m², Grill, Smoker, Outdoor-Sofa und Blick auf Fluss und Skyline von Distrikt 1",
+      "Entertainment-Raum mit Karaoke, 4K-Beamer, PlayStation mit PlayStation Plus und Netflix",
+      "Wohnzimmer mit 75-Zoll-4K-Fernseher und L-Sofa",
+      "WLAN mit bis zu 1 Gbit/s, Mesh auf jeder Etage",
+      "Self-Check-in per Zahlenschloss; Flughafentransfer und Wäscheservice möglich"
      ]
     },
     {
@@ -107,22 +115,32 @@
       [
        "Das Haus",
        "house",
-       "Schlafzimmer, Bäder, Wohnzimmer, Küche und Entertainment-Raum."
+       "Drei Schlafzimmer mit eigenem Bad, großes Wohnzimmer, Küche und Entertainment-Raum."
       ],
       [
        "Dachterrasse",
        "rooftop",
-       "Terrasse mit Blick auf Fluss und Skyline."
+       "Grillabende mit Blick auf Fluss und Skyline von Distrikt 1."
+      ],
+      [
+       "Familien",
+       "families",
+       "Viel Platz, Privatsphäre und ein eigenes Bad für jedes Schlafzimmer."
+      ],
+      [
+       "Gruppen",
+       "groups",
+       "Karaoke, Filmabende und eine Dachterrasse für eure Truppe."
       ],
       [
        "Lage",
        "location",
-       "Tân Hưng, nahe Phú Mỹ Hưng."
+       "Tân Hưng (Distrikt 7), Restaurants und Streetfood in der Nähe."
       ],
       [
        "Buchung & Kontakt",
        "booking",
-       "Airbnb, Trip.com oder WhatsApp."
+       "Airbnb, Trip.com, WhatsApp oder Zalo."
       ]
      ]
     },
@@ -132,52 +150,56 @@
    ]
   },
   "house": {
-   "title": "Ferienhaus Ho Chi Minh: 3 Schlafzimmer | ASCON",
-   "description": "Ferienhaus Ho Chi Minh von innen: ganzes Haus mit Flussblick, 3 Schlafzimmer mit Doppelbett, Küche, Karaoke-Raum.",
-   "h1": "Das Haus: eure Villa in Ho-Chi-Minh-Stadt",
-   "lead": "Das ganze Haus gehört während des Aufenthalts nur eurer Gruppe.",
+   "title": "Das Haus: 3 Schlafzimmer mit eigenem Bad | ASCON LIVING",
+   "description": "Über 250 m² auf drei Etagen plus Dachterrasse: 3 Schlafzimmer mit eigenem Bad, 40 m² Wohnzimmer, Küche, Karaoke-Raum mit 4K-Beamer. Ho-Chi-Minh-Stadt.",
+   "h1": "Das Haus in Ho-Chi-Minh-Stadt, Raum für Raum",
+   "lead": "Drei Etagen, eine Dachterrasse und über 250 m², die nur euch gehören. Hier seht ihr, was euch in jedem Raum erwartet und was ihr dort erleben könnt.",
    "sections": [
     {
-     "h2": "Wohnzimmer",
+     "h2": "Wohnzimmer: das Herz des Hauses",
      "p": [
-      "Hier startet ihr in den Tag oder lasst ihn ausklingen: helles Wohnzimmer mit großem L-Sofa, Fernseher und großen Fenstern ins Grüne – Platz für die ganze Gruppe."
+      "Im Wohnzimmer beginnt der Tag, und hier landen abends alle wieder. Mit rund 40 m² ist richtig Platz zum Ausbreiten. Auf dem großen L-Sofa findet die ganze Familie oder Gruppe gleichzeitig Platz, mit Raum zum Füßehochlegen. Der 75-Zoll-4K-Fernseher macht das Wohnzimmer zum natürlichen Treffpunkt für ein Fußballspiel, einen Zeichentrick-Morgen mit den Kindern oder die Serie, die ihr schon lange anfangen wolltet. Netflix ist startklar.",
+      "Nach einem heißen Tag in der Stadt heißt es: Schuhe aus, aufs Sofa fallen lassen, und irgendwer setzt in der Küche schon mal Wasser auf. Pflanzen und die Glastüren sorgen für eine helle, entspannte Atmosphäre statt steifer Eleganz. Es ist ein Wohnzimmer zum Wohnen: Kinder bauen eine Deckenhöhle auf dem Sofa, Freunde planen die Route für morgen, jemand liest in der Ecke ein Buch.",
+      "Ein Gäste-WC liegt direkt im Wohnbereich, so müssen Besucher und Kinder tagsüber nicht in ein Schlafzimmerbad nach oben. Und dank Mesh-WLAN mit bis zu 1 Gbit/s eignet sich das Wohnzimmer auch gut, um ein paar E-Mails zu beantworten oder an einem Videocall teilzunehmen, während die anderen die Stadt erkunden."
      ],
      "imgs": [
       [
        "living",
-       "Wohnzimmer mit großem L-Sofa"
+       "Wohnzimmer mit L-Sofa im Ferienhaus in Ho-Chi-Minh-Stadt"
       ],
       [
        "living-2",
-       "Wohnzimmer mit Sofa und Pflanzen"
+       "Helles Wohnzimmer mit Sofa und Pflanzen"
       ],
       [
        "living-tv",
-       "TV-Wand im Wohnzimmer"
+       "75-Zoll-4K-Fernseher im Wohnzimmer für gemütliche Filmabende"
       ],
       [
        "living-3",
-       "Sitzbereich an der Glastür"
+       "Sitzecke an den Glastüren im Wohnzimmer"
       ]
      ]
     },
     {
-     "h2": "Küche & Essbereich",
+     "h2": "Küche und Essbereich: kochen wie die Einheimischen",
      "p": [
-      "Gemeinsam kochen in der voll ausgestatteten Küche mit Kühlschrank, Geschirrspüler, Backofen, Herd, Mikrowelle, Kaffeemaschine, Wasserkocher und Reiskocher – und danach alle an einem Tisch essen."
+      "Viele der besten Mahlzeiten in Saigon beginnen auf dem Markt. Bringt frische Kräuter, Mangos und alles mit, was am Straßenstand am besten geduftet hat, und kocht es in eurer eigenen Küche so, wie ihr es mögt. Sie ist voll ausgestattet mit Herd, Backofen, Mikrowelle, Reiskocher, Wasserkocher und allem Geschirr und Besteck, das ihr braucht.",
+      "Im großen Kühlschrank ist genug Platz für die Einkäufe einer ganzen Gruppe, kalte Getränke für die Dachterrasse und das marinierte Fleisch für den Grillabend. Familien bereiten das Frühstück genau so zu, wie die Kinder es mögen, haben Snacks und Milch immer griffbereit und sparen sich die tägliche Suche nach einem Restaurant, das allen passt. Wer eine Woche oder länger bleibt, merkt schnell, was eine richtige Küche für Komfort und Reisekasse ausmacht.",
+      "Der Esstisch an den Küchenfenstern bringt alle zusammen, für die Momente, die eine Reise ausmachen: ein langes Frühstück vor dem Ausflug, ein gemeinsames Abendessen, eine späte Kartenrunde mit einem kalten Getränk. Und an Abenden, an denen niemand kochen möchte, sind Restaurants und Streetfood ganz in der Nähe."
      ],
      "imgs": [
       [
        "kitchen",
-       "Offene Küche mit Esstisch"
+       "Voll ausgestattete Küche mit Esstisch im Homestay in Saigon"
       ],
       [
        "kitchen-2",
-       "Küchenzeile mit gemusterten Fliesen"
+       "Küchenarbeitsplatte mit gemusterten Fliesen"
       ],
       [
        "kitchen-3",
-       "Küchengeräte auf der Arbeitsfläche"
+       "Küchengeräte auf der Arbeitsplatte, bereit zum Kochen"
       ],
       [
        "kitchen-dishes",
@@ -185,95 +207,103 @@
       ],
       [
        "kitchen-rice",
-       "Reiskocher auf der Arbeitsfläche"
+       "Reiskocher auf der Arbeitsplatte für selbst gekochte Gerichte"
       ],
       [
        "kitchen-micro",
-       "Mikrowelle in der Küche"
+       "Mikrowelle in der Gästeküche"
       ],
       [
        "kitchen-fridge",
-       "Side-by-Side-Kühlschrank in der Küche"
+       "Großer Kühlschrank in der Küche mit Platz für die Einkäufe der ganzen Gruppe"
       ],
       [
        "kitchen-dining",
-       "Esstisch an den Küchenfenstern"
+       "Esstisch an den Küchenfenstern für gemeinsame Familienessen"
       ]
      ]
     },
     {
-     "h2": "Schlafzimmer 1",
+     "h2": "Hauptschlafzimmer: rund 55 m² zum Durchatmen",
      "p": [
-      "Ein ruhiger Rückzugsort mit Doppelbett, Klimaanlage und eigener Schminkecke."
+      "Das Hauptschlafzimmer ist eine Suite für sich. Mit rund 55 m² ist es größer als so manche Stadtwohnung und bietet ein 180×200-cm-Bett mit viel Platz für zwei, eine eigene Klimaanlage und ein eigenes Bad.",
+      "Auf dem 55-Zoll-4K-Fernseher lasst ihr den Abend mit einem Film im Bett ausklingen, und auf dem eigenen Balkon trinkt ihr den ersten Kaffee des Tages, bevor der Rest des Hauses aufwacht. In der Schminkecke macht ihr euch ohne Hektik fertig, und für Pässe und Wertsachen gibt es im Haus einen Safe, damit ihr unbesorgt losziehen könnt.",
+      "Das Zimmer ist die naheliegende Wahl für Eltern, die nach einem langen Tag mit den Kindern einen Rückzugsort suchen, für ein Paar, das etwas Besonderes feiert, oder für die Person, die die ganze Reise organisiert hat und sich das schönste Zimmer verdient hat. Frische Bettwäsche, Handtücher, Pflegeprodukte und Hausschuhe liegen bei eurer Ankunft bereit, ihr müsst nur noch auspacken."
      ],
      "imgs": [
       [
        "bed1",
-       "Schlafzimmer 1 mit Doppelbett"
+       "Hauptschlafzimmer mit 180×200-cm-Bett im privaten Haus in Ho-Chi-Minh-Stadt"
       ],
       [
        "bed1-3",
-       "Schlafzimmer 1, Blick zu den Fenstern"
+       "Geräumiges Hauptschlafzimmer mit Blick zu den Fenstern"
       ],
       [
        "bed1-2",
-       "Schminkecke in Schlafzimmer 1"
+       "Schminkecke im Hauptschlafzimmer"
       ]
      ]
     },
     {
-     "h2": "Schlafzimmer 2",
+     "h2": "Schlafzimmer 2: Komfort mit eigenem Bad",
      "p": [
-      "Doppelbett, Klimaanlage und Fernseher – gemütlich für einen ruhigen Abend im eigenen Zimmer."
+      "Schlafzimmer 2 ist ein gemütliches, gut geschnittenes Zimmer mit einem 160×200-cm-Bett, eigener Klimaanlage und eigenem Bad. Gerade das eigene Bad ist wichtiger, als es klingt: Im Familienurlaub oder auf einer Reise mit Freunden hat so jeder seinen eigenen Bereich, seine eigene Dusche und seinen eigenen Rhythmus.",
+      "Auf dem Smart-TV mit Netflix kommt ihr am Ende des Tages zur Ruhe, ob mit einem Zeichentrickfilm für die Kinder vor dem Schlafengehen oder ein paar Folgen einer Serie für die Erwachsenen. Die Bilderwand gibt dem Raum eine warme, persönliche Note, mehr Zuhause als Hotel.",
+      "Schlafzimmer 2 passt für ein zweites Paar, zwei Geschwister oder die Großeltern, die ein ruhiges Zimmer für sich möchten und trotzdem nah bei der Familie sind. Frische Bettwäsche, Handtücher und Hausschuhe liegen bereit, warmes Wasser gibt es jederzeit, und ein Bügeleisen ist da, falls ihr für ein Meeting oder ein Abendessen schick aussehen wollt."
      ],
      "imgs": [
       [
        "bed2",
-       "Schlafzimmer 2 mit Doppelbett"
+       "Schlafzimmer 2 mit 160×200-cm-Bett"
       ],
       [
        "bed2-2",
-       "Schlafzimmer 2 mit Fernseher"
+       "Schlafzimmer 2 mit Smart-TV"
       ],
       [
        "bed2-3",
-       "Schlafzimmer 2 mit Kunstwand"
+       "Schlafzimmer 2 mit Bilderwand"
       ]
      ]
     },
     {
-     "h2": "Schlafzimmer 3",
+     "h2": "Schlafzimmer 3: ruhig, dunkel und wie gemacht für tiefen Schlaf",
      "p": [
-      "Doppelbett, Klimaanlage und Fernseher; frische Handtücher und Bettwäsche liegen bereit."
+      "Schlafzimmer 3 ist das Zimmer für alle, denen guter Schlaf wichtig ist. Es ist ruhig und angenehm dunkel und bleibt auch nach Sonnenaufgang erholsam. Ideal für Reisende mit Jetlag, die ausschlafen möchten, für Menschen mit leichtem Schlaf, für Kinder, die mittags ein Nickerchen machen, oder für alle, die sich nach einem langen Karaoke-Abend richtig erholen wollen.",
+      "Wie die anderen Schlafzimmer hat es ein 160×200-cm-Bett, eine eigene Klimaanlage und ein eigenes Bad. Ein Smart-TV mit Netflix sorgt für einen ruhigen Abend auf dem Zimmer.",
+      "Frische Bettwäsche und Handtücher liegen für euch bereit, dazu Pflegeprodukte und Hausschuhe. Tür zu, Klimaanlage auf eure Lieblingstemperatur, und schlafen, bis ihr bereit für den Tag seid. Wenn ihr aufwacht, sind Küche, Wohnzimmer und Dachterrasse nur eine Treppe entfernt."
      ],
      "imgs": [
       [
        "bed3",
-       "Schlafzimmer 3 mit Doppelbett"
+       "Schlafzimmer 3 mit 160×200-cm-Bett, ruhig und dunkel für erholsamen Schlaf"
       ],
       [
        "bed3-2",
-       "Schlafzimmer 3 mit Fernseher"
+       "Schlafzimmer 3 mit Smart-TV"
       ],
       [
        "bed3-3",
-       "Handtücher und Bettwäsche in Schlafzimmer 3"
+       "Frische Handtücher und Bettwäsche in Schlafzimmer 3"
       ]
      ]
     },
     {
-     "h2": "Bäder",
+     "h2": "Bäder: eines für jedes Schlafzimmer",
      "p": [
-      "Bäder mit Regendusche, Handtüchern und Föhn – kein Anstehen am Morgen, auch wenn das Haus voll ist. Haltegriffe sind vorhanden."
+      "Keine Warteschlange am Morgen, kein Abstimmen, wer wann duscht. Jedes der drei Schlafzimmer hat sein eigenes Bad, und im Wohnbereich gibt es zusätzlich ein Gäste-WC. Für Familien und Gruppen macht allein das oft den Unterschied zwischen einem hektischen und einem entspannten Morgen.",
+      "In den Bädern gibt es warmes Wasser, frische Handtücher und Pflegeprodukte, so könnt ihr mit leichtem Gepäck reisen und seid trotzdem gut versorgt. Unter der Regendusche spült ihr die Hitze und Schwüle der Stadt ab, bevor es abends zum Essen wieder hinausgeht.",
+      "Weil jedes Bad zu einem Schlafzimmer gehört, hat jeder seinen eigenen Platz für seine Sachen, macht sich in seinem Tempo fertig und behält seine Routine, ob beim Baden des Kleinkinds oder bei der schnellen Dusche vor dem Geschäftstermin. Frische Kleidung für den Rest der Reise? Ein Wäscheservice ist auf Anfrage möglich."
      ],
      "imgs": [
       [
        "bath",
-       "Bad mit Regendusche"
+       "Eigenes Bad mit Regendusche"
       ],
       [
        "bath-4",
-       "Dusche mit Regenduschkopf"
+       "Regendusche in einem der Bäder en suite"
       ],
       [
        "bath-2",
@@ -281,11 +311,11 @@
       ],
       [
        "bath-3",
-       "Frische Handtücher im Bad"
+       "Frische Handtücher im eigenen Bad"
       ],
       [
        "bath-5",
-       "Föhn im Bad"
+       "Detail am Waschtisch im Bad"
       ],
       [
        "bath-6",
@@ -294,115 +324,165 @@
      ]
     },
     {
-     "h2": "Entertainment-Raum",
+     "h2": "Entertainment-Raum: Karaoke, Filme und Spiele",
      "p": [
-      "Ein eigener Raum für gemeinsame Abende: Karaoke singen, einen Film über den Beamer schauen oder auf der PlayStation spielen – ideal für Gruppen."
+      "Von diesem Raum erzählen Gäste noch nach der Reise. Der Entertainment-Raum macht aus einem gewöhnlichen Abend den schönsten des Urlaubs, und ihr müsst dafür nicht einmal das Haus verlassen.",
+      "Fangt mit Karaoke an. Mikrofone in die Hand, Licht gedimmt, und jeder sucht sich ein Lied aus, von den Schüchternen, die erst einen Duettpartner brauchen, bis zu denen, die den ganzen Tag auf ihren großen Auftritt gewartet haben. Wenn ihr euch zurücklehnen wollt, startet ihr den 4K-Beamer für einen Filmabend auf großer Leinwand: Popcorn, die ganze Familie auf den Sofas, Netflix läuft.",
+      "Für Spieleabende gibt es eine PlayStation mit PlayStation Plus und zwei Controllern, für Rennduelle, gemeinsame Koop-Abenteuer oder ein Familienturnier, bei dem die Kinder die Erwachsenen schlagen. So haben verschiedene Generationen zusammen Spaß, und auch ein verregneter Nachmittag ist gerettet.",
+      "Wer in Ho-Chi-Minh-Stadt ein Ferienhaus mit Karaoke sucht, findet es hier, mit eigenem Raum dafür. Bitte denkt an die Hausregel: laute Musik nur bis 21:30 Uhr, bis dahin bleibt reichlich Zeit für eine ordentliche Runde."
      ],
      "imgs": [
       [
        "ent",
-       "Entertainment-Raum mit Sofas"
+       "Entertainment-Raum mit Sofas, Ferienhaus mit Karaoke in Ho-Chi-Minh-Stadt"
       ],
       [
        "ent-karaoke",
-       "Karaoke-Ecke mit Ambientebeleuchtung"
+       "Karaoke-Ecke mit stimmungsvoller Beleuchtung"
       ],
       [
        "ent-cinema",
-       "Beamer-Leinwand im Entertainment-Raum"
+       "Leinwand für den 4K-Beamer, bereit für den Filmabend"
       ],
       [
        "ent-tv",
-       "Entertainment-Raum mit Fernseher"
+       "Entertainment-Raum mit Fernseher und Sitzplätzen"
       ],
       [
        "ent-mics",
-       "Karaoke-Mikrofone und Fernbedienungen"
+       "Karaoke-Mikrofone und Fernbedienungen für den gemeinsamen Gesangsabend"
       ],
       [
        "ent-ps",
-       "PlayStation mit zwei Controllern"
+       "PlayStation mit zwei Controllern für Spieleabende"
       ]
      ]
     },
     {
-     "h2": "Dachterrasse & Flussblick",
+     "h2": "Dachterrasse und Flussblick",
      "p": [
-      "Terrasse mit Lounge, Essbereich und Grill, dazu Blick über Fluss und Skyline – ein ganzes Haus mit Flussblick, plus drei Balkone."
+      "Ganz oben im Haus liegt die rund 56–60 m² große Dachterrasse, und dort verbringen viele Gäste ihre schönsten Stunden. Tagsüber machen Pflanzen und ein Outdoor-Sofa sie zu einem ruhigen Ort für ein Buch oder einen Kaffee. Wenn die Sonne untergeht, werden der Fluss und die Skyline von Distrikt 1 zur Kulisse fürs Abendessen.",
+      "Werft den Grill oder den Smoker an, deckt den Tisch und seht zu, wie die Lichter der Stadt angehen, während das Essen brutzelt. Solarleuchten sorgen nach Einbruch der Dunkelheit für warmes Licht. Der perfekte Ort für ein Geburtstagsessen, einen Sundowner mit Freunden oder einen ruhigen letzten Abend vor dem Rückflug. Mehr dazu auf der Seite Dachterrasse."
      ],
      "imgs": [
       [
        "roof-terrace",
-       "Dachterrasse mit Flussblick und Skyline von Ho-Chi-Minh-Stadt"
+       "Dachterrasse mit Blick auf die Skyline von Distrikt 1"
       ],
       [
        "river-balcony",
-       "Terrassengeländer mit Blick auf Fluss und Grün"
+       "Flussblick vom Terrassengeländer, umrahmt von Pflanzen"
       ],
       [
        "river-city",
-       "Flussblick mit Skyline und Landmark 81 im Hintergrund"
+       "Flussblick vom Haus auf die Skyline von Distrikt 1"
       ],
       [
        "roof-day",
-       "Dachterrasse mit Loungemöbeln und Pflanzen bei Tag"
+       "Dachterrasse bei Tag mit Outdoor-Sofa und Pflanzen"
       ],
       [
        "roof-lounge",
-       "Essgruppe mit Polstern auf der Dachterrasse"
+       "Esstisch mit Polstersitzen auf der Dachterrasse"
       ],
       [
        "roof-night",
-       "Lounge auf der Dachterrasse mit Lichterketten"
+       "Dachterrasse am Abend, gemütlich beleuchtet für einen Abend zu Hause"
       ],
       [
        "roof-evening",
-       "Lounge auf der Dachterrasse am Abend mit Lichterketten"
+       "Sitzbereich auf der Dachterrasse am Abend"
       ],
       [
        "roof-evening-2",
-       "Essbereich auf der Dachterrasse am Abend"
+       "Gedeckter Essbereich auf der Dachterrasse am Abend"
       ],
       [
        "roof-bbq",
-       "Grill auf der Dachterrasse"
+       "Grill auf der Dachterrasse, bereit für einen Grillabend mit Skyline-Blick"
       ],
       [
        "roof-skyline",
-       "Skyline bei Nacht, von der Dachterrasse aus"
+       "Skyline der Stadt bei Nacht, gesehen von der Dachterrasse"
       ]
      ]
     },
     {
-     "h2": "Eingang & Flur",
+     "h2": "Ankunft, Eingang und Sicherheit",
      "p": [
-      "Self-Check-in per Zahlencode: Die Haustür öffnet ihr mit eurem persönlichen Code, für das äußere Tor gibt es einen Schlüssel, den der Gastgeber übergibt oder vor der Anreise mit euch abstimmt. Treppen mit Handlauf verbinden die Etagen."
+      "Nach einem langen Flug soll die Ankunft einfach sein, und das ist sie. Ihr checkt selbst per Zahlenschloss ein, ohne auf eine Schlüsselübergabe zu warten und ohne Stress, falls euer Flug spät landet. Für das Außentor bekommt ihr zusätzlich einen Schlüssel. Wer sich nicht um ein Taxi kümmern möchte, kann mit der Buchung einen Flughafentransfer organisieren.",
+      "Im Haus verbinden Eingang und Treppe die drei Etagen und führen bis hinauf zur Dachterrasse. Ein Flur führt zu den Schlafzimmertüren und gibt jedem Zimmer etwas Abstand zu den Gemeinschaftsräumen.",
+      "Eure Sicherheit nehmen wir ernst. Kameras sind ausschließlich außen angebracht, niemals im Haus, eure Privatsphäre bleibt also gewahrt. Für Wertsachen steht ein Safe bereit, und laute Musik nur bis 21:30 Uhr sorgt für ein gutes Verhältnis zu den Nachbarn."
      ],
      "imgs": [
       [
        "entrance",
-       "Eingang mit Treppe"
+       "Eingang mit Treppe, Self-Check-in per Zahlenschloss"
       ],
       [
        "hall",
-       "Flur mit Zimmertüren"
+       "Flur mit Schlafzimmertüren"
       ],
       [
        "stairs",
-       "Treppe zwischen den Etagen"
+       "Treppe, die die drei Etagen verbindet"
       ]
      ]
     },
     {
-     "h2": "Ausstattung",
-     "ul": [
-      "Klimaanlage und Ventilatoren",
-      "WLAN",
-      "Waschmaschine und Bügeleisen",
-      "Safe",
-      "Rauchmelder, Feuerlöscher, Erste-Hilfe-Set",
-      "Self-Check-in per Zahlencode (das Außentor öffnet mit Schlüssel)",
-      "Grill auf der Dachterrasse"
+     "h2": "Ausstattung auf einen Blick",
+     "table": [
+      [
+       "Schlafzimmer",
+       "Hauptschlafzimmer rund 55 m² (Bett 180×200 cm, 55-Zoll-4K-TV, Balkon); Schlafzimmer 2 und 3 (Betten 160×200 cm, Smart-TV); Schlafzimmer 3 ist ein innenliegender Raum ohne Fenster"
+      ],
+      [
+       "Bäder",
+       "3 eigene Bäder en suite plus Gäste-WC"
+      ],
+      [
+       "Wohnen",
+       "Wohnzimmer rund 40 m², L-Sofa, 75-Zoll-4K-TV"
+      ],
+      [
+       "Unterhaltung",
+       "Karaoke, 4K-Beamer, PlayStation mit PlayStation Plus, Netflix"
+      ],
+      [
+       "Küche",
+       "Herd, Backofen, Mikrowelle, Reiskocher, Wasserkocher, großer Kühlschrank (ca. 540 Liter), Geschirr"
+      ],
+      [
+       "Dachterrasse",
+       "Rund 56–60 m², Grill und Smoker, Outdoor-Sofa, Pflanzen, Solarleuchten, Blick auf Fluss und Skyline"
+      ],
+      [
+       "Komfort",
+       "4 Klimaanlagen, Warmwasser, Bügeleisen, Safe, Pflegeprodukte, Hausschuhe, Bettwäsche"
+      ],
+      [
+       "Internet",
+       "WLAN mit bis zu 1 Gbit/s, Mesh auf jeder Etage"
+      ],
+      [
+       "Ankunft",
+       "Self-Check-in per Zahlenschloss, Schlüssel für das Außentor"
+      ],
+      [
+       "Sicherheit",
+       "Kameras nur außen, keine im Haus"
+      ],
+      [
+       "Service",
+       "Flughafentransfer mit der Buchung, Wäscheservice auf Anfrage"
+      ]
+     ]
+    },
+    {
+     "h2": "Für wen das Haus passt",
+     "p": [
+      "ASCON LIVING passt am besten zu allen, die gemeinsam reisen möchten, ohne sich auf die Füße zu treten. Familien bekommen ein eigenes Bad für jedes Schlafzimmer, eine Küche für unkomplizierte Mahlzeiten und einen Entertainment-Raum, der Kinder und Teenager bei Laune hält. Freundesgruppen bekommen Karaoke, Spieleabende und Grillabende auf der Dachterrasse. Kollegen auf Geschäftsreise bekommen schnelles Mesh-WLAN, ruhige Schlafzimmer und ein Wohnzimmer, das auch als Besprechungsraum funktioniert.",
+      "Wer ein Ferienhaus in Vietnam mieten möchte, findet hier genau das: ein privates Haus, das ihr nur mit den Menschen teilt, mit denen ihr gekommen seid. Mehr Ideen findet ihr auf unseren Seiten für Familien und für Gruppen."
      ]
     },
     {
@@ -411,34 +491,56 @@
    ]
   },
   "rooftop": {
-   "title": "Dachterrasse mit Fluss- und Skyline-Blick | ASCON LIVING",
-   "description": "Die private Dachterrasse von ASCON LIVING in Ho-Chi-Minh-Stadt: Lounge, Essbereich, Grill und Blick auf Fluss und Skyline, tagsüber und abends.",
-   "h1": "Dachterrasse mit Blick auf Fluss und Skyline",
-   "lead": "Auf der Dachterrasse gibt es eine Lounge, einen Essbereich und einen Grill.",
+   "title": "Ganzes Haus mit Flussblick: Dachterrasse | ASCON LIVING",
+   "description": "Private Dachterrasse mit rund 56–60 m², Grill, Smoker und Outdoor-Sofa, mit Blick über den Fluss auf die Skyline von Distrikt 1. Ho-Chi-Minh-Stadt.",
+   "h1": "Ganzes Haus mit Flussblick: die Dachterrasse",
+   "lead": "Rund 56–60 m² ganz oben im Haus, nur für euch: Grill und Smoker, Outdoor-Sofa, Pflanzen und ein Blick über den Fluss bis zur Skyline von Distrikt 1.",
    "sections": [
     {
-     "h2": "Die Terrasse",
+     "h2": "Eure private Terrasse über der Stadt",
+     "p": [
+      "Steigt die Treppe bis ganz nach oben, und die Stadt liegt vor euch. Die Dachterrasse ist rund 56–60 m² groß und gehört nur euch und euren Mitreisenden. Vor euch liegt der Fluss, dahinter die Skyline von Distrikt 1, ein Blick, den die meisten Hotelgäste nur aus einer vollen Rooftop-Bar kennen.",
+      "Tagsüber ist die Terrasse eine grüne, entspannte Ecke von Saigon. Pflanzen rahmen den Platz ein, auf dem Outdoor-Sofa streckt ihr euch mit einem Kaffee oder einem Buch aus, und Kinder schauen von oben über Fluss und Stadt. Ein ruhiger Ort, um den Tag zu planen, Nachrichten zu beantworten oder einfach zu genießen, dass ihr in Ho-Chi-Minh-Stadt ein eigenes Haus mit Aussicht habt.",
+      "Zum Essen sitzen alle gemeinsam am Tisch. Grill und Smoker stehen direkt daneben, so verpasst auch der Grillmeister kein Gespräch. Kauft nachmittags auf dem Markt frischen Fisch, Spieße oder Gemüse, legt alles unten in den großen Kühlschrank, und das beste Abendessen eurer Reise ist schon halb vorbereitet."
+     ],
      "imgs": [
       [
        "roof-terrace",
-       "Dachterrasse mit Loungemöbeln, Pflanzen und Skyline-Blick"
+       "Dachterrasse mit Blick auf die Skyline von Distrikt 1"
+      ],
+      [
+       "river-balcony",
+       "Flussblick vom Terrassengeländer, umrahmt von Pflanzen"
+      ],
+      [
+       "river-city",
+       "Flussblick vom Haus auf die Skyline von Distrikt 1"
+      ],
+      [
+       "roof-day",
+       "Dachterrasse bei Tag mit Outdoor-Sofa und Pflanzen"
       ],
       [
        "roof-lounge",
-       "Essgruppe mit Polstern auf der Dachterrasse"
+       "Esstisch mit Polstersitzen auf der Dachterrasse"
       ],
       [
        "roof-bbq",
-       "Grill auf der Dachterrasse"
+       "Grill auf der Dachterrasse, bereit für einen Grillabend mit Skyline-Blick"
       ]
      ]
     },
     {
-     "h2": "Am Abend",
+     "h2": "Abends auf dem Dach: Grillen mit Skyline-Blick",
+     "p": [
+      "Jetzt zeigt sich die Dachterrasse von ihrer schönsten Seite. Bei Sonnenuntergang verfärbt sich der Himmel über dem Fluss, und die Hochhäuser von Distrikt 1 leuchten nach und nach auf. Rund um die Terrasse gehen die Solarleuchten an und tauchen alles in ein weiches, warmes Licht.",
+      "Werft den Grill an oder lasst etwas langsam im Smoker garen, während es sich alle auf dem Outdoor-Sofa gemütlich machen. Stoßt auf einen Geburtstag an, auf ein Wiedersehen oder einfach auf einen guten Tag in der Stadt. Freunde reden hier stundenlang, und Familien genießen ein entspanntes Abendessen, während die Kinder die Lichter der Skyline zählen.",
+      "Auch zu zweit ist es ein schöner, ruhiger Platz, wenn die anderen schon schlafen. Bitte nehmt ab 21:30 Uhr Rücksicht auf die Nachbarn und dreht die Lautstärke herunter; der Blick ist auch im Flüsterton schön."
+     ],
      "imgs": [
       [
        "roof-night",
-       "Lounge auf der Dachterrasse mit Lichterketten"
+       "Dachterrasse am Abend, gemütlich beleuchtet für einen Abend zu Hause"
       ],
       [
        "roof-evening",
@@ -446,11 +548,11 @@
       ],
       [
        "roof-evening-2",
-       "Essbereich auf der Dachterrasse am Abend"
+       "Gedeckter Essbereich auf der Dachterrasse am Abend"
       ],
       [
        "roof-skyline",
-       "Skyline bei Nacht, von der Dachterrasse aus"
+       "Skyline der Stadt bei Nacht, gesehen von der Dachterrasse"
       ]
      ]
     },
@@ -460,38 +562,64 @@
    ]
   },
   "families": {
-   "title": "Ferienhaus für Familien & Gruppen in Saigon | ASCON LIVING",
-   "description": "Ferienhaus in Vietnam mieten: ganzes Haus in Ho-Chi-Minh-Stadt mit 3 Schlafzimmern, Küche und Entertainment-Raum.",
-   "h1": "Ganzes Haus in Ho-Chi-Minh-Stadt für Familien und Gruppen",
-   "lead": "Das ganze Haus gehört euch – ausgelegt für Familien und Freundesgruppen.",
+   "title": "Familienunterkunft in Distrikt 7, Saigon | ASCON LIVING",
+   "description": "Ein ganzes Haus für eure Familie in Distrikt 7, Ho-Chi-Minh-Stadt: 3 Schlafzimmer mit eigenem Bad, Küche, Kinoraum und Dachterrasse mit Flussblick.",
+   "h1": "Familienunterkunft in Distrikt 7: ein ganzes Haus für eure Familie",
+   "lead": "Ihr reist mit Kindern, Großeltern oder der ganzen Verwandtschaft? Bei ASCON LIVING habt ihr das ganze Haus für euch, mit einem eigenen Bad für jedes Schlafzimmer und viel Platz zum Spielen, Essen und Ausruhen.",
    "sections": [
     {
-     "h2": "Was das Haus für Gruppen bietet",
-     "ul": [
-      "3 Schlafzimmer mit je einem Doppelbett",
-      "Bäder",
-      "Voll ausgestattete Küche mit Reiskocher, Backofen und Geschirrspüler",
-      "Entertainment-Raum mit Karaoke, Beamer, Fernseher und PlayStation",
-      "Dachterrasse mit Grill",
-      "Waschmaschine; Wäscheservice auf Anfrage (30 EUR pro Ladung)",
-      "Flughafentransfer auf Anfrage (50 EUR)",
-      "Kostenlose Gepäckaufbewahrung"
+     "h2": "Warum sich Familien hier wie zu Hause fühlen",
+     "p": [
+      "Familienurlaub klappt am besten, wenn alle genug Luft haben. Im Hotel bedeutet das meist zwei oder drei getrennte Zimmer, oft auf verschiedenen Etagen, und viel Zeit in Fluren und Aufzügen. Bei ASCON LIVING wohnt die ganze Familie unter einem Dach, in einem privaten Haus mit über 250 m² Wohnfläche auf drei Etagen plus Dachterrasse.",
+      "Es gibt drei Schlafzimmer, jedes mit eigenem Bad und eigener Klimaanlage. Die Eltern nehmen das rund 55 m² große Hauptschlafzimmer mit 180×200-cm-Bett, Balkon und 55-Zoll-4K-Fernseher. Die Schlafzimmer 2 und 3 haben jeweils ein 160×200-cm-Bett und einen Smart-TV, ideal für Kinder, Teenager oder Großeltern. Schlafzimmer 3 ist ruhig und dunkel und damit perfekt für den Mittagsschlaf und für Kleine, die sonst mit der Sonne aufwachen. Ein Gäste-WC im Wohnbereich erspart tagsüber den Weg nach oben.",
+      "Andere Gäste gibt es im Haus nicht. Niemand stört sich also daran, wenn die Kinder morgens lebhaft sind, und ihr müsst sie nie auf einem Hotelflur zur Ruhe ermahnen."
      ]
     },
     {
-     "h2": "Gut zu wissen",
+     "h2": "Essen, wie es eurer Familie schmeckt",
      "p": [
-      "Das Haus hat mehrere Etagen mit Treppen und Haltegriffen. Sicherheitsausstattung: Rauchmelder, Feuerlöscher und Erste-Hilfe-Set. Konkrete Fragen beantworten wir vor der Buchung gern per WhatsApp."
+      "Wählerische Esser, frühes Frühstück, Babybrei oder die Lust auf etwas Vertrautes nach einer Woche voller neuer Aromen: Eine richtige Küche löst all das. Sie hat Herd, Backofen, Mikrowelle, Reiskocher, Wasserkocher und alles nötige Geschirr, dazu einen großen Kühlschrank für Milch, Obst, Snacks und Getränke.",
+      "Kocht für die Kinder schnell Nudeln und probiert selbst etwas Vietnamesisches, oder holt euch Essen von den Streetfood-Ständen und Restaurants in der Nähe und esst gemeinsam am Esstisch. An warmen Abenden tragt ihr das Essen hinauf auf die Dachterrasse und grillt mit Blick auf Fluss und Skyline von Distrikt 1."
      ],
      "imgs": [
       [
        "kitchen-dining",
-       "Esstisch für die ganze Gruppe"
+       "Esstisch an den Küchenfenstern für gemeinsame Familienessen"
       ],
       [
-       "ent-cinema",
-       "Beamer-Leinwand im Entertainment-Raum"
+       "kitchen",
+       "Voll ausgestattete Küche für Familien in Distrikt 7"
       ]
+     ]
+    },
+    {
+     "h2": "Regennachmittage und Familienkino",
+     "p": [
+      "Jeder Familienurlaub braucht einen Plan B, und in Saigons Regenzeit seid ihr froh darüber. Der Entertainment-Raum macht einen Nachmittag drinnen zum Highlight: ein Filmabend mit 4K-Beamer und Netflix, ein Familien-Karaokewettbewerb oder ein PlayStation-Turnier, bei dem die Kinder endlich ihre Eltern schlagen. Das Wohnzimmer mit L-Sofa und 75-Zoll-4K-Fernseher ist der zweite Treffpunkt für Zeichentrick oder einen Familienfilm.",
+      "Wenn die Kinder schlafen, gehen die Erwachsenen hinauf auf die Dachterrasse und genießen unter den Solarleuchten in Ruhe ein Getränk. Laute Musik nur bis 21:30 Uhr, so schlafen alle gut."
+     ],
+     "imgs": [
+      [
+       "ent-cinema",
+       "Leinwand für den 4K-Beamer, bereit für das Familienkino"
+      ],
+      [
+       "living-tv",
+       "75-Zoll-4K-Fernseher im Wohnzimmer für gemütliche Filmabende"
+      ]
+     ]
+    },
+    {
+     "h2": "Sicher, einfach und ohne Stress",
+     "p": [
+      "Eltern denken zuerst an Sicherheit, deshalb hier die Fakten. Kameras sind nur außen angebracht, niemals im Haus. Für Pässe und Wertsachen gibt es einen Safe, und dank Self-Check-in per Zahlenschloss könnt ihr ankommen, wann immer euer Flug landet; für das Außentor bekommt ihr einen eigenen Schlüssel.",
+      "Mit Gepäck, Kindersitzen und müden Kindern ist ein Transfer Gold wert, deshalb könnt ihr mit der Buchung einen Flughafentransfer organisieren. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind bei eurer Ankunft da, ein Bügeleisen ebenfalls, und für längere Aufenthalte gibt es einen Wäscheservice."
+     ]
+    },
+    {
+     "h2": "Tage planen mit der ASCON Guide App",
+     "p": [
+      "Nach der Buchung bekommt ihr das Passwort für die ASCON Guide App, unseren Gäste-Guide für Ho-Chi-Minh-Stadt. Darin findet ihr eine Kategorie für Kinder und Familie mit Ausflügen für Kinder, Restaurants in der Nähe des Hauses und praktische Hilfe für die Fortbewegung in der Stadt. Mehr Tipps für Ho-Chi-Minh-Stadt mit Kindern findet ihr in unserem Reiseführer."
      ]
     },
     {
@@ -500,24 +628,32 @@
    ]
   },
   "location": {
-   "title": "Lage: Tân Hưng nahe Phú Mỹ Hưng | ASCON LIVING",
-   "description": "Lage von ASCON LIVING: 389A Trần Xuân Soạn, Tân Hưng (ehemals District 7), Ho-Chi-Minh-Stadt, nahe Phú Mỹ Hưng, am Fluss. Fahrzeiten als Schätzung.",
-   "h1": "Lage: am Fluss in Tân Hưng, nahe Phú Mỹ Hưng",
-   "lead": "389A Đường Trần Xuân Soạn, Tân Hưng, Ho-Chi-Minh-Stadt – im ehemaligen District 7, nahe Phú Mỹ Hưng, direkt am Fluss.",
+   "title": "Saigon: wo übernachten? Lage in Distrikt 7 | ASCON LIVING",
+   "description": "ASCON LIVING liegt in 389A Đường Trần Xuân Soạn, Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt. Restaurants und Streetfood in der Nähe, Flughafentransfer.",
+   "h1": "Lage: eure Unterkunft in Distrikt 7, Ho-Chi-Minh-Stadt",
+   "lead": "389A Đường Trần Xuân Soạn, Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt, mit Blick von der Dachterrasse über den Fluss auf die Skyline von Distrikt 1.",
    "sections": [
     {
-     "h2": "Die Gegend",
+     "h2": "Tân Hưng, Distrikt 7: vietnamesischer Alltag vor der Haustür",
      "p": [
-      "Seit der Verwaltungsreform 2025 gibt es den District 7 nicht mehr als Bezirk; das Haus liegt heute im Stadtteil Tân Hưng. Umgangssprachlich heißt die Gegend weiterhin District 7 (Quận 7). Phú Mỹ Hưng ist das nahe gelegene Neubaugebiet mit Einkaufsmöglichkeiten, Restaurants und Parks."
+      "ASCON LIVING liegt in 389A Đường Trần Xuân Soạn im Stadtteil Tân Hưng, den die meisten noch immer Distrikt 7 (Quận 7) nennen. Seit der Verwaltungsreform 2025 sind die alten Bezirksnamen nicht mehr offiziell, aber von Fahrern und Einheimischen hört ihr jeden Tag \"District 7\", und so beschreibt ihr am einfachsten, wo ihr wohnt.",
+      "Hier erlebt ihr den Alltag in Saigon statt einer Touristenmeile. Restaurants und Streetfood sind ganz in der Nähe des Hauses, das Frühstück kann also ein frisches Bánh mì oder eine dampfende Schüssel Phở sein, und zum Abendessen gibt es, was auf dem Heimweg am besten duftet. An Abenden zu Hause holt ihr euch einfach etwas in der Nähe und nehmt es mit auf die Dachterrasse.",
+      "Von dort schaut ihr über den Fluss auf die Skyline von Distrikt 1. Das Stadtzentrum fühlt sich immer nah an, und nachts habt ihr die Lichter ohne den Lärm. Im Haus gilt: laute Musik nur bis 21:30 Uhr, das sorgt für eine entspannte Atmosphäre, für euch und für die Nachbarn.",
+      "Ideen, wo ihr essen könnt, was ihr anschauen solltet und wie ihr hinkommt, findet ihr in unserer ASCON Guide App mit Orten rund ums Haus und Wegbeschreibungen. Das Passwort bekommt ihr nach der Buchung."
      ]
     },
     {
-     "h2": "Fahrzeiten (Schätzung)",
-     "note": "Alle Zeiten sind grobe Schätzungen mit dem Auto und hängen stark vom Verkehr ab.",
+     "h2": "Anreise und unterwegs in der Stadt",
+     "note": "Fahrzeiten in Ho-Chi-Minh-Stadt hängen stark vom Verkehr ab. Plant besonders zur Rushhour etwas mehr Zeit ein.",
+     "p": [
+      "Ihr landet am internationalen Flughafen Tân Sơn Nhất? Am einfachsten ist unser Flughafentransfer, den ihr direkt mit der Buchung organisieren könnt. Der Fahrer bringt euch bis vors Tor, und dank Self-Check-in per Zahlenschloss kommt ihr ins Haus, wann immer ihr ankommt, auch spät in der Nacht. Für das Außentor bekommt ihr einen Schlüssel.",
+      "Während eures Aufenthalts erreicht ihr Stadtzentrum, Märkte und Sehenswürdigkeiten am einfachsten per Fahrdienst-App oder Taxi. Für weitere Ausflüge zeigt euch die ASCON Guide App Routen vom Haus zu jedem Ort und praktische Tipps für unterwegs. Die genaue Anfahrtsbeschreibung schicken wir euch nach der Buchung."
+     ],
      "ul": [
-      "Flughafen Tân Sơn Nhất (SGN): ca. 30–60 Min. (Schätzung)",
-      "Stadtzentrum (ehemals District 1): ca. 15–30 Min. (Schätzung)",
-      "Phú Mỹ Hưng: ca. 10–15 Min. (Schätzung)"
+      "Flughafentransfer: mit der Buchung möglich",
+      "Self-Check-in per Zahlenschloss, Schlüssel für das Außentor",
+      "Restaurants und Streetfood: in der Nähe des Hauses",
+      "Stadtzentrum (Distrikt 1): per Fahrdienst-App oder Taxi; aktuelle Fahrzeit in der App prüfen"
      ]
     },
     {
@@ -568,8 +704,12 @@
     {
      "faq": [
       [
-       "Wie viele Schlafzimmer hat das Haus?",
-       "Das Haus hat 3 Schlafzimmer mit je einem Doppelbett."
+       "Wie viele Schlafzimmer und Bäder gibt es?",
+       "3 Schlafzimmer mit 3 Betten (einmal 180×200 cm, zweimal 160×200 cm). Jedes Schlafzimmer hat ein eigenes Bad und eine eigene Klimaanlage, dazu kommt ein Gäste-WC im Wohnbereich."
+      ],
+      [
+       "Wie buche ich?",
+       "Bucht direkt über Airbnb oder Trip.com oder schreibt uns per WhatsApp oder Zalo (+84 909 410 382)."
       ],
       [
        "Wann sind Check-in und Check-out?",
@@ -630,32 +770,40 @@
    ]
   },
   "guide": {
-   "title": "Ho Chi Minh Stadt Reiseführer | ASCON LIVING",
-   "description": "Praktische Tipps für Ho-Chi-Minh-Stadt: Reisen mit Familie und der Weg vom Flughafen Tân Sơn Nhất zum Haus.",
-   "h1": "Ho Chi Minh Stadt Reiseführer",
-   "lead": "Kurze, praktische Tipps für euren Aufenthalt in Saigon.",
+   "title": "Ho-Chi-Minh-Stadt Reiseführer | ASCON LIVING",
+   "description": "Unser Ho-Chi-Minh-Stadt Reiseführer: die ASCON Guide App für Gäste, Tipps für die Reise mit Kindern und der Weg vom Flughafen zum Haus.",
+   "h1": "Ho-Chi-Minh-Stadt Reiseführer",
+   "lead": "Praktische Tipps für euren Aufenthalt in Saigon, vom Flughafen bis zu den besten Adressen zum Essen, und unsere eigene Guide-App für ASCON LIVING Gäste.",
    "sections": [
+    {
+     "h2": "Saigon, ganz entspannt",
+     "p": [
+      "Ho-Chi-Minh-Stadt ist laut, köstlich, schnell und voller Überraschungen, und der erste Tag kann ganz schön viel sein. Unser Reiseführer macht es euch leichter. Wir haben die Fragen gesammelt, die Gäste uns am häufigsten stellen: wie ihr vom Flughafen zum Haus kommt, was man in Ho-Chi-Minh-Stadt mit Kindern unternehmen kann, wo es rund um Distrikt 7 gutes Essen gibt und wie ihr euch ohne Stress in der Stadt bewegt.",
+      "Herzstück ist die ASCON Guide App, unser eigener Gäste-Guide für die Stadt. Sie ist passwortgeschützt und exklusiv für ASCON LIVING Gäste gedacht: Das Passwort bekommt ihr nach der Buchung. Öffnet sie auf dem Handy, und Restaurants, Cafés, Sehenswürdigkeiten, Aktivitäten und praktische Hilfe sind rund ums Haus sortiert, mit Wegbeschreibung ab eurer Haustür.",
+      "Plant schon vor der Landung und nutzt die App dann jeden Tag eures Aufenthalts. Ob erste Vietnamreise oder fünfte: Mit einem lokalen Guide in der Tasche verbringt ihr weniger Zeit mit Suchen und mehr Zeit mit Saigon-Insidertipps, die wirklich Spaß machen."
+     ]
+    },
     {
      "cards": [
       [
-       "ASCON LIVING Guide-App",
+       "ASCON LIVING Guide App",
        "guide-app",
-       "Unsere kostenlose Stadt-App: Orte, Routen, Tipps."
+       "Unsere Gäste-App: Orte rund ums Haus, Routen und Tipps."
       ],
       [
-       "Ho-Chi-Minh-Stadt mit Familie",
+       "Ho-Chi-Minh-Stadt mit Kindern",
        "guide-family",
-       "Tipps für eine entspannte Familienreise."
+       "Ideen und praktische Tipps für einen entspannten Familienurlaub."
       ],
       [
        "Flughafentransfer",
        "guide-airport",
-       "Von Tân Sơn Nhất zum Haus."
+       "Von Tân Sơn Nhất zum Haus, ganz bequem."
       ]
      ]
     },
     {
-     "note": "Exklusiv für Gäste von ASCON LIVING – das Passwort erhaltet ihr nach der Buchung.",
+     "note": "Exklusiv für ASCON LIVING Gäste: Das Passwort bekommt ihr nach der Buchung.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">ASCON Guide App öffnen</a>"
      ]
@@ -663,9 +811,9 @@
    ]
   },
   "guide-family": {
-   "title": "Ho Chi Minh mit Kindern: Tipps | ASCON LIVING",
+   "title": "Ho-Chi-Minh-Stadt mit Kindern: Tipps | ASCON LIVING",
    "description": "Praktische Tipps für Ho-Chi-Minh-Stadt mit Kindern: Hitze, Verkehr, Fortbewegung und Tagesplanung.",
-   "h1": "Ho Chi Minh mit Kindern: Saigon als Familie",
+   "h1": "Ho-Chi-Minh-Stadt mit Kindern: Saigon als Familie",
    "lead": "Saigon ist trubelig und warm, mit etwas Planung aber sehr familienfreundlich.",
    "sections": [
     {
@@ -705,7 +853,7 @@
     {
      "h2": "Fahrzeit",
      "p": [
-      "Mit dem Auto etwa 30–60 Minuten (Schätzung); im Berufsverkehr auch länger."
+      "Die Fahrzeit mit dem Auto hängt stark vom Verkehr ab; plant besonders im Berufsverkehr mehr Zeit ein."
      ]
     }
    ]
@@ -746,15 +894,16 @@
    ]
   },
   "guide-app": {
-   "title": "ASCON LIVING Guide: Vietnam Reise-App für Saigon",
-   "description": "Unsere kostenlose Gäste-App für Ho-Chi-Minh-Stadt: Orte nach Entfernung zum Haus sortiert, Fahrzeiten, Routen, Karte und praktische Tipps in 10 Sprachen.",
-   "h1": "Der ASCON LIVING Guide: eure App für Ho-Chi-Minh-Stadt",
-   "lead": "Unser kostenloser Gäste-Guide öffnet sich im Browser eures Handys – ohne App Store – und zeigt, was es rund ums Haus gibt und wie ihr hinkommt.",
+   "title": "ASCON Guide App: Vietnam Reise-App für Saigon | ASCON",
+   "description": "Unsere passwortgeschützte Gäste-App für Ho-Chi-Minh-Stadt: Orte nahe dem Haus, Fahrzeiten, Routen, Karte und praktische Tipps. Passwort nach Buchung.",
+   "h1": "Die ASCON Guide App: euer Reiseführer für Saigon in der Tasche",
+   "lead": "Ein Gäste-Guide, der sich im Browser eures Handys öffnet und zeigt, was rund ums Haus liegt und wie ihr hinkommt. Exklusiv für ASCON LIVING Gäste; das Passwort bekommt ihr nach der Buchung.",
    "sections": [
     {
      "h2": "Ganz einfach von A nach B",
      "p": [
-      "Jeder Ort ist nach Entfernung zum Haus sortiert und zeigt geschätzte Fahrzeiten mit Auto, Roller und zu Fuß. Ein Tipp auf „Route“ zeigt den Weg vom Haus oder öffnet den Ort in Google Maps. Die Karte zeigt alle Orte auf einen Blick. Kurz gesagt: eine Vietnam Reise App, gemacht für eure Tage rund um ASCON LIVING."
+      "Neue Stadt, neue Sprache, ein Verkehr, der nach eigenen Regeln zu laufen scheint: Unterwegs sein ist oft der kniffligste Teil einer Saigon-Reise. Die ASCON Guide App nimmt euch das ab. Jeder Ort ist mit seiner Entfernung vom Haus und geschätzten Fahrzeiten aufgeführt, und ein Tipp auf Route zeigt euch den Weg ab eurer Haustür. Auf der Karte seht ihr alles rund um euch auf einen Blick, so plant ihr einen Tag, der wirklich Sinn ergibt.",
+      "Lust auf ein Mittagessen in der Nähe einer Sehenswürdigkeit oder ein Café auf dem Rückweg? Karte öffnen, Ort auswählen, los geht's. Als hättet ihr einen Freund in der Stadt, der den Weg schon kennt, jederzeit und ohne endloses Durchscrollen von Bewertungen."
      ],
      "imgs": [
       [
@@ -763,12 +912,26 @@
       ],
       [
        "app-map",
-       "ASCON Guide App: Karte aller Orte rund ums Haus"
+       "ASCON Guide App: Karte mit Orten rund ums Haus in Ho-Chi-Minh-Stadt"
       ]
      ]
     },
     {
      "h2": "Was drin ist",
+     "p": [
+      "Die App ist in übersichtliche Kategorien gegliedert, damit ihr schnell findet, was ihr sucht: Essen, angefangen mit unseren Top 10 rund ums Haus; Cafés und Desserts; Bars und Nachtleben; Kinder und Familie; Sehenswürdigkeiten und Kultur; Aktivitäten; Entspannung; Shopping; Tagesausflüge; und praktische Infos und Notfall für die Ankunft, für unterwegs und für Momente, in denen ihr schnell Hilfe braucht.",
+      "Für Familien ist die Kategorie Kinder und Familie eine praktische Abkürzung zu Ausflügen für Kinder, ideal für Saigon mit Kindern. Für Gruppen machen die Bereiche Essen und Nachtleben die Abendplanung leicht."
+     ],
+     "imgs": [
+      [
+       "app-category",
+       "ASCON Guide App: Kategorie Essen mit den Top 10 rund ums Haus"
+      ],
+      [
+       "app-practical",
+       "ASCON Guide App: praktische Infos und Notfallhilfe für Ho-Chi-Minh-Stadt"
+      ]
+     ],
      "ul": [
       "<strong>Essen</strong> – Restaurants, angefangen mit unseren Top 10, mit Öffnungszeiten und Preisangaben.",
       "<strong>Cafés & Desserts</strong> – Kaffee und Süßes für eine Pause.",
@@ -780,29 +943,92 @@
       "<strong>Einkaufen</strong> – wo man einkaufen kann.",
       "<strong>Tagesausflüge</strong> – Ausflüge über die Stadt hinaus.",
       "<strong>Praktisches & Notfall</strong> – Ankunft am Flughafen Tân Sơn Nhất, Fortbewegung, Karten zum Zeigen für Fahrer, typische Abzockmaschen und ein SOS-Button."
-     ],
-     "imgs": [
-      [
-       "app-category",
-       "ASCON Guide App: Kategorie mit Top 10 in der Nähe"
-      ],
-      [
-       "app-practical",
-       "ASCON Guide App: praktische Infos und Notfall"
-      ]
      ]
     },
     {
      "h2": "Zehn Sprachen, installierbar",
      "p": [
-      "Die App gibt es auf Deutsch, Englisch, Vietnamesisch, Chinesisch, Koreanisch, Japanisch, Französisch, Spanisch, Portugiesisch und Arabisch. Legt sie auf den Startbildschirm: Einmal geöffnet, speichert sie ihre Inhalte auf dem Handy und bleibt auch bei schwacher Verbindung nutzbar. Praktisch auch für Saigon mit Kindern: Die Kategorie „Kinder & Familie“ sammelt Ausflüge mit Kindern."
+      "Die App gibt es auf Deutsch, Englisch, Vietnamesisch, Chinesisch, Koreanisch, Japanisch, Französisch, Spanisch, Portugiesisch und Arabisch. Legt sie auf den Startbildschirm: Einmal geöffnet, speichert sie ihre Inhalte auf dem Handy und bleibt auch bei schwacher Verbindung nutzbar. Praktisch auch für Saigon mit Kindern: Die Kategorie „Kinder & Familie“ sammelt Ausflüge mit Kindern. Das Passwort bekommt ihr nach der Buchung, so könnt ihr schon vor der Landung mit der Planung beginnen."
      ]
     },
     {
-     "note": "Exklusiv für Gäste von ASCON LIVING – das Passwort erhaltet ihr nach der Buchung.",
+     "note": "Exklusiv für ASCON LIVING Gäste: Das Passwort bekommt ihr nach der Buchung.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">ASCON Guide App öffnen</a>"
      ]
+    }
+   ]
+  },
+  "groups": {
+   "title": "Ganzes Haus mieten in Saigon für Gruppen | ASCON LIVING",
+   "description": "Gruppenunterkunft in Saigon: privates Haus mit 3 Schlafzimmern mit eigenem Bad, Karaoke, 4K-Beamer, PlayStation und Grillabend mit Skyline-Blick.",
+   "h1": "Ganzes Haus mieten in Ho-Chi-Minh-Stadt: Gruppenunterkunft in Saigon",
+   "lead": "Freundesreise, Familientreffen oder Team-Ausflug: ASCON LIVING bietet eurer Gruppe ein privates Haus mit drei Schlafzimmern mit eigenem Bad, einem Entertainment-Raum und einer Dachterrasse für lange gemeinsame Abende.",
+   "sections": [
+    {
+     "h2": "Ein Haus, eine Gruppe, keine Fremden",
+     "p": [
+      "Bei einer Gruppenreise geht es um die gemeinsame Zeit, und die kommt zu kurz, wenn alle über Hotelzimmer und Flure verteilt sind. Bei ASCON LIVING hat eure Gruppe das ganze Haus: über 250 m² auf drei Etagen plus Dachterrasse, geteilt mit niemandem außer euch.",
+      "Jedes der drei Schlafzimmer hat ein eigenes Bad und eine eigene Klimaanlage, so behält jeder seine Privatsphäre und seinen eigenen Rhythmus. Das Hauptschlafzimmer ist rund 55 m² groß, mit 180×200-cm-Bett, 55-Zoll-4K-Fernseher und Balkon. Die Schlafzimmer 2 und 3 haben 160×200-cm-Betten und Smart-TVs. Dazu kommt ein Gäste-WC im Wohnbereich. Niemand streitet ums Bad, und niemand weckt die anderen, wenn er früh losmuss.",
+      "Die Gemeinschaftsräume sind fürs Zusammensein gemacht. Das rund 40 m² große Wohnzimmer hat ein großes L-Sofa und einen 75-Zoll-4K-Fernseher, die Küche ist voll ausgestattet, und im großen Kühlschrank ist reichlich Platz für Getränke. Wer ein Ferienhaus für Gruppen in Vietnam sucht, findet hier genau diesen Platz, in einem privaten Haus mitten in Ho-Chi-Minh-Stadt."
+     ]
+    },
+    {
+     "h2": "Karaoke-Abende, Filmmarathons und Spieleturniere",
+     "p": [
+      "Der Entertainment-Raum ist euer privater Partyraum. Fangt mit Karaoke an: Mikrofon in die Hand, Licht runter, und eine Playlist, die mit jedem Lied besser wird. Danach geht es mit dem 4K-Beamer weiter, zum Filmmarathon auf großer Leinwand mit Netflix, oder ihr klärt eine alte Rivalität bei einem PlayStation-Turnier mit PlayStation Plus.",
+      "Kein Karaoke-Raum in der Stadt, den ihr reservieren müsst, kein Taxi nach Hause, keine Sperrstunde außer eurer eigenen. Denkt nur an die Hausregel: laute Musik nur bis 21:30 Uhr, also plant die großen Hits früh ein und lasst den Abend mit einem Film ausklingen."
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Karaoke-Ecke mit stimmungsvoller Beleuchtung für Gruppenabende"
+      ],
+      [
+       "ent-mics",
+       "Karaoke-Mikrofone und Fernbedienungen für den gemeinsamen Gesangsabend"
+      ],
+      [
+       "ent-ps",
+       "PlayStation mit zwei Controllern für Spieleabende"
+      ]
+     ]
+    },
+    {
+     "h2": "Grillen auf dem Dach mit Blick auf Distrikt 1",
+     "p": [
+      "Auf der rund 56–60 m² großen Dachterrasse werden aus Gruppenreisen Erinnerungen. Werft den Grill oder den Smoker an, macht es euch auf dem Outdoor-Sofa bequem und seht zu, wie auf der anderen Flussseite die Lichter der Skyline von Distrikt 1 angehen. Feiert einen Geburtstag, einen Junggesellenabschied, ein Wiedersehen mit alten Freunden oder den Abschluss eines erfolgreichen Projekts. Solarleuchten sorgen nach Einbruch der Dunkelheit für warme Stimmung."
+     ],
+     "imgs": [
+      [
+       "roof-night",
+       "Dachterrasse am Abend, gemütlich beleuchtet für einen Gruppenabend"
+      ],
+      [
+       "roof-bbq",
+       "Grill auf der Dachterrasse, bereit für einen Grillabend mit Skyline-Blick"
+      ],
+      [
+       "river-city",
+       "Flussblick vom Haus auf die Skyline von Distrikt 1"
+      ]
+     ]
+    },
+    {
+     "h2": "Auch für Kollegen und Geschäftsreisen",
+     "p": [
+      "Auch für Business-Teams funktioniert das Haus. WLAN mit bis zu 1 Gbit/s und Mesh auf jeder Etage schafft Videocalls und Uploads aus jedem Raum. Wohnzimmer und Esstisch dienen als Besprechungsraum, die Schlafzimmer sind ruhig, und vor dem Kundentermin steht ein Bügeleisen bereit. Nach Feierabend ist die Dachterrasse ein deutlich schönerer Ort zum Abschalten als jede Hotelbar."
+     ]
+    },
+    {
+     "h2": "Einfache Ankunft, Komfort im Alltag",
+     "p": [
+      "Dank Self-Check-in per Zahlenschloss kann eure Gruppe jederzeit ankommen, für das Außentor gibt es einen Schlüssel. Ein Flughafentransfer lässt sich mit der Buchung organisieren, praktisch, wenn mehrere Leute mit Gepäck anreisen. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind da, und ein Wäscheservice ist möglich. Kameras sind nur außen angebracht.",
+      "Für Abende, an denen niemand kochen will, sind Restaurants und Streetfood in der Nähe, und die ASCON Guide App (Passwort nach der Buchung) hilft euch, in der ganzen Stadt Restaurants, Bars und Aktivitäten zu finden."
+     ]
+    },
+    {
+     "cta": true
     }
    ]
   }
