@@ -9,7 +9,7 @@ PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','famili
 ('imprint','imprint/'),('privacy','privacy/')]
 # Room detail pages: published per language only once content/<code>.json has pages.<id> (no placeholders)
 ROOMS=[('room-entertainment','house/karaoke-entertainment/'),('room-living','house/living-room/'),('room-kitchen','house/kitchen/'),('room-master','house/master-bedroom/'),
-('room-bedroom-2','house/bedroom-2/'),('room-bedroom-3','house/bedroom-3/'),('room-bathrooms','house/bathrooms/')]
+('room-bedroom-2','house/bedroom-2/'),('room-bedroom-3','house/bedroom-3/'),('room-bathrooms','house/bathrooms/'),('room-hallway','house/hallway/'),('room-outside','house/outside/')]
 PAGES+=ROOMS
 SLUG=dict(PAGES)
 F=json.load(open(f'{ROOT}/facts.json')); IMG=json.load(open(f'{ROOT}/tools/images.json'))

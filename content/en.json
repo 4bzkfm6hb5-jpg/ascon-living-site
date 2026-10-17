@@ -153,17 +153,17 @@
       [
        "Karaoke & entertainment",
        "room-entertainment",
-       "Karaoke, PlayStation game nights and movie nights in your own private house in District 7, Ho Chi Minh City."
+       "Karaoke, PlayStation game nights and movie nights in your own private house in Ho Chi Minh City."
       ],
       [
        "Living room",
        "room-living",
-       "A 40 m² living room with L-shaped sofa and 75-inch 4K TV in your own private house in District 7, Ho Chi Minh City. Room for family, friends and work."
+       "A 40 m² living room with L-shaped sofa and 75-inch 4K TV in your own private house in Ho Chi Minh City. Room for family, friends and work."
       ],
       [
        "Kitchen & dining",
        "room-kitchen",
-       "Fully equipped kitchen with large 540-litre fridge, stove, oven, rice cooker and dining table in your private holiday home in District 7, Ho Chi Minh City."
+       "Fully equipped kitchen with large 540-litre fridge, stove, oven, rice cooker and dining table in your private holiday home."
       ],
       [
        "Master bedroom",
@@ -184,6 +184,16 @@
        "Bathrooms",
        "room-bathrooms",
        "Every bedroom has its own bathroom, plus a guest WC in the living area. Hot water, towels and toiletries included. Whole private house in Ho Chi Minh City."
+      ],
+      [
+       "Hallway, landing & work area",
+       "room-hallway",
+       "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING."
+      ],
+      [
+       "Outside: terraces & river",
+       "room-outside",
+       "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City."
       ],
       [
        "Rooftop terrace",
@@ -379,6 +389,16 @@
        "Every bedroom has its own bathroom, plus a guest WC in the living area. Hot water, towels and toiletries included. Whole private house in Ho Chi Minh City."
       ],
       [
+       "Hallway, landing & work area",
+       "room-hallway",
+       "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING."
+      ],
+      [
+       "Outside: terraces & river",
+       "room-outside",
+       "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City."
+      ],
+      [
        "Rooftop terrace",
        "rooftop",
        "Private rooftop of about 56–60 m² with BBQ, smoker, outdoor sofa and solar lights, overlooking the river and District 1 skyline. Ho Chi Minh City."
@@ -449,7 +469,7 @@
       ],
       [
        "kitchen-dining",
-       "Dining table by the kitchen windows for family meals"
+       "Dining table with upholstered chairs next to the kitchen"
       ]
      ]
     },
@@ -554,173 +574,15 @@
      ]
     },
     {
-     "h2": "Karaoke night in your own room",
-     "flow": [
-      [
-       "p",
-       "Most karaoke nights in a big city involve booking a room, splitting a taxi and watching the clock. Here you just walk down the hallway. Dim the lights, hand round the microphones and switch on the 4K projector."
-      ],
-      [
-       "p",
-       "The first song is always the hardest, so start with something everyone knows. Soon the room fills up, someone takes over the song list, and the people who swore they would only watch are standing up with a microphone in hand."
-      ],
-      [
-       "h3",
-       "For groups of friends"
-      ],
-      [
-       "p",
-       "Turn it into a proper karaoke competition. Draw names for the running order, set up a judging panel on the sofa, and give points for courage, style and the most dramatic ending. The winner picks the last song of the night. The losers get the cleaning-up and a rematch tomorrow."
-      ],
-      [
-       "h3",
-       "For families"
-      ],
-      [
-       "p",
-       "Karaoke works across generations. Kids love grabbing the microphone, grandparents finally get to sing the songs from their own youth, and parents can show a side the children have never seen."
-      ]
+     "h2": "Entertainment room: karaoke, PlayStation and movie nights",
+     "p": [
+      "The entertainment room is your private stage: microphones for karaoke duets and friendly contests, a PlayStation with PlayStation Plus for game nights, and a 4K projector with Netflix for movie nights. Like every room in the house, it belongs only to your group for the whole stay. Loud music only until 21:30, so plan the big songs early.",
+      "More photos and details: <a href=\"{L}house/karaoke-entertainment/\">Entertainment Room</a>"
      ],
      "imgs": [
       [
        "ent",
-       "Entertainment room with sofas, a house with karaoke in Ho Chi Minh City"
-      ],
-      [
-       "ent-karaoke",
-       "Karaoke corner with ambient lighting for duets and sing-alongs"
-      ],
-      [
-       "ent-cinema",
-       "4K projector screen for movie nights"
-      ],
-      [
-       "ent-tv",
-       "Entertainment room with TV and seating"
-      ],
-      [
-       "ent-mics",
-       "Karaoke microphones and remotes ready for a friendly competition"
-      ],
-      [
-       "ent-ps",
-       "PlayStation with controllers for game nights"
-      ]
-     ]
-    },
-    {
-     "h2": "Duets: the songs you sing together",
-     "flow": [
-      [
-       "p",
-       "Some songs simply need two voices. A duet is the easiest way to bring shy singers into the evening: one strong voice and one hesitant one, and suddenly both are laughing. Parent and child, two old friends from school, a couple who finally get to sing \"their\" song, colleagues who have never seen each other outside the office."
-      ],
-      [
-       "h3",
-       "For couples"
-      ],
-      [
-       "p",
-       "On a quiet night with just the two of you, the entertainment room becomes your own private karaoke bar. No audience except each other, and nobody to judge if the high notes don't quite land."
-      ],
-      [
-       "h3",
-       "For groups"
-      ],
-      [
-       "p",
-       "Make duets a round in your competition: random pairs, one song each, and the group votes. It mixes people up and creates the stories you'll be telling on the flight home."
-      ]
-     ]
-    },
-    {
-     "h2": "When the voices need a break: PlayStation game night",
-     "flow": [
-      [
-       "p",
-       "After an hour of singing, switch the big screen over to the PlayStation. With PlayStation Plus there is always something to play, whether you want a head-to-head race, a team effort in a co-op adventure, or a quick group game that even beginners understand in seconds."
-      ],
-      [
-       "h3",
-       "For families"
-      ],
-      [
-       "p",
-       "A family tournament is the classic: draw up a bracket on a piece of paper, play best of three, and watch the kids beat the adults. It's also a good plan B for a hot afternoon or a rainy day, when everyone needs a break from the city."
-      ],
-      [
-       "h3",
-       "For remote workers"
-      ],
-      [
-       "p",
-       "After a day of calls on the fast mesh WiFi, a short gaming session is a simple way to switch off before dinner, without leaving the house."
-      ]
-     ]
-    },
-    {
-     "h2": "Movie night with the 4K projector",
-     "flow": [
-      [
-       "p",
-       "Sometimes the best evening is the quietest one. Lower the lights, settle into the sofas and turn the big screen into a home cinema. Netflix is ready to stream, so the hardest part is agreeing on a film. Make popcorn in the kitchen, grab cold drinks from the large fridge and let the projector do the rest."
-      ],
-      [
-       "h3",
-       "For families"
-      ],
-      [
-       "p",
-       "A family movie night is a lovely end to a busy day of sightseeing: the kids choose the film, the adults choose the snacks, and half the family is usually asleep before the credits."
-      ],
-      [
-       "h3",
-       "For groups and couples"
-      ],
-      [
-       "p",
-       "Plan a film marathon, a series binge or a quiet date night. It is your room, on your schedule."
-      ]
-     ]
-    },
-    {
-     "h2": "Good to know: loud music only until 21:30",
-     "flow": [
-      [
-       "p",
-       "The house sits in a residential neighbourhood, and the house rules allow loud music only until 21:30. In practice this works well: sing the big songs in the early evening, then switch to a game or a film as the night goes on. Your neighbours stay friendly, and everyone in the house gets a good night's sleep before the next day in Saigon."
-      ],
-      [
-       "table",
-       {
-        "head": [
-         "Activity",
-         "Best time",
-         "Ideal for"
-        ],
-        "rows": [
-         [
-          "Karaoke and duets",
-          "Early evening, before 21:30",
-          "Friends, families, couples"
-         ],
-         [
-          "Karaoke competition",
-          "Early evening, before 21:30",
-          "Groups of friends, family reunions"
-         ],
-         [
-          "PlayStation tournament",
-          "Any time",
-          "Families, groups, remote workers after work"
-         ],
-         [
-          "Movie night with Netflix",
-          "Evening and late night",
-          "Everyone"
-         ]
-        ]
-       }
+       "Entertainment room with sofas and karaoke microphones"
       ]
      ]
     },
@@ -770,6 +632,32 @@
       [
        "roof-skyline",
        "City skyline at night seen from the rooftop"
+      ]
+     ]
+    },
+    {
+     "h2": "Hallway, landing and work area",
+     "p": [
+      "The entrance has a tall black cabinet, a bench and a rack of guest slippers. Stone-look stairs with black railings lead to a bright landing with two bedroom doors, a desk with an ergonomic office chair by the window, and a small balcony.",
+      "More photos and details: <a href=\"{L}house/hallway/\">Hallway, landing & work area</a>"
+     ],
+     "imgs": [
+      [
+       "hall-desk",
+       "Work area with black desk and mesh office chair by the window"
+      ]
+     ]
+    },
+    {
+     "h2": "Outside: terraces and the river",
+     "p": [
+      "White-railed terraces, partly under a canopy, look over a strip of trees to the river, where wooden boats pass and the District 1 skyline rises on the far bank.",
+      "More photos and details: <a href=\"{L}house/outside/\">Outside: terraces & river</a>"
+     ],
+     "imgs": [
+      [
+       "out-terrace",
+       "Covered terrace with white railings and trees beyond"
       ]
      ]
     },
@@ -863,6 +751,25 @@
    "lead": "About 56–60 m² at the top of the house, only for you: BBQ and smoker, an outdoor sofa, plants and solar lights, with the river and the District 1 skyline in front of you.",
    "sections": [
     {
+     "h2": "What's in this room",
+     "ul": [
+      "About 56–60 m²",
+      "BBQ and smoker",
+      "Outdoor rattan sofa with cream cushions, table and ottomans",
+      "Solar lights and string lights",
+      "Fabric canopy for shade",
+      "Planters with tropical plants",
+      "View of the river and the District 1 skyline"
+     ]
+    },
+    {
+     "h2": "A closer look at the rooftop",
+     "p": [
+      "The rooftop terrace is furnished like an outdoor living room. A black woven rattan sofa with thick cream cushions forms an L around a dark rattan table, and cream-topped cube ottomans add extra seats. A fabric canopy shades part of the terrace, string lights hang along its edge, and planters full of tall tropical leaves line the white railings. The floor is laid with large light grey tiles.",
+      "In the evening, small uplights in the planters and the solar lights start to glow. The BBQ, a black barrel grill with a side shelf, stands by the railing. Beyond the railings, the river and the towers of the District 1 skyline light up after dark."
+     ]
+    },
+    {
      "h2": "Your own terrace above the city",
      "flow": [
       [
@@ -893,15 +800,15 @@
      "imgs": [
       [
        "roof-terrace",
-       "House with river view: the rooftop terrace overlooking the District 1 skyline (photo 064)"
+       "Rooftop terrace overlooking the District 1 skyline"
       ],
       [
        "river-balcony",
-       "River view from the terrace railing, framed by plants (photo 019)"
+       "River view from the terrace railing, framed by plants"
       ],
       [
        "river-city",
-       "River view towards the District 1 skyline from the house (photo 080)"
+       "View across the river towards the District 1 skyline from the house"
       ],
       [
        "roof-day",
@@ -1115,7 +1022,7 @@
      "imgs": [
       [
        "kitchen-dining",
-       "Dining table by the kitchen windows for family meals"
+       "Dining table with upholstered chairs next to the kitchen"
       ],
       [
        "kitchen",
@@ -1299,6 +1206,16 @@
        "Every bedroom has its own bathroom, plus a guest WC in the living area. Hot water, towels and toiletries included. Whole private house in Ho Chi Minh City."
       ],
       [
+       "Hallway, landing & work area",
+       "room-hallway",
+       "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING."
+      ],
+      [
+       "Outside: terraces & river",
+       "room-outside",
+       "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City."
+      ],
+      [
        "Rooftop terrace",
        "rooftop",
        "Private rooftop of about 56–60 m² with BBQ, smoker, outdoor sofa and solar lights, overlooking the river and District 1 skyline. Ho Chi Minh City."
@@ -1357,7 +1274,7 @@
       ],
       [
        "p",
-       "If you already know the city centre, District 7 shows you a different, everyday side of Saigon."
+       "If you already know the city centre, the area shows you a different, everyday side of Saigon."
       ]
      ]
     },
@@ -1477,7 +1394,7 @@
      "flow": [
       [
        "p",
-       "Drop your bags, take a shower in your own bathroom and head up to the rooftop to get your bearings with the river and the skyline in front of you. Then open the ASCON Guide App, pick a place to eat nearby and take a first walk through the neighbourhood. By the evening, District 7 already feels a little like home."
+       "Drop your bags, take a shower in your own bathroom and head up to the rooftop to get your bearings with the river and the skyline in front of you. Then open the ASCON Guide App, pick a place to eat nearby and take a first walk through the neighbourhood. By the evening, the neighbourhood already feels a little like home."
       ]
      ]
     },
@@ -1506,7 +1423,7 @@
     },
     {
      "p": [
-      "Want to stay in District 7 with your own rooftop view? Check your dates on Airbnb or Trip.com, or message us on WhatsApp or Zalo."
+      "Want to stay in the area with your own rooftop view? Check your dates on Airbnb or Trip.com, or message us on WhatsApp or Zalo."
      ],
      "cta": true
     }
@@ -2363,7 +2280,7 @@
       ],
       [
        "river-city",
-       "River view towards the District 1 skyline from the house (photo 080)"
+       "River view towards the District 1 skyline from the house"
       ]
      ]
     },
@@ -2507,6 +2424,16 @@
        "Every bedroom has its own bathroom, plus a guest WC in the living area. Hot water, towels and toiletries included. Whole private house in Ho Chi Minh City."
       ],
       [
+       "Hallway, landing & work area",
+       "room-hallway",
+       "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING."
+      ],
+      [
+       "Outside: terraces & river",
+       "room-outside",
+       "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City."
+      ],
+      [
        "Rooftop terrace",
        "rooftop",
        "Private rooftop of about 56–60 m² with BBQ, smoker, outdoor sofa and solar lights, overlooking the river and District 1 skyline. Ho Chi Minh City."
@@ -2542,12 +2469,36 @@
    "title": "House with Karaoke in Ho Chi Minh City | ASCON LIVING",
    "description": "Karaoke, PlayStation game nights and movie nights in your own private house in District 7, Ho Chi Minh City.",
    "h1": "A house with karaoke in Ho Chi Minh City: your private entertainment room",
-   "lead": "Duets, a karaoke contest among friends, then a PlayStation tournament or a movie night. At ASCON LIVING the best night out happens at home, in a room that belongs only to you.",
+   "lead": "A 4K projector with a large screen, karaoke microphones with a light-up speaker, a PlayStation with PlayStation Plus and Netflix: duets, a karaoke contest among friends, then a game tournament or a movie night, in a room that belongs only to you.",
    "cover": [
     "ent",
     "Entertainment room with sofas, a house with karaoke in Ho Chi Minh City"
    ],
    "sections": [
+    {
+     "h2": "What's in this room",
+     "ul": [
+      "4K projector with a large screen",
+      "Karaoke with wireless microphones and a light-up speaker",
+      "PlayStation with PlayStation Plus",
+      "Large wall-mounted TV with Netflix",
+      "Grey sectional sofa, coffee tables and cube ottomans",
+      "Coloured LED lighting and own air conditioning"
+     ]
+    },
+    {
+     "h2": "The setup in the entertainment room",
+     "p": [
+      "The entertainment room is set up for a night in. A long grey sectional sofa with blue-grey cushions wraps around two grey marble-look coffee tables, with dark grey cube ottomans as extra seats, all on a blue-grey patterned carpet. A large flat screen hangs on one wall, and next to it the PlayStation is mounted on the wall with its two white controllers on holders underneath.",
+      "For movie and karaoke nights, the 4K projector throws the picture onto a large screen on a tripod stand. A tall speaker with glowing light rings stands by the wall, and two wireless microphones and the remotes wait on the coffee table. Coloured LED light lines run across the ceiling and walls, wall lights shine on a row of framed film and anime posters, and the room has its own air conditioner."
+     ],
+     "imgs": [
+      [
+       "ent-led",
+       "Wall-mounted TV and PlayStation with coloured LED light lines"
+      ]
+     ]
+    },
     {
      "h2": "Karaoke night in your own room",
      "flow": [
@@ -2750,6 +2701,33 @@
     "Living room with large L-shaped sofa in a whole house rental in Ho Chi Minh City"
    ],
    "sections": [
+    {
+     "h2": "What's in this room",
+     "ul": [
+      "About 40 m² of living space",
+      "Large white L-shaped sofa with olive-green and white cushions",
+      "75-inch 4K smart TV with Netflix",
+      "PlayStation with PlayStation Plus",
+      "Black glass coffee table",
+      "Floor-to-ceiling glass doors with dark grey curtains",
+      "Air conditioning and a standing fan",
+      "Guest WC in the living area",
+      "Colour concept: grey, white and greige with matte-black accents"
+     ]
+    },
+    {
+     "h2": "A closer look at the living room",
+     "p": [
+      "The living room is long, bright and open. One side is almost all glass: floor-to-ceiling glass doors with dark grey curtains open onto the green outside and fill the room with daylight. The large white L-shaped sofa, scattered with olive-green and white cushions, faces the 75-inch 4K smart TV. The TV hangs on a white wall between two tall panels of matte-black vertical slats, above a low grey-and-black console.",
+      "A black glass coffee table stands on a light rug in the middle of the room. Potted plants with large leaves flank the TV, and a colourful framed painting and a round wall clock hang on the walls. Warm LED cove lighting runs around the ceiling for the evenings. The floor is grey marble-look tile. A wall-mounted air conditioner and a standing fan keep the room comfortable, and the guest WC is just off the living area."
+     ],
+     "imgs": [
+      [
+       "living-tvwall",
+       "TV wall with 75-inch screen between matte-black slat panels"
+      ]
+     ]
+    },
     {
      "h2": "A living room big enough for everyone",
      "flow": [
@@ -2957,12 +2935,38 @@
    "title": "Holiday Home with Kitchen, Saigon | ASCON LIVING",
    "description": "Fully equipped kitchen with large 540-litre fridge, stove, oven, rice cooker and dining table in your private holiday home in District 7, Ho Chi Minh City.",
    "h1": "A holiday home with a fully equipped kitchen in Saigon",
-   "lead": "Fresh herbs from the market, a pot of rice for the whole family, cold drinks for the rooftop. In your own kitchen you eat what you like, when you like, and the dining table brings everyone together.",
+   "lead": "A fridge of about 540 litres, stove, oven, microwave, kettle and rice cooker, plus dishes, cookware and a dining table for everyone. Bring fresh herbs from the market and cook what you like, when you like.",
    "cover": [
     "kitchen",
     "Fully equipped kitchen with dining table in a holiday home in Saigon"
    ],
    "sections": [
+    {
+     "h2": "What's in this room",
+     "ul": [
+      "Fridge of about 540 litres",
+      "Stove and oven",
+      "Microwave",
+      "Kettle",
+      "Rice cooker",
+      "Dishes, glasses, pots, pans and cooking utensils",
+      "Dining table with upholstered chairs",
+      "Washing machine"
+     ]
+    },
+    {
+     "h2": "A closer look at the kitchen",
+     "p": [
+      "The kitchen and dining area form one bright, open space. The wall behind the worktop is covered in bold black-and-white patterned tiles. On the counter, a black kettle, a knife block, a stainless-steel utensil bin and a rack of cooking utensils stand ready. Behind the cabinet doors are pots, pans and rows of glasses, and the tall dark fridge of about 540 litres stands beside the counter.",
+      "The dining table has a white marble-look top on a black cross-shaped base. Upholstered chairs in light sage and cream stand around it on a geometric rug. Glass doors with dark grey curtains let in daylight, and a large potted plant stands by the wall. White walls with grey vertical panelling and matte-black doors carry the house colours into the kitchen. A front-loading washing machine stands in the corner."
+     ],
+     "imgs": [
+      [
+       "kitchen-counter",
+       "Kitchen counter with kettle, knife block and utensils in front of black-and-white patterned tiles"
+      ]
+     ]
+    },
     {
      "h2": "A real kitchen, not a kitchenette",
      "flow": [
@@ -3010,7 +3014,7 @@
       ],
       [
        "kitchen-dining",
-       "Dining table by the kitchen windows for family meals"
+       "Dining table with upholstered chairs next to the kitchen"
       ]
      ]
     },
@@ -3184,6 +3188,42 @@
     "Master bedroom with 180×200 cm bed in a private house in Ho Chi Minh City"
    ],
    "sections": [
+    {
+     "h2": "What's in this room",
+     "ul": [
+      "About 55 m²",
+      "Bed 180 × 200 cm with upholstered headboard",
+      "55-inch 4K TV",
+      "Private balcony",
+      "En-suite bathroom",
+      "Own air conditioning and a standing fan",
+      "Bedside table with wireless phone charging",
+      "Vanity desk with round illuminated mirror",
+      "Wardrobe with fresh towels, spare bedding and an iron",
+      "Safe for valuables in the house"
+     ]
+    },
+    {
+     "h2": "A closer look at the master bedroom",
+     "p": [
+      "The master bedroom is the largest room in the house, about 55 m². The 180 × 200 cm bed has an upholstered greige headboard, crisp white bedding with a grey runner, and grey and white cushions. There is a bedside table with a black table lamp on each side, and one of them has an illuminated top with a wireless charging pad for your phone. Two tall windows with dark grey curtains bring in plenty of daylight and look out onto green trees, and a door leads out to the private balcony. The 55-inch 4K TV hangs on the wall opposite the bed.",
+      "In the vanity corner there is a desk with drawers, a round illuminated mirror and a fluffy white chair. A tall matte-black wardrobe wall frames the entrance to the en-suite bathroom. Inside the wood-lined wardrobe you will find fresh towels, spare bedding and an iron. A green-and-white rug, potted plants, two framed green prints, a standing fan and the room's own air conditioner complete the room."
+     ],
+     "imgs": [
+      [
+       "bed1-vanity",
+       "Vanity desk with round illuminated mirror and white chair in the master bedroom"
+      ],
+      [
+       "bed1-charge",
+       "Illuminated bedside table with wireless phone charging"
+      ],
+      [
+       "bed1-wardrobe",
+       "Wardrobe with fresh folded towels"
+      ]
+     ]
+    },
     {
      "h2": "A suite in its own right",
      "flow": [
@@ -3394,6 +3434,30 @@
    ],
    "sections": [
     {
+     "h2": "What's in this room",
+     "ul": [
+      "Bed 160 × 200 cm with upholstered headboard",
+      "Smart TV",
+      "En-suite bathroom",
+      "Own air conditioning and a standing fan",
+      "Window with dark grey curtains",
+      "Wardrobe with open shelves and fresh towels"
+     ]
+    },
+    {
+     "h2": "A closer look at bedroom 2",
+     "p": [
+      "Bedroom 2 is a calm room in warm greige. The 160 × 200 cm bed has an upholstered headboard, white bedding with a grey runner and dark grey cushions, and stands on a green-and-white rug. A window with dark grey curtains brings in daylight. The smart TV hangs on the wall beside the bathroom door, which is covered in a vivid print of autumn leaves in orange, red and green.",
+      "Two framed paintings of green forest and waterside landscapes hang above the bed and on the side wall. A light grey wardrobe with open shelves holds fresh towels. A standing fan, a potted plant and the room's own air conditioner complete the setup."
+     ],
+     "imgs": [
+      [
+       "bed2-wardrobe",
+       "Light grey wardrobe with open shelves and towels in bedroom 2"
+      ]
+     ]
+    },
+    {
      "h2": "A room of your own, inside a shared holiday",
      "flow": [
       [
@@ -3584,6 +3648,30 @@
    ],
    "sections": [
     {
+     "h2": "What's in this room",
+     "ul": [
+      "Bed 160 × 200 cm with upholstered headboard",
+      "Smart TV",
+      "En-suite bathroom",
+      "Own air conditioning and a standing fan",
+      "No window: dark and quiet",
+      "Wardrobe with mirror door, hanging rail and shelves"
+     ]
+    },
+    {
+     "h2": "A closer look at bedroom 3",
+     "p": [
+      "Bedroom 3 is an interior room with no window, which keeps it dark and quiet at any time of day. The 160 × 200 cm bed has a greige upholstered headboard, white bedding with a grey runner, dark grey cushions and a long bolster pillow. A green-and-white rug lies on the grey stone-look floor. The smart TV is mounted on the wall opposite the bed next to a standing fan, and the room's own air conditioner sits above the wardrobe.",
+      "The tall light grey wardrobe has a mirrored door, a hanging rail with hangers, and shelves with fresh towels and spare bedding. Two framed nature paintings in deep greens hang on the walls, and a grey slatted wall panel adds texture. The private bathroom is right next to the bed."
+     ],
+     "imgs": [
+      [
+       "bed3-wardrobe",
+       "Open wardrobe with hanging rail and shelves in bedroom 3"
+      ]
+     ]
+    },
+    {
      "h2": "Honest about the room: no window, plenty of rest",
      "flow": [
       [
@@ -3769,6 +3857,31 @@
     "Private bathroom with shower"
    ],
    "sections": [
+    {
+     "h2": "What's in this room",
+     "ul": [
+      "Three en-suite bathrooms, one per bedroom",
+      "Guest WC in the living area",
+      "Rain shower with hand shower",
+      "Hot water",
+      "Fresh towels",
+      "Toiletries and slippers",
+      "Hair dryer"
+     ]
+    },
+    {
+     "h2": "A closer look at the bathrooms",
+     "p": [
+      "The bathrooms share one look: large cream marble-look tiles on the walls, matte-black fittings and white towels. Each shower has a square black rain shower head, a hand shower on a black rail, two wall-mounted black dispensers for shower products, a black shelf and a squeegee.",
+      "A round mirror with a thin black frame hangs above the basin, with a glass shelf underneath holding a black cup of individually packed toothbrush kits. Fresh white towels hang on the rails, and a hair dryer is mounted on the wall next to the white vanity cabinet. Hot water is always available and slippers are ready."
+     ],
+     "imgs": [
+      [
+       "bath-dryer",
+       "Wall-mounted hair dryer next to the vanity cabinet"
+      ]
+     ]
+    },
     {
      "h2": "One bathroom for every bedroom",
      "flow": [
@@ -3972,6 +4085,221 @@
     {
      "p": [
       "Never queue for the bathroom again. Check your dates on Airbnb or Trip.com, or send us a message on WhatsApp or Zalo."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-hallway": {
+   "title": "Hallway, Landing and Work Area | ASCON LIVING",
+   "description": "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING.",
+   "h1": "Hallway, landing and work area: the spaces between the rooms",
+   "lead": "From the entrance with its black cabinet and guest slippers, stone-look stairs with black metal railings lead up to a bright landing. Two black bedroom doors open off it, and by the window there is a desk with an office chair for work.",
+   "cover": [
+    "hall-landing",
+    "Landing with two black bedroom doors, plants and the work area"
+   ],
+   "sections": [
+    {
+     "h2": "What's in this room",
+     "ul": [
+      "Entrance with tall black cabinet, bench and shoe rack with guest slippers",
+      "Keypad self check-in, plus a key for the outer gate",
+      "Stairs with stone-look steps and black metal railings",
+      "Landing with the doors to two bedrooms",
+      "Work area: black desk and ergonomic mesh office chair by the window",
+      "Vanity desk with round mirror",
+      "Small balcony with woven armchairs, bench and table"
+     ]
+    },
+    {
+     "h2": "Arriving: the entrance",
+     "p": [
+      "The front door opens into an entrance in matte black: a tall black cabinet with open compartments, a padded bench to sit on while you take off your shoes, and a black metal shoe rack lined with fresh slippers for guests. A dark doormat and grey stone-look floor tiles set the tone for the rest of the house: grey, white and black, calm and practical. You check in yourself with the keypad; the outer gate opens with a key."
+     ],
+     "imgs": [
+      [
+       "hall-entry",
+       "Entrance with tall black cabinet and padded bench"
+      ],
+      [
+       "hall-shoes",
+       "Black shoe rack with fresh guest slippers"
+      ],
+      [
+       "entrance",
+       "Entrance with frosted glass door and stairs"
+      ]
+     ]
+    },
+    {
+     "h2": "The stairs",
+     "p": [
+      "From the entrance, the staircase climbs through all three floors. The steps have a dark, speckled stone look, the railings are black metal with a rounded handrail, and small wall lights mark the way in the evening. Looking up, black patterned panels frame the stairwell and add a graphic touch to the white walls."
+     ],
+     "imgs": [
+      [
+       "stairs",
+       "Staircase with stone-look steps and black metal railing"
+      ],
+      [
+       "hall-stairs-2",
+       "View down the stairwell with black railings"
+      ],
+      [
+       "hall-lamp",
+       "Wall light and black patterned panels in the stairwell"
+      ]
+     ]
+    },
+    {
+     "h2": "The landing with the two bedroom doors",
+     "p": [
+      "Upstairs, the stairs open onto a bright landing with grey stone-look tiles. Two matte-black panel doors sit side by side on a white wall and lead to two of the bedrooms, each with its own bathroom. Floor-to-ceiling glass doors with dark grey curtains let in daylight, and potted plants on black metal stands bring in some green."
+     ],
+     "imgs": [
+      [
+       "hall",
+       "Two matte-black bedroom doors side by side on the landing"
+      ],
+      [
+       "hall-window",
+       "Landing with glass doors, grey curtains and vanity desk"
+      ]
+     ]
+    },
+    {
+     "h2": "The work area",
+     "p": [
+      "In a corner of the landing, by the window, there is a proper place to work: a black desk with a slim metal frame, an ergonomic black mesh office chair, and a soft rug in cream and green with an organic pattern underneath. Daylight comes from the side window with grey curtains, and ceiling spotlights take over in the evening. On the wall, three framed prints of white cranes on a greige background keep the look calm. With fibre internet of up to 1 Gbit/s and mesh Wi-Fi on every floor, this is where video calls get done while the others sleep in.",
+      "Near the glass doors there is also a vanity desk with a round mirror, drawers and a soft upholstered chair, handy for getting ready without waiting for a bathroom mirror."
+     ],
+     "imgs": [
+      [
+       "hall-desk",
+       "Work area with black desk and mesh office chair by the window"
+      ],
+      [
+       "hall-prints",
+       "Three framed crane prints above the work area"
+      ],
+      [
+       "hall-vanity",
+       "Vanity desk with round mirror and upholstered chair"
+      ]
+     ]
+    },
+    {
+     "h2": "A small balcony",
+     "p": [
+      "A door off the landing opens onto a small balcony: two woven armchairs and a woven bench in dark grey, a low table, and a planter full of green leaves, with trees outside. It is a quiet spot for a morning coffee or a phone call in the fresh air."
+     ],
+     "imgs": [
+      [
+       "hall-balcony",
+       "Small balcony with woven armchairs, bench and table"
+      ],
+      [
+       "hall-balcony-2",
+       "Balcony seating seen from the door"
+      ],
+      [
+       "hall-balcony-3",
+       "Planter with green leaves next to a woven armchair"
+      ]
+     ]
+    },
+    {
+     "h2": "Frequently asked questions",
+     "faq": [
+      [
+       "Is there a place to work?",
+       "Yes. The landing has a black desk with an ergonomic mesh office chair by the window, and fibre internet with mesh Wi-Fi covers all floors."
+      ],
+      [
+       "How do we get in?",
+       "Self check-in via keypad; the outer gate uses a key. You receive the arrival instructions after booking."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Check your dates on Airbnb or Trip.com, or message us on WhatsApp or Zalo."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-outside": {
+   "title": "Outside the House: Terraces and River | ASCON LIVING",
+   "description": "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City.",
+   "h1": "Outside the house: terraces, the river and the skyline",
+   "lead": "Step out onto the terraces and the river is right in front of you, with small boats going by and the towers of District 1 on the far bank. White railings, a canopy for shade and open sky make the outside of the house part of the stay.",
+   "cover": [
+    "out-river",
+    "Trees along the bank with the District 1 skyline beyond"
+   ],
+   "sections": [
+    {
+     "h2": "What's in this room",
+     "ul": [
+      "Terraces with white railings",
+      "Canopy for shade",
+      "The river beyond a green strip of trees",
+      "District 1 skyline on the far bank",
+      "Rooftop terrace above (separate page)"
+     ]
+    },
+    {
+     "h2": "The terraces",
+     "p": [
+      "The house has terraces edged with white metal railings. Part of them is covered by a dark canopy with a scalloped edge, the rest is open to the sky, and the floor is laid with slatted wooden decking. From here you look over the trees along the bank to the water and the city beyond."
+     ],
+     "imgs": [
+      [
+       "out-terrace",
+       "Covered terrace with white railings and trees beyond"
+      ],
+      [
+       "out-terrace-2",
+       "Terrace with white railings overlooking the city"
+      ],
+      [
+       "out-terrace-3",
+       "Terrace with canopy, white railings and blue sky"
+      ]
+     ]
+    },
+    {
+     "h2": "The river",
+     "p": [
+      "Across a green strip with trees and a waterside path, the river flows past the house. During the day you can watch wooden boats chug by, some loaded with goods, and on the far bank the high-rises of District 1 rise above the treetops."
+     ],
+     "imgs": [
+      [
+       "out-boat",
+       "Wooden boat passing by"
+      ]
+     ]
+    },
+    {
+     "h2": "The best seat for the view",
+     "p": [
+      "For a sunset drink with the skyline, head up to the rooftop terrace with its outdoor sofa, BBQ and solar lights: <a href=\"{L}rooftop/\">Rooftop terrace</a>."
+     ]
+    },
+    {
+     "h2": "Frequently asked questions",
+     "faq": [
+      [
+       "Can we see the river from the house?",
+       "Yes. The river is visible from the terraces and the rooftop terrace, with the District 1 skyline beyond it."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Check your dates on Airbnb or Trip.com, or message us on WhatsApp or Zalo."
      ],
      "cta": true
     }

@@ -71,7 +71,7 @@
    "lead": "Ein privates Haus in Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt: drei Etagen plus Dachterrasse, drei Schlafzimmer mit jeweils eigenem Bad, ein Entertainment-Raum für Karaoke- und Filmabende und eine Terrasse mit Blick über den Fluss auf die Skyline von Distrikt 1.",
    "hero": [
     "hero",
-    "Dachterrasse mit Flussblick und Skyline von Distrikt 1 bei ASCON LIVING, Ho-Chi-Minh-Stadt (Foto 064)"
+    "Dachterrasse mit Flussblick und Skyline von Distrikt 1 bei ASCON LIVING, Ho-Chi-Minh-Stadt"
    ],
    "sections": [
     {
@@ -154,17 +154,17 @@
       [
        "Karaoke & Entertainment",
        "room-entertainment",
-       "Karaoke, PlayStation-Abende und Filmabende im eigenen privaten Haus in Distrikt 7, Ho-Chi-Minh-Stadt."
+       "Karaoke, PlayStation-Abende und Filmabende im eigenen privaten Haus in Ho-Chi-Minh-Stadt."
       ],
       [
        "Wohnzimmer",
        "room-living",
-       "Rund 40 m² Wohnzimmer mit L-Sofa, 75-Zoll-4K-Fernseher und Gäste-WC in eurem privaten Haus in Distrikt 7, Ho-Chi-Minh-Stadt. Platz für alle."
+       "Rund 40 m² Wohnzimmer mit L-Sofa, 75-Zoll-4K-Fernseher und Gäste-WC in eurem privaten Haus. Platz für alle."
       ],
       [
        "Küche & Essbereich",
        "room-kitchen",
-       "Voll ausgestattete Küche mit Kühlschrank (ca. 540 l), Herd, Backofen, Reiskocher und Esstisch im privaten Ferienhaus in Distrikt 7, Ho-Chi-Minh-Stadt."
+       "Voll ausgestattete Küche mit Kühlschrank (ca. 540 l), Herd, Backofen, Reiskocher und Esstisch im privaten Ferienhaus."
       ],
       [
        "Hauptschlafzimmer",
@@ -185,6 +185,16 @@
        "Bäder",
        "room-bathrooms",
        "Jedes Schlafzimmer hat ein eigenes Bad, dazu ein Gäste-WC im Wohnbereich. Warmwasser, Handtücher und Pflegeprodukte inklusive. Ganzes Haus in Saigon."
+      ],
+      [
+       "Flur, Treppe & Arbeitsplatz",
+       "room-hallway",
+       "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING."
+      ],
+      [
+       "Rund ums Haus: Terrassen & Fluss",
+       "room-outside",
+       "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt."
       ],
       [
        "Dachterrasse",
@@ -380,6 +390,16 @@
        "Jedes Schlafzimmer hat ein eigenes Bad, dazu ein Gäste-WC im Wohnbereich. Warmwasser, Handtücher und Pflegeprodukte inklusive. Ganzes Haus in Saigon."
       ],
       [
+       "Flur, Treppe & Arbeitsplatz",
+       "room-hallway",
+       "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING."
+      ],
+      [
+       "Rund ums Haus: Terrassen & Fluss",
+       "room-outside",
+       "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt."
+      ],
+      [
        "Dachterrasse",
        "rooftop",
        "Private Dachterrasse mit rund 56–60 m², Grill, Smoker, Outdoor-Sofa und Solarleuchten, mit Blick über den Fluss auf die Skyline von Distrikt 1."
@@ -450,7 +470,7 @@
       ],
       [
        "kitchen-dining",
-       "Esstisch an den Küchenfenstern für gemeinsame Familienessen"
+       "Esstisch mit gepolsterten Stühlen neben der Küche"
       ]
      ]
     },
@@ -555,173 +575,15 @@
      ]
     },
     {
-     "h2": "Karaoke-Abend im eigenen Raum",
-     "flow": [
-      [
-       "p",
-       "Karaoke in der Großstadt heißt meistens: Raum reservieren, Taxi teilen, auf die Uhr schauen. Hier geht ihr einfach den Flur entlang. Licht dimmen, Mikrofone verteilen, den 4K-Projektor einschalten."
-      ],
-      [
-       "p",
-       "Das erste Lied ist immer das schwerste, also fangt mit etwas an, das alle kennen. Schnell ist der Raum voll, jemand übernimmt die Songliste, und genau die, die nur zuschauen wollten, stehen plötzlich mit Mikrofon in der Hand da."
-      ],
-      [
-       "h3",
-       "Für Freundesgruppen"
-      ],
-      [
-       "p",
-       "Macht einen richtigen Karaoke-Wettbewerb daraus. Lost die Reihenfolge aus, setzt eine Jury aufs Sofa und vergebt Punkte für Mut, Stil und das dramatischste Finale. Wer gewinnt, darf das letzte Lied des Abends aussuchen. Wer verliert, räumt auf und bekommt morgen eine Revanche."
-      ],
-      [
-       "h3",
-       "Für Familien"
-      ],
-      [
-       "p",
-       "Karaoke verbindet Generationen. Kinder lieben es, ans Mikrofon zu dürfen, Großeltern singen endlich die Lieder ihrer Jugend, und Eltern zeigen eine Seite, die die Kinder noch nie gesehen haben."
-      ]
+     "h2": "Entertainment-Raum: Karaoke, PlayStation und Filmabende",
+     "p": [
+      "Der Entertainment-Raum ist eure private Bühne: Mikrofone für Karaoke-Duette und kleine Wettbewerbe, eine PlayStation mit PlayStation Plus für Spieleabende und ein 4K-Projektor mit Netflix für Filmabende. Wie jeder Raum im Haus gehört er während eures Aufenthalts nur eurer Gruppe. Laute Musik nur bis 21:30 Uhr, plant die großen Hits also früh ein.",
+      "Mehr Fotos und Details: <a href=\"{L}house/karaoke-entertainment/\">Entertainment-Raum</a>"
      ],
      "imgs": [
       [
        "ent",
-       "Entertainment-Raum mit Sofas, Ferienhaus mit Karaoke in Ho-Chi-Minh-Stadt"
-      ],
-      [
-       "ent-karaoke",
-       "Karaoke-Ecke mit stimmungsvoller Beleuchtung für Duette und Mitsingabende"
-      ],
-      [
-       "ent-cinema",
-       "Leinwand für den 4K-Projektor für Filmabende"
-      ],
-      [
-       "ent-tv",
-       "Entertainment-Raum mit Fernseher und Sitzplätzen"
-      ],
-      [
-       "ent-mics",
-       "Karaoke-Mikrofone und Fernbedienungen für den Wettbewerb unter Freunden"
-      ],
-      [
-       "ent-ps",
-       "PlayStation mit Controllern für Spieleabende"
-      ]
-     ]
-    },
-    {
-     "h2": "Duette: Lieder, die man zu zweit singt",
-     "flow": [
-      [
-       "p",
-       "Manche Lieder brauchen einfach zwei Stimmen. Ein Duett ist der leichteste Weg, schüchterne Sänger mitzunehmen: eine sichere Stimme, eine zögerliche, und schon lachen beide. Mutter und Tochter, zwei alte Schulfreunde, ein Paar, das endlich „sein“ Lied singen darf, Kollegen, die sich sonst nur aus dem Büro kennen."
-      ],
-      [
-       "h3",
-       "Für Paare"
-      ],
-      [
-       "p",
-       "An einem ruhigen Abend zu zweit wird der Entertainment-Raum zu eurer privaten Karaoke-Bar. Kein Publikum außer euch, und niemand urteilt, wenn die hohen Töne nicht ganz sitzen."
-      ],
-      [
-       "h3",
-       "Für Gruppen"
-      ],
-      [
-       "p",
-       "Macht Duette zu einer eigenen Runde im Wettbewerb: zufällige Paare, ein Lied pro Paar, die Gruppe stimmt ab. Das mischt die Truppe durch und sorgt für die Geschichten, die ihr euch noch auf dem Heimflug erzählt."
-      ]
-     ]
-    },
-    {
-     "h2": "Wenn die Stimmen Pause brauchen: Spieleabend an der PlayStation",
-     "flow": [
-      [
-       "p",
-       "Nach einer Stunde Singen schaltet ihr die große Leinwand auf die PlayStation um. Mit PlayStation Plus gibt es immer etwas zu spielen, ob ein Rennduell, ein gemeinsames Koop-Abenteuer oder ein schnelles Gruppenspiel, das auch Anfänger in Sekunden verstehen."
-      ],
-      [
-       "h3",
-       "Für Familien"
-      ],
-      [
-       "p",
-       "Der Klassiker ist das Familienturnier: Spielplan auf einen Zettel, Best of three, und zusehen, wie die Kinder die Erwachsenen schlagen. Auch ein guter Plan B für einen heißen Nachmittag oder einen Regentag, wenn alle eine Pause von der Stadt brauchen."
-      ],
-      [
-       "h3",
-       "Für Remote-Worker"
-      ],
-      [
-       "p",
-       "Nach einem Tag voller Calls über das schnelle Mesh-WLAN ist eine kurze Spielrunde ein einfacher Weg, vor dem Abendessen abzuschalten, ohne das Haus zu verlassen."
-      ]
-     ]
-    },
-    {
-     "h2": "Filmabend mit dem 4K-Projektor",
-     "flow": [
-      [
-       "p",
-       "Manchmal ist der schönste Abend der ruhigste. Licht runter, rein in die Sofas, und die große Leinwand wird zum Heimkino. Netflix ist startklar, das Schwierigste ist also, sich auf einen Film zu einigen. Popcorn aus der Küche, kalte Getränke aus dem großen Kühlschrank, den Rest erledigt der Projektor."
-      ],
-      [
-       "h3",
-       "Für Familien"
-      ],
-      [
-       "p",
-       "Ein Familien-Filmabend ist ein schöner Abschluss nach einem vollen Tag in der Stadt: Die Kinder wählen den Film, die Erwachsenen die Snacks, und die Hälfte schläft meistens vor dem Abspann."
-      ],
-      [
-       "h3",
-       "Für Gruppen und Paare"
-      ],
-      [
-       "p",
-       "Plant einen Filmmarathon, ein Serien-Wochenende oder einen ruhigen Date-Abend. Es ist euer Raum, nach eurem Zeitplan."
-      ]
-     ]
-    },
-    {
-     "h2": "Gut zu wissen: laute Musik nur bis 21:30 Uhr",
-     "flow": [
-      [
-       "p",
-       "Das Haus liegt in einer Wohngegend, und laut Hausregeln ist laute Musik nur bis 21:30 Uhr erlaubt. Das passt gut zum Abend: Die großen Hits singt ihr am frühen Abend, später geht es mit einem Spiel oder einem Film weiter. So bleiben die Nachbarn freundlich, und alle im Haus schlafen gut vor dem nächsten Tag in Saigon."
-      ],
-      [
-       "table",
-       {
-        "head": [
-         "Aktivität",
-         "Beste Zeit",
-         "Ideal für"
-        ],
-        "rows": [
-         [
-          "Karaoke und Duette",
-          "Früher Abend, vor 21:30 Uhr",
-          "Freunde, Familien, Paare"
-         ],
-         [
-          "Karaoke-Wettbewerb",
-          "Früher Abend, vor 21:30 Uhr",
-          "Freundesgruppen, Familientreffen"
-         ],
-         [
-          "PlayStation-Turnier",
-          "Jederzeit",
-          "Familien, Gruppen, Remote-Worker nach Feierabend"
-         ],
-         [
-          "Filmabend mit Netflix",
-          "Abends und spät",
-          "Alle"
-         ]
-        ]
-       }
+       "Entertainment-Raum mit Sofas und Karaoke-Mikrofonen"
       ]
      ]
     },
@@ -771,6 +633,32 @@
       [
        "roof-skyline",
        "Skyline der Stadt bei Nacht, gesehen von der Dachterrasse"
+      ]
+     ]
+    },
+    {
+     "h2": "Flur, Treppe und Arbeitsplatz",
+     "p": [
+      "Im Eingang stehen ein hoher schwarzer Schrank, eine Sitzbank und ein Regal mit Gäste-Hausschuhen. Eine Treppe in Steinoptik mit schwarzem Geländer führt in einen hellen Flur mit zwei Schlafzimmertüren, einem Schreibtisch mit ergonomischem Bürostuhl am Fenster und einem kleinen Balkon.",
+      "Mehr Fotos und Details: <a href=\"{L}house/hallway/\">Flur, Treppe & Arbeitsplatz</a>"
+     ],
+     "imgs": [
+      [
+       "hall-desk",
+       "Arbeitsplatz mit schwarzem Schreibtisch und Netz-Bürostuhl am Fenster"
+      ]
+     ]
+    },
+    {
+     "h2": "Rund ums Haus: Terrassen und Fluss",
+     "p": [
+      "Terrassen mit weißem Geländer, teils überdacht, blicken über einen Baumstreifen auf den Fluss, auf dem Holzboote vorbeiziehen, und auf die Skyline von Distrikt 1 am anderen Ufer.",
+      "Mehr Fotos und Details: <a href=\"{L}house/outside/\">Rund ums Haus: Terrassen & Fluss</a>"
+     ],
+     "imgs": [
+      [
+       "out-terrace",
+       "Überdachte Terrasse mit weißem Geländer, dahinter Bäume"
       ]
      ]
     },
@@ -864,6 +752,25 @@
    "lead": "Rund 56–60 m² ganz oben im Haus, nur für euch: Grill und Smoker, Outdoor-Sofa, Pflanzen und Solarleuchten, und vor euch der Fluss und die Skyline von Distrikt 1.",
    "sections": [
     {
+     "h2": "Ausstattung",
+     "ul": [
+      "Rund 56–60 m²",
+      "Grill und Smoker",
+      "Rattan-Outdoor-Sofa mit cremefarbenen Kissen, Tisch und Hockern",
+      "Solarleuchten und Lichterketten",
+      "Sonnensegel als Schattenspender",
+      "Pflanzkübel mit tropischen Pflanzen",
+      "Blick auf den Fluss und die Skyline von Distrikt 1"
+     ]
+    },
+    {
+     "h2": "Die Dachterrasse im Detail",
+     "p": [
+      "Die Dachterrasse ist eingerichtet wie ein Wohnzimmer unter freiem Himmel. Ein schwarzes Rattan-Sofa mit dicken cremefarbenen Polstern bildet ein L um einen dunklen Rattan-Tisch, Sitzwürfel mit cremefarbenen Polstern bieten weitere Plätze. Ein Sonnensegel beschattet einen Teil der Terrasse, an seiner Kante hängen Lichterketten, und Pflanzkübel mit hohen tropischen Blättern säumen das weiße Geländer. Der Boden ist mit großen hellgrauen Fliesen belegt.",
+      "Abends leuchten kleine Bodenstrahler in den Pflanzkübeln und die Solarleuchten. Der Grill, ein schwarzer Fassgrill mit Seitenablage, steht am Geländer. Hinter dem Geländer leuchten nach Einbruch der Dunkelheit der Fluss und die Türme der Skyline von Distrikt 1."
+     ]
+    },
+    {
      "h2": "Eure eigene Terrasse über der Stadt",
      "flow": [
       [
@@ -894,15 +801,15 @@
      "imgs": [
       [
        "roof-terrace",
-       "Ganzes Haus mit Flussblick: Dachterrasse mit Blick auf die Skyline von Distrikt 1 (Foto 064)"
+       "Dachterrasse mit Blick auf die Skyline von Distrikt 1"
       ],
       [
        "river-balcony",
-       "Flussblick vom Terrassengeländer, umrahmt von Pflanzen (Foto 019)"
+       "Flussblick vom Terrassengeländer, umrahmt von Pflanzen"
       ],
       [
        "river-city",
-       "Flussblick vom Haus auf die Skyline von Distrikt 1 (Foto 080)"
+       "Blick über den Fluss vom Haus auf die Skyline von Distrikt 1"
       ],
       [
        "roof-day",
@@ -1116,7 +1023,7 @@
      "imgs": [
       [
        "kitchen-dining",
-       "Esstisch an den Küchenfenstern für gemeinsame Familienessen"
+       "Esstisch mit gepolsterten Stühlen neben der Küche"
       ],
       [
        "kitchen",
@@ -1300,6 +1207,16 @@
        "Jedes Schlafzimmer hat ein eigenes Bad, dazu ein Gäste-WC im Wohnbereich. Warmwasser, Handtücher und Pflegeprodukte inklusive. Ganzes Haus in Saigon."
       ],
       [
+       "Flur, Treppe & Arbeitsplatz",
+       "room-hallway",
+       "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING."
+      ],
+      [
+       "Rund ums Haus: Terrassen & Fluss",
+       "room-outside",
+       "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt."
+      ],
+      [
        "Dachterrasse",
        "rooftop",
        "Private Dachterrasse mit rund 56–60 m², Grill, Smoker, Outdoor-Sofa und Solarleuchten, mit Blick über den Fluss auf die Skyline von Distrikt 1."
@@ -1358,7 +1275,7 @@
       ],
       [
        "p",
-       "Wer das Zentrum schon kennt, erlebt in Distrikt 7 eine andere, alltägliche Seite von Saigon."
+       "Wer das Zentrum schon kennt, erlebt in dieser Gegend eine andere, alltägliche Seite von Saigon."
       ]
      ]
     },
@@ -1478,7 +1395,7 @@
      "flow": [
       [
        "p",
-       "Taschen abstellen, im eigenen Bad duschen und hinauf auf die Dachterrasse, um euch mit Fluss und Skyline vor Augen zu orientieren. Dann die ASCON Guide App öffnen, ein Restaurant in der Nähe aussuchen und eine erste Runde durch die Nachbarschaft drehen. Am Abend fühlt sich Distrikt 7 schon ein bisschen wie zu Hause an."
+       "Taschen abstellen, im eigenen Bad duschen und hinauf auf die Dachterrasse, um euch mit Fluss und Skyline vor Augen zu orientieren. Dann die ASCON Guide App öffnen, ein Restaurant in der Nähe aussuchen und eine erste Runde durch die Nachbarschaft drehen. Am Abend fühlt sich die Nachbarschaft schon ein bisschen wie zu Hause an."
       ]
      ]
     },
@@ -1507,7 +1424,7 @@
     },
     {
      "p": [
-      "Lust auf Distrikt 7 mit eigenem Dachblick? Prüft eure Termine bei Airbnb oder Trip.com oder schreibt uns per WhatsApp oder Zalo."
+      "Lust auf ein Zuhause in dieser Gegend mit eigenem Dachblick? Prüft eure Termine bei Airbnb oder Trip.com oder schreibt uns per WhatsApp oder Zalo."
      ],
      "cta": true
     }
@@ -2364,7 +2281,7 @@
       ],
       [
        "river-city",
-       "Flussblick vom Haus auf die Skyline von Distrikt 1 (Foto 080)"
+       "Flussblick vom Haus auf die Skyline von Distrikt 1"
       ]
      ]
     },
@@ -2508,6 +2425,16 @@
        "Jedes Schlafzimmer hat ein eigenes Bad, dazu ein Gäste-WC im Wohnbereich. Warmwasser, Handtücher und Pflegeprodukte inklusive. Ganzes Haus in Saigon."
       ],
       [
+       "Flur, Treppe & Arbeitsplatz",
+       "room-hallway",
+       "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING."
+      ],
+      [
+       "Rund ums Haus: Terrassen & Fluss",
+       "room-outside",
+       "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt."
+      ],
+      [
        "Dachterrasse",
        "rooftop",
        "Private Dachterrasse mit rund 56–60 m², Grill, Smoker, Outdoor-Sofa und Solarleuchten, mit Blick über den Fluss auf die Skyline von Distrikt 1."
@@ -2543,12 +2470,36 @@
    "title": "Ferienhaus mit Karaoke in Ho-Chi-Minh-Stadt | ASCON LIVING",
    "description": "Karaoke, PlayStation-Abende und Filmabende im eigenen privaten Haus in Distrikt 7, Ho-Chi-Minh-Stadt.",
    "h1": "Ferienhaus mit Karaoke in Ho-Chi-Minh-Stadt: euer privater Entertainment-Raum",
-   "lead": "Duette, ein Karaoke-Wettbewerb unter Freunden, danach ein PlayStation-Turnier oder ein Filmabend. Bei ASCON LIVING findet der beste Abend zu Hause statt, in einem Raum, der nur euch gehört.",
+   "lead": "Ein 4K-Projektor mit großer Leinwand, Karaoke-Mikrofone mit beleuchtetem Lautsprecher, eine PlayStation mit PlayStation Plus und Netflix: Duette, ein Karaoke-Wettbewerb unter Freunden, danach ein Spieleturnier oder ein Filmabend, in einem Raum nur für euch.",
    "cover": [
     "ent",
     "Entertainment-Raum mit Sofas, Ferienhaus mit Karaoke in Ho-Chi-Minh-Stadt"
    ],
    "sections": [
+    {
+     "h2": "Ausstattung",
+     "ul": [
+      "4K-Projektor mit großer Leinwand",
+      "Karaoke mit kabellosen Mikrofonen und beleuchtetem Lautsprecher",
+      "PlayStation mit PlayStation Plus",
+      "Großer Wand-Fernseher mit Netflix",
+      "Graues Ecksofa, Couchtische und Sitzwürfel",
+      "Farbige LED-Beleuchtung und eigene Klimaanlage"
+     ]
+    },
+    {
+     "h2": "So ist der Entertainment-Raum eingerichtet",
+     "p": [
+      "Der Entertainment-Raum ist für Abende zu Hause gemacht. Ein langes graues Ecksofa mit blaugrauen Kissen umschließt zwei graue Couchtische in Marmoroptik, dazu kommen dunkelgraue Sitzwürfel als zusätzliche Plätze, alles auf einem blaugrau gemusterten Teppichboden. An einer Wand hängt ein großer Flachbildschirm, daneben ist die PlayStation an der Wand montiert, die beiden weißen Controller hängen in Halterungen darunter.",
+      "Für Film- und Karaoke-Abende wirft der 4K-Projektor das Bild auf eine große Leinwand auf einem Stativ. An der Wand steht ein hoher Lautsprecher mit leuchtenden Lichtringen, und auf dem Couchtisch warten zwei kabellose Mikrofone und die Fernbedienungen. Farbige LED-Lichtlinien ziehen sich über Decke und Wände, Wandleuchten beleuchten eine Reihe gerahmter Film- und Anime-Poster, und der Raum hat eine eigene Klimaanlage."
+     ],
+     "imgs": [
+      [
+       "ent-led",
+       "Wand-Fernseher und PlayStation mit farbigen LED-Lichtlinien"
+      ]
+     ]
+    },
     {
      "h2": "Karaoke-Abend im eigenen Raum",
      "flow": [
@@ -2751,6 +2702,33 @@
     "Wohnzimmer mit großem L-Sofa im Ferienhaus in Ho-Chi-Minh-Stadt"
    ],
    "sections": [
+    {
+     "h2": "Ausstattung",
+     "ul": [
+      "Rund 40 m² Wohnfläche",
+      "Große weiße L-Couch mit olivgrünen und weißen Kissen",
+      "75-Zoll-4K-Smart-TV mit Netflix",
+      "PlayStation mit PlayStation Plus",
+      "Couchtisch aus schwarzem Glas",
+      "Bodentiefe Glastüren mit dunkelgrauen Vorhängen",
+      "Klimaanlage und Standventilator",
+      "Gäste-WC im Wohnbereich",
+      "Farbkonzept: Grau, Weiß und Greige mit mattschwarzen Akzenten"
+     ]
+    },
+    {
+     "h2": "Das Wohnzimmer im Detail",
+     "p": [
+      "Das Wohnzimmer ist lang, hell und offen. Eine Seite besteht fast ganz aus Glas: Bodentiefe Glastüren mit dunkelgrauen Vorhängen öffnen sich ins Grüne und fluten den Raum mit Tageslicht. Die große weiße L-Couch mit olivgrünen und weißen Kissen steht gegenüber dem 75-Zoll-4K-Smart-TV. Der Fernseher hängt an einer weißen Wand zwischen zwei hohen Paneelen aus mattschwarzen Lamellen, über einem niedrigen grau-schwarzen Lowboard.",
+      "In der Mitte steht ein Couchtisch aus schwarzem Glas auf einem hellen Teppich. Große Grünpflanzen rahmen den Fernseher, an den Wänden hängen ein farbenfrohes Gemälde und eine runde Wanduhr. Warmes LED-Licht in der Deckenvoute sorgt abends für Stimmung. Der Boden ist in grauer Marmoroptik gefliest. Eine Wand-Klimaanlage und ein Standventilator halten den Raum angenehm, und das Gäste-WC liegt direkt am Wohnbereich."
+     ],
+     "imgs": [
+      [
+       "living-tvwall",
+       "TV-Wand mit 75-Zoll-Bildschirm zwischen mattschwarzen Lamellenpaneelen"
+      ]
+     ]
+    },
     {
      "h2": "Ein Wohnzimmer, in das alle passen",
      "flow": [
@@ -2958,12 +2936,38 @@
    "title": "Ferienhaus mit Küche in Saigon | ASCON LIVING",
    "description": "Voll ausgestattete Küche mit Kühlschrank (ca. 540 l), Herd, Backofen, Reiskocher und Esstisch im privaten Ferienhaus in Distrikt 7, Ho-Chi-Minh-Stadt.",
    "h1": "Ferienhaus mit voll ausgestatteter Küche in Saigon",
-   "lead": "Frische Kräuter vom Markt, ein Topf Reis für die ganze Familie, kalte Getränke für die Dachterrasse. In der eigenen Küche esst ihr, was ihr wollt und wann ihr wollt, und der Esstisch bringt alle zusammen.",
+   "lead": "Ein Kühlschrank mit rund 540 Litern, Herd, Backofen, Mikrowelle, Wasserkocher und Reiskocher, dazu Geschirr, Kochgeschirr und ein Esstisch für alle. Bringt frische Kräuter vom Markt mit und kocht, was ihr wollt, wann ihr wollt.",
    "cover": [
     "kitchen",
     "Voll ausgestattete Küche mit Esstisch im Ferienhaus in Saigon"
    ],
    "sections": [
+    {
+     "h2": "Ausstattung",
+     "ul": [
+      "Kühlschrank mit rund 540 Litern",
+      "Herd und Backofen",
+      "Mikrowelle",
+      "Wasserkocher",
+      "Reiskocher",
+      "Geschirr, Gläser, Töpfe, Pfannen und Küchenutensilien",
+      "Esstisch mit gepolsterten Stühlen",
+      "Waschmaschine"
+     ]
+    },
+    {
+     "h2": "Die Küche im Detail",
+     "p": [
+      "Küche und Essbereich bilden einen hellen, offenen Raum. Die Wand hinter der Arbeitsfläche ist mit kräftig schwarz-weiß gemusterten Fliesen belegt. Auf der Arbeitsfläche stehen ein schwarzer Wasserkocher, ein Messerblock, ein Edelstahl-Utensilienbehälter und ein Ständer mit Küchenhelfern bereit. Hinter den Schranktüren warten Töpfe, Pfannen und Reihen von Gläsern, und neben der Arbeitsfläche steht der hohe dunkle Kühlschrank mit rund 540 Litern.",
+      "Der Esstisch hat eine weiße Platte in Marmoroptik auf einem schwarzen Kreuzgestell. Rundherum stehen gepolsterte Stühle in hellem Salbei und Creme auf einem geometrisch gemusterten Teppich. Glastüren mit dunkelgrauen Vorhängen lassen Tageslicht herein, und an der Wand steht eine große Topfpflanze. Weiße Wände mit grauer Lamellenverkleidung und mattschwarze Türen tragen die Farben des Hauses bis in die Küche. In der Ecke steht eine Frontlader-Waschmaschine."
+     ],
+     "imgs": [
+      [
+       "kitchen-counter",
+       "Arbeitsfläche mit Wasserkocher, Messerblock und Küchenhelfern vor schwarz-weiß gemusterten Fliesen"
+      ]
+     ]
+    },
     {
      "h2": "Eine richtige Küche, keine Kochnische",
      "flow": [
@@ -3011,7 +3015,7 @@
       ],
       [
        "kitchen-dining",
-       "Esstisch an den Küchenfenstern für gemeinsame Familienessen"
+       "Esstisch mit gepolsterten Stühlen neben der Küche"
       ]
      ]
     },
@@ -3193,6 +3197,42 @@
     "Hauptschlafzimmer mit 180×200-cm-Bett im privaten Haus in Ho-Chi-Minh-Stadt"
    ],
    "sections": [
+    {
+     "h2": "Ausstattung",
+     "ul": [
+      "Rund 55 m²",
+      "Bett 180 × 200 cm mit gepolstertem Kopfteil",
+      "55-Zoll-4K-TV",
+      "Eigener Balkon",
+      "Eigenes Bad",
+      "Eigene Klimaanlage und Standventilator",
+      "Nachttisch mit kabelloser Handy-Ladefläche",
+      "Schminktisch mit rundem beleuchtetem Spiegel",
+      "Schrank mit frischen Handtüchern, Bettwäsche und Bügeleisen",
+      "Safe für Wertsachen im Haus"
+     ]
+    },
+    {
+     "h2": "Das Hauptschlafzimmer im Detail",
+     "p": [
+      "Das Hauptschlafzimmer ist mit rund 55 m² der größte Raum im Haus. Das 180 × 200 cm große Bett hat ein gepolstertes Kopfteil in Greige, frische weiße Bettwäsche mit grauem Bettläufer und graue und weiße Kissen. Auf beiden Seiten steht ein Nachttisch mit schwarzer Tischlampe, einer davon hat eine beleuchtete Oberfläche mit kabelloser Ladefläche fürs Handy. Zwei hohe Fenster mit dunkelgrauen Vorhängen lassen viel Tageslicht herein und blicken ins Grüne, und eine Tür führt auf den eigenen Balkon. Gegenüber dem Bett hängt der 55-Zoll-4K-Fernseher.",
+      "In der Schminkecke stehen ein Tisch mit Schubladen, ein runder beleuchteter Spiegel und ein flauschiger weißer Stuhl. Eine hohe mattschwarze Schrankwand rahmt den Zugang zum eigenen Bad. Im holzverkleideten Schrank findet ihr frische Handtücher, Ersatzbettwäsche und ein Bügeleisen. Ein grün-weißer Teppich, Grünpflanzen, zwei gerahmte grüne Drucke, ein Standventilator und die eigene Klimaanlage runden das Zimmer ab."
+     ],
+     "imgs": [
+      [
+       "bed1-vanity",
+       "Schminktisch mit rundem beleuchtetem Spiegel und weißem Stuhl im Hauptschlafzimmer"
+      ],
+      [
+       "bed1-charge",
+       "Beleuchteter Nachttisch mit kabelloser Handy-Ladefläche"
+      ],
+      [
+       "bed1-wardrobe",
+       "Schrank mit frisch gefalteten Handtüchern"
+      ]
+     ]
+    },
     {
      "h2": "Eine Suite für sich",
      "flow": [
@@ -3404,6 +3444,30 @@
    ],
    "sections": [
     {
+     "h2": "Ausstattung",
+     "ul": [
+      "Bett 160 × 200 cm mit gepolstertem Kopfteil",
+      "Smart-TV",
+      "Eigenes Bad",
+      "Eigene Klimaanlage und Standventilator",
+      "Fenster mit dunkelgrauen Vorhängen",
+      "Schrank mit offenen Fächern und frischen Handtüchern"
+     ]
+    },
+    {
+     "h2": "Schlafzimmer 2 im Detail",
+     "p": [
+      "Schlafzimmer 2 ist ein ruhiger Raum in warmem Greige. Das 160 × 200 cm große Bett hat ein gepolstertes Kopfteil, weiße Bettwäsche mit grauem Bettläufer und dunkelgraue Kissen und steht auf einem grün-weißen Teppich. Ein Fenster mit dunkelgrauen Vorhängen bringt Tageslicht herein. Der Smart-TV hängt neben der Badezimmertür, die mit einem leuchtenden Herbstlaub-Motiv in Orange, Rot und Grün bedruckt ist.",
+      "Über dem Bett und an der Seitenwand hängen zwei gerahmte Gemälde mit grünen Wald- und Uferlandschaften. Ein hellgrauer Schrank mit offenen Fächern hält frische Handtücher bereit. Ein Standventilator, eine Grünpflanze und die eigene Klimaanlage vervollständigen die Einrichtung."
+     ],
+     "imgs": [
+      [
+       "bed2-wardrobe",
+       "Hellgrauer Schrank mit offenen Fächern und Handtüchern in Schlafzimmer 2"
+      ]
+     ]
+    },
+    {
      "h2": "Ein eigenes Zimmer mitten im gemeinsamen Urlaub",
      "flow": [
       [
@@ -3598,6 +3662,30 @@
    ],
    "sections": [
     {
+     "h2": "Ausstattung",
+     "ul": [
+      "Bett 160 × 200 cm mit gepolstertem Kopfteil",
+      "Smart-TV",
+      "Eigenes Bad",
+      "Eigene Klimaanlage und Standventilator",
+      "Kein Fenster: dunkel und ruhig",
+      "Schrank mit Spiegeltür, Kleiderstange und Fächern"
+     ]
+    },
+    {
+     "h2": "Schlafzimmer 3 im Detail",
+     "p": [
+      "Schlafzimmer 3 ist ein Innenraum ohne Fenster und deshalb zu jeder Tageszeit dunkel und ruhig. Das 160 × 200 cm große Bett hat ein gepolstertes Kopfteil in Greige, weiße Bettwäsche mit grauem Bettläufer, dunkelgraue Kissen und eine lange Nackenrolle. Auf dem grauen Boden in Steinoptik liegt ein grün-weißer Teppich. Der Smart-TV hängt gegenüber dem Bett neben einem Standventilator, und die eigene Klimaanlage sitzt über dem Schrank.",
+      "Der hohe hellgraue Schrank hat eine Spiegeltür, eine Kleiderstange mit Bügeln und Fächer mit frischen Handtüchern und Ersatzbettwäsche. An den Wänden hängen zwei gerahmte Naturbilder in sattem Grün, und ein graues Lamellenpaneel gibt der Wand Struktur. Das eigene Bad liegt direkt neben dem Bett."
+     ],
+     "imgs": [
+      [
+       "bed3-wardrobe",
+       "Offener Schrank mit Kleiderstange und Fächern in Schlafzimmer 3"
+      ]
+     ]
+    },
+    {
      "h2": "Ehrlich gesagt: kein Fenster, dafür viel Ruhe",
      "flow": [
       [
@@ -3783,6 +3871,31 @@
     "Eigenes Bad mit Dusche"
    ],
    "sections": [
+    {
+     "h2": "Ausstattung",
+     "ul": [
+      "Drei eigene Bäder, eines pro Schlafzimmer",
+      "Gäste-WC im Wohnbereich",
+      "Regendusche mit Handbrause",
+      "Warmes Wasser",
+      "Frische Handtücher",
+      "Pflegeprodukte und Hausschuhe",
+      "Föhn"
+     ]
+    },
+    {
+     "h2": "Die Bäder im Detail",
+     "p": [
+      "Die Bäder haben alle denselben Stil: große cremefarbene Wandfliesen in Marmoroptik, mattschwarze Armaturen und weiße Handtücher. Jede Dusche hat eine eckige schwarze Regenbrause, eine Handbrause an einer schwarzen Stange, zwei schwarze Wandspender für Duschprodukte, ein schwarzes Ablageregal und einen Abzieher.",
+      "Über dem Waschbecken hängt ein runder Spiegel mit schmalem schwarzem Rahmen, darunter ein Glasregal mit einem schwarzen Becher voller einzeln verpackter Zahnputz-Sets. Frische weiße Handtücher hängen an den Stangen, und neben dem weißen Waschtischschrank ist ein Föhn an der Wand befestigt. Warmes Wasser gibt es jederzeit, und Hausschuhe liegen bereit."
+     ],
+     "imgs": [
+      [
+       "bath-dryer",
+       "Wandföhn neben dem Waschtischschrank"
+      ]
+     ]
+    },
     {
      "h2": "Ein Bad für jedes Schlafzimmer",
      "flow": [
@@ -3995,6 +4108,221 @@
     {
      "p": [
       "Nie wieder Schlange stehen fürs Bad. Prüft eure Termine bei Airbnb oder Trip.com oder schreibt uns per WhatsApp oder Zalo."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-hallway": {
+   "title": "Flur, Treppenhaus und Arbeitsplatz | ASCON LIVING",
+   "description": "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING.",
+   "h1": "Flur, Treppenhaus und Arbeitsplatz: die Räume zwischen den Zimmern",
+   "lead": "Vom Eingang mit schwarzem Schrank und Gäste-Hausschuhen führt eine Treppe in Steinoptik mit schwarzem Metallgeländer hinauf in einen hellen Flur. Von dort gehen zwei schwarze Schlafzimmertüren ab, und am Fenster steht ein Schreibtisch mit Bürostuhl zum Arbeiten.",
+   "cover": [
+    "hall-landing",
+    "Flur mit zwei schwarzen Schlafzimmertüren, Pflanzen und Arbeitsplatz"
+   ],
+   "sections": [
+    {
+     "h2": "Ausstattung",
+     "ul": [
+      "Eingang mit hohem schwarzem Schrank, Sitzbank und Schuhregal mit Gäste-Hausschuhen",
+      "Self-Check-in per Zahlenschloss, Schlüssel für das Außentor",
+      "Treppe mit Stufen in Steinoptik und schwarzem Metallgeländer",
+      "Flur mit den Türen zu zwei Schlafzimmern",
+      "Arbeitsplatz: schwarzer Schreibtisch und ergonomischer Netz-Bürostuhl am Fenster",
+      "Schminktisch mit rundem Spiegel",
+      "Kleiner Balkon mit Flechtsesseln, Bank und Tisch"
+     ]
+    },
+    {
+     "h2": "Ankommen: der Eingang",
+     "p": [
+      "Die Haustür öffnet sich in einen Eingang in Mattschwarz: ein hoher schwarzer Schrank mit offenen Fächern, eine gepolsterte Sitzbank zum Schuheausziehen und ein schwarzes Metallregal voller frischer Hausschuhe für Gäste. Eine dunkle Fußmatte und graue Bodenfliesen in Steinoptik geben den Ton für das ganze Haus vor: Grau, Weiß und Schwarz, ruhig und praktisch. Ihr checkt selbst per Zahlenschloss ein, das Außentor öffnet ihr mit einem Schlüssel."
+     ],
+     "imgs": [
+      [
+       "hall-entry",
+       "Eingang mit hohem schwarzem Schrank und gepolsterter Sitzbank"
+      ],
+      [
+       "hall-shoes",
+       "Schwarzes Schuhregal mit frischen Gäste-Hausschuhen"
+      ],
+      [
+       "entrance",
+       "Eingang mit Milchglastür und Treppe"
+      ]
+     ]
+    },
+    {
+     "h2": "Die Treppe",
+     "p": [
+      "Vom Eingang führt die Treppe durch alle drei Etagen. Die Stufen haben eine dunkle, gesprenkelte Steinoptik, das Geländer ist aus schwarzem Metall mit rundem Handlauf, und kleine Wandleuchten weisen abends den Weg. Nach oben hin rahmen schwarze gemusterte Paneele das Treppenhaus und setzen einen grafischen Akzent auf den weißen Wänden."
+     ],
+     "imgs": [
+      [
+       "stairs",
+       "Treppe mit Stufen in Steinoptik und schwarzem Metallgeländer"
+      ],
+      [
+       "hall-stairs-2",
+       "Blick nach unten ins Treppenhaus mit schwarzem Geländer"
+      ],
+      [
+       "hall-lamp",
+       "Wandleuchte und schwarze gemusterte Paneele im Treppenhaus"
+      ]
+     ]
+    },
+    {
+     "h2": "Der Flur mit den zwei Schlafzimmertüren",
+     "p": [
+      "Oben öffnet sich die Treppe in einen hellen Flur mit grauen Fliesen in Steinoptik. Zwei mattschwarze Kassettentüren liegen nebeneinander an einer weißen Wand und führen in zwei der Schlafzimmer, jedes mit eigenem Bad. Bodentiefe Glastüren mit dunkelgrauen Vorhängen lassen Tageslicht herein, und Grünpflanzen auf schwarzen Metallständern bringen Farbe in den Raum."
+     ],
+     "imgs": [
+      [
+       "hall",
+       "Zwei mattschwarze Schlafzimmertüren nebeneinander im Flur"
+      ],
+      [
+       "hall-window",
+       "Flur mit Glastüren, grauen Vorhängen und Schminktisch"
+      ]
+     ]
+    },
+    {
+     "h2": "Der Arbeitsplatz",
+     "p": [
+      "In einer Ecke des Flurs, direkt am Fenster, gibt es einen richtigen Arbeitsplatz: einen schwarzen Schreibtisch mit schlankem Metallgestell, einen ergonomischen schwarzen Netz-Bürostuhl und darunter einen weichen Teppich in Creme und Grün mit organischem Muster. Tageslicht fällt durch das Seitenfenster mit grauen Vorhängen, abends übernehmen die Deckenspots. An der Wand halten drei gerahmte Drucke mit weißen Kranichen auf Greige den Look ruhig. Mit Glasfaser-Internet bis 1 Gbit/s und Mesh-WLAN auf jeder Etage erledigt ihr hier eure Videocalls, während die anderen ausschlafen.",
+      "Nahe den Glastüren steht außerdem ein Schminktisch mit rundem Spiegel, Schubladen und einem weichen Polsterstuhl, praktisch, um sich fertig zu machen, ohne auf einen Badspiegel zu warten."
+     ],
+     "imgs": [
+      [
+       "hall-desk",
+       "Arbeitsplatz mit schwarzem Schreibtisch und Netz-Bürostuhl am Fenster"
+      ],
+      [
+       "hall-prints",
+       "Drei gerahmte Kranich-Drucke über dem Arbeitsplatz"
+      ],
+      [
+       "hall-vanity",
+       "Schminktisch mit rundem Spiegel und Polsterstuhl"
+      ]
+     ]
+    },
+    {
+     "h2": "Ein kleiner Balkon",
+     "p": [
+      "Eine Tür vom Flur führt auf einen kleinen Balkon: zwei Flechtsessel und eine Flechtbank in Dunkelgrau, ein niedriger Tisch und ein Pflanzkübel voller grüner Blätter, draußen Bäume. Ein ruhiger Platz für den Morgenkaffee oder ein Telefonat an der frischen Luft."
+     ],
+     "imgs": [
+      [
+       "hall-balcony",
+       "Kleiner Balkon mit Flechtsesseln, Bank und Tisch"
+      ],
+      [
+       "hall-balcony-2",
+       "Sitzplätze auf dem Balkon von der Tür aus gesehen"
+      ],
+      [
+       "hall-balcony-3",
+       "Pflanzkübel mit grünen Blättern neben einem Flechtsessel"
+      ]
+     ]
+    },
+    {
+     "h2": "Häufige Fragen",
+     "faq": [
+      [
+       "Gibt es einen Arbeitsplatz?",
+       "Ja. Im Flur steht am Fenster ein schwarzer Schreibtisch mit ergonomischem Netz-Bürostuhl, und Glasfaser-Internet mit Mesh-WLAN deckt alle Etagen ab."
+      ],
+      [
+       "Wie kommen wir ins Haus?",
+       "Self-Check-in per Zahlenschloss, das Außentor öffnet ihr mit einem Schlüssel. Die Anreiseinfos bekommt ihr nach der Buchung."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Prüft eure Termine bei Airbnb oder Trip.com oder schreibt uns per WhatsApp oder Zalo."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-outside": {
+   "title": "Rund ums Haus: Terrassen und Fluss | ASCON LIVING",
+   "description": "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt.",
+   "h1": "Rund ums Haus: Terrassen, Fluss und Skyline",
+   "lead": "Tretet auf die Terrassen hinaus, und der Fluss liegt direkt vor euch, mit kleinen Booten und den Türmen von Distrikt 1 am anderen Ufer. Weißes Geländer, eine Überdachung als Schattenspender und offener Himmel machen den Außenbereich zum Teil eures Aufenthalts.",
+   "cover": [
+    "out-river",
+    "Bäume am Ufer, dahinter die Skyline von Distrikt 1"
+   ],
+   "sections": [
+    {
+     "h2": "Ausstattung",
+     "ul": [
+      "Terrassen mit weißem Geländer",
+      "Überdachung als Schattenspender",
+      "Der Fluss hinter einem grünen Baumstreifen",
+      "Skyline von Distrikt 1 am anderen Ufer",
+      "Dachterrasse darüber (eigene Seite)"
+     ]
+    },
+    {
+     "h2": "Die Terrassen",
+     "p": [
+      "Das Haus hat Terrassen mit weißem Metallgeländer. Ein Teil ist von einer dunklen Markise mit gewelltem Rand überdacht, der Rest liegt unter freiem Himmel, und der Boden ist mit Holzlatten belegt. Von hier blickt ihr über die Bäume am Ufer auf das Wasser und die Stadt dahinter."
+     ],
+     "imgs": [
+      [
+       "out-terrace",
+       "Überdachte Terrasse mit weißem Geländer, dahinter Bäume"
+      ],
+      [
+       "out-terrace-2",
+       "Terrasse mit weißem Geländer und Blick über die Stadt"
+      ],
+      [
+       "out-terrace-3",
+       "Terrasse mit Markise, weißem Geländer und blauem Himmel"
+      ]
+     ]
+    },
+    {
+     "h2": "Der Fluss",
+     "p": [
+      "Hinter einem grünen Streifen mit Bäumen und einem Uferweg fließt der Fluss am Haus vorbei. Tagsüber tuckern Holzboote vorbei, manche mit Waren beladen, und am anderen Ufer ragen die Hochhäuser von Distrikt 1 über die Baumkronen."
+     ],
+     "imgs": [
+      [
+       "out-boat",
+       "Vorbeifahrendes Holzboot"
+      ]
+     ]
+    },
+    {
+     "h2": "Der beste Platz für die Aussicht",
+     "p": [
+      "Für einen Drink zum Sonnenuntergang mit Skyline geht es hinauf auf die Dachterrasse mit Outdoor-Sofa, Grill und Solarleuchten: <a href=\"{L}rooftop/\">Dachterrasse</a>."
+     ]
+    },
+    {
+     "h2": "Häufige Fragen",
+     "faq": [
+      [
+       "Sieht man den Fluss vom Haus aus?",
+       "Ja. Der Fluss ist von den Terrassen und der Dachterrasse aus zu sehen, dahinter die Skyline von Distrikt 1."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Prüft eure Termine bei Airbnb oder Trip.com oder schreibt uns per WhatsApp oder Zalo."
      ],
      "cta": true
     }

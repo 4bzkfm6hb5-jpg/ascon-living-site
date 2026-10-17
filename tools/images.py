@@ -8,12 +8,15 @@ PICK={'roof-lounge':'Rooftop/020_746A9684','roof-day':'Rooftop/021_746A9696',
 'roof-night':'Rooftop/022_746A9772','roof-evening':'Rooftop/023_746A9778','roof-evening-2':'Rooftop/024_746A9782',
 'roof-skyline':'Rooftop/104_IMG_74314ee3','roof-bbq':'Rooftop/036_746A9682',
 'living':'Wohnzimmer/002_746A9488','living-2':'Wohnzimmer/003_746A9486','living-tv':'Wohnzimmer/004_746A9482','living-3':'Wohnzimmer/006_746A9498',
-'kitchen':'Kueche/007_IMG_593f8e35','kitchen-dining':'Kueche/008_746A9521','kitchen-2':'Kueche/009_746A9522','kitchen-3':'Kueche/038_746A9528','kitchen-fridge':'Kueche/060_IMG_f524b050','kitchen-dishes':'Kueche/039_746A9533','kitchen-rice':'Kueche/042_746A9539','kitchen-micro':'Kueche/059_IMG_3b30a3b4',
+'kitchen':'Kueche/007_IMG_593f8e35','kitchen-dining':'Kueche/010_746A9517','kitchen-2':'Kueche/009_746A9522','kitchen-3':'Kueche/038_746A9528','kitchen-fridge':'Kueche/060_IMG_f524b050','kitchen-dishes':'Kueche/039_746A9533','kitchen-rice':'Kueche/042_746A9539','kitchen-micro':'Kueche/059_IMG_3b30a3b4',
 'bed1':'Schlafzimmer_1/011_746A9548','bed1-2':'Schlafzimmer_1/012_746A9578','bed1-3':'Schlafzimmer_1/043_746A9561',
 'bed2':'Schlafzimmer_2/013_746A9623','bed2-2':'Schlafzimmer_2/014_746A9632','bed2-3':'Schlafzimmer_2/044_746A9631',
 'bed3':'Schlafzimmer_3/015_746A9660','bed3-2':'Schlafzimmer_3/016_746A9650','bed3-3':'Schlafzimmer_3/045_746A9657',
 'bath':'Bad/017_746A9570','bath-2':'Bad/018_746A9668','bath-3':'Bad/019_746A9641','bath-4':'Bad/136_746A9639','bath-5':'Bad/148_746A9671','bath-6':'Bad/124_746A9575',
 'ent':'Karaoke/030_746A9717','ent-karaoke':'Karaoke/031_746A9715','ent-cinema':'Karaoke/032_746A9748','ent-tv':'Karaoke/033_746A9723','ent-mics':'Karaoke/034_746A9724','ent-ps':'Karaoke/035_746A9726',
+'hall-desk':'Vorraum_Flur/056_IMG_f7f68425','hall-landing':'Vorraum_Flur/130_746A9605','hall-vanity':'Vorraum_Flur/048_746A9598','hall-window':'Vorraum_Flur/129_746A9602','hall-prints':'Vorraum_Flur/057_IMG_8aa67c29','hall-entry':'Vorraum_Flur/051_746A9514','hall-shoes':'Vorraum_Flur/052_746A9506','hall-stairs-2':'Vorraum_Flur/151_746A9675','hall-lamp':'Vorraum_Flur/053_746A9703','hall-balcony':'Sonstiges/037_746A9585','hall-balcony-2':'Sonstiges/125_746A9582','hall-balcony-3':'Sonstiges/126_746A9587',
+'out-terrace':'Aussen_Fluss/001_IMG_e079fe88','out-river':'Aussen_Fluss/025_IMG_b819bcba','out-boat':'Aussen_Fluss/026_IMG_dbbabb18','out-terrace-2':'Aussen_Fluss/027_IMG_d9aa7add','out-terrace-3':'Aussen_Fluss/058_IMG_f41a1c6b',
+'kitchen-counter':'Kueche/111_746A9532','living-tvwall':'Wohnzimmer/005_746A9795','bed1-vanity':'Schlafzimmer_1/118_746A9554','bed1-charge':'Schlafzimmer_1/120_746A9562','bed1-wardrobe':'Schlafzimmer_1/121_746A9567','bed2-wardrobe':'Schlafzimmer_2/138_746A9643','bed3-wardrobe':'Schlafzimmer_3/143_746A9656','bath-dryer':'Bad/137_746A9642','ent-led':'Karaoke/067_IMG_ca58fea3',
 'hall':'Vorraum_Flur/047_746A9604','stairs':'Vorraum_Flur/049_746A9790','entrance':'Vorraum_Flur/050_746A9502'}
 BLUE={'hero':'064','roof-terrace':'064','river-balcony':'019','river-city':'080'}  # blue-water river shots from /workspace/ascon-photos (owner-approved exception)
 WIDTHS=[480,960,1440]
