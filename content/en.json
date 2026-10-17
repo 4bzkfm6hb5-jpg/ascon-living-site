@@ -188,12 +188,12 @@
       [
        "Hallway, landing & work area",
        "room-hallway",
-       "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING."
+       "Entrance with shoe cabinet and guest slippers, stairs with black railings, a landing with two bedroom doors and a desk work area at ASCON LIVING."
       ],
       [
        "Outside: terraces & river",
        "room-outside",
-       "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City."
+       "Outside ASCON LIVING: terraces with white railings and plants, the river in front of the house and the District 1 skyline on the far bank, Ho Chi Minh City."
       ],
       [
        "Rooftop terrace",
@@ -310,7 +310,7 @@
       [
        "Location",
        "location",
-       "Tân Hưng (District 7), with restaurants and street food nearby."
+       "Tân Hưng, with restaurants and street food nearby."
       ],
       [
        "Booking & Contact",
@@ -391,12 +391,12 @@
       [
        "Hallway, landing & work area",
        "room-hallway",
-       "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING."
+       "Entrance with shoe cabinet and guest slippers, stairs with black railings, a landing with two bedroom doors and a desk work area at ASCON LIVING."
       ],
       [
        "Outside: terraces & river",
        "room-outside",
-       "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City."
+       "Outside ASCON LIVING: terraces with white railings and plants, the river in front of the house and the District 1 skyline on the far bank, Ho Chi Minh City."
       ],
       [
        "Rooftop terrace",
@@ -603,7 +603,7 @@
       ],
       [
        "river-city",
-       "River view towards the District 1 skyline from the house"
+       "View towards the District 1 skyline from the house"
       ],
       [
        "roof-day",
@@ -638,7 +638,7 @@
     {
      "h2": "Hallway, landing and work area",
      "p": [
-      "The entrance has a tall black cabinet, a bench and a rack of guest slippers. Stone-look stairs with black railings lead to a bright landing with two bedroom doors, a desk with an ergonomic office chair by the window, and a small balcony.",
+      "The entrance has a tall black cabinet, a bench and a rack of guest slippers. Stone-look stairs with black railings lead to a bright landing with two bedroom doors, a desk with an ergonomic office chair by the window.",
       "More photos and details: <a href=\"{L}house/hallway/\">Hallway, landing & work area</a>"
      ],
      "imgs": [
@@ -651,13 +651,13 @@
     {
      "h2": "Outside: terraces and the river",
      "p": [
-      "White-railed terraces, partly under a canopy, look over a strip of trees to the river, where wooden boats pass and the District 1 skyline rises on the far bank.",
+      "White-railed terraces, partly under a canopy, look over a strip of trees to the river and the District 1 skyline on the far bank.",
       "More photos and details: <a href=\"{L}house/outside/\">Outside: terraces & river</a>"
      ],
      "imgs": [
       [
-       "out-terrace",
-       "Covered terrace with white railings and trees beyond"
+       "river-balcony",
+       "Terrace railing framed by plants, with the city beyond"
       ]
      ]
     },
@@ -804,7 +804,8 @@
       ],
       [
        "river-balcony",
-       "River view from the terrace railing, framed by plants"
+       "River view from the terrace railing, framed by plants",
+       "From the terrace railing, framed by plants"
       ],
       [
        "river-city",
@@ -1208,12 +1209,12 @@
       [
        "Hallway, landing & work area",
        "room-hallway",
-       "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING."
+       "Entrance with shoe cabinet and guest slippers, stairs with black railings, a landing with two bedroom doors and a desk work area at ASCON LIVING."
       ],
       [
        "Outside: terraces & river",
        "room-outside",
-       "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City."
+       "Outside ASCON LIVING: terraces with white railings and plants, the river in front of the house and the District 1 skyline on the far bank, Ho Chi Minh City."
       ],
       [
        "Rooftop terrace",
@@ -1258,7 +1259,7 @@
      "flow": [
       [
        "p",
-       "ASCON LIVING is at 389A Đường Trần Xuân Soạn in Tân Hưng ward. Most people still call the area District 7, or Quận 7 in Vietnamese. Since the 2025 administrative reform the old district names are no longer official, but you will hear \"District 7\" from drivers and locals every day, and it remains the easiest way to describe where you are staying."
+       "ASCON LIVING is at 389A Đường Trần Xuân Soạn in Tân Hưng ward. Most people still call the area District 7, or Quận 7 in Vietnamese. Since the 2025 administrative reform the old district names are no longer official, but you will hear the old name from drivers and locals every day, and it remains the easiest way to describe where you are staying."
       ],
       [
        "h3",
@@ -1409,7 +1410,7 @@
      "faq": [
       [
        "What is the exact address?",
-       "389A Đường Trần Xuân Soạn, Tân Hưng (District 7), Ho Chi Minh City. Exact arrival instructions are sent after booking."
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh City. Exact arrival instructions are sent after booking."
       ],
       [
        "How do we get from the airport to the house?",
@@ -2426,12 +2427,12 @@
       [
        "Hallway, landing & work area",
        "room-hallway",
-       "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING."
+       "Entrance with shoe cabinet and guest slippers, stairs with black railings, a landing with two bedroom doors and a desk work area at ASCON LIVING."
       ],
       [
        "Outside: terraces & river",
        "room-outside",
-       "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City."
+       "Outside ASCON LIVING: terraces with white railings and plants, the river in front of the house and the District 1 skyline on the far bank, Ho Chi Minh City."
       ],
       [
        "Rooftop terrace",
@@ -4092,7 +4093,7 @@
   },
   "room-hallway": {
    "title": "Hallway, Landing and Work Area | ASCON LIVING",
-   "description": "Entrance with shoe cabinet and slippers, stairs with black railings, a landing with two bedroom doors, a desk work area and a small balcony at ASCON LIVING.",
+   "description": "Entrance with shoe cabinet and guest slippers, stairs with black railings, a landing with two bedroom doors and a desk work area at ASCON LIVING.",
    "h1": "Hallway, landing and work area: the spaces between the rooms",
    "lead": "From the entrance with its black cabinet and guest slippers, stone-look stairs with black metal railings lead up to a bright landing. Two black bedroom doors open off it, and by the window there is a desk with an office chair for work.",
    "cover": [
@@ -4108,8 +4109,7 @@
       "Stairs with stone-look steps and black metal railings",
       "Landing with the doors to two bedrooms",
       "Work area: black desk and ergonomic mesh office chair by the window",
-      "Vanity desk with round mirror",
-      "Small balcony with woven armchairs, bench and table"
+      "Vanity desk with round mirror"
      ]
     },
     {
@@ -4190,26 +4190,6 @@
      ]
     },
     {
-     "h2": "A small balcony",
-     "p": [
-      "A door off the landing opens onto a small balcony: two woven armchairs and a woven bench in dark grey, a low table, and a planter full of green leaves, with trees outside. It is a quiet spot for a morning coffee or a phone call in the fresh air."
-     ],
-     "imgs": [
-      [
-       "hall-balcony",
-       "Small balcony with woven armchairs, bench and table"
-      ],
-      [
-       "hall-balcony-2",
-       "Balcony seating seen from the door"
-      ],
-      [
-       "hall-balcony-3",
-       "Planter with green leaves next to a woven armchair"
-      ]
-     ]
-    },
-    {
      "h2": "Frequently asked questions",
      "faq": [
       [
@@ -4232,20 +4212,19 @@
   },
   "room-outside": {
    "title": "Outside the House: Terraces and River | ASCON LIVING",
-   "description": "Outside ASCON LIVING: terraces with white railings, the river beyond a strip of trees and the District 1 skyline on the far bank, in Ho Chi Minh City.",
+   "description": "Outside ASCON LIVING: terraces with white railings and plants, the river in front of the house and the District 1 skyline on the far bank, Ho Chi Minh City.",
    "h1": "Outside the house: terraces, the river and the skyline",
-   "lead": "Step out onto the terraces and the river is right in front of you, with small boats going by and the towers of District 1 on the far bank. White railings, a canopy for shade and open sky make the outside of the house part of the stay.",
+   "lead": "Step out onto the terraces and the river is right in front of you, with the towers of District 1 on the far bank. White railings, plants and open sky make the outside of the house part of the stay.",
    "cover": [
-    "out-river",
-    "Trees along the bank with the District 1 skyline beyond"
+    "river-city",
+    "River view towards the District 1 skyline"
    ],
    "sections": [
     {
      "h2": "What's in this room",
      "ul": [
-      "Terraces with white railings",
-      "Canopy for shade",
-      "The river beyond a green strip of trees",
+      "Terraces with white railings and plants",
+      "The river in front of the house",
       "District 1 skyline on the far bank",
       "Rooftop terrace above (separate page)"
      ]
@@ -4253,33 +4232,23 @@
     {
      "h2": "The terraces",
      "p": [
-      "The house has terraces edged with white metal railings. Part of them is covered by a dark canopy with a scalloped edge, the rest is open to the sky, and the floor is laid with slatted wooden decking. From here you look over the trees along the bank to the water and the city beyond."
+      "The house has terraces edged with white metal railings, with plants along the edge. From here you look out over the water to the city beyond."
      ],
      "imgs": [
       [
-       "out-terrace",
-       "Covered terrace with white railings and trees beyond"
+       "river-balcony",
+       "Terrace railing framed by plants, with the city beyond"
       ],
       [
-       "out-terrace-2",
-       "Terrace with white railings overlooking the city"
-      ],
-      [
-       "out-terrace-3",
-       "Terrace with canopy, white railings and blue sky"
+       "roof-terrace",
+       "Rooftop terrace with skyline view"
       ]
      ]
     },
     {
      "h2": "The river",
      "p": [
-      "Across a green strip with trees and a waterside path, the river flows past the house. During the day you can watch wooden boats chug by, some loaded with goods, and on the far bank the high-rises of District 1 rise above the treetops."
-     ],
-     "imgs": [
-      [
-       "out-boat",
-       "Wooden boat passing by"
-      ]
+      "The river flows right past the house, and on the far bank the high-rises of District 1 rise above the treetops."
      ]
     },
     {

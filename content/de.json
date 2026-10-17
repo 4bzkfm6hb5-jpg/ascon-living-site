@@ -189,12 +189,12 @@
       [
        "Flur, Treppe & Arbeitsplatz",
        "room-hallway",
-       "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING."
+       "Eingang mit Schuhschrank und Gäste-Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren und Schreibtisch-Arbeitsplatz bei ASCON LIVING."
       ],
       [
        "Rund ums Haus: Terrassen & Fluss",
        "room-outside",
-       "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt."
+       "Rund um ASCON LIVING: Terrassen mit weißem Geländer und Pflanzen, der Fluss vor dem Haus und die Skyline von Distrikt 1 am anderen Ufer, Ho-Chi-Minh-Stadt."
       ],
       [
        "Dachterrasse",
@@ -311,7 +311,7 @@
       [
        "Lage",
        "location",
-       "Tân Hưng (Distrikt 7), Restaurants und Streetfood in der Nähe."
+       "Tân Hưng, Restaurants und Streetfood in der Nähe."
       ],
       [
        "Buchung & Kontakt",
@@ -392,12 +392,12 @@
       [
        "Flur, Treppe & Arbeitsplatz",
        "room-hallway",
-       "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING."
+       "Eingang mit Schuhschrank und Gäste-Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren und Schreibtisch-Arbeitsplatz bei ASCON LIVING."
       ],
       [
        "Rund ums Haus: Terrassen & Fluss",
        "room-outside",
-       "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt."
+       "Rund um ASCON LIVING: Terrassen mit weißem Geländer und Pflanzen, der Fluss vor dem Haus und die Skyline von Distrikt 1 am anderen Ufer, Ho-Chi-Minh-Stadt."
       ],
       [
        "Dachterrasse",
@@ -604,7 +604,7 @@
       ],
       [
        "river-city",
-       "Flussblick vom Haus auf die Skyline von Distrikt 1"
+       "Blick vom Haus auf die Skyline von Distrikt 1"
       ],
       [
        "roof-day",
@@ -639,7 +639,7 @@
     {
      "h2": "Flur, Treppe und Arbeitsplatz",
      "p": [
-      "Im Eingang stehen ein hoher schwarzer Schrank, eine Sitzbank und ein Regal mit Gäste-Hausschuhen. Eine Treppe in Steinoptik mit schwarzem Geländer führt in einen hellen Flur mit zwei Schlafzimmertüren, einem Schreibtisch mit ergonomischem Bürostuhl am Fenster und einem kleinen Balkon.",
+      "Im Eingang stehen ein hoher schwarzer Schrank, eine Sitzbank und ein Regal mit Gäste-Hausschuhen. Eine Treppe in Steinoptik mit schwarzem Geländer führt in einen hellen Flur mit zwei Schlafzimmertüren, einem Schreibtisch mit ergonomischem Bürostuhl am Fenster.",
       "Mehr Fotos und Details: <a href=\"{L}house/hallway/\">Flur, Treppe & Arbeitsplatz</a>"
      ],
      "imgs": [
@@ -652,13 +652,13 @@
     {
      "h2": "Rund ums Haus: Terrassen und Fluss",
      "p": [
-      "Terrassen mit weißem Geländer, teils überdacht, blicken über einen Baumstreifen auf den Fluss, auf dem Holzboote vorbeiziehen, und auf die Skyline von Distrikt 1 am anderen Ufer.",
+      "Terrassen mit weißem Geländer, teils überdacht, blicken über einen Baumstreifen auf den Fluss und auf die Skyline von Distrikt 1 am anderen Ufer.",
       "Mehr Fotos und Details: <a href=\"{L}house/outside/\">Rund ums Haus: Terrassen & Fluss</a>"
      ],
      "imgs": [
       [
-       "out-terrace",
-       "Überdachte Terrasse mit weißem Geländer, dahinter Bäume"
+       "river-balcony",
+       "Terrassengeländer mit Pflanzen, dahinter die Stadt"
       ]
      ]
     },
@@ -805,7 +805,8 @@
       ],
       [
        "river-balcony",
-       "Flussblick vom Terrassengeländer, umrahmt von Pflanzen"
+       "Flussblick vom Terrassengeländer, umrahmt von Pflanzen",
+       "Am Terrassengeländer, umrahmt von Pflanzen"
       ],
       [
        "river-city",
@@ -1209,12 +1210,12 @@
       [
        "Flur, Treppe & Arbeitsplatz",
        "room-hallway",
-       "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING."
+       "Eingang mit Schuhschrank und Gäste-Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren und Schreibtisch-Arbeitsplatz bei ASCON LIVING."
       ],
       [
        "Rund ums Haus: Terrassen & Fluss",
        "room-outside",
-       "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt."
+       "Rund um ASCON LIVING: Terrassen mit weißem Geländer und Pflanzen, der Fluss vor dem Haus und die Skyline von Distrikt 1 am anderen Ufer, Ho-Chi-Minh-Stadt."
       ],
       [
        "Dachterrasse",
@@ -1410,7 +1411,7 @@
      "faq": [
       [
        "Wie lautet die genaue Adresse?",
-       "389A Đường Trần Xuân Soạn, Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt. Die genaue Anfahrtsbeschreibung bekommt ihr nach der Buchung."
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Ho-Chi-Minh-Stadt. Die genaue Anfahrtsbeschreibung bekommt ihr nach der Buchung."
       ],
       [
        "Wie kommen wir vom Flughafen zum Haus?",
@@ -2427,12 +2428,12 @@
       [
        "Flur, Treppe & Arbeitsplatz",
        "room-hallway",
-       "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING."
+       "Eingang mit Schuhschrank und Gäste-Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren und Schreibtisch-Arbeitsplatz bei ASCON LIVING."
       ],
       [
        "Rund ums Haus: Terrassen & Fluss",
        "room-outside",
-       "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt."
+       "Rund um ASCON LIVING: Terrassen mit weißem Geländer und Pflanzen, der Fluss vor dem Haus und die Skyline von Distrikt 1 am anderen Ufer, Ho-Chi-Minh-Stadt."
       ],
       [
        "Dachterrasse",
@@ -4115,7 +4116,7 @@
   },
   "room-hallway": {
    "title": "Flur, Treppenhaus und Arbeitsplatz | ASCON LIVING",
-   "description": "Eingang mit Schuhschrank und Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren, Schreibtisch und kleiner Balkon bei ASCON LIVING.",
+   "description": "Eingang mit Schuhschrank und Gäste-Hausschuhen, Treppe mit schwarzem Geländer, Flur mit zwei Schlafzimmertüren und Schreibtisch-Arbeitsplatz bei ASCON LIVING.",
    "h1": "Flur, Treppenhaus und Arbeitsplatz: die Räume zwischen den Zimmern",
    "lead": "Vom Eingang mit schwarzem Schrank und Gäste-Hausschuhen führt eine Treppe in Steinoptik mit schwarzem Metallgeländer hinauf in einen hellen Flur. Von dort gehen zwei schwarze Schlafzimmertüren ab, und am Fenster steht ein Schreibtisch mit Bürostuhl zum Arbeiten.",
    "cover": [
@@ -4131,8 +4132,7 @@
       "Treppe mit Stufen in Steinoptik und schwarzem Metallgeländer",
       "Flur mit den Türen zu zwei Schlafzimmern",
       "Arbeitsplatz: schwarzer Schreibtisch und ergonomischer Netz-Bürostuhl am Fenster",
-      "Schminktisch mit rundem Spiegel",
-      "Kleiner Balkon mit Flechtsesseln, Bank und Tisch"
+      "Schminktisch mit rundem Spiegel"
      ]
     },
     {
@@ -4213,26 +4213,6 @@
      ]
     },
     {
-     "h2": "Ein kleiner Balkon",
-     "p": [
-      "Eine Tür vom Flur führt auf einen kleinen Balkon: zwei Flechtsessel und eine Flechtbank in Dunkelgrau, ein niedriger Tisch und ein Pflanzkübel voller grüner Blätter, draußen Bäume. Ein ruhiger Platz für den Morgenkaffee oder ein Telefonat an der frischen Luft."
-     ],
-     "imgs": [
-      [
-       "hall-balcony",
-       "Kleiner Balkon mit Flechtsesseln, Bank und Tisch"
-      ],
-      [
-       "hall-balcony-2",
-       "Sitzplätze auf dem Balkon von der Tür aus gesehen"
-      ],
-      [
-       "hall-balcony-3",
-       "Pflanzkübel mit grünen Blättern neben einem Flechtsessel"
-      ]
-     ]
-    },
-    {
      "h2": "Häufige Fragen",
      "faq": [
       [
@@ -4255,20 +4235,19 @@
   },
   "room-outside": {
    "title": "Rund ums Haus: Terrassen und Fluss | ASCON LIVING",
-   "description": "Rund um ASCON LIVING: Terrassen mit weißem Geländer, der Fluss hinter einem Baumstreifen und die Skyline von Distrikt 1 am anderen Ufer, in Ho-Chi-Minh-Stadt.",
+   "description": "Rund um ASCON LIVING: Terrassen mit weißem Geländer und Pflanzen, der Fluss vor dem Haus und die Skyline von Distrikt 1 am anderen Ufer, Ho-Chi-Minh-Stadt.",
    "h1": "Rund ums Haus: Terrassen, Fluss und Skyline",
-   "lead": "Tretet auf die Terrassen hinaus, und der Fluss liegt direkt vor euch, mit kleinen Booten und den Türmen von Distrikt 1 am anderen Ufer. Weißes Geländer, eine Überdachung als Schattenspender und offener Himmel machen den Außenbereich zum Teil eures Aufenthalts.",
+   "lead": "Tretet auf die Terrassen hinaus, und der Fluss liegt direkt vor euch, am anderen Ufer die Türme von Distrikt 1. Weißes Geländer, Pflanzen und offener Himmel machen den Außenbereich zum Teil eures Aufenthalts.",
    "cover": [
-    "out-river",
-    "Bäume am Ufer, dahinter die Skyline von Distrikt 1"
+    "river-city",
+    "Flussblick auf die Skyline von Distrikt 1"
    ],
    "sections": [
     {
      "h2": "Ausstattung",
      "ul": [
-      "Terrassen mit weißem Geländer",
-      "Überdachung als Schattenspender",
-      "Der Fluss hinter einem grünen Baumstreifen",
+      "Terrassen mit weißem Geländer und Pflanzen",
+      "Der Fluss vor dem Haus",
       "Skyline von Distrikt 1 am anderen Ufer",
       "Dachterrasse darüber (eigene Seite)"
      ]
@@ -4276,33 +4255,23 @@
     {
      "h2": "Die Terrassen",
      "p": [
-      "Das Haus hat Terrassen mit weißem Metallgeländer. Ein Teil ist von einer dunklen Markise mit gewelltem Rand überdacht, der Rest liegt unter freiem Himmel, und der Boden ist mit Holzlatten belegt. Von hier blickt ihr über die Bäume am Ufer auf das Wasser und die Stadt dahinter."
+      "Das Haus hat Terrassen mit weißem Metallgeländer und Pflanzen am Rand. Von hier blickt ihr über das Wasser auf die Stadt dahinter."
      ],
      "imgs": [
       [
-       "out-terrace",
-       "Überdachte Terrasse mit weißem Geländer, dahinter Bäume"
+       "river-balcony",
+       "Terrassengeländer mit Pflanzen, dahinter die Stadt"
       ],
       [
-       "out-terrace-2",
-       "Terrasse mit weißem Geländer und Blick über die Stadt"
-      ],
-      [
-       "out-terrace-3",
-       "Terrasse mit Markise, weißem Geländer und blauem Himmel"
+       "roof-terrace",
+       "Dachterrasse mit Blick auf die Skyline von Distrikt 1"
       ]
      ]
     },
     {
      "h2": "Der Fluss",
      "p": [
-      "Hinter einem grünen Streifen mit Bäumen und einem Uferweg fließt der Fluss am Haus vorbei. Tagsüber tuckern Holzboote vorbei, manche mit Waren beladen, und am anderen Ufer ragen die Hochhäuser von Distrikt 1 über die Baumkronen."
-     ],
-     "imgs": [
-      [
-       "out-boat",
-       "Vorbeifahrendes Holzboot"
-      ]
+      "Der Fluss fließt direkt am Haus vorbei, und am anderen Ufer ragen die Hochhäuser von Distrikt 1 über die Baumkronen."
      ]
     },
     {
