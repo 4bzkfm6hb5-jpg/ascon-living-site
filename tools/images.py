@@ -17,6 +17,7 @@ PICK={'roof-lounge':'Rooftop/020_746A9684','roof-day':'Rooftop/021_746A9696',
 'hall-desk':'Vorraum_Flur/056_IMG_f7f68425','hall-landing':'Vorraum_Flur/130_746A9605','hall-vanity':'Vorraum_Flur/048_746A9598','hall-window':'Vorraum_Flur/129_746A9602','hall-prints':'Vorraum_Flur/057_IMG_8aa67c29','hall-entry':'Vorraum_Flur/051_746A9514','hall-shoes':'Vorraum_Flur/052_746A9506','hall-stairs-2':'Vorraum_Flur/151_746A9675','hall-lamp':'Vorraum_Flur/053_746A9703',
 
 'kitchen-counter':'Kueche/111_746A9532','living-tvwall':'Wohnzimmer/005_746A9795','bed1-vanity':'Schlafzimmer_1/118_746A9554','bed1-charge':'Schlafzimmer_1/120_746A9562','bed1-wardrobe':'Schlafzimmer_1/121_746A9567','bed2-wardrobe':'Schlafzimmer_2/138_746A9643','bed3-wardrobe':'Schlafzimmer_3/143_746A9656','bath-dryer':'Bad/137_746A9642','ent-led':'Karaoke/067_IMG_ca58fea3',
+'workspace-2':'Vorraum_Flur/065_IMG_df507390',
 'hall':'Vorraum_Flur/047_746A9604','stairs':'Vorraum_Flur/049_746A9790','entrance':'Vorraum_Flur/050_746A9502'}
 BLUE={'hero':'064','roof-terrace':'064','river-balcony':'019','river-city':'080'}  # blue-water river shots from /workspace/ascon-photos (owner-approved exception)
 WIDTHS=[480,960,1440]

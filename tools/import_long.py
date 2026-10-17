@@ -14,6 +14,7 @@ def parse(text,faq_page=False):
         elif cur is not None: cur['flow'].append(['table',{'head':hdr if any(hdr) else None,'rows':rows}])
     for raw in text.split('\n'):
         s=raw.rstrip()
+        if s.startswith('[//]'): continue
         if s.startswith('|'): tbl.append(s); continue
         flush()
         m=re.match(r'\*\*(Title tag|Meta description|H1|Lead)[^*]*:\*\*\s*(.*)',s)
@@ -29,7 +30,7 @@ def parse(text,faq_page=False):
             h=s[4:].strip()
             if faq_page: q=[h,'']; cur['faq'].append(q); continue
             cur['flow'].append(['h3',h]); continue
-        if not s.strip() or s.startswith(('>','---','#','Target','Ziel')): continue
+        if not s.strip() or s.startswith(('>','---','#','Target','Ziel','[//]')): continue
         if mode=='faq':
             m=re.match(r'\*\*(.+?)\*\*\s*(.*)$',s)
             if m: q=[m.group(1).strip(),'']; faq.append(q); continue
