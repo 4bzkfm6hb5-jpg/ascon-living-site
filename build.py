@@ -18,7 +18,14 @@ CSS=open(f'{ROOT}/tools/style.css').read().replace('\n','')
 PUB=[l for l in LANGS if os.path.exists(f'{ROOT}/content/{l[0]}.json')]
 C={l[0]:json.load(open(f'{ROOT}/content/{l[0]}.json')) for l in PUB}
 import sys as _s; _s.path.insert(0,f'{ROOT}/tools'); import laundry as _laundry
-C={k:_laundry.apply(k,v) for k,v in C.items()}  # laundry service 30 EUR per load in every language
+C={k:_laundry.apply(k,v) for k,v in C.items()}
+# Language-switcher flags: self-hosted SVGs from flag-icons (MIT, tools/flags/LICENSE), copied to docs/assets/flags on every build.
+# Not emoji: Windows does not render emoji flags. pa is Gurmukhi (Indian Punjab) -> IN; ur -> PK.
+FLAG={'en':'gb','de':'de','vi':'vn','zh':'cn','zh-tw':'tw','ko':'kr','ja':'jp','th':'th','ms':'my','id':'id','ru':'ru','fr':'fr','es':'es','pt':'br','it':'it','hi':'in','ur':'pk','pa':'in','nl':'nl','pl':'pl','sv':'se','tr':'tr','ar':'sa'}
+def flag(code,lazy=True):
+    f=FLAG.get(code)
+    return f'<img class="flag" src="{BASE}/assets/flags/{f}.svg" width="20" height="15" alt=""'+(' loading="lazy"' if lazy else '')+' decoding="async">' if f else ''
+  # laundry service 30 EUR per load in every language
 def HAS(pid): return [x for x in PUB if pid in C[x[0]]['pages']]
 TODAY=datetime.date.today().isoformat()
 WA_SVG='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.7-.5z"/></svg>'
@@ -108,7 +115,7 @@ def page(l,pid):
     ldh=''.join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False).replace('</','<\\/')+'</script>' for x in ld)
     navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else 'house' if pid.startswith('room-') else '')
     nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(v)}</a>' for k,v in c['nav'])
-    picker='<details class="lang"><summary>🌐 '+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid] if pid in C[x[0]]["pages"] else ""}" hreflang="{x[1]}" lang="{x[1]}">{x[2]}</a></li>' for x in PUB)+'</ul></details>'
+    picker=('<details class="lang"><summary>🌐 '+flag(code,False)+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid] if pid in C[x[0]]["pages"] else ""}" hreflang="{x[1]}" lang="{x[1]}"'+(' aria-current="true"' if x[0]==code else '')+f'>{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
     lm=IMG['logo-mark']; lf=IMG['logo-full']
     if pid=='home':
         top=(f'<div class="hero">{pic(p["hero"][0],p["hero"][1],True,"100vw")}<div class="in"><h1>{html.escape(p["h1"])}</h1>'
@@ -129,6 +136,7 @@ def page(l,pid):
 <a class="fab" href="{F['wa']}" rel="noopener" aria-label="{u['whatsapp']}">{WA_SVG}</a></body></html>'''
 def main():
     for code,*_ in LANGS: shutil.rmtree(f'{OUT}/{code}',ignore_errors=True)
+    shutil.rmtree(f'{OUT}/assets/flags',ignore_errors=True); shutil.copytree(f'{ROOT}/tools/flags',f'{OUT}/assets/flags')
     errs=[f'{l[0]}/{pid}: title {len(C[l[0]]["pages"][pid]["title"])} chars, width {width(C[l[0]]["pages"][pid]["title"])} / desc {len(C[l[0]]["pages"][pid]["description"])} chars, width {width(C[l[0]]["pages"][pid]["description"])}' for l in PUB for pid,_ in PAGES if pid in C[l[0]]['pages'] and seo_bad(l[0],C[l[0]]['pages'][pid],C[l[0]].get('title_suffix',''))]
     if errs: raise SystemExit('SEO length errors:\n'+'\n'.join(errs))
     urls=[]
