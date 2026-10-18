@@ -23,7 +23,8 @@ REP={'ko':[("열쇠)와 ASCON 가이드 앱 비밀번호를 보내드립니다."
   ("ご予約いただくと、ガイドアプリのパスワードをお送りします。","ガイドアプリは無料ですぐにお使いいただけます。"),("ASCONガイドアプリ（ご予約後にパスワードをお送りします）","ASCONガイドアプリ（無料、パスワード不要）"),
   ("ゲスト専用のASCONガイドアプリ","無料のASCONガイドアプリ"),("ゲスト専用アプリ","無料アプリ"),("ガイドと専用アプリに","ガイドと無料アプリに"),
   ("到着と安全","到着とチェックイン"),("安心して過ごせる家","到着とチェックイン"),("家と設備の扱い、安全設備についてご案内します。","家と設備の扱いについてご案内します。"),("各階に火災警報器と救急箱があり、カメラは建物の外側のみに設置しています。","入口には屋外カメラがあります。")],
- 'zh':[("外大门钥匙）和 ASCON 指南 App 密码。","外大门钥匙）。ASCON 指南 App 免费，无需密码。"),
+ 'zh':[("想看最开阔的河景就上屋顶。","屋顶视野最开阔，想看远处就上屋顶。"),("能。房子在河边，可以看到河景和第一郡天际线。","能。房子位于河畔，可以远眺第一郡天际线。"),("能看河景的房子：远眺第一郡天际线的屋顶露台","河畔的房子：远眺第一郡天际线的屋顶露台"),
+  ("外大门钥匙）和 ASCON 指南 App 密码。","外大门钥匙）。ASCON 指南 App 免费，无需密码。"),
   ("ASCON LIVING 住客专属，预订后提供密码。","免费使用，无需密码。"),
   ("App 密码什么时候给？","App 需要密码吗？"),("预订后发送，仅限 ASCON LIVING 住客。","不需要。免费，在手机浏览器中直接打开。"),
   ("预订后即可获得指南 App 密码。","指南 App 免费，打开即可使用。"),("ASCON 指南 App（预订后提供密码）","ASCON 指南 App（免费，无需密码）"),
@@ -47,12 +48,15 @@ NOTE=re.compile(r'\s*[（(][^()（）]*(버튼|ボタン|按钮|유지|維持|�
 SPLIT={}
 FAQSECREN={}  # FAQ-page section renames (applied before DROP_SECS)  # per-language clause splitter (e.g. Thai: whitespace)
 SENT=re.compile(r'.+?(?:[!?。！？]+\s*|\.(?:\s+|$)|$)')
+EXACT={'zh':{'河景和第一郡天际线':'河畔屋顶视野，远眺第一郡天际线'}}
 def light(l,s):
+    if isinstance(s,str) and s.strip() in EXACT.get(l,{}): return EXACT[l][s.strip()]
     s=NOTE.sub('',PHOTO.sub('',s.replace('[live]','').replace('**','').strip()))
     for a,b in REP[l]: s=s.replace(a,b)
     return s
 def clean(l,s,w,pid=None,cam_ok=True):
     if not isinstance(s,str): return s
+    if s.strip() in EXACT.get(l,{}): return EXACT[l][s.strip()]
     o=s; s=s.replace('[live]','').replace('**','').strip()
     s=NOTE.sub('',s); s=PHOTO.sub('',s)
     for a,b in REP[l]: s=s.replace(a,b)
@@ -137,10 +141,11 @@ def resolve(raw,folder,pid,l):
         LOG.append((l,pid,'DROPPED IMAGE (no approved id / wrong folder): '+raw)); return None
     if iid in IMG and (folder is None or iid in BLUE or FOLDER.get(iid)==folder): return iid
     LOG.append((l,pid,'DROPPED IMAGE (unknown / not own folder): '+raw)); return None
+ALTREP={'zh':{'能看河景的房子：远眺第一郡天际线的屋顶露台':'河畔的房子：远眺第一郡天际线的屋顶露台'}}
 def images(l,imgs,folder,pid):
     out=[]
     for raw,alt in imgs:
-        i=resolve(raw,folder,pid,l)
+        i=resolve(raw,folder,pid,l); alt=ALTREP.get(l,{}).get(alt,alt)
         alt=light(l,alt) if alt else alt
         if i and alt and not (PAGE_DROP.get(pid) and PAGE_DROP[pid].search(alt)) and not DROP.search(alt): out.append([i,alt])
     return out
