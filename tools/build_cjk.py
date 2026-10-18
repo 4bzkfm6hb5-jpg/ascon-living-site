@@ -81,7 +81,7 @@ def cl_flow(l,flow,w,pid):
                 if CAMROW.match(r[0]): rows.append([r[0],CAMCELL[l]]); continue
                 cells=[r[0]]
                 for c in r[1:]:
-                    parts=re.split(r'(?<=[,，、])\s*',c); keep=[x for x in parts if not (DROP.search(x) or (pd and pd.search(x)) or CAM.search(x))]
+                    parts=re.findall(r'[^,，、]+(?:[,，、]\s*|$)',c) or [c]; keep=[x for x in parts if not (DROP.search(x) or (pd and pd.search(x)) or CAM.search(x))]
                     if len(keep)<len(parts): LOG.append((l,w,'DROPPED CELL ITEMS: '+' / '.join(x for x in parts if x not in keep)))
                     cells.append(''.join(keep).rstrip(',，、 '))
                 if not any(cells[1:]): LOG.append((l,w,'DROPPED ROW (empty): '+' | '.join(r))); continue
@@ -97,7 +97,7 @@ def cl_faq(l,faq,w,pid=None):
     for q,a in faq:
         q2=clean(l,q,w,pid,False)
         if DROPQ.search(q) or DROP.search(q) or (pd and pd.search(q)) or not q2: LOG.append((l,w,'DROPPED Q: '+q)); continue
-        a=clean(l,a,w,pid)
+        a=CAMN[l] if CAM.search(q) else clean(l,a,w,pid)
         if not a: LOG.append((l,w,'DROPPED Q (empty): '+q)); continue
         out.append([q2,a])
     return out
@@ -105,7 +105,7 @@ LOC={'ko':('자주 묻는 질문','이미지'),'ja':('よくあるご質問','�
 def load(l,f,pid=None,faq_page=False):
     t=open(f'{SRC}/{l}/{f}.md').read()
     fq,im=LOC[l]
-    t=re.sub(rf'^## {fq}\s*$','## FAQ',t,flags=re.M); t=re.sub(rf'^## {im}\s*$','## Images',t,flags=re.M)
+    t=re.sub(rf'^## {fq}\s*$','## FAQ',t,flags=re.M); t=re.sub(rf'^## {im}\b.*$','## Images',t,flags=re.M)
     m,S,I,F,C=parse(t,faq_page); w=f
     m={k:clean(l,v,w,pid) for k,v in m.items()}
     secs=[]
@@ -257,9 +257,8 @@ def build(l):
     P['location']={}; setmeta(P['location'],m)
     if im: secs[0]['imgs']=im
     P['location']['sections']=secs+[MAPSEC[l]]+tail(l,faq,cta)
-    m,secs,imgs,faq,cta=load(l,'travel-guide','guide'); im=images(l,imgs,None,'guide')
+    m,secs,imgs,faq,cta=load(l,'travel-guide','guide')  # MR image rows here are for the guide-app subpage (old place-card shots with minutes): not used
     P['guide']={}; setmeta(P['guide'],m)
-    if im: secs[0]['imgs']=im
     btn={'p':[f'<a class="btn b1" href="{{guide}}" rel="noopener">{APPBTN[l]}</a>'],'cards':[[TG[l]['card'][0],'travel-guide',TG[l]['card'][1]]]}
     P['guide']['sections']=secs[:1]+[btn]+secs[1:]+tail(l,faq,cta)
     m,secs,imgs,faq,cta=load(l,'faq','faq',True)
