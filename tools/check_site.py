@@ -45,4 +45,9 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     if t and L(html.unescape(t.group(1)))>tl: errs.append((f,'title',L(html.unescape(t.group(1)))))
     if d and L(html.unescape(d.group(1)))>dl: errs.append((f,'desc',L(html.unescape(d.group(1)))))
     if '**' in txt or '[//]' in txt: errs.append((f,'markdown',''))
+# laundry service 30 EUR per load must be stated in every published language
+for d in sorted(glob.glob(f'{D}/*/index.html')):
+    ld=os.path.dirname(d)
+    if 'noindex' in open(d).read(): continue
+    if not any('30 EUR' in open(f).read() for f in glob.glob(f'{ld}/**/*.html',recursive=True)): errs.append((ld,'laundry','no 30 EUR'))
 print(n,'pages'); [print(e) for e in errs[:60]]; print(len(errs),'issues')
