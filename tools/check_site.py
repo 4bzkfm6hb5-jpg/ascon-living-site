@@ -1,6 +1,8 @@
 """Static checks on docs/: forbidden wording, broken internal links/images, JSON-LD parse, SEO lengths, markdown leaks."""
 import re,os,glob,json,html,sys
-D=sys.argv[1] if len(sys.argv)>1 else 'docs'; B='/ascon-living-site'
+D=sys.argv[1] if len(sys.argv)>1 else 'docs'
+_F=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','facts.json')))
+B=_F.get('base_path','').rstrip('/'); SITE=_F['site_url'].rstrip('/')
 bad=re.compile(r'(?i)\bvilla\b|\bpool\b|PS5|Hisense|Optoma|\bFPT\b|\bLG\b|Landmark 81|Agoda|Vrbo|halal|smart lock|smoke detector|Rauchmelder|first.aid|Erste.Hilfe|parking|Parkpl|three balcon|drei Balkon|password.protected|passwortgesch|exclusive for ASCON|Exklusiv für ASCON|luggage storage|Gepäckaufbewahrung|50 EUR|50 €|€50|card lock|Kartenschloss|fire.extinguisher|Feuerlöscher')
 # KO/JA/ZH (+TH/MS/ID) equivalents: villa, parking, pool, safety devices, lyrics, minutes, Landmark 81, Phu My Hung, card/smart lock, pets, luggage, app password, EUR
 bad2=re.compile(r'빌라|ヴィラ|別墅|别墅|주차|駐車|パーキング|停车|泊车|수영장|プール|泳池|游泳池|화재경보기|구급상자|소화기|비상구|비상등|火災警報器|救急箱|消火器|非常口|非常灯|烟雾报警器|急救箱|灭火器|安全出口|应急灯|가사|歌詞|歌词|'
@@ -32,7 +34,7 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     for m in re.finditer(r'alt="([^"]*)"',s):
         if bad2.search(m.group(1)) or bad.search(m.group(1)): errs.append((f,'alt',m.group(1)))
     if 'hreflang="x-default"' not in s and 'noindex' not in s: errs.append((f,'hreflang','no x-default'))
-    for m in re.finditer(r'(?:href|src)="(/ascon-living-site/[^"#?]*)',s):
+    for m in re.finditer(r'(?:href|src)="('+re.escape(B)+r'/(?!/)[^"#?]*)',s):
         p=m.group(1)[len(B):]; fp=D+p+('index.html' if p.endswith('/') else '')
         if not os.path.exists(fp): errs.append((f,'link',p))
     for m in re.finditer(r'srcset="([^"]+)"',s):
@@ -50,4 +52,22 @@ for d in sorted(glob.glob(f'{D}/*/index.html')):
     ld=os.path.dirname(d)
     if 'noindex' in open(d).read(): continue
     if not any('30 EUR' in open(f).read() for f in glob.glob(f'{ld}/**/*.html',recursive=True)): errs.append((ld,'laundry','no 30 EUR'))
+# base URL / custom domain: canonicals on SITE, no leftovers of the old github.io project path
+OLD=('4bzkfm6hb5-jpg.github.io/ascon-living-site','/ascon-living-site/')
+for f in glob.glob(f'{D}/**/*',recursive=True):
+    if not os.path.isfile(f) or not f.endswith(('.html','.xml','.txt','.css','.js','.json','.webmanifest')): continue
+    s=open(f,errors='ignore').read()
+    for o in OLD:
+        if (B=='' or o!='/'+B.strip('/')+'/') and o in s: errs.append((f,'old-base',o))
+    if f.endswith('.html'):
+        for m in re.finditer(r'<link rel="(?:canonical|alternate)"[^>]*href="([^"]+)"',s):
+            if not m.group(1).startswith(SITE+'/'): errs.append((f,'abs-url',m.group(1)))
+from urllib.parse import urlparse
+dom=urlparse(SITE).netloc
+if not dom.endswith('.github.io'):
+    cn=open(f'{D}/CNAME').read().strip() if os.path.exists(f'{D}/CNAME') else None
+    if cn!=dom: errs.append((f'{D}/CNAME','cname',str(cn)))
+if f'Sitemap: {SITE}/sitemap.xml' not in open(f'{D}/robots.txt').read(): errs.append((f'{D}/robots.txt','sitemap','wrong base'))
+for u in re.findall(r'<loc>([^<]+)</loc>',open(f'{D}/sitemap.xml').read()):
+    if not u.startswith(SITE+'/'): errs.append(('sitemap.xml','loc',u)); break
 print(n,'pages'); [print(e) for e in errs[:60]]; print(len(errs),'issues')
