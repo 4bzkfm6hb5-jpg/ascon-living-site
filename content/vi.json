@@ -1,13 +1,10 @@
 {
- "lang": "vi",
- "title_suffix": "",
  "ui": {
   "skip": "Chuyển đến nội dung",
   "languages": "Ngôn ngữ",
   "book_airbnb": "Đặt trên Airbnb",
   "book_trip": "Đặt trên Trip.com",
   "whatsapp": "Đặt qua WhatsApp",
-  "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON.",
   "address_label": "Địa chỉ",
   "contact_label": "Liên hệ",
   "more_label": "Thêm",
@@ -18,7 +15,8 @@
   "home": "Trang chủ",
   "not_found_title": "Không tìm thấy trang",
   "not_found_text": "Trang này không tồn tại. Về trang chủ:",
-  "zalo": "Đặt qua Zalo"
+  "zalo": "Đặt qua Zalo",
+  "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON."
  },
  "nav": [
   [
@@ -35,7 +33,11 @@
   ],
   [
    "families",
-   "Gia đình & nhóm"
+   "Gia đình"
+  ],
+  [
+   "groups",
+   "Nhóm"
   ],
   [
    "location",
@@ -63,143 +65,359 @@
   ]
  ],
  "pages": {
-  "home": {
-   "title": "Nhà nguyên căn Quận 7 Sài Gòn theo ngày | ASCON LIVING",
-   "description": "Homestay quận 7 nguyên căn ven sông tại Tân Hưng, gần Phú Mỹ Hưng: 3 phòng ngủ giường đôi, sân thượng, BBQ và karaoke.",
-   "h1": "Nhà nguyên căn Quận 7, Sài Gòn cho thuê theo ngày – cho gia đình và nhóm bạn",
-   "lead": "ASCON LIVING là ngôi nhà riêng ven sông tại Tân Hưng, gần Phú Mỹ Hưng (Quận 7 cũ), có 3 phòng ngủ giường đôi và sân thượng nhìn ra sông và thành phố.",
-   "hero": [
-    "hero",
-    "Sân thượng view sông và đường chân trời TP. Hồ Chí Minh"
+  "room-entertainment": {
+   "title": "Homestay có karaoke riêng tại Sài Gòn | ASCON LIVING",
+   "description": "Phòng karaoke riêng trong nhà nguyên căn Quận 7: micro, PlayStation với PlayStation Plus và 2 tay cầm, máy chiếu 4K có màn chiếu chân đứng và TV 4K.",
+   "h1": "Phòng karaoke và giải trí riêng cho nhóm bạn",
+   "lead": "Ở ASCON LIVING, bạn không cần ra quán karaoke. Phòng giải trí nằm ngay trong nhà, chỉ nhóm bạn sử dụng.",
+   "cover": [
+    "ent",
+    "Phòng giải trí với sofa xám, ghế đôn vuông và tranh anime đóng khung, nhà nguyên căn có karaoke tại Sài Gòn"
    ],
    "sections": [
     {
-     "h2": "Nhà nguyên căn Quận 7, không gian riêng cho cả nhóm",
-     "p": [
-      "Bạn thuê cả ngôi nhà: ba phòng ngủ giường đôi, phòng tắm, phòng khách, bếp đầy đủ, phòng giải trí và sân thượng nhìn ra sông. Không có lễ tân, không dùng chung không gian với ai."
+     "h2": "Trang bị phòng giải trí",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Micro karaoke"
+         ],
+         [
+          "Máy chơi game",
+          "PlayStation với PlayStation Plus"
+         ],
+         [
+          "Tay cầm",
+          "2 tay cầm"
+         ],
+         [
+          "Máy chiếu",
+          "Máy chiếu 4K gắn trần, màn chiếu chân đứng"
+         ],
+         [
+          "TV",
+          "TV 4K"
+         ],
+         [
+          "Xem phim",
+          "Netflix, tùy tài khoản đang hoạt động"
+         ],
+         [
+          "Chỗ ngồi",
+          "Sofa xám và ghế đôn vuông"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
-       "living",
-       "Phòng khách với sofa lớn và cửa sổ nhìn ra vườn"
+       "ent-karaoke",
+       "Phòng karaoke trong ánh đèn LED xanh lá với sofa, bàn trà và TV treo tường"
       ],
       [
-       "bed1",
-       "Phòng ngủ 1 với giường đôi"
+       "ent-cinema",
+       "Màn chiếu 4K chân đứng trong phòng giải trí đã tắt đèn"
       ],
       [
-       "roof-night",
-       "Sân thượng buổi tối với dây đèn"
+       "ent-tv",
+       "TV lớn treo tường, dải đèn LED màu và sofa xám"
+      ],
+      [
+       "ent-mics",
+       "Micro karaoke và điều khiển trên bàn trà vân đá"
+      ],
+      [
+       "ent-ps",
+       "PlayStation gắn tường với hai tay cầm"
       ]
      ]
     },
     {
-     "h2": "Điểm nổi bật",
-     "ul": [
-      "Thuê nguyên căn với 3 phòng ngủ, không dùng chung với ai",
-      "3 phòng ngủ giường đôi, 3 ban công",
-      "Sân thượng view sông và thành phố, có BBQ",
-      "Phòng giải trí có karaoke, máy chiếu và PlayStation",
-      "Bếp có máy rửa chén, lò nướng và máy pha cà phê",
-      "Tự nhận phòng bằng mã số, nhận phòng 14:00–23:00",
-      "Chủ nhà nói tiếng Việt, Anh, Đức, Hindi, Punjabi và Urdu"
-     ]
-    },
-    {
-     "h2": "Khám phá",
-     "cards": [
+     "h2": "Hát thả ga",
+     "flow": [
       [
-       "Ngôi nhà",
-       "house",
-       "Phòng ngủ, phòng tắm, phòng khách, bếp và phòng giải trí."
-      ],
-      [
-       "Sân thượng",
-       "rooftop",
-       "View sông và thành phố."
-      ],
-      [
-       "Vị trí",
-       "location",
-       "Tân Hưng, gần Phú Mỹ Hưng."
-      ],
-      [
-       "Đặt phòng & liên hệ",
-       "booking",
-       "Airbnb, Trip.com hoặc WhatsApp."
+       "p",
+       "Chọn bài, micro chuyền tay. Không tính giờ, không có phòng bên cạnh, chỉ có bạn và nhóm của mình."
       ]
      ]
     },
     {
-     "h2": "Ứng dụng cẩm nang miễn phí",
+     "h2": "Đấu PlayStation",
+     "flow": [
+      [
+       "p",
+       "PlayStation gắn tường với PlayStation Plus và hai tay cầm, sẵn sàng cho những trận đấu anh em hay đồng nghiệp."
+      ]
+     ]
+    },
+    {
+     "h2": "Rạp phim tại gia",
+     "flow": [
+      [
+       "p",
+       "Tắt đèn, dựng màn chiếu chân đứng và xem phim bằng máy chiếu 4K. Netflix dùng được tùy tài khoản đang hoạt động. Muốn xem màn hình thường thì đã có TV 4K."
+      ]
+     ]
+    },
+    {
+     "h2": "Không gian riêng",
+     "flow": [
+      [
+       "p",
+       "Sofa xám êm ái, ghế đôn vuông, tranh anime đóng khung và những dải đèn LED nhiều màu tạo nên không khí khác hẳn phần còn lại của căn nhà."
+      ],
+      [
+       "h3",
+       "Cứu tinh ngày mưa"
+      ],
+      [
+       "p",
+       "Khi cơn mưa chiều Sài Gòn ập đến, đây là nơi vui nhất cho cả trẻ con lẫn người lớn."
+      ]
+     ]
+    },
+    {
+     "h2": "Nhớ đến hàng xóm",
+     "flow": [
+      [
+       "p",
+       "Nhà ở khu dân cư, khuya rồi thì vặn nhỏ âm lượng một chút nhé."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Có karaoke không?",
+       "Có, kèm micro karaoke."
+      ],
+      [
+       "Có PlayStation không?",
+       "Có, kèm PlayStation Plus và hai tay cầm."
+      ],
+      [
+       "Có xem Netflix được không?",
+       "Được, tùy tài khoản đang hoạt động."
+      ]
+     ]
+    },
+    {
      "p": [
-      "Lên kế hoạch cho chuyến đi với ứng dụng cẩm nang du lịch miễn phí của ASCON: mẹo địa phương, quán ăn, điểm tham quan và bản đồ, ngay trên trình duyệt điện thoại."
+      "Đặt nhà có phòng karaoke riêng: WhatsApp hoặc Zalo +84 909 410 382."
      ],
-     "cards": [
-      [
-       "Ứng dụng cẩm nang miễn phí",
-       "travel-guide",
-       "Mẹo địa phương, địa điểm và bản đồ TP. Hồ Chí Minh, miễn phí trên trình duyệt."
-      ]
-     ],
-     "_tg": 1
-    },
-    {
      "cta": true
     }
    ]
   },
-  "house": {
-   "title": "Ngôi nhà: 3 phòng ngủ | ASCON LIVING",
-   "description": "Nhà nguyên căn Quận 7, homestay view sông có karaoke: 3 phòng ngủ giường đôi, bếp đầy đủ và phòng giải trí.",
-   "h1": "Ngôi nhà: 3 phòng ngủ có phòng tắm riêng và sân thượng",
-   "lead": "Cả ngôi nhà chỉ dành riêng cho nhóm của bạn.",
+  "room-living": {
+   "title": "Phòng khách 40 m², TV 4K 75 inch | ASCON LIVING",
+   "description": "Phòng khách khoảng 40 m² trong nhà nguyên căn Quận 7: sofa chữ L, TV 4K 75 inch, cửa kính, cây xanh và WiFi mesh tới 1 Gbit/s. Nơi cả nhà tụ họp.",
+   "h1": "Phòng khách: trái tim của căn nhà",
+   "lead": "Buổi sáng bắt đầu bằng ly cà phê trên sofa, buổi tối khép lại bằng một bộ phim trên màn hình lớn. Phòng khách khoảng 40 m² là nơi mọi người tìm đến nhau.",
+   "cover": [
+    "living",
+    "Phòng khách với sofa chữ L trong nhà nguyên căn cho thuê, Sài Gòn"
+   ],
    "sections": [
     {
-     "h2": "Phòng khách",
-     "p": [
-      "Bắt đầu hay kết thúc ngày mới trong phòng khách sáng sủa với sofa chữ L lớn, TV và cửa sổ rộng nhìn ra cây xanh – đủ chỗ ngồi cho cả nhóm."
+     "h2": "Thông số",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Diện tích",
+          "Khoảng 40 m²"
+         ],
+         [
+          "TV",
+          "4K, 75 inch"
+         ],
+         [
+          "Sofa",
+          "Chữ L"
+         ],
+         [
+          "Ánh sáng",
+          "Cửa kính, cây xanh"
+         ],
+         [
+          "WiFi",
+          "Mesh tới 1 Gbit/s"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
-       "living",
-       "Phòng khách với sofa chữ L lớn"
-      ],
-      [
        "living-2",
-       "Phòng khách với sofa và cây xanh"
+       "Phòng khách sáng sủa với sofa và cây xanh"
       ],
       [
        "living-tv",
-       "Kệ TV trong phòng khách"
+       "TV 4K 75 inch ở phòng khách cho buổi tối xem phim"
       ],
       [
        "living-3",
-       "Góc ngồi cạnh cửa kính"
+       "Góc ngồi cạnh cửa kính trong phòng khách"
       ]
      ]
     },
     {
-     "h2": "Bếp & khu ăn uống",
+     "h2": "Rạp phim mini tại gia",
+     "flow": [
+      [
+       "p",
+       "TV 4K 75 inch biến phòng khách thành rạp phim nhỏ. Xem phim cùng gia đình, xem bóng đá với bạn bè hay hoạt hình buổi sáng cho các bé."
+      ],
+      [
+       "h3",
+       "Tối xem phim"
+      ],
+      [
+       "p",
+       "Tắt bớt đèn, mang bỏng ngô ra, cả nhóm ngồi kín sofa."
+      ]
+     ]
+    },
+    {
+     "h2": "Sofa cho tất cả",
+     "flow": [
+      [
+       "p",
+       "Sofa chữ L giúp mọi người ngồi quây quần, nhìn thấy nhau. Đây là chỗ lý tưởng để bàn kế hoạch ngày mai hay khoe ảnh hôm nay."
+      ]
+     ]
+    },
+    {
+     "h2": "Sáng sủa và tươi mát",
+     "flow": [
+      [
+       "p",
+       "Cửa kính đón ánh sáng tự nhiên vào phòng, cây xanh mang lại cảm giác nhiệt đới dễ chịu."
+      ]
+     ]
+    },
+    {
+     "h2": "Làm việc từ sofa",
+     "flow": [
+      [
+       "p",
+       "WiFi mesh tới 1 Gbit/s phủ cả phòng khách nên mở laptop ở đây cũng được. Cần yên tĩnh hơn thì đã có bàn làm việc ở hành lang."
+      ]
+     ]
+    },
+    {
+     "h2": "Gần bếp, gần sân thượng",
+     "flow": [
+      [
+       "p",
+       "Bếp và bàn ăn ở ngay gần, người nấu vẫn trò chuyện được với cả nhà. Đến giờ nướng BBQ, chỉ cần lên cầu thang là tới sân thượng."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Phòng khách rộng bao nhiêu?",
+       "Khoảng 40 m²."
+      ],
+      [
+       "TV bao nhiêu inch?",
+       "75 inch, độ phân giải 4K."
+      ],
+      [
+       "Phòng khách có WiFi không?",
+       "Có, mesh tới 1 Gbit/s."
+      ]
+     ]
+    },
+    {
      "p": [
-      "Cùng nhau nấu nướng trong căn bếp đầy đủ: tủ lạnh, máy rửa chén, lò nướng, bếp nấu, lò vi sóng, máy pha cà phê, ấm đun nước và nồi cơm điện, rồi quây quần bên một bàn ăn."
+      "Muốn xem thêm về căn nhà? WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-kitchen": {
+   "title": "Bếp đầy đủ và phòng ăn | ASCON LIVING Quận 7",
+   "description": "Bếp đầy đủ trong nhà nguyên căn Quận 7: bếp mặt kính đen, lò nướng, lò vi sóng, nồi cơm điện, nồi chiên không dầu, tủ lạnh khoảng 540 lít và máy giặt.",
+   "h1": "Bếp và phòng ăn: nấu bữa cơm như ở nhà",
+   "lead": "Ẩm thực đường phố Sài Gòn ngon thật, nhưng đôi khi ai cũng thèm một bữa cơm nhà. Bếp của ASCON LIVING giúp bạn nấu từ bữa sáng đơn giản đến bữa tối linh đình.",
+   "cover": [
+    "kitchen",
+    "Bếp đầy đủ với bàn ăn trong homestay Sài Gòn"
+   ],
+   "sections": [
+    {
+     "h2": "Trang bị bếp",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Nấu nướng",
+          "Bếp mặt kính đen, lò nướng"
+         ],
+         [
+          "Đồ dùng nhỏ",
+          "Lò vi sóng, nồi cơm điện, ấm đun nước, nồi chiên không dầu, máy nướng bánh mì"
+         ],
+         [
+          "Tủ lạnh",
+          "Khoảng 540 lít"
+         ],
+         [
+          "Chén bát",
+          "Đĩa, bát trong tủ"
+         ],
+         [
+          "Giặt giũ",
+          "Máy giặt, khách được sử dụng"
+         ],
+         [
+          "Ăn uống",
+          "Bàn ăn cạnh cửa sổ"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
-      [
-       "kitchen",
-       "Bếp mở với bàn ăn"
-      ],
       [
        "kitchen-2",
        "Quầy bếp với gạch hoa văn"
       ],
       [
        "kitchen-3",
-       "Thiết bị bếp trên mặt quầy"
+       "Quầy bếp với đồ dùng để nấu ăn tại nhà"
       ],
       [
        "kitchen-dishes",
-       "Tủ bếp với chén đĩa"
+       "Tủ bếp đầy đĩa và bát"
       ],
       [
        "kitchen-rice",
@@ -211,216 +429,1224 @@
       ],
       [
        "kitchen-fridge",
-       "Tủ lạnh hai cánh trong bếp"
+       "Tủ lạnh lớn đủ chỗ cho đồ chợ của cả nhóm"
       ],
       [
        "kitchen-dining",
-       "Bàn ăn cạnh cửa sổ bếp"
+       "Bàn ăn cạnh cửa sổ bếp cho bữa cơm chung"
       ]
      ]
     },
     {
-     "h2": "Phòng ngủ 1",
+     "h2": "Từ chợ về bếp",
+     "flow": [
+      [
+       "p",
+       "Sáng ghé chợ gần nhà mua rau thơm, xoài, cá tươi, về nhà nấu theo khẩu vị của mình. Nồi cơm điện lo cơm nóng mỗi ngày, nồi chiên không dầu tiện cho món nhanh."
+      ]
+     ]
+    },
+    {
+     "h2": "Tủ lạnh lớn cho cả nhóm",
+     "flow": [
+      [
+       "p",
+       "Tủ lạnh khoảng 540 lít đủ chỗ cho đồ chợ của cả nhóm, nước uống mát mang lên sân thượng và thịt ướp sẵn cho buổi nướng tối nay."
+      ]
+     ]
+    },
+    {
+     "h2": "Bữa sáng theo ý thích",
+     "flow": [
+      [
+       "p",
+       "Bánh mì nướng, trứng, cà phê hay cháo cho bé đều chuẩn bị được với máy nướng bánh mì, ấm đun nước và lò vi sóng."
+      ]
+     ]
+    },
+    {
+     "h2": "Bàn ăn bên cửa sổ",
+     "flow": [
+      [
+       "p",
+       "Bàn ăn cạnh cửa sổ bếp là nơi ăn sáng thong thả trước khi đi chơi, ăn tối cùng nhau và chơi bài khuya bên ly nước mát."
+      ],
+      [
+       "h3",
+       "Giặt đồ tại nhà"
+      ],
+      [
+       "p",
+       "Khách được dùng máy giặt, rất tiện cho chuyến đi dài hoặc khi quần áo của bé bị bẩn. Cũng có dịch vụ giặt ủi theo yêu cầu (30 EUR mỗi mẻ)."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Có nồi cơm điện không?",
+       "Có."
+      ],
+      [
+       "Có dùng máy giặt được không?",
+       "Được, khách được sử dụng."
+      ],
+      [
+       "Tủ lạnh lớn cỡ nào?",
+       "Khoảng 540 lít."
+      ]
+     ]
+    },
+    {
      "p": [
-      "Không gian yên tĩnh với giường đôi, máy lạnh và góc trang điểm riêng."
+      "Lên kế hoạch tự nấu cho chuyến đi: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-master": {
+   "title": "Phòng ngủ chính 55 m² có ban công | ASCON LIVING",
+   "description": "Phòng ngủ chính khoảng 55 m²: giường 180×200 cm, TV 4K 55 inch, ban công riêng, bàn trang điểm có sạc không dây, bàn ủi và phòng tắm khép kín.",
+   "h1": "Phòng ngủ chính: khoảng 55 m² yên bình",
+   "lead": "Phòng này rộng hơn nhiều căn hộ trong thành phố. Hợp với bố mẹ cần góc riêng, cặp đôi kỷ niệm dịp đặc biệt, hay người tổ chức chuyến đi xứng đáng có phòng đẹp nhất.",
+   "cover": [
+    "bed1",
+    "Phòng ngủ chính với giường 180×200 cm, đầu giường màu kem và cửa sổ lớn, Sài Gòn"
+   ],
+   "sections": [
+    {
+     "h2": "Chi tiết phòng",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Diện tích",
+          "Khoảng 55 m²"
+         ],
+         [
+          "Giường",
+          "180×200 cm"
+         ],
+         [
+          "TV",
+          "4K, 55 inch"
+         ],
+         [
+          "Ngoài trời",
+          "Ban công riêng"
+         ],
+         [
+          "Bàn trang điểm",
+          "Gương tròn có đèn, đế sạc không dây"
+         ],
+         [
+          "Khác",
+          "Bàn ủi, phòng tắm khép kín"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
-       "bed1",
-       "Phòng ngủ 1 với giường đôi"
-      ],
-      [
        "bed1-3",
-       "Phòng ngủ 1, nhìn về phía cửa sổ"
+       "Phòng ngủ chính khoảng 55 m² với TV treo tường, quạt đứng và cây xanh cạnh cửa sổ"
       ],
       [
        "bed1-2",
-       "Bàn trang điểm trong phòng ngủ 1"
+       "Bàn trang điểm gương tròn có đèn và vách ốp sọc đen dẫn vào phòng tắm khép kín"
       ]
      ]
     },
     {
-     "h2": "Phòng ngủ 2",
+     "h2": "Ngủ ngon",
+     "flow": [
+      [
+       "p",
+       "Giường 180×200 cm rộng rãi cho hai người. Đầu giường màu kem và cửa sổ lớn có rèm tạo cảm giác thư thái sau một ngày len lỏi giữa phố xá Sài Gòn."
+      ]
+     ]
+    },
+    {
+     "h2": "Cà phê sáng ngoài ban công",
+     "flow": [
+      [
+       "p",
+       "Dậy sớm hơn mọi người, pha ly cà phê phin rồi ra ban công. Khoảnh khắc yên tĩnh trước khi cả nhà thức giấc."
+      ]
+     ]
+    },
+    {
+     "h2": "Xem phim trên giường",
+     "flow": [
+      [
+       "p",
+       "TV 4K 55 inch treo tường giúp bạn kết thúc ngày bằng một bộ phim mà không cần xuống phòng khách."
+      ]
+     ]
+    },
+    {
+     "h2": "Bàn trang điểm tiện lợi",
+     "flow": [
+      [
+       "p",
+       "Bàn trang điểm với gương tròn có đèn giúp chuẩn bị trước bữa tối thật nhanh. Đặt điện thoại lên đế sạc không dây, pin sẽ đầy trong lúc bạn sửa soạn. Có sẵn bàn ủi."
+      ],
+      [
+       "h3",
+       "Phòng tắm riêng"
+      ],
+      [
+       "p",
+       "Phòng tắm khép kín có nước nóng, dầu gội, sữa tắm, kem đánh răng và khăn tắm."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Giường cỡ nào?",
+       "180×200 cm."
+      ],
+      [
+       "Có ban công không?",
+       "Có, ban công riêng."
+      ],
+      [
+       "Có TV không?",
+       "Có, TV 4K 55 inch."
+      ]
+     ]
+    },
+    {
      "p": [
-      "Giường king, máy lạnh và TV – thoải mái cho buổi tối riêng tư."
+      "Giữ phòng ngủ chính cho chuyến đi của bạn: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-2": {
+   "title": "Phòng ngủ 2, giường 160×200 cm | ASCON LIVING",
+   "description": "Phòng ngủ 2 trong nhà nguyên căn Quận 7: giường 160×200 cm, smart TV, rèm xám đậm và phòng tắm khép kín có nước nóng. Cửa mở ra hành lang.",
+   "h1": "Phòng ngủ 2: góc nghỉ ấm cúng cho hai người",
+   "lead": "Cửa phòng ngủ 2 mở ra hành lang, ngay cạnh phòng ngủ 3. Lựa chọn thoải mái cho cặp đôi, hai anh chị em hay hai người bạn ở chung.",
+   "cover": [
+    "bed2",
+    "Phòng ngủ 2 với giường 160×200 cm, đầu giường màu kem và tranh phong cảnh xanh"
+   ],
+   "sections": [
+    {
+     "h2": "Chi tiết phòng",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Giường",
+          "160×200 cm"
+         ],
+         [
+          "TV",
+          "Smart TV treo tường"
+         ],
+         [
+          "Cửa sổ",
+          "Rèm xám đậm"
+         ],
+         [
+          "Phòng tắm",
+          "Khép kín"
+         ],
+         [
+          "Lối vào",
+          "Cửa từ hành lang"
+         ],
+         [
+          "Trang trí",
+          "Vách cửa họa tiết lá, tranh phong cảnh xanh"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
-       "bed2",
-       "Phòng ngủ 2 với giường đôi"
-      ],
-      [
        "bed2-2",
-       "Phòng ngủ 2 có TV"
+       "Phòng ngủ 2 với rèm xám đậm, smart TV và quạt đứng"
       ],
       [
        "bed2-3",
-       "Phòng ngủ 2 với tranh treo tường"
+       "Vách cửa họa tiết lá nhiều màu, smart TV treo tường và cây xanh trong phòng ngủ 2"
       ]
      ]
     },
     {
-     "h2": "Phòng ngủ 3",
+     "h2": "Giường cho hai người",
+     "flow": [
+      [
+       "p",
+       "Giường 160×200 cm với đầu giường màu kem đủ rộng cho hai người lớn. Bức tranh phong cảnh xanh phía trên giường mang lại chút thiên nhiên cho căn phòng."
+      ]
+     ]
+    },
+    {
+     "h2": "Thư giãn với smart TV",
+     "flow": [
+      [
+       "p",
+       "Xem chương trình yêu thích trước khi ngủ trên smart TV treo tường. Rèm xám đậm giúp phòng mát và dịu vào buổi sáng."
+      ]
+     ]
+    },
+    {
+     "h2": "Phòng tắm riêng",
+     "flow": [
+      [
+       "p",
+       "Không phải xếp hàng ngoài hành lang. Phòng tắm khép kín có nước nóng, dầu gội, sữa tắm, kem đánh răng và khăn tắm."
+      ]
+     ]
+    },
+    {
+     "h2": "Vị trí trong nhà",
+     "flow": [
+      [
+       "p",
+       "Phòng chung hành lang với phòng ngủ 3 và gần bàn làm việc, tiện cho gia đình muốn các con ngủ gần nhau."
+      ],
+      [
+       "h3",
+       "Hợp với ai"
+      ],
+      [
+       "p",
+       "Cặp đôi trẻ, hai anh chị em tuổi teen hoặc hai đồng nghiệp đi công tác."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Giường cỡ nào?",
+       "160×200 cm."
+      ],
+      [
+       "Có TV không?",
+       "Có, smart TV."
+      ],
+      [
+       "Có phòng tắm riêng không?",
+       "Có, phòng tắm khép kín."
+      ]
+     ]
+    },
+    {
      "p": [
-      "Giường king, máy lạnh và TV, có sẵn khăn tắm và chăn ga sạch."
+      "Hỏi cách chia phòng cho nhóm của bạn: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-3": {
+   "title": "Phòng ngủ 3 không cửa sổ, tối và yên | ASCON LIVING",
+   "description": "Phòng ngủ 3 không có cửa sổ, tối và yên tĩnh: giường 160×200 cm, smart TV, tủ có khăn, ga và gối dự phòng, phòng tắm khép kín. Hợp cho bé ngủ trưa.",
+   "h1": "Phòng ngủ 3: tối hoàn toàn, ngủ thật sâu",
+   "lead": "Phòng ngủ 3 không có cửa sổ. Chính vì vậy, phòng luôn tối và yên tĩnh ngay cả khi nắng Sài Gòn đang gay gắt.",
+   "cover": [
+    "bed3",
+    "Phòng ngủ 3 không cửa sổ với giường 160×200 cm, đầu giường màu kem và vách ốp sọc"
+   ],
+   "sections": [
+    {
+     "h2": "Chi tiết phòng",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Giường",
+          "160×200 cm"
+         ],
+         [
+          "TV",
+          "Smart TV treo tường"
+         ],
+         [
+          "Cửa sổ",
+          "Không có"
+         ],
+         [
+          "Tủ",
+          "Cửa kính, khăn, ga và gối dự phòng"
+         ],
+         [
+          "Phòng tắm",
+          "Khép kín"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
-       "bed3",
-       "Phòng ngủ 3 với giường đôi"
-      ],
-      [
        "bed3-2",
-       "Phòng ngủ 3 có TV"
+       "Phòng ngủ 3 với smart TV treo tường, quạt đứng và tủ cửa kính"
       ],
       [
        "bed3-3",
-       "Khăn tắm và chăn ga trong phòng ngủ 3"
+       "Tủ mở trong phòng ngủ 3 với khăn tắm, ga giường và gối dự phòng"
       ]
      ]
     },
     {
-     "h2": "Phòng tắm",
+     "h2": "Tối suốt cả ngày",
+     "flow": [
+      [
+       "p",
+       "Không có cửa sổ, ánh sáng bên ngoài không lọt vào. Bé ngủ trưa dễ hơn, người bị lệch múi giờ hay thích ngủ nướng cũng hài lòng."
+      ]
+     ]
+    },
+    {
+     "h2": "Gọn gàng, hiện đại",
+     "flow": [
+      [
+       "p",
+       "Giường 160×200 cm với đầu giường màu kem và vách ốp sọc tạo vẻ hiện đại. Smart TV treo tường sẵn sàng cho vài tập phim trước khi ngủ."
+      ]
+     ]
+    },
+    {
+     "h2": "Đồ dự phòng trong tủ",
+     "flow": [
+      [
+       "p",
+       "Tủ cửa kính có sẵn khăn tắm, ga giường và gối dự phòng, không cần hỏi khi muốn thêm gối."
+      ]
+     ]
+    },
+    {
+     "h2": "Phòng tắm riêng",
+     "flow": [
+      [
+       "p",
+       "Như các phòng khác, phòng ngủ 3 có phòng tắm khép kín với nước nóng, dầu gội, sữa tắm và kem đánh răng."
+      ],
+      [
+       "h3",
+       "Sắp xếp cho gia đình"
+      ],
+      [
+       "p",
+       "Các bé ngủ phòng 3, bố mẹ ở phòng 2 ngay bên cạnh. Hai cửa phòng cùng một hành lang."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Phòng có cửa sổ không?",
+       "Không, phòng ngủ 3 không có cửa sổ."
+      ],
+      [
+       "Giường cỡ nào?",
+       "160×200 cm."
+      ],
+      [
+       "Có gối dự phòng không?",
+       "Có, trong tủ cùng khăn và ga."
+      ]
+     ]
+    },
+    {
      "p": [
-      "Các phòng tắm có vòi sen, khăn tắm và máy sấy tóc – buổi sáng không phải chờ nhau dù nhà đông người. Có lắp tay vịn."
+      "Cần phòng tối cho bé? WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bathrooms": {
+   "title": "3 phòng tắm khép kín và WC khách | ASCON LIVING",
+   "description": "Mỗi phòng ngủ có phòng tắm khép kín, thêm 1 nhà vệ sinh khách cùng trang bị. Có nước nóng, dầu gội, sữa tắm, kem đánh răng, khăn tắm và dép.",
+   "h1": "Phòng tắm: mỗi phòng ngủ một phòng tắm riêng",
+   "lead": "Xếp hàng chờ phòng tắm là chuyện quen thuộc khi đi đông người. Ở ASCON LIVING thì không: có 3 phòng tắm khép kín và thêm 1 nhà vệ sinh khách.",
+   "cover": [
+    "bath",
+    "Sen tắm đen mờ, vòi sen cầm tay và hộp xà phòng gắn tường trên nền gạch vân đá màu kem"
+   ],
+   "sections": [
+    {
+     "h2": "Tóm tắt",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Số lượng",
+          "3 phòng tắm khép kín và 1 WC khách"
+         ],
+         [
+          "Nước",
+          "Nước nóng"
+         ],
+         [
+          "Đồ dùng",
+          "Dầu gội, sữa tắm, kem đánh răng"
+         ],
+         [
+          "Khăn",
+          "Khăn tắm trắng"
+         ],
+         [
+          "Dép",
+          "Có sẵn ở lối vào"
+         ],
+         [
+          "Khác",
+          "Máy sấy tóc gắn tường, gương tròn"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
-       "bath",
-       "Phòng tắm với vòi sen"
-      ],
-      [
        "bath-4",
-       "Vòi sen trong phòng tắm"
+       "Đầu sen đen, hai hộp đựng và kệ trong phòng tắm khép kín"
       ],
       [
        "bath-2",
-       "Phòng tắm với gương tròn"
+       "Gương tròn viền đen trên kệ kính, khăn trắng trên thanh treo"
       ],
       [
        "bath-3",
-       "Khăn tắm sạch trong phòng tắm"
+       "Khăn tắm trắng trên thanh treo tường trong phòng tắm khép kín"
       ],
       [
        "bath-5",
-       "Máy sấy tóc trong phòng tắm"
+       "Máy sấy tóc gắn tường phía trên bồn rửa trắng"
       ],
       [
        "bath-6",
-       "Kệ kính với cốc trong phòng tắm"
+       "Kệ kính với cốc đen và bàn chải đánh răng đóng gói riêng"
       ]
      ]
     },
     {
-     "h2": "Phòng giải trí",
+     "h2": "Buổi sáng không chờ đợi",
+     "flow": [
+      [
+       "p",
+       "Mỗi phòng ngủ có phòng tắm riêng, cả nhóm cùng chuẩn bị một lúc và ra khỏi nhà đúng giờ."
+      ]
+     ]
+    },
+    {
+     "h2": "Sen tắm hiện đại",
+     "flow": [
+      [
+       "p",
+       "Sen tắm đen mờ, vòi sen cầm tay và hộp đựng xà phòng gắn tường trên nền gạch vân đá màu kem. Nước nóng sẵn sàng sau một ngày dạo phố dưới nắng."
+      ]
+     ]
+    },
+    {
+     "h2": "Vali nhẹ hơn",
+     "flow": [
+      [
+       "p",
+       "Dầu gội, sữa tắm và kem đánh răng có sẵn, cùng bàn chải đóng gói riêng. Khăn tắm trắng treo trên thanh."
+      ],
+      [
+       "h3",
+       "Sửa soạn nhanh"
+      ],
+      [
+       "p",
+       "Gương tròn viền đen trên kệ kính và máy sấy tóc gắn tường giúp bạn chuẩn bị cho buổi tối."
+      ]
+     ]
+    },
+    {
+     "h2": "Nhà vệ sinh khách",
+     "flow": [
+      [
+       "p",
+       "WC khách có trang bị giống các phòng tắm khác, tiện khi cả nhà đang ở phòng khách hoặc sân thượng."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Có nước nóng không?",
+       "Có."
+      ],
+      [
+       "Có cần mang dầu gội không?",
+       "Không cần, có sẵn dầu gội, sữa tắm và kem đánh răng."
+      ],
+      [
+       "Có dép không?",
+       "Có, ở lối vào."
+      ]
+     ]
+    },
+    {
      "p": [
-      "Phòng riêng cho buổi tối cùng nhau – homestay có karaoke: hát, xem phim bằng máy chiếu hoặc chơi PlayStation."
+      "Hỏi thêm về tiện nghi: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-hallway": {
+   "title": "Bàn làm việc cho khách ở dài | ASCON LIVING",
+   "description": "Hành lang dẫn vào phòng ngủ 2 và 3 có bàn làm việc cạnh cửa sổ, ghế lưới, đèn, bàn trang điểm, kệ giày có dép và WiFi mesh tới 1 Gbit/s.",
+   "h1": "Hành lang và góc làm việc: yên tĩnh để tập trung",
+   "lead": "Đi chơi mà vẫn phải trả lời email công việc? Ở hành lang giữa phòng ngủ 2 và 3 có bàn làm việc cạnh cửa sổ, xa tiếng TV và karaoke.",
+   "cover": [
+    "hall",
+    "Hành lang với hai cửa đen vào phòng ngủ 2 và 3"
+   ],
+   "sections": [
+    {
+     "h2": "Hành lang có gì",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Bàn làm việc",
+          "Bàn chân sắt đen, ghế lưới đen, đèn"
+         ],
+         [
+          "Cửa",
+          "Hai cửa đen vào phòng ngủ 2 và 3"
+         ],
+         [
+          "Trang trí",
+          "Ba bức tranh hạc, cây xanh, thảm"
+         ],
+         [
+          "Bàn trang điểm",
+          "Bàn xám gương tròn, ghế trắng"
+         ],
+         [
+          "Lối vào",
+          "Vách ốp sọc đen, kệ giày có dép, ghế băng"
+         ],
+         [
+          "Cầu thang",
+          "Đá granite tối màu, tay vịn sắt đen, đèn tường"
+         ],
+         [
+          "WiFi",
+          "Mesh tới 1 Gbit/s"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
-       "ent",
-       "Phòng giải trí với sofa"
+       "stairs",
+       "Cầu thang đá granite tối màu với tay vịn sắt đen nhìn từ trên"
       ],
       [
-       "ent-karaoke",
-       "Góc karaoke với đèn trang trí"
+       "entrance",
+       "Lối vào với vách ốp sọc đen và cầu thang"
       ],
       [
-       "ent-cinema",
-       "Màn chiếu trong phòng giải trí"
+       "hall-desk",
+       "Bàn làm việc và ghế lưới đen cạnh cửa sổ rèm xám, tranh hạc và cây xanh"
       ],
       [
-       "ent-tv",
-       "Phòng giải trí có TV"
+       "workspace-2",
+       "Ba bức tranh hạc trắng trên nền xám phía trên chậu cây"
       ],
       [
-       "ent-mics",
-       "Micro karaoke và điều khiển"
+       "hall-landing",
+       "Hai cửa đen và góc làm việc trên sàn gạch vân đá xám"
       ],
       [
-       "ent-ps",
-       "PlayStation với hai tay cầm"
+       "hall-vanity",
+       "Bàn trang điểm xám với gương tròn và ghế trắng"
+      ],
+      [
+       "hall-shoes",
+       "Kệ giày đen có dép ở lối vào"
       ]
      ]
     },
     {
-     "h2": "Sân thượng & view sông",
+     "h2": "Văn phòng nhỏ bên cửa sổ",
+     "flow": [
+      [
+       "p",
+       "Bàn chân sắt đen, ghế lưới êm và đèn bàn là đủ cho một ngày làm việc. Mỏi mắt thì nhìn ra cửa sổ. WiFi mesh tới 1 Gbit/s giữ cuộc gọi video luôn mượt."
+      ],
+      [
+       "h3",
+       "Sáng làm, chiều chơi"
+      ],
+      [
+       "p",
+       "Làm xong việc buổi sáng, chiều đi khám phá thành phố, tối nướng BBQ trên sân thượng."
+      ]
+     ]
+    },
+    {
+     "h2": "Cửa vào phòng ngủ",
+     "flow": [
+      [
+       "p",
+       "Hai cửa đen cạnh nhau dẫn vào phòng ngủ 2 và 3. Sàn gạch vân đá xám và tường màu kem tạo cảm giác yên bình. Bố mẹ dễ dàng ghé xem con ban đêm."
+      ]
+     ]
+    },
+    {
+     "h2": "Góc sửa soạn",
+     "flow": [
+      [
+       "p",
+       "Cạnh cửa kính có bàn trang điểm xám với gương tròn và ghế trắng, nơi ngắm lại lần cuối trước khi ra ngoài."
+      ]
+     ]
+    },
+    {
+     "h2": "Lối vào ngăn nắp",
+     "flow": [
+      [
+       "p",
+       "Vách ốp sọc đen, tủ âm tường có móc treo, kệ giày đen có dép và ghế băng. Cởi giày, mang dép, nhà luôn sạch."
+      ]
+     ]
+    },
+    {
+     "h2": "Cầu thang",
+     "flow": [
+      [
+       "p",
+       "Cầu thang đá granite tối màu, tay vịn sắt đen và đèn tường nối các tầng."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Có bàn làm việc không?",
+       "Có, ở hành lang kèm ghế và đèn."
+      ],
+      [
+       "Cửa ở hành lang dẫn vào phòng nào?",
+       "Phòng ngủ 2 và phòng ngủ 3."
+      ],
+      [
+       "Có dép đi trong nhà không?",
+       "Có, ở kệ giày lối vào."
+      ]
+     ]
+    },
+    {
      "p": [
-      "Sân thượng có lounge, bàn ăn ngoài trời và BBQ, homestay view sông và thành phố."
+      "Lên kế hoạch làm việc từ xa ở Sài Gòn: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-outside": {
+   "title": "Homestay view sông Sài Gòn, Quận 7 | ASCON LIVING",
+   "description": "Nhà nguyên căn ven sông ở Sài Gòn: hiên lan can trắng có mái che, nhìn ra sông và đường chân trời Quận 1.",
+   "h1": "Homestay view sông: sống bên dòng nước giữa lòng Sài Gòn",
+   "lead": "Hiếm có chỗ ở nào tại Sài Gòn nằm sát mép nước. Ở ASCON LIVING, dòng sông chảy ngay trước nhà và đường chân trời Quận 1 ở phía bên kia.",
+   "cover": [
+    "hero",
+    "Nhà view sông tại Sài Gòn, hiên lan can trắng và đường chân trời Quận 1"
+   ],
+   "sections": [
+    {
+     "h2": "Không gian ngoài trời",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Sông",
+          "Ngay trước nhà, nhìn về Quận 1"
+         ],
+         [
+          "Hiên",
+          "Lan can sắt trắng và mái che"
+         ],
+         [
+          "Cây xanh",
+          "Chậu cây"
+         ],
+         [
+          "Camera",
+          "Camera ngoài trời ở lối vào"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-balcony",
+       "View từ lan can hiên giữa cây xanh"
+      ],
+      [
+       "river-city",
+       "View nhìn về đường chân trời Quận 1 từ căn nhà"
+      ]
+     ]
+    },
+    {
+     "h2": "Nhịp sống trên sông",
+     "flow": [
+      [
+       "p",
+       "Ngồi một lúc và ngắm nhìn. Không phải nhìn qua cửa sổ khách sạn mà từ chính hiên nhà bạn."
+      ]
+     ]
+    },
+    {
+     "h2": "Hiên nhà cho sáng và chiều",
+     "flow": [
+      [
+       "p",
+       "Hiên lan can sắt trắng có mái che, lý tưởng cho ly cà phê sáng đón gió sông, hay chờ hoàng hôn trước bữa tối."
+      ]
+     ]
+    },
+    {
+     "h2": "Camera ở lối vào",
+     "flow": [
+      [
+       "p",
+       "Có camera ngoài trời ở lối vào."
+      ],
+      [
+       "h3",
+       "Muốn view rộng nhất?"
+      ],
+      [
+       "p",
+       "Lên sân thượng để ngắm sông trọn vẹn nhất, kèm bếp nướng BBQ."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Nhà có thật sự sát sông không?",
+       "Có, sông ở ngay trước nhà."
+      ],
+      [
+       "Camera lắp ở đâu?",
+       "Có camera ngoài trời ở lối vào."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Muốn ở nhà ven sông? WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "rooftop": {
+   "title": "Sân thượng BBQ view sông Quận 7 | ASCON LIVING",
+   "description": "Sân thượng khoảng 56–60 m² với bếp nướng BBQ kiêm lò xông khói, sofa mây, bàn ăn, cây nhiệt đới, đèn năng lượng mặt trời và view sông nhìn về Quận 1.",
+   "h1": "Sân thượng BBQ: tiệc nướng ngắm đường chân trời Quận 1",
+   "lead": "Khi trời ngả màu cam, cả nhà kéo nhau lên sân thượng. Khoảng 56–60 m² để nướng thịt, trò chuyện và ngắm đèn Quận 1 bật sáng bên kia sông.",
+   "sections": [
+    {
+     "h2": "Tiện ích sân thượng",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Diện tích",
+          "Khoảng 56–60 m²"
+         ],
+         [
+          "BBQ",
+          "Bếp nướng dạng thùng màu đen, kiêm lò xông khói, có kệ bên"
+         ],
+         [
+          "Thư giãn",
+          "Sofa mây tối màu, nệm kem, đôn bọc nệm"
+         ],
+         [
+          "Ăn uống",
+          "Bàn tối màu và ghế mây"
+         ],
+         [
+          "Cây xanh",
+          "Cây nhiệt đới trong bồn dài"
+         ],
+         [
+          "Ánh sáng",
+          "Đèn năng lượng mặt trời, đèn trang trí dưới mái"
+         ],
+         [
+          "Che nắng",
+          "Mái hiên che một phần"
+         ],
+         [
+          "Tầm nhìn",
+          "Sông và đường chân trời Quận 1"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
        "roof-terrace",
-       "Sân thượng view sông và đường chân trời TP. Hồ Chí Minh"
+       "Nhà view sông: sân thượng nhìn ra đường chân trời Quận 1"
       ],
       [
        "river-balcony",
-       "Lan can sân thượng nhìn ra sông và cây xanh"
+       "View từ lan can hiên giữa cây xanh"
       ],
       [
        "river-city",
-       "View sông với đường chân trời thành phố ở phía xa"
+       "View nhìn về đường chân trời Quận 1 từ căn nhà"
       ],
       [
        "roof-day",
-       "Sân thượng với nội thất lounge và cây xanh ban ngày"
+       "Sân thượng ban ngày với sofa mây tối màu, nệm kem và bồn cây dài"
       ],
       [
        "roof-lounge",
-       "Bộ bàn ăn có nệm trên sân thượng"
+       "Bàn ăn tối màu và ghế mây nệm kem trên sân thượng"
       ],
       [
        "roof-night",
-       "Khu lounge sân thượng buổi tối với dây đèn"
+       "Khu thư giãn trên sân thượng buổi tối dưới đèn trang trí và đèn năng lượng mặt trời"
       ],
       [
        "roof-evening",
-       "Lounge sân thượng buổi tối với dây đèn"
+       "Sofa mây nệm kem trên sân thượng lúc chiều tối"
       ],
       [
        "roof-evening-2",
-       "Bàn ăn trên sân thượng buổi tối"
+       "Khu ăn uống trên sân thượng dưới mái hiên có đèn"
       ],
       [
        "roof-bbq",
-       "Bếp nướng BBQ trên sân thượng"
+       "Bếp nướng BBQ dạng thùng màu đen cạnh lan can trắng trên sân thượng"
       ],
       [
        "roof-skyline",
-       "Thành phố về đêm nhìn từ sân thượng"
+       "Đường chân trời thành phố về đêm nhìn từ sân thượng"
       ]
      ]
     },
     {
-     "h2": "Lối vào & hành lang",
+     "h2": "Bếp nướng kiêm xông khói",
+     "flow": [
+      [
+       "p",
+       "Bếp nướng dạng thùng màu đen cạnh lan can trắng có kệ bên để đồ. Nướng sườn, gà, rau hay hải sản từ chợ, hoặc dùng để xông khói chậm. Ướp thịt trước trong tủ lạnh 540 lít dưới bếp."
+      ]
+     ]
+    },
+    {
+     "h2": "Sofa mây cho những câu chuyện dài",
+     "flow": [
+      [
+       "p",
+       "Ăn xong, chuyển sang sofa mây nệm kem. Câu chuyện và tiếng cười kéo dài tới tối muộn."
+      ]
+     ]
+    },
+    {
+     "h2": "Bữa tối dưới ánh đèn",
+     "flow": [
+      [
+       "p",
+       "Bàn tối màu và ghế mây dưới mái hiên có đèn khiến bữa tối thêm đặc biệt, dù là đồ nướng hay món mua về từ quán."
+      ]
+     ]
+    },
+    {
+     "h2": "Tầm nhìn đáng nhớ",
+     "flow": [
+      [
+       "p",
+       "Bên kia sông, đường chân trời Quận 1 đổi màu lúc hoàng hôn. Khi trời tối, đèn các tòa nhà phản chiếu trên mặt nước, phông nền hoàn hảo cho ảnh nhóm."
+      ],
+      [
+       "h3",
+       "Khi đêm xuống"
+      ],
+      [
+       "p",
+       "Đèn trang trí và đèn năng lượng mặt trời bật sáng, không khí trở nên ấm cúng. Nhà ở khu dân cư nên khuya rồi hãy nói nhỏ."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Có nướng BBQ trên sân thượng được không?",
+       "Được, bếp nướng dùng được cả để xông khói."
+      ],
+      [
+       "Sân thượng rộng bao nhiêu?",
+       "Khoảng 56–60 m²."
+      ],
+      [
+       "Có nhìn thấy sông không?",
+       "Có, cùng đường chân trời Quận 1."
+      ]
+     ]
+    },
+    {
      "p": [
-      "Tự nhận phòng bằng mã số: cửa chính mở bằng mã riêng của bạn, còn cổng ngoài dùng chìa khóa do chủ nhà bàn giao hoặc hẹn trước với bạn. Bên trong, cầu thang có tay vịn nối các tầng."
+      "Lên lịch tiệc nướng của bạn: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "house": {
+   "title": "Ngôi nhà: 3 phòng ngủ | ASCON LIVING",
+   "description": "Nhà nguyên căn Quận 7, homestay view sông có karaoke: 3 phòng ngủ giường đôi, bếp đầy đủ và phòng giải trí.",
+   "h1": "Ngôi nhà: 3 phòng ngủ có phòng tắm riêng và sân thượng",
+   "lead": "Cả ngôi nhà chỉ dành riêng cho nhóm của bạn.",
+   "sections": [
+    {
+     "h2": "Chi tiết từng phòng",
+     "cards": [
+      [
+       "Karaoke & giải trí",
+       "room-entertainment",
+       "Phòng karaoke riêng trong nhà nguyên căn Quận 7: micro, PlayStation với PlayStation Plus và 2 tay cầm, máy chiếu 4K có màn chiếu chân đứng và TV 4K."
+      ],
+      [
+       "Phòng khách",
+       "room-living",
+       "Phòng khách khoảng 40 m² trong nhà nguyên căn Quận 7: sofa chữ L, TV 4K 75 inch, cửa kính, cây xanh và WiFi mesh tới 1 Gbit/s. Nơi cả nhà tụ họp."
+      ],
+      [
+       "Bếp & phòng ăn",
+       "room-kitchen",
+       "Bếp đầy đủ trong nhà nguyên căn Quận 7: bếp mặt kính đen, lò nướng, lò vi sóng, nồi cơm điện, nồi chiên không dầu, tủ lạnh khoảng 540 lít và máy giặt."
+      ],
+      [
+       "Phòng ngủ chính",
+       "room-master",
+       "Phòng ngủ chính khoảng 55 m²: giường 180×200 cm, TV 4K 55 inch, ban công riêng, bàn trang điểm có sạc không dây, bàn ủi và phòng tắm khép kín."
+      ],
+      [
+       "Phòng ngủ 2",
+       "room-bedroom-2",
+       "Phòng ngủ 2 trong nhà nguyên căn Quận 7: giường 160×200 cm, smart TV, rèm xám đậm và phòng tắm khép kín có nước nóng. Cửa mở ra hành lang."
+      ],
+      [
+       "Phòng ngủ 3",
+       "room-bedroom-3",
+       "Phòng ngủ 3 không có cửa sổ, tối và yên tĩnh: giường 160×200 cm, smart TV, tủ có khăn, ga và gối dự phòng, phòng tắm khép kín. Hợp cho bé ngủ trưa."
+      ],
+      [
+       "Phòng tắm",
+       "room-bathrooms",
+       "Mỗi phòng ngủ có phòng tắm khép kín, thêm 1 nhà vệ sinh khách cùng trang bị. Có nước nóng, dầu gội, sữa tắm, kem đánh răng, khăn tắm và dép."
+      ],
+      [
+       "Hành lang & góc làm việc",
+       "room-hallway",
+       "Hành lang dẫn vào phòng ngủ 2 và 3 có bàn làm việc cạnh cửa sổ, ghế lưới, đèn, bàn trang điểm, kệ giày có dép và WiFi mesh tới 1 Gbit/s."
+      ],
+      [
+       "Bên ngoài & bờ sông",
+       "room-outside",
+       "Nhà nguyên căn ven sông ở Sài Gòn: hiên lan can trắng có mái che, nhìn ra sông và đường chân trời Quận 1."
+      ],
+      [
+       "Sân thượng",
+       "rooftop",
+       "Sân thượng khoảng 56–60 m² với bếp nướng BBQ kiêm lò xông khói, sofa mây, bàn ăn, cây nhiệt đới, đèn năng lượng mặt trời và view sông nhìn về Quận 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Trang bị phòng giải trí",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Micro karaoke"
+         ],
+         [
+          "Máy chơi game",
+          "PlayStation với PlayStation Plus"
+         ],
+         [
+          "Tay cầm",
+          "2 tay cầm"
+         ],
+         [
+          "Máy chiếu",
+          "Máy chiếu 4K gắn trần, màn chiếu chân đứng"
+         ],
+         [
+          "TV",
+          "TV 4K"
+         ],
+         [
+          "Xem phim",
+          "Netflix, tùy tài khoản đang hoạt động"
+         ],
+         [
+          "Chỗ ngồi",
+          "Sofa xám và ghế đôn vuông"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
-       "entrance",
-       "Lối vào với cầu thang"
+       "ent",
+       "Phòng giải trí với sofa xám, ghế đôn vuông và tranh anime đóng khung, nhà nguyên căn có karaoke tại Sài Gòn"
       ],
       [
-       "hall",
-       "Hành lang với cửa phòng ngủ 2 và 3"
+       "ent-karaoke",
+       "Phòng karaoke trong ánh đèn LED xanh lá với sofa, bàn trà và TV treo tường"
       ],
       [
-       "stairs",
-       "Cầu thang giữa các tầng"
+       "ent-cinema",
+       "Màn chiếu 4K chân đứng trong phòng giải trí đã tắt đèn"
+      ],
+      [
+       "ent-tv",
+       "TV lớn treo tường, dải đèn LED màu và sofa xám"
+      ],
+      [
+       "ent-mics",
+       "Micro karaoke và điều khiển trên bàn trà vân đá"
+      ],
+      [
+       "ent-ps",
+       "PlayStation gắn tường với hai tay cầm"
       ]
      ]
     },
     {
-     "h2": "Tiện nghi",
-     "ul": [
-      "Máy lạnh và quạt",
-      "Wi-Fi",
-      "Máy giặt cho khách dùng, bàn ủi; dịch vụ giặt ủi (30 EUR mỗi mẻ)",
-      "Két sắt",
-      "Thiết bị báo khói, bình chữa cháy, hộp sơ cứu",
-      "Tự nhận phòng bằng mã số (cổng ngoài dùng chìa khóa)",
-      "BBQ trên sân thượng"
+     "h2": "Hát thả ga",
+     "flow": [
+      [
+       "p",
+       "Chọn bài, micro chuyền tay. Không tính giờ, không có phòng bên cạnh, chỉ có bạn và nhóm của mình."
+      ]
+     ]
+    },
+    {
+     "h2": "Đấu PlayStation",
+     "flow": [
+      [
+       "p",
+       "PlayStation gắn tường với PlayStation Plus và hai tay cầm, sẵn sàng cho những trận đấu anh em hay đồng nghiệp."
+      ]
+     ]
+    },
+    {
+     "h2": "Rạp phim tại gia",
+     "flow": [
+      [
+       "p",
+       "Tắt đèn, dựng màn chiếu chân đứng và xem phim bằng máy chiếu 4K. Netflix dùng được tùy tài khoản đang hoạt động. Muốn xem màn hình thường thì đã có TV 4K."
+      ]
+     ]
+    },
+    {
+     "h2": "Không gian riêng",
+     "flow": [
+      [
+       "p",
+       "Sofa xám êm ái, ghế đôn vuông, tranh anime đóng khung và những dải đèn LED nhiều màu tạo nên không khí khác hẳn phần còn lại của căn nhà."
+      ],
+      [
+       "h3",
+       "Cứu tinh ngày mưa"
+      ],
+      [
+       "p",
+       "Khi cơn mưa chiều Sài Gòn ập đến, đây là nơi vui nhất cho cả trẻ con lẫn người lớn."
+      ]
+     ]
+    },
+    {
+     "h2": "Nhớ đến hàng xóm",
+     "flow": [
+      [
+       "p",
+       "Nhà ở khu dân cư, khuya rồi thì vặn nhỏ âm lượng một chút nhé."
+      ]
      ]
     },
     {
@@ -438,262 +1664,1389 @@
      "_tg": 1
     },
     {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Có karaoke không?",
+       "Có, kèm micro karaoke."
+      ],
+      [
+       "Có PlayStation không?",
+       "Có, kèm PlayStation Plus và hai tay cầm."
+      ],
+      [
+       "Có xem Netflix được không?",
+       "Được, tùy tài khoản đang hoạt động."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Đặt nhà có phòng karaoke riêng: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
      "cta": true
     }
    ]
   },
-  "rooftop": {
-   "title": "Sân thượng view sông và thành phố | ASCON LIVING",
-   "description": "Sân thượng riêng của ASCON LIVING tại TP. Hồ Chí Minh: khu lounge, bàn ăn ngoài trời, BBQ, view sông và đường chân trời cả ngày lẫn đêm.",
-   "h1": "Sân thượng view sông và thành phố",
-   "lead": "Sân thượng có khu lounge, bàn ăn ngoài trời và bếp nướng BBQ.",
+  "home": {
+   "title": "Homestay Sài Gòn nguyên căn theo ngày | ASCON LIVING",
+   "description": "Thuê nhà nguyên căn theo ngày ven sông Quận 7: 3 phòng ngủ khép kín, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s. Đặt qua WhatsApp/Zalo 0909 410 382.",
+   "h1": "Homestay Sài Gòn ven sông: thuê nhà nguyên căn theo ngày",
+   "lead": "ASCON LIVING Riverside là căn nhà 3 tầng cùng sân thượng nằm ngay bờ sông ở Tân Hưng, Quận 7. Cả căn nhà hơn 250 m² chỉ dành riêng cho gia đình, nhóm bạn hoặc đồng nghiệp của bạn, không chung với khách khác.",
+   "hero": [
+    "hero",
+    "Nhà nguyên căn ven sông có sân thượng tại Quận 7, Sài Gòn"
+   ],
    "sections": [
     {
-     "h2": "Sân thượng",
-     "imgs": [
+     "h2": "Tổng quan căn nhà",
+     "flow": [
       [
-       "roof-terrace",
-       "Sân thượng với nội thất lounge, cây xanh và view thành phố"
-      ],
-      [
-       "roof-lounge",
-       "Bộ bàn ăn có nệm trên sân thượng"
-      ],
-      [
-       "roof-bbq",
-       "Bếp nướng BBQ trên sân thượng"
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Địa chỉ",
+          "389A Đường Trần Xuân Soạn, Tân Hưng, Quận 7"
+         ],
+         [
+          "Diện tích",
+          "3 tầng và sân thượng, hơn 250 m²"
+         ],
+         [
+          "Phòng ngủ",
+          "3 phòng: giường 180×200 cm và hai giường 160×200 cm"
+         ],
+         [
+          "Phòng tắm",
+          "3 phòng tắm khép kín và 1 nhà vệ sinh khách"
+         ],
+         [
+          "Giải trí",
+          "Micro karaoke, PlayStation, máy chiếu 4K, TV 4K"
+         ],
+         [
+          "Sân thượng",
+          "Khoảng 56–60 m², bếp nướng BBQ kiêm lò xông khói"
+         ],
+         [
+          "Internet",
+          "WiFi mesh tới 1 Gbit/s"
+         ],
+         [
+          "Ra vào",
+          "Khóa mã số, chìa khóa riêng cho cổng ngoài"
+         ]
+        ]
+       }
       ]
-     ]
-    },
-    {
-     "h2": "Buổi tối",
+     ],
      "imgs": [
+      [
+       "living",
+       "Phòng khách rộng với sofa chữ L trong homestay Sài Gòn"
+      ],
+      [
+       "bed1",
+       "Phòng ngủ chính với giường 180×200 cm và cửa sổ lớn"
+      ],
       [
        "roof-night",
-       "Khu lounge sân thượng buổi tối với dây đèn"
+       "Góc thư giãn trên sân thượng buổi tối dưới đèn trang trí"
+      ]
+     ],
+     "cards": [
+      [
+       "Karaoke & giải trí",
+       "room-entertainment",
+       "Phòng karaoke riêng trong nhà: micro, PlayStation với PlayStation Plus và 2 tay cầm, máy chiếu 4K có màn chiếu chân đứng và TV 4K."
       ],
       [
-       "roof-evening",
-       "Khu ngồi trên sân thượng buổi tối"
+       "Phòng khách",
+       "room-living",
+       "Phòng khách khoảng 40 m² trong nhà: sofa chữ L, TV 4K 75 inch, cửa kính, cây xanh và WiFi mesh tới 1 Gbit/s. Nơi cả nhà tụ họp."
       ],
       [
-       "roof-evening-2",
-       "Bàn ăn trên sân thượng buổi tối"
+       "Bếp & phòng ăn",
+       "room-kitchen",
+       "Bếp đầy đủ trong nhà: bếp mặt kính đen, lò nướng, lò vi sóng, nồi cơm điện, nồi chiên không dầu, tủ lạnh khoảng 540 lít và máy giặt."
       ],
       [
-       "roof-skyline",
-       "Thành phố về đêm nhìn từ sân thượng"
+       "Phòng ngủ chính",
+       "room-master",
+       "Phòng ngủ chính khoảng 55 m²: giường 180×200 cm, TV 4K 55 inch, ban công riêng, bàn trang điểm có sạc không dây, bàn ủi và phòng tắm khép kín."
+      ],
+      [
+       "Phòng ngủ 2",
+       "room-bedroom-2",
+       "Phòng ngủ 2 trong nhà: giường 160×200 cm, smart TV, rèm xám đậm và phòng tắm khép kín có nước nóng. Cửa mở ra hành lang."
+      ],
+      [
+       "Phòng ngủ 3",
+       "room-bedroom-3",
+       "Phòng ngủ 3 không có cửa sổ, tối và yên tĩnh: giường 160×200 cm, smart TV, tủ có khăn, ga và gối dự phòng, phòng tắm khép kín. Hợp cho bé ngủ trưa."
+      ],
+      [
+       "Phòng tắm",
+       "room-bathrooms",
+       "Mỗi phòng ngủ có phòng tắm khép kín, thêm 1 nhà vệ sinh khách cùng trang bị. Có nước nóng, dầu gội, sữa tắm, kem đánh răng, khăn tắm và dép."
+      ],
+      [
+       "Hành lang & góc làm việc",
+       "room-hallway",
+       "Hành lang dẫn vào phòng ngủ 2 và 3 có bàn làm việc cạnh cửa sổ, ghế lưới, đèn, bàn trang điểm, kệ giày có dép và WiFi mesh tới 1 Gbit/s."
+      ],
+      [
+       "Bên ngoài & bờ sông",
+       "room-outside",
+       "Nhà nguyên căn ven sông ở Sài Gòn: hiên lan can trắng có mái che, nhìn ra sông và đường chân trời Quận 1."
+      ],
+      [
+       "Sân thượng",
+       "rooftop",
+       "Sân thượng khoảng 56–60 m² với bếp nướng BBQ kiêm lò xông khói, sofa mây, bàn ăn, cây nhiệt đới, đèn năng lượng mặt trời và view sông nhìn về Quận 1."
       ]
      ]
     },
     {
+     "h2": "Vì sao chọn thuê nguyên căn thay vì khách sạn",
+     "flow": [
+      [
+       "p",
+       "Đi đông người mà ở khách sạn thì mỗi người một phòng, muốn ngồi chung chỉ có sảnh. Ở ASCON LIVING, cả nhóm quây quần trong phòng khách khoảng 40 m² với sofa chữ L và TV 4K 75 inch, ăn chung một bàn, tối lên sân thượng hóng gió sông."
+      ],
+      [
+       "h3",
+       "Phù hợp với ai"
+      ],
+      [
+       "p",
+       "Gia đình nhiều thế hệ, nhóm bạn đi chơi cuối tuần, đội nhóm công ty đi công tác hay team building nhỏ."
+      ]
+     ]
+    },
+    {
+     "h2": "Phòng karaoke ngay trong nhà",
+     "flow": [
+      [
+       "p",
+       "Không cần ra quán karaoke. Phòng giải trí có micro karaoke, màn chiếu 4K, thêm PlayStation với PlayStation Plus và hai tay cầm. Netflix dùng được tùy tài khoản đang hoạt động."
+      ]
+     ]
+    },
+    {
+     "h2": "Tiệc nướng trên sân thượng nhìn sông",
+     "flow": [
+      [
+       "p",
+       "Sân thượng khoảng 56–60 m² có bếp nướng dạng thùng, dùng được cả để xông khói, sofa mây, bàn ăn, cây xanh nhiệt đới và đèn năng lượng mặt trời. Từ đây nhìn thấy sông và đường chân trời Quận 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Bếp đầy đủ để tự nấu",
+     "flow": [
+      [
+       "p",
+       "Bếp có mặt kính đen, lò nướng, lò vi sóng, nồi cơm điện, ấm đun nước, nồi chiên không dầu, máy nướng bánh mì và tủ lạnh khoảng 540 lít. Khách có thể dùng máy giặt."
+      ]
+     ]
+    },
+    {
+     "h2": "Tiện nghi sẵn có",
+     "flow": [
+      [
+       "p",
+       "Nước nóng, dầu gội, sữa tắm, kem đánh răng, khăn tắm và dép đi trong nhà đều có sẵn. Nhà có két sắt để cất hộ chiếu, đồ giá trị và bàn ủi."
+      ]
+     ]
+    },
+    {
+     "h2": "Ứng dụng cẩm nang miễn phí",
+     "p": [
+      "Lên kế hoạch cho chuyến đi với ứng dụng cẩm nang du lịch miễn phí của ASCON: mẹo địa phương, quán ăn, điểm tham quan và bản đồ, ngay trên trình duyệt điện thoại."
+     ],
+     "cards": [
+      [
+       "Ứng dụng cẩm nang miễn phí",
+       "travel-guide",
+       "Mẹo địa phương, địa điểm và bản đồ TP. Hồ Chí Minh, miễn phí trên trình duyệt."
+      ]
+     ],
+     "_tg": 1
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Tôi có thuê cả căn nhà không?",
+       "Có. Toàn bộ căn nhà và sân thượng chỉ dành cho nhóm của bạn."
+      ],
+      [
+       "Đặt phòng ở đâu?",
+       "Trực tiếp qua WhatsApp, Zalo hoặc trên Airbnb và Trip.com."
+      ],
+      [
+       "Nhận nhà như thế nào?",
+       "Bằng khóa mã số ở cửa và chìa khóa cho cổng ngoài."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Hỏi ngày trống và giá qua WhatsApp hoặc Zalo: +84 909 410 382."
+     ],
      "cta": true
     }
    ]
   },
   "families": {
-   "title": "Homestay Sài Gòn cho gia đình & nhóm bạn | ASCON LIVING",
-   "description": "Homestay Sài Gòn cho nhóm bạn và gia đình: nhà nguyên căn, 3 phòng ngủ giường đôi, bếp và phòng giải trí.",
-   "h1": "Homestay Sài Gòn nguyên căn cho gia đình và nhóm bạn",
-   "lead": "Cả ngôi nhà dành riêng cho bạn, phù hợp cho gia đình và nhóm bạn.",
+   "title": "Homestay gia đình Sài Gòn, nguyên căn | ASCON LIVING",
+   "description": "Nhà nguyên căn cho gia đình ở Sài Gòn: 3 phòng ngủ có phòng tắm riêng, bếp đầy đủ, xem phim máy chiếu 4K và két sắt.",
+   "h1": "Homestay gia đình: ông bà, bố mẹ, con cháu chung một nhà",
+   "lead": "Đi chơi cả đại gia đình cần không gian rộng, có bếp và yên tĩnh. Ở ASCON LIVING, mọi người ở chung một căn nhà tại Quận 7 nhưng ai cũng có góc riêng.",
    "sections": [
     {
-     "h2": "Ngôi nhà có gì cho nhóm",
-     "ul": [
-      "3 phòng ngủ, mỗi phòng một giường đôi",
-      "Phòng tắm",
-      "Bếp đầy đủ với nồi cơm điện, lò nướng và máy rửa chén",
-      "Phòng giải trí có karaoke, máy chiếu, TV 4K và PlayStation",
-      "Sân thượng có BBQ",
-      "Máy giặt cho khách dùng, bàn ủi; dịch vụ giặt ủi (30 EUR mỗi mẻ)",
-      "Đưa đón sân bay theo yêu cầu",
-      "Gửi hành lý miễn phí"
-     ]
-    },
-    {
-     "h2": "Lưu ý",
-     "p": [
-      "Ngôi nhà có nhiều tầng với cầu thang và tay vịn. Thiết bị an toàn: báo khói, bình chữa cháy và hộp sơ cứu. Nếu có câu hỏi cụ thể, hãy nhắn WhatsApp cho chúng tôi trước khi đặt."
+     "h2": "Điều bố mẹ thích",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Phòng ngủ",
+          "3 phòng, mỗi phòng có phòng tắm khép kín"
+         ],
+         [
+          "Phòng ngủ 3",
+          "Không có cửa sổ, tối và yên cho bé ngủ trưa"
+         ],
+         [
+          "Bếp",
+          "Nồi cơm điện, lò nướng, nồi chiên không dầu, tủ lạnh 540 lít"
+         ],
+         [
+          "Giải trí",
+          "Máy chiếu 4K, TV 4K 75 inch, PlayStation"
+         ],
+         [
+          "Đồ giá trị",
+          "Két sắt"
+         ],
+         [
+          "Camera",
+          "Camera ngoài trời ở lối vào"
+         ]
+        ]
+       }
+      ]
      ],
      "imgs": [
       [
        "kitchen-dining",
-       "Bàn ăn cho cả nhóm"
+       "Bàn ăn cạnh cửa sổ bếp cho bữa cơm gia đình"
+      ],
+      [
+       "kitchen",
+       "Bếp đầy đủ tiện nghi cho gia đình lưu trú tại Quận 7"
       ],
       [
        "ent-cinema",
-       "Màn chiếu trong phòng giải trí"
+       "Màn chiếu 4K cho buổi xem phim gia đình trong phòng giải trí"
+      ],
+      [
+       "living-tv",
+       "TV 4K 75 inch ở phòng khách cho buổi tối xem phim"
+      ],
+      [
+       "bed3",
+       "Phòng ngủ 3 với giường 160×200 cm, tối và yên tĩnh cho bé ngủ trưa"
       ]
      ]
     },
     {
+     "h2": "Bữa ăn như ở nhà",
+     "flow": [
+      [
+       "p",
+       "Bé kén ăn? Nấu cơm bằng nồi cơm điện, chiên đồ bằng nồi chiên không dầu, nướng bánh mì cho bữa sáng. Tủ lạnh lớn đủ chỗ cho sữa, trái cây và đồ ăn vặt cả tuần. Bàn ăn cạnh cửa sổ bếp đủ chỗ cho ba thế hệ ngồi cùng nhau."
+      ]
+     ]
+    },
+    {
+     "h2": "Trời mưa vẫn vui",
+     "flow": [
+      [
+       "p",
+       "Mưa chiều Sài Gòn đến bất chợt. Phòng giải trí với máy chiếu 4K biến buổi chiều trong nhà thành buổi xem phim cả nhà. Trẻ con chơi PlayStation, người lớn xem TV 4K 75 inch ở phòng khách."
+      ]
+     ]
+    },
+    {
+     "h2": "Giấc ngủ trưa của bé",
+     "flow": [
+      [
+       "p",
+       "Phòng ngủ 3 không có cửa sổ nên luôn tối, kể cả giữa trưa nắng gắt. Mỗi phòng ngủ có phòng tắm riêng với nước nóng, buổi tối tắm cho các bé không phải xếp hàng."
+      ]
+     ]
+    },
+    {
+     "h2": "Tiện ích thiết thực",
+     "flow": [
+      [
+       "p",
+       "Có camera ngoài trời ở lối vào. Két sắt để cất hộ chiếu, bàn ủi để ủi quần áo bị nhăn trong vali."
+      ],
+      [
+       "h3",
+       "Mang ít đồ hơn"
+      ],
+      [
+       "p",
+       "Khăn tắm, dầu gội, sữa tắm, kem đánh răng và dép đi trong nhà có sẵn. Khách có thể dùng máy giặt, và xe đưa đón sân bay có thể sắp xếp khi đặt phòng."
+      ]
+     ]
+    },
+    {
+     "h2": "Gợi ý đi chơi từ ứng dụng ASCON Guide",
+     "flow": [
+      [
+       "p",
+       "Ứng dụng ASCON Guide miễn phí có mục riêng cho trẻ em và gia đình."
+      ]
+     ]
+    },
+    {
+     "h2": "Chi tiết từng phòng",
+     "cards": [
+      [
+       "Karaoke & giải trí",
+       "room-entertainment",
+       "Phòng karaoke riêng trong nhà nguyên căn Quận 7: micro, PlayStation với PlayStation Plus và 2 tay cầm, máy chiếu 4K có màn chiếu chân đứng và TV 4K."
+      ],
+      [
+       "Phòng khách",
+       "room-living",
+       "Phòng khách khoảng 40 m² trong nhà nguyên căn Quận 7: sofa chữ L, TV 4K 75 inch, cửa kính, cây xanh và WiFi mesh tới 1 Gbit/s. Nơi cả nhà tụ họp."
+      ],
+      [
+       "Bếp & phòng ăn",
+       "room-kitchen",
+       "Bếp đầy đủ trong nhà nguyên căn Quận 7: bếp mặt kính đen, lò nướng, lò vi sóng, nồi cơm điện, nồi chiên không dầu, tủ lạnh khoảng 540 lít và máy giặt."
+      ],
+      [
+       "Phòng ngủ chính",
+       "room-master",
+       "Phòng ngủ chính khoảng 55 m²: giường 180×200 cm, TV 4K 55 inch, ban công riêng, bàn trang điểm có sạc không dây, bàn ủi và phòng tắm khép kín."
+      ],
+      [
+       "Phòng ngủ 2",
+       "room-bedroom-2",
+       "Phòng ngủ 2 trong nhà nguyên căn Quận 7: giường 160×200 cm, smart TV, rèm xám đậm và phòng tắm khép kín có nước nóng. Cửa mở ra hành lang."
+      ],
+      [
+       "Phòng ngủ 3",
+       "room-bedroom-3",
+       "Phòng ngủ 3 không có cửa sổ, tối và yên tĩnh: giường 160×200 cm, smart TV, tủ có khăn, ga và gối dự phòng, phòng tắm khép kín. Hợp cho bé ngủ trưa."
+      ],
+      [
+       "Phòng tắm",
+       "room-bathrooms",
+       "Mỗi phòng ngủ có phòng tắm khép kín, thêm 1 nhà vệ sinh khách cùng trang bị. Có nước nóng, dầu gội, sữa tắm, kem đánh răng, khăn tắm và dép."
+      ],
+      [
+       "Hành lang & góc làm việc",
+       "room-hallway",
+       "Hành lang dẫn vào phòng ngủ 2 và 3 có bàn làm việc cạnh cửa sổ, ghế lưới, đèn, bàn trang điểm, kệ giày có dép và WiFi mesh tới 1 Gbit/s."
+      ],
+      [
+       "Bên ngoài & bờ sông",
+       "room-outside",
+       "Nhà nguyên căn ven sông ở Sài Gòn: hiên lan can trắng có mái che, nhìn ra sông và đường chân trời Quận 1."
+      ],
+      [
+       "Sân thượng",
+       "rooftop",
+       "Sân thượng khoảng 56–60 m² với bếp nướng BBQ kiêm lò xông khói, sofa mây, bàn ăn, cây nhiệt đới, đèn năng lượng mặt trời và view sông nhìn về Quận 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Có phòng tối cho bé ngủ trưa không?",
+       "Có, phòng ngủ 3 không có cửa sổ."
+      ],
+      [
+       "Có giặt đồ được không?",
+       "Được, khách có thể dùng máy giặt."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Lên kế hoạch cho chuyến đi gia đình: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "groups": {
+   "title": "Nhà nguyên căn Sài Gòn cho nhóm: karaoke, BBQ | ASCON LIVING",
+   "description": "Nhà nguyên căn Quận 7 cho nhóm bạn và công ty: phòng karaoke riêng, PlayStation, BBQ sân thượng nhìn sông, WiFi mesh tới 1 Gbit/s. Nhận nhà bằng khóa mã số.",
+   "h1": "Nhà nguyên căn Quận 7 cho nhóm: hát karaoke, nướng BBQ, ở chung một nhà",
+   "lead": "Họp lớp, sinh nhật bạn thân hay chuyến đi của công ty sẽ vui hơn khi cả nhóm ở chung. ASCON LIVING có karaoke, game và tiệc nướng sân thượng trong cùng một căn nhà.",
+   "sections": [
+    {
+     "h2": "Tiện ích cho nhóm",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Micro và màn chiếu 4K"
+         ],
+         [
+          "Game",
+          "PlayStation, PlayStation Plus, 2 tay cầm"
+         ],
+         [
+          "Sân thượng",
+          "Khoảng 56–60 m², bếp nướng BBQ kiêm xông khói"
+         ],
+         [
+          "Tụ tập",
+          "Phòng khách khoảng 40 m², TV 4K 75 inch"
+         ],
+         [
+          "Làm việc",
+          "WiFi mesh tới 1 Gbit/s, bàn làm việc ở hành lang"
+         ],
+         [
+          "Phòng tắm",
+          "3 phòng tắm khép kín và 1 nhà vệ sinh khách"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Góc karaoke với đèn ambient cho buổi tối của nhóm"
+      ],
+      [
+       "ent-mics",
+       "Micro karaoke và điều khiển sẵn sàng cho cuộc thi hát"
+      ],
+      [
+       "ent-ps",
+       "PlayStation với tay cầm cho buổi tối chơi game"
+      ],
+      [
+       "roof-night",
+       "Khu thư giãn trên sân thượng buổi tối cho cả nhóm"
+      ],
+      [
+       "roof-bbq",
+       "Bếp nướng BBQ trên sân thượng cho tiệc nướng ngắm thành phố"
+      ],
+      [
+       "river-city",
+       "View sông nhìn về đường chân trời Quận 1 từ căn nhà"
+      ]
+     ]
+    },
+    {
+     "h2": "Tối đầu tiên: karaoke",
+     "flow": [
+      [
+       "p",
+       "Vừa cất vali là xuống phòng giải trí. Chọn bài, micro chuyền tay nhau. Không tính tiền theo giờ, không có phòng bên cạnh, chỉ có nhóm của bạn."
+      ]
+     ]
+    },
+    {
+     "h2": "Tối thứ hai: nướng trên sân thượng",
+     "flow": [
+      [
+       "p",
+       "Ghé chợ mua thịt, hải sản, rau, ướp sẵn trong tủ lạnh 540 lít rồi mang lên sân thượng. Bếp nướng dạng thùng dùng được cả để xông khói. Ăn xong, cả nhóm ngả lưng trên sofa mây ngắm đèn Quận 1 bên kia sông."
+      ],
+      [
+       "h3",
+       "Đấu PlayStation"
+      ],
+      [
+       "p",
+       "Chia hai đội, đấu PlayStation với hai tay cầm. Đội thua rửa chén sau buổi nướng."
+      ]
+     ]
+    },
+    {
+     "h2": "Cho chuyến công tác và team building",
+     "flow": [
+      [
+       "p",
+       "WiFi mesh tới 1 Gbit/s phủ mọi tầng, họp online hay tải file đều ổn. Phòng khách và bàn ăn có thể thành phòng họp nhỏ, còn bàn làm việc ở hành lang dành cho ai cần tập trung."
+      ]
+     ]
+    },
+    {
+     "h2": "Đến nơi dễ dàng",
+     "flow": [
+      [
+       "p",
+       "Thành viên đến bằng chuyến bay khác nhau vẫn tự vào nhà bằng khóa mã số, có chìa khóa riêng cho cổng ngoài. Xe đưa đón sân bay có thể sắp xếp khi đặt phòng."
+      ]
+     ]
+    },
+    {
+     "h2": "Giữ hòa khí với hàng xóm",
+     "flow": [
+      [
+       "p",
+       "Nhà nằm trong khu dân cư. Khuya rồi thì nhớ nói nhỏ trên sân thượng nhé."
+      ]
+     ]
+    },
+    {
+     "h2": "Chi tiết từng phòng",
+     "cards": [
+      [
+       "Karaoke & giải trí",
+       "room-entertainment",
+       "Phòng karaoke riêng trong nhà nguyên căn Quận 7: micro, PlayStation với PlayStation Plus và 2 tay cầm, máy chiếu 4K có màn chiếu chân đứng và TV 4K."
+      ],
+      [
+       "Phòng khách",
+       "room-living",
+       "Phòng khách khoảng 40 m² trong nhà nguyên căn Quận 7: sofa chữ L, TV 4K 75 inch, cửa kính, cây xanh và WiFi mesh tới 1 Gbit/s. Nơi cả nhà tụ họp."
+      ],
+      [
+       "Bếp & phòng ăn",
+       "room-kitchen",
+       "Bếp đầy đủ trong nhà nguyên căn Quận 7: bếp mặt kính đen, lò nướng, lò vi sóng, nồi cơm điện, nồi chiên không dầu, tủ lạnh khoảng 540 lít và máy giặt."
+      ],
+      [
+       "Phòng ngủ chính",
+       "room-master",
+       "Phòng ngủ chính khoảng 55 m²: giường 180×200 cm, TV 4K 55 inch, ban công riêng, bàn trang điểm có sạc không dây, bàn ủi và phòng tắm khép kín."
+      ],
+      [
+       "Phòng ngủ 2",
+       "room-bedroom-2",
+       "Phòng ngủ 2 trong nhà nguyên căn Quận 7: giường 160×200 cm, smart TV, rèm xám đậm và phòng tắm khép kín có nước nóng. Cửa mở ra hành lang."
+      ],
+      [
+       "Phòng ngủ 3",
+       "room-bedroom-3",
+       "Phòng ngủ 3 không có cửa sổ, tối và yên tĩnh: giường 160×200 cm, smart TV, tủ có khăn, ga và gối dự phòng, phòng tắm khép kín. Hợp cho bé ngủ trưa."
+      ],
+      [
+       "Phòng tắm",
+       "room-bathrooms",
+       "Mỗi phòng ngủ có phòng tắm khép kín, thêm 1 nhà vệ sinh khách cùng trang bị. Có nước nóng, dầu gội, sữa tắm, kem đánh răng, khăn tắm và dép."
+      ],
+      [
+       "Hành lang & góc làm việc",
+       "room-hallway",
+       "Hành lang dẫn vào phòng ngủ 2 và 3 có bàn làm việc cạnh cửa sổ, ghế lưới, đèn, bàn trang điểm, kệ giày có dép và WiFi mesh tới 1 Gbit/s."
+      ],
+      [
+       "Bên ngoài & bờ sông",
+       "room-outside",
+       "Nhà nguyên căn ven sông ở Sài Gòn: hiên lan can trắng có mái che, nhìn ra sông và đường chân trời Quận 1."
+      ],
+      [
+       "Sân thượng",
+       "rooftop",
+       "Sân thượng khoảng 56–60 m² với bếp nướng BBQ kiêm lò xông khói, sofa mây, bàn ăn, cây nhiệt đới, đèn năng lượng mặt trời và view sông nhìn về Quận 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Nhà có phòng karaoke không?",
+       "Có, phòng giải trí có micro karaoke và máy chiếu 4K."
+      ],
+      [
+       "Có nướng BBQ được không?",
+       "Được, trên sân thượng với bếp nướng kiêm lò xông khói."
+      ],
+      [
+       "Có phù hợp đi công tác không?",
+       "Có, WiFi tới 1 Gbit/s và có bàn làm việc."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Đặt nhà cho nhóm của bạn: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
      "cta": true
     }
    ]
   },
   "location": {
-   "title": "Vị trí: Tân Hưng, gần Phú Mỹ Hưng | ASCON LIVING",
-   "description": "Vị trí ASCON LIVING: 389A Trần Xuân Soạn, Tân Hưng (Quận 7 cũ), TP. Hồ Chí Minh, gần Phú Mỹ Hưng, ven sông. Thời gian di chuyển ước tính.",
-   "h1": "Vị trí: ven sông tại Tân Hưng, gần Phú Mỹ Hưng",
-   "lead": "389A Đường Trần Xuân Soạn, Tân Hưng, TP. Hồ Chí Minh – thuộc Quận 7 cũ, gần Phú Mỹ Hưng, ngay cạnh sông.",
+   "title": "Homestay Quận 7 ven sông, Tân Hưng | ASCON LIVING",
+   "description": "ASCON LIVING tại 389A Đường Trần Xuân Soạn, Tân Hưng, Quận 7, TP.HCM: nhà ven sông trong khu dân cư yên tĩnh, gần quán ăn và ẩm thực đường phố.",
+   "h1": "Vị trí: homestay Quận 7 nằm ngay bờ sông",
+   "lead": "Căn nhà nằm trong khu dân cư phường Tân Hưng, Quận 7, sát bờ sông. Bên kia sông là đường chân trời Quận 1, còn quanh nhà là nhịp sống bình yên của người dân địa phương.",
    "sections": [
     {
-     "h2": "Khu vực",
-     "p": [
-      "Từ đợt sắp xếp hành chính năm 2025, Quận 7 không còn là đơn vị quận; ngôi nhà hiện thuộc phường Tân Hưng. Nhiều người vẫn quen gọi khu vực này là Quận 7. Phú Mỹ Hưng là khu đô thị gần đó với trung tâm mua sắm, nhà hàng và công viên."
+     "h2": "Thông tin địa chỉ",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Hạng mục",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "Địa chỉ",
+          "389A Đường Trần Xuân Soạn, Tân Hưng, Quận 7, TP.HCM"
+         ],
+         [
+          "Khu vực",
+          "Khu dân cư ven sông"
+         ],
+         [
+          "Xung quanh",
+          "Quán ăn, hàng ăn vặt, ẩm thực đường phố"
+         ],
+         [
+          "Tầm nhìn",
+          "Sông và đường chân trời Quận 1"
+         ],
+         [
+          "Sân bay",
+          "Có thể sắp xếp xe đưa đón khi đặt phòng"
+         ],
+         [
+          "Ra vào",
+          "Khóa mã số và chìa khóa cổng ngoài"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-city",
+       "View sông nhìn về đường chân trời Quận 1 từ căn nhà"
+      ]
      ]
     },
     {
-     "h2": "Di chuyển (ước tính)",
-     "note": "Tất cả thời gian đều là ước tính đi ô tô và phụ thuộc nhiều vào giao thông.",
-     "ul": [
-      "Sân bay Tân Sơn Nhất (SGN): khoảng 30–60 phút (ước tính)",
-      "Trung tâm thành phố (Quận 1 cũ): khoảng 15–30 phút (ước tính)",
-      "Phú Mỹ Hưng: khoảng 10–15 phút (ước tính)"
+     "h2": "Vì sao chọn khu này",
+     "flow": [
+      [
+       "p",
+       "Trung tâm Sài Gòn lúc nào cũng tấp nập xe cộ và tiếng còi. Khu này có nhịp chậm hơn: ban ngày bạn đi chơi khắp thành phố, tối về một căn nhà yên tĩnh bên sông. Rất hợp với gia đình có con nhỏ hoặc nhóm muốn nghỉ ngơi thật sự."
+      ],
+      [
+       "h3",
+       "Không gian khu dân cư"
+      ],
+      [
+       "p",
+       "Tân Hưng là nơi người dân sinh sống, không phải khu du lịch. Sáng có hàng bánh mì, hủ tiếu đầu hẻm, chiều có trái cây tươi bày bán ven đường."
+      ]
+     ]
+    },
+    {
+     "h2": "Ăn uống quanh nhà",
+     "flow": [
+      [
+       "p",
+       "Gần nhà có nhiều quán ăn và hàng ăn đường phố, từ cơm tấm, bún đến cà phê sữa đá. Ứng dụng ASCON Guide gợi ý các quán gần nhà kèm bản đồ, để bạn khỏi phải đoán quán nào ngon."
+      ]
+     ]
+    },
+    {
+     "h2": "Di chuyển vào trung tâm",
+     "flow": [
+      [
+       "p",
+       "Muốn sang Quận 1, chợ hay bảo tàng, bạn chỉ cần gọi taxi hoặc xe công nghệ. Ứng dụng ASCON Guide giúp lên lịch trình và đánh dấu điểm đến trên bản đồ."
+      ]
+     ]
+    },
+    {
+     "h2": "Đến nơi lần đầu",
+     "flow": [
+      [
+       "p",
+       "Bay đêm từ Hà Nội hay từ nước ngoài? Xe đưa đón sân bay có thể sắp xếp cùng lúc đặt phòng. Đến nơi, mở cổng ngoài bằng chìa khóa và vào nhà bằng mã số, không cần chờ ai."
+      ]
+     ]
+    },
+    {
+     "h2": "Dòng sông trước nhà",
+     "flow": [
+      [
+       "p",
+       "Đặc sản của vị trí này chính là sông. Từ sân thượng và hiên, bạn nhìn thấy dòng nước, và ánh đèn Quận 1 bật sáng khi trời tối."
+      ]
      ]
     },
     {
      "h2": "Bản đồ",
      "p": [
-      "<a href=\"https://www.google.com/maps/search/?api=1&query=389A+Tr%E1%BA%A7n+Xu%C3%A2n+So%E1%BA%A1n+T%C3%A2n+H%C6%B0ng+Ho+Chi+Minh+City\" rel=\"noopener\">Mở địa chỉ trên Google Maps</a>. Hướng dẫn đến nhà chi tiết sẽ được gửi sau khi đặt phòng."
+      "<a href=\"https://www.google.com/maps/search/?api=1&query=389A+Tr%E1%BA%A7n+Xu%C3%A2n+So%E1%BA%A1n+T%C3%A2n+H%C6%B0ng+Ho+Chi+Minh+City\" rel=\"noopener\">Mở địa chỉ trên Google Maps</a>. Hướng dẫn đến nơi chi tiết được gửi sau khi đặt phòng."
      ]
     },
     {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Địa chỉ chính xác để báo tài xế?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, TP.HCM."
+      ],
+      [
+       "Khu vực có ồn không?",
+       "Không, đây là khu dân cư yên tĩnh hơn trung tâm."
+      ],
+      [
+       "Có đưa đón sân bay không?",
+       "Có, sắp xếp cùng lúc đặt phòng."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Cần hỗ trợ lên kế hoạch? Nhắn WhatsApp hoặc Zalo: +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "guide": {
+   "title": "Cẩm nang du lịch Sài Gòn cho khách | ASCON LIVING",
+   "description": "Ứng dụng ASCON Guide miễn phí: quán ăn, quán bar, hoạt động cho trẻ em, bản đồ và thông tin thiết thực ở Sài Gòn. Không cần mật khẩu.",
+   "h1": "Cẩm nang du lịch Sài Gòn trong điện thoại của bạn",
+   "lead": "Lần đầu đến Sài Gòn hay đã quen thành phố, ứng dụng ASCON Guide giúp bạn tìm quán ngon, chỗ chơi và mọi thông tin cần biết. Ứng dụng miễn phí, không cần mật khẩu.",
+   "sections": [
+    {
+     "h2": "Ứng dụng có gì",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Danh mục",
+         "Nội dung"
+        ],
+        "rows": [
+         [
+          "Ăn uống",
+          "Quán ăn và ẩm thực đường phố gần nhà và khắp thành phố"
+         ],
+         [
+          "Bar và về đêm",
+          "Quán bar, chỗ đi chơi buổi tối"
+         ],
+         [
+          "Trẻ em và gia đình",
+          "Hoạt động cho các bé"
+         ],
+         [
+          "Bản đồ",
+          "Mọi địa điểm được đánh dấu trên bản đồ"
+         ],
+         [
+          "Thông tin thiết thực",
+          "Những điều cần biết khi lưu trú"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng cẩm nang</a>"
+     ],
+     "cards": [
+      [
+       "Ứng dụng cẩm nang miễn phí",
+       "travel-guide",
+       "Mẹo địa phương, địa điểm và bản đồ TP. Hồ Chí Minh, miễn phí trên trình duyệt."
+      ]
+     ]
+    },
+    {
+     "h2": "Ăn như người Sài Gòn",
+     "flow": [
+      [
+       "p",
+       "Sài Gòn là thiên đường ăn uống: cơm tấm, hủ tiếu, bánh mì, ốc, cà phê sữa đá. Ứng dụng liệt kê các quán quanh Quận 7 và các khu khác, giúp bạn tránh những quán chỉ dành cho khách du lịch."
+      ],
+      [
+       "h3",
+       "Quán gần nhà"
+      ],
+      [
+       "p",
+       "Những tối không ai muốn nấu, mở ứng dụng là có ngay danh sách quán gần nhà."
+      ]
+     ]
+    },
+    {
+     "h2": "Dạo phố và tham quan",
+     "flow": [
+      [
+       "p",
+       "Từ những công trình kiến trúc Pháp ở Quận 1 đến chợ truyền thống và bảo tàng, mỗi địa điểm đều có trên bản đồ. Chỉ cần đưa cho tài xế taxi hoặc nhập vào ứng dụng xe công nghệ."
+      ]
+     ]
+    },
+    {
+     "h2": "Cho gia đình có con nhỏ",
+     "flow": [
+      [
+       "p",
+       "Mục trẻ em và gia đình gợi ý hoạt động phù hợp với các bé, kể cả cho những ngày mưa."
+      ]
+     ]
+    },
+    {
+     "h2": "Sau buổi nướng trên sân thượng",
+     "flow": [
+      [
+       "p",
+       "Còn muốn đi tiếp? Mục bar và về đêm có gợi ý để kết thúc buổi tối thật trọn vẹn."
+      ]
+     ]
+    },
+    {
+     "h2": "Thông tin thiết thực một chỗ",
+     "flow": [
+      [
+       "p",
+       "Cách vào nhà và những thông tin quan trọng khác được gom lại trong ứng dụng, không phải lục lại tin nhắn cũ."
+      ]
+     ]
+    },
+    {
+     "h2": "Mở ứng dụng",
+     "flow": [
+      [
+       "p",
+       "Ứng dụng miễn phí, không cần mật khẩu. Bạn có thể mở ứng dụng và lên lịch trình ngay từ trước chuyến đi."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Ứng dụng có cần mật khẩu không?",
+       "Không. Ứng dụng miễn phí và mở ngay trên trình duyệt điện thoại."
+      ],
+      [
+       "Có gợi ý cho trẻ em không?",
+       "Có, trong mục trẻ em và gia đình."
+      ],
+      [
+       "Địa điểm có trên bản đồ không?",
+       "Có, tất cả đều được đánh dấu."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Đặt phòng và nhận quyền truy cập ứng dụng: WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "faq": {
+   "title": "Hỏi đáp homestay Sài Gòn Quận 7 | ASCON LIVING",
+   "description": "Giải đáp về ASCON LIVING Quận 7: nhận nhà, phòng ngủ, phòng tắm, karaoke, BBQ sân thượng, WiFi, bếp và đặt nhà nguyên căn theo ngày.",
+   "h1": "Câu hỏi thường gặp về homestay của chúng tôi",
+   "lead": "Dưới đây là những câu khách hỏi nhiều nhất. Nếu chưa thấy câu trả lời, cứ nhắn cho chúng tôi.",
+   "sections": [
+    {
+     "h2": "Căn nhà có những gì?",
+     "faq": [
+      [
+       "Tôi có ở chung với khách khác không?",
+       "Không. Toàn bộ căn nhà 3 tầng và sân thượng chỉ dành cho nhóm của bạn."
+      ],
+      [
+       "Nhà rộng bao nhiêu?",
+       "Hơn 250 m², gồm 3 tầng và sân thượng khoảng 56–60 m²."
+      ],
+      [
+       "Nhà ở đâu?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Quận 7, TP.HCM, ngay bờ sông."
+      ]
+     ]
+    },
+    {
+     "h2": "Phòng ngủ và phòng tắm thế nào?",
+     "faq": [
+      [
+       "Giường cỡ nào?",
+       "Phòng ngủ chính khoảng 55 m² có giường 180×200 cm. Phòng ngủ 2 và 3 có giường 160×200 cm. Phòng ngủ 3 không có cửa sổ."
+      ],
+      [
+       "Có mấy phòng tắm?",
+       "3 phòng tắm khép kín và 1 nhà vệ sinh khách, trang bị như nhau."
+      ],
+      [
+       "Có cần mang đồ dùng cá nhân không?",
+       "Không cần. Có nước nóng, dầu gội, sữa tắm, kem đánh răng, khăn tắm. Dép đi trong nhà để ở lối vào."
+      ]
+     ]
+    },
+    {
+     "h2": "Có những tiện ích giải trí nào?",
+     "faq": [
+      [
+       "Có karaoke không?",
+       "Có micro karaoke, PlayStation với PlayStation Plus, máy chiếu 4K và TV 4K."
+      ],
+      [
+       "Có nướng BBQ được không?",
+       "Được. Bếp nướng trên sân thượng dùng được cả để xông khói."
+      ],
+      [
+       "Có Netflix không?",
+       "Có, tùy tài khoản đang hoạt động."
+      ]
+     ]
+    },
+    {
+     "h2": "Bếp và giặt giũ?",
+     "faq": [
+      [
+       "Có tự nấu ăn được không?",
+       "Được. Bếp có lò nướng, nồi cơm điện, nồi chiên không dầu và tủ lạnh khoảng 540 lít."
+      ],
+      [
+       "Có máy giặt không?",
+       "Có, khách được sử dụng. Dịch vụ giặt ủi theo yêu cầu (30 EUR mỗi mẻ)."
+      ]
+     ]
+    },
+    {
+     "h2": "Tiện ích khác",
+     "faq": [
+      [
+       "Có camera không?",
+       "Có camera ngoài trời ở lối vào."
+      ],
+      [
+       "Có két sắt không?",
+       "Có, kèm bàn ủi."
+      ]
+     ]
+    },
+    {
+     "h2": "Đặt và nhận nhà thế nào?",
+     "faq": [
+      [
+       "Nhận nhà ra sao?",
+       "Khóa mã số ở cửa và chìa khóa cổng ngoài. Thông tin gửi sau khi đặt phòng."
+      ],
+      [
+       "Có đưa đón sân bay không?",
+       "Có, sắp xếp cùng lúc đặt phòng."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Còn thắc mắc? Nhắn WhatsApp hoặc Zalo +84 909 410 382."
+     ],
      "cta": true
     }
    ]
   },
   "booking": {
-   "title": "Đặt ASCON LIVING: Airbnb, Trip.com & WhatsApp",
-   "description": "Đặt nhà nguyên căn ASCON LIVING tại TP. Hồ Chí Minh trên Airbnb hoặc Trip.com, hoặc liên hệ WhatsApp +84 909 410 382 và email.",
-   "h1": "Đặt phòng và liên hệ",
-   "lead": "Đặt cả ngôi nhà trên nền tảng bạn quen dùng, hoặc nhắn cho chúng tôi trước nếu có câu hỏi.",
+   "title": "Đặt nhà nguyên căn theo ngày Quận 7 | ASCON LIVING",
+   "description": "Đặt ASCON LIVING, nhà nguyên căn theo ngày tại Quận 7, qua WhatsApp/Zalo +84 909 410 382, email, Airbnb hoặc Trip.com. Có xe đưa đón sân bay.",
+   "h1": "Đặt nhà nguyên căn theo ngày tại Quận 7",
+   "lead": "Thích nhắn tin trực tiếp hay quen đặt qua ứng dụng, cách nào cũng được. Chỉ cần gửi ngày đến, ngày đi và vài thông tin về nhóm của bạn.",
    "sections": [
     {
-     "h2": "Đặt trực tuyến",
+     "h2": "Các bước đặt phòng",
+     "flow": [
+      [
+       "p",
+       "1. Gửi ngày đến và ngày đi qua WhatsApp, Zalo hoặc email."
+      ],
+      [
+       "p",
+       "2. Chúng tôi trả lời về ngày trống, giá, xe đưa đón và cách chia phòng."
+      ],
+      [
+       "p",
+       "3. Sau khi xác nhận, bạn nhận thông tin vào nhà. Ứng dụng ASCON Guide miễn phí, không cần mật khẩu."
+      ]
+     ]
+    },
+    {
+     "h2": "Liên hệ và nền tảng",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Kênh",
+         "Chi tiết"
+        ],
+        "rows": [
+         [
+          "WhatsApp",
+          "+84 909 410 382"
+         ],
+         [
+          "Zalo",
+          "+84 909 410 382"
+         ],
+         [
+          "Email",
+          "ascon.living@gmail.com"
+         ],
+         [
+          "Nền tảng",
+          "Airbnb và Trip.com"
+         ],
+         [
+          "Đưa đón",
+          "Sân bay, sắp xếp khi đặt phòng"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Giá thuê đã bao gồm",
+     "flow": [
+      [
+       "p",
+       "Toàn bộ căn nhà 3 tầng và sân thượng, ga giường và khăn tắm, nước nóng, dầu gội, sữa tắm, kem đánh răng, dép đi trong nhà, két sắt, bàn ủi, WiFi mesh tới 1 Gbit/s, phòng giải trí có karaoke và PlayStation, bếp nướng BBQ kiêm lò xông khói trên sân thượng. Khách được dùng máy giặt."
+      ]
+     ]
+    },
+    {
+     "h2": "Dịch vụ thêm",
+     "flow": [
+      [
+       "p",
+       "Xe đưa đón sân bay sắp xếp cùng lúc đặt phòng. Dịch vụ giặt ủi theo yêu cầu (30 EUR mỗi mẻ)."
+      ]
+     ]
+    },
+    {
+     "h2": "Đặt qua Airbnb hoặc Trip.com",
+     "flow": [
+      [
+       "p",
+       "Nếu bạn quen dùng ứng dụng đặt phòng, ASCON LIVING cũng có mặt trên Airbnb và Trip.com."
+      ],
+      [
+       "h3",
+       "Đặt trực tiếp"
+      ],
+      [
+       "p",
+       "Nhắn trực tiếp giúp bạn hỏi kỹ về chia phòng, đưa đón và các nhu cầu riêng của nhóm."
+      ]
+     ]
+    },
+    {
+     "h2": "Sau khi đặt phòng",
+     "flow": [
+      [
+       "p",
+       "Bạn nhận mã số mở cửa, thông tin chìa khóa cổng ngoài; ứng dụng ASCON Guide miễn phí giúp bạn bắt đầu lên danh sách quán ăn, điểm chơi."
+      ]
+     ]
+    },
+    {
+     "h2": "Mẹo nhỏ",
+     "flow": [
+      [
+       "p",
+       "Dịp lễ, Tết và cuối tuần thường kín lịch sớm. Hãy liên hệ sớm để giữ được ngày bạn muốn."
+      ]
+     ]
+    },
+    {
      "cta": true
     },
     {
      "h2": "Liên hệ",
      "p": [
       "Điện thoại và WhatsApp: <a href=\"tel:{phone_e164}\">{phone}</a>",
-      "Email: <a href=\"mailto:{email}\">{email}</a>",
-      "Chúng tôi trả lời bằng tiếng Việt, Anh, Đức, Hindi, Punjabi hoặc Urdu."
+      "Zalo: <a href=\"https://zalo.me/84909410382\" rel=\"noopener\">{phone}</a>",
+      "Email: <a href=\"mailto:{email}\">{email}</a>"
      ]
     },
     {
-     "h2": "Dịch vụ thêm theo yêu cầu",
-     "ul": [
-      "Đưa đón sân bay: theo yêu cầu",
-      "Giặt ủi: 30 EUR mỗi mẻ",
-      "Gửi hành lý: miễn phí"
-     ]
-    }
-   ]
-  },
-  "faq": {
-   "title": "Hỏi đáp: nhận phòng, nội quy, dịch vụ | ASCON LIVING",
-   "description": "Câu hỏi thường gặp về ASCON LIVING: giờ nhận và trả phòng, tự nhận phòng, phòng ngủ, thú cưng, hút thuốc, đưa đón sân bay và giặt ủi.",
-   "h1": "Câu hỏi thường gặp",
-   "lead": "Trả lời nhanh trước khi bạn đặt phòng.",
-   "sections": [
-    {
+     "h2": "Câu hỏi thường gặp",
      "faq": [
       [
-       "Nhà có bao nhiêu phòng ngủ và phòng tắm?",
-       "3 phòng ngủ với 3 giường (một giường 180×200 cm, hai giường 160×200 cm). Mỗi phòng ngủ có phòng tắm và máy lạnh riêng, ngoài ra có WC cho khách ở khu sinh hoạt chung, trang bị như các phòng tắm khác."
+       "Có đặt trực tiếp được không?",
+       "Được, qua WhatsApp, Zalo hoặc email."
       ],
       [
-       "Đặt phòng như thế nào?",
-       "Đặt trực tiếp trên Airbnb hoặc Trip.com, hoặc nhắn tin cho chúng tôi qua WhatsApp hay Zalo (+84 909 410 382)."
+       "Có trên nền tảng nào?",
+       "Airbnb và Trip.com."
       ],
       [
-       "Giờ nhận và trả phòng?",
-       "Nhận phòng từ 14:00 đến 23:00, trả phòng trước 12:00."
-      ],
-      [
-       "Nhận phòng như thế nào?",
-       "Tự nhận phòng bằng mã số. Cổng ngoài dùng chìa khóa; hướng dẫn được gửi sau khi đặt."
-      ],
-      [
-       "Có phải thuê nguyên căn không?",
-       "Đúng, bạn thuê cả ngôi nhà khoảng, bao gồm sân thượng."
-      ],
-      [
-       "Có đưa đón sân bay không?",
-       "Có, theo yêu cầu."
-      ],
-      [
-       "Có giặt đồ được không?",
-       "Có máy giặt cho khách dùng và bàn ủi, ngoài ra có dịch vụ giặt ủi (30 EUR mỗi mẻ)."
-      ],
-      [
-       "Có gửi hành lý được không?",
-       "Có, miễn phí."
-      ],
-      [
-       "Có cho mang thú cưng không?",
-       "Không."
-      ],
-      [
-       "Có được hút thuốc không?",
-       "Chỉ ở khu vực quy định."
-      ],
-      [
-       "Chủ nhà nói những ngôn ngữ nào?",
-       "Tiếng Việt, Anh, Đức, Hindi, Punjabi và Urdu."
+       "Có đặt kèm xe đưa đón sân bay được không?",
+       "Được, sắp xếp cùng lúc đặt phòng."
       ]
      ]
     }
    ]
   },
   "rules": {
-   "title": "Nội quy | ASCON LIVING nhà nguyên căn Quận 7",
-   "description": "Nội quy ASCON LIVING: nhận phòng 14:00–23:00, trả phòng trước 12:00, không thú cưng, chỉ hút thuốc ở khu vực quy định.",
-   "h1": "Nội quy",
-   "lead": "Vài quy định đơn giản để mọi người đều thoải mái.",
+   "title": "Nội quy nhà ASCON LIVING Quận 7",
+   "description": "Nội quy ASCON LIVING Quận 7: cách vào nhà, giày dép, bếp, nướng BBQ trên sân thượng, và hàng xóm. Liên hệ chúng tôi qua WhatsApp hoặc Zalo.",
+   "h1": "Nội quy nhà để ai cũng thoải mái",
+   "lead": "Trong thời gian lưu trú, căn nhà là của bạn. Chúng tôi tin khách sẽ giữ gìn như nhà mình. Dưới đây là vài điều nhỏ cần lưu ý.",
    "sections": [
     {
-     "ul": [
-      "Nhận phòng 14:00–23:00, trả phòng trước 12:00",
-      "Giữ yên tĩnh vào buổi tối để tôn trọng hàng xóm",
-      "Không mang thú cưng",
-      "Chỉ hút thuốc ở khu vực quy định",
-      "Vui lòng giữ gìn nhà và tôn trọng hàng xóm",
-      "Vui lòng đóng cổng và dùng mã số theo hướng dẫn"
-     ]
-    }
-   ]
-  },
-  "guide": {
-   "title": "Cẩm nang du lịch TP. Hồ Chí Minh | ASCON LIVING",
-   "description": "Mẹo thực tế cho TP. Hồ Chí Minh: đi cùng gia đình và di chuyển từ sân bay Tân Sơn Nhất về nhà.",
-   "h1": "Cẩm nang du lịch TP. Hồ Chí Minh",
-   "lead": "Hướng dẫn ngắn gọn, thiết thực cho chuyến đi Sài Gòn.",
-   "sections": [
-    {
-     "cards": [
+     "h2": "Tóm tắt",
+     "flow": [
       [
-       "Ứng dụng ASCON LIVING Guide",
-       "guide-app",
-       "Ứng dụng miễn phí: địa điểm, chỉ đường, mẹo hay."
-      ],
-      [
-       "TP. Hồ Chí Minh cùng gia đình",
-       "guide-family",
-       "Mẹo cho chuyến đi gia đình thoải mái."
-      ],
-      [
-       "Đưa đón sân bay",
-       "guide-airport",
-       "Từ Tân Sơn Nhất về nhà."
+       "table",
+       {
+        "head": [
+         "Việc",
+         "Lưu ý"
+        ],
+        "rows": [
+         [
+          "Vào nhà",
+          "Khóa mã số và chìa khóa cổng ngoài"
+         ],
+         [
+          "Giày dép",
+          "Cởi ở lối vào, mang dép trong nhà"
+         ],
+         [
+          "Bếp",
+          "Dọn dẹp sau khi nấu"
+         ],
+         [
+          "BBQ",
+          "Không để lửa không người trông, tắt hẳn sau khi dùng"
+         ],
+         [
+          "Hàng xóm",
+          "Khu dân cư, nói nhỏ vào buổi tối"
+         ],
+         [
+          "Camera",
+          "Camera ngoài trời ở lối vào"
+         ]
+        ]
+       }
       ]
      ]
     },
     {
-     "note": "Miễn phí, không cần mật khẩu.",
+     "h2": "Quy định cơ bản",
+     "flow": [
+      [
+       "ul",
+       [
+        "Nhận phòng 14:00–23:00, trả phòng 12:00.",
+        "Theo luật Việt Nam, khách lưu trú cần đăng ký tạm trú.",
+        "Không hút thuốc trong nhà; chỉ hút ở khu vực ngoài trời được chỉ định.",
+        "Mở nhạc lớn đến 21:30.",
+        "Không tổ chức tiệc tùng ồn ào.",
+        "Chỉ khách đã đăng ký được lưu trú."
+       ]
+      ]
+     ]
+    },
+    {
+     "h2": "Khóa cửa và cổng",
+     "flow": [
+      [
+       "p",
+       "Cửa mở bằng khóa mã số, cổng ngoài bằng chìa khóa. Đừng chia sẻ mã cho người ngoài nhóm, và nhớ khóa cổng khi cả nhà ra ngoài."
+      ]
+     ]
+    },
+    {
+     "h2": "Trong nhà",
+     "flow": [
+      [
+       "p",
+       "Cởi giày ở lối vào và mang dép có sẵn để sàn luôn sạch. Khách được dùng máy giặt. Cất hộ chiếu và đồ giá trị trong két sắt."
+      ],
+      [
+       "h3",
+       "Bếp"
+      ],
+      [
+       "p",
+       "Cứ nấu thoải mái. Ăn xong rửa chén hoặc để lại đúng chỗ để lần sau dùng tiếp."
+      ],
+      [
+       "h3",
+       "Phòng giải trí"
+      ],
+      [
+       "p",
+       "Dùng micro, tay cầm PlayStation và máy chiếu nhẹ nhàng, cẩn thận."
+      ]
+     ]
+    },
+    {
+     "h2": "Nướng trên sân thượng",
+     "flow": [
+      [
+       "p",
+       "Khách được dùng bếp nướng BBQ và lò xông khói. Luôn có người trông lửa, để trẻ em tránh xa bếp và dập lửa hoàn toàn sau khi nướng xong."
+      ]
+     ]
+    },
+    {
+     "h2": "Tình làng nghĩa xóm",
+     "flow": [
+      [
+       "p",
+       "ASCON LIVING nằm trong khu dân cư. Khi trời đã khuya, hãy nói nhỏ, nhất là trên sân thượng và ban công."
+      ]
+     ]
+    },
+    {
+     "h2": "Câu hỏi thường gặp",
+     "faq": [
+      [
+       "Vào nhà bằng cách nào?",
+       "Khóa mã số ở cửa và chìa khóa cổng ngoài."
+      ],
+      [
+       "Có sự cố thì liên hệ ai?",
+       "Chúng tôi, qua WhatsApp hoặc Zalo."
+      ]
+     ]
+    },
+    {
      "p": [
-      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng ASCON Guide</a>"
+      "Có câu hỏi về nội quy? WhatsApp hoặc Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "travel-guide": {
+   "title": "Ứng dụng cẩm nang du lịch TP. Hồ Chí Minh miễn phí",
+   "description": "Ứng dụng cẩm nang du lịch miễn phí của ASCON: mẹo địa phương, quán ăn, điểm tham quan, bản đồ và thông tin hữu ích tại TP. Hồ Chí Minh.",
+   "h1": "Ứng dụng cẩm nang du lịch miễn phí cho TP. Hồ Chí Minh",
+   "lead": "ASCON Guide là ứng dụng web miễn phí với mẹo địa phương và các địa điểm quanh TP. Hồ Chí Minh. Ứng dụng mở ngay trên trình duyệt điện thoại: không cần mật khẩu, không cần cài đặt.",
+   "sections": [
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng cẩm nang</a>"
+     ]
+    },
+    {
+     "h2": "Bên trong ứng dụng",
+     "p": [
+      "Đây là ảnh chụp màn hình thật của ứng dụng trên điện thoại."
+     ],
+     "imgs": [
+      [
+       "tg-welcome",
+       "Màn hình chào với logo và khẩu hiệu ASCON LIVING"
+      ],
+      [
+       "tg-picker",
+       "Chọn ngôn ngữ: ứng dụng có mười ngôn ngữ"
+      ],
+      [
+       "tg-categories",
+       "Danh mục: ẩm thực, cà phê, bar, vui chơi cùng trẻ em và nhiều hơn nữa"
+      ],
+      [
+       "tg-map",
+       "Bản đồ các địa điểm quanh nhà"
+      ],
+      [
+       "tg-practical",
+       "Thông tin thực tế và trợ giúp khẩn cấp"
+      ]
+     ]
+    },
+    {
+     "h2": "Mẹo địa phương và địa điểm",
+     "p": [
+      "Các địa điểm được chia thành danh mục rõ ràng: ẩm thực, cà phê và tráng miệng, bar và về đêm, trẻ em và gia đình, tham quan và văn hóa, hoạt động, thư giãn, mua sắm, đi chơi trong ngày, cùng thông tin thực tế và khẩn cấp. Bản đồ hiển thị các địa điểm quanh nhà, chạm vào Chỉ đường để mở hướng dẫn đường đi.",
+      "Bạn có thể thêm ứng dụng vào màn hình chính. Xem thêm gợi ý trong <a href=\"{L}guide/\">cẩm nang du lịch TP. Hồ Chí Minh</a>.",
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng cẩm nang</a>"
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  },
+  "imprint": {
+   "title": "Thông tin pháp lý | ASCON LIVING",
+   "description": "Thông tin pháp lý của ASCON LIVING: đơn vị vận hành, mã số đăng ký kinh doanh, địa chỉ tại Tân Hưng (Quận 7 cũ), TP. Hồ Chí Minh và thông tin liên hệ.",
+   "h1": "Thông tin pháp lý",
+   "lead": "",
+   "sections": [
+    {
+     "p": [
+      "<strong>Đơn vị vận hành:</strong> CÔNG TY TNHH ASCON LIVING VIỆT NAM",
+      "<strong>Mã số doanh nghiệp:</strong> 0319549605",
+      "<strong>Địa chỉ:</strong> 389A Đường Trần Xuân Soạn, Tân Hưng, TP. Hồ Chí Minh, Việt Nam",
+      "<strong>Điện thoại / WhatsApp:</strong> <a href=\"tel:{phone_e164}\">{phone}</a>",
+      "<strong>Email:</strong> <a href=\"mailto:{email}\">{email}</a>",
+      "Tất cả ảnh đều chụp ngôi nhà thật."
+     ]
+    }
+   ]
+  },
+  "privacy": {
+   "title": "Chính sách bảo mật | ASCON LIVING",
+   "description": "Chính sách bảo mật của website ASCON LIVING: không cookie, không công cụ phân tích, lưu trữ trên GitHub Pages.",
+   "h1": "Chính sách bảo mật",
+   "lead": "",
+   "sections": [
+    {
+     "p": [
+      "Website này là trang tĩnh lưu trữ trên GitHub Pages (GitHub, Inc.). Khi bạn truy cập, GitHub có thể xử lý dữ liệu kỹ thuật như địa chỉ IP trong nhật ký máy chủ vì mục đích bảo mật; xem chính sách quyền riêng tư của GitHub.",
+      "Chúng tôi không dùng cookie, công cụ phân tích hay theo dõi.",
+      "Một số phiên bản ngôn ngữ tải phông chữ từ Google Fonts, khi đó địa chỉ IP của bạn được gửi đến Google.",
+      "Khi bạn liên hệ qua WhatsApp, điện thoại hoặc email, chúng tôi chỉ dùng dữ liệu để trả lời và phục vụ kỳ nghỉ của bạn. Đặt phòng trên Airbnb hoặc Trip.com tuân theo chính sách của các nền tảng đó.",
+      "Đơn vị chịu trách nhiệm: CÔNG TY TNHH ASCON LIVING VIỆT NAM, 389A Đường Trần Xuân Soạn, Tân Hưng, TP. Hồ Chí Minh, Việt Nam, <a href=\"mailto:{email}\">{email}</a>. Bạn có thể yêu cầu xem hoặc xóa dữ liệu bất cứ lúc nào."
      ]
     }
    ]
@@ -741,42 +3094,7 @@
     {
      "h2": "Thời gian di chuyển",
      "p": [
-      "Đi ô tô khoảng 30–60 phút (ước tính); giờ cao điểm có thể lâu hơn."
-     ]
-    }
-   ]
-  },
-  "imprint": {
-   "title": "Thông tin pháp lý | ASCON LIVING",
-   "description": "Thông tin pháp lý của ASCON LIVING: đơn vị vận hành, mã số đăng ký kinh doanh, địa chỉ tại Tân Hưng (Quận 7 cũ), TP. Hồ Chí Minh và thông tin liên hệ.",
-   "h1": "Thông tin pháp lý",
-   "lead": "",
-   "sections": [
-    {
-     "p": [
-      "<strong>Đơn vị vận hành:</strong> CÔNG TY TNHH ASCON LIVING VIỆT NAM",
-      "<strong>Mã số doanh nghiệp:</strong> 0319549605",
-      "<strong>Địa chỉ:</strong> 389A Đường Trần Xuân Soạn, Tân Hưng, TP. Hồ Chí Minh, Việt Nam",
-      "<strong>Điện thoại / WhatsApp:</strong> <a href=\"tel:{phone_e164}\">{phone}</a>",
-      "<strong>Email:</strong> <a href=\"mailto:{email}\">{email}</a>",
-      "Tất cả ảnh đều chụp ngôi nhà thật."
-     ]
-    }
-   ]
-  },
-  "privacy": {
-   "title": "Chính sách bảo mật | ASCON LIVING",
-   "description": "Chính sách bảo mật của website ASCON LIVING: không cookie, không công cụ phân tích, lưu trữ trên GitHub Pages.",
-   "h1": "Chính sách bảo mật",
-   "lead": "",
-   "sections": [
-    {
-     "p": [
-      "Website này là trang tĩnh lưu trữ trên GitHub Pages (GitHub, Inc.). Khi bạn truy cập, GitHub có thể xử lý dữ liệu kỹ thuật như địa chỉ IP trong nhật ký máy chủ vì mục đích bảo mật; xem chính sách quyền riêng tư của GitHub.",
-      "Chúng tôi không dùng cookie, công cụ phân tích hay theo dõi.",
-      "Một số phiên bản ngôn ngữ tải phông chữ từ Google Fonts, khi đó địa chỉ IP của bạn được gửi đến Google.",
-      "Khi bạn liên hệ qua WhatsApp, điện thoại hoặc email, chúng tôi chỉ dùng dữ liệu để trả lời và phục vụ kỳ nghỉ của bạn. Đặt phòng trên Airbnb hoặc Trip.com tuân theo chính sách của các nền tảng đó.",
-      "Đơn vị chịu trách nhiệm: CÔNG TY TNHH ASCON LIVING VIỆT NAM, 389A Đường Trần Xuân Soạn, Tân Hưng, TP. Hồ Chí Minh, Việt Nam, <a href=\"mailto:{email}\">{email}</a>. Bạn có thể yêu cầu xem hoặc xóa dữ liệu bất cứ lúc nào."
+      "Thời gian đi ô tô phụ thuộc nhiều vào giao thông; nên dự trù thêm thời gian, nhất là vào giờ cao điểm."
      ]
     }
    ]
@@ -839,58 +3157,6 @@
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng ASCON Guide</a>"
      ]
-    }
-   ]
-  },
-  "travel-guide": {
-   "title": "Ứng dụng cẩm nang du lịch TP. Hồ Chí Minh miễn phí",
-   "description": "Ứng dụng cẩm nang du lịch miễn phí của ASCON: mẹo địa phương, quán ăn, điểm tham quan, bản đồ và thông tin hữu ích tại TP. Hồ Chí Minh.",
-   "h1": "Ứng dụng cẩm nang du lịch miễn phí cho TP. Hồ Chí Minh",
-   "lead": "ASCON Guide là ứng dụng web miễn phí với mẹo địa phương và các địa điểm quanh TP. Hồ Chí Minh. Ứng dụng mở ngay trên trình duyệt điện thoại: không cần mật khẩu, không cần cài đặt.",
-   "sections": [
-    {
-     "p": [
-      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng cẩm nang</a>"
-     ]
-    },
-    {
-     "h2": "Bên trong ứng dụng",
-     "p": [
-      "Đây là ảnh chụp màn hình thật của ứng dụng trên điện thoại."
-     ],
-     "imgs": [
-      [
-       "tg-welcome",
-       "Màn hình chào với logo và khẩu hiệu ASCON LIVING"
-      ],
-      [
-       "tg-picker",
-       "Chọn ngôn ngữ: ứng dụng có mười ngôn ngữ"
-      ],
-      [
-       "tg-categories",
-       "Danh mục: ẩm thực, cà phê, bar, vui chơi cùng trẻ em và nhiều hơn nữa"
-      ],
-      [
-       "tg-map",
-       "Bản đồ các địa điểm quanh nhà"
-      ],
-      [
-       "tg-practical",
-       "Thông tin thực tế và trợ giúp khẩn cấp"
-      ]
-     ]
-    },
-    {
-     "h2": "Mẹo địa phương và địa điểm",
-     "p": [
-      "Các địa điểm được chia thành danh mục rõ ràng: ẩm thực, cà phê và tráng miệng, bar và về đêm, trẻ em và gia đình, tham quan và văn hóa, hoạt động, thư giãn, mua sắm, đi chơi trong ngày, cùng thông tin thực tế và khẩn cấp. Bản đồ hiển thị các địa điểm quanh nhà, chạm vào Chỉ đường để mở hướng dẫn đường đi.",
-      "Bạn có thể thêm ứng dụng vào màn hình chính. Xem thêm gợi ý trong <a href=\"{L}guide/\">cẩm nang du lịch TP. Hồ Chí Minh</a>.",
-      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng cẩm nang</a>"
-     ]
-    },
-    {
-     "cta": true
     }
    ]
   }
