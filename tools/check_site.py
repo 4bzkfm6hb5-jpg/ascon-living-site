@@ -16,6 +16,7 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     s=open(f).read(); n+=1
     txt=re.sub(r'<script.*?</script>|<style.*?</style>','',s,flags=re.S)
     plain=re.sub('<[^>]+>',' ',txt)
+    if 'noindex' not in s and '"inLanguage"' not in s: errs.append((f,'inLanguage','missing'))
     for m in bad.finditer(plain): errs.append((f,'word',m.group(0)))
     for m in bad2.finditer(plain): errs.append((f,'word',m.group(0)))
     for m in re.finditer(r'alt="([^"]*)"',s):
