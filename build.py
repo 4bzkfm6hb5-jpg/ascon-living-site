@@ -75,7 +75,7 @@ def legal(code):
         else: o.append(f'<a href="{url("en",k)}" hreflang="en" lang="en">{C["en"]["pages"][k]["h1"]}</a>')
     return '<br>'.join(o)
 import unicodedata
-CJK={'ko','ja','zh'}
+CJK={'ko','ja','zh','zh-tw'}
 def width(s): return sum(2 if unicodedata.east_asian_width(ch) in 'WF' else 1 for ch in s)
 def glen(s): return sum(1 for ch in s if unicodedata.category(ch)!='Mn')  # Thai: combining vowel/tone marks are not counted
 def seo_bad(code,p,suffix):
