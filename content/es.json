@@ -1,0 +1,3158 @@
+{
+ "ui": {
+  "skip": "Ir al contenido",
+  "languages": "Idioma",
+  "book_airbnb": "Reservar en Airbnb",
+  "book_trip": "Reservar en Trip.com",
+  "whatsapp": "Reservar por WhatsApp",
+  "zalo": "Reservar por Zalo",
+  "address_label": "Dirección",
+  "contact_label": "Contacto",
+  "more_label": "Más",
+  "guest_guide": "App guía para huéspedes",
+  "read_more": "Leer más",
+  "source": "Fuente",
+  "estimate": "estimación",
+  "home": "Inicio",
+  "not_found_title": "Página no encontrada",
+  "not_found_text": "Esta página no existe. Ir al inicio:",
+  "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON."
+ },
+ "nav": [
+  [
+   "home",
+   "Inicio"
+  ],
+  [
+   "house",
+   "La casa"
+  ],
+  [
+   "rooftop",
+   "Azotea"
+  ],
+  [
+   "families",
+   "Familias"
+  ],
+  [
+   "groups",
+   "Grupos"
+  ],
+  [
+   "location",
+   "Ubicación"
+  ],
+  [
+   "booking",
+   "Reserva y contacto"
+  ],
+  [
+   "faq",
+   "Preguntas frecuentes"
+  ],
+  [
+   "rules",
+   "Normas"
+  ],
+  [
+   "guide",
+   "Guía de viaje"
+  ],
+  [
+   "travel-guide",
+   "App guía"
+  ]
+ ],
+ "pages": {
+  "room-entertainment": {
+   "title": "Karaoke privado y PlayStation en Saigón | ASCON LIVING",
+   "description": "Sala de karaoke privada en una casa de Ho Chi Minh: micrófonos, PlayStation con PlayStation Plus y 2 mandos, proyector 4K con pantalla de trípode y TV 4K.",
+   "h1": "Tu sala privada de karaoke y ocio",
+   "lead": "En ASCON LIVING no hace falta buscar un local de karaoke: la sala de ocio está dentro de la casa y es solo para vosotros.",
+   "cover": [
+    "ent",
+    "Sala de ocio con sofá gris, pufs cúbicos y pósteres de anime enmarcados, casa con karaoke en Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "Equipamiento",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Micrófonos"
+         ],
+         [
+          "Consola",
+          "PlayStation con PlayStation Plus"
+         ],
+         [
+          "Mandos",
+          "2"
+         ],
+         [
+          "Proyector",
+          "4K en el techo, pantalla de trípode"
+         ],
+         [
+          "Televisor",
+          "4K"
+         ],
+         [
+          "Streaming",
+          "Netflix, según la cuenta activa"
+         ],
+         [
+          "Asientos",
+          "Sofá gris y pufs cúbicos"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Sala de karaoke con luz LED verde, sofá, mesas bajas y televisor de pared"
+      ],
+      [
+       "ent-cinema",
+       "Pantalla del proyector 4K sobre trípode en la sala a oscuras"
+      ],
+      [
+       "ent-tv",
+       "Gran televisor de pared, líneas LED de colores y sofá gris"
+      ],
+      [
+       "ent-mics",
+       "Micrófonos de karaoke y mandos sobre una mesa baja de aspecto piedra"
+      ],
+      [
+       "ent-ps",
+       "PlayStation de pared con dos mandos"
+      ]
+     ]
+    },
+    {
+     "h2": "Cantar sin mirar el reloj",
+     "flow": [
+      [
+       "p",
+       "Se elige canción, la letra aparece en la pantalla del proyector 4K y el micrófono va pasando. Sin tarifa por horas y sin otros grupos al otro lado de la pared."
+      ]
+     ]
+    },
+    {
+     "h2": "Torneos de PlayStation",
+     "flow": [
+      [
+       "p",
+       "La PlayStation de pared, con PlayStation Plus y dos mandos, espera los duelos entre hermanos o compañeros de trabajo."
+      ]
+     ]
+    },
+    {
+     "h2": "Cine en casa",
+     "flow": [
+      [
+       "p",
+       "Apaga la luz, coloca la pantalla de trípode y pon una película con el proyector 4K. Netflix está disponible según la cuenta activa. Para ver algo de forma más sencilla, está el televisor 4K."
+      ]
+     ]
+    },
+    {
+     "h2": "Un ambiente distinto",
+     "flow": [
+      [
+       "p",
+       "Sofá gris mullido, pufs, pósteres de anime enmarcados y líneas LED de colores: la atmósfera se diferencia del resto de la casa."
+      ],
+      [
+       "h3",
+       "Refugio para días de lluvia"
+      ],
+      [
+       "p",
+       "Cuando cae el chaparrón tropical, esta es la habitación más animada, para niños y mayores."
+      ]
+     ]
+    },
+    {
+     "h2": "Cómo se organiza la noche",
+     "flow": [
+      [
+       "p",
+       "Lo cómodo es empezar con la cena en la azotea y bajar después a la sala de ocio. Los mandos a distancia y los micrófonos están sobre la mesa baja de aspecto piedra; los mandos de la PlayStation, junto a la consola en la pared. Con la luz LED verde encendida, la sala queda lista para la primera canción."
+      ]
+     ]
+    },
+    {
+     "h2": "Pensar en los vecinos",
+     "flow": [
+      [
+       "p",
+       "La casa está en un barrio residencial: a última hora, mejor bajar el volumen."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Hay karaoke?",
+       "Sí, con micrófonos de karaoke."
+      ],
+      [
+       "¿Hay PlayStation?",
+       "Sí, con PlayStation Plus y dos mandos."
+      ],
+      [
+       "¿Se puede ver Netflix?",
+       "Sí, según la cuenta activa."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Reserva una casa con karaoke propio: WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-living": {
+   "title": "Salón de 40 m² con TV 4K de 75\" | ASCON LIVING",
+   "description": "Salón de unos 40 m² en una casa entera en Ho Chi Minh: sofá en L, televisor 4K de 75 pulgadas, puertas de cristal, plantas y WiFi mesh de hasta 1 Gbit/s.",
+   "h1": "El salón, el corazón de la casa",
+   "lead": "El día empieza con un café en el sofá y termina con una película en pantalla grande. El salón de unos 40 m² es donde todo el mundo se encuentra.",
+   "cover": [
+    "living",
+    "Salón con sofá en L en una casa entera de alquiler, Saigón"
+   ],
+   "sections": [
+    {
+     "h2": "Características",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Superficie",
+          "Unos 40 m²"
+         ],
+         [
+          "Televisor",
+          "4K, 75 pulgadas"
+         ],
+         [
+          "Sofá",
+          "En L"
+         ],
+         [
+          "Luz",
+          "Puertas de cristal, plantas"
+         ],
+         [
+          "WiFi",
+          "Mesh de hasta 1 Gbit/s"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "living-2",
+       "Salón luminoso con sofá y plantas"
+      ],
+      [
+       "living-tv",
+       "Televisor 4K de 75 pulgadas en el salón para noches de película"
+      ],
+      [
+       "living-3",
+       "Zona de estar junto a las puertas de cristal del salón"
+      ]
+     ]
+    },
+    {
+     "h2": "Cine en casa",
+     "flow": [
+      [
+       "p",
+       "El televisor 4K de 75 pulgadas convierte el salón en una pequeña sala de cine: película en familia, partido de fútbol con amigos o dibujos por la mañana para los niños."
+      ],
+      [
+       "h3",
+       "Noche de película"
+      ],
+      [
+       "p",
+       "Se bajan las luces, sale la bolsa de palomitas y todo el grupo se acomoda."
+      ]
+     ]
+    },
+    {
+     "h2": "Un sofá para todos",
+     "flow": [
+      [
+       "p",
+       "El sofá en L permite sentarse cara a cara. El sitio ideal para planear el día siguiente o enseñar las fotos del día."
+      ]
+     ]
+    },
+    {
+     "h2": "Luminoso y fresco",
+     "flow": [
+      [
+       "p",
+       "Las puertas de cristal dejan entrar la luz natural y las plantas aportan un aire tropical."
+      ]
+     ]
+    },
+    {
+     "h2": "Trabajar desde el sofá",
+     "flow": [
+      [
+       "p",
+       "El WiFi mesh de hasta 1 Gbit/s llega al salón, así que el portátil también tiene sitio aquí. Para más calma, hay un escritorio en el pasillo."
+      ]
+     ]
+    },
+    {
+     "h2": "Cerca de la cocina y de la azotea",
+     "flow": [
+      [
+       "p",
+       "La cocina y la mesa de comedor están al lado: quien cocina no se pierde la conversación. A la hora de la barbacoa, la azotea queda a unos tramos de escalera."
+      ]
+     ]
+    },
+    {
+     "h2": "Un día en el salón",
+     "flow": [
+      [
+       "p",
+       "Por la mañana, alguien toma café en el sofá mientras los niños ven dibujos en la pantalla grande. A mediodía, con calor, se vuelve del mercado, se dejan las compras en la cocina y se descansa junto a las puertas de cristal, entre plantas. Por la noche, el salón se convierte en cine. Y si apetece karaoke, la sala de ocio con micrófonos, PlayStation y proyector 4K está en la misma casa."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Qué superficie tiene el salón?",
+       "Unos 40 m²."
+      ],
+      [
+       "¿Qué televisor hay?",
+       "4K, de 75 pulgadas."
+      ],
+      [
+       "¿Llega el WiFi al salón?",
+       "Sí, mesh de hasta 1 Gbit/s."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "¿Quieres saber más de la casa? WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-kitchen": {
+   "title": "Cocina equipada y comedor | ASCON LIVING Ho Chi Minh",
+   "description": "Cocina equipada en una casa del Distrito 7: placa de cristal negro, horno, microondas, arrocera, freidora de aire, frigorífico de unos 540 L y lavadora.",
+   "h1": "Cocina y comedor: cocinar como en casa",
+   "lead": "La comida callejera de Saigón es fantástica, pero tarde o temprano apetece un plato casero. En la cocina de ASCON LIVING cabe de todo, del desayuno sencillo a la gran cena.",
+   "cover": [
+    "kitchen",
+    "Cocina equipada con mesa de comedor en la casa de Saigón"
+   ],
+   "sections": [
+    {
+     "h2": "Equipamiento",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Cocción",
+          "Placa con superficie de cristal negro, horno"
+         ],
+         [
+          "Pequeños electrodomésticos",
+          "Microondas, arrocera, hervidor, freidora de aire, tostadora"
+         ],
+         [
+          "Frigorífico",
+          "Unos 540 litros"
+         ],
+         [
+          "Vajilla",
+          "Platos y cuencos en los armarios"
+         ],
+         [
+          "Ropa",
+          "Lavadora, la pueden usar los huéspedes"
+         ],
+         [
+          "Comidas",
+          "Mesa junto a la ventana"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-2",
+       "Encimera de cocina con azulejos estampados"
+      ],
+      [
+       "kitchen-3",
+       "Encimera con electrodomésticos para cocinar en casa"
+      ],
+      [
+       "kitchen-dishes",
+       "Armario de cocina con platos y cuencos"
+      ],
+      [
+       "kitchen-rice",
+       "Arrocera sobre la encimera"
+      ],
+      [
+       "kitchen-micro",
+       "Microondas en la cocina"
+      ],
+      [
+       "kitchen-fridge",
+       "Frigorífico grande con espacio para la compra del grupo"
+      ],
+      [
+       "kitchen-dining",
+       "Mesa de comedor junto a la ventana de la cocina"
+      ]
+     ]
+    },
+    {
+     "h2": "Del mercado a la sartén",
+     "flow": [
+      [
+       "p",
+       "Por la mañana, pasa por el mercado del barrio a por hierbas frescas, mangos y pescado, y cocínalo a tu manera. La arrocera asegura arroz caliente cada día y la freidora de aire salva los platos rápidos."
+      ]
+     ]
+    },
+    {
+     "h2": "Un frigorífico grande para el grupo",
+     "flow": [
+      [
+       "p",
+       "Unos 540 litros: espacio para la compra de todo el grupo, las bebidas frías de la azotea y la carne marinada para la barbacoa de la noche."
+      ]
+     ]
+    },
+    {
+     "h2": "El desayuno de cada uno",
+     "flow": [
+      [
+       "p",
+       "Tostadas, huevos, café o papilla para el pequeño: la tostadora, el hervidor y el microondas se encargan."
+      ]
+     ]
+    },
+    {
+     "h2": "La mesa junto a la ventana",
+     "flow": [
+      [
+       "p",
+       "La mesa de comedor, junto a la ventana de la cocina, acoge el desayuno sin prisas antes de salir, la cena compartida y la partida de cartas de la noche."
+      ],
+      [
+       "h3",
+       "Lavar la ropa en casa"
+      ],
+      [
+       "p",
+       "Los huéspedes pueden usar la lavadora, muy práctico en estancias largas. También hay servicio de lavandería bajo petición."
+      ]
+     ]
+    },
+    {
+     "h2": "La cocina antes de la barbacoa",
+     "flow": [
+      [
+       "p",
+       "Antes de una noche en la azotea, la cocina es el cuartel general: la carne y el marisco se marinan en el frigorífico, las verduras se cortan en la encimera de azulejos estampados y el arroz se hace en la arrocera. Luego todo sube a la azotea, donde espera la barbacoa que también funciona como ahumador."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Hay arrocera?",
+       "Sí."
+      ],
+      [
+       "¿Se puede usar la lavadora?",
+       "Sí, los huéspedes pueden usarla."
+      ],
+      [
+       "¿Qué capacidad tiene el frigorífico?",
+       "Unos 540 litros."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "¿Quieres cocinar durante tu estancia? WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-master": {
+   "title": "Dormitorio principal de 55 m² con balcón | ASCON LIVING",
+   "description": "Dormitorio principal de unos 55 m²: cama de 180×200 cm, TV 4K de 55 pulgadas, balcón, tocador con cargador inalámbrico, plancha y baño en suite.",
+   "h1": "El dormitorio principal: unos 55 m² de calma",
+   "lead": "Esta habitación es más grande que muchos pisos de ciudad. Ideal para padres que quieren su espacio, para una pareja que celebra algo especial o para quien organizó el viaje y se merece la mejor habitación.",
+   "cover": [
+    "bed1",
+    "Dormitorio principal con cama de 180×200 cm, cabecero crema y gran ventanal, Saigón"
+   ],
+   "sections": [
+    {
+     "h2": "La habitación en detalle",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Superficie",
+          "Unos 55 m²"
+         ],
+         [
+          "Cama",
+          "180×200 cm"
+         ],
+         [
+          "Televisor",
+          "4K, 55 pulgadas"
+         ],
+         [
+          "Exterior",
+          "Balcón propio"
+         ],
+         [
+          "Tocador",
+          "Espejo redondo iluminado, cargador inalámbrico"
+         ],
+         [
+          "Otros",
+          "Plancha, baño en suite"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "bed1-3",
+       "Dormitorio principal de unos 55 m² con televisor de pared, ventilador de pie y plantas junto a la ventana"
+      ],
+      [
+       "bed1-2",
+       "Tocador con espejo redondo iluminado y listones negros hacia el baño en suite"
+      ]
+     ]
+    },
+    {
+     "h2": "Dormir a pierna suelta",
+     "flow": [
+      [
+       "p",
+       "La cama de 180×200 cm deja espacio de sobra para dos. El cabecero crema y el gran ventanal con cortinas crean un ambiente sereno después de un día en el bullicio de Saigón."
+      ]
+     ]
+    },
+    {
+     "h2": "El café de la mañana en el balcón",
+     "flow": [
+      [
+       "p",
+       "Levántate antes que nadie, prepara un café vietnamita y sal al balcón. Un rato de calma antes de que la casa despierte."
+      ]
+     ]
+    },
+    {
+     "h2": "Película desde la cama",
+     "flow": [
+      [
+       "p",
+       "El televisor 4K de 55 pulgadas en la pared permite terminar el día con una película sin bajar al salón."
+      ]
+     ]
+    },
+    {
+     "h2": "Un tocador práctico",
+     "flow": [
+      [
+       "p",
+       "El espejo redondo iluminado ayuda a arreglarse para la cena. Deja el móvil sobre el cargador inalámbrico y se carga mientras te preparas. Hay plancha a disposición."
+      ],
+      [
+       "h3",
+       "Baño propio"
+      ],
+      [
+       "p",
+       "En el baño en suite esperan agua caliente, champú, gel de ducha, pasta de dientes y toallas."
+      ]
+     ]
+    },
+    {
+     "h2": "Una noche en el dormitorio principal",
+     "flow": [
+      [
+       "p",
+       "Tras la cena en la azotea, puedes retirarte antes que el resto: ducha con agua caliente en tu propio baño, una película en el televisor de 55 pulgadas y la cama de 180×200 cm. Junto al ventanal hay plantas y un ventilador de pie. Por la mañana, café en el balcón y preparativos en el tocador mientras el móvil se carga sin cables. La camisa arrugada de la maleta queda lista con la plancha antes de salir a cenar."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Qué tamaño tiene la cama?",
+       "180×200 cm."
+      ],
+      [
+       "¿Tiene balcón?",
+       "Sí, propio."
+      ],
+      [
+       "¿Hay televisor?",
+       "Sí, 4K de 55 pulgadas."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Reserva el dormitorio principal para tu viaje: WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-2": {
+   "title": "Dormitorio 2 con cama de 160×200 cm | ASCON LIVING",
+   "description": "Dormitorio 2 en una casa del Distrito 7 de Ho Chi Minh: cama de 160×200 cm, smart TV, cortinas gris oscuro y baño en suite con agua caliente.",
+   "h1": "Dormitorio 2: un refugio para dos",
+   "lead": "La puerta del dormitorio 2 da al pasillo, junto al dormitorio 3. Una opción cómoda para una pareja, dos hermanos o dos amigos.",
+   "cover": [
+    "bed2",
+    "Dormitorio 2 con cama de 160×200 cm, cabecero crema y cuadro de paisaje verde"
+   ],
+   "sections": [
+    {
+     "h2": "Características",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Cama",
+          "160×200 cm"
+         ],
+         [
+          "Televisor",
+          "Smart TV de pared"
+         ],
+         [
+          "Ventana",
+          "Cortinas gris oscuro"
+         ],
+         [
+          "Baño",
+          "En suite"
+         ],
+         [
+          "Acceso",
+          "Puerta desde el pasillo"
+         ],
+         [
+          "Decoración",
+          "Panel de puerta con motivo de hojas, cuadro de paisaje verde"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "bed2-2",
+       "Dormitorio 2 con cortinas gris oscuro, smart TV y ventilador de pie"
+      ],
+      [
+       "bed2-3",
+       "Panel de puerta con hojas de colores, smart TV de pared y planta en el dormitorio 2"
+      ]
+     ]
+    },
+    {
+     "h2": "Una cama para dos",
+     "flow": [
+      [
+       "p",
+       "La cama de 160×200 cm con cabecero crema acoge cómodamente a dos adultos. El cuadro de paisaje verde sobre la cama aporta un toque de naturaleza."
+      ]
+     ]
+    },
+    {
+     "h2": "Descanso con smart TV",
+     "flow": [
+      [
+       "p",
+       "Un capítulo antes de dormir en la smart TV de pared. Las cortinas gris oscuro mantienen la habitación en penumbra por la mañana."
+      ]
+     ]
+    },
+    {
+     "h2": "Baño propio",
+     "flow": [
+      [
+       "p",
+       "Sin colas en el pasillo. El baño en suite tiene agua caliente, champú, gel de ducha, pasta de dientes y toallas."
+      ]
+     ]
+    },
+    {
+     "h2": "Su lugar en la casa",
+     "flow": [
+      [
+       "p",
+       "La habitación comparte pasillo con el dormitorio 3 y está cerca del escritorio: práctico para familias que quieren a los niños cerca."
+      ],
+      [
+       "h3",
+       "Para quién"
+      ],
+      [
+       "p",
+       "Pareja joven, hermanos adolescentes o dos compañeros en viaje de trabajo."
+      ]
+     ]
+    },
+    {
+     "h2": "Un día en el dormitorio 2",
+     "flow": [
+      [
+       "p",
+       "Por la mañana no hay prisa: el baño está a dos pasos, con agua caliente, champú y gel de ducha a mano. Tras las cortinas gris oscuro, la habitación sigue en calma, y el ventilador de pie ayuda en los días de calor. Por la noche, después del karaoke o de la barbacoa en la azotea, apetece volver, encender la smart TV y descansar. Si hay que contestar algún correo, el escritorio del pasillo está al lado. El panel de puerta con hojas de colores y la planta dan vida al espacio."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Qué tamaño tiene la cama?",
+       "160×200 cm."
+      ],
+      [
+       "¿Hay televisor?",
+       "Sí, smart TV."
+      ],
+      [
+       "¿Tiene baño propio?",
+       "Sí, en suite."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Hablemos del reparto de dormitorios: WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-3": {
+   "title": "Dormitorio 3 sin ventana, oscuro y tranquilo | ASCON LIVING",
+   "description": "Dormitorio 3 sin ventana, oscuro y silencioso: cama de 160×200 cm, smart TV, armario con toallas, sábanas y almohadas de repuesto, y baño en suite.",
+   "h1": "Dormitorio 3: oscuridad total para dormir bien",
+   "lead": "El dormitorio 3 no tiene ventana. Justamente esa es su ventaja: sigue oscuro y tranquilo incluso con el sol de Saigón en lo más alto.",
+   "cover": [
+    "bed3",
+    "Dormitorio 3 sin ventana con cama de 160×200 cm, cabecero crema y paneles de listones"
+   ],
+   "sections": [
+    {
+     "h2": "Características",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Cama",
+          "160×200 cm"
+         ],
+         [
+          "Televisor",
+          "Smart TV de pared"
+         ],
+         [
+          "Ventana",
+          "Ninguna"
+         ],
+         [
+          "Armario",
+          "Puertas de cristal, toallas, sábanas y almohadas de repuesto"
+         ],
+         [
+          "Baño",
+          "En suite"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "bed3-2",
+       "Dormitorio 3 con smart TV de pared, ventilador de pie y armario con puertas de cristal"
+      ],
+      [
+       "bed3-3",
+       "Armario abierto del dormitorio 3 con toallas, sábanas y almohadas de repuesto"
+      ]
+     ]
+    },
+    {
+     "h2": "Oscuro todo el día",
+     "flow": [
+      [
+       "p",
+       "Sin ventana, la luz del día no entra. Los pequeños duermen la siesta con más facilidad, y quien sufre el desfase horario o disfruta de dormir hasta tarde lo agradece."
+      ]
+     ]
+    },
+    {
+     "h2": "Limpio y moderno",
+     "flow": [
+      [
+       "p",
+       "La cama de 160×200 cm con cabecero crema y los paneles de pared de listones le dan un estilo actual. La smart TV de pared está lista para unos capítulos antes de dormir."
+      ]
+     ]
+    },
+    {
+     "h2": "Ropa de repuesto",
+     "flow": [
+      [
+       "p",
+       "El armario de puertas de cristal guarda toallas, sábanas y almohadas extra: no hace falta pedirlas."
+      ]
+     ]
+    },
+    {
+     "h2": "Baño propio",
+     "flow": [
+      [
+       "p",
+       "Como los demás dormitorios, el dormitorio 3 tiene su baño con agua caliente, champú, gel de ducha y pasta de dientes."
+      ],
+      [
+       "h3",
+       "La organización familiar"
+      ],
+      [
+       "p",
+       "Los niños en el dormitorio 3, los padres en el dormitorio 2, justo al lado. Las dos puertas dan al mismo pasillo."
+      ]
+     ]
+    },
+    {
+     "h2": "A quién le gustará más",
+     "flow": [
+      [
+       "p",
+       "A quien llega en un vuelo nocturno y quiere dormir de día. A los padres que buscan una habitación oscura para la siesta de después de comer. A los adolescentes que ven series hasta tarde en la smart TV. El ventilador de pie y el armario de cristal quedan a mano, y el escritorio del pasillo está a unos pasos para quien necesite trabajar un rato."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿La habitación tiene ventana?",
+       "No, el dormitorio 3 no tiene ventana."
+      ],
+      [
+       "¿Qué tamaño tiene la cama?",
+       "160×200 cm."
+      ],
+      [
+       "¿Hay almohadas extra?",
+       "Sí, en el armario con las toallas y las sábanas."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "¿Necesitas una habitación oscura para los peques? WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bathrooms": {
+   "title": "3 baños en suite y aseo de cortesía | ASCON LIVING",
+   "description": "Cada dormitorio tiene su baño, más un aseo de cortesía con el mismo equipamiento. Agua caliente, champú, gel de ducha, pasta de dientes y toallas.",
+   "h1": "Baños: uno para cada dormitorio",
+   "lead": "La cola para el baño es un clásico de los viajes en grupo. En ASCON LIVING no existe: tres baños en suite y, además, un aseo de cortesía.",
+   "cover": [
+    "bath",
+    "Ducha negro mate, teleducha y dispensadores en pared de azulejo crema efecto mármol"
+   ],
+   "sections": [
+    {
+     "h2": "En resumen",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Número",
+          "3 baños en suite y 1 aseo de cortesía"
+         ],
+         [
+          "Agua",
+          "Agua caliente"
+         ],
+         [
+          "Artículos",
+          "Champú, gel de ducha, pasta de dientes"
+         ],
+         [
+          "Toallas",
+          "Toallas blancas"
+         ],
+         [
+          "Zapatillas",
+          "En la entrada"
+         ],
+         [
+          "Otros",
+          "Secador de pared, espejo redondo"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "bath-4",
+       "Rociador de ducha negro, dos dispensadores y estante en el baño en suite"
+      ],
+      [
+       "bath-2",
+       "Espejo redondo con marco negro sobre repisa de cristal, toalla blanca en el toallero"
+      ],
+      [
+       "bath-3",
+       "Toallas blancas en el toallero de pared del baño en suite"
+      ],
+      [
+       "bath-5",
+       "Secador de pared sobre el lavabo blanco"
+      ],
+      [
+       "bath-6",
+       "Repisa de cristal con vaso negro y cepillos de dientes envueltos"
+      ]
+     ]
+    },
+    {
+     "h2": "Mañanas sin esperas",
+     "flow": [
+      [
+       "p",
+       "Cada dormitorio tiene su baño: todos se preparan a la vez y salen a su hora."
+      ]
+     ]
+    },
+    {
+     "h2": "Una ducha moderna",
+     "flow": [
+      [
+       "p",
+       "Ducha efecto lluvia en negro mate, teleducha y dispensadores de pared sobre azulejo crema efecto mármol. El agua caliente espera después de un día al sol."
+      ]
+     ]
+    },
+    {
+     "h2": "Maletas más ligeras",
+     "flow": [
+      [
+       "p",
+       "Champú, gel de ducha y pasta de dientes están incluidos, igual que cepillos de dientes envueltos. Las toallas blancas cuelgan del toallero."
+      ],
+      [
+       "h3",
+       "Arreglarse rápido"
+      ],
+      [
+       "p",
+       "Espejo redondo con marco negro sobre una repisa de cristal y secador de pared para estar listo para la cena."
+      ]
+     ]
+    },
+    {
+     "h2": "El aseo de cortesía",
+     "flow": [
+      [
+       "p",
+       "El aseo de cortesía está equipado como los demás baños: práctico cuando todos están en el salón o en la azotea."
+      ]
+     ]
+    },
+    {
+     "h2": "Dónde está cada cosa",
+     "flow": [
+      [
+       "p",
+       "El champú y el gel de ducha están en los dispensadores de pared junto a la ducha. Los cepillos envueltos, la pasta de dientes y el vaso negro, en la repisa de cristal bajo el espejo. Las toallas blancas cuelgan del toallero y el secador está fijado en la pared, encima del lavabo blanco. Las zapatillas de casa esperan en el mueble zapatero de la entrada, para no ir descalzo por la casa."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Hay agua caliente?",
+       "Sí."
+      ],
+      [
+       "¿Hace falta traer champú?",
+       "No, hay champú, gel de ducha y pasta de dientes."
+      ],
+      [
+       "¿Hay zapatillas?",
+       "Sí, en la entrada."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "¿Dudas sobre el equipamiento? WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-hallway": {
+   "title": "Espacio de trabajo para teletrabajar | ASCON LIVING",
+   "description": "Pasillo hacia los dormitorios 2 y 3: escritorio, silla de malla, lámpara, tocador, zapatero con zapatillas y WiFi mesh de hasta 1 Gbit/s.",
+   "h1": "Pasillo y rincón de trabajo: calma para concentrarse",
+   "lead": "¿De vacaciones pero con correos pendientes? En el pasillo entre los dormitorios 2 y 3 hay un escritorio junto a la ventana, lejos del televisor y del karaoke.",
+   "cover": [
+    "hall",
+    "Pasillo con dos puertas negras hacia los dormitorios 2 y 3"
+   ],
+   "sections": [
+    {
+     "h2": "Qué hay en el pasillo",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Escritorio",
+          "Patas de metal negro, silla de malla negra, lámpara"
+         ],
+         [
+          "Puertas",
+          "Dos puertas negras a los dormitorios 2 y 3"
+         ],
+         [
+          "Decoración",
+          "Tres cuadros de grullas, plantas, alfombra"
+         ],
+         [
+          "Tocador",
+          "Gris, espejo redondo, silla blanca"
+         ],
+         [
+          "Entrada",
+          "Listones negros, zapatero con zapatillas, banco"
+         ],
+         [
+          "Escalera",
+          "Granito oscuro, barandilla de metal negro, apliques"
+         ],
+         [
+          "WiFi",
+          "Mesh de hasta 1 Gbit/s"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "stairs",
+       "Escalera de granito oscuro con barandilla de metal negro vista desde arriba"
+      ],
+      [
+       "entrance",
+       "Entrada con listones negros y escalera"
+      ],
+      [
+       "hall-desk",
+       "Escritorio y silla de malla negra junto a una ventana con cortinas grises, cuadros de grullas y plantas"
+      ],
+      [
+       "workspace-2",
+       "Tres cuadros de grullas blancas sobre fondo gris encima de las plantas"
+      ],
+      [
+       "hall-landing",
+       "Dos puertas negras y rincón de trabajo sobre baldosa gris efecto mármol"
+      ],
+      [
+       "hall-vanity",
+       "Tocador gris con espejo redondo y silla blanca"
+      ],
+      [
+       "hall-shoes",
+       "Zapatero negro con zapatillas en la entrada"
+      ]
+     ]
+    },
+    {
+     "h2": "Una pequeña oficina junto a la ventana",
+     "flow": [
+      [
+       "p",
+       "Escritorio con patas metálicas, silla de malla cómoda y lámpara: suficiente para una jornada. ¿Ojos cansados? Una mirada por la ventana. El WiFi mesh de hasta 1 Gbit/s mantiene fluidas las videollamadas."
+      ],
+      [
+       "h3",
+       "Por la mañana trabajo, por la tarde ciudad"
+      ],
+      [
+       "p",
+       "Termina los asuntos por la mañana, explora la ciudad por la tarde y cierra el día con barbacoa en la azotea."
+      ]
+     ]
+    },
+    {
+     "h2": "Las puertas de los dormitorios",
+     "flow": [
+      [
+       "p",
+       "Dos puertas negras, una al lado de la otra, llevan a los dormitorios 2 y 3. El suelo de baldosa gris efecto mármol y las paredes crema dan una sensación serena. Los padres pueden ver a los niños por la noche en un momento."
+      ]
+     ]
+    },
+    {
+     "h2": "El rincón para arreglarse",
+     "flow": [
+      [
+       "p",
+       "Junto a la puerta de cristal, un tocador gris con espejo redondo y silla blanca: el último vistazo antes de salir."
+      ]
+     ]
+    },
+    {
+     "h2": "Una entrada ordenada",
+     "flow": [
+      [
+       "p",
+       "Listones negros, armario empotrado con colgadores, zapatero negro con zapatillas y banco. Fuera zapatos, zapatillas puestas, y la casa sigue limpia."
+      ]
+     ]
+    },
+    {
+     "h2": "Escalera y seguridad",
+     "flow": [
+      [
+       "p",
+       "La escalera de granito oscuro, con barandilla de metal negro y apliques de pared, une las plantas."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Hay escritorio?",
+       "Sí, en el pasillo, con silla y lámpara."
+      ],
+      [
+       "¿A qué dormitorios dan las puertas del pasillo?",
+       "A los dormitorios 2 y 3."
+      ],
+      [
+       "¿Hay zapatillas de casa?",
+       "Sí, en el zapatero de la entrada."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "¿Vas a teletrabajar desde Saigón? WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-outside": {
+   "title": "Casa junto al río en Ho Chi Minh | ASCON LIVING",
+   "description": "Casa junto al río en Ho Chi Minh: terraza con barandilla blanca y toldo, vistas al agua y al perfil del Distrito 1.",
+   "h1": "Alojarse junto al río, en plena ciudad",
+   "lead": "En Ho Chi Minh hay pocos alojamientos realmente al borde del agua. En ASCON LIVING, el río pasa por delante de la casa y las torres del Distrito 1 se levantan en la otra orilla.",
+   "cover": [
+    "hero",
+    "Casa con vistas al río en Ho Chi Minh, terraza con barandilla blanca y perfil del Distrito 1"
+   ],
+   "sections": [
+    {
+     "h2": "Los espacios exteriores",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Río",
+          "Delante de la casa, vistas al Distrito 1"
+         ],
+         [
+          "Terraza",
+          "Barandilla de metal blanco y toldo"
+         ],
+         [
+          "Verde",
+          "Plantas en maceta"
+         ],
+         [
+          "Cámaras",
+          "Cámaras exteriores en la entrada"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-city",
+       "Vista hacia el perfil del Distrito 1 desde la casa"
+      ]
+     ]
+    },
+    {
+     "h2": "La vida en el río",
+     "flow": [
+      [
+       "p",
+       "Siéntate y observa. Unas vistas que no salen de la ventana de un hotel, sino de la terraza de tu casa."
+      ]
+     ]
+    },
+    {
+     "h2": "La terraza, mañana y tarde",
+     "flow": [
+      [
+       "p",
+       "La terraza con barandilla blanca y toldo es ideal para el café de la mañana con la brisa del río o para esperar la puesta de sol antes de cenar."
+      ]
+     ]
+    },
+    {
+     "h2": "Intimidad protegida",
+     "flow": [
+      [
+       "p",
+       "Hay cámaras exteriores en la entrada. Dentro de la casa no hay ninguna."
+      ],
+      [
+       "h3",
+       "Las vistas más amplias"
+      ],
+      [
+       "p",
+       "Sube a la azotea: desde allí el río se ve mejor que en ningún sitio, con barbacoa incluida."
+      ]
+     ]
+    },
+    {
+     "h2": "Un día al aire libre",
+     "flow": [
+      [
+       "p",
+       "Por la mañana, café en la terraza mientras el río despierta. Por la tarde, el grupo sube a la azotea para la barbacoa, y al anochecer las luces del Distrito 1 se reflejan en el agua."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿La casa está de verdad junto al río?",
+       "Sí, el río está justo delante."
+      ],
+      [
+       "¿Dónde están las cámaras?",
+       "Hay cámaras exteriores en la entrada."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "¿Te apetece dormir junto al río? WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "rooftop": {
+   "title": "Azotea con barbacoa y ahumador en Saigón | ASCON LIVING",
+   "description": "Azotea de unos 56–60 m²: barbacoa y ahumador, sofá de ratán, mesa de comedor, plantas tropicales, luces solares y perfil del Distrito 1.",
+   "h1": "La azotea: barbacoa frente al Distrito 1",
+   "lead": "Cuando el cielo se vuelve naranja, todo el mundo sube. Unos 56–60 m² para asar, charlar y ver cómo se encienden las luces del Distrito 1 al otro lado del río.",
+   "sections": [
+    {
+     "h2": "Equipamiento de la azotea",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Superficie",
+          "Unos 56–60 m²"
+         ],
+         [
+          "Barbacoa",
+          "Barbacoa de barril negra, que también hace de ahumador, con bandeja lateral"
+         ],
+         [
+          "Descanso",
+          "Sofá de ratán oscuro, cojines crema, pufs acolchados"
+         ],
+         [
+          "Comidas",
+          "Mesa oscura y sillas de ratán"
+         ],
+         [
+          "Verde",
+          "Plantas tropicales en jardineras largas"
+         ],
+         [
+          "Luz",
+          "Luces solares, guirnaldas bajo el toldo"
+         ],
+         [
+          "Sombra",
+          "Toldo sobre parte de la azotea"
+         ],
+         [
+          "Vistas",
+          "Río y perfil del Distrito 1"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "roof-terrace",
+       "Casa con vistas al río: azotea frente al perfil del Distrito 1"
+      ],
+      [
+       "river-balcony",
+       "Vista desde la barandilla del balcón rodeada de plantas"
+      ],
+      [
+       "river-city",
+       "Vista hacia el perfil del Distrito 1 desde la casa"
+      ],
+      [
+       "roof-day",
+       "Azotea de día con sofá de ratán oscuro, cojines crema y jardineras largas"
+      ],
+      [
+       "roof-lounge",
+       "Mesa oscura y sillas de ratán con cojines crema en la azotea"
+      ],
+      [
+       "roof-night",
+       "Zona de descanso en la azotea de noche bajo guirnaldas y luces solares"
+      ],
+      [
+       "roof-evening",
+       "Sofá de ratán con cojines crema en la azotea al atardecer"
+      ],
+      [
+       "roof-evening-2",
+       "Zona de comedor en la azotea bajo el toldo iluminado"
+      ],
+      [
+       "roof-bbq",
+       "Barbacoa de barril negra junto a la barandilla blanca de la azotea"
+      ],
+      [
+       "roof-skyline",
+       "Perfil de la ciudad de noche desde la azotea"
+      ]
+     ]
+    },
+    {
+     "h2": "Barbacoa y ahumador",
+     "flow": [
+      [
+       "p",
+       "La barbacoa de barril negra, junto a la barandilla blanca, tiene una bandeja lateral para los ingredientes. Asa cerdo, pollo, verduras o marisco del mercado, o ahuma a fuego lento. La carne puede marinarse antes en el frigorífico de 540 litros de la cocina."
+      ]
+     ]
+    },
+    {
+     "h2": "El sofá de ratán de las largas charlas",
+     "flow": [
+      [
+       "p",
+       "Después de comer, todos pasan al sofá de ratán oscuro con cojines crema. Las conversaciones y las risas se alargan hasta tarde."
+      ]
+     ]
+    },
+    {
+     "h2": "Cenar bajo las luces",
+     "flow": [
+      [
+       "p",
+       "Mesa oscura y sillas de ratán bajo el toldo iluminado: la cena se convierte en un momento especial, sea barbacoa casera o comida para llevar de un restaurante."
+      ]
+     ]
+    },
+    {
+     "h2": "Unas vistas que se recuerdan",
+     "flow": [
+      [
+       "p",
+       "Al otro lado del río, el perfil del Distrito 1 cambia de color al atardecer. Ya de noche, las luces de las torres se reflejan en el agua: el fondo perfecto para la foto de grupo."
+      ],
+      [
+       "h3",
+       "Cuando llega la noche"
+      ],
+      [
+       "p",
+       "Se encienden las guirnaldas y las luces solares, y el ambiente se vuelve acogedor. La casa está en un barrio residencial, así que a última hora se habla más bajo."
+      ]
+     ]
+    },
+    {
+     "h2": "Una tarde en la azotea",
+     "flow": [
+      [
+       "p",
+       "Mientras alguien enciende la barbacoa, otros suben bebidas frías y platos desde la cocina. Las plantas tropicales de las jardineras dan sombra y verde, el toldo protege la mesa, y desde la barandilla blanca se ve el río. Cuando el sol baja, el grupo se reparte entre la mesa y el sofá, y la noche sigue tranquila."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Se puede hacer barbacoa en la azotea?",
+       "Sí, la barbacoa también funciona como ahumador."
+      ],
+      [
+       "¿Qué superficie tiene la azotea?",
+       "Unos 56–60 m²."
+      ],
+      [
+       "¿Se ve el río?",
+       "Sí, junto con las torres del Distrito 1."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Organiza tu noche de barbacoa: WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "house": {
+   "title": "Casa entera en Ho Chi Minh, estancia por estancia | ASCON",
+   "description": "Tres plantas y azotea: 3 dormitorios con baño, salón de unos 40 m², cocina equipada y sala de karaoke con proyector 4K.",
+   "h1": "La casa: tu alojamiento en Ho Chi Minh, estancia por estancia",
+   "lead": "Tres plantas, azotea y más de 250 m² solo para tu grupo. Aquí tienes las fotos y el equipamiento de cada estancia.",
+   "sections": [
+    {
+     "h2": "Las estancias en detalle",
+     "cards": [
+      [
+       "Karaoke y ocio",
+       "room-entertainment",
+       "Sala de karaoke privada en una casa de Ho Chi Minh: micrófonos, PlayStation con PlayStation Plus y 2 mandos, proyector 4K con pantalla de trípode y TV 4K."
+      ],
+      [
+       "Salón",
+       "room-living",
+       "Salón de unos 40 m² en una casa entera en Ho Chi Minh: sofá en L, televisor 4K de 75 pulgadas, puertas de cristal, plantas y WiFi mesh de hasta 1 Gbit/s."
+      ],
+      [
+       "Cocina y comedor",
+       "room-kitchen",
+       "Cocina equipada en una casa del Distrito 7: placa de cristal negro, horno, microondas, arrocera, freidora de aire, frigorífico de unos 540 L y lavadora."
+      ],
+      [
+       "Dormitorio principal",
+       "room-master",
+       "Dormitorio principal de unos 55 m²: cama de 180×200 cm, TV 4K de 55 pulgadas, balcón, tocador con cargador inalámbrico, plancha y baño en suite."
+      ],
+      [
+       "Dormitorio 2",
+       "room-bedroom-2",
+       "Dormitorio 2 en una casa del Distrito 7 de Ho Chi Minh: cama de 160×200 cm, smart TV, cortinas gris oscuro y baño en suite con agua caliente."
+      ],
+      [
+       "Dormitorio 3",
+       "room-bedroom-3",
+       "Dormitorio 3 sin ventana, oscuro y silencioso: cama de 160×200 cm, smart TV, armario con toallas, sábanas y almohadas de repuesto, y baño en suite."
+      ],
+      [
+       "Baños",
+       "room-bathrooms",
+       "Cada dormitorio tiene su baño, más un aseo de cortesía con el mismo equipamiento. Agua caliente, champú, gel de ducha, pasta de dientes y toallas."
+      ],
+      [
+       "Pasillo y zona de trabajo",
+       "room-hallway",
+       "Pasillo hacia los dormitorios 2 y 3: escritorio, silla de malla, lámpara, tocador, zapatero con zapatillas y WiFi mesh de hasta 1 Gbit/s."
+      ],
+      [
+       "Exterior y río",
+       "room-outside",
+       "Casa junto al río en Ho Chi Minh: terraza con barandilla blanca y toldo, vistas al agua y al perfil del Distrito 1."
+      ],
+      [
+       "Azotea",
+       "rooftop",
+       "Azotea de unos 56–60 m²: barbacoa y ahumador, sofá de ratán, mesa de comedor, plantas tropicales, luces solares y perfil del Distrito 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Equipamiento",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Micrófonos"
+         ],
+         [
+          "Consola",
+          "PlayStation con PlayStation Plus"
+         ],
+         [
+          "Mandos",
+          "2"
+         ],
+         [
+          "Proyector",
+          "4K en el techo, pantalla de trípode"
+         ],
+         [
+          "Televisor",
+          "4K"
+         ],
+         [
+          "Streaming",
+          "Netflix, según la cuenta activa"
+         ],
+         [
+          "Asientos",
+          "Sofá gris y pufs cúbicos"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent",
+       "Sala de ocio con sofá gris, pufs cúbicos y pósteres de anime enmarcados, casa con karaoke en Ho Chi Minh"
+      ],
+      [
+       "ent-karaoke",
+       "Sala de karaoke con luz LED verde, sofá, mesas bajas y televisor de pared"
+      ],
+      [
+       "ent-cinema",
+       "Pantalla del proyector 4K sobre trípode en la sala a oscuras"
+      ],
+      [
+       "ent-tv",
+       "Gran televisor de pared, líneas LED de colores y sofá gris"
+      ],
+      [
+       "ent-mics",
+       "Micrófonos de karaoke y mandos sobre una mesa baja de aspecto piedra"
+      ],
+      [
+       "ent-ps",
+       "PlayStation de pared con dos mandos"
+      ]
+     ]
+    },
+    {
+     "h2": "Cantar sin mirar el reloj",
+     "flow": [
+      [
+       "p",
+       "Se elige canción, la letra aparece en la pantalla del proyector 4K y el micrófono va pasando. Sin tarifa por horas y sin otros grupos al otro lado de la pared."
+      ]
+     ]
+    },
+    {
+     "h2": "Torneos de PlayStation",
+     "flow": [
+      [
+       "p",
+       "La PlayStation de pared, con PlayStation Plus y dos mandos, espera los duelos entre hermanos o compañeros de trabajo."
+      ]
+     ]
+    },
+    {
+     "h2": "Cine en casa",
+     "flow": [
+      [
+       "p",
+       "Apaga la luz, coloca la pantalla de trípode y pon una película con el proyector 4K. Netflix está disponible según la cuenta activa. Para ver algo de forma más sencilla, está el televisor 4K."
+      ]
+     ]
+    },
+    {
+     "h2": "Un ambiente distinto",
+     "flow": [
+      [
+       "p",
+       "Sofá gris mullido, pufs, pósteres de anime enmarcados y líneas LED de colores: la atmósfera se diferencia del resto de la casa."
+      ],
+      [
+       "h3",
+       "Refugio para días de lluvia"
+      ],
+      [
+       "p",
+       "Cuando cae el chaparrón tropical, esta es la habitación más animada, para niños y mayores."
+      ]
+     ]
+    },
+    {
+     "h2": "Cómo se organiza la noche",
+     "flow": [
+      [
+       "p",
+       "Lo cómodo es empezar con la cena en la azotea y bajar después a la sala de ocio. Los mandos a distancia y los micrófonos están sobre la mesa baja de aspecto piedra; los mandos de la PlayStation, junto a la consola en la pared. Con la luz LED verde encendida, la sala queda lista para la primera canción."
+      ]
+     ]
+    },
+    {
+     "h2": "Pensar en los vecinos",
+     "flow": [
+      [
+       "p",
+       "La casa está en un barrio residencial: a última hora, mejor bajar el volumen."
+      ]
+     ]
+    },
+    {
+     "h2": "App guía de viaje gratuita",
+     "p": [
+      "Planifica tus días con la app guía gratuita de ASCON: consejos locales, sitios para comer y visitar y un mapa, directamente en el navegador del móvil."
+     ],
+     "cards": [
+      [
+       "App guía gratuita",
+       "travel-guide",
+       "Consejos y mapa de Ho Chi Minh, gratis en el navegador."
+      ]
+     ],
+     "_tg": 1
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Hay karaoke?",
+       "Sí, con micrófonos de karaoke."
+      ],
+      [
+       "¿Hay PlayStation?",
+       "Sí, con PlayStation Plus y dos mandos."
+      ],
+      [
+       "¿Se puede ver Netflix?",
+       "Sí, según la cuenta activa."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Reserva una casa con karaoke propio: WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "home": {
+   "title": "Alojamiento en Ho Chi Minh: casa entera | ASCON LIVING",
+   "description": "Mejor que un hotel en Ho Chi Minh: casa entera junto al río en el Distrito 7, 3 dormitorios con baño, karaoke, barbacoa en la azotea y WiFi de 1 Gbit/s.",
+   "h1": "Alojamiento en Ho Chi Minh: una casa entera junto al río",
+   "lead": "ASCON LIVING Riverside es una casa de tres plantas con azotea, a orillas del río en Tân Hưng, Distrito 7 de Ho Chi Minh (Saigón). Más de 250 m² solo para tu familia, tus amigos o tu equipo, sin vecinos de habitación.",
+   "hero": [
+    "hero",
+    "Casa junto al río con azotea en el Distrito 7 de Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "La casa de un vistazo",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Dirección",
+          "389A Đường Trần Xuân Soạn, Tân Hưng, Distrito 7"
+         ],
+         [
+          "Superficie",
+          "3 plantas y azotea, más de 250 m²"
+         ],
+         [
+          "Dormitorios",
+          "3: una cama de 180×200 cm y dos de 160×200 cm"
+         ],
+         [
+          "Baños",
+          "3 baños en suite y un aseo de cortesía"
+         ],
+         [
+          "Ocio",
+          "Micrófonos de karaoke, PlayStation, proyector 4K, TV 4K"
+         ],
+         [
+          "Azotea",
+          "Unos 56–60 m², barbacoa que también funciona como ahumador"
+         ],
+         [
+          "Internet",
+          "WiFi mesh de hasta 1 Gbit/s"
+         ],
+         [
+          "Acceso",
+          "Cerradura con código y llave aparte para la verja exterior"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "living",
+       "Salón amplio con sofá en L en una casa entera de alquiler en Saigón"
+      ],
+      [
+       "bed1",
+       "Dormitorio principal con cama de 180×200 cm y gran ventana"
+      ],
+      [
+       "roof-night",
+       "Rincón de descanso en la azotea por la noche bajo luces decorativas"
+      ]
+     ],
+     "cards": [
+      [
+       "Karaoke y ocio",
+       "room-entertainment",
+       "Sala de karaoke privada en una casa de Ho Chi Minh: micrófonos, PlayStation con PlayStation Plus y 2 mandos, proyector 4K con pantalla de trípode y TV 4K."
+      ],
+      [
+       "Salón",
+       "room-living",
+       "Salón de unos 40 m² en una casa entera en Ho Chi Minh: sofá en L, televisor 4K de 75 pulgadas, puertas de cristal, plantas y WiFi mesh de hasta 1 Gbit/s."
+      ],
+      [
+       "Cocina y comedor",
+       "room-kitchen",
+       "Cocina equipada en la casa: placa de cristal negro, horno, microondas, arrocera, freidora de aire, frigorífico de unos 540 L y lavadora."
+      ],
+      [
+       "Dormitorio principal",
+       "room-master",
+       "Dormitorio principal de unos 55 m²: cama de 180×200 cm, TV 4K de 55 pulgadas, balcón, tocador con cargador inalámbrico, plancha y baño en suite."
+      ],
+      [
+       "Dormitorio 2",
+       "room-bedroom-2",
+       "Dormitorio 2 en la casa: cama de 160×200 cm, smart TV, cortinas gris oscuro y baño en suite con agua caliente."
+      ],
+      [
+       "Dormitorio 3",
+       "room-bedroom-3",
+       "Dormitorio 3 sin ventana, oscuro y silencioso: cama de 160×200 cm, smart TV, armario con toallas, sábanas y almohadas de repuesto, y baño en suite."
+      ],
+      [
+       "Baños",
+       "room-bathrooms",
+       "Cada dormitorio tiene su baño, más un aseo de cortesía con el mismo equipamiento. Agua caliente, champú, gel de ducha, pasta de dientes y toallas."
+      ],
+      [
+       "Pasillo y zona de trabajo",
+       "room-hallway",
+       "Pasillo hacia los dormitorios 2 y 3: escritorio, silla de malla, lámpara, tocador, zapatero con zapatillas y WiFi mesh de hasta 1 Gbit/s."
+      ],
+      [
+       "Exterior y río",
+       "room-outside",
+       "Casa junto al río en Ho Chi Minh: terraza con barandilla blanca y toldo, vistas al agua y al perfil del Distrito 1."
+      ],
+      [
+       "Azotea",
+       "rooftop",
+       "Azotea de unos 56–60 m²: barbacoa y ahumador, sofá de ratán, mesa de comedor, plantas tropicales, luces solares y perfil del Distrito 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Por qué una casa y no varias habitaciones de hotel",
+     "flow": [
+      [
+       "p",
+       "En un hotel, el grupo se reparte por pasillos distintos y solo coincide en el vestíbulo. Aquí todos se reúnen en un salón de unos 40 m² con sofá en L y televisor 4K de 75 pulgadas, desayunan en la misma mesa y suben juntos a la azotea al caer la tarde."
+      ],
+      [
+       "h3",
+       "Para quién es"
+      ],
+      [
+       "p",
+       "Familias con abuelos y niños, grupos de amigos, equipos de trabajo de viaje."
+      ]
+     ]
+    },
+    {
+     "h2": "Tu propio karaoke en casa",
+     "flow": [
+      [
+       "p",
+       "No hace falta buscar un local. La sala de ocio tiene micrófonos de karaoke y un proyector 4K, y además hay una PlayStation con PlayStation Plus y dos mandos. Netflix está disponible según la cuenta activa."
+      ]
+     ]
+    },
+    {
+     "h2": "Barbacoa en la azotea frente al río",
+     "flow": [
+      [
+       "p",
+       "La azotea de unos 56–60 m² tiene una barbacoa de barril que también sirve de ahumador, sofá de ratán, mesa de comedor, plantas tropicales y luces solares. Desde arriba se ve el río y el perfil de rascacielos del Distrito 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Cocina para comer como en casa",
+     "flow": [
+      [
+       "p",
+       "Placa de cocción con superficie de cristal negro, horno, microondas, arrocera, hervidor, freidora de aire, tostadora y frigorífico de unos 540 litros. Los huéspedes pueden usar la lavadora."
+      ]
+     ]
+    },
+    {
+     "h2": "Todo listo al llegar",
+     "flow": [
+      [
+       "p",
+       "Agua caliente, champú, gel de ducha, pasta de dientes, toallas y zapatillas de casa. Hay caja fuerte para los pasaportes y plancha para la ropa arrugada del viaje."
+      ]
+     ]
+    },
+    {
+     "h2": "App guía de viaje gratuita",
+     "p": [
+      "Planifica tus días con la app guía gratuita de ASCON: consejos locales, sitios para comer y visitar y un mapa, directamente en el navegador del móvil."
+     ],
+     "cards": [
+      [
+       "App guía gratuita",
+       "travel-guide",
+       "Consejos y mapa de Ho Chi Minh, gratis en el navegador."
+      ]
+     ],
+     "_tg": 1
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Se alquila la casa entera?",
+       "Sí. Toda la casa, azotea incluida, es solo para tu grupo."
+      ],
+      [
+       "¿Cómo se entra?",
+       "Con la cerradura de código de la puerta y una llave para la verja exterior."
+      ],
+      [
+       "¿Dónde se reserva?",
+       "Directamente por WhatsApp o Zalo, o en Airbnb y Trip.com."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Consulta fechas y precio por WhatsApp o Zalo: +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "families": {
+   "title": "Ho Chi Minh con niños: casa para familias | ASCON LIVING",
+   "description": "Viaja a Ho Chi Minh con niños: casa entera con 3 dormitorios con baño, cocina equipada, cine en 4K y caja fuerte.",
+   "h1": "Ho Chi Minh con niños, en una casa solo para vosotros",
+   "lead": "Viajar con hijos y abuelos pide espacio, cocina y calma. En ASCON LIVING toda la familia comparte una casa en el Distrito 7, y cada uno tiene su rincón.",
+   "sections": [
+    {
+     "h2": "Lo que valoran los padres",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Dormitorios",
+          "3, cada uno con su baño"
+         ],
+         [
+          "Dormitorio 3",
+          "Sin ventana, oscuro y tranquilo para la siesta"
+         ],
+         [
+          "Cocina",
+          "Arrocera, horno, freidora de aire, tostadora, frigorífico de unos 540 L"
+         ],
+         [
+          "Ocio",
+          "Proyector 4K, TV 4K de 75 pulgadas, PlayStation"
+         ],
+         [
+          "Objetos de valor",
+          "Caja fuerte"
+         ],
+         [
+          "Cámaras",
+          "Cámaras exteriores en la entrada"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-dining",
+       "Mesa de comedor junto a la ventana de la cocina para comidas en familia"
+      ],
+      [
+       "kitchen",
+       "Cocina equipada para familias alojadas en el Distrito 7"
+      ],
+      [
+       "ent-cinema",
+       "Pantalla del proyector 4K para tardes de cine en familia"
+      ],
+      [
+       "living-tv",
+       "Televisor 4K de 75 pulgadas en el salón para noches de película"
+      ],
+      [
+       "bed3",
+       "Dormitorio 3 con cama de 160×200 cm, oscuro y tranquilo para la siesta"
+      ]
+     ]
+    },
+    {
+     "h2": "Comidas como en casa",
+     "flow": [
+      [
+       "p",
+       "¿Niños que no comen cualquier cosa? Arroz en la arrocera, nuggets en la freidora de aire, tostadas en el desayuno. El frigorífico grande guarda leche, fruta y meriendas para toda la semana. Tres generaciones caben en la mesa junto a la ventana de la cocina."
+      ]
+     ]
+    },
+    {
+     "h2": "Cuando llueve",
+     "flow": [
+      [
+       "p",
+       "El chaparrón tropical de la tarde llega sin avisar. La sala de ocio con proyector 4K convierte la tarde en casa en una sesión de cine familiar. Los niños juegan a la PlayStation y los mayores ven una película en el televisor 4K de 75 pulgadas del salón."
+      ]
+     ]
+    },
+    {
+     "h2": "La siesta, respetada",
+     "flow": [
+      [
+       "p",
+       "El dormitorio 3 no tiene ventana, así que sigue a oscuras incluso a mediodía. Cada dormitorio tiene su baño con agua caliente: el baño de la noche, sin colas."
+      ]
+     ]
+    },
+    {
+     "h2": "Primero la seguridad",
+     "flow": [
+      [
+       "p",
+       "Hay cámaras exteriores en la entrada. Caja fuerte para los pasaportes y plancha para la ropa que se arruga en la maleta."
+      ],
+      [
+       "h3",
+       "Maletas más ligeras"
+      ],
+      [
+       "p",
+       "Toallas, champú, gel de ducha, pasta de dientes y zapatillas de casa están incluidos. Los huéspedes pueden usar la lavadora, y el traslado al aeropuerto se organiza al reservar."
+      ]
+     ]
+    },
+    {
+     "h2": "Planes en familia con ASCON Guide",
+     "flow": [
+      [
+       "p",
+       "La aplicación gratuita ASCON Guide tiene una categoría propia para niños y familias: ideas de salidas, también para días de lluvia."
+      ]
+     ]
+    },
+    {
+     "h2": "Las estancias en detalle",
+     "cards": [
+      [
+       "Karaoke y ocio",
+       "room-entertainment",
+       "Sala de karaoke privada en una casa de Ho Chi Minh: micrófonos, PlayStation con PlayStation Plus y 2 mandos, proyector 4K con pantalla de trípode y TV 4K."
+      ],
+      [
+       "Salón",
+       "room-living",
+       "Salón de unos 40 m² en una casa entera en Ho Chi Minh: sofá en L, televisor 4K de 75 pulgadas, puertas de cristal, plantas y WiFi mesh de hasta 1 Gbit/s."
+      ],
+      [
+       "Cocina y comedor",
+       "room-kitchen",
+       "Cocina equipada en una casa del Distrito 7: placa de cristal negro, horno, microondas, arrocera, freidora de aire, frigorífico de unos 540 L y lavadora."
+      ],
+      [
+       "Dormitorio principal",
+       "room-master",
+       "Dormitorio principal de unos 55 m²: cama de 180×200 cm, TV 4K de 55 pulgadas, balcón, tocador con cargador inalámbrico, plancha y baño en suite."
+      ],
+      [
+       "Dormitorio 2",
+       "room-bedroom-2",
+       "Dormitorio 2 en una casa del Distrito 7 de Ho Chi Minh: cama de 160×200 cm, smart TV, cortinas gris oscuro y baño en suite con agua caliente."
+      ],
+      [
+       "Dormitorio 3",
+       "room-bedroom-3",
+       "Dormitorio 3 sin ventana, oscuro y silencioso: cama de 160×200 cm, smart TV, armario con toallas, sábanas y almohadas de repuesto, y baño en suite."
+      ],
+      [
+       "Baños",
+       "room-bathrooms",
+       "Cada dormitorio tiene su baño, más un aseo de cortesía con el mismo equipamiento. Agua caliente, champú, gel de ducha, pasta de dientes y toallas."
+      ],
+      [
+       "Pasillo y zona de trabajo",
+       "room-hallway",
+       "Pasillo hacia los dormitorios 2 y 3: escritorio, silla de malla, lámpara, tocador, zapatero con zapatillas y WiFi mesh de hasta 1 Gbit/s."
+      ],
+      [
+       "Exterior y río",
+       "room-outside",
+       "Casa junto al río en Ho Chi Minh: terraza con barandilla blanca y toldo, vistas al agua y al perfil del Distrito 1."
+      ],
+      [
+       "Azotea",
+       "rooftop",
+       "Azotea de unos 56–60 m²: barbacoa y ahumador, sofá de ratán, mesa de comedor, plantas tropicales, luces solares y perfil del Distrito 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Hay una habitación oscura para la siesta?",
+       "Sí, el dormitorio 3 no tiene ventana."
+      ],
+      [
+       "¿Podemos lavar ropa?",
+       "Sí, los huéspedes pueden usar la lavadora."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Planifica vuestro viaje en familia: WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "groups": {
+   "title": "Casa en Saigón para grupos: karaoke y BBQ | ASCON LIVING",
+   "description": "Casa en Ho Chi Minh para amigos y empresas: sala de karaoke privada, PlayStation, barbacoa en la azotea frente al río y WiFi mesh de hasta 1 Gbit/s.",
+   "h1": "Una casa en Saigón para todo el grupo",
+   "lead": "Un reencuentro de amigos, un cumpleaños o un viaje de empresa salen mejor cuando todos duermen bajo el mismo techo. ASCON LIVING reúne karaoke, videojuegos y barbacoa en la azotea en una sola casa.",
+   "sections": [
+    {
+     "h2": "Lo que encuentra un grupo",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Micrófonos"
+         ],
+         [
+          "Juegos",
+          "PlayStation con PlayStation Plus, 2 mandos"
+         ],
+         [
+          "Azotea",
+          "Unos 56–60 m², barbacoa y ahumador"
+         ],
+         [
+          "Zona común",
+          "Salón de unos 40 m², TV 4K de 75 pulgadas"
+         ],
+         [
+          "Trabajo",
+          "WiFi mesh de hasta 1 Gbit/s, escritorio en el pasillo"
+         ],
+         [
+          "Baños",
+          "3 en suite y un aseo de cortesía"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Rincón de karaoke con luz ambiental para noches en grupo"
+      ],
+      [
+       "ent-mics",
+       "Micrófonos de karaoke y mandos listos para un duelo de canciones"
+      ],
+      [
+       "ent-ps",
+       "PlayStation con mandos para noches de videojuegos"
+      ],
+      [
+       "roof-night",
+       "Zona de descanso en la azotea por la noche para el grupo"
+      ],
+      [
+       "roof-bbq",
+       "Barbacoa en la azotea para cenar frente a la ciudad"
+      ],
+      [
+       "river-city",
+       "Vista del río hacia el perfil del Distrito 1 desde la casa"
+      ]
+     ]
+    },
+    {
+     "h2": "Primera noche: karaoke",
+     "flow": [
+      [
+       "p",
+       "Maletas en las habitaciones y directos a la sala de ocio. Se elige canción, la letra aparece en grande y el micrófono pasa de mano en mano. Sin tarifa por horas y sin otro grupo al otro lado de la pared."
+      ]
+     ]
+    },
+    {
+     "h2": "Segunda noche: barbacoa en la azotea",
+     "flow": [
+      [
+       "p",
+       "Compra carne, marisco y verduras en el mercado, déjalo marinar en el frigorífico de 540 litros y súbelo arriba. La barbacoa de barril también sirve de ahumador. Después de cenar, todos al sofá de ratán a ver cómo se ilumina el Distrito 1 al otro lado del río."
+      ],
+      [
+       "h3",
+       "Torneo de PlayStation"
+      ],
+      [
+       "p",
+       "Dos equipos y dos mandos. Los que pierden friegan los platos de la barbacoa."
+      ]
+     ]
+    },
+    {
+     "h2": "Para viajes de empresa",
+     "flow": [
+      [
+       "p",
+       "El WiFi mesh de hasta 1 Gbit/s cubre todas las plantas: videollamadas y envío de archivos sin cortes. El salón y la mesa de comedor se convierten en sala de reuniones, y el escritorio del pasillo es un rincón tranquilo para concentrarse."
+      ]
+     ]
+    },
+    {
+     "h2": "Llegada sencilla",
+     "flow": [
+      [
+       "p",
+       "Quien llegue en otro vuelo entra solo con la cerradura de código, y la verja exterior se abre con llave. El traslado desde el aeropuerto se organiza al reservar."
+      ]
+     ]
+    },
+    {
+     "h2": "Cada uno con su baño",
+     "flow": [
+      [
+       "p",
+       "Tres dormitorios con baño en suite y un aseo de cortesía: sin colas por la mañana. Hay agua caliente, champú, gel de ducha, pasta de dientes y toallas."
+      ]
+     ]
+    },
+    {
+     "h2": "Buenos vecinos",
+     "flow": [
+      [
+       "p",
+       "La casa está en un barrio residencial. Por la noche, en la azotea, mejor bajar la voz."
+      ]
+     ]
+    },
+    {
+     "h2": "Las estancias en detalle",
+     "cards": [
+      [
+       "Karaoke y ocio",
+       "room-entertainment",
+       "Sala de karaoke privada en una casa de Ho Chi Minh: micrófonos, PlayStation con PlayStation Plus y 2 mandos, proyector 4K con pantalla de trípode y TV 4K."
+      ],
+      [
+       "Salón",
+       "room-living",
+       "Salón de unos 40 m² en una casa entera en Ho Chi Minh: sofá en L, televisor 4K de 75 pulgadas, puertas de cristal, plantas y WiFi mesh de hasta 1 Gbit/s."
+      ],
+      [
+       "Cocina y comedor",
+       "room-kitchen",
+       "Cocina equipada en una casa del Distrito 7: placa de cristal negro, horno, microondas, arrocera, freidora de aire, frigorífico de unos 540 L y lavadora."
+      ],
+      [
+       "Dormitorio principal",
+       "room-master",
+       "Dormitorio principal de unos 55 m²: cama de 180×200 cm, TV 4K de 55 pulgadas, balcón, tocador con cargador inalámbrico, plancha y baño en suite."
+      ],
+      [
+       "Dormitorio 2",
+       "room-bedroom-2",
+       "Dormitorio 2 en una casa del Distrito 7 de Ho Chi Minh: cama de 160×200 cm, smart TV, cortinas gris oscuro y baño en suite con agua caliente."
+      ],
+      [
+       "Dormitorio 3",
+       "room-bedroom-3",
+       "Dormitorio 3 sin ventana, oscuro y silencioso: cama de 160×200 cm, smart TV, armario con toallas, sábanas y almohadas de repuesto, y baño en suite."
+      ],
+      [
+       "Baños",
+       "room-bathrooms",
+       "Cada dormitorio tiene su baño, más un aseo de cortesía con el mismo equipamiento. Agua caliente, champú, gel de ducha, pasta de dientes y toallas."
+      ],
+      [
+       "Pasillo y zona de trabajo",
+       "room-hallway",
+       "Pasillo hacia los dormitorios 2 y 3: escritorio, silla de malla, lámpara, tocador, zapatero con zapatillas y WiFi mesh de hasta 1 Gbit/s."
+      ],
+      [
+       "Exterior y río",
+       "room-outside",
+       "Casa junto al río en Ho Chi Minh: terraza con barandilla blanca y toldo, vistas al agua y al perfil del Distrito 1."
+      ],
+      [
+       "Azotea",
+       "rooftop",
+       "Azotea de unos 56–60 m²: barbacoa y ahumador, sofá de ratán, mesa de comedor, plantas tropicales, luces solares y perfil del Distrito 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Hay karaoke?",
+       "Sí, la sala de ocio tiene micrófonos y proyector 4K."
+      ],
+      [
+       "¿Se puede hacer barbacoa?",
+       "Sí, en la azotea, con una barbacoa que también funciona como ahumador."
+      ],
+      [
+       "¿Sirve para un viaje de trabajo?",
+       "Sí, WiFi de hasta 1 Gbit/s y escritorio."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Reserva la casa para tu grupo: WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "location": {
+   "title": "Distrito 7, Ho Chi Minh: casa junto al río | ASCON LIVING",
+   "description": "ASCON LIVING está en 389A Đường Trần Xuân Soạn, Tân Hưng, Distrito 7, HCMC: casa junto al río en un barrio residencial con comida callejera cerca.",
+   "h1": "Dónde estamos: Distrito 7 de Saigón, a orillas del río",
+   "lead": "La casa está en el barrio residencial de Tân Hưng, Distrito 7, justo al borde del agua. Al otro lado del río se levantan las torres del Distrito 1; alrededor de la casa, la vida tranquila de los vecinos.",
+   "sections": [
+    {
+     "h2": "Dirección y entorno",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Elemento",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "Dirección",
+          "389A Đường Trần Xuân Soạn, Tân Hưng, Distrito 7, Ho Chi Minh"
+         ],
+         [
+          "Barrio",
+          "Residencial, junto al río"
+         ],
+         [
+          "Cerca",
+          "Restaurantes y puestos de comida callejera"
+         ],
+         [
+          "Vistas",
+          "Río y perfil del Distrito 1"
+         ],
+         [
+          "Aeropuerto",
+          "Traslado disponible con la reserva"
+         ],
+         [
+          "Acceso",
+          "Cerradura con código y llave de la verja"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-city",
+       "Vista del río hacia el perfil del Distrito 1 desde la casa"
+      ]
+     ]
+    },
+    {
+     "h2": "Por qué este barrio",
+     "flow": [
+      [
+       "p",
+       "El centro de Saigón es un río de motos y bocinas. El barrio va a otro ritmo: de día recorres la ciudad y por la noche vuelves a una casa tranquila junto al agua. Una gran ventaja si viajas con niños pequeños."
+      ],
+      [
+       "h3",
+       "Vida de barrio de verdad"
+      ],
+      [
+       "p",
+       "Tân Hưng no es una zona turística, es donde vive la gente de Saigón. Por la mañana se venden bánh mì y sopas en la esquina; por la tarde, fruta fresca."
+      ]
+     ]
+    },
+    {
+     "h2": "Comer cerca de casa",
+     "flow": [
+      [
+       "p",
+       "Hay restaurantes y puestos callejeros alrededor: arroz partido con cerdo a la parrilla, phở, café helado con leche condensada. La aplicación ASCON Guide reúne las direcciones del barrio en un mapa."
+      ]
+     ]
+    },
+    {
+     "h2": "Ir al centro",
+     "flow": [
+      [
+       "p",
+       "Para llegar al Distrito 1, a los mercados o a los museos, lo más sencillo es un taxi o una aplicación de transporte. En ASCON Guide cada lugar aparece en el mapa, fácil de enseñar al conductor."
+      ]
+     ]
+    },
+    {
+     "h2": "Tu llegada",
+     "flow": [
+      [
+       "p",
+       "¿Llegas de noche tras un vuelo largo? El traslado desde el aeropuerto se organiza junto con la reserva, sin regateos y con el equipaje bien cuidado. Al llegar, abres la verja con la llave y entras con el código, sin esperar a nadie."
+      ]
+     ]
+    },
+    {
+     "h2": "El río como vecino",
+     "flow": [
+      [
+       "p",
+       "Desde la azotea y el balcón se ve correr el agua, pasar de vez en cuando una barca de madera y encenderse las luces del Distrito 1 al anochecer."
+      ],
+      [
+       "h3",
+       "Una base tranquila"
+      ],
+      [
+       "p",
+       "Tras un día entre templos, mercados y tráfico, volver a una casa silenciosa junto al río cambia por completo la experiencia del viaje."
+      ]
+     ]
+    },
+    {
+     "h2": "Mapa",
+     "p": [
+      "<a href=\"https://www.google.com/maps/search/?api=1&query=389A+Tr%E1%BA%A7n+Xu%C3%A2n+So%E1%BA%A1n+T%C3%A2n+H%C6%B0ng+Ho+Chi+Minh+City\" rel=\"noopener\">Abrir la dirección en Google Maps</a>. Las instrucciones de llegada detalladas se envían después de reservar."
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Qué dirección doy al conductor?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh."
+      ],
+      [
+       "¿El barrio es ruidoso?",
+       "No, es residencial y más tranquilo que el centro."
+      ],
+      [
+       "¿Pueden recogerme en el aeropuerto?",
+       "Sí, el traslado se organiza con la reserva."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "¿Te ayudamos a planificar? WhatsApp o Zalo: +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "guide": {
+   "title": "Qué ver en Saigón: guía para huéspedes | ASCON LIVING",
+   "description": "La aplicación ASCON Guide para huéspedes: restaurantes, bares, planes con niños, mapa e información práctica de Ho Chi Minh. Gratis, sin contraseña.",
+   "h1": "Qué ver en Saigón: una guía en tu bolsillo",
+   "lead": "Tanto si es tu primer viaje a Vietnam como si ya conoces Saigón, la aplicación ASCON Guide te ayuda a saber dónde comer, adónde ir y qué conviene saber. La app es gratuita y no necesita contraseña.",
+   "sections": [
+    {
+     "h2": "Qué contiene la aplicación",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Categoría",
+         "Contenido"
+        ],
+        "rows": [
+         [
+          "Comer",
+          "Restaurantes y comida callejera cerca de casa y en toda la ciudad"
+         ],
+         [
+          "Bares y noche",
+          "Bares y planes nocturnos"
+         ],
+         [
+          "Niños y familia",
+          "Actividades para los más pequeños"
+         ],
+         [
+          "Mapa",
+          "Todos los lugares marcados en el mapa"
+         ],
+         [
+          "Información práctica",
+          "Lo esencial para tu estancia"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Abrir la app guía</a>"
+     ],
+     "cards": [
+      [
+       "App guía gratuita",
+       "travel-guide",
+       "Consejos y mapa de Ho Chi Minh, gratis en el navegador."
+      ]
+     ]
+    },
+    {
+     "h2": "Comer como en Saigón",
+     "flow": [
+      [
+       "p",
+       "Saigón es un paraíso de comida callejera: phở, bánh mì, arroz partido, café helado con leche condensada. La aplicación reúne direcciones alrededor del Distrito 7 y en el resto de la ciudad, para que no acabes en sitios pensados solo para turistas."
+      ],
+      [
+       "h3",
+       "Cerca de casa"
+      ],
+      [
+       "p",
+       "Las noches en que nadie quiere cocinar, la lista de sitios del barrio está a un toque."
+      ]
+     ]
+    },
+    {
+     "h2": "Recorrer la ciudad",
+     "flow": [
+      [
+       "p",
+       "Arquitectura colonial en el Distrito 1, mercados tradicionales, museos: cada lugar aparece en el mapa. Basta con enseñárselo al taxista o escribirlo en una aplicación de transporte."
+      ]
+     ]
+    },
+    {
+     "h2": "Con niños",
+     "flow": [
+      [
+       "p",
+       "La categoría Niños y familia propone actividades adecuadas para los pequeños, también para los días de lluvia."
+      ]
+     ]
+    },
+    {
+     "h2": "Después de la barbacoa en la azotea",
+     "flow": [
+      [
+       "p",
+       "¿Te apetece seguir la noche? En Bares y noche hay ideas para terminarla."
+      ]
+     ]
+    },
+    {
+     "h2": "Información práctica en un solo sitio",
+     "flow": [
+      [
+       "p",
+       "El acceso a la casa y los datos importantes están reunidos en la aplicación, sin tener que buscar en mensajes antiguos."
+      ]
+     ]
+    },
+    {
+     "h2": "Cómo acceder",
+     "flow": [
+      [
+       "p",
+       "No. Es gratuita y se abre directamente en el navegador del móvil. Puedes abrir la aplicación y preparar tu itinerario antes incluso de salir de casa."
+      ]
+     ]
+    },
+    {
+     "h2": "Un día redondo en Ho Chi Minh",
+     "flow": [
+      [
+       "p",
+       "Por la mañana, mercado y desayuno callejero de la lista de la aplicación. A mediodía, un museo o un paseo por el Distrito 1. Cuando aprieta el calor, descanso en casa, en el sofá del salón. Al atardecer, barbacoa en la azotea y, para terminar, karaoke en la sala de ocio."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿La app necesita contraseña?",
+       "Después de confirmar la reserva."
+      ],
+      [
+       "¿Hay ideas para niños?",
+       "Sí, en la categoría Niños y familia."
+      ],
+      [
+       "¿Los lugares están en un mapa?",
+       "Sí, todos."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Reserva y accede a la aplicación: WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "faq": {
+   "title": "Preguntas sobre alojamiento en Ho Chi Minh | ASCON LIVING",
+   "description": "Respuestas sobre ASCON LIVING en el Distrito 7 de HCMC: acceso, dormitorios, baños, karaoke, barbacoa en la azotea, WiFi, cocina, seguridad y reservas.",
+   "h1": "Preguntas frecuentes sobre nuestra casa en Ho Chi Minh",
+   "lead": "Estas son las preguntas que más nos hacen. Si la tuya no aparece, escríbenos.",
+   "sections": [
+    {
+     "h2": "La casa",
+     "faq": [
+      [
+       "¿Compartimos la casa con otros huéspedes?",
+       "No. Toda la casa de tres plantas y la azotea son solo para tu grupo."
+      ],
+      [
+       "¿Qué superficie tiene?",
+       "Más de 250 m²: 3 plantas y una azotea de unos 56–60 m²."
+      ],
+      [
+       "¿Dónde está?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Distrito 7, Ho Chi Minh, junto al río."
+      ]
+     ]
+    },
+    {
+     "h2": "Dormitorios y baños",
+     "faq": [
+      [
+       "¿Qué camas hay?",
+       "El dormitorio principal, de unos 55 m², tiene cama de 180×200 cm. Los dormitorios 2 y 3 tienen camas de 160×200 cm. El dormitorio 3 no tiene ventana."
+      ],
+      [
+       "¿Cuántos baños?",
+       "Tres baños en suite y un aseo de cortesía con el mismo equipamiento."
+      ],
+      [
+       "¿Hay que traer artículos de aseo?",
+       "No. Hay agua caliente, champú, gel de ducha, pasta de dientes y toallas. Las zapatillas de casa esperan en la entrada."
+      ],
+      [
+       "¿Hay televisores en los dormitorios?",
+       "Sí. Televisor 4K de 55 pulgadas en el principal y smart TV en los dormitorios 2 y 3."
+      ]
+     ]
+    },
+    {
+     "h2": "Ocio",
+     "faq": [
+      [
+       "¿Hay karaoke?",
+       "Sí: micrófonos de karaoke, PlayStation con PlayStation Plus, proyector 4K y TV 4K."
+      ],
+      [
+       "¿Se puede hacer barbacoa?",
+       "Sí. La barbacoa de la azotea también funciona como ahumador."
+      ],
+      [
+       "¿Hay Netflix?",
+       "Sí, según la cuenta activa."
+      ]
+     ]
+    },
+    {
+     "h2": "Cocina y ropa",
+     "faq": [
+      [
+       "¿Se puede cocinar?",
+       "Sí. Horno, arrocera, freidora de aire y frigorífico de unos 540 litros."
+      ],
+      [
+       "¿Hay lavadora?",
+       "Sí, los huéspedes pueden usarla. También hay servicio de lavandería bajo petición."
+      ]
+     ]
+    },
+    {
+     "h2": "Otros",
+     "faq": [
+      [
+       "¿Hay cámaras?",
+       "Hay cámaras exteriores en la entrada."
+      ],
+      [
+       "¿Hay caja fuerte?",
+       "Sí, y también plancha."
+      ]
+     ]
+    },
+    {
+     "h2": "Reserva y llegada",
+     "faq": [
+      [
+       "¿Cómo se entra?",
+       "Cerradura con código en la puerta y llave para la verja exterior. Los detalles se envían tras la reserva."
+      ],
+      [
+       "¿Hay traslado?",
+       "Sí, desde el aeropuerto, a organizar con la reserva."
+      ],
+      [
+       "¿Dónde se puede trabajar?",
+       "En el escritorio del pasillo, junto a la ventana, con silla de malla y lámpara."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "¿Más preguntas? WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "booking": {
+   "title": "Reservar tu alojamiento en Ho Chi Minh | ASCON LIVING",
+   "description": "Reserva ASCON LIVING, casa entera en el Distrito 7 de Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, correo, Airbnb o Trip.com. Traslado al aeropuerto.",
+   "h1": "Reserva tu casa en Ho Chi Minh",
+   "lead": "¿Prefieres escribir directamente o reservar por una plataforma? Las dos opciones funcionan. Cuéntanos tus fechas y un poco sobre tu grupo.",
+   "sections": [
+    {
+     "h2": "Los pasos",
+     "flow": [
+      [
+       "p",
+       "1. Envía tus fechas de llegada y salida por WhatsApp, Zalo o correo."
+      ],
+      [
+       "p",
+       "2. Respondemos sobre disponibilidad, precio, traslado y reparto de dormitorios."
+      ],
+      [
+       "p",
+       "3. Tras la confirmación recibes los datos de acceso. La aplicación ASCON Guide es gratuita y no necesita contraseña."
+      ]
+     ]
+    },
+    {
+     "h2": "Contacto y plataformas",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Canal",
+         "Detalle"
+        ],
+        "rows": [
+         [
+          "WhatsApp",
+          "+84 909 410 382"
+         ],
+         [
+          "Zalo",
+          "+84 909 410 382"
+         ],
+         [
+          "Correo",
+          "ascon.living@gmail.com"
+         ],
+         [
+          "Plataformas",
+          "Airbnb y Trip.com"
+         ],
+         [
+          "Traslado",
+          "Aeropuerto, con la reserva"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Qué incluye la estancia",
+     "flow": [
+      [
+       "p",
+       "La casa entera de tres plantas y la azotea, sábanas y toallas, agua caliente, champú, gel de ducha, pasta de dientes, zapatillas de casa, caja fuerte, plancha, WiFi mesh de hasta 1 Gbit/s, sala de ocio con karaoke y PlayStation, y barbacoa con ahumador en la azotea. Los huéspedes pueden usar la lavadora."
+      ]
+     ]
+    },
+    {
+     "h2": "Servicios extra",
+     "flow": [
+      [
+       "p",
+       "El traslado desde el aeropuerto se organiza junto con la reserva. Servicio de lavandería bajo petición."
+      ]
+     ]
+    },
+    {
+     "h2": "Por Airbnb o Trip.com",
+     "flow": [
+      [
+       "p",
+       "Si te resulta más cómodo usar una aplicación, ASCON LIVING está en Airbnb y Trip.com."
+      ],
+      [
+       "h3",
+       "Directamente"
+      ],
+      [
+       "p",
+       "Hablar con nosotros permite concretar el reparto de dormitorios, el traslado y cualquier necesidad del grupo."
+      ]
+     ]
+    },
+    {
+     "h2": "Después de reservar",
+     "flow": [
+      [
+       "p",
+       "Recibes el código de la puerta y las indicaciones de la llave de la verja; con la app gratuita ASCON Guide puedes preparar tus planes con antelación."
+      ]
+     ]
+    },
+    {
+     "h2": "Qué indicar en tu mensaje",
+     "flow": [
+      [
+       "p",
+       "Fechas, si necesitas traslado y cómo quieres repartir los dormitorios: el principal, de unos 55 m², con cama de 180×200 cm y balcón; los dormitorios 2 y 3, con camas de 160×200 cm y baño propio. El dormitorio 3 no tiene ventana, ideal para la siesta de los niños. Si alguien va a trabajar, hay escritorio en el pasillo."
+      ]
+     ]
+    },
+    {
+     "h2": "Un consejo",
+     "flow": [
+      [
+       "p",
+       "Las vacaciones escolares y los puentes se llenan pronto. Escríbenos con tiempo para conseguir tus fechas."
+      ]
+     ]
+    },
+    {
+     "cta": true
+    },
+    {
+     "h2": "Contacto",
+     "p": [
+      "Teléfono y WhatsApp: <a href=\"tel:{phone_e164}\">{phone}</a>",
+      "Zalo: <a href=\"https://zalo.me/84909410382\" rel=\"noopener\">{phone}</a>",
+      "Correo: <a href=\"mailto:{email}\">{email}</a>"
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Se puede reservar directamente?",
+       "Sí, por WhatsApp, Zalo o correo."
+      ],
+      [
+       "¿En qué plataformas estáis?",
+       "Airbnb y Trip.com."
+      ],
+      [
+       "¿Puedo reservar el traslado a la vez?",
+       "Sí, junto con la reserva."
+      ]
+     ]
+    }
+   ]
+  },
+  "rules": {
+   "title": "Normas de la casa ASCON LIVING Ho Chi Minh",
+   "description": "Normas de estancia en ASCON LIVING, Distrito 7 de Ho Chi Minh: acceso, calzado, cocina, barbacoa en la azotea, vecinos y seguridad. Dudas por WhatsApp.",
+   "h1": "Normas de la casa para que todos estén a gusto",
+   "lead": "Durante tu estancia, la casa es tuya, y sabemos que la cuidarás como propia. Aquí van unas normas sencillas.",
+   "sections": [
+    {
+     "h2": "En resumen",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Tema",
+         "Norma"
+        ],
+        "rows": [
+         [
+          "Acceso",
+          "Cerradura con código y llave de la verja exterior"
+         ],
+         [
+          "Calzado",
+          "Quitárselo en la entrada, zapatillas de casa disponibles"
+         ],
+         [
+          "Cocina",
+          "Recoger después de cocinar"
+         ],
+         [
+          "Barbacoa",
+          "No dejar nunca el fuego sin vigilancia, apagarlo del todo"
+         ],
+         [
+          "Vecinos",
+          "Barrio residencial, hablar bajo por la noche"
+         ],
+         [
+          "Cámaras",
+          "Cámaras exteriores en la entrada"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Normas básicas",
+     "flow": [
+      [
+       "ul",
+       [
+        "Entrada de 14:00 a 23:00, salida a las 12:00.",
+        "Por ley vietnamita, es obligatorio registrar a los huéspedes.",
+        "No se fuma dentro de la casa; solo en las zonas exteriores designadas.",
+        "Música alta hasta las 21:30.",
+        "No se permiten fiestas ruidosas.",
+        "Solo pueden alojarse los huéspedes registrados."
+       ]
+      ]
+     ]
+    },
+    {
+     "h2": "Cerradura y verja",
+     "flow": [
+      [
+       "p",
+       "La puerta se abre con un código y la verja exterior con llave. No compartas el código con personas ajenas al grupo y cierra la verja cuando salgáis todos."
+      ]
+     ]
+    },
+    {
+     "h2": "Dentro de la casa",
+     "flow": [
+      [
+       "p",
+       "Quítate el calzado en la entrada y ponte las zapatillas de casa para mantener limpios los suelos. Los huéspedes pueden usar la lavadora. Guarda pasaportes y objetos de valor en la caja fuerte."
+      ],
+      [
+       "h3",
+       "Cocina"
+      ],
+      [
+       "p",
+       "Cocina todo lo que quieras. Después de comer, friega los platos o déjalos en su sitio."
+      ],
+      [
+       "h3",
+       "Sala de ocio"
+      ],
+      [
+       "p",
+       "Trata con cuidado los micrófonos, los mandos y el proyector."
+      ]
+     ]
+    },
+    {
+     "h2": "Barbacoa en la azotea",
+     "flow": [
+      [
+       "p",
+       "La barbacoa y el ahumador están a disposición de los huéspedes. No dejes nunca el fuego sin vigilancia, mantén a los niños a distancia y apágalo por completo al terminar."
+      ]
+     ]
+    },
+    {
+     "h2": "Buena vecindad",
+     "flow": [
+      [
+       "p",
+       "ASCON LIVING está en un barrio residencial. Por la noche, baja la voz, sobre todo en la azotea y el balcón."
+      ]
+     ]
+    },
+    {
+     "h2": "Equipamiento",
+     "flow": [
+      [
+       "p",
+       "Frigorífico de unos 540 litros, horno, microondas, arrocera, freidora de aire y tostadora están a tu disposición: déjalos limpios, por favor. Toallas, champú, gel de ducha y pasta de dientes están en los baños; la plancha y la caja fuerte, en la casa. Si falta algo o no funciona, avísanos por WhatsApp o Zalo. No bloquees la escalera con maletas para que el paso quede libre."
+      ]
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes",
+     "faq": [
+      [
+       "¿Cómo se entra?",
+       "Con el código de la puerta y la llave de la verja exterior."
+      ],
+      [
+       "¿A quién aviso si hay un problema?",
+       "A nosotros, por WhatsApp o Zalo."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "¿Dudas sobre las normas? WhatsApp o Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "travel-guide": {
+   "title": "App guía gratuita para Ho Chi Minh | ASCON",
+   "description": "La app guía gratuita de ASCON: consejos locales, dónde comer y qué ver, mapa y ayuda práctica en Ho Chi Minh. Se abre en el navegador del móvil.",
+   "h1": "App guía de viaje gratuita para Ho Chi Minh",
+   "lead": "ASCON Guide es una app web gratuita con consejos locales y lugares de Ho Chi Minh. Se abre directamente en el navegador del móvil: sin contraseña y sin instalar nada.",
+   "sections": [
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Abrir la app guía</a>"
+     ]
+    },
+    {
+     "h2": "Así es la app",
+     "p": [
+      "Estas son capturas reales de la app en un móvil."
+     ],
+     "imgs": [
+      [
+       "tg-welcome",
+       "Pantalla de bienvenida con el logo y el lema de ASCON LIVING"
+      ],
+      [
+       "tg-picker",
+       "Elección de idioma: la app está en diez idiomas"
+      ],
+      [
+       "tg-categories",
+       "Categorías: comida, cafés, bares, planes en familia y más"
+      ],
+      [
+       "tg-map",
+       "Mapa de lugares alrededor de la casa"
+      ],
+      [
+       "tg-practical",
+       "Información práctica y ayuda de emergencia"
+      ]
+     ]
+    },
+    {
+     "h2": "Consejos y lugares",
+     "p": [
+      "Los lugares están ordenados por categorías: comida, cafés y postres, bares y vida nocturna, niños y familia, monumentos y cultura, actividades, relax, compras, excursiones de un día e información práctica y de emergencia. El mapa muestra los lugares alrededor de la casa y el botón Cómo llegar abre la navegación.",
+      "Puedes añadir la app a la pantalla de inicio. Más ideas en nuestra <a href=\"{L}guide/\">guía de viaje de Ho Chi Minh</a>.",
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Abrir la app guía</a>"
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  }
+ }
+}

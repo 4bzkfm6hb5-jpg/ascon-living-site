@@ -1,7 +1,7 @@
 [
 ["en","en","English","ltr",""],["vi","vi","Tiếng Việt","ltr",""],["zh","zh-Hans","简体中文","ltr",""],
 ["hi","hi","हिन्दी","ltr","Noto Sans Devanagari"],["es","es","Español","ltr",""],["ar","ar","العربية","rtl","Noto Sans Arabic"],
-["fr","fr","Français","ltr",""],["bn","bn","বাংলা","ltr","Noto Sans Bengali"],["pt","pt","Português","ltr",""],
+["fr","fr","Français","ltr",""],["bn","bn","বাংলা","ltr","Noto Sans Bengali"],["pt","pt-BR","Português","ltr",""],
 ["ru","ru","Русский","ltr",""],["ur","ur","اردو","rtl","Noto Nastaliq Urdu"],["id","id","Bahasa Indonesia","ltr",""],
 ["de","de","Deutsch","ltr",""],["ja","ja","日本語","ltr",""],["ko","ko","한국어","ltr",""],
 ["pa","pa","ਪੰਜਾਬੀ","ltr","Noto Sans Gurmukhi"],["th","th","ไทย","ltr",""],["ms","ms","Bahasa Melayu","ltr",""],

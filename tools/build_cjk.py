@@ -32,6 +32,7 @@ REP={'ko':[("열쇠)와 ASCON 가이드 앱 비밀번호를 보내드립니다."
   ("入住与安全","入住须知"),("住得安心","入住与到达"),("爱护房屋设施、安全设施说明。","爱护房屋设施。"),("每层都有烟雾报警器和急救箱，摄像头只装在室外。","入口处装有室外摄像头。"),("每层有烟雾报警器、急救箱和灭火器，摄像头只在室外。","入口处装有室外摄像头。")]}
 CAMN={'ko':'입구에는 실외 카메라가 있습니다.','ja':'入口には屋外カメラがあります。','zh':'入口处装有室外摄像头。'}
 CAMCELL={'ko':'입구 실외 카메라','ja':'入口の屋外カメラ','zh':'入口处室外摄像头'}
+CAMX={}
 CAM=re.compile(r'카메라|カメラ|摄像头|監視|监控')
 DROP=re.compile(r'(?i)가사|歌詞|歌词|화재경보기|화재 ?감지|연기 ?감지|구급상자|소화기|비상구|비상등|火災警報器|煙感知器|救急箱|消火器|非常口|非常灯|烟雾报警器|急救箱|灭火器|安全出口|应急灯|안전 설비|安全設備|安全设施|'
  r'카드키|카드 ?잠금|카드 ?리더|カードキー|カードロック|カードリーダー|房卡|门卡|刷卡|스마트 ?도어락|スマートロック|智能锁|智能门锁|\d+\s*(분|分钟|分)(?![子析配野別])|Landmark ?81|랜드마크 ?81|ランドマーク ?81|地标 ?81|'
@@ -52,19 +53,19 @@ EXACT={'zh':{'河景和第一郡天际线':'河畔屋顶视野，远眺第一郡
 def light(l,s):
     if isinstance(s,str) and s.strip() in EXACT.get(l,{}): return EXACT[l][s.strip()]
     s=NOTE.sub('',PHOTO.sub('',s.replace('[live]','').replace('**','').strip()))
-    for a,b in REP[l]: s=s.replace(a,b)
+    for a,b in REP[l]: s=a.sub(b,s) if hasattr(a,'sub') else s.replace(a,b)
     return s
 def clean(l,s,w,pid=None,cam_ok=True):
     if not isinstance(s,str): return s
     if s.strip() in EXACT.get(l,{}): return EXACT[l][s.strip()]
     o=s; s=s.replace('[live]','').replace('**','').strip()
     s=NOTE.sub('',s); s=PHOTO.sub('',s)
-    for a,b in REP[l]: s=s.replace(a,b)
+    for a,b in REP[l]: s=a.sub(b,s) if hasattr(a,'sub') else s.replace(a,b)
     pd=PAGE_DROP.get(pid)
     out=[]; cam=False
     for p in SPLIT.get(l,SENT).findall(s):
         if DROP.search(p) or (pd and pd.search(p)): LOG.append((l,w,'DROPPED: '+p.strip()[:100])); continue
-        if cam_ok and CAM.search(p):
+        if cam_ok and CAMX.get(l,CAM).search(p):
             if not cam: out.append(CAMN[l]+('' if l in ('ja','zh') else ' ')); cam=True
             LOG.append((l,w,'camera->neutral: '+p.strip()[:80])); continue
         out.append(p)
@@ -87,7 +88,7 @@ def cl_flow(l,flow,w,pid):
                 if CAMROW.match(r[0]): rows.append([r[0],CAMCELL[l]]); continue
                 cells=[r[0]]
                 for c in r[1:]:
-                    parts=re.findall(r'[^,，、]+(?:[,，、]\s*|$)',c) or [c]; keep=[x for x in parts if not (DROP.search(x) or (pd and pd.search(x)) or CAM.search(x))]
+                    parts=re.findall(r'[^,，、]+(?:[,，、]\s*|$)',c) or [c]; keep=[x for x in parts if not (DROP.search(x) or (pd and pd.search(x)) or CAMX.get(l,CAM).search(x))]
                     if len(keep)<len(parts): LOG.append((l,w,'DROPPED CELL ITEMS: '+' / '.join(x for x in parts if x not in keep)))
                     cells.append(''.join(keep).rstrip(',，、 '))
                 if not any(cells[1:]): LOG.append((l,w,'DROPPED ROW (empty): '+' | '.join(r))); continue
@@ -103,7 +104,7 @@ def cl_faq(l,faq,w,pid=None):
     for q,a in faq:
         q2=clean(l,q,w,pid,False)
         if DROPQ.search(q) or DROP.search(q) or (pd and pd.search(q)) or not q2: LOG.append((l,w,'DROPPED Q: '+q)); continue
-        a=CAMN[l] if CAM.search(q) else clean(l,a,w,pid)
+        a=CAMN[l] if CAMX.get(l,CAM).search(q) else clean(l,a,w,pid)
         if not a: LOG.append((l,w,'DROPPED Q (empty): '+q)); continue
         out.append([q2,a])
     return out
@@ -111,7 +112,7 @@ LOC={'ko':('자주 묻는 질문','이미지'),'ja':('よくあるご質問','�
 def load(l,f,pid=None,faq_page=False):
     t=open(f'{SRC}/{l}/{f}.md').read()
     fq,im=LOC[l]
-    t=re.sub(rf'^## {fq}\s*$','## FAQ',t,flags=re.M); t=re.sub(rf'^## {im}\b.*$','## Images',t,flags=re.M)
+    t=re.sub(rf'^## {fq}\s*$','## FAQ',t,flags=re.M); t=re.sub(rf'^## {im}(?!\w).*$','## Images',t,flags=re.M)
     m,S,I,F,C=parse(t,faq_page); w=f
     m={k:clean(l,v,w,pid) for k,v in m.items()}
     secs=[]
