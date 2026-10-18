@@ -3000,7 +3000,7 @@
       ],
       [
        "p",
-       "Das Gäste-WC liegt direkt im Wohnbereich und ist ausgestattet wie die anderen Bäder. Kinder und Besucher müssen tagsüber nicht in ein Schlafzimmerbad gehen."
+       "Das Gäste-WC liegt direkt im Wohnbereich und ist genauso ausgestattet wie die anderen Bäder. Kinder und Besucher müssen tagsüber nicht in ein Schlafzimmerbad gehen."
       ],
       [
        "h3",
@@ -3043,7 +3043,7 @@
       ],
       [
        "Gibt es auf der Wohnzimmer-Etage eine Toilette?",
-       "Ja, ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder, zusätzlich zum eigenen Bad jedes Schlafzimmers."
+       "Ja, ein Gäste-WC im Wohnbereich, genauso ausgestattet wie die anderen Bäder, zusätzlich zum eigenen Bad jedes Schlafzimmers."
       ],
       [
        "Kann ich im Wohnzimmer arbeiten?",
@@ -3125,10 +3125,6 @@
           "Ja"
          ],
          [
-          "Waschecke",
-          "Frontlader-Waschmaschine, die ihr nutzen dürft, daneben Wäschesäcke"
-         ],
-         [
           "Kühlschrank",
           "Schwarzer Side-by-Side-Kühlschrank, rund 540 Liter"
          ],
@@ -3143,6 +3139,14 @@
          [
           "Esstisch",
           "Langer Tisch in Marmoroptik mit cremefarbenen Polsterstühlen"
+         ],
+         [
+          "Waschecke",
+          "Frontlader-Waschmaschine, für Gäste nutzbar"
+         ],
+         [
+          "Wäscheservice",
+          "30 EUR pro Ladung"
          ],
          [
           "Raum",
@@ -3212,7 +3216,7 @@
       ],
       [
        "kitchen-dining",
-       "Esstisch mit cremefarbenen Polsterstühlen an den Glastüren"
+       "Esstisch mit cremefarbenen Polsterstühlen an den Glastüren, Waschmaschine in der Ecke"
       ]
      ]
     },
@@ -3325,7 +3329,7 @@
      "flow": [
       [
        "p",
-       "In der Ecke des Küchenbereichs steht eine Frontlader-Waschmaschine, daneben Wäschesäcke. Ihr dürft sie nutzen, praktisch bei längeren Aufenthalten und für Familien mit Kindern, die nach einem Tag am Spielplatz oder auf dem Markt frische Kleidung brauchen."
+       "In der Ecke des Küchenbereichs steht eine Frontlader-Waschmaschine, daneben Wäschesäcke. Gäste dürfen sie benutzen. Praktisch bei längeren Aufenthalten und für Familien mit Kindern, die nach einem Tag am Spielplatz oder auf dem Markt frische Kleidung brauchen."
       ],
       [
        "p",
@@ -3361,7 +3365,7 @@
       ],
       [
        "Können wir Wäsche waschen?",
-       "Ja. Die Frontlader-Waschmaschine im Küchenbereich dürft ihr nutzen, und der Wäscheservice kostet 30 EUR pro Ladung."
+       "Ja. Gäste dürfen die Frontlader-Waschmaschine im Küchenbereich benutzen, und der Wäscheservice kostet 30 EUR pro Ladung."
       ],
       [
        "Sind Geschirr und Kochgeschirr vorhanden?",
@@ -4167,7 +4171,7 @@
    "title": "3 eigene Bäder plus Gäste-WC | ASCON LIVING Saigon",
    "description": "Jedes Schlafzimmer hat ein eigenes Bad mit schwarzer Dusche, rundem Spiegel und Föhn, dazu ein Gäste-WC im Wohnbereich. Ganzes Haus in Saigon.",
    "h1": "Drei eigene Bäder und ein Gäste-WC: keine Warteschlange in eurem Haus in Saigon",
-   "lead": "Jedes der drei Schlafzimmer hat ein eigenes Bad, und im Wohnbereich gibt es ein Gäste-WC. Mattschwarze Duschen, runde schwarz gerahmte Spiegel, Föhne an der Wand, Spender und weiße Handtücher an den Stangen: Hier steht, was ihr vorfindet und wie es die Morgen leichter macht.",
+   "lead": "Jedes der drei Schlafzimmer hat ein eigenes Bad, und im Wohnbereich gibt es ein Gäste-WC, genauso ausgestattet wie die anderen Bäder. Mattschwarze Duschen, runde schwarz gerahmte Spiegel, Föhne an der Wand, Spender und weiße Handtücher an den Stangen: Hier steht, was ihr vorfindet und wie es die Morgen leichter macht.",
    "cover": [
     "bath",
     "Mattschwarze Dusche mit Handbrause und Wandspendern auf cremefarbenen Fliesen in Marmoroptik"
@@ -4186,7 +4190,7 @@
         "rows": [
          [
           "Anzahl",
-          "3 eigene Bäder, eines pro Schlafzimmer, dazu ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder"
+          "3 eigene Bäder, eines pro Schlafzimmer, dazu ein Gäste-WC im Wohnbereich, genauso ausgestattet wie die anderen Bäder"
          ],
          [
           "Dusche",
@@ -4373,7 +4377,7 @@
      "flow": [
       [
        "p",
-       "Das Gäste-WC liegt im Wohnbereich und ist ausgestattet wie die anderen Bäder. Besucher und Kinder nutzen es tagsüber, ohne in ein Schlafzimmer zu gehen. Die Schlafzimmerbäder bleiben privat für die Menschen, die dort schlafen."
+       "Das Gäste-WC liegt im Wohnbereich und ist genauso ausgestattet wie die anderen Bäder. Besucher und Kinder nutzen es tagsüber, ohne in ein Schlafzimmer zu gehen. Die Schlafzimmerbäder bleiben privat für die Menschen, die dort schlafen."
       ]
      ]
     },
@@ -4391,7 +4395,7 @@
      "faq": [
       [
        "Wie viele Bäder hat das Haus?",
-       "Jedes der drei Schlafzimmer hat ein eigenes Bad, dazu kommt ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder."
+       "Jedes der drei Schlafzimmer hat ein eigenes Bad, dazu kommt ein Gäste-WC im Wohnbereich, genauso ausgestattet wie die anderen Bäder."
       ],
       [
        "Was ist in den Bädern?",
@@ -4418,7 +4422,7 @@
    "lead": "Zwischen den Schlafzimmern liegt ein Vorraum mit einem Schreibtisch am Fenster, einem Bürostuhl, Kranich-Drucken und Pflanzen. Dazu kommen der Eingang mit Schuhregal, eine Schminkecke an den Glastüren und eine dunkle Granittreppe mit schwarzem Geländer. Damit kennt ihr jeden Bereich des Hauses.",
    "cover": [
     "hall",
-    "Vorraum mit zwei schwarzen Schlafzimmertüren nebeneinander"
+    "Vorraum mit den zwei schwarzen Türen zu Schlafzimmer 2 und 3 nebeneinander"
    ],
    "sections": [
     {
@@ -4553,7 +4557,7 @@
      "flow": [
       [
        "p",
-       "Zwei schwarze Kassettentüren stehen nebeneinander: Die eine führt in Schlafzimmer 2, die andere in Schlafzimmer 3. Graue Bodenfliesen in Marmoroptik mit schwarzen Sockelleisten und cremefarbene Wände folgen den Hausfarben."
+       "Zwei schwarze Kassettentüren stehen nebeneinander und führen in Schlafzimmer 2 und Schlafzimmer 3. Graue Bodenfliesen in Marmoroptik mit schwarzen Sockelleisten und cremefarbene Wände folgen den Hausfarben."
       ],
       [
        "h3",

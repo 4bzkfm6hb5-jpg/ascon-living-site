@@ -2991,7 +2991,7 @@
       ],
       [
        "p",
-       "The guest WC is right in the living area and is equipped like the other bathrooms. Children and visitors do not need to go up to a bedroom bathroom during the day."
+       "The guest WC is right in the living area and is equipped the same way as the other bathrooms. Children and visitors do not need to go up to a bedroom bathroom during the day."
       ],
       [
        "h3",
@@ -3034,7 +3034,7 @@
       ],
       [
        "Is there a toilet on the living room floor?",
-       "Yes, there is a guest WC in the living area, equipped like the other bathrooms, in addition to the en-suite bathroom of each bedroom."
+       "Yes, there is a guest WC in the living area, equipped the same way as the other bathrooms, in addition to the en-suite bathroom of each bedroom."
       ],
       [
        "Can I work from the living room?",
@@ -3116,10 +3116,6 @@
           "Yes"
          ],
          [
-          "Laundry corner",
-          "Front-loading washing machine that guests may use, laundry bags beside it"
-         ],
-         [
           "Fridge",
           "Black side-by-side fridge, approx. 540 litres"
          ],
@@ -3134,6 +3130,14 @@
          [
           "Dining table",
           "Long marble-look table with cream upholstered chairs"
+         ],
+         [
+          "Laundry corner",
+          "Front-loading washing machine, guests may use it"
+         ],
+         [
+          "Laundry service",
+          "30 EUR per load"
          ],
          [
           "Room",
@@ -3203,7 +3207,7 @@
       ],
       [
        "kitchen-dining",
-       "Dining table with cream upholstered chairs by glass doors"
+       "Dining table with cream upholstered chairs by glass doors, washing machine in the corner"
       ]
      ]
     },
@@ -3316,7 +3320,7 @@
      "flow": [
       [
        "p",
-       "A front-loading washing machine stands in the corner of the kitchen area, with laundry bags beside it. Guests may use it, which is practical on longer stays and for families with children."
+       "A front-loading washing machine stands in the corner of the kitchen area, with laundry bags beside it. Guests are welcome to use it. Practical on longer stays and for families with children."
       ],
       [
        "p",
@@ -3352,7 +3356,7 @@
       ],
       [
        "Can we wash clothes?",
-       "Yes. Guests may use the front-loading washing machine in the kitchen area, and a laundry service is available for 30 EUR per load."
+       "Yes. Guests are welcome to use the front-loading washing machine in the kitchen area, and a laundry service is available for 30 EUR per load."
       ],
       [
        "Are dishes and cookware provided?",
@@ -4150,7 +4154,7 @@
    "title": "3 En-Suite Bathrooms plus Guest WC | ASCON LIVING Saigon",
    "description": "Every bedroom has its own bathroom with black shower, round mirror and hair dryer, plus a guest WC in the living area. Whole house in Ho Chi Minh City",
    "h1": "Three en-suite bathrooms and a guest WC: no queue in your house in Saigon",
-   "lead": "Each of the three bedrooms has its own bathroom, and there is a guest WC in the living area, equipped like the other bathrooms. Matte black showers, round black-framed mirrors, wall-mounted hair dryers, dispensers and white towels on the rails: here is what you find and how it makes mornings easier.",
+   "lead": "Each of the three bedrooms has its own bathroom, and there is a guest WC in the living area, equipped the same way as the other bathrooms. Matte black showers, round black-framed mirrors, wall-mounted hair dryers, dispensers and white towels on the rails: here is what you find and how it makes mornings easier.",
    "cover": [
     "bath",
     "Matte black shower with hand shower and wall dispensers on cream marble-look tiles"
@@ -4169,7 +4173,7 @@
         "rows": [
          [
           "Number",
-          "3 en-suite bathrooms, one per bedroom, plus a guest WC in the living area, equipped like the other bathrooms"
+          "3 en-suite bathrooms, one per bedroom, plus a guest WC in the living area, equipped the same way as the other bathrooms"
          ],
          [
           "Shower",
@@ -4356,7 +4360,7 @@
      "flow": [
       [
        "p",
-       "The guest WC lies in the living area and is equipped like the other bathrooms. Visitors and children use it during the day without going to a bedroom. Bedroom bathrooms stay private for the people who sleep there."
+       "The guest WC lies in the living area and is equipped the same way as the other bathrooms. Visitors and children use it during the day without going to a bedroom. Bedroom bathrooms stay private for the people who sleep there."
       ]
      ]
     },
@@ -4374,7 +4378,7 @@
      "faq": [
       [
        "How many bathrooms does the house have?",
-       "Each of the three bedrooms has its own en-suite bathroom, and there is a guest WC in the living area, equipped like the other bathrooms."
+       "Each of the three bedrooms has its own en-suite bathroom, and there is a guest WC in the living area, equipped the same way as the other bathrooms."
       ],
       [
        "What is in the bathrooms?",
@@ -4401,7 +4405,7 @@
    "lead": "Between the bedrooms lies an anteroom with a work desk by the window, an office chair, crane prints and plants. Add the entrance with shoe rack, a dressing corner by the glass doors and dark granite stairs with black railings, and you know every space of the house.",
    "cover": [
     "hall",
-    "Anteroom with two black bedroom doors side by side"
+    "Anteroom with the two black doors to bedrooms 2 and 3 side by side"
    ],
    "sections": [
     {
@@ -4528,7 +4532,7 @@
      "flow": [
       [
        "p",
-       "Two black panel doors stand side by side: one leads into bedroom 2, the other into bedroom 3. Grey marble-look floor tiles with black skirting and cream walls follow the house colours."
+       "Two black panel doors stand side by side and lead into bedroom 2 and bedroom 3. Grey marble-look floor tiles with black skirting and cream walls follow the house colours."
       ],
       [
        "h3",
