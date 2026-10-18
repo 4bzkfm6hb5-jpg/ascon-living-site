@@ -5,11 +5,11 @@ ROOT=os.path.dirname(os.path.abspath(__file__)); OUT=os.path.join(ROOT,'docs')
 SITE='https://4bzkfm6hb5-jpg.github.io/ascon-living-site'; BASE='/ascon-living-site'
 PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','families/'),('groups','groups/'),
 ('location','location/'),('booking','booking/'),('faq','faq/'),('rules','house-rules/'),('guide','guide/'),
-('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),
+('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),('travel-guide','travel-guide/'),
 ('imprint','imprint/'),('privacy','privacy/')]
 # Room detail pages: published per language only once content/<code>.json has pages.<id> (no placeholders)
 ROOMS=[('room-entertainment','house/karaoke-entertainment/'),('room-living','house/living-room/'),('room-kitchen','house/kitchen/'),('room-master','house/master-bedroom/'),
-('room-bedroom-2','house/bedroom-2/'),('room-bedroom-3','house/bedroom-3/'),('room-bathrooms','house/bathrooms/'),('room-rooftop','house/rooftop-terrace/')]
+('room-bedroom-2','house/bedroom-2/'),('room-bedroom-3','house/bedroom-3/'),('room-bathrooms','house/bathrooms/'),('room-hallway','house/hallway/'),('room-outside','house/outside/')]
 PAGES+=ROOMS
 SLUG=dict(PAGES)
 F=json.load(open(f'{ROOT}/facts.json')); IMG=json.load(open(f'{ROOT}/tools/images.json'))
@@ -37,6 +37,11 @@ def section(s,code,u):
     if 'h2' in s: o.append(f'<h2>{html.escape(s["h2"])}</h2>')
     if 'note' in s: o.append(f'<p class="note">{sub(s["note"],code)}</p>')
     for p in s.get('p',[]): o.append(f'<p>{sub(p,code)}</p>')
+    for kind,val in s.get('flow',[]):
+        if kind=='p': o.append(f'<p>{sub(val,code)}</p>')
+        elif kind=='h3': o.append(f'<h3>{html.escape(val)}</h3>')
+        elif kind=='ul': o.append('<ul class="chk">'+''.join(f'<li>{sub(x,code)}</li>' for x in val)+'</ul>')
+        elif kind=='table': o.append('<div class="tbl"><table>'+(('<thead><tr>'+''.join(f'<th scope="col">{html.escape(h)}</th>' for h in val['head'])+'</tr></thead>') if val.get('head') else '')+'<tbody>'+''.join('<tr>'+f'<th scope="row">{sub(r[0],code)}</th>'+''.join(f'<td>{sub(x,code)}</td>' for x in r[1:])+'</tr>' for r in val['rows'])+'</tbody></table></div>')
     for bl in s.get('blocks',[]):
         if bl.get('h3'): o.append(f'<h3>{html.escape(bl["h3"])}</h3>')
         for p in bl.get('p',[]): o.append(f'<p>{sub(p,code)}</p>')
@@ -53,7 +58,7 @@ def lodging(code,c):
       "url":SITE+f'/{code}/',"image":[SITE+'/assets/img/hero-1440.webp',SITE+'/assets/img/og.jpg'],"logo":SITE+'/assets/img/logo-mark.png',
       "description":c['pages']['home']['description'],"telephone":F['phone_e164'],"email":F['email'],
       "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":"Tân Hưng","addressRegion":region,"addressCountry":F['country']},
-      "checkinTime":F['checkin'],"checkoutTime":F['checkout'],"petsAllowed":False,
+      "checkinTime":F['checkin'],"checkoutTime":F['checkout'],
       "knowsLanguage":F['languages'],"sameAs":[F['airbnb'],F['trip']],
       "contactPoint":[{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"email":F['email'],"url":F['wa']},{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"url":F['zalo']}],
       "amenityFeature":[{"@type":"LocationFeatureSpecification","name":a,"value":True} for a in F['amenities']],
@@ -79,7 +84,7 @@ def page(l,pid):
         crumbs.append({"@type":"ListItem","position":len(crumbs)+1,"name":p['h1'],"item":canon})
     ld.append({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":crumbs})
     if pid.startswith('guide-'): ld.append({"@context":"https://schema.org","@type":"Article","headline":p['h1'],"description":p['description'],"inLanguage":hl,"image":SITE+'/assets/img/og.jpg',"author":{"@type":"Organization","name":F['name']},"mainEntityOfPage":canon,"dateModified":TODAY})
-    if pid=='faq': ld.append({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for s in p['sections'] for q,a in s.get('faq',[])]})
+    if any(s.get('faq') for s in p['sections']): ld.append({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for s in p['sections'] for q,a in s.get('faq',[])]})
     ldh=''.join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False).replace('</','<\\/')+'</script>' for x in ld)
     navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else 'house' if pid.startswith('room-') else '')
     nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(v)}</a>' for k,v in c['nav'])

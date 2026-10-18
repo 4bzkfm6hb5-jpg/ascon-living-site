@@ -27,7 +27,7 @@
  "ent-mics": "Micro karaoke và điều khiển",
  "ent-ps": "PlayStation với hai tay cầm",
  "entrance": "Lối vào với cầu thang",
- "hall": "Hành lang với cửa các phòng",
+ "hall": "Hành lang với cửa phòng ngủ 2 và 3",
  "stairs": "Cầu thang giữa các tầng",
  "roof-lounge": "Bộ bàn ăn có nệm trên sân thượng",
  "roof-terrace": "Sân thượng view sông và đường chân trời TP. Hồ Chí Minh",
@@ -72,7 +72,7 @@
   ],
   "roof": [
    "Sân thượng & view sông",
-   "Sân thượng có lounge, bàn ăn ngoài trời và BBQ, homestay view sông và thành phố, cùng ba ban công."
+   "Sân thượng có lounge, bàn ăn ngoài trời và BBQ, homestay view sông và thành phố."
   ]
  },
  "kitchen-dishes": "Tủ bếp với chén đĩa",
@@ -83,5 +83,5 @@
  "bath-6": "Kệ kính với cốc trong phòng tắm",
  "river-balcony": "Lan can sân thượng nhìn ra sông và cây xanh",
  "roof-day": "Sân thượng với nội thất lounge và cây xanh ban ngày",
- "river-city": "View sông với tòa Landmark 81 ở phía xa"
+ "river-city": "View sông với đường chân trời thành phố ở phía xa"
 }

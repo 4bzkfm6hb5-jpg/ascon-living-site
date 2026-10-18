@@ -56,6 +56,10 @@
   [
    "guide",
    "Cẩm nang"
+  ],
+  [
+   "travel-guide",
+   "Ứng dụng"
   ]
  ],
  "pages": {
@@ -72,7 +76,7 @@
     {
      "h2": "Nhà nguyên căn Quận 7, không gian riêng cho cả nhóm",
      "p": [
-      "Bạn thuê cả ngôi nhà: ba phòng ngủ giường đôi, phòng tắm, ba ban công, phòng khách, bếp đầy đủ, phòng giải trí và sân thượng nhìn ra sông. Không có lễ tân, không dùng chung không gian với ai."
+      "Bạn thuê cả ngôi nhà: ba phòng ngủ giường đôi, phòng tắm, phòng khách, bếp đầy đủ, phòng giải trí và sân thượng nhìn ra sông. Không có lễ tân, không dùng chung không gian với ai."
      ],
      "imgs": [
       [
@@ -125,6 +129,20 @@
        "Airbnb, Trip.com hoặc WhatsApp."
       ]
      ]
+    },
+    {
+     "h2": "Ứng dụng cẩm nang miễn phí",
+     "p": [
+      "Lên kế hoạch cho chuyến đi với ứng dụng cẩm nang du lịch miễn phí của ASCON: mẹo địa phương, quán ăn, điểm tham quan và bản đồ, ngay trên trình duyệt điện thoại."
+     ],
+     "cards": [
+      [
+       "Ứng dụng cẩm nang miễn phí",
+       "travel-guide",
+       "Mẹo địa phương, địa điểm và bản đồ TP. Hồ Chí Minh, miễn phí trên trình duyệt."
+      ]
+     ],
+     "_tg": 1
     },
     {
      "cta": true
@@ -328,7 +346,7 @@
     {
      "h2": "Sân thượng & view sông",
      "p": [
-      "Sân thượng có lounge, bàn ăn ngoài trời và BBQ, homestay view sông và thành phố, cùng ba ban công."
+      "Sân thượng có lounge, bàn ăn ngoài trời và BBQ, homestay view sông và thành phố."
      ],
      "imgs": [
       [
@@ -341,7 +359,7 @@
       ],
       [
        "river-city",
-       "View sông với tòa Landmark 81 ở phía xa"
+       "View sông với đường chân trời thành phố ở phía xa"
       ],
       [
        "roof-day",
@@ -385,7 +403,7 @@
       ],
       [
        "hall",
-       "Hành lang với cửa các phòng"
+       "Hành lang với cửa phòng ngủ 2 và 3"
       ],
       [
        "stairs",
@@ -398,12 +416,26 @@
      "ul": [
       "Máy lạnh và quạt",
       "Wi-Fi",
-      "Máy giặt và bàn ủi",
+      "Máy giặt cho khách dùng, bàn ủi; dịch vụ giặt ủi (30 EUR mỗi mẻ)",
       "Két sắt",
       "Thiết bị báo khói, bình chữa cháy, hộp sơ cứu",
       "Tự nhận phòng bằng mã số (cổng ngoài dùng chìa khóa)",
       "BBQ trên sân thượng"
      ]
+    },
+    {
+     "h2": "Ứng dụng cẩm nang miễn phí",
+     "p": [
+      "Lên kế hoạch cho chuyến đi với ứng dụng cẩm nang du lịch miễn phí của ASCON: mẹo địa phương, quán ăn, điểm tham quan và bản đồ, ngay trên trình duyệt điện thoại."
+     ],
+     "cards": [
+      [
+       "Ứng dụng cẩm nang miễn phí",
+       "travel-guide",
+       "Mẹo địa phương, địa điểm và bản đồ TP. Hồ Chí Minh, miễn phí trên trình duyệt."
+      ]
+     ],
+     "_tg": 1
     },
     {
      "cta": true
@@ -471,9 +503,9 @@
       "3 phòng ngủ, mỗi phòng một giường đôi",
       "Phòng tắm",
       "Bếp đầy đủ với nồi cơm điện, lò nướng và máy rửa chén",
-      "Phòng giải trí có karaoke, máy chiếu, TV và PlayStation",
+      "Phòng giải trí có karaoke, máy chiếu, TV 4K và PlayStation",
       "Sân thượng có BBQ",
-      "Máy giặt; dịch vụ giặt ủi theo yêu cầu (30 EUR mỗi mẻ)",
+      "Máy giặt cho khách dùng, bàn ủi; dịch vụ giặt ủi (30 EUR mỗi mẻ)",
       "Đưa đón sân bay theo yêu cầu (50 EUR)",
       "Gửi hành lý miễn phí"
      ]
@@ -569,7 +601,7 @@
      "faq": [
       [
        "Nhà có bao nhiêu phòng ngủ và phòng tắm?",
-       "3 phòng ngủ với 3 giường (một giường 180×200 cm, hai giường 160×200 cm). Mỗi phòng ngủ có phòng tắm và máy lạnh riêng, ngoài ra có WC cho khách ở khu sinh hoạt chung."
+       "3 phòng ngủ với 3 giường (một giường 180×200 cm, hai giường 160×200 cm). Mỗi phòng ngủ có phòng tắm và máy lạnh riêng, ngoài ra có WC cho khách ở khu sinh hoạt chung, trang bị như các phòng tắm khác."
       ],
       [
        "Đặt phòng như thế nào?",
@@ -593,7 +625,7 @@
       ],
       [
        "Có giặt đồ được không?",
-       "Có máy giặt và bàn ủi. Dịch vụ giặt ủi 30 EUR mỗi mẻ."
+       "Có máy giặt cho khách dùng và bàn ủi, ngoài ra có dịch vụ giặt ủi (30 EUR mỗi mẻ)."
       ],
       [
        "Có gửi hành lý được không?",
@@ -659,7 +691,7 @@
      ]
     },
     {
-     "note": "Dành riêng cho khách của ASCON LIVING – bạn sẽ nhận mật khẩu sau khi đặt phòng.",
+     "note": "Miễn phí, không cần mật khẩu.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng ASCON Guide</a>"
      ]
@@ -803,10 +835,62 @@
      ]
     },
     {
-     "note": "Dành riêng cho khách của ASCON LIVING – bạn sẽ nhận mật khẩu sau khi đặt phòng.",
+     "note": "Miễn phí, không cần mật khẩu.",
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng ASCON Guide</a>"
      ]
+    }
+   ]
+  },
+  "travel-guide": {
+   "title": "Ứng dụng cẩm nang du lịch TP. Hồ Chí Minh miễn phí",
+   "description": "Ứng dụng cẩm nang du lịch miễn phí của ASCON: mẹo địa phương, quán ăn, điểm tham quan, bản đồ và thông tin hữu ích tại TP. Hồ Chí Minh.",
+   "h1": "Ứng dụng cẩm nang du lịch miễn phí cho TP. Hồ Chí Minh",
+   "lead": "ASCON Guide là ứng dụng web miễn phí với mẹo địa phương và các địa điểm quanh TP. Hồ Chí Minh. Ứng dụng mở ngay trên trình duyệt điện thoại: không cần mật khẩu, không cần cài đặt.",
+   "sections": [
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng cẩm nang</a>"
+     ]
+    },
+    {
+     "h2": "Bên trong ứng dụng",
+     "p": [
+      "Đây là ảnh chụp màn hình thật của ứng dụng trên điện thoại."
+     ],
+     "imgs": [
+      [
+       "tg-welcome",
+       "Màn hình chào với logo và khẩu hiệu ASCON LIVING"
+      ],
+      [
+       "tg-picker",
+       "Chọn ngôn ngữ: ứng dụng có mười ngôn ngữ"
+      ],
+      [
+       "tg-categories",
+       "Danh mục: ẩm thực, cà phê, bar, vui chơi cùng trẻ em và nhiều hơn nữa"
+      ],
+      [
+       "tg-map",
+       "Bản đồ các địa điểm quanh nhà"
+      ],
+      [
+       "tg-practical",
+       "Thông tin thực tế và trợ giúp khẩn cấp"
+      ]
+     ]
+    },
+    {
+     "h2": "Mẹo địa phương và địa điểm",
+     "p": [
+      "Các địa điểm được chia thành danh mục rõ ràng: ẩm thực, cà phê và tráng miệng, bar và về đêm, trẻ em và gia đình, tham quan và văn hóa, hoạt động, thư giãn, mua sắm, đi chơi trong ngày, cùng thông tin thực tế và khẩn cấp. Bản đồ hiển thị các địa điểm quanh nhà, chạm vào Chỉ đường để mở hướng dẫn đường đi.",
+      "Bạn có thể thêm ứng dụng vào màn hình chính. Xem thêm gợi ý trong <a href=\"{L}guide/\">cẩm nang du lịch TP. Hồ Chí Minh</a>.",
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng cẩm nang</a>"
+     ]
+    },
+    {
+     "cta": true
     }
    ]
   }
