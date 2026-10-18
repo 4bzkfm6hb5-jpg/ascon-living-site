@@ -796,5 +796,125 @@
    390,
    780
   ]
+ },
+ "tg-welcome@ko": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-picker@ko": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-categories@ko": {
+  "w": 390,
+  "h": 454,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-map@ko": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-practical@ko": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-welcome@ja": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-picker@ja": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-categories@ja": {
+  "w": 390,
+  "h": 454,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-map@ja": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-practical@ja": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-welcome@zh": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-picker@zh": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-categories@zh": {
+  "w": 390,
+  "h": 454,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-map@zh": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-practical@zh": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
  }
 }

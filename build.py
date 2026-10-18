@@ -67,6 +67,21 @@ def lodging(code,c):
         "bed":[{"@type":"BedDetails","numberOfBeds":1,"typeOfBed":"180×200 cm"},{"@type":"BedDetails","numberOfBeds":2,"typeOfBed":"160×200 cm"}],
         "floorSize":{"@type":"QuantitativeValue","minValue":F['size_m2_min'],"unitCode":"MTK"},
         "amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Self check-in via keypad; the outer gate uses a key","value":True}]}}
+def legal(code):
+    # imprint/privacy fall back to English where a language has no legal pages (lang attribute marks the switch)
+    o=[]
+    for k in ('imprint','privacy'):
+        if k in C[code]['pages']: o.append(f'<a href="{url(code,k)}">{C[code]["pages"][k]["h1"]}</a>')
+        else: o.append(f'<a href="{url("en",k)}" hreflang="en" lang="en">{C["en"]["pages"][k]["h1"]}</a>')
+    return '<br>'.join(o)
+import unicodedata
+CJK={'ko','ja','zh'}
+def width(s): return sum(2 if unicodedata.east_asian_width(ch) in 'WF' else 1 for ch in s)
+def seo_bad(code,p,suffix):
+    # Latin scripts: characters (title<=60, desc<=160). CJK: display width, full-width chars count 2 (title<=64 ~ 32 CJK chars, desc<=160 ~ 80 CJK chars)
+    t=p['title']+suffix; d=p['description']
+    if code in CJK: return width(t)>64 or width(d)>160
+    return len(t)>60 or len(d)>160
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
     title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
@@ -82,9 +97,10 @@ def page(l,pid):
         if pid.startswith('room-'): crumbs.append({"@type":"ListItem","position":2,"name":c['pages']['house']['h1'],"item":SITE+f'/{code}/house/'})
         if pid.startswith('guide-'): crumbs.append({"@type":"ListItem","position":2,"name":c['pages']['guide']['h1'],"item":SITE+f'/{code}/guide/'})
         crumbs.append({"@type":"ListItem","position":len(crumbs)+1,"name":p['h1'],"item":canon})
+    ld.append({"@context":"https://schema.org","@type":"WebPage","name":title,"description":p['description'],"url":canon,"inLanguage":hl,"isPartOf":{"@type":"WebSite","name":F['name'],"url":SITE+'/'}})
     ld.append({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":crumbs})
     if pid.startswith('guide-'): ld.append({"@context":"https://schema.org","@type":"Article","headline":p['h1'],"description":p['description'],"inLanguage":hl,"image":SITE+'/assets/img/og.jpg',"author":{"@type":"Organization","name":F['name']},"mainEntityOfPage":canon,"dateModified":TODAY})
-    if any(s.get('faq') for s in p['sections']): ld.append({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for s in p['sections'] for q,a in s.get('faq',[])]})
+    if any(s.get('faq') for s in p['sections']): ld.append({"@context":"https://schema.org","@type":"FAQPage","inLanguage":hl,"mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for s in p['sections'] for q,a in s.get('faq',[])]})
     ldh=''.join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False).replace('</','<\\/')+'</script>' for x in ld)
     navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else 'house' if pid.startswith('room-') else '')
     nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(v)}</a>' for k,v in c['nav'])
@@ -104,12 +120,12 @@ def page(l,pid):
 <main id="main">{top}{body}</div></main>
 <footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf['w']}" height="{lf['h']}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u['motto']}</p></div>
 <div><strong>{u['address_label']}</strong><br>{F['street']}<br>{u.get('locality',F['locality'])}, Vietnam</div>
-<div><strong>{u['contact_label']}</strong><br><a href="tel:{F['phone_e164']}">{F['phone']}</a><br><a href="mailto:{F['email']}">{F['email']}</a><br><a href="{F['wa']}" rel="noopener">WhatsApp</a> · <a href="{F['zalo']}" rel="noopener">Zalo</a></div>
-<div><strong>{u['more_label']}</strong><br><a href="{url(code,'imprint')}">{c['pages']['imprint']['h1']}</a><br><a href="{url(code,'privacy')}">{c['pages']['privacy']['h1']}</a><br><a href="{F['guide']}" rel="noopener">{u['guest_guide']}</a></div></div></footer>
+<div><strong>{u['contact_label']}</strong><br><a href="tel:{F['phone_e164']}">{F['phone']}</a><br><a href="mailto:{F['email']}">{F['email']}</a><br><a href="{F['wa']}" rel="noopener">WhatsApp</a> · <a href="{F['zalo']}" rel="noopener">Zalo</a>{u.get('extra_contact','')}</div>
+<div><strong>{u['more_label']}</strong><br>{legal(code)}<br><a href="{F['guide']}" rel="noopener">{u['guest_guide']}</a></div></div></footer>
 <a class="fab" href="{F['wa']}" rel="noopener" aria-label="{u['whatsapp']}">{WA_SVG}</a></body></html>'''
 def main():
     for code,*_ in LANGS: shutil.rmtree(f'{OUT}/{code}',ignore_errors=True)
-    errs=[f'{l[0]}/{pid}: title {len(C[l[0]]["pages"][pid]["title"]+C[l[0]].get("title_suffix",""))} / desc {len(C[l[0]]["pages"][pid]["description"])}' for l in PUB for pid,_ in PAGES if pid in C[l[0]]['pages'] and (len(C[l[0]]['pages'][pid]['title']+C[l[0]].get('title_suffix',''))>60 or len(C[l[0]]['pages'][pid]['description'])>160)]
+    errs=[f'{l[0]}/{pid}: title {len(C[l[0]]["pages"][pid]["title"])} chars, width {width(C[l[0]]["pages"][pid]["title"])} / desc {len(C[l[0]]["pages"][pid]["description"])} chars, width {width(C[l[0]]["pages"][pid]["description"])}' for l in PUB for pid,_ in PAGES if pid in C[l[0]]['pages'] and seo_bad(l[0],C[l[0]]['pages'][pid],C[l[0]].get('title_suffix',''))]
     if errs: raise SystemExit('SEO length errors:\n'+'\n'.join(errs))
     urls=[]
     for l in PUB:

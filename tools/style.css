@@ -41,3 +41,6 @@ footer a{color:#fff}footer img{height:90px;width:auto;border-radius:0}
 [lang=ur] body,[lang=ur] h1,[lang=ur] h2{line-height:2.1}[lang=ur] h1,[lang=ur] h2,[lang=ur] h3{font-family:var(--ff)}
 .tbl{overflow-x:auto}.tbl table{width:100%;border-collapse:collapse;font-size:.95rem}.tbl th,.tbl td{text-align:start;vertical-align:top;padding:10px 12px;border-bottom:1px solid #e3e6ec}.tbl th{width:34%;color:var(--n);font-weight:600}
 .faq summary h2{display:inline;font-size:1rem;font-family:inherit;margin:0;font-weight:600;color:inherit}
+[lang=ko] body,[lang=ko] h1,[lang=ko] h2,[lang=ko] h3{font-family:"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;word-break:keep-all}
+[lang=ja] body,[lang=ja] h1,[lang=ja] h2,[lang=ja] h3{font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","YuGothic","Meiryo","Noto Sans JP","Noto Sans CJK JP",system-ui,sans-serif;line-break:strict}
+[lang=zh-Hans] body,[lang=zh-Hans] h1,[lang=zh-Hans] h2,[lang=zh-Hans] h3{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Noto Sans CJK SC",system-ui,sans-serif;line-break:strict}

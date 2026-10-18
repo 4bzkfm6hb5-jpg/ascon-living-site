@@ -2,11 +2,26 @@
 import re,os,glob,json,html,sys
 D=sys.argv[1] if len(sys.argv)>1 else 'docs'; B='/ascon-living-site'
 bad=re.compile(r'(?i)\bvilla\b|\bpool\b|PS5|Hisense|Optoma|\bFPT\b|\bLG\b|Landmark 81|Agoda|Vrbo|halal|smart lock|smoke detector|Rauchmelder|first.aid|Erste.Hilfe|parking|Parkpl|three balcon|drei Balkon|password.protected|passwortgesch|exclusive for ASCON|Exklusiv für ASCON|luggage storage|Gepäckaufbewahrung|50 EUR|50 €|€50|card lock|Kartenschloss|fire.extinguisher|Feuerlöscher')
+# KO/JA/ZH (+TH/MS/ID) equivalents: villa, parking, pool, safety devices, lyrics, minutes, Landmark 81, Phu My Hung, card/smart lock, pets, luggage, app password, EUR
+bad2=re.compile(r'빌라|ヴィラ|別墅|别墅|주차|駐車|パーキング|停车|泊车|수영장|プール|泳池|游泳池|화재경보기|구급상자|소화기|비상구|비상등|火災警報器|救急箱|消火器|非常口|非常灯|烟雾报警器|急救箱|灭火器|安全出口|应急灯|가사|歌詞|歌词|'
+ r'\d+\s*(?:분|分钟|分(?![子析配野別]))|랜드마크|ランドマーク|地标|푸미흥|フーミーフン|富美兴|카드키|カードキー|房卡|스마트 ?도어락|スマートロック|智能锁|반려동물|(?<!カー)ペット|宠物|짐 ?보관|行李寄存|'
+ r'앱 비밀번호|アプリのパスワード|App 密码|유로|ユーロ|欧元|€|'
+ r'วิลล่า|ที่จอดรถ|จอดรถ|สระว่ายน้ำ|\d+\s*นาที|ถังดับเพลิง|เครื่องตรวจจับควัน|ชุดปฐมพยาบาล|เนื้อเพลง|สัตว์เลี้ยง|ฝากกระเป๋า|'
+ r'(?i:\bvila\b|tempat letak kereta|letak kereta|parkir|kolam renang|\d+\s*minit|\d+\s*menit|alat pemadam|pemadam api|pengesan asap|detektor asap|kotak pertolongan|P3K|lirik|haiwan peliharaan|hewan peliharaan|penyimpanan bagasi|simpan bagasi|kata laluan aplikasi|kata sandi aplikasi)')
+import unicodedata
+def width(x): return sum(2 if unicodedata.east_asian_width(ch) in 'WF' else 1 for ch in x)
+CJKL=('/ko/','/ja/','/zh/')
 errs=[];n=0
 for f in glob.glob(f'{D}/**/*.html',recursive=True):
     s=open(f).read(); n+=1
     txt=re.sub(r'<script.*?</script>|<style.*?</style>','',s,flags=re.S)
-    for m in bad.finditer(re.sub('<[^>]+>',' ',txt)): errs.append((f,'word',m.group(0)))
+    plain=re.sub('<[^>]+>',' ',txt)
+    if 'noindex' not in s and '"inLanguage"' not in s: errs.append((f,'inLanguage','missing'))
+    for m in bad.finditer(plain): errs.append((f,'word',m.group(0)))
+    for m in bad2.finditer(plain): errs.append((f,'word',m.group(0)))
+    for m in re.finditer(r'alt="([^"]*)"',s):
+        if bad2.search(m.group(1)) or bad.search(m.group(1)): errs.append((f,'alt',m.group(1)))
+    if 'hreflang="x-default"' not in s and 'noindex' not in s: errs.append((f,'hreflang','no x-default'))
     for m in re.finditer(r'(?:href|src)="(/ascon-living-site/[^"#?]*)',s):
         p=m.group(1)[len(B):]; fp=D+p+('index.html' if p.endswith('/') else '')
         if not os.path.exists(fp): errs.append((f,'link',p))
@@ -16,7 +31,8 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
             if not os.path.exists(D+p): errs.append((f,'img',p))
     for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>',s,re.S): json.loads(m.group(1).replace('<\\/','</'))
     t=re.search(r'<title>(.*?)</title>',s); d=re.search(r'<meta name="description" content="(.*?)"',s)
-    if t and len(html.unescape(t.group(1)))>60: errs.append((f,'title',len(html.unescape(t.group(1)))))
-    if d and len(html.unescape(d.group(1)))>160: errs.append((f,'desc',len(html.unescape(d.group(1)))))
+    cj=any(c in f for c in CJKL); L=(lambda x:width(x)) if cj else len; tl,dl=(64,160) if cj else (60,160)
+    if t and L(html.unescape(t.group(1)))>tl: errs.append((f,'title',L(html.unescape(t.group(1)))))
+    if d and L(html.unescape(d.group(1)))>dl: errs.append((f,'desc',L(html.unescape(d.group(1)))))
     if '**' in txt or '[//]' in txt: errs.append((f,'markdown',''))
 print(n,'pages'); [print(e) for e in errs[:60]]; print(len(errs),'issues')
