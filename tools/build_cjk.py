@@ -36,7 +36,7 @@ CAM=re.compile(r'카메라|カメラ|摄像头|監視|监控')
 DROP=re.compile(r'(?i)가사|歌詞|歌词|화재경보기|화재 ?감지|연기 ?감지|구급상자|소화기|비상구|비상등|火災警報器|煙感知器|救急箱|消火器|非常口|非常灯|烟雾报警器|急救箱|灭火器|安全出口|应急灯|안전 설비|安全設備|安全设施|'
  r'카드키|카드 ?잠금|카드 ?리더|カードキー|カードロック|カードリーダー|房卡|门卡|刷卡|스마트 ?도어락|スマートロック|智能锁|智能门锁|\d+\s*(분|分钟|分)(?![子析配野別])|Landmark ?81|랜드마크 ?81|ランドマーク ?81|地标 ?81|'
  r'Phú Mỹ Hưng|Phu My Hung|푸미흥|フーミーフン|富美兴|富美興|빌라|ヴィラ|別墅|别墅|\bvilla\b|주차|駐車|パーキング|停车|泊车|parking|수영장|プール|泳池|游泳池|\bpool\b|PS5|Hisense|Optoma|\bFPT\b|\bLG\b|'
- r'Agoda|아고다|アゴダ|Vrbo|할랄|ハラール|清真|halal|짐 ?보관|荷物(の)?(お)?預か|手荷物預|行李寄存|寄存行李|반려동물|애완|(?<!カー)ペット|宠物|\bEUR\b|유로|ユーロ|欧元|€|비밀번호를 (드립|보내)|パスワードをお送り|提供密码')
+ r'Agoda|아고다|アゴダ|Vrbo|할랄|ハラール|清真|halal|짐 ?보관|荷物(の)?(お)?預か|手荷物預|行李寄存|寄存行李|반려동물|애완|(?<!カー)ペット|宠物|(?<!30 )\bEUR\b|유로|ユーロ|欧元|€|비밀번호를 (드립|보내)|パスワードをお送り|提供密码')
 DROPQ=re.compile(r'안전|安全|집 안에 카메라|室内にカメラ|室内有摄像头')
 DROP_SECS=re.compile(r'^(\d+\.\s*)?(안전|安全)$')
 DROP_ROWS=re.compile(r'^(안전|安全)$')
@@ -278,7 +278,7 @@ def build(l):
     P['booking']['sections']=secs+[{'cta':True},{'h2':CONTACTH[l],'p':CONTACT[l]}]+([{'h2':FAQH[l],'faq':faq}] if faq else [])
     m,secs,imgs,faq,cta=load(l,'house-rules','rules')
     P['rules']={}; setmeta(P['rules'],m); P['rules']['sections']=secs[:1]+[RULES[l]]+secs[1:]+tail(l,faq,cta)
-    t=TGP[l]; ids=['tg-welcome','tg-picker','tg-categories','tg-map','tg-practical']
+    t=TGP.get(l) or TGP['ko']; ids=['tg-welcome','tg-picker','tg-categories','tg-map','tg-practical']
     P['travel-guide']={'title':t['title'],'description':t['description'],'h1':t['h1'],'lead':t['lead'],'sections':[
         {'p':[f'<a class="btn b1" href="{{guide}}" rel="noopener">{APPBTN[l]}</a>']},
         {'h2':t['h2a'],'p':[t['pa']],'imgs':[[i,c] for i,c in zip(ids,t['caps'])]},

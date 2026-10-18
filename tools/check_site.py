@@ -7,7 +7,13 @@ bad2=re.compile(r'빌라|ヴィラ|別墅|别墅|주차|駐車|パーキング|�
  r'\d+\s*(?:분|分钟|分(?![子析配野別]))|랜드마크|ランドマーク|地标|푸미흥|フーミーフン|富美兴|카드키|カードキー|房卡|스마트 ?도어락|スマートロック|智能锁|반려동물|(?<!カー)ペット|宠物|짐 ?보관|行李寄存|'
  r'앱 비밀번호|アプリのパスワード|App 密码|유로|ユーロ|欧元|€|'
  r'วิลล่า|ที่จอดรถ|จอดรถ|สระว่ายน้ำ|\d+\s*นาที|ถังดับเพลิง|เครื่องตรวจจับควัน|ชุดปฐมพยาบาล|เนื้อเพลง|สัตว์เลี้ยง|ฝากกระเป๋า|'
- r'(?i:\bvila\b|tempat letak kereta|letak kereta|parkir|kolam renang|\d+\s*minit|\d+\s*menit|alat pemadam|pemadam api|pengesan asap|detektor asap|kotak pertolongan|P3K|lirik|haiwan peliharaan|hewan peliharaan|penyimpanan bagasi|simpan bagasi|kata laluan aplikasi|kata sandi aplikasi)')
+ r'(?i:\bvila\b|tempat letak kereta|letak kereta|parkir|kolam renang|\d+\s*minit|\d+\s*menit|alat pemadam|pemadam api|pengesan asap|detektor asap|kotak pertolongan|P3K|lirik|haiwan peliharaan|hewan peliharaan|penyimpanan bagasi|simpan bagasi|kata laluan aplikasi|kata sandi aplikasi)'
+ r'|(?i:biệt thự|bãi đỗ xe|chỗ đậu xe|đỗ xe|đậu xe|hồ bơi|bể bơi|\d+\s*phút|bình chữa cháy|báo khói|sơ cứu|lời bài hát|thú cưng|gửi hành lý|mật khẩu ứng dụng|'
+ r'вилл[аыуеой]|парков|бассейн|\d+\s*мин|огнетушител|датчик[а-я]* дыма|аптечк|тексты? песен|домашн[а-я]+ животн|хранени[ея] багажа|пароль для приложения|'
+ r'piscine|extincteur|détecteur de fumée|trousse de secours|paroles|animaux|bagagerie|consigne à bagages|'
+ r'piscina|aparcamiento|estacionamiento|extintor|detector de humo|detector de fumaça|botiquín|letras de canciones|letras das músicas|mascota|animais de estimação|guarda-volumes|consigna de equipaje|'
+ r'parcheggio|estintore|rilevatore di fumo|pronto soccorso|testi delle canzoni|animali domestici|deposito bagagli|'
+ r'विला|पार्किंग|स्विमिंग|स्विमिंग पूल|\d+\s*मिनट|अग्निशामक|धुएँ|धुआँ|प्राथमिक चिकित्सा|लिरिक्स|गीत के बोल|पालतू|सामान रखने)')
 import unicodedata
 def width(x): return sum(2 if unicodedata.east_asian_width(ch) in 'WF' else 1 for ch in x)
 CJKL=('/ko/','/ja/','/zh/')
