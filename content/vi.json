@@ -506,7 +506,7 @@
       "Phòng giải trí có karaoke, máy chiếu, TV 4K và PlayStation",
       "Sân thượng có BBQ",
       "Máy giặt cho khách dùng, bàn ủi; dịch vụ giặt ủi (30 EUR mỗi mẻ)",
-      "Đưa đón sân bay theo yêu cầu (50 EUR)",
+      "Đưa đón sân bay theo yêu cầu",
       "Gửi hành lý miễn phí"
      ]
     },
@@ -584,7 +584,7 @@
     {
      "h2": "Dịch vụ thêm theo yêu cầu",
      "ul": [
-      "Đưa đón sân bay: 50 EUR",
+      "Đưa đón sân bay: theo yêu cầu",
       "Giặt ủi: 30 EUR mỗi mẻ",
       "Gửi hành lý: miễn phí"
      ]
@@ -621,7 +621,7 @@
       ],
       [
        "Có đưa đón sân bay không?",
-       "Có, theo yêu cầu với giá 50 EUR."
+       "Có, theo yêu cầu."
       ],
       [
        "Có giặt đồ được không?",
@@ -733,7 +733,7 @@
     {
      "h2": "Các lựa chọn",
      "ul": [
-      "Xe riêng do chúng tôi sắp xếp: 50 EUR theo yêu cầu – gửi thông tin chuyến bay qua WhatsApp.",
+      "Xe riêng do chúng tôi sắp xếp theo yêu cầu – gửi thông tin chuyến bay qua WhatsApp.",
       "Ứng dụng gọi xe (ví dụ Grab): đặt trong ứng dụng tại khu vực đón khách.",
       "Taxi có đồng hồ tại điểm taxi chính thức."
      ]
