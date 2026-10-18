@@ -22,7 +22,7 @@ details.lang li a{display:block;padding:6px 10px;text-decoration:none;color:var(
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,16,32,.78) 0%,rgba(8,16,32,.5) 45%,rgba(8,16,32,.1) 80%),linear-gradient(180deg,rgba(8,16,32,.2),rgba(8,16,32,.8))}.hero h1,.hero p{text-shadow:0 2px 12px rgba(0,0,0,.45)}
 .hero .in{position:relative;z-index:1;max-width:1180px;margin:auto;padding:24px 16px 48px;width:100%}
 .hero h1{color:#fff;max-width:20ch}.hero p{font-size:1.15rem;max-width:46ch}
-.motto{font-style:italic;color:var(--o);letter-spacing:.02em}.hero .motto{color:#ffd29e}
+.motto{font-style:italic;color:var(--o);letter-spacing:.02em}.hero .motto{color:#ffd29e}[dir=rtl] .motto{text-align:right;unicode-bidi:isolate}
 main .wrap{max-width:1180px;margin:auto;padding:16px}
 .ph{padding-top:24px}.lead{font-size:1.15rem;color:var(--m);max-width:62ch}
 .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));margin:12px 0}
@@ -45,3 +45,5 @@ footer a{color:#fff}footer img{height:90px;width:auto;border-radius:0}
 [lang=ja] body,[lang=ja] h1,[lang=ja] h2,[lang=ja] h3{font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","YuGothic","Meiryo","Noto Sans JP","Noto Sans CJK JP",system-ui,sans-serif;line-break:strict}
 [lang=zh-Hans] body,[lang=zh-Hans] h1,[lang=zh-Hans] h2,[lang=zh-Hans] h3{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Noto Sans CJK SC",system-ui,sans-serif;line-break:strict}
 [lang=th] body,[lang=th] h1,[lang=th] h2,[lang=th] h3{font-family:"Leelawadee UI","Thonburi","Sukhumvit Set","Noto Sans Thai",system-ui,sans-serif;line-height:1.8}
+
+[lang=zh-TW] body,[lang=zh-TW] h1,[lang=zh-TW] h2,[lang=zh-TW] h3{font-family:"PingFang TC","Microsoft JhengHei","Noto Sans TC","Noto Sans CJK TC",system-ui,sans-serif;line-break:strict}

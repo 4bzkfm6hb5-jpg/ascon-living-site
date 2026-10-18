@@ -66,7 +66,7 @@ def clean(l,s,w,pid=None,cam_ok=True):
     for p in SPLIT.get(l,SENT).findall(s):
         if DROP.search(p) or (pd and pd.search(p)): LOG.append((l,w,'DROPPED: '+p.strip()[:100])); continue
         if cam_ok and CAMX.get(l,CAM).search(p):
-            if not cam: out.append(CAMN[l]+('' if l in ('ja','zh') else ' ')); cam=True
+            if not cam: out.append(CAMN[l]+('' if l in ('ja','zh','zh-tw') else ' ')); cam=True
             LOG.append((l,w,'camera->neutral: '+p.strip()[:80])); continue
         out.append(p)
     s=''.join(out).strip()
@@ -88,7 +88,7 @@ def cl_flow(l,flow,w,pid):
                 if CAMROW.match(r[0]): rows.append([r[0],CAMCELL[l]]); continue
                 cells=[r[0]]
                 for c in r[1:]:
-                    parts=re.findall(r'[^,，、]+(?:[,，、]\s*|$)',c) or [c]; keep=[x for x in parts if not (DROP.search(x) or (pd and pd.search(x)) or CAMX.get(l,CAM).search(x))]
+                    parts=re.findall(r'[^,，、،]+(?:[,，、،]\s*|$)',c) or [c]; keep=[x for x in parts if not (DROP.search(x) or (pd and pd.search(x)) or CAMX.get(l,CAM).search(x))]
                     if len(keep)<len(parts): LOG.append((l,w,'DROPPED CELL ITEMS: '+' / '.join(x for x in parts if x not in keep)))
                     cells.append(''.join(keep).rstrip(',，、 '))
                 if not any(cells[1:]): LOG.append((l,w,'DROPPED ROW (empty): '+' | '.join(r))); continue

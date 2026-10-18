@@ -1036,5 +1036,85 @@
    390,
    780
   ]
+ },
+ "tg-welcome@ar": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-welcome@zh-tw": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-picker@ar": {
+  "w": 390,
+  "h": 403,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-picker@zh-tw": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-categories@ar": {
+  "w": 390,
+  "h": 447,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-categories@zh-tw": {
+  "w": 390,
+  "h": 454,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-map@ar": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-map@zh-tw": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-practical@ar": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
+ },
+ "tg-practical@zh-tw": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ]
  }
 }

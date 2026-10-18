@@ -13,11 +13,12 @@ bad2=re.compile(r'빌라|ヴィラ|別墅|别墅|주차|駐車|パーキング|�
  r'piscine|extincteur|détecteur de fumée|trousse de secours|paroles|animaux|bagagerie|consigne à bagages|'
  r'piscina|aparcamiento|estacionamiento|extintor|detector de humo|detector de fumaça|botiquín|letras de canciones|letras das músicas|mascota|animais de estimação|guarda-volumes|consigna de equipaje|'
  r'parcheggio|estintore|rilevatore di fumo|pronto soccorso|testi delle canzoni|animali domestici|deposito bagagli|'
+ r'別墅|停車|泳池|寵物|煙霧偵測器|急救箱|滅火器|歌詞|\d+\s*分鐘|\bvilla\b|otopark|havuz|evcil|duman dedektör|yangın söndür|ilk yardım|şarkı söz|\d+\s*dakika|فيلا|موقف سيارات|مسبح|حيوانات أليفة|كاشف الدخان|طفاية|الإسعافات|كلمات الأغاني|\d+\s*دقيق|'
  r'\bwill[aię]\b|zwembad|parkeerplaats|parkering|songtekst|teksty piosenek|låttext|rookmelder|EHBO|brandblusser|czujnik dymu|apteczk|gaśnic|brandvarnare|första hjälpen|brandsläckare|huisdier|husdjur|'
  r'विला|पार्किंग|स्विमिंग|स्विमिंग पूल|\d+\s*मिनट|अग्निशामक|धुएँ|धुआँ|प्राथमिक चिकित्सा|लिरिक्स|गीत के बोल|पालतू|सामान रखने)')
 import unicodedata
 def width(x): return sum(2 if unicodedata.east_asian_width(ch) in 'WF' else 1 for ch in x)
-CJKL=('/ko/','/ja/','/zh/')
+CJKL=('/ko/','/ja/','/zh/','/zh-tw/')
 errs=[];n=0
 for f in glob.glob(f'{D}/**/*.html',recursive=True):
     s=open(f).read(); n+=1
@@ -44,4 +45,9 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     if t and L(html.unescape(t.group(1)))>tl: errs.append((f,'title',L(html.unescape(t.group(1)))))
     if d and L(html.unescape(d.group(1)))>dl: errs.append((f,'desc',L(html.unescape(d.group(1)))))
     if '**' in txt or '[//]' in txt: errs.append((f,'markdown',''))
+# laundry service 30 EUR per load must be stated in every published language
+for d in sorted(glob.glob(f'{D}/*/index.html')):
+    ld=os.path.dirname(d)
+    if 'noindex' in open(d).read(): continue
+    if not any('30 EUR' in open(f).read() for f in glob.glob(f'{ld}/**/*.html',recursive=True)): errs.append((ld,'laundry','no 30 EUR'))
 print(n,'pages'); [print(e) for e in errs[:60]]; print(len(errs),'issues')
