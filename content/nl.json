@@ -1,0 +1,3183 @@
+{
+ "ui": {
+  "skip": "Naar de inhoud",
+  "languages": "Taal",
+  "book_airbnb": "Boek op Airbnb",
+  "book_trip": "Boek op Trip.com",
+  "whatsapp": "Boek via WhatsApp",
+  "zalo": "Boek via Zalo",
+  "address_label": "Adres",
+  "contact_label": "Contact",
+  "more_label": "Meer",
+  "guest_guide": "Gids-app voor gasten",
+  "read_more": "Lees meer",
+  "source": "Bron",
+  "estimate": "schatting",
+  "home": "Home",
+  "not_found_title": "Pagina niet gevonden",
+  "not_found_text": "Deze pagina bestaat niet. Naar de homepage:",
+  "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON."
+ },
+ "nav": [
+  [
+   "home",
+   "Home"
+  ],
+  [
+   "house",
+   "Het huis"
+  ],
+  [
+   "rooftop",
+   "Dakterras"
+  ],
+  [
+   "families",
+   "Gezinnen"
+  ],
+  [
+   "groups",
+   "Groepen"
+  ],
+  [
+   "location",
+   "Locatie"
+  ],
+  [
+   "booking",
+   "Boeken & contact"
+  ],
+  [
+   "faq",
+   "Veelgestelde vragen"
+  ],
+  [
+   "rules",
+   "Huisregels"
+  ],
+  [
+   "guide",
+   "Reisgids"
+  ],
+  [
+   "travel-guide",
+   "Gids-app"
+  ]
+ ],
+ "pages": {
+  "room-entertainment": {
+   "title": "Privé-karaoke en PlayStation in Saigon | ASCON LIVING",
+   "description": "Privé-karaokekamer in een huis in Ho Chi Minh: microfoons, PlayStation met PlayStation Plus en 2 controllers, 4K-projector met scherm op statief, 4K-tv.",
+   "h1": "Jullie eigen karaoke- en entertainmentkamer",
+   "lead": "Bij ASCON LIVING hoef je geen karaokebar te zoeken: de entertainmentkamer zit in huis en is alleen voor jullie groep.",
+   "cover": [
+    "ent",
+    "Entertainmentkamer met grijze bank, vierkante poefs en ingelijste anime-posters, huis met karaoke in Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "De uitrusting",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Microfoons"
+         ],
+         [
+          "Console",
+          "PlayStation met PlayStation Plus"
+         ],
+         [
+          "Controllers",
+          "2"
+         ],
+         [
+          "Projector",
+          "4K aan het plafond, scherm op statief"
+         ],
+         [
+          "Tv",
+          "4K"
+         ],
+         [
+          "Streaming",
+          "Netflix, afhankelijk van het actieve account"
+         ],
+         [
+          "Zitten",
+          "Grijze bank en vierkante poefs"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Karaokekamer met groen ledlicht, bank, bijzettafels en tv aan de muur"
+      ],
+      [
+       "ent-cinema",
+       "Scherm van de 4K-projector op statief in de donkere kamer"
+      ],
+      [
+       "ent-tv",
+       "Grote tv aan de muur, gekleurde ledstrips en grijze bank"
+      ],
+      [
+       "ent-mics",
+       "Karaokemicrofoons en afstandsbedieningen op een bijzettafel met steenlook"
+      ],
+      [
+       "ent-ps",
+       "PlayStation aan de muur met twee controllers"
+      ]
+     ]
+    },
+    {
+     "h2": "Zo verloopt een avond",
+     "flow": [
+      [
+       "p",
+       "Het leukst is eerst eten op het dakterras en daarna naar beneden, naar de entertainmentkamer. Afstandsbedieningen en microfoons liggen op het bijzettafeltje met steenlook, de controllers naast de console aan de muur. Gaat het groene ledlicht aan, dan is de kamer klaar voor het eerste nummer."
+      ]
+     ]
+    },
+    {
+     "h2": "Zingen zonder op de klok te kijken",
+     "flow": [
+      [
+       "p",
+       "Kies een nummer, de tekst verschijnt op het scherm van de 4K-projector en de microfoon gaat rond. Geen uurtarief, geen andere groep achter de muur."
+      ]
+     ]
+    },
+    {
+     "h2": "PlayStation-duels",
+     "flow": [
+      [
+       "p",
+       "De PlayStation aan de muur, met PlayStation Plus en twee controllers, wacht op duels tussen broers en zussen of collega's."
+      ]
+     ]
+    },
+    {
+     "h2": "Thuisbioscoop",
+     "flow": [
+      [
+       "p",
+       "Licht uit, het scherm op statief open en een film op de 4K-projector. Netflix werkt afhankelijk van het actieve account. Voor iets eenvoudigers is er de 4K-tv."
+      ]
+     ]
+    },
+    {
+     "h2": "Een andere sfeer",
+     "flow": [
+      [
+       "p",
+       "Zachte grijze bank, poefs, ingelijste anime-posters en gekleurde ledstrips: deze kamer voelt anders dan de rest van het huis."
+      ],
+      [
+       "h3",
+       "Op regendagen"
+      ],
+      [
+       "p",
+       "Als de tropische bui losbarst, is dit de levendigste kamer, voor kinderen en volwassenen."
+      ]
+     ]
+    },
+    {
+     "h2": "Denk aan de buren",
+     "flow": [
+      [
+       "p",
+       "Het huis staat in een woonwijk: zet het volume laat op de avond lager."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Is er karaoke?",
+       "Ja, met karaokemicrofoons."
+      ],
+      [
+       "Is er een PlayStation?",
+       "Ja, met PlayStation Plus en twee controllers."
+      ],
+      [
+       "Kunnen we Netflix kijken?",
+       "Ja, afhankelijk van het actieve account."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Boek een huis met eigen karaoke: WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-living": {
+   "title": "Woonkamer van 40 m² met 4K-tv van 75\" | ASCON LIVING",
+   "description": "Woonkamer van ca. 40 m² in een heel huis in Ho Chi Minh: hoekbank, 4K-tv van 75 inch, glazen deuren, planten en mesh-wifi tot 1 Gbit/s.",
+   "h1": "De woonkamer, waar iedereen samenkomt",
+   "lead": "Ca. 40 m², een grote hoekbank en een tv van 75 inch. Hier worden de plannen voor morgen gemaakt en hier eindigt de avond.",
+   "cover": [
+    "living",
+    "Woonkamer met hoekbank in een heel huis te huur in Saigon"
+   ],
+   "sections": [
+    {
+     "h2": "Van ochtend tot avond",
+     "flow": [
+      [
+       "p",
+       "'s Ochtends drinkt iemand koffie op de bank terwijl de kinderen tekenfilms kijken op het grote scherm. Rond het middaguur komt de groep terug van de markt, zet de boodschappen in de keuken en rust uit bij de glazen deuren tussen de planten. 's Avonds wordt de woonkamer een kleine bioscoop. Zin in karaoke? De entertainmentkamer met microfoons, PlayStation en 4K-projector is in hetzelfde huis."
+      ]
+     ],
+     "imgs": [
+      [
+       "living-2",
+       "Lichte woonkamer met bank en planten"
+      ],
+      [
+       "living-tv",
+       "4K-tv van 75 inch in de woonkamer voor filmavonden"
+      ],
+      [
+       "living-3",
+       "Zithoek bij de glazen deuren van de woonkamer"
+      ]
+     ]
+    },
+    {
+     "h2": "Wat er staat",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Oppervlakte",
+          "Ca. 40 m²"
+         ],
+         [
+          "Tv",
+          "4K, 75 inch"
+         ],
+         [
+          "Bank",
+          "Hoekbank"
+         ],
+         [
+          "Licht",
+          "Glazen deuren, planten"
+         ],
+         [
+          "Wifi",
+          "Mesh tot 1 Gbit/s"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Het grote scherm",
+     "flow": [
+      [
+       "p",
+       "Met de 4K-tv van 75 inch wordt de woonkamer een thuisbioscoop: een film met het gezin, een wedstrijd met vrienden of tekenfilms in de ochtend."
+      ],
+      [
+       "h3",
+       "Filmavond"
+      ],
+      [
+       "p",
+       "Gedimd licht, popcorn erbij en iedereen lekker op de bank."
+      ]
+     ]
+    },
+    {
+     "h2": "De hoekbank",
+     "flow": [
+      [
+       "p",
+       "De hoekbank zet iedereen tegenover elkaar. De beste plek om de dag van morgen te plannen of de foto's van vandaag te laten zien."
+      ]
+     ]
+    },
+    {
+     "h2": "Licht en fris",
+     "flow": [
+      [
+       "p",
+       "Door de glazen deuren komt daglicht binnen en de planten geven een tropisch gevoel."
+      ]
+     ]
+    },
+    {
+     "h2": "Werken vanaf de bank",
+     "flow": [
+      [
+       "p",
+       "De mesh-wifi tot 1 Gbit/s reikt ook hier, dus de laptop kan gewoon mee de bank op. Voor meer rust is er het bureau in de gang."
+      ]
+     ]
+    },
+    {
+     "h2": "Dicht bij keuken en dak",
+     "flow": [
+      [
+       "p",
+       "De keuken en de eettafel liggen ernaast: wie kookt, blijft bij het gesprek. Als het tijd is voor de barbecue, is het dakterras een paar trappen hoger."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Hoe groot is de woonkamer?",
+       "Ca. 40 m²."
+      ],
+      [
+       "Welke tv staat er?",
+       "Een 4K-tv van 75 inch."
+      ],
+      [
+       "Is er wifi in de woonkamer?",
+       "Ja, mesh tot 1 Gbit/s."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Meer weten over het huis? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-kitchen": {
+   "title": "Uitgeruste keuken en eethoek | ASCON LIVING",
+   "description": "Uitgeruste keuken in District 7: kookplaat met zwart glas, oven, magnetron, rijstkoker, airfryer, koelkast van ca. 540 liter en wasmachine.",
+   "h1": "Keuken en eethoek: zelf koken in Saigon",
+   "lead": "Het streetfood van Saigon is onweerstaanbaar, maar na een paar dagen wil je soms gewoon zelf koken. In de keuken van ASCON LIVING maak je alles, van een snel ontbijt tot een groot diner voor de groep.",
+   "cover": [
+    "kitchen",
+    "Uitgeruste keuken met eettafel in het huis in Saigon"
+   ],
+   "sections": [
+    {
+     "h2": "Wat je vindt",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Koken",
+          "Kookplaat met zwart glazen oppervlak, oven"
+         ],
+         [
+          "Kleine apparaten",
+          "Magnetron, rijstkoker, waterkoker, airfryer, broodrooster"
+         ],
+         [
+          "Koelkast",
+          "Ca. 540 liter"
+         ],
+         [
+          "Servies",
+          "Borden en kommen in de kasten"
+         ],
+         [
+          "Was",
+          "Wasmachine voor gasten"
+         ],
+         [
+          "Eten",
+          "Tafel bij het raam"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-2",
+       "Aanrecht met bedrukte tegels"
+      ],
+      [
+       "kitchen-3",
+       "Aanrecht met kleine apparaten om thuis te koken"
+      ],
+      [
+       "kitchen-dishes",
+       "Keukenkast met borden en kommen"
+      ],
+      [
+       "kitchen-rice",
+       "Rijstkoker op het aanrecht"
+      ],
+      [
+       "kitchen-micro",
+       "Magnetron in de keuken"
+      ],
+      [
+       "kitchen-fridge",
+       "Grote koelkast met plek voor de boodschappen van de groep"
+      ],
+      [
+       "kitchen-dining",
+       "Eettafel bij het keukenraam"
+      ]
+     ]
+    },
+    {
+     "h2": "Van de markt naar de pan",
+     "flow": [
+      [
+       "p",
+       "'s Ochtends haal je op de wijkmarkt verse kruiden, mango en vis en kook je zoals je wilt. De rijstkoker zorgt elke dag voor warme rijst en de airfryer redt de snelle maaltijden."
+      ]
+     ]
+    },
+    {
+     "h2": "Een koelkast voor de hele groep",
+     "flow": [
+      [
+       "p",
+       "Ca. 540 liter: plek voor ieders boodschappen, koude drankjes voor het dakterras en het gemarineerde vlees voor de barbecue van vanavond."
+      ]
+     ]
+    },
+    {
+     "h2": "Ieder zijn ontbijt",
+     "flow": [
+      [
+       "p",
+       "Toast, eieren, koffie of een papje voor de kleinste: broodrooster, waterkoker en magnetron zijn genoeg."
+      ]
+     ]
+    },
+    {
+     "h2": "De tafel bij het raam",
+     "flow": [
+      [
+       "p",
+       "Aan de eettafel bij het keukenraam ontbijt je rustig voor je erop uitgaat, eet de groep 's avonds samen en wordt er later een spelletje kaart gespeeld."
+      ],
+      [
+       "h3",
+       "Wassen"
+      ],
+      [
+       "p",
+       "Gasten mogen de wasmachine gebruiken, erg handig op lange reizen. Daarnaast is er een wasservice op aanvraag."
+      ]
+     ]
+    },
+    {
+     "h2": "De barbecue voorbereiden",
+     "flow": [
+      [
+       "p",
+       "Voor een avond op het dak wordt de keuken het hoofdkwartier: vlees en zeevruchten marineren in de koelkast, groenten worden gesneden op het aanrecht met de bedrukte tegels, de rijst staat in de rijstkoker. Daarna gaat alles naar boven, waar de barbecue met smoker wacht."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Is er een rijstkoker?",
+       "Ja."
+      ],
+      [
+       "Mogen we de wasmachine gebruiken?",
+       "Ja, gasten mogen hem gebruiken."
+      ],
+      [
+       "Hoe groot is de koelkast?",
+       "Ca. 540 liter."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Zelf koken op reis? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-master": {
+   "title": "Hoofdslaapkamer van 55 m² met balkon | ASCON LIVING",
+   "description": "Hoofdslaapkamer van ca. 55 m²: bed van 180×200 cm, 4K-tv van 55 inch, balkon, kaptafel met draadloos opladen, strijkijzer en eigen badkamer.",
+   "h1": "De hoofdslaapkamer: ca. 55 m² rust",
+   "lead": "Deze kamer is groter dan menig appartement in de stad. Ideaal voor ouders die een eigen plek willen, een stel dat iets te vieren heeft of degene die de reis heeft georganiseerd en de beste kamer verdient.",
+   "cover": [
+    "bed1",
+    "Hoofdslaapkamer met bed van 180×200 cm, crèmekleurig hoofdbord en groot raam, Saigon"
+   ],
+   "sections": [
+    {
+     "h2": "Goed slapen",
+     "flow": [
+      [
+       "p",
+       "Het bed van 180×200 cm biedt ruim plek voor twee. Het crèmekleurige hoofdbord en het grote raam met gordijnen zorgen voor rust na een dag in het drukke Saigon."
+      ]
+     ],
+     "imgs": [
+      [
+       "bed1-3",
+       "Hoofdslaapkamer van ca. 55 m² met tv aan de muur, staande ventilator en planten bij het raam"
+      ],
+      [
+       "bed1-2",
+       "Kaptafel met ronde verlichte spiegel en zwarte latten richting de eigen badkamer"
+      ]
+     ]
+    },
+    {
+     "h2": "In het kort",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Oppervlakte",
+          "Ca. 55 m²"
+         ],
+         [
+          "Bed",
+          "180×200 cm"
+         ],
+         [
+          "Tv",
+          "4K, 55 inch"
+         ],
+         [
+          "Buiten",
+          "Eigen balkon"
+         ],
+         [
+          "Kaptafel",
+          "Ronde verlichte spiegel, draadloos opladen"
+         ],
+         [
+          "Verder",
+          "Strijkijzer, eigen badkamer"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Koffie op het balkon",
+     "flow": [
+      [
+       "p",
+       "Sta als eerste op, zet een Vietnamese koffie en loop het balkon op. Een rustig moment voordat het huis wakker wordt."
+      ]
+     ]
+    },
+    {
+     "h2": "Een film vanuit bed",
+     "flow": [
+      [
+       "p",
+       "De 4K-tv van 55 inch aan de muur maakt het mogelijk de dag af te sluiten met een film, zonder naar de woonkamer te gaan."
+      ]
+     ]
+    },
+    {
+     "h2": "De kaptafel",
+     "flow": [
+      [
+       "p",
+       "De ronde verlichte spiegel helpt bij het klaarmaken voor het diner. Leg je telefoon op de draadloze oplader en hij laadt terwijl jij je klaarmaakt. Een strijkijzer is aanwezig."
+      ],
+      [
+       "h3",
+       "Eigen badkamer"
+      ],
+      [
+       "p",
+       "In de eigen badkamer vind je warm water, shampoo, douchegel, tandpasta en handdoeken."
+      ]
+     ]
+    },
+    {
+     "h2": "Een nacht in de hoofdslaapkamer",
+     "flow": [
+      [
+       "p",
+       "Na het diner op het dak kun je je eerder terugtrekken dan de rest: een warme douche in je eigen badkamer, een film op de tv van 55 inch en het bed van 180×200 cm. Bij het raam staan planten en een staande ventilator. 's Ochtends koffie op het balkon en klaarmaken aan de kaptafel terwijl de telefoon draadloos oplaadt. Het gekreukte overhemd uit de koffer is met het strijkijzer weer netjes voor het diner."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Hoe groot is het bed?",
+       "180×200 cm."
+      ],
+      [
+       "Is er een balkon?",
+       "Ja, een eigen balkon."
+      ],
+      [
+       "Is er een tv?",
+       "Ja, 4K, 55 inch."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Boek de hoofdslaapkamer: WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-2": {
+   "title": "Slaapkamer 2 met bed 160×200 en smart-tv | ASCON LIVING",
+   "description": "Slaapkamer 2 in het huis in Ho Chi Minh: bed van 160×200 cm, smart-tv, donkergrijze gordijnen, staande ventilator en eigen badkamer met warm water.",
+   "h1": "Slaapkamer 2: knus, met een eigen badkamer",
+   "lead": "Twee vrienden, een stel of oudere broers en zussen: slaapkamer 2 heeft een tweepersoonsbed, een tv en een eigen badkamer, en dat maakt de ochtenden met een groep een stuk makkelijker.",
+   "cover": [
+    "bed2",
+    "Slaapkamer 2 met bed van 160×200 cm, crèmekleurig hoofdbord en schilderij met groen landschap"
+   ],
+   "sections": [
+    {
+     "h2": "Waarom iedereen hem fijn vindt",
+     "flow": [
+      [
+       "p",
+       "Elke kamer een eigen badkamer betekent geen rij voor de douche voordat je op pad gaat. Het crèmekleurige hoofdbord en het schilderij met een groen landschap maken de kamer rustig."
+      ]
+     ],
+     "imgs": [
+      [
+       "bed2-2",
+       "Slaapkamer 2 met donkergrijze gordijnen, smart-tv en staande ventilator"
+      ],
+      [
+       "bed2-3",
+       "Deurpaneel met gekleurde bladeren, smart-tv aan de muur en plant in slaapkamer 2"
+      ]
+     ]
+    },
+    {
+     "h2": "In het kort",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Bed",
+          "160×200 cm"
+         ],
+         [
+          "Tv",
+          "Smart-tv aan de muur"
+         ],
+         [
+          "Raam",
+          "Donkergrijze gordijnen"
+         ],
+         [
+          "Lucht",
+          "Staande ventilator"
+         ],
+         [
+          "Badkamer",
+          "Eigen, warm water"
+         ],
+         [
+          "Spullen",
+          "Handdoeken, shampoo, douchegel, tandpasta"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Echt uitrusten",
+     "flow": [
+      [
+       "p",
+       "Na een dag langs markten en door de straten van District 1 is het bed van 160×200 cm een verademing. Met de donkergrijze gordijnen dicht wordt het schemerig in de kamer."
+      ]
+     ]
+    },
+    {
+     "h2": "Je eigen scherm",
+     "flow": [
+      [
+       "p",
+       "Op de smart-tv aan de muur kijk je een serie voor het slapen of het nieuws in de ochtend. Iedereen kiest zelf."
+      ]
+     ]
+    },
+    {
+     "h2": "De details",
+     "flow": [
+      [
+       "p",
+       "Het decoratieve paneel met gekleurde bladeren bij de deur, de plant en de staande ventilator geven de kamer karakter."
+      ],
+      [
+       "h3",
+       "Dichtbij het bureau"
+      ],
+      [
+       "p",
+       "Slaapkamer 2 komt uit op de gang, waar een bureau met mesh-stoel staat. Handig om mails te beantwoorden zonder iemand wakker te maken."
+      ]
+     ]
+    },
+    {
+     "h2": "Een dag in slaapkamer 2",
+     "flow": [
+      [
+       "p",
+       "'s Ochtends een warme douche zonder op je beurt te wachten, want de badkamer is alleen van jou. Shampoo, douchegel, tandpasta en handdoeken liggen klaar. Na een dag op pad terug naar huis: gordijnen dicht, ventilator aan, een aflevering op de smart-tv. Wie nog even moet werken, loopt naar het bureau in de gang, een paar stappen van de deur, en de mesh-wifi tot 1 Gbit/s werkt daar goed. Mist er iets, laat het weten via WhatsApp of Zalo."
+      ]
+     ]
+    },
+    {
+     "h2": "De kamers verdelen",
+     "flow": [
+      [
+       "p",
+       "Vaak nemen ouders de hoofdslaapkamer met balkon. Slaapkamer 2 en 3 liggen naast elkaar aan de gang, ideaal voor oudere kinderen of vrienden."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Hoe groot is het bed?",
+       "160×200 cm."
+      ],
+      [
+       "Is er een eigen badkamer?",
+       "Ja, met warm water."
+      ],
+      [
+       "Is er een tv?",
+       "Ja, een smart-tv."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Vraag ons naar de kamerverdeling: WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-3": {
+   "title": "Slaapkamer 3: donker en stil, bed 160×200 | ASCON LIVING",
+   "description": "Raamloze slaapkamer 3: donker voor het middagslaapje, bed van 160×200 cm, smart-tv, glazen kast met extra handdoeken en lakens, eigen badkamer.",
+   "h1": "Slaapkamer 3: de donkerste kamer van het huis",
+   "lead": "We zeggen het meteen: slaapkamer 3 heeft geen raam. Wie donker nodig heeft om te slapen, zit hier goed: het is de donkerste kamer van het huis.",
+   "cover": [
+    "bed3",
+    "Raamloze slaapkamer 3 met bed van 160×200 cm, crèmekleurig hoofdbord en lattenpanelen"
+   ],
+   "sections": [
+    {
+     "h2": "Voor wie",
+     "flow": [
+      [
+       "p",
+       "Voor wie na een lange vlucht overdag moet slapen, voor het middagslaapje van de kinderen of voor wie wakker wordt van het eerste zonlicht. Houd je van daglicht, dan past de hoofdslaapkamer of slaapkamer 2 beter."
+      ]
+     ],
+     "imgs": [
+      [
+       "bed3-2",
+       "Slaapkamer 3 met smart-tv aan de muur, staande ventilator en kast met glazen deuren"
+      ],
+      [
+       "bed3-3",
+       "Open kast in slaapkamer 3 met extra handdoeken, lakens en kussens"
+      ]
+     ]
+    },
+    {
+     "h2": "In het kort",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Raam",
+          "Geen"
+         ],
+         [
+          "Bed",
+          "160×200 cm"
+         ],
+         [
+          "Tv",
+          "Smart-tv aan de muur"
+         ],
+         [
+          "Kast",
+          "Glazen deuren, extra handdoeken, lakens en kussens"
+         ],
+         [
+          "Lucht",
+          "Staande ventilator"
+         ],
+         [
+          "Badkamer",
+          "Eigen, warm water"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Echt donker",
+     "flow": [
+      [
+       "p",
+       "Zonder raam blijft de kamer ook midden op de dag donker. Het crèmekleurige hoofdbord en de lattenpanelen maken het gezellig."
+      ]
+     ]
+    },
+    {
+     "h2": "Alles binnen handbereik",
+     "flow": [
+      [
+       "p",
+       "In de kast met glazen deuren liggen extra handdoeken, lakens en kussens. Nog een kussen nodig? Je hoeft niemand te bellen."
+      ]
+     ]
+    },
+    {
+     "h2": "Comfort",
+     "flow": [
+      [
+       "p",
+       "Het bed van 160×200 cm, de smart-tv aan de muur en de staande ventilator maken de kamer compleet."
+      ],
+      [
+       "h3",
+       "Eigen badkamer"
+      ],
+      [
+       "p",
+       "Warm water, shampoo, douchegel, tandpasta en handdoeken in de eigen badkamer."
+      ]
+     ]
+    },
+    {
+     "h2": "Jetlag zonder gedoe",
+     "flow": [
+      [
+       "p",
+       "Na een nachtvlucht kom je slaap tekort. In slaapkamer 3 slaap je 's middags in hetzelfde donker als 's nachts, omdat er geen licht binnenkomt. De ventilator zoemt zachtjes en dankzij de eigen badkamer kun je douchen wanneer je wilt, zonder anderen te storen. Bij het wakker worden liggen er extra kussens en handdoeken in de glazen kast en staat de smart-tv klaar voor een korte aflevering voor het diner op het dak."
+      ]
+     ]
+    },
+    {
+     "h2": "Fijn voor kinderen",
+     "flow": [
+      [
+       "p",
+       "Voor kleine kinderen die 's middags slapen is deze kamer ideaal: donker en rustig. De ouders kunnen in de hoofdslaapkamer of slaapkamer 2 slapen."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Heeft slaapkamer 3 een raam?",
+       "Nee. Het is de donkerste kamer van het huis."
+      ],
+      [
+       "Is er extra beddengoed?",
+       "Ja, in de glazen kast."
+      ],
+      [
+       "Is er een eigen badkamer?",
+       "Ja."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Vraag ons naar de kamerverdeling: WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bathrooms": {
+   "title": "3 eigen badkamers en een gastentoilet | ASCON LIVING",
+   "description": "3 eigen badkamers en een gastentoilet: warm water, matzwarte douche, shampoo, douchegel, tandpasta, handdoeken en een föhn aan de muur.",
+   "h1": "Elke slaapkamer zijn eigen badkamer",
+   "lead": "In een grote groep is de badkamer 's ochtends altijd een probleem. Bij ASCON LIVING niet: elke slaapkamer heeft een eigen badkamer, en er is ook nog een gastentoilet.",
+   "cover": [
+    "bath",
+    "Matzwarte douche, handdouche en dispensers tegen crèmekleurige tegels met marmerlook"
+   ],
+   "sections": [
+    {
+     "h2": "Waarom dat uitmaakt",
+     "flow": [
+      [
+       "p",
+       "Drie kamers, drie eigen badkamers: 's ochtends maakt iedereen zich in zijn eigen tempo klaar. Wie uit de woonkamer of van het dak komt, gebruikt het gastentoilet met dezelfde voorzieningen."
+      ]
+     ],
+     "imgs": [
+      [
+       "bath-4",
+       "Zwarte regendouche, twee dispensers en plank in de eigen badkamer"
+      ],
+      [
+       "bath-2",
+       "Ronde spiegel met zwarte rand boven een glazen plank, witte handdoek aan het rek"
+      ],
+      [
+       "bath-3",
+       "Witte handdoeken aan het wandrek in de eigen badkamer"
+      ],
+      [
+       "bath-5",
+       "Föhn aan de muur boven de witte wastafel"
+      ],
+      [
+       "bath-6",
+       "Glazen plank met zwarte beker en verpakte tandenborstels"
+      ]
+     ]
+    },
+    {
+     "h2": "Wat er is",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Badkamers",
+          "3 eigen + 1 gastentoilet"
+         ],
+         [
+          "Water",
+          "Warm"
+         ],
+         [
+          "Douche",
+          "Matzwarte regendouche, handdouche"
+         ],
+         [
+          "Verzorging",
+          "Shampoo, douchegel, tandpasta"
+         ],
+         [
+          "Handdoeken",
+          "Wit, aan het handdoekrek"
+         ],
+         [
+          "Verder",
+          "Föhn aan de muur, slippers"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Warm douchen na de hitte",
+     "flow": [
+      [
+       "p",
+       "Na een benauwde dag in Saigon is er niets beter dan een warme douche. De matzwarte regendouche met handdouche hangt tegen crèmekleurige tegels met marmerlook."
+      ]
+     ]
+    },
+    {
+     "h2": "Lichter inpakken",
+     "flow": [
+      [
+       "p",
+       "In de dispensers aan de muur zitten shampoo en douchegel. Op de glazen plank liggen tandpasta en verpakte tandenborstels."
+      ]
+     ]
+    },
+    {
+     "h2": "Klaarmaken",
+     "flow": [
+      [
+       "p",
+       "Een ronde spiegel met zwarte rand boven de glazen plank en een föhn aan de muur boven de witte wastafel. Alles klaar voor het diner."
+      ],
+      [
+       "h3",
+       "Handdoeken"
+      ],
+      [
+       "p",
+       "Witte handdoeken aan het rek. In de kast van slaapkamer 3 liggen er extra."
+      ]
+     ]
+    },
+    {
+     "h2": "Een ochtend met de groep",
+     "flow": [
+      [
+       "p",
+       "Iedereen wil vroeg naar de markt. In een hotel met één badkamer zou er een rij staan. Hier gaat iedereen naar zijn eigen badkamer: wie in de hoofdslaapkamer, slaapkamer 2 of slaapkamer 3 slaapt, douchet tegelijk. Wie al in de woonkamer zit, gebruikt het gastentoilet. Niemand hoeft shampoo mee te nemen en de handdoeken hangen al klaar."
+      ]
+     ]
+    },
+    {
+     "h2": "Overige details",
+     "flow": [
+      [
+       "p",
+       "Slippers staan klaar bij de ingang. In huis zijn ook een strijkijzer en een kluis. Mist er iets, laat het weten via WhatsApp of Zalo."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Hoeveel badkamers zijn er?",
+       "Drie eigen badkamers en een gastentoilet."
+      ],
+      [
+       "Is er warm water?",
+       "Ja."
+      ],
+      [
+       "Is er een föhn?",
+       "Ja, een föhn aan de muur."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Vragen over de badkamers? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-hallway": {
+   "title": "Gang met werkplek en snelle wifi | ASCON LIVING",
+   "description": "Gang met bureau, mesh-stoel en lamp, mesh-wifi tot 1 Gbit/s, granieten trap en codeslot bij de ingang. Voor wie onderweg moet werken.",
+   "h1": "Gang en werkplek: voor wie op reis werkt",
+   "lead": "Soms reist er een vergadering mee op vakantie. In de gang van ASCON LIVING staat een rustig bureau, weg van de woonkamer, om het werk snel af te ronden.",
+   "cover": [
+    "hall",
+    "Gang met twee zwarte deuren naar slaapkamer 2 en 3"
+   ],
+   "sections": [
+    {
+     "h2": "In het kort",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Werken",
+          "Bureau, mesh-stoel, lamp"
+         ],
+         [
+          "Wifi",
+          "Mesh tot 1 Gbit/s"
+         ],
+         [
+          "Deuren",
+          "Twee zwarte deuren naar slaapkamer 2 en 3"
+         ],
+         [
+          "Trap",
+          "Donker graniet, zwarte metalen leuning"
+         ],
+         [
+          "Ingang",
+          "Codeslot, sleutel voor het buitenhek"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "stairs",
+       "Trap van donker graniet met zwarte metalen leuning van bovenaf gezien"
+      ],
+      [
+       "entrance",
+       "Ingang met zwarte latten en trap"
+      ],
+      [
+       "hall-desk",
+       "Bureau en zwarte mesh-stoel bij een raam met grijze gordijnen, kraanvogelschilderijen en planten"
+      ],
+      [
+       "workspace-2",
+       "Drie schilderijen van witte kraanvogels op grijze achtergrond boven de planten"
+      ],
+      [
+       "hall-landing",
+       "Twee zwarte deuren en werkhoek op grijze vloer met marmerlook"
+      ],
+      [
+       "hall-vanity",
+       "Grijze kaptafel met ronde spiegel en witte stoel"
+      ],
+      [
+       "hall-shoes",
+       "Zwart schoenenrek met slippers bij de ingang"
+      ]
+     ]
+    },
+    {
+     "h2": "Het bureau",
+     "flow": [
+      [
+       "p",
+       "Een bureau met zwarte mesh-stoel en lamp, bij het raam met grijze gordijnen. Aan de muur schilderijen van witte kraanvogels, eronder planten. Een stille hoek, weg van de geluiden uit de woonkamer."
+      ]
+     ]
+    },
+    {
+     "h2": "Wifi voor videogesprekken",
+     "flow": [
+      [
+       "p",
+       "De mesh-wifi tot 1 Gbit/s dekt alle verdiepingen. Videobellen en grote bestanden versturen zonder zorgen."
+      ]
+     ]
+    },
+    {
+     "h2": "Slaapkamer 2 en 3 om de hoek",
+     "flow": [
+      [
+       "p",
+       "De twee zwarte deuren leiden naar slaapkamer 2 en 3. Makkelijk om even pauze te nemen of het gezin te roepen."
+      ],
+      [
+       "h3",
+       "De kaptafel"
+      ],
+      [
+       "p",
+       "In de hal staat een grijze kaptafel met ronde spiegel en witte stoel, voor de laatste check voordat je naar buiten gaat."
+      ]
+     ]
+    },
+    {
+     "h2": "Ingang en trap",
+     "flow": [
+      [
+       "p",
+       "De deur gaat open met een code, het buitenhek met een sleutel. Bij de ingang staat een zwart schoenenrek met slippers. De trap van donker graniet met zwarte metalen leuning verbindt alle verdiepingen."
+      ]
+     ]
+    },
+    {
+     "h2": "Een werkdag",
+     "flow": [
+      [
+       "p",
+       "Terwijl het gezin naar de markt gaat, zit jij met een Vietnamese koffie aan het bureau. De lamp verlicht het toetsenbord en de kraanvogels aan de muur zorgen voor rust tussen twee calls. Aan het eind van de middag klap je de laptop dicht en ga je naar het dakterras voor de zonsondergang."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Is er een bureau?",
+       "Ja, met mesh-stoel en lamp."
+      ],
+      [
+       "Hoe snel is de wifi?",
+       "Tot 1 Gbit/s, mesh."
+      ],
+      [
+       "Hoe kom ik binnen?",
+       "Codeslot en sleutel voor het buitenhek."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Werken op reis? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-outside": {
+   "title": "Huis aan de rivier in Saigon, District 7 | ASCON LIVING",
+   "description": "Huis aan de rivier in Ho Chi Minh: terras met witte reling en luifel, zicht op het water en de skyline van District 1.",
+   "h1": "Wonen aan de rivier in Saigon",
+   "lead": "ASCON LIVING ligt aan de rivier in Tân Hưng, District 7.",
+   "cover": [
+    "hero",
+    "Huis met uitzicht op de rivier in Ho Chi Minh, dakterras met witte reling en skyline van District 1"
+   ],
+   "sections": [
+    {
+     "h2": "In het kort",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Adres",
+          "389A Đường Trần Xuân Soạn, Tân Hưng, District 7"
+         ],
+         [
+          "Schaduw",
+          "Grijs rolgordijn"
+         ],
+         [
+          "Dakterras",
+          "Ca. 56–60 m², barbecue met smoker"
+         ],
+         [
+          "Camera's",
+          "Buitencamera’s bij de ingang"
+         ],
+         [
+          "Toegang",
+          "Codeslot, sleutel voor het buitenhek"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-city",
+       "Uitzicht over de rivier richting de skyline van District 1 vanaf het huis"
+      ]
+     ]
+    },
+    {
+     "h2": "De rivier door de dag",
+     "flow": [
+      [
+       "p",
+       "'s Middags komt er een briesje van het water. 's Avonds gaan aan de overkant de lichten van de stad aan."
+      ]
+     ]
+    },
+    {
+     "h2": "Het dakterras",
+     "flow": [
+      [
+       "p",
+       "Bovenin ligt het dakterras van ca. 56–60 m², met een zwarte vatbarbecue die ook als smoker werkt en zonnelampjes. Vanaf het dak zie je de torens van District 1."
+      ]
+     ]
+    },
+    {
+     "h2": "De buurt",
+     "flow": [
+      [
+       "p",
+       "ASCON LIVING ligt in een woonwijk in Tân Hưng, District 7. In de ASCON Guide-app vind je restaurants, streetfood en uitjes in de buurt en in de hele stad."
+      ]
+     ]
+    },
+    {
+     "h2": "Foto's bij schemering",
+     "flow": [
+      [
+       "p",
+       "Het mooiste moment is laat in de middag, als de lucht van kleur verandert en de stad haar lichten aandoet."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Ligt het huis aan de rivier?",
+       "Ja, in Tân Hưng, District 7."
+      ],
+      [
+       "Waar hangen de camera's?",
+       "Bij de ingang hangen buitencamera’s."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Verblijf aan de rivier in Saigon: WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "rooftop": {
+   "title": "Dakterras met barbecue en smoker in Saigon | ASCON LIVING",
+   "description": "Dakterras van ca. 56–60 m² in District 7, Ho Chi Minh: zwarte vatbarbecue met smoker, rotan bank, donkere tafel en zonnelampjes.",
+   "h1": "Het dakterras: barbecue, smoker en de stad bij nacht",
+   "lead": "Hierboven is ruimte voor een diner met de groep, lange gesprekken en de lichten van de stad.",
+   "sections": [
+    {
+     "h2": "Een avond op het dak",
+     "flow": [
+      [
+       "p",
+       "Aan het eind van de middag komen het gemarineerde vlees en de zeevruchten uit de keuken naar boven. De zwarte vatbarbecue warmt op, iemand dekt de donkere tafel, de kinderen ploffen neer op de rotan bank. Als het donker wordt, gaan de zonnelampjes en lichtsnoeren aan en verschijnt de skyline van de stad."
+      ]
+     ],
+     "imgs": [
+      [
+       "roof-terrace",
+       "Huis met uitzicht op de rivier: dakterras tegenover de skyline van District 1"
+      ],
+      [
+       "river-balcony",
+       "Uitzicht vanaf de balkonreling met planten"
+      ],
+      [
+       "river-city",
+       "Uitzicht over de rivier richting de skyline van District 1 vanaf het huis"
+      ],
+      [
+       "roof-day",
+       "Dakterras overdag met donkere rotan bank, crèmekleurige kussens en lange plantenbakken"
+      ],
+      [
+       "roof-lounge",
+       "Donkere tafel en rotan stoelen met crèmekleurige kussens op het dakterras"
+      ],
+      [
+       "roof-night",
+       "Loungehoek op het dakterras 's avonds onder lichtsnoeren en zonnelampjes"
+      ],
+      [
+       "roof-evening",
+       "Rotan bank met crèmekleurige kussens op het dakterras bij schemering"
+      ],
+      [
+       "roof-evening-2",
+       "Eethoek op het dakterras onder de verlichte luifel"
+      ],
+      [
+       "roof-bbq",
+       "Zwarte vatbarbecue naast de witte reling van het dakterras"
+      ],
+      [
+       "roof-skyline",
+       "Skyline van de stad bij nacht vanaf het dakterras"
+      ]
+     ]
+    },
+    {
+     "h2": "In het kort",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Oppervlakte",
+          "Ca. 56–60 m²"
+         ],
+         [
+          "Barbecue",
+          "Zwart vat, werkt ook als smoker"
+         ],
+         [
+          "Lounge",
+          "Donkere rotan bank, crèmekleurige kussens"
+         ],
+         [
+          "Tafel",
+          "Donkere tafel en rotan stoelen"
+         ],
+         [
+          "Schaduw",
+          "Gedeeltelijke luifel"
+         ],
+         [
+          "Licht",
+          "Zonnelampjes, lichtsnoeren"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Grillen en roken",
+     "flow": [
+      [
+       "p",
+       "De zwarte vatbarbecue werkt ook als smoker. Snel grillen of langzaam roken: spareribs, kip of vis van de markt met citroengras."
+      ],
+      [
+       "h3",
+       "Veiligheid"
+      ],
+      [
+       "p",
+       "Laat het vuur nooit onbeheerd, houd kinderen op afstand en doof alles volledig als je klaar bent."
+      ]
+     ]
+    },
+    {
+     "h2": "Zitplekken",
+     "flow": [
+      [
+       "p",
+       "De donkere rotan bank met crèmekleurige kussens is perfect na het eten. Aan de donkere tafel met rotan stoelen eet de groep samen."
+      ]
+     ]
+    },
+    {
+     "h2": "Overdag en 's avonds",
+     "flow": [
+      [
+       "p",
+       "Overdag brengen de lange plantenbakken wat groen. De gedeeltelijke luifel bedekt een deel van het terras. 's Avonds zorgen de zonnelampjes en lichtsnoeren voor een warme sfeer."
+      ]
+     ]
+    },
+    {
+     "h2": "De skyline",
+     "flow": [
+      [
+       "p",
+       "Vanaf het dakterras zie je de torens van District 1. 's Nachts vormen de lichten van de stad het decor van het diner."
+      ]
+     ]
+    },
+    {
+     "h2": "Verjaardag of bedrijfsuitje",
+     "flow": [
+      [
+       "p",
+       "Een verjaardag met een taart uit de stad, de slotavond van een bedrijfsuitje of het laatste diner van een familiereünie: het dakterras is het podium. En als de gesprekken stilvallen, wacht beneden de entertainmentkamer met karaoke."
+      ]
+     ]
+    },
+    {
+     "h2": "Denk aan de buren",
+     "flow": [
+      [
+       "p",
+       "Het huis staat in een woonwijk. Praat later op de avond wat zachter."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Is er een barbecue?",
+       "Ja, een zwarte vatbarbecue die ook als smoker werkt."
+      ],
+      [
+       "Hoe groot is het dakterras?",
+       "Ca. 56–60 m²."
+      ],
+      [
+       "Is er schaduw?",
+       "Ja, een gedeeltelijke luifel."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Een barbecueavond op het dak? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "house": {
+   "title": "Heel huis in Ho Chi Minh, ruimte voor ruimte | ASCON",
+   "description": "Drie verdiepingen en een dakterras: 3 slaapkamers met badkamer, woonkamer van ca. 40 m², volledig uitgeruste keuken en karaokekamer met 4K-projector.",
+   "h1": "Het huis: je verblijf in Ho Chi Minh, ruimte voor ruimte",
+   "lead": "Drie verdiepingen, een dakterras en meer dan 250 m² alleen voor jullie groep. Hier zie je de foto’s en de uitrusting van elke ruimte.",
+   "sections": [
+    {
+     "h2": "De ruimtes in detail",
+     "cards": [
+      [
+       "Karaoke & entertainment",
+       "room-entertainment",
+       "Privé-karaokekamer in een huis in Ho Chi Minh: microfoons, PlayStation met PlayStation Plus en 2 controllers, 4K-projector met scherm op statief, 4K-tv."
+      ],
+      [
+       "Woonkamer",
+       "room-living",
+       "Woonkamer van ca. 40 m² in een heel huis in Ho Chi Minh: hoekbank, 4K-tv van 75 inch, glazen deuren, planten en mesh-wifi tot 1 Gbit/s."
+      ],
+      [
+       "Keuken & eethoek",
+       "room-kitchen",
+       "Uitgeruste keuken in District 7: kookplaat met zwart glas, oven, magnetron, rijstkoker, airfryer, koelkast van ca. 540 liter en wasmachine."
+      ],
+      [
+       "Hoofdslaapkamer",
+       "room-master",
+       "Hoofdslaapkamer van ca. 55 m²: bed van 180×200 cm, 4K-tv van 55 inch, balkon, kaptafel met draadloos opladen, strijkijzer en eigen badkamer."
+      ],
+      [
+       "Slaapkamer 2",
+       "room-bedroom-2",
+       "Slaapkamer 2 in het huis in Ho Chi Minh: bed van 160×200 cm, smart-tv, donkergrijze gordijnen, staande ventilator en eigen badkamer met warm water."
+      ],
+      [
+       "Slaapkamer 3",
+       "room-bedroom-3",
+       "Raamloze slaapkamer 3: donker voor het middagslaapje, bed van 160×200 cm, smart-tv, glazen kast met extra handdoeken en lakens, eigen badkamer."
+      ],
+      [
+       "Badkamers",
+       "room-bathrooms",
+       "3 eigen badkamers en een gastentoilet: warm water, matzwarte douche, shampoo, douchegel, tandpasta, handdoeken en een föhn aan de muur."
+      ],
+      [
+       "Gang & werkplek",
+       "room-hallway",
+       "Gang met bureau, mesh-stoel en lamp, mesh-wifi tot 1 Gbit/s, granieten trap en codeslot bij de ingang. Voor wie onderweg moet werken."
+      ],
+      [
+       "Buiten & rivier",
+       "room-outside",
+       "Huis aan de rivier in Ho Chi Minh: terras met witte reling en luifel, zicht op het water en de skyline van District 1."
+      ],
+      [
+       "Dakterras",
+       "rooftop",
+       "Dakterras van ca. 56–60 m² in District 7, Ho Chi Minh: zwarte vatbarbecue met smoker, rotan bank, donkere tafel en zonnelampjes."
+      ]
+     ]
+    },
+    {
+     "h2": "De uitrusting",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Microfoons"
+         ],
+         [
+          "Console",
+          "PlayStation met PlayStation Plus"
+         ],
+         [
+          "Controllers",
+          "2"
+         ],
+         [
+          "Projector",
+          "4K aan het plafond, scherm op statief"
+         ],
+         [
+          "Tv",
+          "4K"
+         ],
+         [
+          "Streaming",
+          "Netflix, afhankelijk van het actieve account"
+         ],
+         [
+          "Zitten",
+          "Grijze bank en vierkante poefs"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent",
+       "Entertainmentkamer met grijze bank, vierkante poefs en ingelijste anime-posters, huis met karaoke in Ho Chi Minh"
+      ],
+      [
+       "ent-karaoke",
+       "Karaokekamer met groen ledlicht, bank, bijzettafels en tv aan de muur"
+      ],
+      [
+       "ent-cinema",
+       "Scherm van de 4K-projector op statief in de donkere kamer"
+      ],
+      [
+       "ent-tv",
+       "Grote tv aan de muur, gekleurde ledstrips en grijze bank"
+      ],
+      [
+       "ent-mics",
+       "Karaokemicrofoons en afstandsbedieningen op een bijzettafel met steenlook"
+      ],
+      [
+       "ent-ps",
+       "PlayStation aan de muur met twee controllers"
+      ]
+     ]
+    },
+    {
+     "h2": "Zo verloopt een avond",
+     "flow": [
+      [
+       "p",
+       "Het leukst is eerst eten op het dakterras en daarna naar beneden, naar de entertainmentkamer. Afstandsbedieningen en microfoons liggen op het bijzettafeltje met steenlook, de controllers naast de console aan de muur. Gaat het groene ledlicht aan, dan is de kamer klaar voor het eerste nummer."
+      ]
+     ]
+    },
+    {
+     "h2": "Zingen zonder op de klok te kijken",
+     "flow": [
+      [
+       "p",
+       "Kies een nummer, de tekst verschijnt op het scherm van de 4K-projector en de microfoon gaat rond. Geen uurtarief, geen andere groep achter de muur."
+      ]
+     ]
+    },
+    {
+     "h2": "PlayStation-duels",
+     "flow": [
+      [
+       "p",
+       "De PlayStation aan de muur, met PlayStation Plus en twee controllers, wacht op duels tussen broers en zussen of collega's."
+      ]
+     ]
+    },
+    {
+     "h2": "Thuisbioscoop",
+     "flow": [
+      [
+       "p",
+       "Licht uit, het scherm op statief open en een film op de 4K-projector. Netflix werkt afhankelijk van het actieve account. Voor iets eenvoudigers is er de 4K-tv."
+      ]
+     ]
+    },
+    {
+     "h2": "Een andere sfeer",
+     "flow": [
+      [
+       "p",
+       "Zachte grijze bank, poefs, ingelijste anime-posters en gekleurde ledstrips: deze kamer voelt anders dan de rest van het huis."
+      ],
+      [
+       "h3",
+       "Op regendagen"
+      ],
+      [
+       "p",
+       "Als de tropische bui losbarst, is dit de levendigste kamer, voor kinderen en volwassenen."
+      ]
+     ]
+    },
+    {
+     "h2": "Denk aan de buren",
+     "flow": [
+      [
+       "p",
+       "Het huis staat in een woonwijk: zet het volume laat op de avond lager."
+      ]
+     ]
+    },
+    {
+     "h2": "Gratis reisgids-app",
+     "p": [
+      "Plan je dagen met de gratis gids-app van ASCON: lokale tips, plekken om te eten en te bezoeken en een kaart, direct in de browser van je telefoon."
+     ],
+     "cards": [
+      [
+       "Gratis gids-app",
+       "travel-guide",
+       "Tips en kaart van Ho Chi Minh, gratis in de browser."
+      ]
+     ],
+     "_tg": 1
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Is er karaoke?",
+       "Ja, met karaokemicrofoons."
+      ],
+      [
+       "Is er een PlayStation?",
+       "Ja, met PlayStation Plus en twee controllers."
+      ],
+      [
+       "Kunnen we Netflix kijken?",
+       "Ja, afhankelijk van het actieve account."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Boek een huis met eigen karaoke: WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "home": {
+   "title": "Heel huis in Saigon in plaats van hotel | ASCON LIVING",
+   "description": "Heel huis aan de rivier in District 7, Ho Chi Minh: 3 slaapkamers met eigen badkamer, privé-karaoke, dakterras met barbecue, wifi tot 1 Gbit/s.",
+   "h1": "ASCON LIVING: jullie eigen huis aan de rivier in Saigon",
+   "lead": "Op reis naar Ho Chi Minh met familie of vrienden? Neem geen drie losse hotelkamers, maar een heel huis van meer dan 250 m² in Tân Hưng, District 7, direct aan het water.",
+   "hero": [
+    "hero",
+    "Huis aan de rivier ASCON LIVING in District 7, Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "Waarom een heel huis",
+     "flow": [
+      [
+       "p",
+       "In een hotel trekt iedereen zich terug achter zijn eigen deur. Hier eet je samen, zing je karaoke en praat je tot laat op het dakterras, terwijl iedereen toch een eigen slaapkamer met badkamer heeft. Drie verdiepingen plus dakterras, zonder andere gasten."
+      ]
+     ],
+     "imgs": [
+      [
+       "living",
+       "Woonkamer met hoekbank in een heel huis in Saigon"
+      ],
+      [
+       "bed1",
+       "Hoofdslaapkamer met bed van 180×200 cm en crèmekleurig hoofdbord"
+      ],
+      [
+       "roof-night",
+       "Dakterras 's avonds met zonnelampjes en rotan loungebank"
+      ]
+     ]
+    },
+    {
+     "h2": "Het huis in het kort",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Ruimte",
+         "Wat je vindt"
+        ],
+        "rows": [
+         [
+          "Woonkamer",
+          "Ca. 40 m², hoekbank, 4K-tv van 75 inch"
+         ],
+         [
+          "Keuken",
+          "Kookplaat met zwart glazen oppervlak, oven, koelkast van ca. 540 liter"
+         ],
+         [
+          "Hoofdslaapkamer",
+          "Ca. 55 m², bed 180×200 cm, balkon"
+         ],
+         [
+          "Slaapkamer 2 en 3",
+          "Bedden 160×200 cm, smart-tv"
+         ],
+         [
+          "Badkamers",
+          "3 eigen badkamers en een gastentoilet"
+         ],
+         [
+          "Entertainmentkamer",
+          "Karaokemicrofoons, PlayStation, 4K-projector"
+         ],
+         [
+          "Dakterras",
+          "Ca. 56–60 m², barbecue die ook als smoker werkt"
+         ]
+        ]
+       }
+      ]
+     ],
+     "cards": [
+      [
+       "Karaoke & entertainment",
+       "room-entertainment",
+       "Privé-karaokekamer in een huis in Ho Chi Minh: microfoons, PlayStation met PlayStation Plus en 2 controllers, 4K-projector met scherm op statief, 4K-tv."
+      ],
+      [
+       "Woonkamer",
+       "room-living",
+       "Woonkamer van ca. 40 m² in een heel huis in Ho Chi Minh: hoekbank, 4K-tv van 75 inch, glazen deuren, planten en mesh-wifi tot 1 Gbit/s."
+      ],
+      [
+       "Keuken & eethoek",
+       "room-kitchen",
+       "Uitgeruste keuken: kookplaat met zwart glas, oven, magnetron, rijstkoker, airfryer, koelkast van ca. 540 liter en wasmachine."
+      ],
+      [
+       "Hoofdslaapkamer",
+       "room-master",
+       "Hoofdslaapkamer van ca. 55 m²: bed van 180×200 cm, 4K-tv van 55 inch, balkon, kaptafel met draadloos opladen, strijkijzer en eigen badkamer."
+      ],
+      [
+       "Slaapkamer 2",
+       "room-bedroom-2",
+       "Slaapkamer 2 in het huis in Ho Chi Minh: bed van 160×200 cm, smart-tv, donkergrijze gordijnen, staande ventilator en eigen badkamer met warm water."
+      ],
+      [
+       "Slaapkamer 3",
+       "room-bedroom-3",
+       "Raamloze slaapkamer 3: donker voor het middagslaapje, bed van 160×200 cm, smart-tv, glazen kast met extra handdoeken en lakens, eigen badkamer."
+      ],
+      [
+       "Badkamers",
+       "room-bathrooms",
+       "3 eigen badkamers en een gastentoilet: warm water, matzwarte douche, shampoo, douchegel, tandpasta, handdoeken en een föhn aan de muur."
+      ],
+      [
+       "Gang & werkplek",
+       "room-hallway",
+       "Gang met bureau, mesh-stoel en lamp, mesh-wifi tot 1 Gbit/s, granieten trap en codeslot bij de ingang. Voor wie onderweg moet werken."
+      ],
+      [
+       "Buiten & rivier",
+       "room-outside",
+       "Huis aan de rivier in Ho Chi Minh: terras met witte reling en luifel, zicht op het water en de skyline van District 1."
+      ],
+      [
+       "Dakterras",
+       "rooftop",
+       "Dakterras van ca. 56–60 m²: zwarte vatbarbecue met smoker, rotan bank, donkere tafel en zonnelampjes."
+      ]
+     ]
+    },
+    {
+     "h2": "Voor wie",
+     "flow": [
+      [
+       "h3",
+       "Gezinnen"
+      ],
+      [
+       "p",
+       "Een echte keuken voor de maaltijden van de kinderen en een raamloze, donkere slaapkamer voor het middagslaapje."
+      ],
+      [
+       "h3",
+       "Vriendengroepen en collega's"
+      ],
+      [
+       "p",
+       "Privé-karaoke, PlayStation-duels en barbecue op het dak, zonder dat je ergens hoeft te reserveren."
+      ],
+      [
+       "h3",
+       "Wie onderweg werkt"
+      ],
+      [
+       "p",
+       "Mesh-wifi tot 1 Gbit/s op alle verdiepingen en een rustig bureau in de gang."
+      ]
+     ]
+    },
+    {
+     "h2": "Avonden thuis",
+     "flow": [
+      [
+       "p",
+       "Na een dag in de drukte van Saigon kom je thuis, steek je de barbecue op het dakterras aan en ga je na het eten naar de entertainmentkamer. Daar staan karaokemicrofoons, een PlayStation met PlayStation Plus en twee controllers, een 4K-projector met scherm op statief en een 4K-tv."
+      ]
+     ]
+    },
+    {
+     "h2": "Inbegrepen",
+     "flow": [
+      [
+       "p",
+       "Warm water, shampoo, douchegel, tandpasta, handdoeken, slippers, een kluis en een strijkijzer. Gasten mogen de wasmachine gebruiken. Een wasservice is op aanvraag beschikbaar en een luchthaventransfer regel je samen met je boeking."
+      ]
+     ]
+    },
+    {
+     "h2": "Toegang",
+     "flow": [
+      [
+       "p",
+       "De voordeur heeft een codeslot, voor het buitenhek krijg je een sleutel. Bij de ingang hangen buitencamera’s."
+      ]
+     ]
+    },
+    {
+     "h2": "Digitale gids",
+     "flow": [
+      [
+       "p",
+       "De gratis ASCON Guide-app: restaurants, bars, uitjes met kinderen, een kaart en praktische tips voor Ho Chi Minh."
+      ]
+     ]
+    },
+    {
+     "h2": "Gratis reisgids-app",
+     "p": [
+      "Plan je dagen met de gratis gids-app van ASCON: lokale tips, plekken om te eten en te bezoeken en een kaart, direct in de browser van je telefoon."
+     ],
+     "cards": [
+      [
+       "Gratis gids-app",
+       "travel-guide",
+       "Tips en kaart van Ho Chi Minh, gratis in de browser."
+      ]
+     ],
+     "_tg": 1
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Delen we het huis met andere gasten?",
+       "Nee, de drie verdiepingen en het dakterras zijn alleen voor jullie."
+      ],
+      [
+       "Waar ligt het huis?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh-stad."
+      ],
+      [
+       "Hoe boek ik?",
+       "Via WhatsApp of Zalo, per e-mail, of via Airbnb en Trip.com."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Stuur ons je data: WhatsApp of Zalo +84 909 410 382, e-mail ascon.living@gmail.com."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "families": {
+   "title": "Ho Chi Minh met kinderen: gezinshuis | ASCON LIVING",
+   "description": "Heel huis voor gezinnen in Ho Chi Minh: volledig uitgeruste keuken, 3 slaapkamers met eigen badkamer, donkere kamer voor het slaapje, 4K-projector.",
+   "h1": "Met kinderen naar Ho Chi Minh, net als thuis",
+   "lead": "Met kinderen wordt een hotelkamer snel te klein. Bij ASCON LIVING hebben de kleintjes ruimte, de ouders rust en staat de keuken altijd klaar.",
+   "sections": [
+    {
+     "h2": "Een dag met het gezin",
+     "flow": [
+      [
+       "p",
+       "Ontbijt aan de keukentafel, 's ochtends de stad in, tijdens de heetste uren rust in huis. 's Middags kijken de kinderen een film op de 4K-projector terwijl de ouders koken. 's Avonds eten op het dakterras."
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-dining",
+       "Eettafel bij het keukenraam"
+      ],
+      [
+       "kitchen",
+       "Uitgeruste keuken met tafel in een gezinshuis in Saigon"
+      ],
+      [
+       "ent-cinema",
+       "Scherm van de 4K-projector op statief voor een kinderfilm"
+      ],
+      [
+       "living-tv",
+       "4K-tv van 75 inch in de woonkamer"
+      ],
+      [
+       "bed3",
+       "Raamloze slaapkamer 3 met bed van 160×200 cm, ideaal voor het middagslaapje"
+      ]
+     ]
+    },
+    {
+     "h2": "Koken voor de kleintjes",
+     "flow": [
+      [
+       "p",
+       "Het streetfood in Saigon is heerlijk, maar kinderen hebben soms gewoon iets simpels nodig. Er is een kookplaat met zwart glazen oppervlak, een oven, magnetron, rijstkoker, waterkoker, airfryer en broodrooster. De koelkast van ca. 540 liter biedt plek voor de boodschappen van het hele gezin."
+      ],
+      [
+       "h3",
+       "De eettafel"
+      ],
+      [
+       "p",
+       "Aan de tafel bij het keukenraam eet iedereen samen."
+      ]
+     ]
+    },
+    {
+     "h2": "De slaapkamers",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Kamer",
+         "Bed",
+         "Ideaal voor"
+        ],
+        "rows": [
+         [
+          "Hoofdslaapkamer (ca. 55 m²)",
+          "180×200 cm",
+          "Ouders, met balkon"
+         ],
+         [
+          "Slaapkamer 2",
+          "160×200 cm",
+          "Oudere kinderen"
+         ],
+         [
+          "Slaapkamer 3 (zonder raam)",
+          "160×200 cm",
+          "Middagslaapje van de kleintjes"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Een donkere kamer voor het slaapje",
+     "flow": [
+      [
+       "p",
+       "Slaapkamer 3 heeft geen raam en blijft dus ook midden op de dag donker. Ideaal voor het middagslaapje en tegen jetlag. In de kast met glazen deuren liggen extra handdoeken, lakens en kussens."
+      ]
+     ]
+    },
+    {
+     "h2": "Elke kamer een eigen badkamer",
+     "flow": [
+      [
+       "p",
+       "Elke slaapkamer heeft een eigen badkamer, plus een gastentoilet: geen rij in de ochtend. Warm water, shampoo, douchegel, tandpasta en handdoeken liggen klaar."
+      ]
+     ]
+    },
+    {
+     "h2": "Bioscoop voor de kinderen",
+     "flow": [
+      [
+       "p",
+       "In de entertainmentkamer staan een 4K-projector met scherm op statief en een 4K-tv. Netflix werkt afhankelijk van het actieve account. Op regendagen is dit een alternatief binnenshuis."
+      ]
+     ]
+    },
+    {
+     "h2": "Rust voor de ouders",
+     "flow": [
+      [
+       "p",
+       "Bij de ingang hangen buitencamera’s. Houd de kinderen tijdens het barbecueën op het dak uit de buurt van het vuur."
+      ]
+     ]
+    },
+    {
+     "h2": "Wassen en aankomen",
+     "flow": [
+      [
+       "p",
+       "Gasten mogen de wasmachine gebruiken, handig op een lange reis met kinderen. Daarnaast is er een wasservice op aanvraag. Met een luchthaventransfer, te regelen bij je boeking, kom je makkelijk aan met bagage en moe kroost."
+      ]
+     ]
+    },
+    {
+     "h2": "De ruimtes in detail",
+     "cards": [
+      [
+       "Karaoke & entertainment",
+       "room-entertainment",
+       "Privé-karaokekamer in een huis in Ho Chi Minh: microfoons, PlayStation met PlayStation Plus en 2 controllers, 4K-projector met scherm op statief, 4K-tv."
+      ],
+      [
+       "Woonkamer",
+       "room-living",
+       "Woonkamer van ca. 40 m² in een heel huis in Ho Chi Minh: hoekbank, 4K-tv van 75 inch, glazen deuren, planten en mesh-wifi tot 1 Gbit/s."
+      ],
+      [
+       "Keuken & eethoek",
+       "room-kitchen",
+       "Uitgeruste keuken in District 7: kookplaat met zwart glas, oven, magnetron, rijstkoker, airfryer, koelkast van ca. 540 liter en wasmachine."
+      ],
+      [
+       "Hoofdslaapkamer",
+       "room-master",
+       "Hoofdslaapkamer van ca. 55 m²: bed van 180×200 cm, 4K-tv van 55 inch, balkon, kaptafel met draadloos opladen, strijkijzer en eigen badkamer."
+      ],
+      [
+       "Slaapkamer 2",
+       "room-bedroom-2",
+       "Slaapkamer 2 in het huis in Ho Chi Minh: bed van 160×200 cm, smart-tv, donkergrijze gordijnen, staande ventilator en eigen badkamer met warm water."
+      ],
+      [
+       "Slaapkamer 3",
+       "room-bedroom-3",
+       "Raamloze slaapkamer 3: donker voor het middagslaapje, bed van 160×200 cm, smart-tv, glazen kast met extra handdoeken en lakens, eigen badkamer."
+      ],
+      [
+       "Badkamers",
+       "room-bathrooms",
+       "3 eigen badkamers en een gastentoilet: warm water, matzwarte douche, shampoo, douchegel, tandpasta, handdoeken en een föhn aan de muur."
+      ],
+      [
+       "Gang & werkplek",
+       "room-hallway",
+       "Gang met bureau, mesh-stoel en lamp, mesh-wifi tot 1 Gbit/s, granieten trap en codeslot bij de ingang. Voor wie onderweg moet werken."
+      ],
+      [
+       "Buiten & rivier",
+       "room-outside",
+       "Huis aan de rivier in Ho Chi Minh: terras met witte reling en luifel, zicht op het water en de skyline van District 1."
+      ],
+      [
+       "Dakterras",
+       "rooftop",
+       "Dakterras van ca. 56–60 m² in District 7, Ho Chi Minh: zwarte vatbarbecue met smoker, rotan bank, donkere tafel en zonnelampjes."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Welke kamer is geschikt voor kinderen?",
+       "Slaapkamer 3: donker en rustig, perfect voor het middagslaapje."
+      ],
+      [
+       "Kunnen we koken?",
+       "Ja, de keuken is volledig uitgerust."
+      ],
+      [
+       "Mogen we de wasmachine gebruiken?",
+       "Ja, gasten mogen hem gebruiken."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Op reis met kinderen? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "groups": {
+   "title": "Huis in Saigon voor groepen: karaoke, BBQ | ASCON LIVING",
+   "description": "Heel huis in Saigon voor vrienden en collega's: privé-karaoke, PlayStation, 4K-projector, dakterras met barbecue en smoker, 3 eigen badkamers.",
+   "h1": "Groepsreis naar Saigon: een huis alleen voor jullie",
+   "lead": "Een verjaardag, een bedrijfsuitje of vakantie met oude vrienden: verspreid je niet over een hotel, maar huur een heel huis en breng de avonden samen door.",
+   "sections": [
+    {
+     "h2": "Privé-karaoke",
+     "flow": [
+      [
+       "p",
+       "Geen kamer per uur, geen vreemden in de ruimte ernaast. De microfoons liggen in huis en er is een 4K-projector. Zing zolang je wilt, met respect voor de buren."
+      ]
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Karaokekamer met groen ledlicht, bank en tv aan de muur, huis in Saigon"
+      ],
+      [
+       "ent-mics",
+       "Karaokemicrofoons en afstandsbedieningen op een bijzettafel met steenlook"
+      ],
+      [
+       "ent-ps",
+       "PlayStation aan de muur met twee controllers"
+      ],
+      [
+       "roof-night",
+       "Dakterras 's avonds met zonnelampjes en rotan loungebank"
+      ],
+      [
+       "roof-bbq",
+       "Zwarte vatbarbecue naast de witte reling van het dakterras"
+      ],
+      [
+       "river-city",
+       "Uitzicht over de rivier richting de skyline van District 1 vanaf het huis"
+      ]
+     ]
+    },
+    {
+     "h2": "Wat er is voor de groep",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Ruimte",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Entertainmentkamer",
+          "Karaokemicrofoons, PlayStation met PlayStation Plus, 2 controllers"
+         ],
+         [
+          "Bioscoop",
+          "4K-projector aan het plafond, scherm op statief, 4K-tv"
+         ],
+         [
+          "Dakterras",
+          "Ca. 56–60 m², barbecue die ook smoker is"
+         ],
+         [
+          "Woonkamer",
+          "Hoekbank, 4K-tv van 75 inch"
+         ],
+         [
+          "Keuken",
+          "Koelkast van ca. 540 liter"
+         ],
+         [
+          "Badkamers",
+          "3 eigen + gastentoilet"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Waarom een groep hier beter zit",
+     "flow": [
+      [
+       "p",
+       "In een hotel verdwijnt iedereen naar zijn kamer. Hier is een woonkamer van ca. 40 m², een entertainmentkamer met karaoke en een dakterras met barbecue. En wie even rust wil, heeft een eigen kamer met badkamer."
+      ]
+     ]
+    },
+    {
+     "h2": "Barbecue op het dak",
+     "flow": [
+      [
+       "p",
+       "Vlees en vis van de markt marineren in de keuken, daarna naar boven. De zwarte vatbarbecue werkt ook als smoker. Rotan bank, donkere tafel, zonnelampjes en de skyline van de stad."
+      ],
+      [
+       "h3",
+       "Verjaardagen en bedrijfsuitjes"
+      ],
+      [
+       "p",
+       "Taart op het dakterras en daarna karaoke. Of een teamavond na een dag vergaderen."
+      ]
+     ]
+    },
+    {
+     "h2": "PlayStation-toernooien",
+     "flow": [
+      [
+       "p",
+       "PlayStation met PlayStation Plus en twee controllers: duels tussen collega's of vrienden."
+      ]
+     ]
+    },
+    {
+     "h2": "Geen rij in de ochtend",
+     "flow": [
+      [
+       "p",
+       "Drie eigen badkamers en een gastentoilet. Warm water, shampoo, douchegel en handdoeken in elke badkamer."
+      ]
+     ]
+    },
+    {
+     "h2": "Makkelijke aankomst",
+     "flow": [
+      [
+       "p",
+       "Codeslot op de deur en een sleutel voor het buitenhek, dus de groep kan ook op verschillende momenten aankomen. De luchthaventransfer regel je bij je boeking. Een wasservice is op aanvraag beschikbaar."
+      ]
+     ]
+    },
+    {
+     "h2": "Rekening houden met de buurt",
+     "flow": [
+      [
+       "p",
+       "Het huis staat in een woonwijk. Zet 's avonds het volume lager, vooral op het dakterras."
+      ]
+     ]
+    },
+    {
+     "h2": "De ruimtes in detail",
+     "cards": [
+      [
+       "Karaoke & entertainment",
+       "room-entertainment",
+       "Privé-karaokekamer in een huis in Ho Chi Minh: microfoons, PlayStation met PlayStation Plus en 2 controllers, 4K-projector met scherm op statief, 4K-tv."
+      ],
+      [
+       "Woonkamer",
+       "room-living",
+       "Woonkamer van ca. 40 m² in een heel huis in Ho Chi Minh: hoekbank, 4K-tv van 75 inch, glazen deuren, planten en mesh-wifi tot 1 Gbit/s."
+      ],
+      [
+       "Keuken & eethoek",
+       "room-kitchen",
+       "Uitgeruste keuken in District 7: kookplaat met zwart glas, oven, magnetron, rijstkoker, airfryer, koelkast van ca. 540 liter en wasmachine."
+      ],
+      [
+       "Hoofdslaapkamer",
+       "room-master",
+       "Hoofdslaapkamer van ca. 55 m²: bed van 180×200 cm, 4K-tv van 55 inch, balkon, kaptafel met draadloos opladen, strijkijzer en eigen badkamer."
+      ],
+      [
+       "Slaapkamer 2",
+       "room-bedroom-2",
+       "Slaapkamer 2 in het huis in Ho Chi Minh: bed van 160×200 cm, smart-tv, donkergrijze gordijnen, staande ventilator en eigen badkamer met warm water."
+      ],
+      [
+       "Slaapkamer 3",
+       "room-bedroom-3",
+       "Raamloze slaapkamer 3: donker voor het middagslaapje, bed van 160×200 cm, smart-tv, glazen kast met extra handdoeken en lakens, eigen badkamer."
+      ],
+      [
+       "Badkamers",
+       "room-bathrooms",
+       "3 eigen badkamers en een gastentoilet: warm water, matzwarte douche, shampoo, douchegel, tandpasta, handdoeken en een föhn aan de muur."
+      ],
+      [
+       "Gang & werkplek",
+       "room-hallway",
+       "Gang met bureau, mesh-stoel en lamp, mesh-wifi tot 1 Gbit/s, granieten trap en codeslot bij de ingang. Voor wie onderweg moet werken."
+      ],
+      [
+       "Buiten & rivier",
+       "room-outside",
+       "Huis aan de rivier in Ho Chi Minh: terras met witte reling en luifel, zicht op het water en de skyline van District 1."
+      ],
+      [
+       "Dakterras",
+       "rooftop",
+       "Dakterras van ca. 56–60 m² in District 7, Ho Chi Minh: zwarte vatbarbecue met smoker, rotan bank, donkere tafel en zonnelampjes."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Is er karaoke?",
+       "Ja, met karaokemicrofoons."
+      ],
+      [
+       "Kunnen we barbecueën?",
+       "Ja, op het dakterras, met barbecue en smoker."
+      ],
+      [
+       "Delen we het huis?",
+       "Nee, het is alleen voor jullie groep."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Een groepsreis plannen? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "location": {
+   "title": "District 7, Ho Chi Minh: huis aan de rivier | ASCON LIVING",
+   "description": "ASCON LIVING ligt aan 389A Đường Trần Xuân Soạn, Tân Hưng, District 7, Ho Chi Minh: een huis aan de rivier in een woonwijk met streetfood vlakbij.",
+   "h1": "Waar we zitten: Tân Hưng, District 7, aan het water",
+   "lead": "Een rustige woonstraat, het dagelijks leven van de buren voor het hek en aan de overkant van het water de torens van District 1. Dat is het adres van ASCON LIVING.",
+   "sections": [
+    {
+     "h2": "Adres en omgeving",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Detail"
+        ],
+        "rows": [
+         [
+          "Adres",
+          "389A Đường Trần Xuân Soạn"
+         ],
+         [
+          "Wijk",
+          "Tân Hưng"
+         ],
+         [
+          "District",
+          "District 7, Ho Chi Minh-stad"
+         ],
+         [
+          "Omgeving",
+          "Woonwijk aan de rivier"
+         ],
+         [
+          "Aankomst",
+          "Luchthaventransfer bij je boeking"
+         ],
+         [
+          "Toegang",
+          "Codeslot, sleutel voor het buitenhek"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-city",
+       "Uitzicht over de rivier richting de skyline van District 1 vanaf het huis"
+      ]
+     ]
+    },
+    {
+     "h2": "Een ander ritme dan District 1",
+     "flow": [
+      [
+       "p",
+       "District 1 is druk, met veel verkeer en toeristische zaken. Hier leef je meer als een bewoner: de wijkmarkt en de eetkraampjes liggen om de hoek. Wil je het centrum zien, dan ligt de skyline gewoon aan de overkant van de rivier."
+      ]
+     ]
+    },
+    {
+     "h2": "De rivier voor de deur",
+     "flow": [
+      [
+       "p",
+       "Houten boten die langzaam voorbijvaren, een briesje in de avond en de lichten van de stad die aangaan. De rivier hoort hier bij de dag."
+      ]
+     ]
+    },
+    {
+     "h2": "Eten in de buurt",
+     "flow": [
+      [
+       "p",
+       "'s Ochtends phở, 's middags bánh mì, aan het eind van de middag een Vietnamese ijskoffie. In de ASCON Guide-app staan adressen in de buurt en in de rest van de stad."
+      ],
+      [
+       "h3",
+       "Boodschappen"
+      ],
+      [
+       "p",
+       "Op de wijkmarkt koop je verse kruiden, tropisch fruit en vis om thuis te koken of op het dakterras te grillen."
+      ]
+     ]
+    },
+    {
+     "h2": "Door de stad",
+     "flow": [
+      [
+       "p",
+       "Taxi's en vervoersapps zijn de makkelijkste manier om je te verplaatsen. Laat de chauffeur gewoon het adres zien. Voor de aankomstdag kun je een luchthaventransfer samen met je boeking regelen, dan hoef je je geen zorgen te maken over bagage of vermoeidheid."
+      ]
+     ]
+    },
+    {
+     "h2": "Voor je aankomst",
+     "flow": [
+      [
+       "p",
+       "Na de bevestiging krijg je de deurcode en uitleg over de sleutel van het hek. De gratis ASCON Guide-app heeft een kaart en praktische tips. Vragen over het adres? Stuur een bericht via WhatsApp of Zalo."
+      ]
+     ]
+    },
+    {
+     "h2": "Kaart",
+     "p": [
+      "<a href=\"https://www.google.com/maps/search/?api=1&query=389A+Tr%E1%BA%A7n+Xu%C3%A2n+So%E1%BA%A1n+T%C3%A2n+H%C6%B0ng+Ho+Chi+Minh+City\" rel=\"noopener\">Open het adres in Google Maps</a>. Uitgebreide aankomstinstructies sturen we na de boeking."
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Wat is het adres?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh-stad."
+      ],
+      [
+       "Is er een luchthaventransfer?",
+       "Ja, te regelen bij je boeking."
+      ],
+      [
+       "Zijn er camera's?",
+       "Bij de ingang hangen buitencamera’s."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Vragen over de ligging? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "guide": {
+   "title": "Wat te doen in Ho Chi Minh: gastengids | ASCON LIVING",
+   "description": "De ASCON Guide-app voor gasten: restaurants, bars, uitjes met kinderen, kaart en praktische tips voor Ho Chi Minh. Gratis, zonder wachtwoord.",
+   "h1": "Wat te doen in Ho Chi Minh, met de gids op zak",
+   "lead": "Eerste Vietnam-reis of ben je er al eens geweest? De ASCON Guide-app helpt je kiezen waar je eet, wat je bekijkt en wat handig is om te weten. De app is gratis en heeft geen wachtwoord nodig.",
+   "sections": [
+    {
+     "h2": "Al voor vertrek plannen",
+     "flow": [
+      [
+       "p",
+       "Nee. De app is gratis en opent direct in de browser van je telefoon. Open de app thuis op de bank, markeer wat je wilt zien en kom in Ho Chi Minh aan met een plan."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open de gids-app</a>"
+     ],
+     "cards": [
+      [
+       "Gratis gids-app",
+       "travel-guide",
+       "Tips en kaart van Ho Chi Minh, gratis in de browser."
+      ]
+     ]
+    },
+    {
+     "h2": "Wat staat erin",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderdeel",
+         "Inhoud"
+        ],
+        "rows": [
+         [
+          "Eten",
+          "Restaurants en streetfood bij het huis en in de hele stad"
+         ],
+         [
+          "Bars en avond",
+          "Kroegen en ideeën voor de avond"
+         ],
+         [
+          "Kinderen en gezin",
+          "Activiteiten voor de kleintjes"
+         ],
+         [
+          "Kaart",
+          "Alle plekken op de kaart"
+         ],
+         [
+          "Praktische tips",
+          "Handige informatie voor je verblijf"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Eten in Saigon",
+     "flow": [
+      [
+       "p",
+       "Dampende phở, knapperige bánh mì, gebroken rijst met gegrild vlees, ijskoffie met gecondenseerde melk. De app verzamelt adressen rond District 7 en in de rest van de stad, zodat je niet alleen in toeristenzaken belandt."
+      ],
+      [
+       "h3",
+       "Zelf koken"
+      ],
+      [
+       "p",
+       "Liever thuis eten? De keuken is volledig uitgerust, en op de wijkmarkt vind je alles wat je nodig hebt."
+      ]
+     ]
+    },
+    {
+     "h2": "Bezienswaardigheden",
+     "flow": [
+      [
+       "p",
+       "Koloniale architectuur in District 1, traditionele markten, musea: elke plek staat op de kaart. Laat hem aan de taxichauffeur zien of zet hem in een vervoersapp."
+      ]
+     ]
+    },
+    {
+     "h2": "Met kinderen",
+     "flow": [
+      [
+       "p",
+       "Het onderdeel Kinderen en gezin geeft ideeën voor de kleintjes, ook voor regendagen."
+      ]
+     ]
+    },
+    {
+     "h2": "Een voorbeelddag",
+     "flow": [
+      [
+       "p",
+       "'s Ochtends naar de markt en ontbijten bij een kraampje uit de app. 's Middags een museum of een wandeling door District 1. Tijdens de heetste uren rust thuis op de bank. Bij zonsondergang barbecue op het dakterras en tot slot karaoke in de entertainmentkamer."
+      ]
+     ]
+    },
+    {
+     "h2": "Na de barbecue",
+     "flow": [
+      [
+       "p",
+       "Nog niet klaar met de avond? Bij Bars en avond vind je ideeën om uit te gaan."
+      ]
+     ]
+    },
+    {
+     "h2": "Alles op één plek",
+     "flow": [
+      [
+       "p",
+       "Informatie over de toegang tot het huis en belangrijke tips staan bij elkaar in de app, zonder door oude berichten te scrollen."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Heeft de app een wachtwoord nodig?",
+       "Na de bevestiging van je boeking."
+      ],
+      [
+       "Zijn er tips voor kinderen?",
+       "Ja, bij Kinderen en gezin."
+      ],
+      [
+       "Staan de plekken op een kaart?",
+       "Ja, allemaal."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Boek en krijg toegang tot de app: WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "faq": {
+   "title": "Vragen over je verblijf in Ho Chi Minh | ASCON LIVING",
+   "description": "Antwoorden over ASCON LIVING in District 7, Ho Chi Minh: toegang, kamers, badkamers, karaoke, barbecue op het dak, wifi, keuken, boeken.",
+   "h1": "Veelgestelde vragen over ons huis in Ho Chi Minh",
+   "lead": "Dit zijn de vragen die we het vaakst krijgen. Staat die van jou er niet bij, stuur dan een bericht.",
+   "sections": [
+    {
+     "h2": "Boeken",
+     "faq": [
+      [
+       "Waar kan ik boeken?",
+       "Via WhatsApp, Zalo, e-mail naar ascon.living@gmail.com, of via Airbnb en Trip.com."
+      ],
+      [
+       "Delen we het huis?",
+       "Nee. De drie verdiepingen en het dakterras zijn alleen voor jullie groep."
+      ],
+      [
+       "Regelen jullie vervoer van de luchthaven?",
+       "Ja, een luchthaventransfer regel je bij je boeking."
+      ]
+     ]
+    },
+    {
+     "h2": "Het huis",
+     "faq": [
+      [
+       "Hoe groot is het huis?",
+       "Meer dan 250 m²: drie verdiepingen en een dakterras van ca. 56–60 m²."
+      ],
+      [
+       "Waar ligt het?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, District 7, Ho Chi Minh-stad, aan de rivier."
+      ],
+      [
+       "Is er een balkon?",
+       "Ja. De hoofdslaapkamer heeft een eigen balkon."
+      ]
+     ]
+    },
+    {
+     "h2": "Kamers en badkamers",
+     "faq": [
+      [
+       "Welke bedden zijn er?",
+       "In de hoofdslaapkamer van ca. 55 m² een bed van 180×200 cm. In slaapkamer 2 en 3 bedden van 160×200 cm. Slaapkamer 3 heeft geen raam."
+      ],
+      [
+       "Hoeveel badkamers?",
+       "Drie eigen badkamers en een gastentoilet met dezelfde voorzieningen."
+      ],
+      [
+       "Moet ik toiletartikelen meenemen?",
+       "Nee. Er zijn warm water, shampoo, douchegel, tandpasta en handdoeken. Slippers staan bij de ingang."
+      ],
+      [
+       "Is er tv op de kamers?",
+       "Ja. Een 4K-tv van 55 inch in de hoofdslaapkamer, smart-tv's in slaapkamer 2 en 3."
+      ]
+     ]
+    },
+    {
+     "h2": "Ontspanning",
+     "faq": [
+      [
+       "Is er karaoke?",
+       "Ja: karaokemicrofoons, PlayStation met PlayStation Plus, 4K-projector en 4K-tv."
+      ],
+      [
+       "Kunnen we barbecueën?",
+       "Ja. De barbecue op het dak werkt ook als smoker."
+      ],
+      [
+       "Is er Netflix?",
+       "Ja, afhankelijk van het actieve account."
+      ]
+     ]
+    },
+    {
+     "h2": "Keuken en was",
+     "faq": [
+      [
+       "Kunnen we koken?",
+       "Ja. Oven, rijstkoker, airfryer en een koelkast van ca. 540 liter."
+      ],
+      [
+       "Is er een wasmachine?",
+       "Ja, gasten mogen hem gebruiken. Een wasservice is op aanvraag beschikbaar."
+      ]
+     ]
+    },
+    {
+     "h2": "Overig",
+     "faq": [
+      [
+       "Zijn er camera's?",
+       "Bij de ingang hangen buitencamera’s."
+      ],
+      [
+       "Is er een kluis?",
+       "Ja, en ook een strijkijzer."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Nog meer vragen? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "booking": {
+   "title": "Boek een heel huis in Ho Chi Minh | ASCON LIVING",
+   "description": "Boek ASCON LIVING, een heel huis in District 7, Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb of Trip.com. Luchthaventransfer mogelijk.",
+   "h1": "Een alternatief voor een hotel in Ho Chi Minh: boek het huis",
+   "lead": "Zoek je een hotel in Ho Chi Minh voor de hele groep? Met een heel huis heb je meer ruimte en samen avonden. Schrijf ons direct of boek via een platform.",
+   "sections": [
+    {
+     "h2": "In drie stappen",
+     "flow": [
+      [
+       "p",
+       "1. Stuur je aankomst- en vertrekdatum via WhatsApp, Zalo of e-mail."
+      ],
+      [
+       "p",
+       "2. Wij laten je weten wat de beschikbaarheid, de prijs, de transfer en de kamerverdeling is."
+      ],
+      [
+       "p",
+       "3. Na de bevestiging krijg je de toegangsgegevens. De ASCON Guide-app is gratis en zonder wachtwoord."
+      ]
+     ]
+    },
+    {
+     "h2": "Wat is inbegrepen",
+     "flow": [
+      [
+       "p",
+       "Het hele huis met drie verdiepingen en dakterras, beddengoed en handdoeken, warm water, shampoo, douchegel, tandpasta, slippers, kluis, strijkijzer, mesh-wifi tot 1 Gbit/s, entertainmentkamer met karaoke en PlayStation, en een barbecue met smoker op het dak. Gasten mogen de wasmachine gebruiken."
+      ]
+     ]
+    },
+    {
+     "h2": "Extra services",
+     "flow": [
+      [
+       "p",
+       "De luchthaventransfer regel je samen met je boeking. Een wasservice is op aanvraag beschikbaar, handig bij een langer verblijf."
+      ]
+     ]
+    },
+    {
+     "h2": "Via Airbnb of Trip.com",
+     "flow": [
+      [
+       "p",
+       "Boek je liever met een app? ASCON LIVING staat op Airbnb en Trip.com."
+      ],
+      [
+       "h3",
+       "Direct bij ons"
+      ],
+      [
+       "p",
+       "Als je ons direct schrijft, zijn kamers, transfer en wensen van de groep makkelijker af te stemmen."
+      ]
+     ]
+    },
+    {
+     "h2": "Wat zet je in je bericht",
+     "flow": [
+      [
+       "p",
+       "Je data, of je een transfer wilt en hoe je de kamers wilt verdelen: de hoofdslaapkamer van ca. 55 m² met bed van 180×200 cm en balkon; slaapkamer 2 en 3 met bedden van 160×200 cm en eigen badkamer. Slaapkamer 3 heeft geen raam, fijn voor het middagslaapje van kinderen. Moet er iemand werken, dan staat er een bureau in de gang."
+      ]
+     ]
+    },
+    {
+     "h2": "Na de bevestiging",
+     "flow": [
+      [
+       "p",
+       "Je krijgt de deurcode en uitleg over de sleutel van het hek; met de gratis ASCON Guide-app kun je je dagen alvast plannen."
+      ]
+     ]
+    },
+    {
+     "h2": "Een tip",
+     "flow": [
+      [
+       "p",
+       "Schoolvakanties en lange weekenden zijn snel vol. Stuur ons op tijd een bericht om je data vast te leggen."
+      ]
+     ]
+    },
+    {
+     "cta": true
+    },
+    {
+     "h2": "Contact",
+     "p": [
+      "Telefoon en WhatsApp: <a href=\"tel:{phone_e164}\">{phone}</a>",
+      "Zalo: <a href=\"https://zalo.me/84909410382\" rel=\"noopener\">{phone}</a>",
+      "E-mail: <a href=\"mailto:{email}\">{email}</a>"
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Kan ik direct boeken?",
+       "Ja, via WhatsApp, Zalo of e-mail."
+      ],
+      [
+       "Op welke platforms staan jullie?",
+       "Airbnb en Trip.com."
+      ],
+      [
+       "Kan ik de transfer meteen meeboeken?",
+       "Ja, samen met je verblijf."
+      ]
+     ]
+    }
+   ]
+  },
+  "rules": {
+   "title": "Huisregels ASCON LIVING Ho Chi Minh",
+   "description": "Huisregels van ASCON LIVING in District 7, Ho Chi Minh: toegang, schoenen, keuken, barbecue op het daken buren. Vragen via WhatsApp.",
+   "h1": "Een paar regels, zodat iedereen zich thuis voelt",
+   "lead": "Tijdens je verblijf is het huis van jullie, en we weten dat jullie er goed voor zorgen. Hier een paar eenvoudige afspraken.",
+   "sections": [
+    {
+     "h2": "Overzicht",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Onderwerp",
+         "Regel"
+        ],
+        "rows": [
+         [
+          "Toegang",
+          "Codeslot en sleutel voor het buitenhek"
+         ],
+         [
+          "Schoenen",
+          "Uit bij de ingang, slippers aanwezig"
+         ],
+         [
+          "Keuken",
+          "Opruimen na het koken"
+         ],
+         [
+          "Barbecue",
+          "Vuur nooit onbeheerd laten, volledig doven"
+         ],
+         [
+          "Buren",
+          "Woonwijk, 's avonds zachtjes"
+         ],
+         [
+          "Camera's",
+          "Buitencamera’s bij de ingang"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Basisregels",
+     "flow": [
+      [
+       "ul",
+       [
+        "Inchecken 14:00–23:00, uitchecken 12:00.",
+        "Volgens de Vietnamese wet moeten gasten geregistreerd worden.",
+        "Niet roken in huis; alleen op de aangewezen plekken buiten.",
+        "Harde muziek tot 21:30.",
+        "Geen wilde feesten.",
+        "Alleen geregistreerde gasten mogen verblijven."
+       ]
+      ]
+     ]
+    },
+    {
+     "h2": "Code en hek",
+     "flow": [
+      [
+       "p",
+       "De deur gaat open met een code, het buitenhek met een sleutel. Geef de code niet aan mensen buiten de groep en sluit het hek als iedereen weggaat."
+      ]
+     ]
+    },
+    {
+     "h2": "In huis",
+     "flow": [
+      [
+       "p",
+       "Doe je schoenen uit bij de ingang en gebruik de slippers, zo blijft de vloer schoon. Gasten mogen de wasmachine gebruiken. Paspoorten en waardevolle spullen bewaar je in de kluis."
+      ],
+      [
+       "h3",
+       "Keuken"
+      ],
+      [
+       "p",
+       "Kook gerust. Doe na het eten de afwas of zet alles terug."
+      ],
+      [
+       "h3",
+       "Entertainmentkamer"
+      ],
+      [
+       "p",
+       "Ga voorzichtig om met de microfoons, controllers en projector."
+      ]
+     ]
+    },
+    {
+     "h2": "Barbecue op het dak",
+     "flow": [
+      [
+       "p",
+       "De barbecue en smoker zijn er voor de gasten. Laat het vuur nooit onbeheerd, houd kinderen op afstand en doof alles helemaal als je klaar bent."
+      ]
+     ]
+    },
+    {
+     "h2": "Goede buren",
+     "flow": [
+      [
+       "p",
+       "ASCON LIVING staat in een woonwijk. Praat 's avonds zachter, vooral op het dakterras en het balkon."
+      ]
+     ]
+    },
+    {
+     "h2": "Apparaten en spullen",
+     "flow": [
+      [
+       "p",
+       "De koelkast van ca. 540 liter, oven, magnetron, rijstkoker, airfryer en broodrooster zijn er voor jullie: laat ze schoon achter. Handdoeken, shampoo, douchegel en tandpasta liggen in de badkamers; strijkijzer en kluis zijn in huis. Mist er iets of werkt iets niet, laat het weten via WhatsApp of Zalo. Laat geen tassen op de trap staan, zodat de doorgang vrij blijft."
+      ]
+     ]
+    },
+    {
+     "h2": "Veelgestelde vragen",
+     "faq": [
+      [
+       "Hoe kom ik binnen?",
+       "Met de deurcode en de sleutel van het buitenhek."
+      ],
+      [
+       "Bij wie meld ik een probleem?",
+       "Bij ons, via WhatsApp of Zalo."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Vragen over de huisregels? WhatsApp of Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "travel-guide": {
+   "title": "Gratis gids-app voor Ho Chi Minh | ASCON",
+   "description": "De gratis gids-app van ASCON: lokale tips, waar je eet en wat je ziet, een kaart en praktische hulp in Ho Chi Minh. Opent in de browser van je telefoon.",
+   "h1": "Gratis reisgids-app voor Ho Chi Minh",
+   "lead": "ASCON Guide is een gratis web-app met lokale tips en plekken in Ho Chi Minh. Hij opent direct in de browser van je telefoon: zonder wachtwoord en zonder installatie.",
+   "sections": [
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open de gids-app</a>"
+     ]
+    },
+    {
+     "h2": "Zo ziet de app eruit",
+     "p": [
+      "Dit zijn echte schermafbeeldingen van de app op een telefoon (de app is nog niet in het Nederlands beschikbaar, dus de schermen zijn in het Engels)."
+     ],
+     "imgs": [
+      [
+       "tg-welcome",
+       "Welkomstscherm met het logo en het motto van ASCON LIVING"
+      ],
+      [
+       "tg-picker",
+       "Taalkeuze: de app is er in tien talen"
+      ],
+      [
+       "tg-categories",
+       "Categorieën: eten, cafés, bars, uitjes met het gezin en meer"
+      ],
+      [
+       "tg-map",
+       "Kaart met plekken rond het huis"
+      ],
+      [
+       "tg-practical",
+       "Praktische informatie en hulp bij noodgevallen"
+      ]
+     ]
+    },
+    {
+     "h2": "Lokale tips en plekken",
+     "p": [
+      "De plekken zijn ingedeeld in categorieën: eten, cafés en desserts, bars en nachtleven, kinderen en gezin, bezienswaardigheden en cultuur, activiteiten, ontspanning, winkelen, dagtrips en praktische en noodinformatie. De kaart toont plekken rond het huis en de knop Route start de navigatie.",
+      "Je kunt de app aan je beginscherm toevoegen. Meer ideeën vind je in onze <a href=\"{L}guide/\">reisgids voor Ho Chi Minh</a>.",
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Open de gids-app</a>"
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  }
+ }
+}

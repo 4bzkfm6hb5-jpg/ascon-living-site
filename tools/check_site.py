@@ -13,6 +13,7 @@ bad2=re.compile(r'빌라|ヴィラ|別墅|别墅|주차|駐車|パーキング|�
  r'piscine|extincteur|détecteur de fumée|trousse de secours|paroles|animaux|bagagerie|consigne à bagages|'
  r'piscina|aparcamiento|estacionamiento|extintor|detector de humo|detector de fumaça|botiquín|letras de canciones|letras das músicas|mascota|animais de estimação|guarda-volumes|consigna de equipaje|'
  r'parcheggio|estintore|rilevatore di fumo|pronto soccorso|testi delle canzoni|animali domestici|deposito bagagli|'
+ r'\bwill[aię]\b|zwembad|parkeerplaats|parkering|songtekst|teksty piosenek|låttext|rookmelder|EHBO|brandblusser|czujnik dymu|apteczk|gaśnic|brandvarnare|första hjälpen|brandsläckare|huisdier|husdjur|'
  r'विला|पार्किंग|स्विमिंग|स्विमिंग पूल|\d+\s*मिनट|अग्निशामक|धुएँ|धुआँ|प्राथमिक चिकित्सा|लिरिक्स|गीत के बोल|पालतू|सामान रखने)')
 import unicodedata
 def width(x): return sum(2 if unicodedata.east_asian_width(ch) in 'WF' else 1 for ch in x)
@@ -24,7 +25,9 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     plain=re.sub('<[^>]+>',' ',txt)
     if 'noindex' not in s and '"inLanguage"' not in s: errs.append((f,'inLanguage','missing'))
     for m in bad.finditer(plain): errs.append((f,'word',m.group(0)))
-    for m in bad2.finditer(plain): errs.append((f,'word',m.group(0)))
+    for m in bad2.finditer(plain):
+        if m.group(0).lower()=='vila' and '/sv/' in f: continue  # Swedish 'vila' = rest
+        errs.append((f,'word',m.group(0)))
     for m in re.finditer(r'alt="([^"]*)"',s):
         if bad2.search(m.group(1)) or bad.search(m.group(1)): errs.append((f,'alt',m.group(1)))
     if 'hreflang="x-default"' not in s and 'noindex' not in s: errs.append((f,'hreflang','no x-default'))

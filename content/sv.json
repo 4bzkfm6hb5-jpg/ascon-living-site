@@ -1,0 +1,3204 @@
+{
+ "ui": {
+  "skip": "Till innehållet",
+  "languages": "Språk",
+  "book_airbnb": "Boka på Airbnb",
+  "book_trip": "Boka på Trip.com",
+  "whatsapp": "Boka via WhatsApp",
+  "zalo": "Boka via Zalo",
+  "address_label": "Adress",
+  "contact_label": "Kontakt",
+  "more_label": "Mer",
+  "guest_guide": "Guideapp för gäster",
+  "read_more": "Läs mer",
+  "source": "Källa",
+  "estimate": "uppskattning",
+  "home": "Start",
+  "not_found_title": "Sidan hittades inte",
+  "not_found_text": "Sidan finns inte. Gå till startsidan:",
+  "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON."
+ },
+ "nav": [
+  [
+   "home",
+   "Start"
+  ],
+  [
+   "house",
+   "Huset"
+  ],
+  [
+   "rooftop",
+   "Takterrass"
+  ],
+  [
+   "families",
+   "Familjer"
+  ],
+  [
+   "groups",
+   "Grupper"
+  ],
+  [
+   "location",
+   "Läge"
+  ],
+  [
+   "booking",
+   "Bokning & kontakt"
+  ],
+  [
+   "faq",
+   "Vanliga frågor"
+  ],
+  [
+   "rules",
+   "Husregler"
+  ],
+  [
+   "guide",
+   "Reseguide"
+  ],
+  [
+   "travel-guide",
+   "Guideapp"
+  ]
+ ],
+ "pages": {
+  "room-entertainment": {
+   "title": "Privat karaoke och PlayStation i Saigon | ASCON LIVING",
+   "description": "Privat karaokerum i ett hus i Ho Chi Minh: mikrofoner, PlayStation med PlayStation Plus och 2 handkontroller, 4K-projektor med duk på stativ och 4K-tv.",
+   "h1": "Ert eget karaoke- och underhållningsrum",
+   "lead": "På ASCON LIVING behöver ni inte leta efter en karaokebar: underhållningsrummet finns i huset och är bara ert.",
+   "cover": [
+    "ent",
+    "Underhållningsrum med grå soffa, fyrkantiga sittpuffar och inramade animeaffischer, hus med karaoke i Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "Utrustningen",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Mikrofoner"
+         ],
+         [
+          "Konsol",
+          "PlayStation med PlayStation Plus"
+         ],
+         [
+          "Handkontroller",
+          "2"
+         ],
+         [
+          "Projektor",
+          "4K i taket, duk på stativ"
+         ],
+         [
+          "Tv",
+          "4K"
+         ],
+         [
+          "Streaming",
+          "Netflix, beroende på aktivt konto"
+         ],
+         [
+          "Sittplatser",
+          "Grå soffa och fyrkantiga sittpuffar"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Karaokerum med grönt LED-ljus, soffa, sidobord och tv på väggen"
+      ],
+      [
+       "ent-cinema",
+       "4K-projektorns duk på stativ i det mörka rummet"
+      ],
+      [
+       "ent-tv",
+       "Stor tv på väggen, färgade LED-slingor och grå soffa"
+      ],
+      [
+       "ent-mics",
+       "Karaokemikrofoner och fjärrkontroller på ett sidobord i stenlook"
+      ],
+      [
+       "ent-ps",
+       "PlayStation på väggen med två handkontroller"
+      ]
+     ]
+    },
+    {
+     "h2": "Så kan en kväll se ut",
+     "flow": [
+      [
+       "p",
+       "Bäst är att först äta middag på takterrassen och sedan gå ner till underhållningsrummet. Fjärrkontroller och mikrofoner ligger på sidobordet i stenlook, handkontrollerna bredvid konsolen på väggen. När det gröna LED-ljuset tänds är rummet redo för första låten."
+      ]
+     ]
+    },
+    {
+     "h2": "Sjung utan att titta på klockan",
+     "flow": [
+      [
+       "p",
+       "Välj en låt, texten visas på 4K-projektorns duk och mikrofonen går laget runt. Ingen timtaxa, inget annat sällskap på andra sidan väggen."
+      ]
+     ]
+    },
+    {
+     "h2": "PlayStation-dueller",
+     "flow": [
+      [
+       "p",
+       "PlayStationen på väggen, med PlayStation Plus och två handkontroller, väntar på dueller mellan syskon eller kollegor."
+      ]
+     ]
+    },
+    {
+     "h2": "Hemmabio",
+     "flow": [
+      [
+       "p",
+       "Släck lampan, ställ upp duken på stativet och starta en film på 4K-projektorn. Netflix fungerar beroende på aktivt konto. För enklare tittande finns 4K-tv:n."
+      ]
+     ]
+    },
+    {
+     "h2": "En annan stämning",
+     "flow": [
+      [
+       "p",
+       "Mjuk grå soffa, sittpuffar, inramade animeaffischer och färgade LED-slingor: rummet känns annorlunda än resten av huset."
+      ],
+      [
+       "h3",
+       "Regniga dagar"
+      ],
+      [
+       "p",
+       "När det tropiska regnet öser ner blir det här det livligaste rummet, för både barn och vuxna."
+      ]
+     ]
+    },
+    {
+     "h2": "Tänk på grannarna",
+     "flow": [
+      [
+       "p",
+       "Huset ligger i ett bostadsområde: sänk volymen sent på kvällen."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Finns det karaoke?",
+       "Ja, med karaokemikrofoner."
+      ],
+      [
+       "Finns det PlayStation?",
+       "Ja, med PlayStation Plus och två handkontroller."
+      ],
+      [
+       "Kan vi titta på Netflix?",
+       "Ja, beroende på aktivt konto."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Boka ett hus med egen karaoke: WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-living": {
+   "title": "Vardagsrum på 40 m² med 4K-tv på 75\" | ASCON LIVING",
+   "description": "Vardagsrum på ca 40 m² i ett helt hus i Ho Chi Minh: hörnsoffa, 4K-tv på 75 tum, glasdörrar, växter och mesh-wifi upp till 1 Gbit/s.",
+   "h1": "Vardagsrummet, där alla samlas",
+   "lead": "Ca 40 m², en stor hörnsoffa och en tv på 75 tum. Här planeras morgondagen och här slutar kvällen.",
+   "cover": [
+    "living",
+    "Vardagsrum med hörnsoffa i ett helt hus att hyra i Saigon"
+   ],
+   "sections": [
+    {
+     "h2": "Från morgon till kväll",
+     "flow": [
+      [
+       "p",
+       "På morgonen dricker någon kaffe i soffan medan barnen tittar på tecknat på den stora skärmen. Mitt på dagen kommer gruppen tillbaka från marknaden, ställer in maten i köket och vilar vid glasdörrarna bland växterna. På kvällen blir vardagsrummet en liten biograf. Och blir ni sugna på karaoke finns underhållningsrummet med mikrofoner, PlayStation och 4K-projektor i samma hus."
+      ]
+     ],
+     "imgs": [
+      [
+       "living-2",
+       "Ljust vardagsrum med soffa och växter"
+      ],
+      [
+       "living-tv",
+       "4K-tv på 75 tum i vardagsrummet för filmkvällar"
+      ],
+      [
+       "living-3",
+       "Sittplats vid vardagsrummets glasdörrar"
+      ]
+     ]
+    },
+    {
+     "h2": "Det här finns",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Yta",
+          "Ca 40 m²"
+         ],
+         [
+          "Tv",
+          "4K, 75 tum"
+         ],
+         [
+          "Soffa",
+          "Hörnsoffa"
+         ],
+         [
+          "Ljus",
+          "Glasdörrar, växter"
+         ],
+         [
+          "Wifi",
+          "Mesh upp till 1 Gbit/s"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Den stora skärmen",
+     "flow": [
+      [
+       "p",
+       "Med 4K-tv:n på 75 tum blir vardagsrummet en hemmabio: familjefilm, en match med vännerna eller tecknat på morgonen."
+      ],
+      [
+       "h3",
+       "Filmkväll"
+      ],
+      [
+       "p",
+       "Dämpad belysning, popcorn i handen och alla bekväma i soffan. Efter filmen är det bara några steg till köket och det stora kylskåpet."
+      ]
+     ]
+    },
+    {
+     "h2": "Hörnsoffan",
+     "flow": [
+      [
+       "p",
+       "Hörnsoffan placerar alla mitt emot varandra. Den bästa platsen för att planera morgondagen eller visa dagens bilder."
+      ]
+     ]
+    },
+    {
+     "h2": "Ljust och svalt",
+     "flow": [
+      [
+       "p",
+       "Genom glasdörrarna kommer dagsljuset in och växterna ger en tropisk känsla."
+      ]
+     ]
+    },
+    {
+     "h2": "Jobba från soffan",
+     "flow": [
+      [
+       "p",
+       "Mesh-wifi upp till 1 Gbit/s når även hit, så laptopen kan följa med upp i soffan. Behöver ni mer lugn finns skrivbordet i korridoren."
+      ]
+     ]
+    },
+    {
+     "h2": "Nära köket och taket",
+     "flow": [
+      [
+       "p",
+       "Köket och matbordet ligger alldeles intill: den som lagar mat är fortfarande med i samtalet. När det är dags att grilla ligger takterrassen några trappor upp."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Hur stort är vardagsrummet?",
+       "Ca 40 m²."
+      ],
+      [
+       "Vilken tv finns?",
+       "En 4K-tv på 75 tum."
+      ],
+      [
+       "Når wifi vardagsrummet?",
+       "Ja, mesh upp till 1 Gbit/s."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Vill ni veta mer om huset? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-kitchen": {
+   "title": "Fullt utrustat kök och matplats | ASCON LIVING",
+   "description": "Fullt utrustat kök i District 7: spishäll med svart glas, ugn, mikrovågsugn, riskokare, airfryer, kylskåp på ca 540 liter och tvättmaskin.",
+   "h1": "Kök och matplats: laga eget i Saigon",
+   "lead": "Gatumaten i Saigon är oemotståndlig, men efter några dagar vill man ofta laga något själv. I köket på ASCON LIVING gör ni allt från en snabb frukost till en stor middag för gruppen.",
+   "cover": [
+    "kitchen",
+    "Utrustat kök med matbord i huset i Saigon"
+   ],
+   "sections": [
+    {
+     "h2": "Utrustning",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Matlagning",
+          "Spishäll med svart glasyta, ugn"
+         ],
+         [
+          "Småapparater",
+          "Mikrovågsugn, riskokare, vattenkokare, airfryer, brödrost"
+         ],
+         [
+          "Kylskåp",
+          "Ca 540 liter"
+         ],
+         [
+          "Porslin",
+          "Tallrikar och skålar i skåpen"
+         ],
+         [
+          "Tvätt",
+          "Tvättmaskin för gästerna"
+         ],
+         [
+          "Måltider",
+          "Bord vid fönstret"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-2",
+       "Köksbänk med mönstrat kakel"
+      ],
+      [
+       "kitchen-3",
+       "Köksbänk med småapparater för matlagning hemma"
+      ],
+      [
+       "kitchen-dishes",
+       "Köksskåp med tallrikar och skålar"
+      ],
+      [
+       "kitchen-rice",
+       "Riskokare på köksbänken"
+      ],
+      [
+       "kitchen-micro",
+       "Mikrovågsugn i köket"
+      ],
+      [
+       "kitchen-fridge",
+       "Stort kylskåp med plats för gruppens inköp"
+      ],
+      [
+       "kitchen-dining",
+       "Matbord intill köksfönstret"
+      ]
+     ]
+    },
+    {
+     "h2": "Från marknaden till grytan",
+     "flow": [
+      [
+       "p",
+       "På morgonen handlar ni färska örter, mango och fisk på kvarterets marknad och lagar sedan mat på ert eget sätt. Riskokaren ger varmt ris varje dag och airfryern räddar de snabba måltiderna."
+      ]
+     ]
+    },
+    {
+     "h2": "Ett kylskåp för hela gruppen",
+     "flow": [
+      [
+       "p",
+       "Ca 540 liter: plats för allas inköp, kalla drycker till takterrassen och det marinerade köttet till kvällens grill."
+      ]
+     ]
+    },
+    {
+     "h2": "Var och ens frukost",
+     "flow": [
+      [
+       "p",
+       "Rostat bröd, ägg, kaffe eller gröt till den minsta: brödrost, vattenkokare och mikrovågsugn räcker långt."
+      ]
+     ]
+    },
+    {
+     "h2": "Bordet vid fönstret",
+     "flow": [
+      [
+       "p",
+       "Vid matbordet intill köksfönstret äter ni en lugn frukost innan ni går ut, gruppens middag på kvällen och spelar kort sent på kvällen."
+      ],
+      [
+       "h3",
+       "Tvätt"
+      ],
+      [
+       "p",
+       "Gästerna får använda tvättmaskinen, mycket praktiskt på långa resor. Tvättservice finns också på begäran."
+      ]
+     ]
+    },
+    {
+     "h2": "Förbereda grillen",
+     "flow": [
+      [
+       "p",
+       "Före en kväll på taket blir köket högkvarter: kött och skaldjur marineras i kylskåpet, grönsaker skärs på bänken med de mönstrade kakelplattorna och riset står i riskokaren. Sedan bärs allt upp till takterrassen, där grillen med rökugn väntar."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Finns det riskokare?",
+       "Ja."
+      ],
+      [
+       "Får vi använda tvättmaskinen?",
+       "Ja, gästerna får använda den."
+      ],
+      [
+       "Hur stort är kylskåpet?",
+       "Ca 540 liter."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Vill ni laga mat på resan? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-master": {
+   "title": "Huvudsovrum på 55 m² med balkong | ASCON LIVING",
+   "description": "Huvudsovrum på ca 55 m²: säng 180×200 cm, 4K-tv på 55 tum, balkong, sminkbord med trådlös laddning, strykjärn och eget badrum.",
+   "h1": "Huvudsovrummet: ca 55 m² lugn",
+   "lead": "Det här rummet är större än många lägenheter i stan. Perfekt för föräldrar som vill ha en egen vrå, för ett par som firar något eller för den som planerat resan och förtjänar det bästa rummet.",
+   "cover": [
+    "bed1",
+    "Huvudsovrum med säng 180×200 cm, krämfärgad sänggavel och stort fönster, Saigon"
+   ],
+   "sections": [
+    {
+     "h2": "I korthet",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Yta",
+          "Ca 55 m²"
+         ],
+         [
+          "Säng",
+          "180×200 cm"
+         ],
+         [
+          "Tv",
+          "4K, 55 tum"
+         ],
+         [
+          "Ute",
+          "Egen balkong"
+         ],
+         [
+          "Sminkbord",
+          "Rund belyst spegel, trådlös laddning"
+         ],
+         [
+          "Övrigt",
+          "Strykjärn, eget badrum"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "bed1-3",
+       "Huvudsovrum på ca 55 m² med tv på väggen, golvfläkt och växter vid fönstret"
+      ],
+      [
+       "bed1-2",
+       "Sminkbord med rund belyst spegel och svarta ribbor mot det egna badrummet"
+      ]
+     ]
+    },
+    {
+     "h2": "Sov gott",
+     "flow": [
+      [
+       "p",
+       "Sängen på 180×200 cm ger gott om plats för två. Den krämfärgade sänggaveln och det stora fönstret med gardiner skapar lugn efter en dag i det livliga Saigon."
+      ]
+     ]
+    },
+    {
+     "h2": "Kaffe på balkongen",
+     "flow": [
+      [
+       "p",
+       "Gå upp före alla andra, brygg ett vietnamesiskt kaffe och gå ut på balkongen. En stilla stund innan huset vaknar."
+      ]
+     ]
+    },
+    {
+     "h2": "Film i sängen",
+     "flow": [
+      [
+       "p",
+       "4K-tv:n på 55 tum på väggen gör att ni kan avsluta dagen med en film utan att gå ner till vardagsrummet."
+      ]
+     ]
+    },
+    {
+     "h2": "Ett praktiskt sminkbord",
+     "flow": [
+      [
+       "p",
+       "Den runda belysta spegeln hjälper när ni gör er i ordning inför middagen. Lägg telefonen på den trådlösa laddaren så laddas den medan ni gör er klara. Strykjärn finns."
+      ],
+      [
+       "h3",
+       "Eget badrum"
+      ],
+      [
+       "p",
+       "I det egna badrummet väntar varmvatten, schampo, duschtvål, tandkräm och handdukar."
+      ]
+     ]
+    },
+    {
+     "h2": "En natt i huvudsovrummet",
+     "flow": [
+      [
+       "p",
+       "Efter middagen på taket kan ni dra er tillbaka före de andra: en varm dusch i ert eget badrum, en film på tv:n på 55 tum och sängen på 180×200 cm. Vid fönstret står växter och en golvfläkt. På morgonen kaffe på balkongen och förberedelser vid sminkbordet medan telefonen laddas trådlöst. Den skrynkliga skjortan från resväskan blir slät med strykjärnet före middagen."
+      ]
+     ]
+    },
+    {
+     "h2": "För vem passar rummet",
+     "flow": [
+      [
+       "p",
+       "Föräldrar med barnen i sovrum 2 och 3 får här ett eget utrymme med balkong. Ett par på resa med vänner får en plats där de kan vila från gruppen."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Hur stor är sängen?",
+       "180×200 cm."
+      ],
+      [
+       "Finns det balkong?",
+       "Ja, en egen."
+      ],
+      [
+       "Finns det tv?",
+       "Ja, 4K, 55 tum."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Boka huvudsovrummet: WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-2": {
+   "title": "Sovrum 2 med säng 160×200 och smart-tv | ASCON LIVING",
+   "description": "Sovrum 2 i huset i Ho Chi Minh: säng 160×200 cm, smart-tv, mörkgrå gardiner, golvfläkt och eget badrum med varmvatten och handdukar.",
+   "h1": "Sovrum 2: mysigt, med eget badrum",
+   "lead": "Två vänner, ett par eller äldre syskon: sovrum 2 har dubbelsäng, tv och eget badrum, och det gör morgnarna i en grupp mycket enklare.",
+   "cover": [
+    "bed2",
+    "Sovrum 2 med säng 160×200 cm, krämfärgad sänggavel och tavla med grönt landskap"
+   ],
+   "sections": [
+    {
+     "h2": "Varför alla gillar det",
+     "flow": [
+      [
+       "p",
+       "Eget badrum till varje rum betyder ingen kö till duschen innan ni går ut. Den krämfärgade sänggaveln och tavlan med ett grönt landskap gör rummet lugnt."
+      ]
+     ],
+     "imgs": [
+      [
+       "bed2-2",
+       "Sovrum 2 med mörkgrå gardiner, smart-tv och golvfläkt"
+      ],
+      [
+       "bed2-3",
+       "Dörrpanel med färgglada löv, smart-tv på väggen och växt i sovrum 2"
+      ]
+     ]
+    },
+    {
+     "h2": "I korthet",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Säng",
+          "160×200 cm"
+         ],
+         [
+          "Tv",
+          "Smart-tv på väggen"
+         ],
+         [
+          "Fönster",
+          "Mörkgrå gardiner"
+         ],
+         [
+          "Luft",
+          "Golvfläkt"
+         ],
+         [
+          "Badrum",
+          "Eget, varmvatten"
+         ],
+         [
+          "Finns på plats",
+          "Handdukar, schampo, duschtvål, tandkräm"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Riktig vila",
+     "flow": [
+      [
+       "p",
+       "Efter en dag på marknader och gator i District 1 är sängen på 160×200 cm en lättnad. Med de mörkgrå gardinerna fördragna blir det halvmörkt i rummet."
+      ]
+     ]
+    },
+    {
+     "h2": "Er egen skärm",
+     "flow": [
+      [
+       "p",
+       "På smart-tv:n på väggen ser ni en serie innan ni somnar eller nyheterna på morgonen. Var och en väljer själv."
+      ]
+     ]
+    },
+    {
+     "h2": "Detaljerna",
+     "flow": [
+      [
+       "p",
+       "Den dekorativa panelen med färgglada löv vid dörren, växten och golvfläkten ger rummet karaktär."
+      ],
+      [
+       "h3",
+       "Nära skrivbordet"
+      ],
+      [
+       "p",
+       "Sovrum 2 ligger mot korridoren, där ett skrivbord med nätstol står. Smidigt för att svara på mejl utan att väcka någon."
+      ]
+     ]
+    },
+    {
+     "h2": "En dag i sovrum 2",
+     "flow": [
+      [
+       "p",
+       "På morgonen en varm dusch utan att vänta på sin tur, eftersom badrummet är ert eget. Schampo, duschtvål, tandkräm och handdukar finns redan där. Efter en dag ute kommer ni hem: gardinerna fördragna, fläkten på, ett avsnitt på smart-tv:n. Den som behöver jobba en stund går till skrivbordet i korridoren, några steg från dörren, och mesh-wifi upp till 1 Gbit/s fungerar bra där. Saknas något, hör av er via WhatsApp eller Zalo."
+      ]
+     ]
+    },
+    {
+     "h2": "Fördela rummen",
+     "flow": [
+      [
+       "p",
+       "Ofta tar föräldrarna huvudsovrummet med balkong. Sovrum 2 och 3 ligger bredvid varandra i korridoren, perfekt för äldre barn eller vänner."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Hur stor är sängen?",
+       "160×200 cm."
+      ],
+      [
+       "Finns eget badrum?",
+       "Ja, med varmvatten."
+      ],
+      [
+       "Finns det tv?",
+       "Ja, en smart-tv."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Fråga oss om rumsfördelningen: WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-3": {
+   "title": "Sovrum 3: mörkt och tyst, säng 160×200 | ASCON LIVING",
+   "description": "Fönsterlöst sovrum 3: mörkt för tuppluren, säng 160×200 cm, smart-tv, garderob med glasdörrar och extra handdukar och lakan, eget badrum.",
+   "h1": "Sovrum 3: husets mörkaste rum",
+   "lead": "Vi säger det direkt: sovrum 3 har inget fönster. Den som behöver mörker för att sova får det här: det är husets mörkaste rum.",
+   "cover": [
+    "bed3",
+    "Fönsterlöst sovrum 3 med säng 160×200 cm, krämfärgad sänggavel och ribbpaneler"
+   ],
+   "sections": [
+    {
+     "h2": "För vem",
+     "flow": [
+      [
+       "p",
+       "För den som efter en lång flygresa måste sova på dagen, för barnens eftermiddagslur eller för den som vaknar av första solstrålen. Gillar ni dagsljus passar huvudsovrummet eller sovrum 2 bättre."
+      ]
+     ],
+     "imgs": [
+      [
+       "bed3-2",
+       "Sovrum 3 med smart-tv på väggen, golvfläkt och garderob med glasdörrar"
+      ],
+      [
+       "bed3-3",
+       "Öppen garderob i sovrum 3 med extra handdukar, lakan och kuddar"
+      ]
+     ]
+    },
+    {
+     "h2": "I korthet",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Fönster",
+          "Inget"
+         ],
+         [
+          "Säng",
+          "160×200 cm"
+         ],
+         [
+          "Tv",
+          "Smart-tv på väggen"
+         ],
+         [
+          "Garderob",
+          "Glasdörrar, extra handdukar, lakan och kuddar"
+         ],
+         [
+          "Luft",
+          "Golvfläkt"
+         ],
+         [
+          "Badrum",
+          "Eget, varmvatten"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Riktigt mörkt",
+     "flow": [
+      [
+       "p",
+       "Utan fönster är rummet mörkt även mitt på dagen. Den krämfärgade sänggaveln och ribbpanelerna gör det ombonat."
+      ]
+     ]
+    },
+    {
+     "h2": "Allt inom räckhåll",
+     "flow": [
+      [
+       "p",
+       "I garderoben med glasdörrar finns extra handdukar, lakan och kuddar. Behöver ni en kudde till? Ni behöver inte ringa någon."
+      ]
+     ]
+    },
+    {
+     "h2": "Komfort",
+     "flow": [
+      [
+       "p",
+       "Sängen på 160×200 cm, smart-tv:n på väggen och golvfläkten gör rummet komplett."
+      ],
+      [
+       "h3",
+       "Eget badrum"
+      ],
+      [
+       "p",
+       "Varmvatten, schampo, duschtvål, tandkräm och handdukar i det egna badrummet."
+      ]
+     ]
+    },
+    {
+     "h2": "Jetlag utan krångel",
+     "flow": [
+      [
+       "p",
+       "Efter en lång flygresa från Sverige saknas det ofta sömn. I sovrum 3 sover ni på eftermiddagen i samma mörker som på natten, eftersom inget ljus kommer in. Fläkten surrar tyst och tack vare det egna badrummet kan ni duscha varmt när ni vill, utan att störa någon. När ni vaknar finns extra kuddar och handdukar i glasgarderoben och smart-tv:n för ett kort avsnitt innan middagen på taket."
+      ]
+     ]
+    },
+    {
+     "h2": "Bra för barn",
+     "flow": [
+      [
+       "p",
+       "För små barn som sover på eftermiddagen är rummet perfekt: mörkt och tyst. Föräldrarna kan bo i huvudsovrummet eller sovrum 2."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Har sovrum 3 fönster?",
+       "Nej. Det är husets mörkaste rum."
+      ],
+      [
+       "Finns extra sängkläder?",
+       "Ja, i glasgarderoben."
+      ],
+      [
+       "Finns eget badrum?",
+       "Ja."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Fråga oss om rumsfördelningen: WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bathrooms": {
+   "title": "3 egna badrum och en gästtoalett | ASCON LIVING",
+   "description": "3 egna badrum och en gästtoalett: varmvatten, mattsvart dusch, schampo, duschtvål, tandkräm, handdukar och hårtork på väggen.",
+   "h1": "Eget badrum till varje sovrum",
+   "lead": "I en stor grupp är badrummet på morgonen alltid ett problem. Inte på ASCON LIVING: varje sovrum har eget badrum, och dessutom finns en gästtoalett.",
+   "cover": [
+    "bath",
+    "Mattsvart dusch, handdusch och dispensrar mot krämfärgat kakel i marmorlook"
+   ],
+   "sections": [
+    {
+     "h2": "Varför det spelar roll",
+     "flow": [
+      [
+       "p",
+       "Tre sovrum, tre egna badrum: på morgonen gör sig alla i ordning i sin egen takt. Den som kommer från vardagsrummet eller taket använder gästtoaletten med samma utrustning."
+      ]
+     ],
+     "imgs": [
+      [
+       "bath-4",
+       "Svart takdusch, två dispensrar och hylla i det egna badrummet"
+      ],
+      [
+       "bath-2",
+       "Rund spegel med svart ram över en glashylla, vit handduk på stången"
+      ],
+      [
+       "bath-3",
+       "Vita handdukar på väggstången i det egna badrummet"
+      ],
+      [
+       "bath-5",
+       "Hårtork på väggen ovanför det vita handfatet"
+      ],
+      [
+       "bath-6",
+       "Glashylla med svart mugg och inslagna tandborstar"
+      ]
+     ]
+    },
+    {
+     "h2": "Det här finns",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Badrum",
+          "3 egna + 1 gästtoalett"
+         ],
+         [
+          "Vatten",
+          "Varmt"
+         ],
+         [
+          "Dusch",
+          "Mattsvart takdusch, handdusch"
+         ],
+         [
+          "Hygien",
+          "Schampo, duschtvål, tandkräm"
+         ],
+         [
+          "Handdukar",
+          "Vita, på handduksstången"
+         ],
+         [
+          "Övrigt",
+          "Hårtork på väggen, tofflor"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Varm dusch efter värmen",
+     "flow": [
+      [
+       "p",
+       "Efter en kvav dag i Saigon finns inget bättre än en varm dusch. Den mattsvarta takduschen med handdusch sitter mot krämfärgat kakel i marmorlook."
+      ]
+     ]
+    },
+    {
+     "h2": "Lättare packning",
+     "flow": [
+      [
+       "p",
+       "I dispensrarna på väggen finns schampo och duschtvål. På glashyllan ligger tandkräm och inslagna tandborstar."
+      ]
+     ]
+    },
+    {
+     "h2": "Göra sig i ordning",
+     "flow": [
+      [
+       "p",
+       "En rund spegel med svart ram över glashyllan och en hårtork på väggen ovanför det vita handfatet. Allt klart inför middagen."
+      ],
+      [
+       "h3",
+       "Handdukar"
+      ],
+      [
+       "p",
+       "Vita handdukar hänger på stången. I garderoben i sovrum 3 finns extra."
+      ]
+     ]
+    },
+    {
+     "h2": "En morgon med gruppen",
+     "flow": [
+      [
+       "p",
+       "Alla vill tidigt till marknaden. På ett hotell med ett enda badrum hade det blivit kö. Här går var och en till sitt eget badrum: de som sover i huvudsovrummet, i sovrum 2 och i sovrum 3 duschar samtidigt. Den som redan sitter i vardagsrummet använder gästtoaletten. Ingen behöver packa schampo och handdukarna hänger redan på plats."
+      ]
+     ]
+    },
+    {
+     "h2": "Övriga detaljer",
+     "flow": [
+      [
+       "p",
+       "Tofflor står redo vid entrén. I huset finns också strykjärn och kassaskåp. Saknas något, hör av er via WhatsApp eller Zalo."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Hur många badrum finns det?",
+       "Tre egna badrum och en gästtoalett."
+      ],
+      [
+       "Finns det varmvatten?",
+       "Ja."
+      ],
+      [
+       "Finns det hårtork?",
+       "Ja, en hårtork på väggen."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Frågor om badrummen? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-hallway": {
+   "title": "Korridor med arbetsplats och snabbt wifi | ASCON LIVING",
+   "description": "Korridor med skrivbord, nätstol och lampa, mesh-wifi upp till 1 Gbit/s, granittrappa och kodlås vid entrén. För er som jobbar på resan.",
+   "h1": "Korridor och arbetsplats: för den som jobbar på resan",
+   "lead": "Ibland följer några möten med på semestern. I korridoren på ASCON LIVING står ett lugnt skrivbord, en bit från vardagsrummet, där ni snabbt får jobbet gjort.",
+   "cover": [
+    "hall",
+    "Korridor med två svarta dörrar till sovrum 2 och 3"
+   ],
+   "sections": [
+    {
+     "h2": "I korthet",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Arbete",
+          "Skrivbord, nätstol, lampa"
+         ],
+         [
+          "Wifi",
+          "Mesh upp till 1 Gbit/s"
+         ],
+         [
+          "Dörrar",
+          "Två svarta dörrar till sovrum 2 och 3"
+         ],
+         [
+          "Trappa",
+          "Mörk granit, svart metallräcke"
+         ],
+         [
+          "Entré",
+          "Kodlås, nyckel till grinden"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "stairs",
+       "Trappa i mörk granit med svart metallräcke sedd uppifrån"
+      ],
+      [
+       "entrance",
+       "Entré med svarta ribbor och trappa"
+      ],
+      [
+       "hall-desk",
+       "Skrivbord och svart nätstol vid ett fönster med grå gardiner, tavlor med tranor och växter"
+      ],
+      [
+       "workspace-2",
+       "Tre tavlor med vita tranor på grå bakgrund ovanför växterna"
+      ],
+      [
+       "hall-landing",
+       "Två svarta dörrar och arbetshörna på grått golv i marmorlook"
+      ],
+      [
+       "hall-vanity",
+       "Grått sminkbord med rund spegel och vit stol"
+      ],
+      [
+       "hall-shoes",
+       "Svart skoställ med tofflor vid entrén"
+      ]
+     ]
+    },
+    {
+     "h2": "Skrivbordet",
+     "flow": [
+      [
+       "p",
+       "Ett skrivbord med svart nätstol och lampa, vid fönstret med grå gardiner. På väggen tavlor med vita tranor, under dem växter. En tyst vrå, borta från ljuden i vardagsrummet."
+      ]
+     ]
+    },
+    {
+     "h2": "Wifi för videosamtal",
+     "flow": [
+      [
+       "p",
+       "Mesh-wifi upp till 1 Gbit/s täcker alla våningar. Videosamtal och stora filer utan bekymmer."
+      ]
+     ]
+    },
+    {
+     "h2": "Sovrum 2 och 3 runt hörnet",
+     "flow": [
+      [
+       "p",
+       "De två svarta dörrarna leder till sovrum 2 och 3. Lätt att ta en paus eller ropa på familjen."
+      ],
+      [
+       "h3",
+       "Sminkbordet"
+      ],
+      [
+       "p",
+       "I hallen står ett grått sminkbord med rund spegel och vit stol, för en sista koll innan ni går ut."
+      ]
+     ]
+    },
+    {
+     "h2": "Entré och trappa",
+     "flow": [
+      [
+       "p",
+       "Dörren öppnas med en kod, grinden med en nyckel. Vid entrén står ett svart skoställ med tofflor. Trappan i mörk granit med svart metallräcke förbinder alla våningar."
+      ]
+     ]
+    },
+    {
+     "h2": "En arbetsdag",
+     "flow": [
+      [
+       "p",
+       "Medan familjen går till marknaden sätter ni er vid skrivbordet med ett vietnamesiskt kaffe. Lampan lyser upp tangentbordet och tranorna på väggen ger lite lugn mellan två samtal. Sent på eftermiddagen fäller ni ihop datorn och går upp på takterrassen för solnedgången."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Finns det ett skrivbord?",
+       "Ja, med nätstol och lampa."
+      ],
+      [
+       "Hur snabbt är wifi?",
+       "Upp till 1 Gbit/s, mesh."
+      ],
+      [
+       "Hur kommer jag in?",
+       "Kodlås och nyckel till grinden."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Jobbar ni på resan? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-outside": {
+   "title": "Hus vid floden i Saigon, District 7 | ASCON LIVING",
+   "description": "Hus vid floden i Ho Chi Minh: terrass med vitt räcke och skärmtak, med vattnet och District 1:s skyline framför er.",
+   "h1": "Att bo vid floden i Saigon",
+   "lead": "ASCON LIVING ligger vid floden i Tân Hưng, District 7.",
+   "cover": [
+    "hero",
+    "Hus med utsikt över floden i Ho Chi Minh, takterrass med vitt räcke och skylinen i District 1"
+   ],
+   "sections": [
+    {
+     "h2": "I korthet",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Adress",
+          "389A Đường Trần Xuân Soạn, Tân Hưng, District 7"
+         ],
+         [
+          "Skugga",
+          "Grå rullgardin"
+         ],
+         [
+          "Takterrass",
+          "Ca 56–60 m², grill med rökugn"
+         ],
+         [
+          "Kameror",
+          "Utomhuskameror vid entrén"
+         ],
+         [
+          "Entré",
+          "Kodlås, nyckel till grinden"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-city",
+       "Utsikt mot skylinen i District 1 från huset"
+      ]
+     ]
+    },
+    {
+     "h2": "Floden genom dagen",
+     "flow": [
+      [
+       "p",
+       "På eftermiddagen kommer en bris från vattnet. På kvällen tänds stadens ljus på andra sidan."
+      ]
+     ]
+    },
+    {
+     "h2": "Takterrassen",
+     "flow": [
+      [
+       "p",
+       "Högst upp ligger takterrassen på ca 56–60 m², med en svart tunngrill som också fungerar som rökugn och solcellslampor. Från taket ser ni skyskraporna i District 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Kvarteret",
+     "flow": [
+      [
+       "p",
+       "ASCON LIVING ligger i ett bostadsområde i Tân Hưng, District 7. I appen ASCON Guide hittar ni restauranger, gatumat och aktiviteter i närheten och i hela staden."
+      ]
+     ]
+    },
+    {
+     "h2": "Bilder i skymningen",
+     "flow": [
+      [
+       "p",
+       "Det vackraste ögonblicket är sen eftermiddag, när himlen skiftar färg och staden tänder sina ljus."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Ligger huset vid floden?",
+       "Ja, i Tân Hưng, District 7."
+      ],
+      [
+       "Var sitter kamerorna?",
+       "Vid entrén finns utomhuskameror."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "En vistelse vid floden i Saigon: WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "rooftop": {
+   "title": "Takterrass med grill och rökugn i Saigon | ASCON LIVING",
+   "description": "Takterrass på ca 56–60 m² i District 7, Ho Chi Minh: svart tunngrill som också är rökugn, rottingsoffa, mörkt bord och solcellslampor.",
+   "h1": "Takterrassen: grill, rökugn och staden om natten",
+   "lead": "På taket finns plats för gemensamma middagar, långa samtal och stadens ljus. En yta som bara är er under vistelsen.",
+   "sections": [
+    {
+     "h2": "En kväll på taket",
+     "flow": [
+      [
+       "p",
+       "Sent på eftermiddagen bärs marinerat kött och skaldjur upp från köket. Den svarta tunngrillen blir varm, någon dukar det mörka bordet och barnen slår sig ner i rottingsoffan. När det mörknar tänds solcellslamporna och ljusslingorna, och stadens skyline träder fram."
+      ]
+     ],
+     "imgs": [
+      [
+       "roof-terrace",
+       "Hus med utsikt över floden: takterrass mot skylinen i District 1"
+      ],
+      [
+       "river-balcony",
+       "Utsikt från balkongräcket omgivet av växter"
+      ],
+      [
+       "river-city",
+       "Utsikt mot skylinen i District 1 från huset"
+      ],
+      [
+       "roof-day",
+       "Takterrass på dagen med mörk rottingsoffa, krämfärgade dynor och långa planteringslådor"
+      ],
+      [
+       "roof-lounge",
+       "Mörkt bord och rottingstolar med krämfärgade dynor på takterrassen"
+      ],
+      [
+       "roof-night",
+       "Loungehörna på takterrassen på kvällen under ljusslingor och solcellslampor"
+      ],
+      [
+       "roof-evening",
+       "Rottingsoffa med krämfärgade dynor på takterrassen i skymningen"
+      ],
+      [
+       "roof-evening-2",
+       "Matplats på takterrassen under den upplysta markisen"
+      ],
+      [
+       "roof-bbq",
+       "Svart tunngrill vid takterrassens vita räcke"
+      ],
+      [
+       "roof-skyline",
+       "Stadens skyline om natten från takterrassen"
+      ]
+     ]
+    },
+    {
+     "h2": "I korthet",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Yta",
+          "Ca 56–60 m²"
+         ],
+         [
+          "Grill",
+          "Svart tunna, fungerar också som rökugn"
+         ],
+         [
+          "Lounge",
+          "Mörk rottingsoffa, krämfärgade dynor"
+         ],
+         [
+          "Bord",
+          "Mörkt bord och rottingstolar"
+         ],
+         [
+          "Skugga",
+          "Delvis markis"
+         ],
+         [
+          "Ljus",
+          "Solcellslampor, ljusslingor"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Grilla och röka",
+     "flow": [
+      [
+       "p",
+       "Den svarta tunngrillen fungerar också som rökugn. Snabb grillning eller långsam rökning: revben, kyckling eller fisk från marknaden med citrongräs."
+      ],
+      [
+       "h3",
+       "Säkerhet"
+      ],
+      [
+       "p",
+       "Lämna aldrig elden utan tillsyn, håll barnen på avstånd och släck allt helt när ni är klara."
+      ]
+     ]
+    },
+    {
+     "h2": "Sittplatser",
+     "flow": [
+      [
+       "p",
+       "Den mörka rottingsoffan med krämfärgade dynor är perfekt efter maten. Vid det mörka bordet med rottingstolar äter gruppen tillsammans."
+      ]
+     ]
+    },
+    {
+     "h2": "Dag och kväll",
+     "flow": [
+      [
+       "p",
+       "På dagen ger de långa planteringslådorna lite grönska. Den delvisa markisen täcker en del av terrassen. På kvällen skapar solcellslamporna och ljusslingorna en varm stämning."
+      ]
+     ]
+    },
+    {
+     "h2": "Skylinen",
+     "flow": [
+      [
+       "p",
+       "Från takterrassen ser ni skyskraporna i District 1. På natten blir stadens ljus fonden till middagen."
+      ]
+     ]
+    },
+    {
+     "h2": "Födelsedag eller företagsresa",
+     "flow": [
+      [
+       "p",
+       "En födelsedag med en tårta köpt i stan, sista kvällen på en företagsresa eller avskedsmiddagen på en släktträff: takterrassen är scenen. Och när samtalen tystnar väntar underhållningsrummet med karaoke i huset."
+      ]
+     ]
+    },
+    {
+     "h2": "Tänk på grannarna",
+     "flow": [
+      [
+       "p",
+       "Huset ligger i ett bostadsområde. Prata lite lägre sent på kvällen."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Finns det grill?",
+       "Ja, en svart tunngrill som också fungerar som rökugn."
+      ],
+      [
+       "Hur stor är takterrassen?",
+       "Ca 56–60 m²."
+      ],
+      [
+       "Finns det skugga?",
+       "Ja, en delvis markis."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "En grillkväll på taket? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "house": {
+   "title": "Hela huset i Ho Chi Minh, rum för rum | ASCON",
+   "description": "Tre våningar och takterrass: 3 sovrum med eget badrum, vardagsrum på ca 40 m², fullt utrustat kök och karaokerum med 4K-projektor.",
+   "h1": "Huset: ert boende i Ho Chi Minh, rum för rum",
+   "lead": "Tre våningar, takterrass och över 250 m² bara för ert sällskap. Här finns bilder och utrustning för varje rum.",
+   "sections": [
+    {
+     "h2": "Rummen i detalj",
+     "cards": [
+      [
+       "Karaoke & underhållning",
+       "room-entertainment",
+       "Privat karaokerum i ett hus i Ho Chi Minh: mikrofoner, PlayStation med PlayStation Plus och 2 handkontroller, 4K-projektor med duk på stativ och 4K-tv."
+      ],
+      [
+       "Vardagsrum",
+       "room-living",
+       "Vardagsrum på ca 40 m² i ett helt hus i Ho Chi Minh: hörnsoffa, 4K-tv på 75 tum, glasdörrar, växter och mesh-wifi upp till 1 Gbit/s."
+      ],
+      [
+       "Kök & matplats",
+       "room-kitchen",
+       "Fullt utrustat kök i District 7: spishäll med svart glas, ugn, mikrovågsugn, riskokare, airfryer, kylskåp på ca 540 liter och tvättmaskin."
+      ],
+      [
+       "Huvudsovrum",
+       "room-master",
+       "Huvudsovrum på ca 55 m²: säng 180×200 cm, 4K-tv på 55 tum, balkong, sminkbord med trådlös laddning, strykjärn och eget badrum."
+      ],
+      [
+       "Sovrum 2",
+       "room-bedroom-2",
+       "Sovrum 2 i huset i Ho Chi Minh: säng 160×200 cm, smart-tv, mörkgrå gardiner, golvfläkt och eget badrum med varmvatten och handdukar."
+      ],
+      [
+       "Sovrum 3",
+       "room-bedroom-3",
+       "Fönsterlöst sovrum 3: mörkt för tuppluren, säng 160×200 cm, smart-tv, garderob med glasdörrar och extra handdukar och lakan, eget badrum."
+      ],
+      [
+       "Badrum",
+       "room-bathrooms",
+       "3 egna badrum och en gästtoalett: varmvatten, mattsvart dusch, schampo, duschtvål, tandkräm, handdukar och hårtork på väggen."
+      ],
+      [
+       "Hall & arbetsplats",
+       "room-hallway",
+       "Korridor med skrivbord, nätstol och lampa, mesh-wifi upp till 1 Gbit/s, granittrappa och kodlås vid entrén. För er som jobbar på resan."
+      ],
+      [
+       "Utomhus & floden",
+       "room-outside",
+       "Hus vid floden i Ho Chi Minh: terrass med vitt räcke och skärmtak, med vattnet och District 1:s skyline framför er."
+      ],
+      [
+       "Takterrass",
+       "rooftop",
+       "Takterrass på ca 56–60 m² i District 7, Ho Chi Minh: svart tunngrill som också är rökugn, rottingsoffa, mörkt bord och solcellslampor."
+      ]
+     ]
+    },
+    {
+     "h2": "Utrustningen",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Mikrofoner"
+         ],
+         [
+          "Konsol",
+          "PlayStation med PlayStation Plus"
+         ],
+         [
+          "Handkontroller",
+          "2"
+         ],
+         [
+          "Projektor",
+          "4K i taket, duk på stativ"
+         ],
+         [
+          "Tv",
+          "4K"
+         ],
+         [
+          "Streaming",
+          "Netflix, beroende på aktivt konto"
+         ],
+         [
+          "Sittplatser",
+          "Grå soffa och fyrkantiga sittpuffar"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent",
+       "Underhållningsrum med grå soffa, fyrkantiga sittpuffar och inramade animeaffischer, hus med karaoke i Ho Chi Minh"
+      ],
+      [
+       "ent-karaoke",
+       "Karaokerum med grönt LED-ljus, soffa, sidobord och tv på väggen"
+      ],
+      [
+       "ent-cinema",
+       "4K-projektorns duk på stativ i det mörka rummet"
+      ],
+      [
+       "ent-tv",
+       "Stor tv på väggen, färgade LED-slingor och grå soffa"
+      ],
+      [
+       "ent-mics",
+       "Karaokemikrofoner och fjärrkontroller på ett sidobord i stenlook"
+      ],
+      [
+       "ent-ps",
+       "PlayStation på väggen med två handkontroller"
+      ]
+     ]
+    },
+    {
+     "h2": "Så kan en kväll se ut",
+     "flow": [
+      [
+       "p",
+       "Bäst är att först äta middag på takterrassen och sedan gå ner till underhållningsrummet. Fjärrkontroller och mikrofoner ligger på sidobordet i stenlook, handkontrollerna bredvid konsolen på väggen. När det gröna LED-ljuset tänds är rummet redo för första låten."
+      ]
+     ]
+    },
+    {
+     "h2": "Sjung utan att titta på klockan",
+     "flow": [
+      [
+       "p",
+       "Välj en låt, texten visas på 4K-projektorns duk och mikrofonen går laget runt. Ingen timtaxa, inget annat sällskap på andra sidan väggen."
+      ]
+     ]
+    },
+    {
+     "h2": "PlayStation-dueller",
+     "flow": [
+      [
+       "p",
+       "PlayStationen på väggen, med PlayStation Plus och två handkontroller, väntar på dueller mellan syskon eller kollegor."
+      ]
+     ]
+    },
+    {
+     "h2": "Hemmabio",
+     "flow": [
+      [
+       "p",
+       "Släck lampan, ställ upp duken på stativet och starta en film på 4K-projektorn. Netflix fungerar beroende på aktivt konto. För enklare tittande finns 4K-tv:n."
+      ]
+     ]
+    },
+    {
+     "h2": "En annan stämning",
+     "flow": [
+      [
+       "p",
+       "Mjuk grå soffa, sittpuffar, inramade animeaffischer och färgade LED-slingor: rummet känns annorlunda än resten av huset."
+      ],
+      [
+       "h3",
+       "Regniga dagar"
+      ],
+      [
+       "p",
+       "När det tropiska regnet öser ner blir det här det livligaste rummet, för både barn och vuxna."
+      ]
+     ]
+    },
+    {
+     "h2": "Tänk på grannarna",
+     "flow": [
+      [
+       "p",
+       "Huset ligger i ett bostadsområde: sänk volymen sent på kvällen."
+      ]
+     ]
+    },
+    {
+     "h2": "Gratis reseguideapp",
+     "p": [
+      "Planera dagarna med ASCON:s kostnadsfria guideapp: lokala tips, ställen att äta på och besöka och en karta, direkt i mobilens webbläsare."
+     ],
+     "cards": [
+      [
+       "Gratis guideapp",
+       "travel-guide",
+       "Tips och karta över Ho Chi Minh, gratis i webbläsaren."
+      ]
+     ],
+     "_tg": 1
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Finns det karaoke?",
+       "Ja, med karaokemikrofoner."
+      ],
+      [
+       "Finns det PlayStation?",
+       "Ja, med PlayStation Plus och två handkontroller."
+      ],
+      [
+       "Kan vi titta på Netflix?",
+       "Ja, beroende på aktivt konto."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Boka ett hus med egen karaoke: WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "home": {
+   "title": "Boende i Ho Chi Minh: hela huset vid floden | ASCON LIVING",
+   "description": "Hela huset vid floden i District 7, Ho Chi Minh: 3 sovrum med eget badrum, privat karaoke, takterrass med grill och wifi upp till 1 Gbit/s.",
+   "h1": "ASCON LIVING: ert eget hus vid floden i Saigon",
+   "lead": "Ska ni resa till Ho Chi Minh med familjen eller vänner? I stället för tre separata hotellrum får ni ett helt hus på över 250 m² i Tân Hưng, District 7, alldeles vid vattnet.",
+   "hero": [
+    "hero",
+    "Hus vid floden ASCON LIVING i District 7, Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "Huset i korthet",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Rum",
+         "Vad som finns"
+        ],
+        "rows": [
+         [
+          "Vardagsrum",
+          "Ca 40 m², hörnsoffa, 4K-tv på 75 tum"
+         ],
+         [
+          "Kök",
+          "Spishäll med svart glasyta, ugn, kylskåp på ca 540 liter"
+         ],
+         [
+          "Huvudsovrum",
+          "Ca 55 m², säng 180×200 cm, balkong"
+         ],
+         [
+          "Sovrum 2 och 3",
+          "Sängar 160×200 cm, smart-tv"
+         ],
+         [
+          "Badrum",
+          "3 egna badrum och en gästtoalett"
+         ],
+         [
+          "Underhållningsrum",
+          "Karaokemikrofoner, PlayStation, 4K-projektor"
+         ],
+         [
+          "Takterrass",
+          "Ca 56–60 m², grill som också fungerar som rökugn"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "living",
+       "Vardagsrum med hörnsoffa i ett helt hus i Saigon"
+      ],
+      [
+       "bed1",
+       "Huvudsovrum med säng 180×200 cm och krämfärgad sänggavel"
+      ],
+      [
+       "roof-night",
+       "Takterrass på kvällen med solcellslampor och rottingsoffa"
+      ]
+     ],
+     "cards": [
+      [
+       "Karaoke & underhållning",
+       "room-entertainment",
+       "Privat karaokerum i ett hus i Ho Chi Minh: mikrofoner, PlayStation med PlayStation Plus och 2 handkontroller, 4K-projektor med duk på stativ och 4K-tv."
+      ],
+      [
+       "Vardagsrum",
+       "room-living",
+       "Vardagsrum på ca 40 m² i ett helt hus i Ho Chi Minh: hörnsoffa, 4K-tv på 75 tum, glasdörrar, växter och mesh-wifi upp till 1 Gbit/s."
+      ],
+      [
+       "Kök & matplats",
+       "room-kitchen",
+       "Fullt utrustat kök: spishäll med svart glas, ugn, mikrovågsugn, riskokare, airfryer, kylskåp på ca 540 liter och tvättmaskin."
+      ],
+      [
+       "Huvudsovrum",
+       "room-master",
+       "Huvudsovrum på ca 55 m²: säng 180×200 cm, 4K-tv på 55 tum, balkong, sminkbord med trådlös laddning, strykjärn och eget badrum."
+      ],
+      [
+       "Sovrum 2",
+       "room-bedroom-2",
+       "Sovrum 2 i huset i Ho Chi Minh: säng 160×200 cm, smart-tv, mörkgrå gardiner, golvfläkt och eget badrum med varmvatten och handdukar."
+      ],
+      [
+       "Sovrum 3",
+       "room-bedroom-3",
+       "Fönsterlöst sovrum 3: mörkt för tuppluren, säng 160×200 cm, smart-tv, garderob med glasdörrar och extra handdukar och lakan, eget badrum."
+      ],
+      [
+       "Badrum",
+       "room-bathrooms",
+       "3 egna badrum och en gästtoalett: varmvatten, mattsvart dusch, schampo, duschtvål, tandkräm, handdukar och hårtork på väggen."
+      ],
+      [
+       "Hall & arbetsplats",
+       "room-hallway",
+       "Korridor med skrivbord, nätstol och lampa, mesh-wifi upp till 1 Gbit/s, granittrappa och kodlås vid entrén. För er som jobbar på resan."
+      ],
+      [
+       "Utomhus & floden",
+       "room-outside",
+       "Hus vid floden i Ho Chi Minh: terrass med vitt räcke och skärmtak, med vattnet och District 1:s skyline framför er."
+      ],
+      [
+       "Takterrass",
+       "rooftop",
+       "Takterrass på ca 56–60 m²: svart tunngrill som också är rökugn, rottingsoffa, mörkt bord och solcellslampor."
+      ]
+     ]
+    },
+    {
+     "h2": "Varför ett helt hus",
+     "flow": [
+      [
+       "p",
+       "På hotell stänger alla sin egen dörr. Här äter ni tillsammans, sjunger karaoke och pratar länge på takterrassen, samtidigt som alla har ett eget sovrum med badrum. Tre våningar plus takterrass, och inga andra gäster."
+      ]
+     ]
+    },
+    {
+     "h2": "För vem",
+     "flow": [
+      [
+       "h3",
+       "Barnfamiljer"
+      ],
+      [
+       "p",
+       "Ett riktigt kök för barnens måltider och ett mörkt sovrum utan fönster, perfekt för tuppluren."
+      ],
+      [
+       "h3",
+       "Vängäng och kollegor"
+      ],
+      [
+       "p",
+       "Privat karaoke, PlayStation-dueller och grill på taket, utan att boka något ute."
+      ],
+      [
+       "h3",
+       "Ni som jobbar på resan"
+      ],
+      [
+       "p",
+       "Mesh-wifi upp till 1 Gbit/s på alla våningar och ett lugnt skrivbord i korridoren."
+      ]
+     ]
+    },
+    {
+     "h2": "Kvällar hemma",
+     "flow": [
+      [
+       "p",
+       "Efter en dag i Saigons myller kommer ni hem, tänder grillen på takterrassen och går efter maten till underhållningsrummet. Där finns karaokemikrofoner, en PlayStation med PlayStation Plus och två handkontroller, en 4K-projektor med duk på stativ och en 4K-tv."
+      ]
+     ]
+    },
+    {
+     "h2": "Det här ingår",
+     "flow": [
+      [
+       "p",
+       "Varmvatten, schampo, duschtvål, tandkräm, handdukar, tofflor, kassaskåp och strykjärn. Gästerna får använda tvättmaskinen. Tvättservice finns på begäran och flygplatstransfer ordnas tillsammans med bokningen."
+      ]
+     ]
+    },
+    {
+     "h2": "Entré",
+     "flow": [
+      [
+       "p",
+       "Ytterdörren har kodlås och till grinden får ni en nyckel. Vid entrén finns utomhuskameror."
+      ]
+     ]
+    },
+    {
+     "h2": "Digital guide",
+     "flow": [
+      [
+       "p",
+       "Den kostnadsfria appen ASCON Guide: restauranger, barer, aktiviteter med barn, karta och praktiska tips om Ho Chi Minh."
+      ]
+     ]
+    },
+    {
+     "h2": "Gratis reseguideapp",
+     "p": [
+      "Planera dagarna med ASCON:s kostnadsfria guideapp: lokala tips, ställen att äta på och besöka och en karta, direkt i mobilens webbläsare."
+     ],
+     "cards": [
+      [
+       "Gratis guideapp",
+       "travel-guide",
+       "Tips och karta över Ho Chi Minh, gratis i webbläsaren."
+      ]
+     ],
+     "_tg": 1
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Delar vi huset med andra gäster?",
+       "Nej, de tre våningarna och takterrassen är bara för er."
+      ],
+      [
+       "Var ligger huset?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh City."
+      ],
+      [
+       "Hur bokar man?",
+       "Via WhatsApp eller Zalo, per mejl, eller via Airbnb och Trip.com."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Skicka era datum: WhatsApp eller Zalo +84 909 410 382, mejl ascon.living@gmail.com."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "families": {
+   "title": "Ho Chi Minh med barn: hus för familjen | ASCON LIVING",
+   "description": "Hela huset för barnfamiljer i Ho Chi Minh: fullt utrustat kök, 3 sovrum med eget badrum, mörkt rum för tuppluren, 4K-projektor och takterrass.",
+   "h1": "Till Ho Chi Minh med barn, som hemma",
+   "lead": "Med barn blir ett hotellrum snabbt för litet. På ASCON LIVING får barnen plats, de vuxna lugn och köket är alltid redo.",
+   "sections": [
+    {
+     "h2": "En dag med familjen",
+     "flow": [
+      [
+       "p",
+       "Frukost vid köksbordet, förmiddag ute i staden, vila hemma under de varmaste timmarna. På eftermiddagen tittar barnen på film med 4K-projektorn medan de vuxna lagar middag. På kvällen äter ni på takterrassen."
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-dining",
+       "Matbord intill köksfönstret"
+      ],
+      [
+       "kitchen",
+       "Utrustat kök med bord i ett familjehus i Saigon"
+      ],
+      [
+       "ent-cinema",
+       "4K-projektorns duk på stativ för barnfilm"
+      ],
+      [
+       "living-tv",
+       "4K-tv på 75 tum i vardagsrummet"
+      ],
+      [
+       "bed3",
+       "Fönsterlöst sovrum 3 med säng 160×200 cm, perfekt för tupplur"
+      ]
+     ]
+    },
+    {
+     "h2": "Laga mat åt de små",
+     "flow": [
+      [
+       "p",
+       "Gatumaten i Saigon är fantastisk, men barn vill ibland ha något enkelt. Här finns spishäll med svart glasyta, ugn, mikrovågsugn, riskokare, vattenkokare, airfryer och brödrost. Kylskåpet på ca 540 liter rymmer hela familjens inköp."
+      ],
+      [
+       "h3",
+       "Matbordet"
+      ],
+      [
+       "p",
+       "Vid bordet intill köksfönstret äter alla tillsammans."
+      ]
+     ]
+    },
+    {
+     "h2": "Sovrummen",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Rum",
+         "Säng",
+         "Passar för"
+        ],
+        "rows": [
+         [
+          "Huvudsovrum (ca 55 m²)",
+          "180×200 cm",
+          "Föräldrar, med balkong"
+         ],
+         [
+          "Sovrum 2",
+          "160×200 cm",
+          "Äldre barn"
+         ],
+         [
+          "Sovrum 3 (utan fönster)",
+          "160×200 cm",
+          "De minstas tupplur"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Ett mörkt rum för tuppluren",
+     "flow": [
+      [
+       "p",
+       "Sovrum 3 har inget fönster och är därför mörkt även mitt på dagen. Perfekt för eftermiddagsluren och mot jetlag. I garderoben med glasdörrar finns extra handdukar, lakan och kuddar."
+      ]
+     ]
+    },
+    {
+     "h2": "Eget badrum till varje sovrum",
+     "flow": [
+      [
+       "p",
+       "Varje sovrum har eget badrum, och dessutom finns en gästtoalett: ingen kö på morgonen. Varmvatten, schampo, duschtvål, tandkräm och handdukar ligger redo."
+      ]
+     ]
+    },
+    {
+     "h2": "Bio för barnen",
+     "flow": [
+      [
+       "p",
+       "I underhållningsrummet finns en 4K-projektor med duk på stativ och en 4K-tv. Netflix fungerar beroende på aktivt konto. Regniga dagar är det ett alternativ inomhus."
+      ]
+     ]
+    },
+    {
+     "h2": "Trygghet för föräldrarna",
+     "flow": [
+      [
+       "p",
+       "Vid entrén finns utomhuskameror. Håll barnen borta från elden när ni grillar på taket."
+      ]
+     ]
+    },
+    {
+     "h2": "Tvätt och ankomst",
+     "flow": [
+      [
+       "p",
+       "Gästerna får använda tvättmaskinen, praktiskt på en lång resa med barn. Tvättservice finns också på begäran. Med flygplatstransfer, som ordnas vid bokningen, blir ankomsten enklare med bagage och trötta barn."
+      ]
+     ]
+    },
+    {
+     "h2": "Rummen i detalj",
+     "cards": [
+      [
+       "Karaoke & underhållning",
+       "room-entertainment",
+       "Privat karaokerum i ett hus i Ho Chi Minh: mikrofoner, PlayStation med PlayStation Plus och 2 handkontroller, 4K-projektor med duk på stativ och 4K-tv."
+      ],
+      [
+       "Vardagsrum",
+       "room-living",
+       "Vardagsrum på ca 40 m² i ett helt hus i Ho Chi Minh: hörnsoffa, 4K-tv på 75 tum, glasdörrar, växter och mesh-wifi upp till 1 Gbit/s."
+      ],
+      [
+       "Kök & matplats",
+       "room-kitchen",
+       "Fullt utrustat kök i District 7: spishäll med svart glas, ugn, mikrovågsugn, riskokare, airfryer, kylskåp på ca 540 liter och tvättmaskin."
+      ],
+      [
+       "Huvudsovrum",
+       "room-master",
+       "Huvudsovrum på ca 55 m²: säng 180×200 cm, 4K-tv på 55 tum, balkong, sminkbord med trådlös laddning, strykjärn och eget badrum."
+      ],
+      [
+       "Sovrum 2",
+       "room-bedroom-2",
+       "Sovrum 2 i huset i Ho Chi Minh: säng 160×200 cm, smart-tv, mörkgrå gardiner, golvfläkt och eget badrum med varmvatten och handdukar."
+      ],
+      [
+       "Sovrum 3",
+       "room-bedroom-3",
+       "Fönsterlöst sovrum 3: mörkt för tuppluren, säng 160×200 cm, smart-tv, garderob med glasdörrar och extra handdukar och lakan, eget badrum."
+      ],
+      [
+       "Badrum",
+       "room-bathrooms",
+       "3 egna badrum och en gästtoalett: varmvatten, mattsvart dusch, schampo, duschtvål, tandkräm, handdukar och hårtork på väggen."
+      ],
+      [
+       "Hall & arbetsplats",
+       "room-hallway",
+       "Korridor med skrivbord, nätstol och lampa, mesh-wifi upp till 1 Gbit/s, granittrappa och kodlås vid entrén. För er som jobbar på resan."
+      ],
+      [
+       "Utomhus & floden",
+       "room-outside",
+       "Hus vid floden i Ho Chi Minh: terrass med vitt räcke och skärmtak, med vattnet och District 1:s skyline framför er."
+      ],
+      [
+       "Takterrass",
+       "rooftop",
+       "Takterrass på ca 56–60 m² i District 7, Ho Chi Minh: svart tunngrill som också är rökugn, rottingsoffa, mörkt bord och solcellslampor."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Vilket rum passar barn?",
+       "Sovrum 3: mörkt och tyst, perfekt för tuppluren."
+      ],
+      [
+       "Kan vi laga mat?",
+       "Ja, köket är fullt utrustat."
+      ],
+      [
+       "Får vi använda tvättmaskinen?",
+       "Ja, gästerna får använda den."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Reser ni med barn? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "groups": {
+   "title": "Hus i Saigon för grupper: karaoke och grill | ASCON LIVING",
+   "description": "Hela huset i Saigon för vänner och kollegor: privat karaoke, PlayStation, 4K-projektor, takterrass med grill och rökugn, 3 egna badrum.",
+   "h1": "Gruppresa till Saigon: ett hus bara för er",
+   "lead": "En födelsedag, en konferensresa eller semester med gamla vänner: sprid inte ut er på ett hotell, hyr ett helt hus och tillbringa kvällarna tillsammans.",
+   "sections": [
+    {
+     "h2": "Varför en grupp trivs bättre här",
+     "flow": [
+      [
+       "p",
+       "På hotell försvinner alla in på sina rum. Här finns ett vardagsrum på ca 40 m², ett underhållningsrum med karaoke och en takterrass med grill. Och den som vill vara ifred har ett eget rum med badrum."
+      ]
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Karaokerum med grönt LED-ljus, soffa och tv på väggen, hus i Saigon"
+      ],
+      [
+       "ent-mics",
+       "Karaokemikrofoner och fjärrkontroller på ett sidobord i stenlook"
+      ],
+      [
+       "ent-ps",
+       "PlayStation på väggen med två handkontroller"
+      ],
+      [
+       "roof-night",
+       "Takterrass på kvällen med solcellslampor och rottingsoffa"
+      ],
+      [
+       "roof-bbq",
+       "Svart tunngrill vid takterrassens vita räcke"
+      ],
+      [
+       "river-city",
+       "Utsikt över floden mot skylinen i District 1 från huset"
+      ]
+     ]
+    },
+    {
+     "h2": "Det här finns för gruppen",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Rum",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Underhållningsrum",
+          "Karaokemikrofoner, PlayStation med PlayStation Plus, 2 handkontroller"
+         ],
+         [
+          "Bio",
+          "4K-projektor i taket, duk på stativ, 4K-tv"
+         ],
+         [
+          "Takterrass",
+          "Ca 56–60 m², grill som också är rökugn"
+         ],
+         [
+          "Vardagsrum",
+          "Hörnsoffa, 4K-tv på 75 tum"
+         ],
+         [
+          "Kök",
+          "Kylskåp på ca 540 liter"
+         ],
+         [
+          "Badrum",
+          "3 egna + gästtoalett"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Privat karaoke",
+     "flow": [
+      [
+       "p",
+       "Inget rum per timme, inga främlingar i rummet bredvid. Mikrofonerna finns i huset, och det finns en 4K-projektor. Sjung så länge ni vill, med hänsyn till grannarna."
+      ]
+     ]
+    },
+    {
+     "h2": "Grill på taket",
+     "flow": [
+      [
+       "p",
+       "Kött och fisk från marknaden marineras i köket och bärs sedan upp. Den svarta tunngrillen fungerar också som rökugn. Rottingsoffa, mörkt bord, solcellslampor och stadens skyline."
+      ],
+      [
+       "h3",
+       "Födelsedagar och företagsresor"
+      ],
+      [
+       "p",
+       "Tårta på takterrassen och sedan karaoke. Eller en teamkväll efter en dag med möten."
+      ]
+     ]
+    },
+    {
+     "h2": "PlayStation-turneringar",
+     "flow": [
+      [
+       "p",
+       "PlayStation med PlayStation Plus och två handkontroller: dueller mellan kollegor eller vänner."
+      ]
+     ]
+    },
+    {
+     "h2": "Ingen kö på morgonen",
+     "flow": [
+      [
+       "p",
+       "Tre egna badrum och en gästtoalett. Varmvatten, schampo, duschtvål och handdukar i varje badrum."
+      ]
+     ]
+    },
+    {
+     "h2": "Enkel ankomst",
+     "flow": [
+      [
+       "p",
+       "Kodlås på dörren och nyckel till grinden, så gruppen kan komma vid olika tider. Flygplatstransfer ordnas med bokningen. Tvättservice finns på begäran."
+      ]
+     ]
+    },
+    {
+     "h2": "Hänsyn till grannarna",
+     "flow": [
+      [
+       "p",
+       "Huset ligger i ett bostadsområde. Sänk volymen på kvällen, särskilt på takterrassen."
+      ]
+     ]
+    },
+    {
+     "h2": "Rummen i detalj",
+     "cards": [
+      [
+       "Karaoke & underhållning",
+       "room-entertainment",
+       "Privat karaokerum i ett hus i Ho Chi Minh: mikrofoner, PlayStation med PlayStation Plus och 2 handkontroller, 4K-projektor med duk på stativ och 4K-tv."
+      ],
+      [
+       "Vardagsrum",
+       "room-living",
+       "Vardagsrum på ca 40 m² i ett helt hus i Ho Chi Minh: hörnsoffa, 4K-tv på 75 tum, glasdörrar, växter och mesh-wifi upp till 1 Gbit/s."
+      ],
+      [
+       "Kök & matplats",
+       "room-kitchen",
+       "Fullt utrustat kök i District 7: spishäll med svart glas, ugn, mikrovågsugn, riskokare, airfryer, kylskåp på ca 540 liter och tvättmaskin."
+      ],
+      [
+       "Huvudsovrum",
+       "room-master",
+       "Huvudsovrum på ca 55 m²: säng 180×200 cm, 4K-tv på 55 tum, balkong, sminkbord med trådlös laddning, strykjärn och eget badrum."
+      ],
+      [
+       "Sovrum 2",
+       "room-bedroom-2",
+       "Sovrum 2 i huset i Ho Chi Minh: säng 160×200 cm, smart-tv, mörkgrå gardiner, golvfläkt och eget badrum med varmvatten och handdukar."
+      ],
+      [
+       "Sovrum 3",
+       "room-bedroom-3",
+       "Fönsterlöst sovrum 3: mörkt för tuppluren, säng 160×200 cm, smart-tv, garderob med glasdörrar och extra handdukar och lakan, eget badrum."
+      ],
+      [
+       "Badrum",
+       "room-bathrooms",
+       "3 egna badrum och en gästtoalett: varmvatten, mattsvart dusch, schampo, duschtvål, tandkräm, handdukar och hårtork på väggen."
+      ],
+      [
+       "Hall & arbetsplats",
+       "room-hallway",
+       "Korridor med skrivbord, nätstol och lampa, mesh-wifi upp till 1 Gbit/s, granittrappa och kodlås vid entrén. För er som jobbar på resan."
+      ],
+      [
+       "Utomhus & floden",
+       "room-outside",
+       "Hus vid floden i Ho Chi Minh: terrass med vitt räcke och skärmtak, med vattnet och District 1:s skyline framför er."
+      ],
+      [
+       "Takterrass",
+       "rooftop",
+       "Takterrass på ca 56–60 m² i District 7, Ho Chi Minh: svart tunngrill som också är rökugn, rottingsoffa, mörkt bord och solcellslampor."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Finns det karaoke?",
+       "Ja, med karaokemikrofoner."
+      ],
+      [
+       "Kan vi grilla?",
+       "Ja, på takterrassen, med grill och rökugn."
+      ],
+      [
+       "Delar vi huset?",
+       "Nej, det är bara för er grupp."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Planerar ni en gruppresa? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "location": {
+   "title": "District 7, Ho Chi Minh: hus vid floden | ASCON LIVING",
+   "description": "ASCON LIVING ligger på 389A Đường Trần Xuân Soạn, Tân Hưng, District 7, Ho Chi Minh: ett hus vid floden i ett bostadsområde med gatumat nära.",
+   "h1": "Här bor ni: Tân Hưng, District 7, vid floden",
+   "lead": "En lugn bostadsgata, grannarnas vardag utanför grinden och på andra sidan vattnet skyskraporna i District 1. Det är adressen till ASCON LIVING.",
+   "sections": [
+    {
+     "h2": "Adress och omgivning",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Detalj"
+        ],
+        "rows": [
+         [
+          "Adress",
+          "389A Đường Trần Xuân Soạn"
+         ],
+         [
+          "Område",
+          "Tân Hưng"
+         ],
+         [
+          "Distrikt",
+          "District 7, Ho Chi Minh City"
+         ],
+         [
+          "Miljö",
+          "Bostadsområde vid floden"
+         ],
+         [
+          "Ankomst",
+          "Flygplatstransfer vid bokning"
+         ],
+         [
+          "Entré",
+          "Kodlås, nyckel till grinden"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-city",
+       "Utsikt över floden mot skylinen i District 1 från huset"
+      ]
+     ]
+    },
+    {
+     "h2": "Ett annat tempo än District 1",
+     "flow": [
+      [
+       "p",
+       "District 1 är fullt av trafik och turistställen. Här lever ni mer som de som bor här: kvarterets marknad och gatuköken finns runt hörnet. Vill ni se centrum ligger skylinen på andra sidan floden."
+      ]
+     ]
+    },
+    {
+     "h2": "Floden utanför dörren",
+     "flow": [
+      [
+       "p",
+       "Träbåtar som sakta glider förbi, en bris på kvällen och stadens ljus som tänds. Floden är en del av vardagen här."
+      ]
+     ]
+    },
+    {
+     "h2": "Mat i kvarteret",
+     "flow": [
+      [
+       "p",
+       "Phở på morgonen, bánh mì till lunch, vietnamesiskt iskaffe på eftermiddagen. I appen ASCON Guide finns adresser i närheten och i resten av staden."
+      ],
+      [
+       "h3",
+       "Handla"
+      ],
+      [
+       "p",
+       "På kvarterets marknad köper ni färska örter, tropisk frukt och fisk att laga hemma eller grilla på takterrassen."
+      ]
+     ]
+    },
+    {
+     "h2": "Ta sig runt",
+     "flow": [
+      [
+       "p",
+       "Taxi eller en transportapp är enklast. Visa bara adressen för chauffören. Till ankomstdagen kan ni ordna flygplatstransfer tillsammans med bokningen, så slipper ni oroa er för bagage och trötthet."
+      ]
+     ]
+    },
+    {
+     "h2": "Före ankomst",
+     "flow": [
+      [
+       "p",
+       "Efter bekräftelsen får ni dörrkoden och information om grindnyckeln. Den kostnadsfria appen ASCON Guide har karta och praktiska tips. Frågor om adressen? Skriv till oss på WhatsApp eller Zalo."
+      ]
+     ]
+    },
+    {
+     "h2": "Karta",
+     "p": [
+      "<a href=\"https://www.google.com/maps/search/?api=1&query=389A+Tr%E1%BA%A7n+Xu%C3%A2n+So%E1%BA%A1n+T%C3%A2n+H%C6%B0ng+Ho+Chi+Minh+City\" rel=\"noopener\">Öppna adressen i Google Maps</a>. Utförliga ankomstinstruktioner skickas efter bokningen."
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Vilken är adressen?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh City."
+      ],
+      [
+       "Finns flygplatstransfer?",
+       "Ja, som ordnas vid bokningen."
+      ],
+      [
+       "Finns det kameror?",
+       "Vid entrén finns utomhuskameror."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Frågor om läget? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "guide": {
+   "title": "Vietnamresa: din guide till Saigon | ASCON LIVING",
+   "description": "Appen ASCON Guide för gäster: restauranger, barer, aktiviteter med barn, karta och praktiska tips om Ho Chi Minh. Gratis, utan lösenord.",
+   "h1": "Upptäck Saigon med guiden i fickan",
+   "lead": "Första resan till Vietnam eller har ni varit här förut? Appen ASCON Guide hjälper er välja var ni ska äta, vad ni ska se och vad som är bra att veta. Appen är gratis och kräver inget lösenord.",
+   "sections": [
+    {
+     "h2": "Planera redan hemma",
+     "flow": [
+      [
+       "p",
+       "Nej. Appen är gratis och öppnas direkt i mobilens webbläsare. Öppna appen hemma i soffan, markera det ni vill se och landa i Ho Chi Minh med en plan. Då kan ni lägga resdagarna på upplevelser i stället för att leta information på plats."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Öppna guideappen</a>"
+     ],
+     "cards": [
+      [
+       "Gratis guideapp",
+       "travel-guide",
+       "Tips och karta över Ho Chi Minh, gratis i webbläsaren."
+      ]
+     ]
+    },
+    {
+     "h2": "Det här finns i appen",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Del",
+         "Innehåll"
+        ],
+        "rows": [
+         [
+          "Mat",
+          "Restauranger och gatumat nära huset och i hela staden"
+         ],
+         [
+          "Barer och kväll",
+          "Ställen och idéer för kvällen"
+         ],
+         [
+          "Barn och familj",
+          "Aktiviteter för de minsta"
+         ],
+         [
+          "Karta",
+          "Alla platser på kartan"
+         ],
+         [
+          "Praktiska tips",
+          "Bra att veta under vistelsen"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Maten i Saigon",
+     "flow": [
+      [
+       "p",
+       "Rykande phở, frasig bánh mì, brutet ris med grillat kött, iskaffe med sötad kondenserad mjölk. Appen samlar adresser runt District 7 och i resten av staden, så att ni inte bara hamnar på turistställen."
+      ],
+      [
+       "h3",
+       "Laga själva"
+      ],
+      [
+       "p",
+       "Vill ni hellre äta hemma? Köket är fullt utrustat och på kvarterets marknad finns allt ni behöver."
+      ]
+     ]
+    },
+    {
+     "h2": "Sevärdheter",
+     "flow": [
+      [
+       "p",
+       "Kolonial arkitektur i District 1, traditionella marknader, museer: varje plats finns på kartan. Visa den för taxichauffören eller lägg in den i en transportapp."
+      ]
+     ]
+    },
+    {
+     "h2": "Med barn",
+     "flow": [
+      [
+       "p",
+       "Delen Barn och familj ger förslag för de minsta, även för regniga dagar."
+      ]
+     ]
+    },
+    {
+     "h2": "En exempeldag",
+     "flow": [
+      [
+       "p",
+       "På morgonen marknad och frukost från ett gatukök ur appen. Vid lunch ett museum eller en promenad i District 1. Under de varmaste timmarna vila hemma i soffan. Vid solnedgången grill på takterrassen och till sist karaoke i underhållningsrummet."
+      ]
+     ]
+    },
+    {
+     "h2": "Efter grillen",
+     "flow": [
+      [
+       "p",
+       "Vill ni fortsätta kvällen ute? Under Barer och kväll finns några idéer."
+      ]
+     ]
+    },
+    {
+     "h2": "Allt på ett ställe",
+     "flow": [
+      [
+       "p",
+       "Information om entrén till huset och viktiga tips finns samlade i appen, utan att ni behöver leta i gamla meddelanden."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Behöver appen ett lösenord?",
+       "Efter att bokningen har bekräftats."
+      ],
+      [
+       "Finns det tips för barn?",
+       "Ja, under Barn och familj."
+      ],
+      [
+       "Finns platserna på en karta?",
+       "Ja, alla."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Boka och få tillgång till appen: WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "faq": {
+   "title": "Frågor om boendet i Ho Chi Minh | ASCON LIVING",
+   "description": "Svar om ASCON LIVING i District 7, Ho Chi Minh: entré, sovrum, badrum, karaoke, grill på taket, wifi, kök och bokning.",
+   "h1": "Vanliga frågor om vårt hus i Ho Chi Minh",
+   "lead": "Här är frågorna vi får oftast. Hittar ni inte er fråga, skicka ett meddelande.",
+   "sections": [
+    {
+     "h2": "Bokning",
+     "faq": [
+      [
+       "Var kan jag boka?",
+       "Via WhatsApp, Zalo, mejl till ascon.living@gmail.com, eller via Airbnb och Trip.com."
+      ],
+      [
+       "Delar vi huset?",
+       "Nej. De tre våningarna och takterrassen är bara för er grupp."
+      ],
+      [
+       "Ordnar ni transport från flygplatsen?",
+       "Ja, flygplatstransfer ordnas tillsammans med bokningen."
+      ]
+     ]
+    },
+    {
+     "h2": "Huset",
+     "faq": [
+      [
+       "Hur stort är huset?",
+       "Över 250 m²: tre våningar och en takterrass på ca 56–60 m²."
+      ],
+      [
+       "Var ligger det?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, District 7, Ho Chi Minh City, vid floden."
+      ],
+      [
+       "Finns det balkong?",
+       "Ja. Huvudsovrummet har egen balkong."
+      ]
+     ]
+    },
+    {
+     "h2": "Sovrum och badrum",
+     "faq": [
+      [
+       "Vilka sängar finns?",
+       "I huvudsovrummet på ca 55 m² en säng på 180×200 cm. I sovrum 2 och 3 sängar på 160×200 cm. Sovrum 3 har inget fönster."
+      ],
+      [
+       "Hur många badrum?",
+       "Tre egna badrum och en gästtoalett med samma utrustning."
+      ],
+      [
+       "Behöver jag ta med hygienartiklar?",
+       "Nej. Det finns varmvatten, schampo, duschtvål, tandkräm och handdukar. Tofflor står vid entrén."
+      ],
+      [
+       "Finns tv i sovrummen?",
+       "Ja. En 4K-tv på 55 tum i huvudsovrummet, smart-tv i sovrum 2 och 3."
+      ]
+     ]
+    },
+    {
+     "h2": "Underhållning",
+     "faq": [
+      [
+       "Finns det karaoke?",
+       "Ja: karaokemikrofoner, PlayStation med PlayStation Plus, 4K-projektor och 4K-tv."
+      ],
+      [
+       "Kan vi grilla?",
+       "Ja. Grillen på taket fungerar också som rökugn."
+      ],
+      [
+       "Finns Netflix?",
+       "Ja, beroende på aktivt konto."
+      ]
+     ]
+    },
+    {
+     "h2": "Kök och tvätt",
+     "faq": [
+      [
+       "Kan vi laga mat?",
+       "Ja. Ugn, riskokare, airfryer och kylskåp på ca 540 liter."
+      ],
+      [
+       "Finns tvättmaskin?",
+       "Ja, gästerna får använda den. Tvättservice finns på begäran."
+      ],
+      [
+       "Finns det en guide till staden?",
+       "Ja. Den kostnadsfria appen ASCON Guide har restauranger, barer, aktiviteter för barn, karta och praktiska tips."
+      ]
+     ]
+    },
+    {
+     "h2": "Övrigt",
+     "faq": [
+      [
+       "Finns det kameror?",
+       "Vid entrén finns utomhuskameror."
+      ],
+      [
+       "Finns kassaskåp?",
+       "Ja, och även strykjärn."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Fler frågor? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "booking": {
+   "title": "Boka hela huset i Ho Chi Minh | ASCON LIVING",
+   "description": "Boka ASCON LIVING, hela huset i District 7, Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, mejl, Airbnb eller Trip.com. Flygplatstransfer finns.",
+   "h1": "Boende i Ho Chi Minh: boka hela huset",
+   "lead": "Letar ni boende i Ho Chi Minh för hela gruppen? Med ett helt hus får ni mer plats och gemensamma kvällar. Skriv direkt till oss eller boka via en plattform.",
+   "sections": [
+    {
+     "h2": "Tre steg",
+     "flow": [
+      [
+       "p",
+       "1. Skicka ankomst- och avresedatum via WhatsApp, Zalo eller mejl."
+      ],
+      [
+       "p",
+       "2. Vi svarar om tillgänglighet, pris, transfer och fördelning av sovrummen."
+      ],
+      [
+       "p",
+       "3. Efter bekräftelsen får ni entréuppgifterna. Appen ASCON Guide är gratis och kräver inget lösenord."
+      ]
+     ]
+    },
+    {
+     "h2": "Det här ingår",
+     "flow": [
+      [
+       "p",
+       "Hela huset på tre våningar med takterrass, sängkläder och handdukar, varmvatten, schampo, duschtvål, tandkräm, tofflor, kassaskåp, strykjärn, mesh-wifi upp till 1 Gbit/s, underhållningsrum med karaoke och PlayStation samt grill med rökugn på taket. Gästerna får använda tvättmaskinen."
+      ]
+     ]
+    },
+    {
+     "h2": "Extra tjänster",
+     "flow": [
+      [
+       "p",
+       "Flygplatstransfer ordnas tillsammans med bokningen. Tvättservice finns på begäran, smidigt vid en längre vistelse."
+      ]
+     ]
+    },
+    {
+     "h2": "Via Airbnb eller Trip.com",
+     "flow": [
+      [
+       "p",
+       "Bokar ni hellre i en app? ASCON LIVING finns på Airbnb och Trip.com."
+      ],
+      [
+       "h3",
+       "Direkt med oss"
+      ],
+      [
+       "p",
+       "Skriver ni direkt blir det enklare att stämma av rum, transfer och gruppens önskemål."
+      ]
+     ]
+    },
+    {
+     "h2": "Vad ni skriver i meddelandet",
+     "flow": [
+      [
+       "p",
+       "Era datum, om ni vill ha transfer och hur ni vill fördela rummen: huvudsovrummet på ca 55 m² med säng 180×200 cm och balkong; sovrum 2 och 3 med sängar 160×200 cm och eget badrum. Sovrum 3 har inget fönster, bra för barnens tupplur. Ska någon jobba finns ett skrivbord i korridoren."
+      ]
+     ]
+    },
+    {
+     "h2": "Efter bekräftelsen",
+     "flow": [
+      [
+       "p",
+       "Ni får dörrkoden och information om grindnyckeln, och med den kostnadsfria appen ASCON Guide kan ni planera dagarna i förväg."
+      ]
+     ]
+    },
+    {
+     "h2": "Ett tips",
+     "flow": [
+      [
+       "p",
+       "Skollov och långhelger fylls snabbt. Skriv i god tid för att säkra era datum."
+      ]
+     ]
+    },
+    {
+     "cta": true
+    },
+    {
+     "h2": "Kontakt",
+     "p": [
+      "Telefon och WhatsApp: <a href=\"tel:{phone_e164}\">{phone}</a>",
+      "Zalo: <a href=\"https://zalo.me/84909410382\" rel=\"noopener\">{phone}</a>",
+      "E-post: <a href=\"mailto:{email}\">{email}</a>"
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Kan jag boka direkt?",
+       "Ja, via WhatsApp, Zalo eller mejl."
+      ],
+      [
+       "Vilka plattformar finns ni på?",
+       "Airbnb och Trip.com."
+      ],
+      [
+       "Kan jag boka transfer samtidigt?",
+       "Ja, tillsammans med vistelsen."
+      ]
+     ]
+    }
+   ]
+  },
+  "rules": {
+   "title": "Husregler ASCON LIVING Ho Chi Minh",
+   "description": "Husregler på ASCON LIVING i District 7, Ho Chi Minh: entré, skor, kök, grill på taket och grannar. Frågor via WhatsApp.",
+   "h1": "Några enkla regler så att alla trivs",
+   "lead": "Under vistelsen är huset ert, och vi vet att ni tar hand om det. Här är några enkla överenskommelser.",
+   "sections": [
+    {
+     "h2": "Kod och grind",
+     "flow": [
+      [
+       "p",
+       "Dörren öppnas med en kod och grinden med en nyckel. Ge inte ut koden till personer utanför gruppen och stäng grinden när alla går ut."
+      ]
+     ]
+    },
+    {
+     "h2": "Grundregler",
+     "flow": [
+      [
+       "ul",
+       [
+        "Incheckning 14:00–23:00, utcheckning 12:00.",
+        "Enligt vietnamesisk lag måste gäster registreras.",
+        "Ingen rökning inomhus; bara på anvisade platser utomhus.",
+        "Hög musik till 21:30.",
+        "Inga vilda fester.",
+        "Endast registrerade gäster får bo här."
+       ]
+      ]
+     ]
+    },
+    {
+     "h2": "Översikt",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Ämne",
+         "Regel"
+        ],
+        "rows": [
+         [
+          "Entré",
+          "Kodlås och nyckel till grinden"
+         ],
+         [
+          "Skor",
+          "Av vid entrén, tofflor finns"
+         ],
+         [
+          "Kök",
+          "Städa efter matlagningen"
+         ],
+         [
+          "Grill",
+          "Lämna aldrig elden utan tillsyn, släck helt"
+         ],
+         [
+          "Grannar",
+          "Bostadsområde, lågmält på kvällen"
+         ],
+         [
+          "Kameror",
+          "Utomhuskameror vid entrén"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Inne i huset",
+     "flow": [
+      [
+       "p",
+       "Ta av skorna vid entrén och använd tofflorna, då håller sig golven rena. Gästerna får använda tvättmaskinen. Pass och värdesaker förvaras i kassaskåpet."
+      ],
+      [
+       "h3",
+       "Kök"
+      ],
+      [
+       "p",
+       "Laga gärna mat. Diska efter maten eller ställ tillbaka allt."
+      ],
+      [
+       "h3",
+       "Tvätt"
+      ],
+      [
+       "p",
+       "Tvättmaskinen får ni använda själva. Vill ni hellre lämna in tvätt, skriv till oss så ordnar vi tvättservice på begäran."
+      ],
+      [
+       "h3",
+       "Underhållningsrummet"
+      ],
+      [
+       "p",
+       "Var rädda om mikrofonerna, handkontrollerna och projektorn."
+      ]
+     ]
+    },
+    {
+     "h2": "Grill på taket",
+     "flow": [
+      [
+       "p",
+       "Grillen och rökugnen står till gästernas förfogande. Lämna aldrig elden utan tillsyn, håll barnen på avstånd och släck allt helt när ni är klara."
+      ]
+     ]
+    },
+    {
+     "h2": "Goda grannar",
+     "flow": [
+      [
+       "p",
+       "ASCON LIVING ligger i ett bostadsområde. Prata lägre på kvällen, särskilt på takterrassen och balkongen."
+      ]
+     ]
+    },
+    {
+     "h2": "Apparater och utrustning",
+     "flow": [
+      [
+       "p",
+       "Kylskåpet på ca 540 liter, ugnen, mikrovågsugnen, riskokaren, airfryern och brödrosten är till för er: lämna dem rena. Handdukar, schampo, duschtvål och tandkräm finns i badrummen; strykjärn och kassaskåp i huset. Saknas något eller fungerar något inte, hör av er via WhatsApp eller Zalo. Lämna inga väskor i trappan, så att passagen hålls fri."
+      ]
+     ]
+    },
+    {
+     "h2": "Vanliga frågor",
+     "faq": [
+      [
+       "Hur kommer jag in?",
+       "Med dörrkoden och nyckeln till grinden."
+      ],
+      [
+       "Vem kontaktar jag vid problem?",
+       "Oss, via WhatsApp eller Zalo."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Frågor om husreglerna? WhatsApp eller Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "travel-guide": {
+   "title": "Gratis guideapp för Ho Chi Minh | ASCON",
+   "description": "ASCON:s kostnadsfria guideapp: lokala tips, var ni äter och vad ni ser, karta och praktisk hjälp i Ho Chi Minh. Öppnas i mobilens webbläsare.",
+   "h1": "Gratis reseguideapp för Ho Chi Minh",
+   "lead": "ASCON Guide är en kostnadsfri webbapp med lokala tips och platser i Ho Chi Minh. Den öppnas direkt i mobilens webbläsare: utan lösenord och utan installation.",
+   "sections": [
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Öppna guideappen</a>"
+     ]
+    },
+    {
+     "h2": "Så ser appen ut",
+     "p": [
+      "Det här är riktiga skärmbilder av appen i en mobil (appen finns ännu inte på svenska, så skärmarna visas på engelska)."
+     ],
+     "imgs": [
+      [
+       "tg-welcome",
+       "Välkomstskärm med ASCON LIVING:s logga och motto"
+      ],
+      [
+       "tg-picker",
+       "Språkval: appen finns på tio språk"
+      ],
+      [
+       "tg-categories",
+       "Kategorier: mat, kaféer, barer, familjeutflykter och mer"
+      ],
+      [
+       "tg-map",
+       "Karta över platser runt huset"
+      ],
+      [
+       "tg-practical",
+       "Praktisk information och hjälp i nödsituationer"
+      ]
+     ]
+    },
+    {
+     "h2": "Lokala tips och platser",
+     "p": [
+      "Platserna är sorterade i kategorier: mat, kaféer och desserter, barer och nattliv, barn och familj, sevärdheter och kultur, aktiviteter, avkoppling, shopping, dagsutflykter samt praktisk information och nödinformation. Kartan visar platser runt huset och knappen Vägbeskrivning startar navigeringen.",
+      "Ni kan lägga till appen på hemskärmen. Fler idéer finns i vår <a href=\"{L}guide/\">reseguide för Ho Chi Minh</a>.",
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Öppna guideappen</a>"
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  }
+ }
+}
