@@ -142,7 +142,7 @@
       [
        "ul",
        [
-        "<a href=\"{L}house/living-room/\"><strong>Living room</strong></a> (about 40 m²): a large L-shaped sofa and a 75-inch 4K TV, plus a guest WC in the living area.",
+        "<a href=\"{L}house/living-room/\"><strong>Living room</strong></a> (about 40 m²): a large L-shaped sofa and a 75-inch 4K TV, plus a guest WC in the living area, equipped like the other bathrooms.",
         "<a href=\"{L}house/kitchen/\"><strong>Kitchen and dining</strong></a>: stove, oven, microwave, rice cooker, kettle, dishes and a fridge of about 540 litres.",
         "<a href=\"{L}house/karaoke-entertainment/\"><strong>Entertainment room</strong></a>: karaoke, 4K projector, PlayStation with PlayStation Plus, Netflix and movie nights.",
         "<a href=\"{L}house/master-bedroom/\"><strong>Master bedroom</strong></a> (about 55 m²): 180×200 cm bed, 55-inch 4K TV, balcony, own bathroom.",
@@ -157,7 +157,7 @@
       [
        "Karaoke & entertainment",
        "room-entertainment",
-       "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big TV in your house in Ho Chi Minh City."
+       "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big 4K TV in your house in Ho Chi Minh City."
       ],
       [
        "Living room",
@@ -346,7 +346,7 @@
       ],
       [
        "Does every bedroom have its own bathroom?",
-       "Yes, all three bedrooms have their own bathroom and air conditioning, and there is a guest WC in the living area."
+       "Yes, all three bedrooms have their own bathroom and air conditioning, and there is a guest WC in the living area, equipped like the other bathrooms."
       ],
       [
        "How do we check in?",
@@ -374,7 +374,7 @@
       [
        "Karaoke & entertainment",
        "room-entertainment",
-       "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big TV in your house in Ho Chi Minh City."
+       "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big 4K TV in your house in Ho Chi Minh City."
       ],
       [
        "Living room",
@@ -453,7 +453,7 @@
      "h2": "Kitchen and dining: cook like a local",
      "p": [
       "Some of the best meals in Saigon start at the market. Bring back fresh herbs, mangoes and a bag of whatever smelled best at the street stall, and cook it your way in your own kitchen. It is fully equipped with a stove, an oven, a microwave, a rice cooker, a kettle and all the plates, bowls and cutlery you need.",
-      "The large fridge has enough room for a group's groceries, cold drinks for the rooftop and the marinated meat for tonight's BBQ. Families can prepare breakfast exactly the way the kids like it, keep snacks and milk on hand, and skip the daily search for a restaurant that suits everyone. Staying a week or longer? Having a proper kitchen makes a real difference to both comfort and budget.",
+      "The large fridge has enough room for a group's groceries, cold drinks for the rooftop and the marinated meat for tonight's BBQ. Families can prepare breakfast exactly the way the kids like it, keep snacks and milk on hand, and skip the daily search for a restaurant that suits everyone. Staying a week or longer? Having a proper kitchen makes a real difference to both comfort and budget. Guests may also use the washing machine in the kitchen area, and a laundry service is available for 30 EUR per load.",
       "The dining table by the kitchen windows brings everyone together for the moments that matter on a trip: a slow breakfast before a day out, a shared dinner, a late-night round of cards with a cold drink. And on the evenings when nobody wants to cook, restaurants and street food are close by."
      ],
      "imgs": [
@@ -657,7 +657,7 @@
     {
      "h2": "Hallway, landing and work area",
      "p": [
-      "The entrance has a tall black cabinet, a bench and a rack of guest slippers. Stone-look stairs with black railings lead to a bright landing with two bedroom doors, a desk with an ergonomic office chair by the window.",
+      "The entrance has a tall black cabinet, a bench and a rack of guest slippers. Stone-look stairs with black railings lead to a bright landing with the doors to bedrooms 2 and 3 and a desk with an ergonomic office chair by the window.",
       "More photos and details: <a href=\"{L}house/hallway/\">Hallway, landing & work area</a>"
      ],
      "imgs": [
@@ -711,7 +711,7 @@
       ],
       [
        "Bathrooms",
-       "3 private en-suite bathrooms plus guest WC"
+       "3 private en-suite bathrooms plus a guest WC equipped like the other bathrooms"
       ],
       [
        "Living",
@@ -747,7 +747,7 @@
       ],
       [
        "Services",
-       "Airport transfer with your booking, laundry service on request"
+       "Airport transfer with your booking, washing machine, laundry service (30 EUR per load)"
       ]
      ]
     },
@@ -1217,7 +1217,7 @@
       ],
       [
        "p",
-       "An airport transfer can be arranged with your booking. Fresh bedding, towels, toiletries, slippers and hot water are ready when you arrive, an iron is on hand, and a laundry service is available for longer stays."
+       "An airport transfer can be arranged with your booking. Fresh bedding, towels, toiletries, slippers and hot water are ready when you arrive, an iron is on hand, guests may use the washing machine, and a laundry service is available for 30 EUR per load."
       ]
      ]
     },
@@ -1236,7 +1236,7 @@
       [
        "Karaoke & entertainment",
        "room-entertainment",
-       "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big TV in your house in Ho Chi Minh City."
+       "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big 4K TV in your house in Ho Chi Minh City."
       ],
       [
        "Living room",
@@ -1556,7 +1556,7 @@
          ],
          [
           "Comfort",
-          "Bedding, towels, toiletries, slippers, hot water, iron, safe"
+          "Bedding, towels, toiletries, slippers, hot water, iron, washing machine, safe"
          ],
          [
           "Internet",
@@ -1584,11 +1584,11 @@
       ],
       [
        "h3",
-       "Laundry service"
+       "Washing machine and laundry service"
       ],
       [
        "p",
-       "A laundry service is available on request, handy for longer stays or when you travel light."
+       "Guests may use the washing machine in the kitchen area. A laundry service is also available for 30 EUR per load, handy for longer stays or when you travel light."
       ]
      ]
     },
@@ -1672,7 +1672,7 @@
      "faq": [
       [
        "How many bedrooms and bathrooms are there?",
-       "Three bedrooms, each with its own bathroom and air conditioning, plus a guest WC in the living area."
+       "Three bedrooms, each with its own bathroom and air conditioning, plus a guest WC in the living area, equipped like the other bathrooms."
       ],
       [
        "What size are the beds?",
@@ -1734,8 +1734,8 @@
        "Yes, an airport transfer can be arranged with your booking."
       ],
       [
-       "Is there a laundry service?",
-       "Yes, a laundry service is available on request. There is also an iron in the house."
+       "Is there a washing machine or a laundry service?",
+       "Yes. Guests may use the washing machine in the kitchen area, and a laundry service is available for 30 EUR per load. There is also an iron in the house."
       ]
      ]
     },
@@ -2445,7 +2445,7 @@
      "flow": [
       [
        "p",
-       "Self check-in with a keypad means your group can arrive at any time, with a key for the outer gate. An airport transfer can be arranged with your booking, which helps when several people arrive with luggage. Fresh bedding, towels, toiletries, slippers and hot water are ready, and a laundry service is available. There are outdoor cameras at the entrance. Restaurants and street food are nearby, and the free ASCON Guide App helps you find food, bars and things to do."
+       "Self check-in with a keypad means your group can arrive at any time, with a key for the outer gate. An airport transfer can be arranged with your booking, which helps when several people arrive with luggage. Fresh bedding, towels, toiletries, slippers and hot water are ready, guests may use the washing machine, and a laundry service is available for 30 EUR per load. There are outdoor cameras at the entrance. Restaurants and street food are nearby, and the free ASCON Guide App helps you find food, bars and things to do."
       ]
      ]
     },
@@ -2455,7 +2455,7 @@
       [
        "Karaoke & entertainment",
        "room-entertainment",
-       "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big TV in your house in Ho Chi Minh City."
+       "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big 4K TV in your house in Ho Chi Minh City."
       ],
       [
        "Living room",
@@ -2513,7 +2513,7 @@
       ],
       [
        "Does everyone get their own bathroom?",
-       "Each of the three bedrooms has its own bathroom, and there is a guest WC in the living area."
+       "Each of the three bedrooms has its own bathroom, and there is a guest WC in the living area, equipped like the other bathrooms."
       ],
       [
        "Can we use the karaoke in the evening?",
@@ -2531,9 +2531,9 @@
   },
   "room-entertainment": {
    "title": "House with Karaoke in Ho Chi Minh City | ASCON LIVING",
-   "description": "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big TV in your house in Ho Chi Minh City.",
+   "description": "Private karaoke room with microphones, PlayStation with PlayStation Plus, 4K projector for movie nights and a big 4K TV in your house in Ho Chi Minh City.",
    "h1": "A house with karaoke in Ho Chi Minh City: your private entertainment room",
-   "lead": "Karaoke with the microphones provided, a PlayStation with PlayStation Plus, a 4K projector for movie nights and a big wall-mounted TV. Karaoke here is not a microphone in a corner. It is an evening of singing, laughing and playing together, without going to a karaoke bar.",
+   "lead": "Karaoke with the microphones provided, a PlayStation with PlayStation Plus, a 4K projector for movie nights and a big wall-mounted 4K TV. Karaoke here is not a microphone in a corner. It is an evening of singing, laughing and playing together, without going to a karaoke bar.",
    "cover": [
     "ent",
     "Entertainment room with grey sectional sofa, cube stools and framed anime posters, a house with karaoke in Ho Chi Minh City"
@@ -2552,7 +2552,7 @@
         "rows": [
          [
           "TV",
-          "Large wall-mounted TV"
+          "Large wall-mounted 4K TV"
          ],
          [
           "PlayStation",
@@ -2654,7 +2654,7 @@
       ],
       [
        "ent-tv",
-       "Large wall-mounted TV, colour LED light lines and grey sofa in the entertainment room"
+       "Large wall-mounted 4K TV, colour LED light lines and grey sofa in the entertainment room"
       ],
       [
        "ent-mics",
@@ -2791,7 +2791,7 @@
      "faq": [
       [
        "What is in the entertainment room?",
-       "Karaoke with the microphones provided, a PlayStation with PlayStation Plus, a 4K projector with screen, a large wall-mounted TV, a sectional sofa and air conditioning."
+       "Karaoke with the microphones provided, a PlayStation with PlayStation Plus, a 4K projector with screen, a large wall-mounted 4K TV, a sectional sofa and air conditioning."
       ],
       [
        "Can we record our karaoke?",
@@ -2850,7 +2850,7 @@
          ],
          [
           "Guest WC",
-          "In the living area"
+          "In the living area, equipped like the other bathrooms"
          ],
          [
           "Air conditioning",
@@ -2991,7 +2991,7 @@
       ],
       [
        "p",
-       "The guest WC is right in the living area. Children and visitors do not need to go up to a bedroom bathroom during the day."
+       "The guest WC is right in the living area and is equipped like the other bathrooms. Children and visitors do not need to go up to a bedroom bathroom during the day."
       ],
       [
        "h3",
@@ -3034,7 +3034,7 @@
       ],
       [
        "Is there a toilet on the living room floor?",
-       "Yes, there is a guest WC in the living area, in addition to the en-suite bathroom of each bedroom."
+       "Yes, there is a guest WC in the living area, equipped like the other bathrooms, in addition to the en-suite bathroom of each bedroom."
       ],
       [
        "Can I work from the living room?",
@@ -3114,6 +3114,10 @@
          [
           "Coffee machine",
           "Yes"
+         ],
+         [
+          "Laundry corner",
+          "Front-loading washing machine that guests may use, laundry bags beside it"
          ],
          [
           "Fridge",
@@ -3308,6 +3312,29 @@
      ]
     },
     {
+     "h2": "Laundry corner",
+     "flow": [
+      [
+       "p",
+       "A front-loading washing machine stands in the corner of the kitchen area, with laundry bags beside it. Guests may use it, which is practical on longer stays and for families with children."
+      ],
+      [
+       "p",
+       "Prefer not to wash yourself? A laundry service is available for 30 EUR per load."
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-laundry",
+       "Front-loading washing machine in the corner of the kitchen area"
+      ],
+      [
+       "kitchen-laundry-2",
+       "Two laundry bags by the wall next to the kitchen area"
+      ]
+     ]
+    },
+    {
      "h2": "How the kitchen works with the rest of the house",
      "flow": [
       [
@@ -3321,7 +3348,11 @@
      "faq": [
       [
        "What appliances does the kitchen have?",
-       "A stove with glass cooktop, oven, microwave, rice cooker, kettle, air fryer, toaster and a side-by-side fridge of approx. 540 litres."
+       "A stove with glass cooktop, oven, microwave, rice cooker, kettle, air fryer, toaster, dishwasher, coffee machine, washing machine and a side-by-side fridge of approx. 540 litres."
+      ],
+      [
+       "Can we wash clothes?",
+       "Yes. Guests may use the front-loading washing machine in the kitchen area, and a laundry service is available for 30 EUR per load."
       ],
       [
        "Are dishes and cookware provided?",
@@ -4119,7 +4150,7 @@
    "title": "3 En-Suite Bathrooms plus Guest WC | ASCON LIVING Saigon",
    "description": "Every bedroom has its own bathroom with black shower, round mirror and hair dryer, plus a guest WC in the living area. Whole house in Ho Chi Minh City",
    "h1": "Three en-suite bathrooms and a guest WC: no queue in your house in Saigon",
-   "lead": "Each of the three bedrooms has its own bathroom, and there is a guest WC in the living area. Matte black showers, round black-framed mirrors, wall-mounted hair dryers, dispensers and white towels on the rails: here is what you find and how it makes mornings easier.",
+   "lead": "Each of the three bedrooms has its own bathroom, and there is a guest WC in the living area, equipped like the other bathrooms. Matte black showers, round black-framed mirrors, wall-mounted hair dryers, dispensers and white towels on the rails: here is what you find and how it makes mornings easier.",
    "cover": [
     "bath",
     "Matte black shower with hand shower and wall dispensers on cream marble-look tiles"
@@ -4138,7 +4169,7 @@
         "rows": [
          [
           "Number",
-          "3 en-suite bathrooms, one per bedroom, plus a guest WC in the living area"
+          "3 en-suite bathrooms, one per bedroom, plus a guest WC in the living area, equipped like the other bathrooms"
          ],
          [
           "Shower",
@@ -4325,7 +4356,7 @@
      "flow": [
       [
        "p",
-       "The guest WC lies in the living area. Visitors and children use it during the day without going to a bedroom. Bedroom bathrooms stay private for the people who sleep there."
+       "The guest WC lies in the living area and is equipped like the other bathrooms. Visitors and children use it during the day without going to a bedroom. Bedroom bathrooms stay private for the people who sleep there."
       ]
      ]
     },
@@ -4343,7 +4374,7 @@
      "faq": [
       [
        "How many bathrooms does the house have?",
-       "Each of the three bedrooms has its own en-suite bathroom, and there is a guest WC in the living area."
+       "Each of the three bedrooms has its own en-suite bathroom, and there is a guest WC in the living area, equipped like the other bathrooms."
       ],
       [
        "What is in the bathrooms?",
@@ -4386,7 +4417,7 @@
         "rows": [
          [
           "Bedroom doors",
-          "Two black panel doors side by side"
+          "Two black panel doors side by side: bedroom 2 and bedroom 3"
          ],
          [
           "Desk",
@@ -4497,7 +4528,7 @@
      "flow": [
       [
        "p",
-       "Two black panel doors stand side by side and lead into two of the bedrooms. Grey marble-look floor tiles with black skirting and cream walls follow the house colours."
+       "Two black panel doors stand side by side: one leads into bedroom 2, the other into bedroom 3. Grey marble-look floor tiles with black skirting and cream walls follow the house colours."
       ],
       [
        "h3",

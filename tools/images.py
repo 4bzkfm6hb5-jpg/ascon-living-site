@@ -18,12 +18,16 @@ PICK={'roof-lounge':'Rooftop/020_746A9684','roof-day':'Rooftop/021_746A9696',
 
 'kitchen-counter':'Kueche/111_746A9532','living-tvwall':'Wohnzimmer/005_746A9795','bed1-vanity':'Schlafzimmer_1/118_746A9554','bed1-charge':'Schlafzimmer_1/120_746A9562','bed1-wardrobe':'Schlafzimmer_1/121_746A9567','bed2-wardrobe':'Schlafzimmer_2/138_746A9643','bed3-wardrobe':'Schlafzimmer_3/143_746A9656','bath-dryer':'Bad/137_746A9642','ent-led':'Karaoke/067_IMG_ca58fea3',
 'workspace-2':'Vorraum_Flur/065_IMG_df507390',
+'kitchen-laundry':'Kueche/041_IMG_b0373da4','kitchen-laundry-2':'Kueche/113_746A9538',
 'hall':'Vorraum_Flur/047_746A9604','stairs':'Vorraum_Flur/049_746A9790','entrance':'Vorraum_Flur/050_746A9502'}
 BLUE={'hero':'064','roof-terrace':'064','river-balcony':'019','river-city':'080'}  # blue-water river shots from /workspace/ascon-photos (owner-approved exception)
 WIDTHS=[480,960,1440]
+BLUR={'kitchen-laundry':(690,285,1040,500)}  # hide appliance brand logo (no brand names), coords on the exif-rotated original
 meta={}
 for name,num in PICK.items():
     im=Image.open(f'{SRC}/{num}.jpg'); from PIL import ImageOps; im=ImageOps.exif_transpose(im).convert('RGB')  # drops EXIF/GPS
+    if name in BLUR:
+        from PIL import ImageFilter; b=BLUR[name]; im.paste(im.crop(b).filter(ImageFilter.GaussianBlur(28)),b[:2])
     im.thumbnail((1440,1440)); w,h=im.size; meta[name]={'w':w,'h':h,'widths':[]}
     for W in WIDTHS:
         if W>w: continue

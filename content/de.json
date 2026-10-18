@@ -143,7 +143,7 @@
       [
        "ul",
        [
-        "<a href=\"{L}house/living-room/\"><strong>Wohnzimmer</strong></a> (rund 40 m²): großes L-Sofa und 75-Zoll-4K-Fernseher, dazu ein Gäste-WC im Wohnbereich.",
+        "<a href=\"{L}house/living-room/\"><strong>Wohnzimmer</strong></a> (rund 40 m²): großes L-Sofa und 75-Zoll-4K-Fernseher, dazu ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder.",
         "<a href=\"{L}house/kitchen/\"><strong>Küche und Essbereich</strong></a>: Herd, Backofen, Mikrowelle, Reiskocher, Wasserkocher, Geschirr und ein Kühlschrank mit rund 540 Litern.",
         "<a href=\"{L}house/karaoke-entertainment/\"><strong>Entertainment-Raum</strong></a>: Karaoke, 4K-Projektor, PlayStation mit PlayStation Plus, Netflix und Filmabende.",
         "<a href=\"{L}house/master-bedroom/\"><strong>Hauptschlafzimmer</strong></a> (rund 55 m²): 180×200-cm-Bett, 55-Zoll-4K-TV, Balkon, eigenes Bad.",
@@ -158,7 +158,7 @@
       [
        "Karaoke & Entertainment",
        "room-entertainment",
-       "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
+       "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem 4K-Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
       ],
       [
        "Wohnzimmer",
@@ -347,7 +347,7 @@
       ],
       [
        "Hat jedes Schlafzimmer ein eigenes Bad?",
-       "Ja, alle drei Schlafzimmer haben ein eigenes Bad und eine eigene Klimaanlage, dazu gibt es ein Gäste-WC im Wohnbereich."
+       "Ja, alle drei Schlafzimmer haben ein eigenes Bad und eine eigene Klimaanlage, dazu gibt es ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder."
       ],
       [
        "Wie funktioniert der Check-in?",
@@ -375,7 +375,7 @@
       [
        "Karaoke & Entertainment",
        "room-entertainment",
-       "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
+       "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem 4K-Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
       ],
       [
        "Wohnzimmer",
@@ -454,7 +454,7 @@
      "h2": "Küche und Essbereich: kochen wie die Einheimischen",
      "p": [
       "Viele der besten Mahlzeiten in Saigon beginnen auf dem Markt. Bringt frische Kräuter, Mangos und alles mit, was am Straßenstand am besten geduftet hat, und kocht es in eurer eigenen Küche so, wie ihr es mögt. Sie ist voll ausgestattet mit Herd, Backofen, Mikrowelle, Reiskocher, Wasserkocher und allem Geschirr und Besteck, das ihr braucht.",
-      "Im großen Kühlschrank ist genug Platz für die Einkäufe einer ganzen Gruppe, kalte Getränke für die Dachterrasse und das marinierte Fleisch für den Grillabend. Familien bereiten das Frühstück genau so zu, wie die Kinder es mögen, haben Snacks und Milch immer griffbereit und sparen sich die tägliche Suche nach einem Restaurant, das allen passt. Wer eine Woche oder länger bleibt, merkt schnell, was eine richtige Küche für Komfort und Reisekasse ausmacht.",
+      "Im großen Kühlschrank ist genug Platz für die Einkäufe einer ganzen Gruppe, kalte Getränke für die Dachterrasse und das marinierte Fleisch für den Grillabend. Familien bereiten das Frühstück genau so zu, wie die Kinder es mögen, haben Snacks und Milch immer griffbereit und sparen sich die tägliche Suche nach einem Restaurant, das allen passt. Wer eine Woche oder länger bleibt, merkt schnell, was eine richtige Küche für Komfort und Reisekasse ausmacht. Die Waschmaschine im Küchenbereich dürft ihr ebenfalls nutzen, und der Wäscheservice kostet 30 EUR pro Ladung.",
       "Der Esstisch an den Küchenfenstern bringt alle zusammen, für die Momente, die eine Reise ausmachen: ein langes Frühstück vor dem Ausflug, ein gemeinsames Abendessen, eine späte Kartenrunde mit einem kalten Getränk. Und an Abenden, an denen niemand kochen möchte, sind Restaurants und Streetfood ganz in der Nähe."
      ],
      "imgs": [
@@ -658,7 +658,7 @@
     {
      "h2": "Flur, Treppe und Arbeitsplatz",
      "p": [
-      "Im Eingang stehen ein hoher schwarzer Schrank, eine Sitzbank und ein Regal mit Gäste-Hausschuhen. Eine Treppe in Steinoptik mit schwarzem Geländer führt in einen hellen Flur mit zwei Schlafzimmertüren, einem Schreibtisch mit ergonomischem Bürostuhl am Fenster.",
+      "Im Eingang stehen ein hoher schwarzer Schrank, eine Sitzbank und ein Regal mit Gäste-Hausschuhen. Eine Treppe in Steinoptik mit schwarzem Geländer führt in einen hellen Flur mit den Türen zu Schlafzimmer 2 und 3 und einem Schreibtisch mit ergonomischem Bürostuhl am Fenster.",
       "Mehr Fotos und Details: <a href=\"{L}house/hallway/\">Flur, Treppe & Arbeitsplatz</a>"
      ],
      "imgs": [
@@ -712,7 +712,7 @@
       ],
       [
        "Bäder",
-       "3 eigene Bäder en suite plus Gäste-WC"
+       "3 eigene Bäder en suite plus ein Gäste-WC, ausgestattet wie die anderen Bäder"
       ],
       [
        "Wohnen",
@@ -748,7 +748,7 @@
       ],
       [
        "Service",
-       "Flughafentransfer mit der Buchung, Wäscheservice auf Anfrage"
+       "Flughafentransfer mit der Buchung, Waschmaschine, Wäscheservice (30 EUR pro Ladung)"
       ]
      ]
     },
@@ -1218,7 +1218,7 @@
       ],
       [
        "p",
-       "Ein Flughafentransfer lässt sich mit der Buchung organisieren. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind bei eurer Ankunft da, ein Bügeleisen ebenfalls, und für längere Aufenthalte gibt es einen Wäscheservice."
+       "Ein Flughafentransfer lässt sich mit der Buchung organisieren. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind bei eurer Ankunft da, ein Bügeleisen ebenfalls, die Waschmaschine dürft ihr nutzen, und es gibt einen Wäscheservice für 30 EUR pro Ladung."
       ]
      ]
     },
@@ -1237,7 +1237,7 @@
       [
        "Karaoke & Entertainment",
        "room-entertainment",
-       "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
+       "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem 4K-Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
       ],
       [
        "Wohnzimmer",
@@ -1557,7 +1557,7 @@
          ],
          [
           "Komfort",
-          "Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe, Warmwasser, Bügeleisen, Safe"
+          "Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe, Warmwasser, Bügeleisen, Waschmaschine, Safe"
          ],
          [
           "Internet",
@@ -1585,11 +1585,11 @@
       ],
       [
        "h3",
-       "Wäscheservice"
+       "Waschmaschine und Wäscheservice"
       ],
       [
        "p",
-       "Auf Anfrage gibt es einen Wäscheservice, praktisch bei längeren Aufenthalten oder leichtem Gepäck."
+       "Die Waschmaschine im Küchenbereich dürft ihr nutzen. Außerdem gibt es einen Wäscheservice für 30 EUR pro Ladung, praktisch bei längeren Aufenthalten oder leichtem Gepäck."
       ]
      ]
     },
@@ -1673,7 +1673,7 @@
      "faq": [
       [
        "Wie viele Schlafzimmer und Bäder gibt es?",
-       "Drei Schlafzimmer, jedes mit eigenem Bad und eigener Klimaanlage, dazu ein Gäste-WC im Wohnbereich."
+       "Drei Schlafzimmer, jedes mit eigenem Bad und eigener Klimaanlage, dazu ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder."
       ],
       [
        "Wie groß sind die Betten?",
@@ -1735,8 +1735,8 @@
        "Ja, ein Flughafentransfer lässt sich mit der Buchung organisieren."
       ],
       [
-       "Gibt es einen Wäscheservice?",
-       "Ja, auf Anfrage. Ein Bügeleisen ist ebenfalls im Haus."
+       "Gibt es eine Waschmaschine oder einen Wäscheservice?",
+       "Ja. Die Waschmaschine im Küchenbereich dürft ihr nutzen, und der Wäscheservice kostet 30 EUR pro Ladung. Ein Bügeleisen ist ebenfalls im Haus."
       ]
      ]
     },
@@ -2446,7 +2446,7 @@
      "flow": [
       [
        "p",
-       "Dank Self-Check-in per Zahlenschloss kann eure Gruppe jederzeit ankommen, für das Außentor gibt es einen Schlüssel. Ein Flughafentransfer lässt sich mit der Buchung organisieren, praktisch, wenn mehrere Leute mit Gepäck anreisen. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind da, und ein Wäscheservice ist möglich. Es gibt Außenkameras im Eingangsbereich. Restaurants und Streetfood sind in der Nähe, und die kostenlose ASCON Guide App hilft euch, Essen, Bars und Aktivitäten zu finden."
+       "Dank Self-Check-in per Zahlenschloss kann eure Gruppe jederzeit ankommen, für das Außentor gibt es einen Schlüssel. Ein Flughafentransfer lässt sich mit der Buchung organisieren, praktisch, wenn mehrere Leute mit Gepäck anreisen. Frische Bettwäsche, Handtücher, Pflegeprodukte, Hausschuhe und warmes Wasser sind da, die Waschmaschine dürft ihr nutzen, und ein Wäscheservice ist für 30 EUR pro Ladung möglich. Es gibt Außenkameras im Eingangsbereich. Restaurants und Streetfood sind in der Nähe, und die kostenlose ASCON Guide App hilft euch, Essen, Bars und Aktivitäten zu finden."
       ]
      ]
     },
@@ -2456,7 +2456,7 @@
       [
        "Karaoke & Entertainment",
        "room-entertainment",
-       "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
+       "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem 4K-Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
       ],
       [
        "Wohnzimmer",
@@ -2514,7 +2514,7 @@
       ],
       [
        "Hat jeder ein eigenes Bad?",
-       "Jedes der drei Schlafzimmer hat ein eigenes Bad, dazu gibt es ein Gäste-WC im Wohnbereich."
+       "Jedes der drei Schlafzimmer hat ein eigenes Bad, dazu gibt es ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder."
       ],
       [
        "Können wir abends Karaoke singen?",
@@ -2532,9 +2532,9 @@
   },
   "room-entertainment": {
    "title": "Ferienhaus mit Karaoke in Ho-Chi-Minh-Stadt | ASCON LIVING",
-   "description": "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem Fernseher in eurem Haus in Ho-Chi-Minh-Stadt",
+   "description": "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und großem 4K-Fernseher in eurem Haus in Ho-Chi-Minh-Stadt",
    "h1": "Ferienhaus mit Karaoke in Ho-Chi-Minh-Stadt: euer privater Entertainment-Raum",
-   "lead": "Karaoke mit den bereitgestellten Mikrofonen, eine PlayStation mit PlayStation Plus, ein 4K-Projektor für Filmabende und ein großer Fernseher an der Wand. Karaoke heißt hier nicht, dass irgendwo ein Mikrofon liegt. Es heißt, dass ihr gemeinsam singt, lacht und spielt, ohne dafür in eine Karaoke-Bar zu gehen.",
+   "lead": "Karaoke mit den bereitgestellten Mikrofonen, eine PlayStation mit PlayStation Plus, ein 4K-Projektor für Filmabende und ein großer 4K-Fernseher an der Wand. Karaoke heißt hier nicht, dass irgendwo ein Mikrofon liegt. Es heißt, dass ihr gemeinsam singt, lacht und spielt, ohne dafür in eine Karaoke-Bar zu gehen.",
    "cover": [
     "ent",
     "Entertainment-Raum mit grauer Sofalandschaft, Sitzwürfeln und gerahmten Anime-Postern, Ferienhaus mit Karaoke in Ho-Chi-Minh-Stadt"
@@ -2553,7 +2553,7 @@
         "rows": [
          [
           "Fernseher",
-          "Großer Fernseher an der Wand"
+          "Großer 4K-Fernseher an der Wand"
          ],
          [
           "PlayStation",
@@ -2655,7 +2655,7 @@
       ],
       [
        "ent-tv",
-       "Großer Fernseher an der Wand, farbige LED-Lichtlinien und graues Sofa im Entertainment-Raum"
+       "Großer 4K-Fernseher an der Wand, farbige LED-Lichtlinien und graues Sofa im Entertainment-Raum"
       ],
       [
        "ent-mics",
@@ -2800,7 +2800,7 @@
      "faq": [
       [
        "Was ist im Entertainment-Raum?",
-       "Karaoke mit bereitgestellten Mikrofonen, eine PlayStation mit PlayStation Plus, ein 4K-Projektor mit Leinwand, ein großer Fernseher an der Wand, eine Sofalandschaft und eine Klimaanlage."
+       "Karaoke mit bereitgestellten Mikrofonen, eine PlayStation mit PlayStation Plus, ein 4K-Projektor mit Leinwand, ein großer 4K-Fernseher an der Wand, eine Sofalandschaft und eine Klimaanlage."
       ],
       [
        "Können wir unser Karaoke aufnehmen?",
@@ -2859,7 +2859,7 @@
          ],
          [
           "Gäste-WC",
-          "Im Wohnbereich"
+          "Im Wohnbereich, ausgestattet wie die anderen Bäder"
          ],
          [
           "Klimaanlage",
@@ -3000,7 +3000,7 @@
       ],
       [
        "p",
-       "Das Gäste-WC liegt direkt im Wohnbereich. Kinder und Besucher müssen tagsüber nicht in ein Schlafzimmerbad gehen."
+       "Das Gäste-WC liegt direkt im Wohnbereich und ist ausgestattet wie die anderen Bäder. Kinder und Besucher müssen tagsüber nicht in ein Schlafzimmerbad gehen."
       ],
       [
        "h3",
@@ -3043,7 +3043,7 @@
       ],
       [
        "Gibt es auf der Wohnzimmer-Etage eine Toilette?",
-       "Ja, ein Gäste-WC im Wohnbereich, zusätzlich zum eigenen Bad jedes Schlafzimmers."
+       "Ja, ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder, zusätzlich zum eigenen Bad jedes Schlafzimmers."
       ],
       [
        "Kann ich im Wohnzimmer arbeiten?",
@@ -3123,6 +3123,10 @@
          [
           "Kaffeemaschine",
           "Ja"
+         ],
+         [
+          "Waschecke",
+          "Frontlader-Waschmaschine, die ihr nutzen dürft, daneben Wäschesäcke"
          ],
          [
           "Kühlschrank",
@@ -3317,6 +3321,29 @@
      ]
     },
     {
+     "h2": "Die Waschecke",
+     "flow": [
+      [
+       "p",
+       "In der Ecke des Küchenbereichs steht eine Frontlader-Waschmaschine, daneben Wäschesäcke. Ihr dürft sie nutzen, praktisch bei längeren Aufenthalten und für Familien mit Kindern, die nach einem Tag am Spielplatz oder auf dem Markt frische Kleidung brauchen."
+      ],
+      [
+       "p",
+       "Lieber waschen lassen? Der Wäscheservice kostet 30 EUR pro Ladung."
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-laundry",
+       "Frontlader-Waschmaschine in der Ecke des Küchenbereichs"
+      ],
+      [
+       "kitchen-laundry-2",
+       "Zwei Wäschesäcke an der Wand neben dem Küchenbereich"
+      ]
+     ]
+    },
+    {
      "h2": "So spielt die Küche mit dem Rest des Hauses zusammen",
      "flow": [
       [
@@ -3330,7 +3357,11 @@
      "faq": [
       [
        "Welche Geräte hat die Küche?",
-       "Einen Herd mit Glaskochfeld, Backofen, Mikrowelle, Reiskocher, Wasserkocher, Heißluftfritteuse, Toaster und einen Side-by-Side-Kühlschrank mit rund 540 Litern."
+       "Einen Herd mit Glaskochfeld, Backofen, Mikrowelle, Reiskocher, Wasserkocher, Heißluftfritteuse, Toaster, Geschirrspüler, Kaffeemaschine, Waschmaschine und einen Side-by-Side-Kühlschrank mit rund 540 Litern."
+      ],
+      [
+       "Können wir Wäsche waschen?",
+       "Ja. Die Frontlader-Waschmaschine im Küchenbereich dürft ihr nutzen, und der Wäscheservice kostet 30 EUR pro Ladung."
       ],
       [
        "Sind Geschirr und Kochgeschirr vorhanden?",
@@ -4155,7 +4186,7 @@
         "rows": [
          [
           "Anzahl",
-          "3 eigene Bäder, eines pro Schlafzimmer, dazu ein Gäste-WC im Wohnbereich"
+          "3 eigene Bäder, eines pro Schlafzimmer, dazu ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder"
          ],
          [
           "Dusche",
@@ -4342,7 +4373,7 @@
      "flow": [
       [
        "p",
-       "Das Gäste-WC liegt im Wohnbereich. Besucher und Kinder nutzen es tagsüber, ohne in ein Schlafzimmer zu gehen. Die Schlafzimmerbäder bleiben privat für die Menschen, die dort schlafen."
+       "Das Gäste-WC liegt im Wohnbereich und ist ausgestattet wie die anderen Bäder. Besucher und Kinder nutzen es tagsüber, ohne in ein Schlafzimmer zu gehen. Die Schlafzimmerbäder bleiben privat für die Menschen, die dort schlafen."
       ]
      ]
     },
@@ -4360,7 +4391,7 @@
      "faq": [
       [
        "Wie viele Bäder hat das Haus?",
-       "Jedes der drei Schlafzimmer hat ein eigenes Bad, dazu kommt ein Gäste-WC im Wohnbereich."
+       "Jedes der drei Schlafzimmer hat ein eigenes Bad, dazu kommt ein Gäste-WC im Wohnbereich, ausgestattet wie die anderen Bäder."
       ],
       [
        "Was ist in den Bädern?",
@@ -4403,7 +4434,7 @@
         "rows": [
          [
           "Schlafzimmertüren",
-          "Zwei schwarze Kassettentüren nebeneinander"
+          "Zwei schwarze Kassettentüren nebeneinander: Schlafzimmer 2 und Schlafzimmer 3"
          ],
          [
           "Schreibtisch",
@@ -4522,7 +4553,7 @@
      "flow": [
       [
        "p",
-       "Zwei schwarze Kassettentüren stehen nebeneinander und führen in zwei der Schlafzimmer. Graue Bodenfliesen in Marmoroptik mit schwarzen Sockelleisten und cremefarbene Wände folgen den Hausfarben."
+       "Zwei schwarze Kassettentüren stehen nebeneinander: Die eine führt in Schlafzimmer 2, die andere in Schlafzimmer 3. Graue Bodenfliesen in Marmoroptik mit schwarzen Sockelleisten und cremefarbene Wände folgen den Hausfarben."
       ],
       [
        "h3",

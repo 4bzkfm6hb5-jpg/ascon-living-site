@@ -403,7 +403,7 @@
       ],
       [
        "hall",
-       "Hành lang với cửa các phòng"
+       "Hành lang với cửa phòng ngủ 2 và 3"
       ],
       [
        "stairs",
@@ -416,7 +416,7 @@
      "ul": [
       "Máy lạnh và quạt",
       "Wi-Fi",
-      "Bàn ủi; dịch vụ giặt ủi theo yêu cầu (30 EUR mỗi mẻ)",
+      "Máy giặt cho khách dùng, bàn ủi; dịch vụ giặt ủi (30 EUR mỗi mẻ)",
       "Két sắt",
       "Thiết bị báo khói, bình chữa cháy, hộp sơ cứu",
       "Tự nhận phòng bằng mã số (cổng ngoài dùng chìa khóa)",
@@ -503,9 +503,9 @@
       "3 phòng ngủ, mỗi phòng một giường đôi",
       "Phòng tắm",
       "Bếp đầy đủ với nồi cơm điện, lò nướng và máy rửa chén",
-      "Phòng giải trí có karaoke, máy chiếu, TV và PlayStation",
+      "Phòng giải trí có karaoke, máy chiếu, TV 4K và PlayStation",
       "Sân thượng có BBQ",
-      "Bàn ủi; dịch vụ giặt ủi theo yêu cầu (30 EUR mỗi mẻ)",
+      "Máy giặt cho khách dùng, bàn ủi; dịch vụ giặt ủi (30 EUR mỗi mẻ)",
       "Đưa đón sân bay theo yêu cầu (50 EUR)",
       "Gửi hành lý miễn phí"
      ]
@@ -601,7 +601,7 @@
      "faq": [
       [
        "Nhà có bao nhiêu phòng ngủ và phòng tắm?",
-       "3 phòng ngủ với 3 giường (một giường 180×200 cm, hai giường 160×200 cm). Mỗi phòng ngủ có phòng tắm và máy lạnh riêng, ngoài ra có WC cho khách ở khu sinh hoạt chung."
+       "3 phòng ngủ với 3 giường (một giường 180×200 cm, hai giường 160×200 cm). Mỗi phòng ngủ có phòng tắm và máy lạnh riêng, ngoài ra có WC cho khách ở khu sinh hoạt chung, trang bị như các phòng tắm khác."
       ],
       [
        "Đặt phòng như thế nào?",
@@ -625,7 +625,7 @@
       ],
       [
        "Có giặt đồ được không?",
-       "Có bàn ủi, và dịch vụ giặt ủi theo yêu cầu (30 EUR mỗi mẻ)."
+       "Có máy giặt cho khách dùng và bàn ủi, ngoài ra có dịch vụ giặt ủi (30 EUR mỗi mẻ)."
       ],
       [
        "Có gửi hành lý được không?",
