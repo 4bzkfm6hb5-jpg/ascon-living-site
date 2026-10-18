@@ -77,10 +77,12 @@ def legal(code):
 import unicodedata
 CJK={'ko','ja','zh'}
 def width(s): return sum(2 if unicodedata.east_asian_width(ch) in 'WF' else 1 for ch in s)
+def glen(s): return sum(1 for ch in s if unicodedata.category(ch)!='Mn')  # Thai: combining vowel/tone marks are not counted
 def seo_bad(code,p,suffix):
     # Latin scripts: characters (title<=60, desc<=160). CJK: display width, full-width chars count 2 (title<=64 ~ 32 CJK chars, desc<=160 ~ 80 CJK chars)
     t=p['title']+suffix; d=p['description']
     if code in CJK: return width(t)>64 or width(d)>160
+    if code=='th': return glen(t)>60 or glen(d)>160
     return len(t)>60 or len(d)>160
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]

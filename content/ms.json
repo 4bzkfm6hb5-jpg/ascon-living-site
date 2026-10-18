@@ -1,0 +1,2969 @@
+{
+ "ui": {
+  "skip": "Langkau ke kandungan",
+  "languages": "Bahasa",
+  "book_airbnb": "Tempah di Airbnb",
+  "book_trip": "Tempah di Trip.com",
+  "whatsapp": "Tempah melalui WhatsApp",
+  "zalo": "Tempah melalui Zalo",
+  "address_label": "Alamat",
+  "contact_label": "Hubungi",
+  "more_label": "Lagi",
+  "guest_guide": "Aplikasi panduan tetamu",
+  "read_more": "Baca lagi",
+  "source": "Sumber",
+  "estimate": "anggaran",
+  "home": "Utama",
+  "not_found_title": "Halaman tidak dijumpai",
+  "not_found_text": "Halaman ini tidak wujud. Pergi ke laman utama:",
+  "motto": "Built for Groups. Designed for Comfort. Stay Better. Live ASCON."
+ },
+ "nav": [
+  [
+   "home",
+   "Utama"
+  ],
+  [
+   "house",
+   "Rumah"
+  ],
+  [
+   "rooftop",
+   "Bumbung"
+  ],
+  [
+   "families",
+   "Keluarga"
+  ],
+  [
+   "groups",
+   "Kumpulan"
+  ],
+  [
+   "location",
+   "Lokasi"
+  ],
+  [
+   "booking",
+   "Tempahan & Hubungi"
+  ],
+  [
+   "faq",
+   "Soalan Lazim"
+  ],
+  [
+   "rules",
+   "Peraturan Rumah"
+  ],
+  [
+   "guide",
+   "Panduan"
+  ],
+  [
+   "travel-guide",
+   "Aplikasi Panduan"
+  ]
+ ],
+ "pages": {
+  "room-entertainment": {
+   "title": "Bilik Karaoke Peribadi di Ho Chi Minh | ASCON LIVING",
+   "description": "Bilik karaoke peribadi dalam rumah penuh Daerah 7: mikrofon, PlayStation dengan PlayStation Plus dan 2 pengawal, projektor 4K, skrin tripod dan TV 4K.",
+   "h1": "Bilik karaoke dan hiburan khas untuk kumpulan anda",
+   "lead": "Orang Malaysia memang suka berkaraoke. Di ASCON LIVING, anda tidak perlu keluar mencari pusat karaoke kerana bilik hiburan sudah ada di dalam rumah, siap dengan permainan dan wayang.",
+   "cover": [
+    "ent",
+    "Bilik hiburan dengan sofa kelabu, stul kiub dan poster anime berbingkai, rumah dengan karaoke di Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "Kelengkapan bilik hiburan",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Mikrofon karaoke"
+         ],
+         [
+          "Konsol",
+          "PlayStation dengan PlayStation Plus"
+         ],
+         [
+          "Pengawal",
+          "2 pengawal"
+         ],
+         [
+          "Projektor",
+          "Projektor 4K di siling, skrin tripod"
+         ],
+         [
+          "TV",
+          "TV 4K"
+         ],
+         [
+          "Strim",
+          "Netflix, bergantung pada akaun aktif"
+         ],
+         [
+          "Tempat duduk",
+          "Sofa kelabu dan stul kiub"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Bilik karaoke dalam cahaya LED hijau dengan sofa, meja kopi dan TV di dinding"
+      ],
+      [
+       "ent-cinema",
+       "Skrin projektor 4K pada tripod dalam bilik hiburan yang digelapkan"
+      ],
+      [
+       "ent-tv",
+       "TV besar di dinding, garis lampu LED berwarna dan sofa kelabu"
+      ],
+      [
+       "ent-mics",
+       "Mikrofon karaoke dan alat kawalan jauh di atas meja kopi bercorak batu"
+      ],
+      [
+       "ent-ps",
+       "PlayStation di dinding dengan dua pengawal"
+      ]
+     ]
+    },
+    {
+     "h2": "Karaoke sampai puas",
+     "flow": [
+      [
+       "p",
+       "Pasang lagu kegemaran dan biarkan mikrofon bertukar tangan. Tiada caj ikut jam dan tiada orang lain di bilik sebelah, hanya kumpulan anda."
+      ]
+     ]
+    },
+    {
+     "h2": "Pertandingan PlayStation",
+     "flow": [
+      [
+       "p",
+       "Konsol PlayStation di dinding dengan PlayStation Plus dan dua pengawal sesuai untuk pertandingan antara adik-beradik atau rakan sekerja. Yang kalah basuh pinggan selepas BBQ."
+      ]
+     ]
+    },
+    {
+     "h2": "Wayang di rumah",
+     "flow": [
+      [
+       "p",
+       "Gelapkan bilik, turunkan skrin tripod dan tonton filem dengan projektor 4K. Netflix boleh digunakan, bergantung pada akaun yang aktif. Bagi yang mahu skrin biasa, TV 4K juga tersedia."
+      ]
+     ]
+    },
+    {
+     "h2": "Suasana bilik",
+     "flow": [
+      [
+       "p",
+       "Sofa kelabu yang selesa, stul kiub, poster anime berbingkai dan garis lampu LED berwarna mencipta suasana yang berbeza daripada bahagian lain rumah."
+      ]
+     ]
+    },
+    {
+     "h2": "Penyelamat hari hujan",
+     "flow": [
+      [
+       "p",
+       "Bila hujan petang Saigon turun, bilik ini menjadi tempat berlindung yang paling seronok untuk anak-anak dan orang dewasa."
+      ]
+     ]
+    },
+    {
+     "h2": "Hormati jiran",
+     "flow": [
+      [
+       "p",
+       "Rumah ini di kawasan perumahan. Bila malam semakin lewat, perlahankan suara supaya jiran dapat berehat."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Adakah karaoke disediakan?",
+       "Ya, dengan mikrofon karaoke."
+      ],
+      [
+       "Ada PlayStation?",
+       "Ada, dengan PlayStation Plus dan dua pengawal."
+      ],
+      [
+       "Boleh tonton Netflix?",
+       "Boleh, bergantung pada akaun yang aktif."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Tempah rumah dengan bilik karaoke sendiri: WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-living": {
+   "title": "Ruang Tamu 40 m², TV 4K 75 Inci | ASCON LIVING",
+   "description": "Ruang tamu kira-kira 40 m² di rumah penuh Ho Chi Minh: sofa berbentuk L, TV 4K 75 inci, pintu kaca dan tumbuhan hijau. Tempat semua berkumpul.",
+   "h1": "Ruang tamu: jantung rumah ASCON LIVING",
+   "lead": "Di sinilah hari bermula dengan kopi dan berakhir dengan filem. Ruang tamu kira-kira 40 m² dengan sofa berbentuk L cukup luas untuk semua orang duduk bersama.",
+   "cover": [
+    "living",
+    "Ruang tamu dengan sofa berbentuk L di rumah penuh, Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "Spesifikasi",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Keluasan",
+          "Kira-kira 40 m²"
+         ],
+         [
+          "TV",
+          "4K, 75 inci"
+         ],
+         [
+          "Sofa",
+          "Berbentuk L"
+         ],
+         [
+          "Cahaya",
+          "Pintu kaca dan tumbuhan hijau"
+         ],
+         [
+          "Internet",
+          "WiFi mesh sehingga 1 Gbit/s"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "living-2",
+       "Ruang tamu terang dengan sofa dan tumbuhan hijau"
+      ],
+      [
+       "living-tv",
+       "TV 4K 75 inci di ruang tamu untuk malam filem"
+      ],
+      [
+       "living-3",
+       "Tempat duduk di tepi pintu kaca ruang tamu"
+      ]
+     ]
+    },
+    {
+     "h2": "Skrin besar untuk malam filem",
+     "flow": [
+      [
+       "p",
+       "TV 4K 75 inci menjadikan ruang tamu seperti panggung kecil. Tonton filem bersama keluarga, siaran bola sepak dengan kawan atau kartun untuk anak-anak pada waktu pagi."
+      ]
+     ]
+    },
+    {
+     "h2": "Sofa yang memuatkan semua",
+     "flow": [
+      [
+       "p",
+       "Sofa berbentuk L membolehkan semua duduk menghadap satu sama lain. Ia tempat semula jadi untuk berbincang rancangan esok, berkongsi gambar hari ini atau sekadar berehat selepas berjalan jauh."
+      ]
+     ]
+    },
+    {
+     "h2": "Cahaya semula jadi",
+     "flow": [
+      [
+       "p",
+       "Pintu kaca membawa cahaya siang ke dalam ruang, dan tumbuhan hijau memberi suasana tropika yang segar."
+      ]
+     ]
+    },
+    {
+     "h2": "Kerja jarak jauh pun boleh",
+     "flow": [
+      [
+       "p",
+       "WiFi mesh sehingga 1 Gbit/s meliputi ruang tamu, jadi komputer riba boleh digunakan di sofa. Untuk sudut yang lebih senyap, ada meja kerja di lorong."
+      ]
+     ]
+    },
+    {
+     "h2": "Dekat dengan semua",
+     "flow": [
+      [
+       "p",
+       "Dapur dan meja makan berada berhampiran, maka orang yang memasak tidak terasing. Bila tiba waktu BBQ, bumbung hanya beberapa anak tangga ke atas."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Berapa luas ruang tamu?",
+       "Kira-kira 40 m²."
+      ],
+      [
+       "Apakah saiz TV?",
+       "75 inci, resolusi 4K."
+      ],
+      [
+       "Ada WiFi di ruang tamu?",
+       "Ada, mesh sehingga 1 Gbit/s."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Mahu lihat rumah lebih lanjut? WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-kitchen": {
+   "title": "Dapur Lengkap & Ruang Makan | ASCON LIVING",
+   "description": "Dapur lengkap di rumah penuh Daerah 7: dapur masak kaca hitam, ketuhar, periuk nasi, air fryer, peti sejuk kira-kira 540 L dan mesin basuh untuk tetamu.",
+   "h1": "Dapur dan ruang makan: masak macam di rumah",
+   "lead": "Makanan jalanan Saigon memang sedap, tetapi kadang-kadang kita rindu masakan sendiri. Dapur lengkap ASCON LIVING membolehkan anda memasak apa sahaja, dari sarapan ringkas hingga makan malam besar.",
+   "cover": [
+    "kitchen",
+    "Dapur lengkap dengan meja makan di homestay Saigon"
+   ],
+   "sections": [
+    {
+     "h2": "Kelengkapan dapur",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Memasak",
+          "Dapur masak berpermukaan kaca hitam, ketuhar"
+         ],
+         [
+          "Peralatan kecil",
+          "Ketuhar gelombang mikro, periuk nasi, cerek, air fryer, pembakar roti"
+         ],
+         [
+          "Peti sejuk",
+          "Kira-kira 540 liter"
+         ],
+         [
+          "Pinggan mangkuk",
+          "Pinggan dan mangkuk dalam kabinet"
+         ],
+         [
+          "Dobi",
+          "Mesin basuh, boleh digunakan oleh tetamu"
+         ],
+         [
+          "Makan",
+          "Meja makan di tepi tingkap"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-2",
+       "Kaunter dapur dengan jubin bercorak"
+      ],
+      [
+       "kitchen-3",
+       "Kaunter dapur dengan peralatan untuk memasak di rumah"
+      ],
+      [
+       "kitchen-dishes",
+       "Kabinet dapur berisi pinggan dan mangkuk"
+      ],
+      [
+       "kitchen-rice",
+       "Periuk nasi di atas kaunter dapur"
+      ],
+      [
+       "kitchen-micro",
+       "Ketuhar gelombang mikro di dapur tetamu"
+      ],
+      [
+       "kitchen-fridge",
+       "Peti sejuk besar dengan ruang untuk barang dapur kumpulan"
+      ],
+      [
+       "kitchen-dining",
+       "Meja makan di tepi tingkap dapur untuk makan bersama"
+      ]
+     ]
+    },
+    {
+     "h2": "Dari pasar ke kuali",
+     "flow": [
+      [
+       "p",
+       "Pagi-pagi singgah di pasar tempatan, beli herba segar, buah mangga dan ikan. Balik ke rumah dan masak mengikut cara anda. Periuk nasi memudahkan nasi panas setiap hari, dan air fryer sesuai untuk lauk ringkas."
+      ]
+     ]
+    },
+    {
+     "h2": "Peti sejuk yang muat semua",
+     "flow": [
+      [
+       "p",
+       "Dengan kira-kira 540 liter, peti sejuk cukup untuk barang dapur seluruh kumpulan, minuman sejuk untuk bumbung dan daging perapan untuk BBQ malam nanti."
+      ]
+     ]
+    },
+    {
+     "h2": "Sarapan ikut kegemaran",
+     "flow": [
+      [
+       "p",
+       "Roti bakar, telur dan kopi atau bubur untuk si kecil, semuanya boleh disediakan dengan pembakar roti, cerek dan ketuhar gelombang mikro."
+      ]
+     ]
+    },
+    {
+     "h2": "Meja makan yang menyatukan",
+     "flow": [
+      [
+       "p",
+       "Meja makan di tepi tingkap dapur menjadi tempat sarapan santai sebelum keluar, makan malam bersama dan permainan kad sambil minum minuman sejuk pada waktu malam."
+      ]
+     ]
+    },
+    {
+     "h2": "Dobi tanpa keluar rumah",
+     "flow": [
+      [
+       "p",
+       "Mesin basuh boleh digunakan oleh tetamu, sangat berguna untuk percutian panjang atau bila anak-anak mengotorkan baju. Jika perlu, servis dobi juga boleh diminta."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Adakah periuk nasi disediakan?",
+       "Ada."
+      ],
+      [
+       "Boleh kami guna mesin basuh?",
+       "Boleh, tetamu boleh menggunakannya."
+      ],
+      [
+       "Berapa besar peti sejuk?",
+       "Kira-kira 540 liter."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Rancang percutian masak sendiri anda: WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-master": {
+   "title": "Bilik Tidur Utama 55 m² & Balkoni | ASCON LIVING",
+   "description": "Bilik tidur utama kira-kira 55 m²: katil 180×200 cm, TV 4K 55 inci, balkoni, meja solek dengan pengecas tanpa wayar, seterika dan bilik air en-suite.",
+   "h1": "Bilik tidur utama: suite peribadi seluas 55 m²",
+   "lead": "Bilik ini lebih besar daripada kebanyakan apartmen di bandar. Ia sesuai untuk ibu bapa yang perlukan ruang sendiri, pasangan yang meraikan sesuatu atau penganjur trip yang layak mendapat bilik terbaik.",
+   "cover": [
+    "bed1",
+    "Bilik tidur utama dengan katil 180×200 cm, kepala katil krim dan tingkap besar, Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "Butiran bilik",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Keluasan",
+          "Kira-kira 55 m²"
+         ],
+         [
+          "Katil",
+          "180×200 cm"
+         ],
+         [
+          "TV",
+          "4K, 55 inci"
+         ],
+         [
+          "Luar",
+          "Balkoni peribadi"
+         ],
+         [
+          "Meja solek",
+          "Cermin bulat berlampu, pad pengecas tanpa wayar"
+         ],
+         [
+          "Lain-lain",
+          "Seterika, bilik air en-suite"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "bed1-3",
+       "Bilik tidur utama kira-kira 55 m² dengan TV di dinding, kipas berdiri dan tumbuhan di tepi tingkap"
+      ],
+      [
+       "bed1-2",
+       "Meja solek bercermin bulat berlampu dan panel beralur hitam ke bilik air en-suite"
+      ]
+     ]
+    },
+    {
+     "h2": "Tidur yang lena",
+     "flow": [
+      [
+       "p",
+       "Katil 180×200 cm memberi ruang yang lega untuk dua orang. Kepala katil berwarna krim dan tingkap besar dengan langsir mencipta suasana tenang selepas seharian meredah kesibukan Saigon."
+      ]
+     ]
+    },
+    {
+     "h2": "Pagi di balkoni",
+     "flow": [
+      [
+       "p",
+       "Bangun lebih awal daripada yang lain, bancuh kopi Vietnam dan bawa ke balkoni. Inilah detik tenang sebelum rumah mula riuh."
+      ]
+     ]
+    },
+    {
+     "h2": "Filem dari atas katil",
+     "flow": [
+      [
+       "p",
+       "TV 4K 55 inci di dinding membolehkan anda menutup hari dengan filem tanpa perlu turun ke ruang tamu."
+      ]
+     ]
+    },
+    {
+     "h2": "Meja solek yang praktikal",
+     "flow": [
+      [
+       "p",
+       "Meja solek dengan cermin bulat berlampu memudahkan bersiap sebelum keluar makan malam. Letakkan telefon di atas pad pengecas tanpa wayar dan ia akan penuh semula semasa anda bersiap. Seterika juga disediakan."
+      ]
+     ]
+    },
+    {
+     "h2": "Bilik air sendiri",
+     "flow": [
+      [
+       "p",
+       "Bilik air en-suite dilengkapi air panas, syampu, sabun mandian, ubat gigi dan tuala, jadi anda tidak perlu keluar dari bilik untuk mandi."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Apakah saiz katil?",
+       "180×200 cm."
+      ],
+      [
+       "Adakah bilik ini ada balkoni?",
+       "Ada, balkoni peribadi."
+      ],
+      [
+       "Ada TV dalam bilik?",
+       "Ada, TV 4K 55 inci."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Tempah bilik utama untuk percutian anda: WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-2": {
+   "title": "Bilik Tidur 2, Katil 160×200 cm | ASCON LIVING",
+   "description": "Bilik tidur 2 di rumah penuh Daerah 7, Ho Chi Minh: katil 160×200 cm, smart TV, langsir kelabu gelap dan bilik air en-suite dengan air panas.",
+   "h1": "Bilik tidur 2: sudut tenang untuk berdua",
+   "lead": "Bilik tidur 2 terletak di sebelah lorong, bersebelahan bilik tidur 3. Ia pilihan selesa untuk pasangan, dua beradik atau rakan yang berkongsi bilik.",
+   "cover": [
+    "bed2",
+    "Bilik tidur 2 dengan katil 160×200 cm, kepala katil krim dan lukisan landskap hijau"
+   ],
+   "sections": [
+    {
+     "h2": "Butiran bilik",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Katil",
+          "160×200 cm"
+         ],
+         [
+          "TV",
+          "Smart TV di dinding"
+         ],
+         [
+          "Tingkap",
+          "Langsir kelabu gelap"
+         ],
+         [
+          "Bilik air",
+          "En-suite"
+         ],
+         [
+          "Akses",
+          "Pintu dari lorong"
+         ],
+         [
+          "Hiasan",
+          "Panel pintu bercorak daun, lukisan landskap hijau"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "bed2-2",
+       "Bilik tidur 2 dengan langsir kelabu gelap, smart TV dan kipas berdiri"
+      ],
+      [
+       "bed2-3",
+       "Panel pintu bercorak daun, smart TV di dinding dan tumbuhan dalam bilik tidur 2"
+      ]
+     ]
+    },
+    {
+     "h2": "Katil untuk dua orang",
+     "flow": [
+      [
+       "p",
+       "Katil 160×200 cm dengan kepala katil krim muat untuk dua orang dewasa. Lukisan landskap hijau di atas katil memberi sentuhan alam semula jadi."
+      ]
+     ]
+    },
+    {
+     "h2": "Rehat dengan smart TV",
+     "flow": [
+      [
+       "p",
+       "Smart TV di dinding membolehkan anda menonton rancangan kegemaran sebelum tidur. Langsir kelabu gelap membantu bilik kekal teduh pada waktu pagi."
+      ]
+     ]
+    },
+    {
+     "h2": "Bilik air en-suite",
+     "flow": [
+      [
+       "p",
+       "Tiada beratur di koridor pada waktu pagi. Bilik air sendiri dilengkapi air panas, syampu, sabun mandian, ubat gigi dan tuala."
+      ]
+     ]
+    },
+    {
+     "h2": "Kedudukan dalam rumah",
+     "flow": [
+      [
+       "p",
+       "Pintu bilik dibuka dari lorong yang sama dengan bilik tidur 3, dan berhampiran meja kerja. Ia susunan yang mudah untuk keluarga yang mahu anak-anak tidur berdekatan."
+      ]
+     ]
+    },
+    {
+     "h2": "Sesuai untuk siapa",
+     "flow": [
+      [
+       "p",
+       "Pasangan muda, adik-beradik remaja atau dua rakan sekerja dalam lawatan kerja akan selesa di bilik ini."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Apakah saiz katil?",
+       "160×200 cm."
+      ],
+      [
+       "Ada TV?",
+       "Ada, smart TV."
+      ],
+      [
+       "Ada bilik air sendiri?",
+       "Ada, en-suite."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Tanya tentang susunan bilik untuk kumpulan anda: WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bedroom-3": {
+   "title": "Bilik Tidur 3: Gelap & Senyap | ASCON LIVING",
+   "description": "Bilik tidur 3 tanpa tingkap, gelap dan tenang: katil 160×200 cm, smart TV, tuala dan cadar tambahan serta bilik air en-suite.",
+   "h1": "Bilik tidur 3: tidur nyenyak walaupun siang",
+   "lead": "Bilik tidur 3 tidak mempunyai tingkap. Bagi sesetengah orang, inilah bilik idaman kerana ia kekal gelap dan senyap walaupun matahari Saigon sedang terik.",
+   "cover": [
+    "bed3",
+    "Bilik tidur 3 tanpa tingkap dengan katil 160×200 cm, kepala katil krim dan panel dinding beralur"
+   ],
+   "sections": [
+    {
+     "h2": "Butiran bilik",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Katil",
+          "160×200 cm"
+         ],
+         [
+          "TV",
+          "Smart TV di dinding"
+         ],
+         [
+          "Tingkap",
+          "Tiada"
+         ],
+         [
+          "Almari",
+          "Pintu kaca, tuala, cadar dan bantal tambahan"
+         ],
+         [
+          "Bilik air",
+          "En-suite"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "bed3-2",
+       "Bilik tidur 3 dengan smart TV di dinding, kipas berdiri dan almari berpintu kaca"
+      ],
+      [
+       "bed3-3",
+       "Almari terbuka dalam bilik tidur 3 dengan tuala, cadar dan bantal tambahan"
+      ]
+     ]
+    },
+    {
+     "h2": "Gelap sepanjang hari",
+     "flow": [
+      [
+       "p",
+       "Tanpa tingkap, cahaya luar tidak masuk. Ia sesuai untuk anak kecil yang perlu tidur siang, tetamu yang mengalami jet lag atau sesiapa yang suka bangun lewat."
+      ]
+     ]
+    },
+    {
+     "h2": "Selesa dan kemas",
+     "flow": [
+      [
+       "p",
+       "Katil 160×200 cm dengan kepala katil krim dan panel dinding beralur memberi rupa yang moden. Smart TV di dinding sedia untuk tontonan sebelum tidur."
+      ]
+     ]
+    },
+    {
+     "h2": "Simpanan tambahan",
+     "flow": [
+      [
+       "p",
+       "Almari berpintu kaca menyimpan tuala, cadar dan bantal tambahan, jadi anda tidak perlu meminta jika mahu bantal lebih."
+      ]
+     ]
+    },
+    {
+     "h2": "Bilik air sendiri",
+     "flow": [
+      [
+       "p",
+       "Seperti bilik lain, bilik tidur 3 mempunyai bilik air en-suite dengan air panas, syampu, sabun mandian dan ubat gigi."
+      ]
+     ]
+    },
+    {
+     "h2": "Pilihan bijak untuk keluarga",
+     "flow": [
+      [
+       "p",
+       "Letak anak-anak di sini dan ibu bapa di bilik tidur 2 di sebelah. Kedua-dua pintu berada di lorong yang sama."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Adakah bilik ini bertingkap?",
+       "Tidak, bilik tidur 3 tiada tingkap."
+      ],
+      [
+       "Apakah saiz katil?",
+       "160×200 cm."
+      ],
+      [
+       "Ada bantal tambahan?",
+       "Ada, dalam almari bersama tuala dan cadar."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Perlukan bilik yang gelap untuk si kecil? WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-bathrooms": {
+   "title": "3 Bilik Air En-suite & Tandas Tetamu | ASCON LIVING",
+   "description": "Setiap bilik tidur ada bilik air sendiri, ditambah tandas tetamu. Air panas, syampu, sabun mandian, ubat gigi, tuala dan selipar disediakan.",
+   "h1": "Bilik air: satu untuk setiap bilik tidur",
+   "lead": "Beratur di depan bilik air ialah perkara paling biasa dalam percutian berkumpulan. Di ASCON LIVING masalah itu tiada, kerana setiap bilik tidur mempunyai bilik air en-suite, ditambah satu tandas tetamu.",
+   "cover": [
+    "bath",
+    "Pancuran hitam matte, pancuran tangan dan dispenser di dinding jubin bercorak marmar krim"
+   ],
+   "sections": [
+    {
+     "h2": "Ringkasan",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Bilangan",
+          "3 bilik air en-suite dan 1 tandas tetamu"
+         ],
+         [
+          "Air",
+          "Air panas"
+         ],
+         [
+          "Kelengkapan mandian",
+          "Syampu, sabun mandian, ubat gigi"
+         ],
+         [
+          "Tuala",
+          "Tuala putih"
+         ],
+         [
+          "Selipar",
+          "Disediakan di pintu masuk"
+         ],
+         [
+          "Lain-lain",
+          "Pengering rambut di dinding, cermin bulat"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "bath-4",
+       "Kepala pancuran hitam, dua dispenser dan rak dalam bilik air en-suite"
+      ],
+      [
+       "bath-2",
+       "Cermin bulat berbingkai hitam di atas rak kaca, tuala putih di rel"
+      ],
+      [
+       "bath-3",
+       "Tuala putih pada rel dinding dalam bilik air en-suite"
+      ],
+      [
+       "bath-5",
+       "Pengering rambut di dinding di atas sinki putih"
+      ],
+      [
+       "bath-6",
+       "Rak kaca dengan cawan hitam dan berus gigi berbungkus"
+      ]
+     ]
+    },
+    {
+     "h2": "Pancuran moden",
+     "flow": [
+      [
+       "p",
+       "Pancuran hitam matte dengan pancuran tangan dan dispenser di dinding, di atas jubin bercorak marmar krim. Air panas tersedia untuk mandi selepas seharian di bawah panas Saigon."
+      ]
+     ]
+    },
+    {
+     "h2": "Tak perlu bawa banyak barang",
+     "flow": [
+      [
+       "p",
+       "Syampu, sabun mandian dan ubat gigi disediakan, begitu juga berus gigi berbungkus. Tuala putih tergantung di rel, jadi beg anda boleh lebih ringan."
+      ]
+     ]
+    },
+    {
+     "h2": "Bersiap dengan mudah",
+     "flow": [
+      [
+       "p",
+       "Cermin bulat berbingkai hitam di atas rak kaca dan pengering rambut di dinding memudahkan anda bersiap untuk makan malam."
+      ]
+     ]
+    },
+    {
+     "h2": "Tandas tetamu",
+     "flow": [
+      [
+       "p",
+       "Tandas tetamu mempunyai kelengkapan yang sama seperti bilik air lain, berguna ketika semua orang berkumpul di ruang tamu atau bumbung."
+      ]
+     ]
+    },
+    {
+     "h2": "Pagi yang lancar",
+     "flow": [
+      [
+       "p",
+       "Dengan bilik air untuk setiap bilik tidur, semua orang boleh bersiap serentak dan keluar rumah tepat pada masanya."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Adakah air panas disediakan?",
+       "Ya."
+      ],
+      [
+       "Perlukah saya bawa syampu?",
+       "Tidak perlu. Syampu, sabun mandian dan ubat gigi disediakan."
+      ],
+      [
+       "Ada selipar?",
+       "Ada, di pintu masuk."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Tanya lebih lanjut tentang kemudahan: WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-hallway": {
+   "title": "Meja Kerja & Lorong untuk Kerja Jauh | ASCON LIVING",
+   "description": "Lorong ke bilik tidur 2 dan 3 dengan meja kerja di tepi tingkap, kerusi jaring, lampu, meja solek, rak kasut berselipar dan WiFi mesh sehingga 1 Gbit/s.",
+   "h1": "Lorong dan meja kerja: ruang fokus jauh dari keriuhan",
+   "lead": "Ada yang datang bercuti, ada yang masih perlu menjawab e-mel pejabat. Di lorong antara bilik tidur 2 dan 3 terdapat meja kerja di tepi tingkap, jauh dari bunyi TV dan karaoke.",
+   "cover": [
+    "hall",
+    "Lorong dengan dua pintu hitam ke bilik tidur 2 dan 3"
+   ],
+   "sections": [
+    {
+     "h2": "Apa yang ada di lorong",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Pintu",
+          "Dua pintu hitam ke bilik tidur 2 dan 3"
+         ],
+         [
+          "Meja kerja",
+          "Meja berkaki besi hitam, kerusi jaring hitam, lampu"
+         ],
+         [
+          "Hiasan",
+          "Tiga lukisan burung bangau, tumbuhan, permaidani"
+         ],
+         [
+          "Meja solek",
+          "Meja kelabu dengan cermin bulat dan kerusi putih"
+         ],
+         [
+          "Pintu masuk",
+          "Panel beralur hitam, rak kasut dengan selipar, bangku"
+         ],
+         [
+          "Tangga",
+          "Granit gelap, susur besi hitam, lampu dinding"
+         ],
+         [
+          "Internet",
+          "WiFi mesh sehingga 1 Gbit/s"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "stairs",
+       "Tangga granit gelap dengan susur besi hitam dilihat dari atas"
+      ],
+      [
+       "entrance",
+       "Pintu masuk dengan panel beralur hitam dan tangga"
+      ],
+      [
+       "hall-desk",
+       "Meja kerja dan kerusi jaring hitam di tepi tingkap berlangsir kelabu, lukisan bangau dan tumbuhan"
+      ],
+      [
+       "workspace-2",
+       "Tiga lukisan burung bangau putih di atas latar kelabu di atas tumbuhan"
+      ],
+      [
+       "hall-landing",
+       "Dua pintu hitam dan sudut kerja di atas lantai bercorak marmar kelabu"
+      ],
+      [
+       "hall-vanity",
+       "Meja solek kelabu dengan cermin bulat dan kerusi putih"
+      ],
+      [
+       "hall-shoes",
+       "Rak kasut hitam dengan selipar di pintu masuk"
+      ]
+     ]
+    },
+    {
+     "h2": "Pejabat kecil di tepi tingkap",
+     "flow": [
+      [
+       "p",
+       "Meja berkaki besi hitam, kerusi jaring yang selesa dan lampu meja: cukup untuk sehari bekerja. Pandang ke luar tingkap bila perlu rehat mata. WiFi mesh sehingga 1 Gbit/s memastikan panggilan video tidak tersekat."
+      ]
+     ]
+    },
+    {
+     "h2": "Kerja pagi, jalan-jalan petang",
+     "flow": [
+      [
+       "p",
+       "Inilah kelebihan bekerja dari Saigon. Siapkan tugasan pada waktu pagi, keluar meneroka bandar pada petang hari, dan malamnya BBQ di atas bumbung bersama kawan."
+      ]
+     ]
+    },
+    {
+     "h2": "Lorong ke bilik tidur",
+     "flow": [
+      [
+       "p",
+       "Dua pintu hitam bersebelahan membuka ke bilik tidur 2 dan 3. Lantai jubin bercorak marmar kelabu dan dinding krim memberi suasana tenang. Ibu bapa mudah menjenguk anak pada waktu malam."
+      ]
+     ]
+    },
+    {
+     "h2": "Sudut bersiap",
+     "flow": [
+      [
+       "p",
+       "Di sebelah pintu kaca ada meja solek kelabu dengan cermin bulat dan kerusi putih, tempat terakhir untuk memeriksa penampilan sebelum keluar."
+      ]
+     ]
+    },
+    {
+     "h2": "Pintu masuk yang teratur",
+     "flow": [
+      [
+       "p",
+       "Panel beralur hitam, almari terbina dengan cangkuk, rak kasut hitam dengan selipar dan bangku. Tanggalkan kasut, pakai selipar, dan rumah kekal bersih."
+      ]
+     ]
+    },
+    {
+     "h2": "Tangga",
+     "flow": [
+      [
+       "p",
+       "Tangga granit gelap dengan susur besi hitam dan lampu dinding menghubungkan setiap tingkat."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Ada meja kerja di rumah?",
+       "Ada, di lorong dengan kerusi dan lampu."
+      ],
+      [
+       "Pintu di lorong ke bilik mana?",
+       "Bilik tidur 2 dan bilik tidur 3."
+      ],
+      [
+       "Ada selipar disediakan?",
+       "Ada, di rak kasut pintu masuk."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Merancang kerja jarak jauh dari Saigon? WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "room-outside": {
+   "title": "Homestay Tepi Sungai di Ho Chi Minh | ASCON LIVING",
+   "description": "Rumah penuh tepi sungai di Ho Chi Minh: anjung berpagar putih dengan kanopi, pemandangan sungai dan latar langit District 1.",
+   "h1": "Tinggal di tepi sungai, di tengah Ho Chi Minh",
+   "lead": "Tidak banyak penginapan di Ho Chi Minh yang betul-betul di tepi air. Di ASCON LIVING, sungai mengalir di depan rumah dan latar langit District 1 berdiri di seberang.",
+   "cover": [
+    "hero",
+    "Rumah dengan pemandangan sungai di Ho Chi Minh, anjung berpagar putih dan latar langit District 1"
+   ],
+   "sections": [
+    {
+     "h2": "Ruang luar rumah",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Sungai",
+          "Di depan rumah, dengan latar langit District 1"
+         ],
+         [
+          "Anjung",
+          "Pagar besi putih dan kanopi"
+         ],
+         [
+          "Hijau",
+          "Pasu tumbuhan"
+         ],
+         [
+          "Kamera",
+          "Kamera luar di pintu masuk"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-balcony",
+       "Pemandangan dari pagar anjung dikelilingi tumbuhan"
+      ],
+      [
+       "river-city",
+       "Pemandangan ke arah latar langit District 1 dari rumah"
+      ]
+     ]
+    },
+    {
+     "h2": "Kehidupan sungai",
+     "flow": [
+      [
+       "p",
+       "Duduk sebentar dan perhatikan. Pemandangan ini bukan dari tingkap hotel, tetapi dari anjung rumah anda sendiri."
+      ]
+     ]
+    },
+    {
+     "h2": "Anjung untuk pagi dan senja",
+     "flow": [
+      [
+       "p",
+       "Anjung dengan pagar besi putih dan kanopi sesuai untuk secawan kopi pagi sambil menikmati angin sungai, atau menunggu matahari terbenam sebelum makan malam."
+      ]
+     ]
+    },
+    {
+     "h2": "Kamera di pintu masuk",
+     "flow": [
+      [
+       "p",
+       "Terdapat kamera luar di pintu masuk."
+      ]
+     ]
+    },
+    {
+     "h2": "Mahu pemandangan lebih luas?",
+     "flow": [
+      [
+       "p",
+       "Naik ke teres bumbung untuk pemandangan sungai yang paling luas, ditambah gril BBQ."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Adakah rumah ini di tepi sungai?",
+       "Ya, sungai berada di depan rumah."
+      ],
+      [
+       "Di mana kamera dipasang?",
+       "Terdapat kamera luar di pintu masuk."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Mahu menginap di tepi sungai? WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "rooftop": {
+   "title": "BBQ Atas Bumbung, Pemandangan Sungai | ASCON LIVING",
+   "description": "Teres bumbung kira-kira 56–60 m² dengan gril BBQ dan smoker, sofa rotan, meja makan, tumbuhan tropika dan pemandangan sungai ke latar langit District 1.",
+   "h1": "Teres bumbung: BBQ sambil melihat District 1",
+   "lead": "Bila matahari mula turun, semua orang naik ke atas. Teres bumbung kira-kira 56–60 m² ialah tempat untuk membakar, berbual dan melihat lampu District 1 menyala di seberang sungai.",
+   "sections": [
+    {
+     "h2": "Kemudahan bumbung",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Keluasan",
+          "Kira-kira 56–60 m²"
+         ],
+         [
+          "BBQ",
+          "Gril berbentuk tong hitam, juga boleh jadi smoker, dengan rak sisi"
+         ],
+         [
+          "Santai",
+          "Sofa rotan gelap dengan kusyen krim, stul berkusyen"
+         ],
+         [
+          "Makan",
+          "Meja gelap dan kerusi rotan"
+         ],
+         [
+          "Hijau",
+          "Tumbuhan tropika dalam pasu panjang"
+         ],
+         [
+          "Lampu",
+          "Lampu solar dan lampu hiasan di bawah bumbung"
+         ],
+         [
+          "Teduhan",
+          "Kanopi meliputi sebahagian kawasan"
+         ],
+         [
+          "Pemandangan",
+          "Sungai dan latar langit District 1"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "roof-terrace",
+       "Rumah dengan pemandangan sungai: teres bumbung menghadap latar langit District 1"
+      ],
+      [
+       "river-balcony",
+       "Pemandangan dari pagar anjung dikelilingi tumbuhan"
+      ],
+      [
+       "river-city",
+       "Pemandangan ke arah latar langit District 1 dari rumah"
+      ],
+      [
+       "roof-day",
+       "Teres bumbung pada siang hari dengan sofa rotan gelap, kusyen krim dan pasu tumbuhan panjang"
+      ],
+      [
+       "roof-lounge",
+       "Meja makan gelap dan kerusi rotan berkusyen krim di atas bumbung"
+      ],
+      [
+       "roof-night",
+       "Sudut santai bumbung pada waktu malam di bawah lampu hiasan dan lampu solar"
+      ],
+      [
+       "roof-evening",
+       "Sofa rotan berkusyen krim di atas bumbung pada waktu senja"
+      ],
+      [
+       "roof-evening-2",
+       "Ruang makan di bumbung di bawah kanopi berlampu"
+      ],
+      [
+       "roof-bbq",
+       "Gril BBQ berbentuk tong hitam di tepi pagar putih di atas bumbung"
+      ],
+      [
+       "roof-skyline",
+       "Latar langit bandar pada waktu malam dari bumbung"
+      ]
+     ]
+    },
+    {
+     "h2": "Gril dan smoker",
+     "flow": [
+      [
+       "p",
+       "Gril berbentuk tong hitam di tepi pagar putih mempunyai rak sisi untuk bahan. Bakar ayam percik, sate, sayur atau makanan laut dari pasar, atau gunakan sebagai smoker untuk salaian perlahan. Perap daging awal dalam peti sejuk 540 liter di dapur."
+      ]
+     ]
+    },
+    {
+     "h2": "Bersantai di sofa rotan",
+     "flow": [
+      [
+       "p",
+       "Selepas makan, pindah ke sofa rotan gelap dengan kusyen krim. Inilah tempat cerita panjang dan gelak ketawa sehingga lewat malam."
+      ]
+     ]
+    },
+    {
+     "h2": "Makan malam di bawah lampu",
+     "flow": [
+      [
+       "p",
+       "Meja gelap dan kerusi rotan di bawah kanopi berlampu menjadikan makan malam di bumbung terasa istimewa, sama ada hidangan BBQ atau makanan yang dibungkus dari restoran."
+      ]
+     ]
+    },
+    {
+     "h2": "Pemandangan yang dikenang",
+     "flow": [
+      [
+       "p",
+       "Di seberang sungai, latar langit District 1 berubah warna ketika senja. Bila gelap, lampu bangunan terpantul di permukaan air, latar sempurna untuk gambar kumpulan."
+      ]
+     ]
+    },
+    {
+     "h2": "Waktu malam",
+     "flow": [
+      [
+       "p",
+       "Lampu hiasan dan lampu solar menyala, dan suasana bertukar romantik. Rumah ini berada di kawasan perumahan, jadi rendahkan suara bila malam semakin lewat."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Bolehkah kami buat BBQ?",
+       "Boleh. Gril BBQ juga berfungsi sebagai smoker."
+      ],
+      [
+       "Berapa luas bumbung?",
+       "Kira-kira 56–60 m²."
+      ],
+      [
+       "Nampak sungai dari bumbung?",
+       "Nampak, bersama latar langit District 1."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Rancang malam BBQ anda: WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "house": {
+   "title": "Rumah Penuh di Ho Chi Minh, Bilik demi Bilik | ASCON",
+   "description": "Tiga tingkat dan bumbung: 3 bilik tidur en-suite, ruang tamu kira-kira 40 m², dapur lengkap dan bilik karaoke dengan projektor 4K. Lihat setiap bilik.",
+   "h1": "Rumah ini: homestay Ho Chi Minh anda, bilik demi bilik",
+   "lead": "Tiga tingkat, teres bumbung dan lebih 250 m² ruang yang hanya untuk kumpulan anda. Lihat foto dan kelengkapan setiap bilik.",
+   "sections": [
+    {
+     "h2": "Bilik demi bilik",
+     "cards": [
+      [
+       "Karaoke & hiburan",
+       "room-entertainment",
+       "Bilik karaoke peribadi dalam rumah penuh Daerah 7: mikrofon, PlayStation dengan PlayStation Plus dan 2 pengawal, projektor 4K, skrin tripod dan TV 4K."
+      ],
+      [
+       "Ruang tamu",
+       "room-living",
+       "Ruang tamu kira-kira 40 m² di rumah penuh Ho Chi Minh: sofa berbentuk L, TV 4K 75 inci, pintu kaca dan tumbuhan hijau. Tempat semua berkumpul."
+      ],
+      [
+       "Dapur & ruang makan",
+       "room-kitchen",
+       "Dapur lengkap di rumah penuh Daerah 7: dapur masak kaca hitam, ketuhar, periuk nasi, air fryer, peti sejuk kira-kira 540 L dan mesin basuh untuk tetamu."
+      ],
+      [
+       "Bilik tidur utama",
+       "room-master",
+       "Bilik tidur utama kira-kira 55 m²: katil 180×200 cm, TV 4K 55 inci, balkoni, meja solek dengan pengecas tanpa wayar, seterika dan bilik air en-suite."
+      ],
+      [
+       "Bilik tidur 2",
+       "room-bedroom-2",
+       "Bilik tidur 2 di rumah penuh Daerah 7, Ho Chi Minh: katil 160×200 cm, smart TV, langsir kelabu gelap dan bilik air en-suite dengan air panas."
+      ],
+      [
+       "Bilik tidur 3",
+       "room-bedroom-3",
+       "Bilik tidur 3 tanpa tingkap, gelap dan tenang: katil 160×200 cm, smart TV, tuala dan cadar tambahan serta bilik air en-suite."
+      ],
+      [
+       "Bilik air",
+       "room-bathrooms",
+       "Setiap bilik tidur ada bilik air sendiri, ditambah tandas tetamu. Air panas, syampu, sabun mandian, ubat gigi, tuala dan selipar disediakan."
+      ],
+      [
+       "Lorong & ruang kerja",
+       "room-hallway",
+       "Lorong ke bilik tidur 2 dan 3 dengan meja kerja di tepi tingkap, kerusi jaring, lampu, meja solek, rak kasut berselipar dan WiFi mesh sehingga 1 Gbit/s."
+      ],
+      [
+       "Luar & tepi sungai",
+       "room-outside",
+       "Rumah penuh tepi sungai di Ho Chi Minh: anjung berpagar putih dengan kanopi, pemandangan sungai dan latar langit District 1."
+      ],
+      [
+       "Teres bumbung",
+       "rooftop",
+       "Teres bumbung kira-kira 56–60 m² dengan gril BBQ dan smoker, sofa rotan, meja makan, tumbuhan tropika dan pemandangan sungai ke latar langit District 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Kelengkapan bilik hiburan",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Mikrofon karaoke"
+         ],
+         [
+          "Konsol",
+          "PlayStation dengan PlayStation Plus"
+         ],
+         [
+          "Pengawal",
+          "2 pengawal"
+         ],
+         [
+          "Projektor",
+          "Projektor 4K di siling, skrin tripod"
+         ],
+         [
+          "TV",
+          "TV 4K"
+         ],
+         [
+          "Strim",
+          "Netflix, bergantung pada akaun aktif"
+         ],
+         [
+          "Tempat duduk",
+          "Sofa kelabu dan stul kiub"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent",
+       "Bilik hiburan dengan sofa kelabu, stul kiub dan poster anime berbingkai, rumah dengan karaoke di Ho Chi Minh"
+      ],
+      [
+       "ent-karaoke",
+       "Bilik karaoke dalam cahaya LED hijau dengan sofa, meja kopi dan TV di dinding"
+      ],
+      [
+       "ent-cinema",
+       "Skrin projektor 4K pada tripod dalam bilik hiburan yang digelapkan"
+      ],
+      [
+       "ent-tv",
+       "TV besar di dinding, garis lampu LED berwarna dan sofa kelabu"
+      ],
+      [
+       "ent-mics",
+       "Mikrofon karaoke dan alat kawalan jauh di atas meja kopi bercorak batu"
+      ],
+      [
+       "ent-ps",
+       "PlayStation di dinding dengan dua pengawal"
+      ]
+     ]
+    },
+    {
+     "h2": "Karaoke sampai puas",
+     "flow": [
+      [
+       "p",
+       "Pasang lagu kegemaran dan biarkan mikrofon bertukar tangan. Tiada caj ikut jam dan tiada orang lain di bilik sebelah, hanya kumpulan anda."
+      ]
+     ]
+    },
+    {
+     "h2": "Pertandingan PlayStation",
+     "flow": [
+      [
+       "p",
+       "Konsol PlayStation di dinding dengan PlayStation Plus dan dua pengawal sesuai untuk pertandingan antara adik-beradik atau rakan sekerja. Yang kalah basuh pinggan selepas BBQ."
+      ]
+     ]
+    },
+    {
+     "h2": "Wayang di rumah",
+     "flow": [
+      [
+       "p",
+       "Gelapkan bilik, turunkan skrin tripod dan tonton filem dengan projektor 4K. Netflix boleh digunakan, bergantung pada akaun yang aktif. Bagi yang mahu skrin biasa, TV 4K juga tersedia."
+      ]
+     ]
+    },
+    {
+     "h2": "Suasana bilik",
+     "flow": [
+      [
+       "p",
+       "Sofa kelabu yang selesa, stul kiub, poster anime berbingkai dan garis lampu LED berwarna mencipta suasana yang berbeza daripada bahagian lain rumah."
+      ]
+     ]
+    },
+    {
+     "h2": "Penyelamat hari hujan",
+     "flow": [
+      [
+       "p",
+       "Bila hujan petang Saigon turun, bilik ini menjadi tempat berlindung yang paling seronok untuk anak-anak dan orang dewasa."
+      ]
+     ]
+    },
+    {
+     "h2": "Hormati jiran",
+     "flow": [
+      [
+       "p",
+       "Rumah ini di kawasan perumahan. Bila malam semakin lewat, perlahankan suara supaya jiran dapat berehat."
+      ]
+     ]
+    },
+    {
+     "h2": "Aplikasi panduan pelancongan percuma",
+     "p": [
+      "Rancang hari anda dengan aplikasi panduan ASCON percuma: tip tempatan, tempat makan dan lawatan serta peta, terus dalam pelayar telefon anda."
+     ],
+     "cards": [
+      [
+       "Aplikasi panduan percuma",
+       "travel-guide",
+       "Tip tempatan dan peta Ho Chi Minh, percuma dalam pelayar telefon."
+      ]
+     ],
+     "_tg": 1
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Adakah karaoke disediakan?",
+       "Ya, dengan mikrofon karaoke."
+      ],
+      [
+       "Ada PlayStation?",
+       "Ada, dengan PlayStation Plus dan dua pengawal."
+      ],
+      [
+       "Boleh tonton Netflix?",
+       "Boleh, bergantung pada akaun yang aktif."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Tempah rumah dengan bilik karaoke sendiri: WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "home": {
+   "title": "Hotel Ho Chi Minh? Sewa Rumah Penuh | ASCON LIVING",
+   "description": "Rumah penuh tepi sungai di Daerah 7, Ho Chi Minh: 3 bilik tidur en-suite, bilik karaoke, BBQ atas bumbung dan WiFi 1 Gbit/s. Tanya tarikh melalui WhatsApp.",
+   "h1": "Homestay Ho Chi Minh untuk seisi keluarga dan geng anda",
+   "lead": "Bayangkan satu rumah tiga tingkat dengan bumbung sendiri di tepi sungai, khas untuk rombongan anda. ASCON LIVING Riverside di Daerah 7 memberikan lebih 250 m² ruang peribadi, tanpa berkongsi lif, lobi atau dinding dengan tetamu lain.",
+   "hero": [
+    "hero",
+    "Rumah penuh tepi sungai dengan teres bumbung di Daerah 7, Ho Chi Minh"
+   ],
+   "sections": [
+    {
+     "h2": "Apa yang anda dapat",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Alamat",
+          "389A Đường Trần Xuân Soạn, Tân Hưng"
+         ],
+         [
+          "Keluasan",
+          "3 tingkat dan bumbung, lebih 250 m²"
+         ],
+         [
+          "Bilik tidur",
+          "3 bilik: katil 180×200 cm dan dua katil 160×200 cm"
+         ],
+         [
+          "Bilik air",
+          "3 bilik air en-suite dan satu tandas tetamu"
+         ],
+         [
+          "Hiburan",
+          "Mikrofon karaoke, PlayStation, projektor 4K, TV 4K"
+         ],
+         [
+          "Bumbung",
+          "Kira-kira 56–60 m², gril BBQ yang juga smoker"
+         ],
+         [
+          "Internet",
+          "WiFi mesh sehingga 1 Gbit/s"
+         ],
+         [
+          "Masuk",
+          "Kunci pad kekunci, kunci berasingan untuk pagar luar"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "living",
+       "Ruang tamu luas dengan sofa berbentuk L di homestay Ho Chi Minh"
+      ],
+      [
+       "bed1",
+       "Bilik tidur utama dengan katil 180×200 cm dan tingkap besar"
+      ],
+      [
+       "roof-night",
+       "Sudut santai di atas bumbung pada waktu malam di bawah lampu hiasan"
+      ]
+     ],
+     "cards": [
+      [
+       "Karaoke & hiburan",
+       "room-entertainment",
+       "Bilik karaoke peribadi dalam rumah penuh ini: mikrofon, PlayStation dengan PlayStation Plus dan 2 pengawal, projektor 4K, skrin tripod dan TV 4K."
+      ],
+      [
+       "Ruang tamu",
+       "room-living",
+       "Ruang tamu kira-kira 40 m² di rumah penuh Ho Chi Minh: sofa berbentuk L, TV 4K 75 inci, pintu kaca dan tumbuhan hijau. Tempat semua berkumpul."
+      ],
+      [
+       "Dapur & ruang makan",
+       "room-kitchen",
+       "Dapur lengkap di rumah penuh ini: dapur masak kaca hitam, ketuhar, periuk nasi, air fryer, peti sejuk kira-kira 540 L dan mesin basuh untuk tetamu."
+      ],
+      [
+       "Bilik tidur utama",
+       "room-master",
+       "Bilik tidur utama kira-kira 55 m²: katil 180×200 cm, TV 4K 55 inci, balkoni, meja solek dengan pengecas tanpa wayar, seterika dan bilik air en-suite."
+      ],
+      [
+       "Bilik tidur 2",
+       "room-bedroom-2",
+       "Bilik tidur 2 di rumah penuh ini, Ho Chi Minh: katil 160×200 cm, smart TV, langsir kelabu gelap dan bilik air en-suite dengan air panas."
+      ],
+      [
+       "Bilik tidur 3",
+       "room-bedroom-3",
+       "Bilik tidur 3 tanpa tingkap, gelap dan tenang: katil 160×200 cm, smart TV, tuala dan cadar tambahan serta bilik air en-suite."
+      ],
+      [
+       "Bilik air",
+       "room-bathrooms",
+       "Setiap bilik tidur ada bilik air sendiri, ditambah tandas tetamu. Air panas, syampu, sabun mandian, ubat gigi, tuala dan selipar disediakan."
+      ],
+      [
+       "Lorong & ruang kerja",
+       "room-hallway",
+       "Lorong ke bilik tidur 2 dan 3 dengan meja kerja di tepi tingkap, kerusi jaring, lampu, meja solek, rak kasut berselipar dan WiFi mesh sehingga 1 Gbit/s."
+      ],
+      [
+       "Luar & tepi sungai",
+       "room-outside",
+       "Rumah penuh tepi sungai di Ho Chi Minh: anjung berpagar putih dengan kanopi, pemandangan sungai dan latar langit District 1."
+      ],
+      [
+       "Teres bumbung",
+       "rooftop",
+       "Teres bumbung kira-kira 56–60 m² dengan gril BBQ dan smoker, sofa rotan, meja makan, tumbuhan tropika dan pemandangan sungai ke latar langit District 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Lebih selesa daripada beberapa bilik hotel",
+     "flow": [
+      [
+       "p",
+       "Bila bercuti ramai-ramai di hotel, setiap orang terperuk di bilik masing-masing. Di ASCON LIVING, semua orang bertemu di ruang tamu kira-kira 40 m² dengan sofa berbentuk L dan TV 4K 75 inci. Sarapan di meja yang sama, rancang aktiviti bersama, dan pada waktu malam naik ke bumbung untuk berbual sambil melihat lampu bandar."
+      ]
+     ]
+    },
+    {
+     "h2": "Karaoke, permainan dan wayang di rumah sendiri",
+     "flow": [
+      [
+       "p",
+       "Tak perlu tempah pusat karaoke. Bilik hiburan dilengkapi mikrofon karaoke, PlayStation dengan PlayStation Plus dan dua pengawal, projektor 4K di siling dengan skrin tripod, serta TV 4K. Netflix boleh ditonton, bergantung pada akaun yang sedang aktif."
+      ]
+     ]
+    },
+    {
+     "h2": "Malam BBQ di atas bumbung",
+     "flow": [
+      [
+       "p",
+       "Teres bumbung seluas kira-kira 56–60 m² ialah tempat kegemaran tetamu. Gril BBQ berbentuk tong juga boleh digunakan sebagai smoker. Ada sofa rotan, meja makan, tumbuhan tropika dan lampu solar, dengan pemandangan sungai dan latar langit District 1 di seberang."
+      ]
+     ]
+    },
+    {
+     "h2": "Dapur untuk masak ikut selera sendiri",
+     "flow": [
+      [
+       "p",
+       "Rindu masakan rumah? Dapur mempunyai dapur masak berpermukaan kaca hitam, ketuhar, ketuhar gelombang mikro, periuk nasi, cerek, air fryer, pembakar roti dan peti sejuk kira-kira 540 liter. Mesin basuh boleh digunakan oleh tetamu, sangat berguna untuk percutian panjang."
+      ]
+     ]
+    },
+    {
+     "h2": "Kelengkapan yang sudah tersedia",
+     "flow": [
+      [
+       "p",
+       "Air panas, syampu, sabun mandian, ubat gigi, tuala dan selipar disediakan. Ada juga peti besi untuk pasport dan barang berharga, serta seterika untuk baju yang berkedut selepas penerbangan."
+      ]
+     ]
+    },
+    {
+     "h2": "Aplikasi panduan pelancongan percuma",
+     "p": [
+      "Rancang hari anda dengan aplikasi panduan ASCON percuma: tip tempatan, tempat makan dan lawatan serta peta, terus dalam pelayar telefon anda."
+     ],
+     "cards": [
+      [
+       "Aplikasi panduan percuma",
+       "travel-guide",
+       "Tip tempatan dan peta Ho Chi Minh, percuma dalam pelayar telefon."
+      ]
+     ],
+     "_tg": 1
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Adakah seluruh rumah untuk kami sahaja?",
+       "Ya. Seluruh rumah termasuk bumbung disewa kepada rombongan anda sahaja."
+      ],
+      [
+       "Bagaimana cara masuk ke rumah?",
+       "Melalui kunci pad kekunci pada pintu, dan kunci untuk pagar luar."
+      ],
+      [
+       "Di mana boleh membuat tempahan?",
+       "Terus melalui WhatsApp atau Zalo, atau melalui Airbnb dan Trip.com."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Semak tarikh kosong dengan kami di WhatsApp atau Zalo: +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "families": {
+   "title": "Percutian Keluarga Ho Chi Minh | ASCON LIVING",
+   "description": "Percutian keluarga di Ho Chi Minh dalam rumah penuh: 3 bilik tidur dengan bilik air sendiri, dapur lengkap, wayang 4K dan peti besi.",
+   "h1": "Percutian keluarga yang tenang di Ho Chi Minh",
+   "lead": "Bercuti dengan anak-anak, datuk dan nenek memerlukan ruang, dapur dan ketenangan. ASCON LIVING memberi seluruh keluarga satu rumah di Daerah 7, jadi semua boleh tidur, makan dan berehat mengikut rentak sendiri.",
+   "sections": [
+    {
+     "h2": "Kenapa ibu bapa suka rumah ini",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Bilik tidur",
+          "3 bilik, setiap satu ada bilik air en-suite"
+         ],
+         [
+          "Bilik tidur 3",
+          "Tiada tingkap, gelap untuk tidur siang"
+         ],
+         [
+          "Dapur",
+          "Periuk nasi, ketuhar, air fryer, pembakar roti, peti sejuk 540 L"
+         ],
+         [
+          "Hiburan dalam rumah",
+          "Projektor 4K, TV 4K 75 inci, PlayStation"
+         ],
+         [
+          "Barang berharga",
+          "Peti besi"
+         ],
+         [
+          "Kamera",
+          "Kamera luar di pintu masuk"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "kitchen-dining",
+       "Meja makan di tepi tingkap dapur untuk makan bersama keluarga"
+      ],
+      [
+       "kitchen",
+       "Dapur lengkap untuk keluarga yang menginap di Daerah 7"
+      ],
+      [
+       "ent-cinema",
+       "Skrin projektor 4K untuk malam wayang keluarga di bilik hiburan"
+      ],
+      [
+       "living-tv",
+       "TV 4K 75 inci di ruang tamu untuk menonton filem bersama"
+      ],
+      [
+       "bed3",
+       "Bilik tidur 3 dengan katil 160×200 cm, gelap dan tenang untuk tidur siang"
+      ]
+     ]
+    },
+    {
+     "h2": "Waktu makan tanpa tekanan",
+     "flow": [
+      [
+       "p",
+       "Anak yang cerewet makan bukan masalah lagi. Masak nasi di periuk nasi, goreng nugget dalam air fryer atau bakar roti untuk sarapan. Peti sejuk besar muat untuk susu, buah dan stok makanan ringan. Meja makan di tepi tingkap dapur menghimpunkan tiga generasi pada satu meja."
+      ]
+     ]
+    },
+    {
+     "h2": "Bila hujan turun",
+     "flow": [
+      [
+       "p",
+       "Musim hujan di Saigon boleh datang tiba-tiba. Jangan risau, bilik hiburan dengan projektor 4K menjadikan petang di dalam rumah satu acara. Anak-anak boleh bermain PlayStation, manakala orang dewasa menonton filem di TV 4K 75 inci di ruang tamu."
+      ]
+     ]
+    },
+    {
+     "h2": "Tidur siang dan tidur awal",
+     "flow": [
+      [
+       "p",
+       "Bilik tidur 3 tidak bertingkap, jadi kekal gelap walaupun matahari terik, sesuai untuk si kecil tidur siang. Setiap bilik tidur ada bilik air sendiri dengan air panas, maka rutin mandi waktu malam berjalan lancar tanpa beratur."
+      ]
+     ]
+    },
+    {
+     "h2": "Kelengkapan praktikal",
+     "flow": [
+      [
+       "p",
+       "Terdapat kamera luar di pintu masuk. Peti besi disediakan untuk pasport, dan seterika tersedia untuk baju yang berkedut dalam beg."
+      ]
+     ]
+    },
+    {
+     "h2": "Bawa kurang, tiba lebih ringan",
+     "flow": [
+      [
+       "p",
+       "Tuala, syampu, sabun mandian, ubat gigi dan selipar sudah ada, jadi beg boleh dikosongkan untuk barang anak. Mesin basuh boleh digunakan oleh tetamu, dan pemindahan lapangan terbang boleh diatur supaya anda tidak terkial-kial dengan stroller di luar terminal."
+      ]
+     ]
+    },
+    {
+     "h2": "Aktiviti keluarga dengan aplikasi ASCON Guide",
+     "flow": [
+      [
+       "p",
+       "Aplikasi ASCON Guide yang percuma mempunyai kategori khas untuk kanak-kanak dan keluarga."
+      ]
+     ]
+    },
+    {
+     "h2": "Bilik demi bilik",
+     "cards": [
+      [
+       "Karaoke & hiburan",
+       "room-entertainment",
+       "Bilik karaoke peribadi dalam rumah penuh Daerah 7: mikrofon, PlayStation dengan PlayStation Plus dan 2 pengawal, projektor 4K, skrin tripod dan TV 4K."
+      ],
+      [
+       "Ruang tamu",
+       "room-living",
+       "Ruang tamu kira-kira 40 m² di rumah penuh Ho Chi Minh: sofa berbentuk L, TV 4K 75 inci, pintu kaca dan tumbuhan hijau. Tempat semua berkumpul."
+      ],
+      [
+       "Dapur & ruang makan",
+       "room-kitchen",
+       "Dapur lengkap di rumah penuh Daerah 7: dapur masak kaca hitam, ketuhar, periuk nasi, air fryer, peti sejuk kira-kira 540 L dan mesin basuh untuk tetamu."
+      ],
+      [
+       "Bilik tidur utama",
+       "room-master",
+       "Bilik tidur utama kira-kira 55 m²: katil 180×200 cm, TV 4K 55 inci, balkoni, meja solek dengan pengecas tanpa wayar, seterika dan bilik air en-suite."
+      ],
+      [
+       "Bilik tidur 2",
+       "room-bedroom-2",
+       "Bilik tidur 2 di rumah penuh Daerah 7, Ho Chi Minh: katil 160×200 cm, smart TV, langsir kelabu gelap dan bilik air en-suite dengan air panas."
+      ],
+      [
+       "Bilik tidur 3",
+       "room-bedroom-3",
+       "Bilik tidur 3 tanpa tingkap, gelap dan tenang: katil 160×200 cm, smart TV, tuala dan cadar tambahan serta bilik air en-suite."
+      ],
+      [
+       "Bilik air",
+       "room-bathrooms",
+       "Setiap bilik tidur ada bilik air sendiri, ditambah tandas tetamu. Air panas, syampu, sabun mandian, ubat gigi, tuala dan selipar disediakan."
+      ],
+      [
+       "Lorong & ruang kerja",
+       "room-hallway",
+       "Lorong ke bilik tidur 2 dan 3 dengan meja kerja di tepi tingkap, kerusi jaring, lampu, meja solek, rak kasut berselipar dan WiFi mesh sehingga 1 Gbit/s."
+      ],
+      [
+       "Luar & tepi sungai",
+       "room-outside",
+       "Rumah penuh tepi sungai di Ho Chi Minh: anjung berpagar putih dengan kanopi, pemandangan sungai dan latar langit District 1."
+      ],
+      [
+       "Teres bumbung",
+       "rooftop",
+       "Teres bumbung kira-kira 56–60 m² dengan gril BBQ dan smoker, sofa rotan, meja makan, tumbuhan tropika dan pemandangan sungai ke latar langit District 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Ada bilik yang gelap untuk anak tidur siang?",
+       "Ada. Bilik tidur 3 tidak bertingkap."
+      ],
+      [
+       "Bolehkah kami basuh baju sendiri?",
+       "Boleh, mesin basuh boleh digunakan oleh tetamu."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Rancang percutian keluarga anda bersama kami melalui WhatsApp atau Zalo: +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "groups": {
+   "title": "Rumah Ho Chi Minh untuk Geng & Syarikat | ASCON LIVING",
+   "description": "Rumah di Ho Chi Minh untuk percutian berkumpulan: bilik karaoke, PlayStation, BBQ atas bumbung dengan pemandangan sungai dan WiFi mesh sehingga 1 Gbit/s.",
+   "h1": "Percutian berkumpulan di rumah tepi sungai, Ho Chi Minh",
+   "lead": "Trip dengan kawan baik, reunion keluarga besar atau retreat syarikat lebih seronok bila semua orang tinggal sebumbung. ASCON LIVING menggabungkan karaoke, permainan dan BBQ atas bumbung dalam satu rumah.",
+   "sections": [
+    {
+     "h2": "Kemudahan untuk kumpulan",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Karaoke",
+          "Mikrofon dan skrin projektor 4K"
+         ],
+         [
+          "Permainan",
+          "PlayStation dengan PlayStation Plus dan 2 pengawal"
+         ],
+         [
+          "Bumbung",
+          "Kira-kira 56–60 m², gril BBQ dan smoker"
+         ],
+         [
+          "Ruang berkumpul",
+          "Ruang tamu kira-kira 40 m², TV 4K 75 inci"
+         ],
+         [
+          "Kerja",
+          "WiFi mesh sehingga 1 Gbit/s, meja kerja di lorong"
+         ],
+         [
+          "Bilik tidur",
+          "3 bilik, masing-masing dengan bilik air en-suite"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "ent-karaoke",
+       "Sudut karaoke dengan lampu suasana untuk malam berkumpulan"
+      ],
+      [
+       "ent-mics",
+       "Mikrofon karaoke dan alat kawalan jauh sedia untuk pertandingan"
+      ],
+      [
+       "ent-ps",
+       "PlayStation dengan pengawal untuk malam permainan"
+      ],
+      [
+       "roof-night",
+       "Ruang santai di atas bumbung pada waktu malam untuk kumpulan"
+      ],
+      [
+       "roof-bbq",
+       "Gril BBQ di teres bumbung untuk BBQ berlatarkan bandar"
+      ],
+      [
+       "river-city",
+       "Pemandangan sungai ke latar langit District 1 dari rumah"
+      ]
+     ]
+    },
+    {
+     "h2": "Malam karaoke tanpa keluar rumah",
+     "flow": [
+      [
+       "p",
+       "Lupakan teksi ke pusat karaoke. Turun ke bilik hiburan dan pilih lagu. Bila suara sudah serak, tukar ke PlayStation untuk pertandingan antara dua pasukan."
+      ]
+     ]
+    },
+    {
+     "h2": "BBQ dengan latar District 1",
+     "flow": [
+      [
+       "p",
+       "Beli ayam, daging dan makanan laut di pasar, perap dalam peti sejuk 540 liter, kemudian bawa ke bumbung. Gril BBQ boleh juga digunakan sebagai smoker untuk salaian perlahan. Selepas makan, semua orang bersantai di sofa rotan sambil melihat lampu District 1 menyala di seberang sungai."
+      ]
+     ]
+    },
+    {
+     "h2": "Sesuai untuk retreat syarikat",
+     "flow": [
+      [
+       "p",
+       "Bawa pasukan anda ke Saigon tanpa menyewa bilik mesyuarat. WiFi mesh sehingga 1 Gbit/s meliputi setiap tingkat, sesuai untuk panggilan video dan muat naik fail. Ruang tamu dan meja makan boleh dijadikan bilik bengkel, dan meja kerja di lorong memberi sudut senyap untuk sesiapa yang perlu fokus."
+      ]
+     ]
+    },
+    {
+     "h2": "Semua orang dapat bilik air sendiri",
+     "flow": [
+      [
+       "p",
+       "Tiga bilik tidur dengan bilik air en-suite dan satu tandas tetamu bermakna tiada pertelingkahan pada waktu pagi. Air panas, syampu, sabun mandian, ubat gigi dan tuala disediakan."
+      ]
+     ]
+    },
+    {
+     "h2": "Ketibaan yang mudah",
+     "flow": [
+      [
+       "p",
+       "Kumpulan yang tiba dengan penerbangan berbeza boleh masuk sendiri menggunakan kunci pad kekunci, dengan kunci untuk pagar luar. Pemindahan lapangan terbang boleh diatur bersama tempahan, berguna bila ramai orang membawa banyak beg."
+      ]
+     ]
+    },
+    {
+     "h2": "Hormati jiran",
+     "flow": [
+      [
+       "p",
+       "Rumah ini berada di kawasan perumahan. Bila malam semakin larut, rendahkan suara di bumbung supaya jiran juga dapat berehat."
+      ]
+     ]
+    },
+    {
+     "h2": "Bilik demi bilik",
+     "cards": [
+      [
+       "Karaoke & hiburan",
+       "room-entertainment",
+       "Bilik karaoke peribadi dalam rumah penuh Daerah 7: mikrofon, PlayStation dengan PlayStation Plus dan 2 pengawal, projektor 4K, skrin tripod dan TV 4K."
+      ],
+      [
+       "Ruang tamu",
+       "room-living",
+       "Ruang tamu kira-kira 40 m² di rumah penuh Ho Chi Minh: sofa berbentuk L, TV 4K 75 inci, pintu kaca dan tumbuhan hijau. Tempat semua berkumpul."
+      ],
+      [
+       "Dapur & ruang makan",
+       "room-kitchen",
+       "Dapur lengkap di rumah penuh Daerah 7: dapur masak kaca hitam, ketuhar, periuk nasi, air fryer, peti sejuk kira-kira 540 L dan mesin basuh untuk tetamu."
+      ],
+      [
+       "Bilik tidur utama",
+       "room-master",
+       "Bilik tidur utama kira-kira 55 m²: katil 180×200 cm, TV 4K 55 inci, balkoni, meja solek dengan pengecas tanpa wayar, seterika dan bilik air en-suite."
+      ],
+      [
+       "Bilik tidur 2",
+       "room-bedroom-2",
+       "Bilik tidur 2 di rumah penuh Daerah 7, Ho Chi Minh: katil 160×200 cm, smart TV, langsir kelabu gelap dan bilik air en-suite dengan air panas."
+      ],
+      [
+       "Bilik tidur 3",
+       "room-bedroom-3",
+       "Bilik tidur 3 tanpa tingkap, gelap dan tenang: katil 160×200 cm, smart TV, tuala dan cadar tambahan serta bilik air en-suite."
+      ],
+      [
+       "Bilik air",
+       "room-bathrooms",
+       "Setiap bilik tidur ada bilik air sendiri, ditambah tandas tetamu. Air panas, syampu, sabun mandian, ubat gigi, tuala dan selipar disediakan."
+      ],
+      [
+       "Lorong & ruang kerja",
+       "room-hallway",
+       "Lorong ke bilik tidur 2 dan 3 dengan meja kerja di tepi tingkap, kerusi jaring, lampu, meja solek, rak kasut berselipar dan WiFi mesh sehingga 1 Gbit/s."
+      ],
+      [
+       "Luar & tepi sungai",
+       "room-outside",
+       "Rumah penuh tepi sungai di Ho Chi Minh: anjung berpagar putih dengan kanopi, pemandangan sungai dan latar langit District 1."
+      ],
+      [
+       "Teres bumbung",
+       "rooftop",
+       "Teres bumbung kira-kira 56–60 m² dengan gril BBQ dan smoker, sofa rotan, meja makan, tumbuhan tropika dan pemandangan sungai ke latar langit District 1."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Ada karaoke di rumah?",
+       "Ada, di bilik hiburan dengan mikrofon dan projektor 4K."
+      ],
+      [
+       "Bolehkah kami buat BBQ?",
+       "Boleh, di teres bumbung dengan gril yang juga berfungsi sebagai smoker."
+      ],
+      [
+       "Sesuaikah untuk lawatan kerja?",
+       "Ya, WiFi sehingga 1 Gbit/s dan ada meja kerja."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Rancang trip kumpulan anda: WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "location": {
+   "title": "Ho Chi Minh District 7: Lokasi ASCON LIVING",
+   "description": "Alamat ASCON LIVING: 389A Đường Trần Xuân Soạn, Tân Hưng, Daerah 7, Ho Chi Minh. Rumah tepi sungai dekat restoran dan makanan jalanan.",
+   "h1": "Di mana kami berada: tepi sungai di District 7",
+   "lead": "ASCON LIVING terletak di kejiranan Tân Hưng, Daerah 7, sebuah kawasan perumahan di tepi sungai. Di seberang air kelihatan bangunan tinggi District 1, tetapi di sekeliling rumah suasananya kekal tenang.",
+   "sections": [
+    {
+     "h2": "Maklumat alamat",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "Alamat penuh",
+          "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh"
+         ],
+         [
+          "Jenis kawasan",
+          "Kawasan perumahan di tepi sungai"
+         ],
+         [
+          "Sekitar rumah",
+          "Restoran tempatan dan gerai makanan jalanan"
+         ],
+         [
+          "Pemandangan",
+          "Sungai dan latar langit District 1"
+         ],
+         [
+          "Dari lapangan terbang",
+          "Pemindahan boleh diatur bersama tempahan"
+         ],
+         [
+          "Cara masuk",
+          "Kunci pad kekunci dan kunci pagar luar"
+         ]
+        ]
+       }
+      ]
+     ],
+     "imgs": [
+      [
+       "river-city",
+       "Pemandangan sungai ke arah latar langit District 1 dari rumah"
+      ]
+     ]
+    },
+    {
+     "h2": "Kenapa ramai memilih kawasan ini",
+     "flow": [
+      [
+       "p",
+       "Pusat bandar Ho Chi Minh sentiasa sibuk dengan motosikal dan bunyi hon. Kawasan ini menawarkan rentak yang lebih perlahan. Siang hari anda boleh meneroka bandar, dan pada waktu malam pulang ke rumah yang sunyi di tepi sungai, sesuai untuk keluarga yang membawa anak kecil."
+      ]
+     ]
+    },
+    {
+     "h2": "Kehidupan harian di kejiranan",
+     "flow": [
+      [
+       "p",
+       "Tân Hưng ialah kawasan tempat penduduk tempatan tinggal, bukan zon pelancong. Anda boleh mencuba makanan jalanan yang dimasak segar, membeli buah di gerai berhampiran dan merasai kehidupan sebenar warga Saigon. Restoran juga ada berdekatan untuk malam yang tiada siapa mahu memasak."
+      ]
+     ]
+    },
+    {
+     "h2": "Bergerak ke tempat menarik",
+     "flow": [
+      [
+       "p",
+       "Untuk ke District 1, pasar terkenal atau muzium, cara paling mudah ialah teksi atau aplikasi e-hailing. Aplikasi ASCON Guide yang percuma mengumpulkan cadangan tempat makan, bar dan aktiviti di seluruh bandar beserta peta."
+      ]
+     ]
+    },
+    {
+     "h2": "Ketibaan pertama",
+     "flow": [
+      [
+       "p",
+       "Penerbangan tiba lewat malam? Pemindahan lapangan terbang boleh diatur bersama tempahan anda, jadi tak perlu tawar-menawar dengan pemandu dengan beg yang banyak. Setibanya di rumah, buka pagar luar dengan kunci dan masuk menggunakan kod pad kekunci, tanpa perlu menunggu sesiapa."
+      ]
+     ]
+    },
+    {
+     "h2": "Sungai di depan mata",
+     "flow": [
+      [
+       "p",
+       "Kelebihan utama lokasi ini ialah sungai. Dari bumbung dan anjung, anda melihat air mengalir, dan lampu District 1 menyala apabila hari gelap."
+      ]
+     ]
+    },
+    {
+     "h2": "Peta",
+     "p": [
+      "<a href=\"https://www.google.com/maps/search/?api=1&query=389A+Tr%E1%BA%A7n+Xu%C3%A2n+So%E1%BA%A1n+T%C3%A2n+H%C6%B0ng+Ho+Chi+Minh+City\" rel=\"noopener\">Buka alamat dalam Google Maps</a>. Arahan ketibaan lengkap dihantar selepas tempahan."
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Apakah alamat untuk diberikan kepada pemandu?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh."
+      ],
+      [
+       "Adakah kawasan ini sesuai untuk keluarga?",
+       "Ya, ia kawasan perumahan yang lebih tenang berbanding pusat bandar."
+      ],
+      [
+       "Bolehkah kami dijemput dari lapangan terbang?",
+       "Boleh, pemindahan diatur bersama tempahan."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Perlukan bantuan merancang perjalanan? Hubungi kami di WhatsApp atau Zalo: +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "guide": {
+   "title": "Panduan Melancong Ho Chi Minh | ASCON LIVING",
+   "description": "Aplikasi ASCON Guide percuma: tempat makan, bar, aktiviti keluarga, peta dan info praktikal di Ho Chi Minh. Tanpa kata laluan.",
+   "h1": "Panduan melancong Ho Chi Minh di dalam telefon anda",
+   "lead": "Kali pertama ke Saigon? Aplikasi ASCON Guide ialah panduan bandar percuma yang kami susun untuk tetamu, tanpa kata laluan.",
+   "sections": [
+    {
+     "h2": "Isi kandungan aplikasi",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Kategori",
+         "Apa yang ada"
+        ],
+        "rows": [
+         [
+          "Makan",
+          "Restoran dan makanan jalanan dekat rumah dan di seluruh bandar"
+         ],
+         [
+          "Bar dan malam",
+          "Tempat minum dan hiburan malam"
+         ],
+         [
+          "Kanak-kanak dan keluarga",
+          "Aktiviti untuk anak-anak"
+         ],
+         [
+          "Peta",
+          "Semua tempat ditanda pada peta"
+         ],
+         [
+          "Praktikal",
+          "Maklumat berguna sepanjang penginapan"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Buka aplikasi panduan</a>"
+     ],
+     "cards": [
+      [
+       "Aplikasi panduan percuma",
+       "travel-guide",
+       "Tip tempatan dan peta Ho Chi Minh, percuma dalam pelayar telefon."
+      ]
+     ]
+    },
+    {
+     "h2": "Makan seperti orang tempatan",
+     "flow": [
+      [
+       "p",
+       "Ho Chi Minh terkenal dengan makanan jalanan: sup mi, roti baguette berinti, kopi Vietnam dengan susu pekat. Aplikasi menyenaraikan tempat makan berhampiran rumah di Daerah 7, serta pilihan lain di seluruh bandar, supaya anda tidak tersilap pilih kedai yang hanya untuk pelancong."
+      ]
+     ]
+    },
+    {
+     "h2": "Merancang hari bersiar-siar",
+     "flow": [
+      [
+       "p",
+       "Sama ada mahu melihat seni bina kolonial di District 1, membeli-belah di pasar atau mengunjungi muzium, kategori dalam aplikasi membantu anda menyusun jadual. Setiap tempat dipaparkan pada peta, jadi mudah dikongsi dengan pemandu teksi atau aplikasi e-hailing."
+      ]
+     ]
+    },
+    {
+     "h2": "Untuk keluarga",
+     "flow": [
+      [
+       "p",
+       "Ibu bapa boleh terus ke kategori kanak-kanak dan keluarga untuk aktiviti yang sesuai dengan si kecil, termasuk pilihan untuk hari hujan."
+      ]
+     ]
+    },
+    {
+     "h2": "Hiburan malam",
+     "flow": [
+      [
+       "p",
+       "Selepas makan malam BBQ di atas bumbung, ada yang mahu keluar lagi. Aplikasi mencadangkan bar dan tempat hiburan malam untuk melengkapkan malam anda."
+      ]
+     ]
+    },
+    {
+     "h2": "Maklumat praktikal",
+     "flow": [
+      [
+       "p",
+       "Info tentang rumah dan bandar, seperti cara masuk dan perkara penting semasa menginap, dikumpulkan di satu tempat. Tak perlu lagi menyelongkar mesej lama untuk mencari maklumat."
+      ]
+     ]
+    },
+    {
+     "h2": "Bagaimana mendapatkannya",
+     "flow": [
+      [
+       "p",
+       "Aplikasi ini percuma dan tanpa kata laluan. Buka aplikasi di telefon dan mula merancang, walaupun sebelum anda berlepas."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Ada cadangan untuk anak-anak?",
+       "Ada, dalam kategori kanak-kanak dan keluarga."
+      ],
+      [
+       "Adakah tempat ditunjukkan pada peta?",
+       "Ya, setiap tempat ada pada peta."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Tempah penginapan dan dapatkan akses aplikasi: WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "faq": {
+   "title": "Soalan Lazim Homestay Ho Chi Minh | ASCON LIVING",
+   "description": "Semua jawapan tentang homestay ASCON LIVING di Daerah 7: cara masuk, bilik tidur, bilik air, karaoke, BBQ bumbung, WiFi, dapur dan tempahan.",
+   "h1": "Soalan yang sering ditanya tentang homestay kami",
+   "lead": "Kami kumpulkan soalan yang paling kerap diajukan oleh tetamu dari Malaysia dan negara lain. Jika jawapan anda tiada di sini, mesej sahaja kami.",
+   "sections": [
+    {
+     "h2": "Tentang rumah",
+     "faq": [
+      [
+       "Adakah saya berkongsi rumah dengan tetamu lain?",
+       "Tidak. Seluruh rumah tiga tingkat berserta bumbung adalah untuk kumpulan anda sahaja."
+      ],
+      [
+       "Berapa besar rumah ini?",
+       "Lebih 250 m² merangkumi 3 tingkat dan teres bumbung kira-kira 56–60 m²."
+      ],
+      [
+       "Di mana lokasinya?",
+       "389A Đường Trần Xuân Soạn, Tân Hưng, Daerah 7, Ho Chi Minh, di tepi sungai."
+      ]
+     ]
+    },
+    {
+     "h2": "Bilik tidur dan bilik air",
+     "faq": [
+      [
+       "Apakah saiz katil?",
+       "Bilik utama kira-kira 55 m² dengan katil 180×200 cm. Bilik tidur 2 dan 3 masing-masing katil 160×200 cm. Bilik tidur 3 tidak bertingkap."
+      ],
+      [
+       "Berapa bilik air?",
+       "Tiga bilik air en-suite dan satu tandas tetamu dengan kelengkapan yang sama."
+      ],
+      [
+       "Apa yang disediakan di bilik air?",
+       "Air panas, syampu, sabun mandian, ubat gigi dan tuala. Selipar disediakan di pintu masuk."
+      ]
+     ]
+    },
+    {
+     "h2": "Hiburan dan bumbung",
+     "faq": [
+      [
+       "Ada karaoke?",
+       "Ada. Bilik hiburan mempunyai mikrofon karaoke, PlayStation dengan PlayStation Plus, projektor 4K dan TV 4K."
+      ],
+      [
+       "Bolehkah kami buat BBQ?",
+       "Boleh. Gril BBQ di bumbung juga boleh digunakan sebagai smoker."
+      ],
+      [
+       "Ada Netflix?",
+       "Ada, bergantung pada akaun yang sedang aktif."
+      ]
+     ]
+    },
+    {
+     "h2": "Dapur dan dobi",
+     "faq": [
+      [
+       "Bolehkah kami memasak?",
+       "Boleh. Dapur lengkap dengan ketuhar, periuk nasi, air fryer dan peti sejuk kira-kira 540 liter."
+      ],
+      [
+       "Ada mesin basuh?",
+       "Ada, dan tetamu boleh menggunakannya. Servis dobi juga boleh diminta."
+      ]
+     ]
+    },
+    {
+     "h2": "Lain-lain",
+     "faq": [
+      [
+       "Ada peti besi?",
+       "Ada, bersama seterika."
+      ]
+     ]
+    },
+    {
+     "h2": "Tempahan dan ketibaan",
+     "faq": [
+      [
+       "Bagaimana cara masuk ke rumah?",
+       "Kunci pad kekunci pada pintu dan kunci untuk pagar luar. Butiran dihantar selepas tempahan."
+      ],
+      [
+       "Ada pemindahan lapangan terbang?",
+       "Ada, boleh diatur bersama tempahan."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Masih ada soalan? WhatsApp atau Zalo kami di +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "booking": {
+   "title": "Tempah Rumah Penuh di Ho Chi Minh | ASCON LIVING",
+   "description": "Tempah ASCON LIVING di Daerah 7, Ho Chi Minh, melalui WhatsApp/Zalo +84 909 410 382, Airbnb atau Trip.com. Pemindahan lapangan terbang boleh diatur.",
+   "h1": "Cara menempah ASCON LIVING Riverside",
+   "lead": "Sama ada anda suka berurusan terus atau lebih selesa dengan platform tempahan, kami ada pilihan untuk anda. Beritahu kami tarikh dan rancangan percutian anda.",
+   "sections": [
+    {
+     "h2": "Saluran tempahan",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Saluran",
+         "Butiran"
+        ],
+        "rows": [
+         [
+          "WhatsApp",
+          "+84 909 410 382"
+         ],
+         [
+          "Zalo",
+          "+84 909 410 382"
+         ],
+         [
+          "E-mel",
+          "ascon.living@gmail.com"
+         ],
+         [
+          "Platform",
+          "Airbnb dan Trip.com"
+         ],
+         [
+          "Pemindahan",
+          "Lapangan terbang, diatur bersama tempahan"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Tempah terus dengan kami",
+     "flow": [
+      [
+       "p",
+       "Mesej kami melalui WhatsApp atau Zalo dengan tarikh ketibaan, tarikh pulang dan sedikit tentang kumpulan anda. Kami akan menjawab soalan tentang tarikh, harga, pemindahan dan susunan bilik tidur. E-mel juga boleh digunakan jika anda lebih suka."
+      ]
+     ]
+    },
+    {
+     "h2": "Tempah melalui platform",
+     "flow": [
+      [
+       "p",
+       "Jika anda lebih biasa dengan Airbnb atau Trip.com, ASCON LIVING juga tersenarai di kedua-dua platform tersebut."
+      ]
+     ]
+    },
+    {
+     "h2": "Apa yang termasuk",
+     "flow": [
+      [
+       "p",
+       "Seluruh rumah tiga tingkat dan bumbung, cadar dan tuala, air panas, syampu, sabun mandian, ubat gigi, selipar, peti besi, seterika, WiFi mesh sehingga 1 Gbit/s, bilik hiburan dengan karaoke dan PlayStation, serta gril BBQ dan smoker di atas bumbung. Mesin basuh boleh digunakan oleh tetamu."
+      ]
+     ]
+    },
+    {
+     "h2": "Perkhidmatan tambahan",
+     "flow": [
+      [
+       "p",
+       "Pemindahan lapangan terbang boleh diatur bersama tempahan. Servis dobi tersedia atas permintaan."
+      ]
+     ]
+    },
+    {
+     "h2": "Selepas tempahan disahkan",
+     "flow": [
+      [
+       "p",
+       "Anda akan menerima maklumat cara masuk: kod pad kekunci untuk pintu dan kunci untuk pagar luar. Aplikasi ASCON Guide adalah percuma dan tanpa kata laluan, jadi anda boleh mula merancang tempat makan dan aktiviti."
+      ]
+     ]
+    },
+    {
+     "h2": "Tips menempah",
+     "flow": [
+      [
+       "p",
+       "Musim cuti sekolah dan cuti umum biasanya lebih cepat penuh. Mesej awal supaya tarikh pilihan anda masih kosong."
+      ]
+     ]
+    },
+    {
+     "cta": true
+    },
+    {
+     "h2": "Hubungi kami",
+     "p": [
+      "Telefon dan WhatsApp: <a href=\"tel:{phone_e164}\">{phone}</a>",
+      "Zalo: <a href=\"https://zalo.me/84909410382\" rel=\"noopener\">{phone}</a>",
+      "E-mel: <a href=\"mailto:{email}\">{email}</a>"
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Bolehkah saya tempah terus tanpa platform?",
+       "Boleh, melalui WhatsApp, Zalo atau e-mel."
+      ],
+      [
+       "Platform apa yang digunakan?",
+       "Airbnb dan Trip.com."
+      ],
+      [
+       "Bolehkah pemindahan lapangan terbang diatur?",
+       "Boleh, bersama tempahan anda."
+      ]
+     ]
+    }
+   ]
+  },
+  "rules": {
+   "title": "Peraturan Rumah ASCON LIVING Ho Chi Minh",
+   "description": "Panduan ringkas untuk penginapan di ASCON LIVING, Daerah 7: cara masuk, penggunaan rumah dan dapur, BBQ dan jiran. Hubungi kami di WhatsApp.",
+   "h1": "Peraturan rumah: supaya semua selesa",
+   "lead": "Rumah ini milik anda sepanjang penginapan, dan kami percaya tetamu akan menjaganya seperti rumah sendiri. Berikut beberapa panduan ringkas untuk keselesaan anda dan jiran.",
+   "sections": [
+    {
+     "h2": "Ringkasan",
+     "flow": [
+      [
+       "table",
+       {
+        "head": [
+         "Perkara",
+         "Panduan"
+        ],
+        "rows": [
+         [
+          "Masuk",
+          "Kod pad kekunci dan kunci pagar luar"
+         ],
+         [
+          "Kasut",
+          "Tanggalkan di pintu masuk, pakai selipar"
+         ],
+         [
+          "Dapur",
+          "Bersihkan selepas memasak"
+         ],
+         [
+          "BBQ",
+          "Padamkan api dengan selamat selepas guna"
+         ],
+         [
+          "Jiran",
+          "Kawasan perumahan, rendahkan suara pada waktu malam"
+         ],
+         [
+          "Kamera",
+          "Kamera luar di pintu masuk"
+         ]
+        ]
+       }
+      ]
+     ]
+    },
+    {
+     "h2": "Peraturan asas",
+     "flow": [
+      [
+       "ul",
+       [
+        "Daftar masuk 14:00–23:00, daftar keluar 12:00.",
+        "Pendaftaran tetamu diwajibkan oleh undang-undang Vietnam.",
+        "Dilarang merokok di dalam rumah; merokok hanya di kawasan luar yang ditetapkan.",
+        "Muzik kuat dibenarkan sehingga 21:30.",
+        "Tiada parti liar.",
+        "Hanya tetamu berdaftar boleh menginap."
+       ]
+      ]
+     ]
+    },
+    {
+     "h2": "Masuk dan keluar rumah",
+     "flow": [
+      [
+       "p",
+       "Pintu dibuka menggunakan kunci pad kekunci, dan pagar luar dengan kunci. Sila jangan kongsi kod dengan orang di luar kumpulan anda dan pastikan pagar dikunci apabila keluar."
+      ]
+     ]
+    },
+    {
+     "h2": "Di dalam rumah",
+     "flow": [
+      [
+       "p",
+       "Tanggalkan kasut di pintu masuk dan pakai selipar yang disediakan, supaya lantai kekal bersih. Mesin basuh boleh digunakan oleh tetamu. Gunakan peti besi untuk pasport dan barang berharga."
+      ]
+     ]
+    },
+    {
+     "h2": "Dapur dan bilik hiburan",
+     "flow": [
+      [
+       "p",
+       "Selamat memasak. Selepas makan, basuh pinggan mangkuk atau letakkan semula di tempatnya. Di bilik hiburan, layan peralatan seperti mikrofon, pengawal PlayStation dan projektor dengan berhati-hati."
+      ]
+     ]
+    },
+    {
+     "h2": "BBQ di atas bumbung",
+     "flow": [
+      [
+       "p",
+       "Gril BBQ dan smoker boleh digunakan oleh tetamu. Jangan tinggalkan api tanpa pengawasan, pastikan kanak-kanak berada pada jarak selamat, dan padamkan api sepenuhnya selepas selesai."
+      ]
+     ]
+    },
+    {
+     "h2": "Menghormati jiran",
+     "flow": [
+      [
+       "p",
+       "ASCON LIVING terletak di kawasan perumahan. Bila malam semakin lewat, rendahkan suara terutamanya di bumbung dan balkoni."
+      ]
+     ]
+    },
+    {
+     "h2": "Soalan lazim",
+     "faq": [
+      [
+       "Bagaimana kami masuk ke rumah?",
+       "Melalui kunci pad kekunci dan kunci pagar luar."
+      ],
+      [
+       "Siapa yang perlu dihubungi jika ada masalah?",
+       "Kami, melalui WhatsApp atau Zalo."
+      ]
+     ]
+    },
+    {
+     "p": [
+      "Ada soalan tentang peraturan rumah? WhatsApp atau Zalo +84 909 410 382."
+     ],
+     "cta": true
+    }
+   ]
+  },
+  "travel-guide": {
+   "title": "Aplikasi Panduan Ho Chi Minh Percuma | ASCON",
+   "description": "Aplikasi panduan pelancongan ASCON percuma: tip tempatan, tempat makan dan lawatan, peta dan bantuan praktikal di Ho Chi Minh. Dibuka dalam pelayar telefon.",
+   "h1": "Aplikasi panduan pelancongan Ho Chi Minh percuma",
+   "lead": "ASCON Guide ialah aplikasi web percuma dengan tip tempatan dan tempat menarik di Ho Chi Minh. Ia dibuka terus dalam pelayar telefon: tanpa kata laluan, tiada apa perlu dipasang.",
+   "sections": [
+    {
+     "p": [
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Buka aplikasi panduan</a>"
+     ]
+    },
+    {
+     "h2": "Lihat di dalam aplikasi",
+     "p": [
+      "Ini tangkapan skrin sebenar aplikasi pada telefon (aplikasi belum ada dalam Bahasa Melayu, jadi skrin dalam bahasa Inggeris)."
+     ],
+     "imgs": [
+      [
+       "tg-welcome",
+       "Skrin alu-aluan dengan logo dan moto ASCON LIVING"
+      ],
+      [
+       "tg-picker",
+       "Pilihan bahasa: aplikasi tersedia dalam sepuluh bahasa"
+      ],
+      [
+       "tg-categories",
+       "Kategori: makanan, kafe, bar, aktiviti keluarga dan lain-lain"
+      ],
+      [
+       "tg-map",
+       "Peta tempat di sekitar rumah"
+      ],
+      [
+       "tg-practical",
+       "Maklumat praktikal dan bantuan kecemasan"
+      ]
+     ]
+    },
+    {
+     "h2": "Tip tempatan dan tempat menarik",
+     "p": [
+      "Tempat disusun dalam kategori yang jelas: makanan, kafe dan pencuci mulut, bar dan hiburan malam, kanak-kanak dan keluarga, tarikan dan budaya, aktiviti, santai, membeli-belah, lawatan sehari, serta maklumat praktikal dan kecemasan. Peta menunjukkan tempat di sekitar rumah, dan satu ketikan pada Laluan membuka arah.",
+      "Anda boleh menambah aplikasi ke skrin utama. Lebih banyak idea ada dalam <a href=\"{L}guide/\">panduan pelancongan Ho Chi Minh</a> kami.",
+      "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Buka aplikasi panduan</a>"
+     ]
+    },
+    {
+     "cta": true
+    }
+   ]
+  }
+ }
+}

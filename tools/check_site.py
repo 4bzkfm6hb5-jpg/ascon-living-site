@@ -30,7 +30,7 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
             if not os.path.exists(D+p): errs.append((f,'img',p))
     for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>',s,re.S): json.loads(m.group(1).replace('<\\/','</'))
     t=re.search(r'<title>(.*?)</title>',s); d=re.search(r'<meta name="description" content="(.*?)"',s)
-    cj=any(c in f for c in CJKL); L=(lambda x:width(x)) if cj else len; tl,dl=(64,160) if cj else (60,160)
+    cj=any(c in f for c in CJKL); L=(lambda x:width(x)) if cj else (lambda x:sum(1 for ch in x if unicodedata.category(ch)!='Mn')) if '/th/' in f else len; tl,dl=(64,160) if cj else (60,160)
     if t and L(html.unescape(t.group(1)))>tl: errs.append((f,'title',L(html.unescape(t.group(1)))))
     if d and L(html.unescape(d.group(1)))>dl: errs.append((f,'desc',L(html.unescape(d.group(1)))))
     if '**' in txt or '[//]' in txt: errs.append((f,'markdown',''))

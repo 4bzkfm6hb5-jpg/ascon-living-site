@@ -1,0 +1,99 @@
+"""TH / MS / ID from MR texts: extends tools/build_cjk.py (same pipeline and rules) with language config."""
+import re,sys,os
+sys.path.insert(0,os.path.dirname(__file__))
+import build_cjk as B
+def ext(rx,more,flags=0): return re.compile(rx.pattern+'|'+more,rx.flags|flags)
+B.REP.update({
+ 'th':[("ใช้ได้ทั้งเนื้อเพลงคาราโอเกะ เกม และสตรีมมิ่ง","ใช้ได้ทั้งคาราโอเกะ เกม และสตรีมมิ่ง"),("ขึ้นเนื้อเพลงบนจอใหญ่","ร้องคาราโอเกะ"),
+   ("แอปเฉพาะแขกของ ASCON LIVING รับรหัสผ่านหลังจอง","แอปฟรี ไม่ต้องใช้รหัสผ่าน"),("ได้รหัสผ่านแอปเมื่อไร","แอปต้องใช้รหัสผ่านไหม"),
+   ("หลังจอง เฉพาะแขกของ ASCON LIVING","ไม่ต้อง แอปฟรีและเปิดในเบราว์เซอร์มือถือได้ทันที"),("จองแล้วรับรหัสผ่านแอปไปพร้อมกัน","แอปใช้ได้ฟรีทันที"),
+   ("และรหัสผ่านแอป ASCON Guide ให้","ให้ แอป ASCON Guide ใช้ได้ฟรี ไม่ต้องใช้รหัสผ่าน"),("แอป ASCON Guide (รหัสผ่านหลังจอง)","แอป ASCON Guide (ฟรี ไม่ต้องใช้รหัสผ่าน)"),
+   ("แอป ASCON Guide สำหรับแขก","แอป ASCON Guide ฟรี"),("การดูแลบ้านและอุปกรณ์ และอุปกรณ์ความปลอดภัย","และการดูแลบ้านและอุปกรณ์"),
+   ("อยู่อย่างอุ่นใจ","ข้อมูลการเข้าพัก"),("การเข้าพักและความปลอดภัย","การเข้าพักและเช็คอิน"),("ภายนอกอาคารเท่านั้น","มีกล้องภายนอกบริเวณทางเข้า"),("ราวระเบียง","ราวเฉลียง")],
+ 'ms':[("villa","rumah"),("Villa","Rumah"),
+   ("Kami juga menghantar kata laluan aplikasi ASCON Guide supaya anda boleh mula merancang tempat makan dan aktiviti.","Aplikasi ASCON Guide adalah percuma dan tanpa kata laluan, jadi anda boleh mula merancang tempat makan dan aktiviti."),
+   ("Selepas tempahan, anda menerima kata laluan aplikasi ASCON Guide yang mempunyai","Aplikasi ASCON Guide yang percuma mempunyai"),
+   ("Aplikasi ASCON Guide, yang kata laluannya diberi selepas tempahan, mengumpulkan","Aplikasi ASCON Guide yang percuma mengumpulkan"),
+   ("Aplikasi ASCON Guide untuk tetamu:","Aplikasi ASCON Guide percuma:"),(" Kata laluan diberikan selepas tempahan."," Tanpa kata laluan."),
+   ("Selepas membuat tempahan, anda akan menerima kata laluan aplikasi ASCON Guide, panduan bandar yang kami susun khas untuk tetamu.","Aplikasi ASCON Guide ialah panduan bandar percuma yang kami susun untuk tetamu, tanpa kata laluan."),
+   ("Kata laluan dihantar selepas tempahan disahkan. Buka aplikasi","Aplikasi ini percuma dan tanpa kata laluan. Buka aplikasi"),
+   ("Bila saya terima kata laluan aplikasi?","Adakah aplikasi memerlukan kata laluan?"),("Selepas tempahan anda disahkan.","Tidak. Aplikasi ini percuma dan dibuka terus dalam pelayar telefon."),
+   ("Keselamatan diutamakan","Kelengkapan praktikal"),("Keselamatan di luar","Kamera di pintu masuk"),("Tangga dan keselamatan","Tangga"),
+   (", dapur, keselamatan dan tempahan",", dapur dan tempahan"),(", BBQ, jiran dan keselamatan.",", BBQ dan jiran."),
+   (", bot kayu sesekali melintas,",","),("Dari bumbung dan balkoni","Dari bumbung dan anjung"),("pagar balkoni","pagar anjung")],
+ 'id':[("villa","rumah"),("Villa","Rumah"),
+   ("Anda menerima info akses masuk dan kata sandi aplikasi ASCON Guide.","Anda menerima info akses masuk. Aplikasi ASCON Guide gratis, tanpa kata sandi."),
+   ("plus kata sandi aplikasi ASCON Guide untuk mulai menyusun daftar tempat makan dan wisata.","dan aplikasi ASCON Guide yang gratis bisa langsung dipakai untuk menyusun daftar tempat makan dan wisata."),
+   ("Setelah memesan, Anda dapat kata sandi aplikasi ASCON Guide yang punya","Aplikasi ASCON Guide yang gratis punya"),
+   (" Kata sandi dikirim setelah pemesanan."," Gratis, tanpa kata sandi."),
+   ("Setelah pemesanan dikonfirmasi, Anda mendapat kata sandi aplikasi ASCON Guide, panduan kota yang kami susun khusus untuk tamu.","Aplikasi ASCON Guide adalah panduan kota gratis yang kami susun untuk tamu, tanpa kata sandi."),
+   ("Aplikasi bisa dibuka begitu kata sandi diterima, jadi Anda","Aplikasi bisa langsung dibuka, jadi Anda"),
+   ("Kapan saya mendapat kata sandi?","Apakah aplikasi perlu kata sandi?"),("Setelah pemesanan dikonfirmasi.","Tidak. Aplikasinya gratis dan langsung dibuka di browser ponsel."),
+   ("Keamanan nomor satu","Perlengkapan praktis"),("Privasi tetap terjaga","Kamera di pintu masuk"),("Tangga dan keamanan","Tangga"),
+   (", dapur, keamanan, dan cara pesan",", dapur, dan cara pesan"),(", BBQ di rooftop, tetangga, dan keamanan.",", BBQ di rooftop, dan tetangga."),
+   (" perahu kayu yang sesekali lewat,",""),("Dari rooftop dan balkon","Dari rooftop dan teras"),("pagar balkon","pagar teras")]})
+for _l,_v in {'th': [('มีไมโครโฟน เนื้อเพลงบนทีวีที่รองรับหรือแอปคาราโอเกะ', 'มีไมโครโฟน')], 'ms': [('Mikrofon dan lirik pada skrin projektor 4K', 'Mikrofon dan skrin projektor 4K'), ('Ya, dengan mikrofon dan lirik pada skrin.', 'Ya, dengan mikrofon karaoke.'), ('Pasang lagu kegemaran, lirik terpapar besar pada skrin projektor 4K dan mikrofon bertukar tangan.', 'Pasang lagu kegemaran dan biarkan mikrofon bertukar tangan.'), ('Turun ke bilik hiburan, pilih lagu, dan lirik akan terpapar besar pada skrin projektor 4K.', 'Turun ke bilik hiburan dan pilih lagu.'), ('wayang 4K, peti besi dan kamera di luar sahaja.', 'wayang 4K dan peti besi.'), (', ditambah gril BBQ dan sofa rotan.', ', ditambah gril BBQ.')], 'id': [('Mikrofon dan lirik di layar proyektor 4K', 'Mikrofon dan layar proyektor 4K'), ('Ada, dengan mikrofon dan lirik di layar.', 'Ada, lengkap dengan mikrofon karaoke.'), ('Pilih lagu, lirik muncul besar di layar proyektor 4K, dan mikrofon berpindah tangan.', 'Pilih lagu dan biarkan mikrofon berpindah tangan.'), ('Pilih lagu, lirik muncul besar di layar proyektor 4K, dan mikrofon berpindah dari tangan ke tangan.', 'Pilih lagu dan biarkan mikrofon berpindah dari tangan ke tangan.'), (', lirik tampil di layar proyektor 4K,', ', proyektor 4K,'), ('nonton film 4K, brankas, kamera hanya di luar.', 'nonton film 4K, dan brankas.'), (', lengkap dengan panggangan BBQ dan sofa rotan.', ', lengkap dengan panggangan BBQ.')]}.items(): B.REP[_l][:0]=_v
+B.CAMN.update({'th':'มีกล้องภายนอกบริเวณทางเข้า','ms':'Terdapat kamera luar di pintu masuk.','id':'Ada kamera luar di area pintu masuk.'})
+B.CAMCELL.update({'th':'กล้องภายนอกบริเวณทางเข้า','ms':'Kamera luar di pintu masuk','id':'Kamera luar di area pintu masuk'})
+B.CAM=ext(B.CAM,r'กล้อง|(?i:\bkamera\b)|CCTV')
+B.DROP=ext(B.DROP,r'เนื้อเพลง|เครื่องตรวจจับควัน|ปฐมพยาบาล|ถังดับเพลิง|ทางออกฉุกเฉิน|ป้ายทางออก|ไฟฉุกเฉิน|สัญญาณเตือนไฟ|\d+\s*นาที|วิลล่า|จอดรถ|สระว่ายน้ำ|แลนด์มาร์ก|ฟู้หมี่|ฮาลาล|สัตว์เลี้ยง|ฝากกระเป๋า|คีย์การ์ด|สมาร์ทล็อก|ยูโร|รหัสผ่านหลังจอง|รับรหัสผ่าน|รหัสผ่านแอป|อุปกรณ์ความปลอดภัย|'
+ r'\blirik\b|pengesan asap|penggera asap|pertolongan cemas|pemadam api|tanda keluar|lampu kecemasan|\d+\s*minit|\d+\s*menit|parkir|letak kereta|kolam renang|haiwan peliharaan|hewan peliharaan|bagasi|kad kunci|kartu kunci|kunci pintar|\beuro\b|'
+ r'detektor asap|alarm asap|P3K|lampu darurat|kata laluan aplikasi|kata laluannya|terima kata laluan|kata sandi aplikasi|kata sandi dikirim|kata sandi diterima|mendapat kata sandi')
+B.DROPQ=ext(B.DROPQ,r'ความปลอดภัย|ในบ้านมีกล้อง|(?i:keselamatan|keamanan|kamera di dalam|kamera dipasang di dalam)')
+B.DROP_SECS=re.compile(r'^(\d+\.\s*)?(안전|安全|ความปลอดภัย|Keselamatan|Keamanan)$')
+B.DROP_ROWS=re.compile(r'^(안전|安全|ความปลอดภัย|Keselamatan|Keamanan)$')
+B.CAMROW=re.compile(r'^(카메라|カメラ|摄像头|กล้อง|Kamera)$')
+B.PAGE_DROP={'room-outside':ext(B.PAGE_DROP['room-outside'],r'ระเบียง|หวาย|เรือ|(?i:balkoni|balkon|rotan|\bbot\b|perahu|kapal)'),'room-hallway':ext(B.PAGE_DROP['room-hallway'],r'ระเบียง|(?i:balkoni|balkon)')}
+B.RV=ext(B.RV,r'วิวแม่น้ำ|(?i:pemandangan sungai)')
+B.RVNEUT.update({'th':'วิว','ms':lambda m:'Pemandangan' if m.group(0)[0]=='P' else 'pemandangan','id':lambda m:'Pemandangan' if m.group(0)[0]=='P' else 'pemandangan'})
+B.LOC.update({'th':('คำถามที่พบบ่อย','รูปภาพ'),'ms':('Soalan lazim','Gambar'),'id':('Pertanyaan umum','Foto')})
+B.SPLIT['th']=re.compile(r'\S+(?:\s+|$)')
+B.FAQSECREN.update({'ms':{'Keselamatan':'Lain-lain'},'id':{'Keamanan':'Lainnya'}})
+B.UI.update({'th':{"skip":"ข้ามไปที่เนื้อหา","languages":"ภาษา","book_airbnb":"จองผ่าน Airbnb","book_trip":"จองผ่าน Trip.com","whatsapp":"จองผ่าน WhatsApp","zalo":"จองผ่าน Zalo","address_label":"ที่อยู่","contact_label":"ติดต่อ","more_label":"เพิ่มเติม","guest_guide":"แอปคู่มือแขก","read_more":"อ่านต่อ","source":"แหล่งที่มา","estimate":"ประมาณ","home":"หน้าแรก","not_found_title":"ไม่พบหน้านี้","not_found_text":"ไม่มีหน้านี้ ไปที่หน้าแรก:"},
+ 'ms':{"skip":"Langkau ke kandungan","languages":"Bahasa","book_airbnb":"Tempah di Airbnb","book_trip":"Tempah di Trip.com","whatsapp":"Tempah melalui WhatsApp","zalo":"Tempah melalui Zalo","address_label":"Alamat","contact_label":"Hubungi","more_label":"Lagi","guest_guide":"Aplikasi panduan tetamu","read_more":"Baca lagi","source":"Sumber","estimate":"anggaran","home":"Utama","not_found_title":"Halaman tidak dijumpai","not_found_text":"Halaman ini tidak wujud. Pergi ke laman utama:"},
+ 'id':{"skip":"Langsung ke konten","languages":"Bahasa","book_airbnb":"Pesan di Airbnb","book_trip":"Pesan di Trip.com","whatsapp":"Pesan via WhatsApp","zalo":"Pesan via Zalo","address_label":"Alamat","contact_label":"Kontak","more_label":"Lainnya","guest_guide":"Aplikasi panduan tamu","read_more":"Baca selengkapnya","source":"Sumber","estimate":"perkiraan","home":"Beranda","not_found_title":"Halaman tidak ditemukan","not_found_text":"Halaman ini tidak ada. Kembali ke beranda:"}})
+B.NAV.update({'th':['หน้าแรก','ตัวบ้าน','ดาดฟ้า','ครอบครัว','กลุ่ม','ที่ตั้ง','จองและติดต่อ','คำถามที่พบบ่อย','กฎของบ้าน','คู่มือเที่ยว','แอปคู่มือ'],
+ 'ms':['Utama','Rumah','Bumbung','Keluarga','Kumpulan','Lokasi','Tempahan & Hubungi','Soalan Lazim','Peraturan Rumah','Panduan','Aplikasi Panduan'],
+ 'id':['Beranda','Rumah','Rooftop','Keluarga','Rombongan','Lokasi','Pemesanan & Kontak','FAQ','Aturan Rumah','Panduan Wisata','Aplikasi Panduan']})
+B.CARD.update({'th':['ห้องคาราโอเกะและบันเทิง','ห้องนั่งเล่น','ครัวและมุมทานอาหาร','ห้องนอนใหญ่','ห้องนอน 2','ห้องนอน 3','ห้องน้ำ','โถงและมุมทำงาน','ภายนอกและริมแม่น้ำ','ดาดฟ้า'],
+ 'ms':['Karaoke & hiburan','Ruang tamu','Dapur & ruang makan','Bilik tidur utama','Bilik tidur 2','Bilik tidur 3','Bilik air','Lorong & ruang kerja','Luar & tepi sungai','Teres bumbung'],
+ 'id':['Karaoke & hiburan','Ruang keluarga','Dapur & ruang makan','Kamar tidur utama','Kamar tidur 2','Kamar tidur 3','Kamar mandi','Lorong & ruang kerja','Luar & tepi sungai','Rooftop']})
+B.ROOMSH.update({'th':'รายละเอียดแต่ละห้อง','ms':'Bilik demi bilik','id':'Detail setiap ruangan'})
+B.FAQH.update({'th':'คำถามที่พบบ่อย','ms':'Soalan lazim','id':'Pertanyaan umum'})
+B.ROOMSEC.update({'th':'ภายในบ้านทีละห้อง','ms':'Apa yang anda dapat','id':'Fasilitas utama'})
+B.CONTACTH.update({'th':'ติดต่อ','ms':'Hubungi kami','id':'Kontak'})
+T,Z,E='<a href="tel:{phone_e164}">{phone}</a>','<a href="https://zalo.me/84909410382" rel="noopener">{phone}</a>','<a href="mailto:{email}">{email}</a>'
+B.CONTACT.update({'th':['โทรศัพท์และ WhatsApp: '+T,'Zalo: '+Z,'อีเมล: '+E],'ms':['Telefon dan WhatsApp: '+T,'Zalo: '+Z,'E-mel: '+E],'id':['Telepon dan WhatsApp: '+T,'Zalo: '+Z,'Email: '+E]})
+M=B.MAPS
+B.MAPSEC.update({'th':{'h2':'แผนที่','p':[f'<a href="{M}" rel="noopener">เปิดที่อยู่ใน Google Maps</a> คำแนะนำการเดินทางโดยละเอียดจะส่งให้หลังจอง']},
+ 'ms':{'h2':'Peta','p':[f'<a href="{M}" rel="noopener">Buka alamat dalam Google Maps</a>. Arahan ketibaan lengkap dihantar selepas tempahan.']},
+ 'id':{'h2':'Peta','p':[f'<a href="{M}" rel="noopener">Buka alamat di Google Maps</a>. Petunjuk kedatangan lengkap dikirim setelah pemesanan.']}})
+B.APPBTN.update({'th':'เปิดแอปคู่มือเที่ยว','ms':'Buka aplikasi panduan','id':'Buka aplikasi panduan'})
+B.TG.update({'th':{'h2':'แอปคู่มือเที่ยวฟรี','p':'วางแผนเที่ยวด้วยแอปคู่มือเที่ยว ASCON ฟรี ร้านอร่อย ที่เที่ยว และแผนที่ เปิดในเบราว์เซอร์มือถือได้เลย','card':['แอปคู่มือเที่ยวฟรี','คำแนะนำท้องถิ่นและแผนที่โฮจิมินห์ ฟรีในเบราว์เซอร์มือถือ']},
+ 'ms':{'h2':'Aplikasi panduan pelancongan percuma','p':'Rancang hari anda dengan aplikasi panduan ASCON percuma: tip tempatan, tempat makan dan lawatan serta peta, terus dalam pelayar telefon anda.','card':['Aplikasi panduan percuma','Tip tempatan dan peta Ho Chi Minh, percuma dalam pelayar telefon.']},
+ 'id':{'h2':'Aplikasi panduan wisata gratis','p':'Rencanakan hari Anda dengan aplikasi panduan ASCON gratis: tips lokal, tempat makan dan wisata, serta peta, langsung di browser ponsel.','card':['Aplikasi panduan gratis','Tips lokal dan peta Ho Chi Minh, gratis di browser ponsel.']}})
+B.HOUSE.update({'th':dict(title='บ้านทั้งหลังในโฮจิมินห์ ดูทีละห้อง | ASCON',description='บ้าน 3 ชั้นพร้อมดาดฟ้า ห้องนอน 3 ห้องพร้อมห้องน้ำในตัว ห้องนั่งเล่นราว 40 ตร.ม. ครัว และห้องคาราโอเกะ ดูรูปและอุปกรณ์ทีละห้อง',h1='ตัวบ้าน: ที่พักโฮจิมินห์ทั้งหลัง ดูทีละห้อง',lead='บ้าน 3 ชั้นพร้อมดาดฟ้า พื้นที่กว่า 250 ตร.ม. เป็นของกลุ่มคุณเท่านั้น ดูรูปและอุปกรณ์ของแต่ละห้องได้ที่นี่'),
+ 'ms':dict(title='Rumah Penuh di Ho Chi Minh, Bilik demi Bilik | ASCON',description='Tiga tingkat dan bumbung: 3 bilik tidur en-suite, ruang tamu kira-kira 40 m², dapur lengkap dan bilik karaoke dengan projektor 4K. Lihat setiap bilik.',h1='Rumah ini: homestay Ho Chi Minh anda, bilik demi bilik',lead='Tiga tingkat, teres bumbung dan lebih 250 m² ruang yang hanya untuk kumpulan anda. Lihat foto dan kelengkapan setiap bilik.'),
+ 'id':dict(title='Rumah Utuh di Ho Chi Minh, Kamar per Kamar | ASCON',description='Tiga lantai plus rooftop: 3 kamar tidur dengan kamar mandi dalam, ruang keluarga sekitar 40 m², dapur lengkap, dan ruang karaoke dengan proyektor 4K.',h1='Rumahnya: penginapan Ho Chi Minh Anda, kamar per kamar',lead='Tiga lantai, rooftop, dan lebih dari 250 m² ruang yang hanya untuk rombongan Anda. Lihat foto dan fasilitas setiap ruangan.')})
+B.OUTSIDE.update({'th':dict(title='บ้านริมแม่น้ำ เฉลียงและวิวแม่น้ำ | ASCON LIVING',description='บ้านพักทั้งหลังริมแม่น้ำในโฮจิมินห์ เฉลียงราวสีขาวและกันสาด มองเห็นแม่น้ำและเส้นขอบฟ้าเขต 1',h1='ที่พักริมแม่น้ำในโฮจิมินห์: ชมแม่น้ำจากเฉลียง',lead='ASCON LIVING เป็นบ้านริมแม่น้ำ ยืนชมแม่น้ำและเส้นขอบฟ้าเขต 1 จากเฉลียงราวสีขาว'),
+ 'ms':dict(description='Rumah penuh tepi sungai di Ho Chi Minh: anjung berpagar putih dengan kanopi, pemandangan sungai dan latar langit District 1.'),
+ 'id':dict(description='Rumah utuh di tepi sungai, Ho Chi Minh: teras berpagar putih dengan kanopi, pemandangan sungai, dan gedung-gedung District 1.')})
+B.TGP.update({'th':dict(title='แอปคู่มือเที่ยวโฮจิมินห์ฟรี | ASCON',description='แอปคู่มือเที่ยว ASCON ฟรี คำแนะนำท้องถิ่น ร้านอาหารและที่เที่ยว แผนที่ และข้อมูลจำเป็นในโฮจิมินห์ เปิดในเบราว์เซอร์มือถือ',h1='แอปคู่มือเที่ยวโฮจิมินห์ฟรี',lead='ASCON Guide เป็นเว็บแอปฟรีที่รวมคำแนะนำและสถานที่ในโฮจิมินห์ เปิดในเบราว์เซอร์มือถือได้ทันที ไม่ต้องใช้รหัสผ่าน ไม่ต้องติดตั้ง',
+   h2a='ภาพตัวอย่างในแอป',pa='ภาพหน้าจอจริงของแอปบนมือถือ (แอปยังไม่มีภาษาไทย ภาพจึงเป็นภาษาอังกฤษ)',caps=['หน้าต้อนรับพร้อมโลโก้และคำขวัญ ASCON LIVING','เลือกภาษา: แอปมีให้เลือก 10 ภาษา','หมวดหมู่: อาหาร คาเฟ่ บาร์ ที่เที่ยวครอบครัว และอื่นๆ','แผนที่สถานที่รอบบ้าน','ข้อมูลจำเป็นและความช่วยเหลือฉุกเฉิน'],
+   h2b='คำแนะนำท้องถิ่นและสถานที่',pb=['สถานที่แบ่งเป็นหมวดชัดเจน: อาหาร คาเฟ่และของหวาน บาร์และไนท์ไลฟ์ เด็กและครอบครัว ที่เที่ยวและวัฒนธรรม กิจกรรม พักผ่อน ช้อปปิ้ง เที่ยวรอบเมือง และข้อมูลจำเป็นและฉุกเฉิน แผนที่แสดงสถานที่รอบบ้าน แตะ "เส้นทาง" เพื่อเปิดการนำทาง','เพิ่มแอปไว้ที่หน้าจอหลักได้ ไอเดียเพิ่มเติมอยู่ใน<a href="{L}guide/">คู่มือเที่ยวโฮจิมินห์</a>ของเรา']),
+ 'ms':dict(title='Aplikasi Panduan Ho Chi Minh Percuma | ASCON',description='Aplikasi panduan pelancongan ASCON percuma: tip tempatan, tempat makan dan lawatan, peta dan bantuan praktikal di Ho Chi Minh. Dibuka dalam pelayar telefon.',h1='Aplikasi panduan pelancongan Ho Chi Minh percuma',lead='ASCON Guide ialah aplikasi web percuma dengan tip tempatan dan tempat menarik di Ho Chi Minh. Ia dibuka terus dalam pelayar telefon: tanpa kata laluan, tiada apa perlu dipasang.',
+   h2a='Lihat di dalam aplikasi',pa='Ini tangkapan skrin sebenar aplikasi pada telefon (aplikasi belum ada dalam Bahasa Melayu, jadi skrin dalam bahasa Inggeris).',caps=['Skrin alu-aluan dengan logo dan moto ASCON LIVING','Pilihan bahasa: aplikasi tersedia dalam sepuluh bahasa','Kategori: makanan, kafe, bar, aktiviti keluarga dan lain-lain','Peta tempat di sekitar rumah','Maklumat praktikal dan bantuan kecemasan'],
+   h2b='Tip tempatan dan tempat menarik',pb=['Tempat disusun dalam kategori yang jelas: makanan, kafe dan pencuci mulut, bar dan hiburan malam, kanak-kanak dan keluarga, tarikan dan budaya, aktiviti, santai, membeli-belah, lawatan sehari, serta maklumat praktikal dan kecemasan. Peta menunjukkan tempat di sekitar rumah, dan satu ketikan pada Laluan membuka arah.','Anda boleh menambah aplikasi ke skrin utama. Lebih banyak idea ada dalam <a href="{L}guide/">panduan pelancongan Ho Chi Minh</a> kami.']),
+ 'id':dict(title='Aplikasi Panduan Wisata Ho Chi Minh Gratis | ASCON',description='Aplikasi panduan wisata ASCON gratis: tips lokal, tempat makan dan wisata, peta, dan info praktis di Ho Chi Minh. Langsung dibuka di browser ponsel.',h1='Aplikasi panduan wisata Ho Chi Minh gratis',lead='ASCON Guide adalah aplikasi web gratis berisi tips lokal dan tempat menarik di Ho Chi Minh. Langsung dibuka di browser ponsel: tanpa kata sandi, tanpa instalasi.',
+   h2a='Intip isi aplikasinya',pa='Ini tangkapan layar asli aplikasi di ponsel (aplikasi belum tersedia dalam bahasa Indonesia, jadi tampilannya berbahasa Inggris).',caps=['Layar sambutan dengan logo dan moto ASCON LIVING','Pilihan bahasa: aplikasi tersedia dalam sepuluh bahasa','Kategori: kuliner, kafe, bar, wisata keluarga, dan lainnya','Peta tempat di sekitar rumah','Info praktis dan bantuan darurat'],
+   h2b='Tips lokal dan tempat menarik',pb=['Tempat dikelompokkan dalam kategori yang jelas: kuliner, kafe dan dessert, bar dan hiburan malam, anak dan keluarga, wisata dan budaya, aktivitas, relaksasi, belanja, day trip, serta info praktis dan darurat. Peta menampilkan tempat di sekitar rumah, dan sekali ketuk pada Rute langsung membuka petunjuk arah.','Aplikasi bisa ditambahkan ke layar utama. Ide lainnya ada di <a href="{L}guide/">panduan wisata Ho Chi Minh</a> kami.'])})
+B.RULES.update({'th':{'h2':'กฎพื้นฐาน','flow':[['ul',['เช็คอิน 14:00–23:00 เช็คเอาท์ 12:00','ตามกฎหมายเวียดนาม แขกทุกคนต้องลงทะเบียน','ห้ามสูบบุหรี่ในบ้าน สูบได้เฉพาะพื้นที่กลางแจ้งที่กำหนด','เปิดเพลงเสียงดังได้ถึง 21:30','ห้ามจัดปาร์ตี้เสียงดังวุ่นวาย','เข้าพักได้เฉพาะแขกที่ลงทะเบียนแล้ว']]]},
+ 'ms':{'h2':'Peraturan asas','flow':[['ul',['Daftar masuk 14:00–23:00, daftar keluar 12:00.','Pendaftaran tetamu diwajibkan oleh undang-undang Vietnam.','Dilarang merokok di dalam rumah; merokok hanya di kawasan luar yang ditetapkan.','Muzik kuat dibenarkan sehingga 21:30.','Tiada parti liar.','Hanya tetamu berdaftar boleh menginap.']]]},
+ 'id':{'h2':'Aturan dasar','flow':[['ul',['Check-in 14:00–23:00, check-out 12:00.','Registrasi tamu wajib menurut hukum Vietnam.','Dilarang merokok di dalam rumah; merokok hanya di area luar yang ditentukan.','Musik keras boleh sampai pukul 21:30.','Tidak boleh ada pesta liar.','Hanya tamu terdaftar yang boleh menginap.']]]}})
+B.KWCAP.update({'th':[("ในบ้านพักทั้งหลังเขต 7","ในบ้านพักทั้งหลังนี้"),("บ้านพักทั้งหลังเขต 7","บ้านพักทั้งหลังนี้"),("บ้านพักเขต 7","บ้านพักนี้"),("เขต 7 ใกล้ชีวิตท้องถิ่น","ใกล้ชีวิตท้องถิ่น"),("Tân Hưng (เขต 7)","Tân Hưng"),("บอกว่าเขต 7 เข้าใจง่ายที่สุด","บอกแบบนี้เข้าใจง่ายที่สุด"),("บ้านริมแม่น้ำเขต 7","บ้านริมแม่น้ำของเรา")],
+ 'ms':[("rumah penuh Daerah 7","rumah penuh ini"),("Tân Hưng, Daerah 7","Tân Hưng"),("Kenapa ramai memilih Daerah 7","Kenapa ramai memilih kawasan ini"),("Daerah 7 menawarkan","Kawasan ini menawarkan")],
+ 'id':[("rumah sewa Distrik 7","rumah sewa ini"),("rumah Distrik 7","rumah ini"),("Tân Hưng, Distrik 7","Tân Hưng")]})
+LANGS=('th','ms','id')
+if __name__=='__main__':
+    for l in (sys.argv[1:] or LANGS): B.build(l)
+    for x in B.LOG: print(*x,sep=' | ')
