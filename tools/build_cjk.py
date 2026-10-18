@@ -43,8 +43,10 @@ DROP_ROWS=re.compile(r'^(안전|安全)$')
 CAMROW=re.compile(r'^(카메라|カメラ|摄像头)$')
 PAGE_DROP={'room-outside':re.compile(r'발코니|バルコニー|阳台|라탄|ラタン|藤|나무배|배가 지나|보트|ボート|舟|船'),'room-hallway':re.compile(r'발코니|バルコニー|阳台')}
 RV=re.compile(r'강 전망|강이 보이는|리버뷰|川の眺め|リバービュー|川が見える|川を望む|河景|江景')
-PHOTO=re.compile(r'\s*[（(](사진|写真|照片|photo)\s*\d+[)）]')
+PHOTO=re.compile(r'(?i)\s*[（(](?:사진|写真|照片|photo|foto|ภาพ|รูป|фото|ảnh|imagem|immagine|imagen)\s*\d+[)）]')
 NOTE=re.compile(r'\s*[（(][^()（）]*(버튼|ボタン|按钮|유지|維持|保留)[^()（）]*[)）]')
+SPLIT={}
+FAQSECREN={}  # FAQ-page section renames (applied before DROP_SECS)  # per-language clause splitter (e.g. Thai: whitespace)
 SENT=re.compile(r'.+?(?:[!?。！？]+\s*|\.(?:\s+|$)|$)')
 EXACT={'zh':{'河景和第一郡天际线':'河畔屋顶视野，远眺第一郡天际线'}}
 def light(l,s):
@@ -60,10 +62,10 @@ def clean(l,s,w,pid=None,cam_ok=True):
     for a,b in REP[l]: s=s.replace(a,b)
     pd=PAGE_DROP.get(pid)
     out=[]; cam=False
-    for p in SENT.findall(s):
+    for p in SPLIT.get(l,SENT).findall(s):
         if DROP.search(p) or (pd and pd.search(p)): LOG.append((l,w,'DROPPED: '+p.strip()[:100])); continue
         if cam_ok and CAM.search(p):
-            if not cam: out.append(CAMN[l]+(' ' if l=='ko' else '')); cam=True
+            if not cam: out.append(CAMN[l]+('' if l in ('ja','zh') else ' ')); cam=True
             LOG.append((l,w,'camera->neutral: '+p.strip()[:80])); continue
         out.append(p)
     s=''.join(out).strip()
@@ -114,6 +116,7 @@ def load(l,f,pid=None,faq_page=False):
     m={k:clean(l,v,w,pid) for k,v in m.items()}
     secs=[]
     for s in S:
+        if faq_page and s['h2'] in FAQSECREN.get(l,{}): s['h2']=FAQSECREN[l][s['h2']]
         h=clean(l,s['h2'],w,pid,False)
         if DROP_SECS.match(s['h2']) or not h or (PAGE_DROP.get(pid) and PAGE_DROP[pid].search(s['h2'])): LOG.append((l,w,'DROPPED SECTION: '+s['h2'])); continue
         sec={'h2':h}; fl=cl_flow(l,s['flow'],w,pid)
@@ -143,6 +146,7 @@ def images(l,imgs,folder,pid):
     out=[]
     for raw,alt in imgs:
         i=resolve(raw,folder,pid,l); alt=ALTREP.get(l,{}).get(alt,alt)
+        alt=light(l,alt) if alt else alt
         if i and alt and not (PAGE_DROP.get(pid) and PAGE_DROP[pid].search(alt)) and not DROP.search(alt): out.append([i,alt])
     return out
 # ---------------- localized UI / structure ----------------
