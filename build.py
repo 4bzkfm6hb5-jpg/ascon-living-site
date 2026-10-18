@@ -136,5 +136,13 @@ def main():
     en=C['en']['ui']
     open(f'{OUT}/404.html','w').write(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{en['not_found_title']} | ASCON LIVING</title><meta name="robots" content="noindex"><style>{CSS}</style></head>
 <body><main class="wrap ph" style="max-width:700px;margin:auto;padding:48px 16px"><h1>{en['not_found_title']}</h1><p>{en['not_found_text']} <a href="{BASE}/en/">ASCON LIVING</a></p><ul>{links}</ul></main></body></html>''')
+    # retired languages (Urdu, Punjabi): leave simple noindex redirect pages to the English equivalents
+    for code,slugs in json.load(open('tools/retired.json')).items():
+        shutil.rmtree(f'{OUT}/{code}',ignore_errors=True)
+        for slug in slugs:
+            d=f'{OUT}/{code}/{slug}'; os.makedirs(d,exist_ok=True)
+            open(f'{d}index.html','w').write(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ASCON LIVING</title>
+<link rel="canonical" href="{SITE}/en/{slug}"><meta name="robots" content="noindex,follow"><meta http-equiv="refresh" content="0;url={BASE}/en/{slug}">
+<script>location.replace('{BASE}/en/{slug}'+location.hash)</script></head><body><p><a href="{BASE}/en/{slug}">ASCON LIVING (English)</a></p></body></html>''')
     print('published:',[x[0] for x in PUB],'pages:',len(urls))
 if __name__=='__main__': main()
