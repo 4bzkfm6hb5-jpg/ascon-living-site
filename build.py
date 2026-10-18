@@ -2,7 +2,12 @@
 """Static site builder. Add content/<code>.json to publish a language; nothing else needed."""
 import json, os, html, shutil, datetime
 ROOT=os.path.dirname(os.path.abspath(__file__)); OUT=os.path.join(ROOT,'docs')
-SITE='https://4bzkfm6hb5-jpg.github.io/ascon-living-site'; BASE='/ascon-living-site'
+F=json.load(open(f'{ROOT}/facts.json'))
+# Single settings for where the site lives (facts.json): absolute origin for canonical/hreflang/og/JSON-LD/sitemap,
+# and the root-relative path prefix for links/assets ('' on the custom domain; was '/ascon-living-site' on github.io).
+SITE=F['site_url'].rstrip('/'); BASE=F.get('base_path','').rstrip('/')
+from urllib.parse import urlparse as _up
+DOMAIN=_up(SITE).netloc  # docs/CNAME for GitHub Pages custom domain (not written for *.github.io)
 PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','families/'),('groups','groups/'),
 ('location','location/'),('booking','booking/'),('faq','faq/'),('rules','house-rules/'),('guide','guide/'),
 ('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),('travel-guide','travel-guide/'),
@@ -12,7 +17,7 @@ ROOMS=[('room-entertainment','house/karaoke-entertainment/'),('room-living','hou
 ('room-bedroom-2','house/bedroom-2/'),('room-bedroom-3','house/bedroom-3/'),('room-bathrooms','house/bathrooms/'),('room-hallway','house/hallway/'),('room-outside','house/outside/')]
 PAGES+=ROOMS
 SLUG=dict(PAGES)
-F=json.load(open(f'{ROOT}/facts.json')); IMG=json.load(open(f'{ROOT}/tools/images.json'))
+IMG=json.load(open(f'{ROOT}/tools/images.json'))
 LANGS=json.load(open(f'{ROOT}/languages.json'))
 CSS=open(f'{ROOT}/tools/style.css').read().replace('\n','')
 PUB=[l for l in LANGS if os.path.exists(f'{ROOT}/content/{l[0]}.json')]
@@ -153,6 +158,9 @@ def main():
             alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in HAS(pid))+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/en/{slug}"/>'
             sm.append(f'<url><loc>{SITE}/{l[0]}/{slug}</loc><lastmod>{TODAY}</lastmod>{alts}</url>')
     sm.append('</urlset>'); open(f'{OUT}/sitemap.xml','w').write('\n'.join(sm))
+    if DOMAIN.endswith('.github.io'):
+        if os.path.exists(f'{OUT}/CNAME'): os.remove(f'{OUT}/CNAME')
+    else: open(f'{OUT}/CNAME','w').write(DOMAIN+'\n')
     open(f'{OUT}/robots.txt','w').write(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
     open(f'{OUT}/.nojekyll','w').write('')
     codes=json.dumps([[x[0],x[1]] for x in PUB])
