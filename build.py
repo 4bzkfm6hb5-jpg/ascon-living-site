@@ -39,8 +39,13 @@ def sub(s,code): return s.replace('{L}',f'{BASE}/{code}/').replace('{phone_e164}
 def pic(name,alt,eager=False,sizes='(min-width:900px) 380px, 100vw'):
     m=IMG[name]; ws=m['widths']; src=f'{BASE}/assets/img/{name}-'
     ss=', '.join(f'{src}{w}.webp {w}w' for w in ws); w=ws[-1]; h=round(m['h']*w/m['w'])
-    attrs='fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
+    attrs='fetchpriority="high" decoding="async"' if eager else 'loading="lazy" decoding="async"'
     return f'<img src="{src}{ws[min(1,len(ws)-1)]}.webp" srcset="{ss}" sizes="{sizes}" width="{w}" height="{h}" alt="{html.escape(alt)}" {attrs}>'
+def preload(name,sizes):
+    # <head> preload for the LCP hero/cover: same src/srcset/sizes as pic(..., eager=True), so it is fetched once
+    m=IMG[name]; ws=m['widths']; src=f'{BASE}/assets/img/{name}-'
+    ss=', '.join(f'{src}{w}.webp {w}w' for w in ws)
+    return f'<link rel="preload" as="image" href="{src}{ws[min(1,len(ws)-1)]}.webp" imagesrcset="{ss}" imagesizes="{sizes}" type="image/webp" fetchpriority="high">'
 def cta(u):
     return (f'<p><a class="btn b1" href="{F["airbnb"]}" rel="noopener">{u["book_airbnb"]}</a>'
             f'<a class="btn b2" href="{F["trip"]}" rel="noopener">{u["book_trip"]}</a>'
@@ -134,12 +139,14 @@ def page(l,pid):
     picker=('<details class="lang"><summary>🌐 '+flag(code,False)+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid] if pid in C[x[0]]["pages"] else ""}" hreflang="{x[1]}" lang="{x[1]}"'+(' aria-current="true"' if x[0]==code else '')+f'>{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
     lm=IMG['logo-mark']; lf=IMG['logo-full']
     if pid=='home':
+        pre=preload(p["hero"][0],"100vw")
         top=(f'<div class="hero">{pic(p["hero"][0],p["hero"][1],True,"100vw")}<div class="in"><h1>{html.escape(p["h1"])}</h1>'
              f'<p>{html.escape(p["lead"])}</p><p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u)}</div></div><div class="wrap">')
     else:
+        pre=preload(p["cover"][0],"(min-width:900px) 900px, 100vw") if p.get('cover') else ''
         top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')+(f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,"(min-width:900px) 900px, 100vw")}</figure>' if p.get('cover') else '')
     body=''.join(section(s,code,u) for s in p['sections'])
-    return f'''<!doctype html><html lang="{hl}" dir="{dirn}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f'''<!doctype html><html lang="{hl}" dir="{dirn}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{pre}
 <title>{html.escape(title)}</title><meta name="description" content="{html.escape(p['description'])}"><link rel="canonical" href="{canon}">{alts}
 <meta property="og:type" content="website"><meta property="og:site_name" content="ASCON LIVING"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(p['description'])}"><meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/img/og.jpg"><meta property="og:locale" content="{hl.replace('-','_')}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{BASE}/favicon.png"><meta name="theme-color" content="#14233f">{fontlink}<style>{css}</style>{ldh}</head>

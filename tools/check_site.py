@@ -88,4 +88,15 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
         for r in v.get('containsPlace',{}).get('containsPlace',[]):
             fs=r.get('floorSize')
             if fs and not (isinstance(fs.get('value'),(int,float)) and fs.get('unitCode')=='MTK'): errs.append((f,'vr-floor',r.get('name')))
+# LCP hero/cover: fetchpriority=high, not lazy, and a matching <link rel=preload> in <head> (same srcset/sizes -> single download)
+for f in glob.glob(f'{D}/*/**/index.html',recursive=True):
+    s=open(f).read()
+    if 'noindex' in s: continue
+    m=re.search(r'<img [^>]*fetchpriority="high"[^>]*>',s)
+    if not m: continue
+    im=m.group(0)
+    if 'loading="lazy"' in im: errs.append((f,'lcp','lazy'))
+    g=lambda t,a: (re.search(a+r'="([^"]*)"',t) or [None,None])[1]
+    head=s.split('</head>')[0]; pl=re.search(r'<link rel="preload" as="image"[^>]*>',head)
+    if not pl or g(pl.group(0),'imagesrcset')!=g(im,'srcset') or g(pl.group(0),'imagesizes')!=g(im,'sizes') or g(pl.group(0),'href')!=g(im,'src'): errs.append((f,'lcp','preload mismatch'))
 print(n,'pages'); [print(e) for e in errs[:60]]; print(len(errs),'issues')
