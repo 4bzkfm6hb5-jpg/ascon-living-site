@@ -33,6 +33,8 @@ for _l,_o in _SEO.items():
     for _k,(_old,_new) in _o.get('replace',{}).items():
         if _old not in _h[_k]: raise SystemExit(f'seo_overrides: {_l} {_k} text not found: {_old}')
         if _new not in _h[_k]: _h[_k]=_h[_k].replace(_old,_new,1)
+    for _k,_add in _o.get('append',{}).items():
+        if _add.strip() not in _h[_k]: _h[_k]=_h[_k].rstrip()+_add
 for _l,_rules in _SEO.get('_rewrite',{}).items():
     if _l not in C: continue
     for _pg in C[_l]['pages'].values():

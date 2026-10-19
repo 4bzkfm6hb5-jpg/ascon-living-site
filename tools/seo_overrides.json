@@ -4,21 +4,36 @@
   "set": {
    "title": "Overnachten in Ho Chi Minh: heel huis aan de rivier",
    "h1": "Overnachten in Ho Chi Minh: heel huis aan de rivier"
+  },
+  "append": {
+   "lead": " Elk van de drie slaapkamers heeft een eigen badkamer."
   }
  },
  "fr": {
   "set": {
-   "title": "Logement à Ho Chi Minh : maison entière au bord de l'eau"
+   "title": "Logement à Ho Chi Minh : maison entière au bord de l'eau",
+   "description": "Logement à Saigon : maison entière au bord de la rivière, 3 chambres avec chacune sa salle de bain privative, karaoké, barbecue sur le toit, Wi-Fi 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Chacune des trois chambres a sa propre salle de bain."
   }
  },
  "pl": {
   "set": {
-   "title": "Nocleg w Ho Chi Minh: cały dom nad rzeką | ASCON LIVING"
+   "title": "Nocleg w Ho Chi Minh: cały dom nad rzeką | ASCON LIVING",
+   "description": "Cały dom nad rzeką w Ho Chi Minh: 3 sypialnie, każda z własną łazienką, prywatne karaoke, taras na dachu z grillem, Wi-Fi do 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Każda z trzech sypialni ma własną łazienkę."
   }
  },
  "ms": {
   "set": {
-   "title": "Penginapan di Ho Chi Minh: sewa rumah penuh | ASCON LIVING"
+   "title": "Penginapan di Ho Chi Minh: sewa rumah penuh | ASCON LIVING",
+   "description": "Rumah penuh tepi sungai di Ho Chi Minh: 3 bilik tidur, setiap satu dengan bilik air sendiri, bilik karaoke, BBQ atas bumbung dan WiFi 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Setiap satu daripada tiga bilik tidur mempunyai bilik air sendiri."
   }
  },
  "sv": {
@@ -30,31 +45,50 @@
     "Ska ni resa till Ho Chi Minh med familjen eller vänner?",
     "Söker ni boende i Ho Chi Minh för familjen eller vänner?"
    ]
+  },
+  "append": {
+   "lead": " Varje sovrum har eget badrum."
   }
  },
  "it": {
   "set": {
-   "h1": "Dove dormire a Ho Chi Minh: una casa tutta vostra sul fiume"
+   "h1": "Dove dormire a Ho Chi Minh: una casa tutta vostra sul fiume",
+   "description": "Casa intera sul fiume a Ho Chi Minh: 3 camere, ognuna con il suo bagno privato, karaoke privato, terrazza con barbecue, Wi-Fi fino a 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Ognuna delle tre camere ha il suo bagno privato."
   }
  },
  "zh-tw": {
   "set": {
-   "h1": "胡志明市包棟民宿：西貢河畔，一整棟都是你們的"
+   "h1": "胡志明市包棟民宿：西貢河畔，一整棟都是你們的",
+   "description": "胡志明市河畔整棟出租：3間臥室，每間都有獨立衛浴，私人KTV、可看河景與城市天際線的頂樓烤肉露台、最高1 Gbit/s網路。全家出遊、朋友揪團都適合。"
+  },
+  "append": {
+   "lead": "每間臥室都有獨立衛浴。"
   }
  },
  "hi": {
   "set": {
-   "h1": "हो ची मिन्ह में ठहरने की जगह: नदी किनारे पूरा घर, सिर्फ़ आपके लिए"
+   "h1": "हो ची मिन्ह में ठहरने की जगह: नदी किनारे पूरा घर, सिर्फ़ आपके लिए",
+   "description": "हो ची मिन्ह में नदी किनारे पूरा घर: 3 बेडरूम, हर बेडरूम का अपना बाथरूम, प्राइवेट कराओके, छत पर बारबेक्यू, 1 Gbit/s तक Wi-Fi."
+  },
+  "append": {
+   "lead": " तीनों बेडरूम में हर एक का अपना बाथरूम है।"
   }
  },
  "de": {
   "set": {
-   "description": "Unterkunft in Ho-Chi-Minh-Stadt: das ganze ASCON LIVING Ferienhaus in Tân Hưng (Distrikt 7), 3 Schlafzimmer mit eigenem Bad, Dachterrasse, Karaoke."
+   "description": "Unterkunft in Ho-Chi-Minh-Stadt: das ganze ASCON LIVING Ferienhaus in Tân Hưng, jedes der 3 Schlafzimmer mit eigenem Bad, Dachterrasse, Karaoke."
   }
  },
  "vi": {
   "set": {
-   "title": "Homestay nguyên căn ở Sài Gòn, TP. Hồ Chí Minh"
+   "title": "Homestay nguyên căn ở Sài Gòn, TP. Hồ Chí Minh",
+   "description": "Thuê nhà nguyên căn theo ngày ven sông ở Sài Gòn: 3 phòng ngủ, mỗi phòng có phòng tắm riêng, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Cả 3 phòng ngủ đều có phòng tắm riêng."
   }
  },
  "en": {
@@ -63,6 +97,9 @@
     "to the District 1 skyline.",
     "to the District 1 skyline. It is a vacation rental for one group at a time, so the whole house is yours for your stay."
    ]
+  },
+  "set": {
+   "description": "Rent the whole ASCON LIVING house in Tân Hưng, Ho Chi Minh City: 3 bedrooms, each with its own bathroom, rooftop with river view, karaoke and BBQ."
   }
  },
  "_rewrite_doc": "Per-language (old,new) rewrites applied by build.py to title/h1/description of every page: no district names in title, H1 or meta-description start (19 Oct 2026).",
@@ -735,11 +772,17 @@
   "es": {
    "room-entertainment": {
     "title": "Casa en Saigón con karaoke y PlayStation | ASCON LIVING"
+   },
+   "house": {
+    "description": "Tres plantas y azotea: 3 dormitorios, cada uno con baño propio, salón de unos 40 m², cocina equipada y sala de karaoke con proyector 4K."
    }
   },
   "it": {
    "room-entertainment": {
     "title": "Casa a Saigon con karaoke e PlayStation | ASCON LIVING"
+   },
+   "house": {
+    "description": "Tre piani e terrazza: 3 camere, ognuna con il suo bagno privato, soggiorno di circa 40 m², cucina attrezzata e sala karaoke con proiettore 4K."
    }
   },
   "ja": {
@@ -755,17 +798,198 @@
   "ru": {
    "room-entertainment": {
     "title": "Дом в Хошимине с караоке и PlayStation | ASCON LIVING"
+   },
+   "room-bedroom-2": {
+    "description": "Спальня 2 в доме в Хошимине: кровать 160×200 см, смарт-телевизор, тёмно-серые шторы и своя ванная комната с горячей водой. Вход из коридора."
    }
   },
   "tr": {
    "rooftop": {
     "title": "Çatı Terası ve Barbekü, Nehir Manzaralı | ASCON LIVING"
+   },
+   "house": {
+    "description": "Üç kat ve çatı terası: her biri kendi banyolu 3 yatak odası, yaklaşık 40 m² salon, tam donanımlı mutfak ve 4K projektörlü karaoke odası."
    }
   },
   "zh-tw": {
    "rooftop": {
     "title": "頂樓露台與烤肉爐，可看河景｜ASCON LIVING"
+   },
+   "house": {
+    "description": "三層樓加屋頂露台：3間臥室，每間都有獨立衛浴，約40㎡客廳、設備齊全的廚房，以及有4K投影機的卡拉OK娛樂室。"
+   },
+   "room-bedroom-2": {
+    "description": "胡志明整棟住宿臥室2：160×200 cm床、智慧電視、深灰色窗簾、立扇，以及有熱水和毛巾的獨立套房衛浴。"
+   },
+   "room-bedroom-3": {
+    "description": "沒有窗戶的臥室3：午睡也很暗，160×200 cm床、智慧電視、放備用毛巾和床單的玻璃衣櫃、獨立套房衛浴。"
+   },
+   "room-master": {
+    "description": "約55 m²的主臥：180×200 cm大床、55吋4K電視、陽台、附無線充電的化妝台、熨斗和獨立套房衛浴。"
    }
+  },
+  "en": {
+   "house": {
+    "description": "Over 250 m² on three floors plus rooftop: 3 bedrooms, each with its own bathroom, 40 m² living room, full kitchen, karaoke room with 4K projector."
+   }
+  },
+  "fr": {
+   "house": {
+    "description": "Trois étages et un toit-terrasse : 3 chambres avec chacune sa salle de bain privative, salon d’environ 40 m², cuisine équipée et salle de karaoké 4K."
+   },
+   "room-master": {
+    "description": "Chambre principale d'environ 55 m² : lit 180×200 cm, TV 4K de 55 pouces, balcon, coiffeuse avec chargeur sans fil, fer à repasser, salle de bain privative."
+   }
+  },
+  "hi": {
+   "house": {
+    "description": "ASCON LIVING अंदर से: हो ची मिन्ह सिटी में पूरा घर, डबल बेड वाले 3 बेडरूम, हर एक का अपना बाथरूम, किचन और एंटरटेनमेंट रूम।"
+   },
+   "room-master": {
+    "description": "लगभग 55 m² का मास्टर बेडरूम: 180×200 cm बेड, 55 इंच 4K TV, बालकनी, वायरलेस चार्जिंग वाली ड्रेसिंग टेबल, प्रेस और अपना अटैच्ड बाथरूम."
+   },
+   "room-bedroom-2": {
+    "description": "हो ची मिन्ह के घर का बेडरूम 2: 160×200 cm बेड, स्मार्ट TV, गहरे ग्रे पर्दे, स्टैंड वाला पंखा और गर्म पानी व तौलियों वाला अपना अटैच्ड बाथरूम."
+   }
+  },
+  "id": {
+   "house": {
+    "description": "Tiga lantai plus rooftop: 3 kamar tidur, masing-masing dengan kamar mandi sendiri, ruang keluarga sekitar 40 m², dapur lengkap, dan ruang karaoke 4K."
+   }
+  },
+  "ms": {
+   "house": {
+    "description": "Tiga tingkat dan bumbung: 3 bilik tidur, setiap satu dengan bilik air sendiri, ruang tamu kira-kira 40 m², dapur lengkap dan bilik karaoke 4K."
+   }
+  },
+  "nl": {
+   "house": {
+    "description": "Drie verdiepingen en een dakterras: 3 slaapkamers, elk met eigen badkamer, woonkamer van ca. 40 m², uitgeruste keuken en karaokekamer met 4K-projector."
+   }
+  },
+  "pa": {
+   "house": {
+    "description": "ASCON LIVING ਅੰਦਰੋਂ: ਹੋ ਚੀ ਮਿਨ੍ਹ ਸ਼ਹਿਰ ਵਿੱਚ ਪੂਰਾ ਘਰ, ਡਬਲ ਬੈੱਡ ਵਾਲੇ 3 ਬੈੱਡਰੂਮ, ਹਰ ਇੱਕ ਦਾ ਆਪਣਾ ਬਾਥਰੂਮ, ਰਸੋਈ ਅਤੇ ਐਂਟਰਟੇਨਮੈਂਟ ਰੂਮ।"
+   }
+  },
+  "ur": {
+   "house": {
+    "description": "ASCON LIVING اندر سے: ہو چی منہ سٹی میں پورا گھر، ڈبل بیڈ والے 3 بیڈروم، ہر ایک کا اپنا باتھ روم، کچن اور انٹرٹینمنٹ روم۔"
+   }
+  },
+  "pl": {
+   "house": {
+    "description": "Trzy piętra i taras na dachu: 3 sypialnie, każda z własną łazienką, salon ok. 40 m², w pełni wyposażona kuchnia i pokój karaoke z projektorem 4K."
+   }
+  },
+  "pt": {
+   "house": {
+    "description": "Três andares e terraço: 3 quartos, cada um com banheiro privativo, sala de cerca de 40 m², cozinha equipada e sala de karaokê com projetor 4K."
+   }
+  },
+  "vi": {
+   "house": {
+    "description": "Nhà nguyên căn ở Sài Gòn có karaoke: 3 phòng ngủ giường đôi, mỗi phòng có phòng tắm riêng, bếp đầy đủ, phòng giải trí và view sông."
+   },
+   "room-master": {
+    "description": "Phòng ngủ chính khoảng 55 m²: giường 180×200 cm, TV 4K 55 inch, ban công riêng, bàn trang điểm có sạc không dây, bàn ủi và phòng tắm riêng."
+   },
+   "room-bedroom-2": {
+    "description": "Phòng ngủ 2 trong nhà nguyên căn ở Sài Gòn: giường 160×200 cm, smart TV, rèm xám đậm và phòng tắm riêng có nước nóng. Cửa mở ra hành lang."
+   },
+   "room-bedroom-3": {
+    "description": "Phòng ngủ 3 không có cửa sổ, tối và yên tĩnh: giường 160×200 cm, smart TV, tủ có khăn, ga và gối dự phòng, phòng tắm riêng. Hợp cho bé ngủ trưa."
+   }
+  },
+  "th": {
+   "house": {
+    "description": "บ้าน 3 ชั้นพร้อมดาดฟ้า ห้องนอน 3 ห้อง ทุกห้องมีห้องน้ำในตัวของตัวเอง ห้องนั่งเล่นราว 40 ตร.ม. ครัว และห้องคาราโอเกะ ดูรูปและอุปกรณ์ทีละห้อง"
+   },
+   "room-master": {
+    "description": "ห้องนอนใหญ่ราว 55 ตร.ม. เตียง 180×200 ซม. ทีวี 4K 55 นิ้ว ระเบียงและห้องน้ำในตัวของตัวเอง โต๊ะเครื่องแป้งพร้อมแท่นชาร์จไร้สาย แอร์แยก บ้านพักโฮจิมินห์"
+   }
+  }
+ },
+ "es": {
+  "set": {
+   "description": "Mejor que un hotel en Ho Chi Minh: casa entera junto al río, 3 dormitorios, cada uno con baño propio, karaoke, barbacoa en la azotea y WiFi de 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Cada uno de los tres dormitorios tiene su propio baño."
+  }
+ },
+ "id": {
+  "set": {
+   "description": "Lebih leluasa dari hotel di Ho Chi Minh: sewa rumah utuh dengan 3 kamar tidur, masing-masing dengan kamar mandi sendiri, ruang karaoke dan BBQ rooftop."
+  },
+  "append": {
+   "lead": " Ketiga kamar tidurnya masing-masing punya kamar mandi sendiri."
+  }
+ },
+ "ja": {
+  "set": {
+   "description": "ホーチミン（タンフン）の一軒家を一棟まるごと貸切。各寝室に専用バスルーム、カラオケとPlayStationのエンタメルーム、川を望むルーフトップBBQ。"
+  }
+ },
+ "ko": {
+  "set": {
+   "description": "호치민 떤흥 강변 독채 숙소. 침실 3개마다 전용 욕실, 노래방·PlayStation 엔터테인먼트룸, 강과 도심 스카이라인이 보이는 루프탑 BBQ. 가족·단체 여행에."
+  }
+ },
+ "pa": {
+  "set": {
+   "description": "ਹੋ ਚੀ ਮਿਨ੍ਹ ਸ਼ਹਿਰ ਵਿੱਚ ਦਰਿਆ ਕੰਢੇ ਪੂਰਾ ਘਰ: ਡਬਲ ਬੈੱਡ ਵਾਲੇ 3 ਬੈੱਡਰੂਮ, ਹਰ ਬੈੱਡਰੂਮ ਦਾ ਆਪਣਾ ਬਾਥਰੂਮ, ਛੱਤ ਅਤੇ BBQ।"
+  },
+  "replace": {
+   "lead": [
+    "Tân Hưng ਵਿੱਚ, Phú Mỹ Hưng (ਸਾਬਕਾ District 7) ਨੇੜੇ, ਦਰਿਆ ਕੰਢੇ ਨਿੱਜੀ ਘਰ ਹੈ: ਡਬਲ ਬੈੱਡ ਵਾਲੇ 3 ਬੈੱਡਰੂਮ ਅਤੇ",
+    "Tân Hưng ਵਿੱਚ ਦਰਿਆ ਕੰਢੇ ਨਿੱਜੀ ਘਰ ਹੈ: ਡਬਲ ਬੈੱਡ ਵਾਲੇ 3 ਬੈੱਡਰੂਮ, ਹਰ ਬੈੱਡਰੂਮ ਦਾ ਆਪਣਾ ਬਾਥਰੂਮ, ਅਤੇ"
+   ]
+  }
+ },
+ "ur": {
+  "set": {
+   "description": "ہو چی منہ سٹی میں دریا کنارے پورا گھر: ڈبل بیڈ والے 3 بیڈروم، ہر بیڈروم کا اپنا باتھ روم، اور چھت پر ٹیرس۔"
+  },
+  "replace": {
+   "lead": [
+    "Tân Hưng میں، Phú Mỹ Hưng (سابق District 7) کے قریب، دریا کنارے نجی گھر ہے: ڈبل بیڈ والے 3 بیڈروم اور",
+    "Tân Hưng میں دریا کنارے نجی گھر ہے: ڈبل بیڈ والے 3 بیڈروم، ہر بیڈروم کا اپنا باتھ روم، اور"
+   ]
+  }
+ },
+ "pt": {
+  "set": {
+   "description": "Alternativa a hotel em Ho Chi Minh: casa inteira à beira do rio, 3 quartos, cada um com banheiro privativo, karaokê, churrasco no terraço e Wi-Fi."
+  },
+  "append": {
+   "lead": " Cada um dos três quartos tem banheiro privativo."
+  }
+ },
+ "ru": {
+  "set": {
+   "description": "Жилье в Хошимине целиком: дом у реки, 3 спальни, у каждой своя ванная, караоке, барбекю на крыше, Wi-Fi до 1 Гбит/с. Пишите в WhatsApp или Zalo."
+  },
+  "append": {
+   "lead": " У каждой из трёх спален своя ванная комната."
+  }
+ },
+ "th": {
+  "set": {
+   "description": "บ้านพักทั้งหลังในโฮจิมินห์ 3 ห้องนอน ทุกห้องมีห้องน้ำในตัวของตัวเอง ห้องคาราโอเกะและ PlayStation ดาดฟ้าบาร์บีคิววิวแม่น้ำและเส้นขอบฟ้าเมือง"
+  }
+ },
+ "tr": {
+  "set": {
+   "description": "Ho Chi Minh'de nehir kenarında 3 katlı kiralık ev: 250 m² üzeri alan, her biri kendi banyolu 3 yatak odası, karaoke odası ve nehir manzaralı çatı terası."
+  },
+  "append": {
+   "lead": " Üç yatak odasının her birinin kendi banyosu var."
+  }
+ },
+ "ar": {
+  "append": {
+   "lead": " ولكل غرفة من غرف النوم الثلاث حمّامها الخاص."
   }
  }
 }
