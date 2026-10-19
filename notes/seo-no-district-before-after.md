@@ -1,0 +1,274 @@
+# No district names in title/H1/meta start — before → after (19 Oct 2026)
+
+- **ar** description: منزل من 3 طوابق للإيجار على ضفة النهر في المنطقة 7 بمدينة هو تشي منه: أكثر من 250 م²، و3 غرف نوم بحمامات خاصة، وغرفة كاريوكي، وسطح بإطلالة على النهر. → منزل من 3 طوابق للإيجار على ضفة النهر في مدينة هو تشي منه: أكثر من 250 م²، و3 غرف نوم بحمامات خاصة، وغرفة كاريوكي، وسطح بإطلالة على النهر.
+- **ar/booking** description: احجزوا ASCON LIVING في المنطقة 7 بمدينة هو تشي منه: واتساب/زالو ‎+84 909 410 382، أو البريد، أو Airbnb، أو Trip.com، مع توصيل من المطار. → احجزوا ASCON LIVING في مدينة هو تشي منه: واتساب/زالو ‎+84 909 410 382، أو البريد، أو Airbnb، أو Trip.com، مع توصيل من المطار.
+- **ar/house/kitchen** description: مطبخ المنزل في المنطقة 7: موقد بسطح زجاجي أسود، وفرن، وميكروويف، وطباخ أرز، وقلاية هوائية، وثلاجة نحو 540 لترًا، وغسالة. → مطبخ المنزل في هو تشي منه: موقد بسطح زجاجي أسود، وفرن، وميكروويف، وطباخ أرز، وقلاية هوائية، وثلاجة نحو 540 لترًا، وغسالة.
+- **ar/house/outside** description: منزل على ضفة النهر في هو تشي منه: تراس بدرابزين أبيض ومظلة، أمامها النهر وأفق المنطقة 1. → منزل على ضفة النهر في هو تشي منه: تراس بدرابزين أبيض ومظلة، أمامها النهر وأفق المدينة.
+- **ar/location** h1: أين ستقيمون: المنطقة 7، تان هونغ → أين ستقيمون: تان هونغ، على ضفة النهر
+- **ar/location** title: الموقع: المنطقة 7 في هو تشي منه | ASCON LIVING → الموقع: منزل على النهر في هو تشي منه | ASCON LIVING
+- **ar/rooftop** description: سطح بمساحة نحو 56 إلى 60 م²: شواية برميلية سوداء تعمل أيضًا كمدخنة، وأريكة روطان، وطاولة داكنة، ومظلة جزئية، وإطلالة على النهر وأفق المنطقة 1. → سطح بمساحة نحو 56 إلى 60 م²: شواية برميلية سوداء تعمل أيضًا كمدخنة، وأريكة روطان، وطاولة داكنة، ومظلة جزئية، وإطلالة على النهر وأفق المدينة.
+- **ar/rooftop** h1: السطح: إطلالة على النهر وأفق المنطقة 1 → السطح: إطلالة على النهر وأفق المدينة
+- **de** h1: Ferienhaus in Ho-Chi-Minh-Stadt (Distrikt 7): ganzes Haus für Familien & Gruppen → Ferienhaus in Ho-Chi-Minh-Stadt: ganzes Haus für Familien & Gruppen
+- **de** title: Ferienhaus Ho-Chi-Minh-Stadt, Distrikt 7 | ASCON LIVING → Ferienhaus in Ho-Chi-Minh-Stadt: ganzes Haus | ASCON LIVING
+- **de/booking** description: Bucht das ganze ASCON LIVING Haus in Distrikt 7, Ho-Chi-Minh-Stadt, bei Airbnb oder Trip.com oder schreibt uns bei Fragen per WhatsApp oder Zalo. → Bucht das ganze ASCON LIVING Haus in Ho-Chi-Minh-Stadt, bei Airbnb oder Trip.com oder schreibt uns bei Fragen per WhatsApp oder Zalo.
+- **de/families** description: Ein ganzes Haus für eure Familie in Distrikt 7, Ho-Chi-Minh-Stadt: 3 Schlafzimmer mit eigenem Bad, Küche, Kinoraum und Dachterrasse mit Flussblick. → Ein ganzes Haus für eure Familie in Ho-Chi-Minh-Stadt: 3 Schlafzimmer mit eigenem Bad, Küche, Kinoraum und Dachterrasse mit Flussblick.
+- **de/families** h1: Familienunterkunft in Distrikt 7: ein ganzes Haus für eure Familie → Familienunterkunft in Saigon: ein ganzes Haus für eure Familie
+- **de/families** title: Familienunterkunft in Distrikt 7, Saigon | ASCON LIVING → Familienunterkunft in Saigon: ganzes Haus | ASCON LIVING
+- **de/guide/airport-transfer** title: Flughafentransfer Tân Sơn Nhất – District 7 | ASCON → Flughafentransfer ab Tân Sơn Nhất zum Haus | ASCON
+- **de/location** h1: Lage: eure Unterkunft in Distrikt 7, Ho-Chi-Minh-Stadt → Lage: eure Unterkunft am Fluss in Ho-Chi-Minh-Stadt
+- **de/location** title: Saigon: wo übernachten? Lage in Distrikt 7 | ASCON LIVING → Saigon: wo übernachten? Lage am Fluss | ASCON LIVING
+- **en** description: Rent the whole ASCON LIVING house in Tân Hưng (District 7), Ho Chi Minh City: 3 en-suite bedrooms, rooftop with river view, karaoke and BBQ. → Rent the whole ASCON LIVING house in Tân Hưng, Ho Chi Minh City: 3 en-suite bedrooms, rooftop with river view, karaoke and BBQ.
+- **en** h1: Whole house in District 7, Ho Chi Minh City – for families and groups → Whole house in Ho Chi Minh City – for families and groups
+- **en** title: Whole House in District 7, Ho Chi Minh City | ASCON LIVING → Whole House in Ho Chi Minh City | ASCON LIVING
+- **en/booking** description: Book the whole ASCON LIVING house in District 7, Ho Chi Minh City, on Airbnb or Trip.com, or message us on WhatsApp or Zalo with any questions. → Book the whole ASCON LIVING house in Ho Chi Minh City, on Airbnb or Trip.com, or message us on WhatsApp or Zalo with any questions.
+- **en/families** description: A whole private house for your family in District 7, Ho Chi Minh City: 3 bedrooms with own bathrooms, kitchen, movie room and rooftop with river view. → A whole private house for your family in Ho Chi Minh City: 3 bedrooms with own bathrooms, kitchen, movie room and rooftop with river view.
+- **en/families** h1: Family accommodation District 7: a whole house for your family → Family accommodation in Saigon: a whole house for your family
+- **en/families** title: Family Accommodation District 7, Saigon | ASCON LIVING → Family Accommodation in Saigon | ASCON LIVING
+- **en/guide/airport-transfer** title: Airport Transfer Tân Sơn Nhất to District 7 | ASCON → Airport Transfer Tân Sơn Nhất to the House | ASCON
+- **en/location** h1: Location: your homestay in District 7, Ho Chi Minh City → Location: your homestay in Ho Chi Minh City
+- **en/location** title: Homestay District 7 Ho Chi Minh: Location | ASCON LIVING → Homestay in Ho Chi Minh City: Location | ASCON LIVING
+- **es/booking** description: Reserva ASCON LIVING, casa entera en el Distrito 7 de Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, correo, Airbnb o Trip.com. Traslado al aeropuerto. → Reserva ASCON LIVING, casa entera en Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, correo, Airbnb o Trip.com. Traslado al aeropuerto.
+- **es/faq** description: Respuestas sobre ASCON LIVING en el Distrito 7 de HCMC: acceso, dormitorios, baños, karaoke, barbacoa en la azotea, WiFi, cocina, seguridad y reservas. → Respuestas sobre ASCON LIVING en Ho Chi Minh: acceso, dormitorios, baños, karaoke, barbacoa en la azotea, WiFi, cocina, seguridad y reservas.
+- **es/house-rules** description: Normas de estancia en ASCON LIVING, Distrito 7 de Ho Chi Minh: acceso, calzado, cocina, barbacoa en la azotea, vecinos y seguridad. Dudas por WhatsApp. → Normas de estancia en ASCON LIVING, Ho Chi Minh: acceso, calzado, cocina, barbacoa en la azotea, vecinos y seguridad. Dudas por WhatsApp.
+- **es/house/bedroom-2** description: Dormitorio 2 en una casa del Distrito 7 de Ho Chi Minh: cama de 160×200 cm, smart TV, cortinas gris oscuro y baño en suite con agua caliente. → Dormitorio 2 en una casa en Ho Chi Minh: cama de 160×200 cm, smart TV, cortinas gris oscuro y baño en suite con agua caliente.
+- **es/house/karaoke-entertainment** title: Karaoke privado y PlayStation en Saigón | ASCON LIVING → Casa en Saigón con karaoke y PlayStation | ASCON LIVING
+- **es/house/kitchen** description: Cocina equipada en una casa del Distrito 7: placa de cristal negro, horno, microondas, arrocera, freidora de aire, frigorífico de unos 540 L y lavadora. → Cocina equipada en una casa en Saigón: placa de cristal negro, horno, microondas, arrocera, freidora de aire, frigorífico de unos 540 L y lavadora.
+- **es/location** h1: Dónde estamos: Distrito 7 de Saigón, a orillas del río → Dónde estamos: en Saigón, a orillas del río
+- **es/location** title: Distrito 7, Ho Chi Minh: casa junto al río | ASCON LIVING → Ubicación en Ho Chi Minh: casa junto al río | ASCON LIVING
+- **es/rooftop** h1: La azotea: barbacoa frente al Distrito 1 → La azotea: barbacoa frente al skyline de Saigón
+- **fr/booking** description: Réservez ASCON LIVING, maison entière dans le District 7 de Saigon : WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb ou Trip.com. Transfert aéroport. → Réservez ASCON LIVING, maison entière à Saigon : WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb ou Trip.com. Transfert aéroport.
+- **fr/faq** description: Réponses sur ASCON LIVING, District 7 de Saigon : accès, chambres, salles de bain, karaoké, barbecue sur le toit, Wi-Fi, cuisine et réservation. → Réponses sur ASCON LIVING à Saigon : accès, chambres, salles de bain, karaoké, barbecue sur le toit, Wi-Fi, cuisine et réservation.
+- **fr/faq** title: FAQ logement à Saigon, District 7 | ASCON LIVING → FAQ logement à Saigon : maison entière | ASCON LIVING
+- **fr/house-rules** description: Règles de séjour à ASCON LIVING, District 7 de Saigon : accès, chaussures, cuisine, barbecue sur le toit, voisinage. → Règles de séjour chez ASCON LIVING à Saigon : accès, chaussures, cuisine, barbecue sur le toit, voisinage.
+- **fr/house/bedroom-2** description: Chambre 2 dans une maison du District 7 de Saigon : lit 160×200 cm, smart TV, rideaux gris foncé et salle de bain privative avec eau chaude. → Chambre 2 dans une maison à Saigon : lit 160×200 cm, smart TV, rideaux gris foncé et salle de bain privative avec eau chaude.
+- **fr/house/kitchen** description: Cuisine équipée dans une maison du District 7 : plaque en verre noir, four, micro-ondes, cuiseur à riz, friteuse à air, frigo d'environ 540 L. → Cuisine équipée dans une maison à Saigon : plaque en verre noir, four, micro-ondes, cuiseur à riz, friteuse à air, frigo d'environ 540 L.
+- **fr/location** h1: Où nous trouver : District 7, au bord de la rivière → Où nous trouver : à Saigon, au bord de la rivière
+- **fr/location** title: District 7 Saigon : maison au bord de l'eau | ASCON LIVING → Où loger à Saigon : maison au bord de l'eau | ASCON LIVING
+- **fr/rooftop** h1: Le toit-terrasse : barbecue face au District 1 → Le toit-terrasse : barbecue face aux tours de Saigon
+- **hi** description: हो ची मिन्ह के डिस्ट्रिक्ट 7 में नदी किनारे पूरा घर: 3 बेडरूम अटैच्ड बाथरूम के साथ, प्राइवेट कराओके, छत पर बारबेक्यू, 1 Gbit/s तक Wi-Fi. → हो ची मिन्ह में नदी किनारे पूरा घर: 3 बेडरूम अटैच्ड बाथरूम के साथ, प्राइवेट कराओके, छत पर बारबेक्यू, 1 Gbit/s तक Wi-Fi.
+- **hi/booking** description: डिस्ट्रिक्ट 7, हो ची मिन्ह में ASCON LIVING पूरा घर बुक करें: WhatsApp/Zalo +84 909 410 382, ईमेल, Airbnb या Trip.com. एयरपोर्ट ट्रांसफ़र भी. → हो ची मिन्ह में ASCON LIVING पूरा घर बुक करें: WhatsApp/Zalo +84 909 410 382, ईमेल, Airbnb या Trip.com. एयरपोर्ट ट्रांसफ़र भी.
+- **hi/faq** description: डिस्ट्रिक्ट 7, हो ची मिन्ह के ASCON LIVING के बारे में जवाब: एंट्री, कमरे, बाथरूम, कराओके, छत पर बारबेक्यू, Wi-Fi, किचन, सुरक्षा और बुकिंग. → हो ची मिन्ह के ASCON LIVING के बारे में जवाब: एंट्री, कमरे, बाथरूम, कराओके, छत पर बारबेक्यू, Wi-Fi, किचन, सुरक्षा और बुकिंग.
+- **hi/guide/airport-transfer** description: Tân Sơn Nhất एयरपोर्ट (SGN) से Tân Hưng, पूर्व District 7 में ASCON LIVING तक: अनुरोध पर निजी ट्रांसफ़र, राइड ऐप या टैक्सी। → Tân Sơn Nhất एयरपोर्ट (SGN) से Tân Hưng में ASCON LIVING तक: अनुरोध पर निजी ट्रांसफ़र, राइड ऐप या टैक्सी।
+- **hi/guide/airport-transfer** title: एयरपोर्ट ट्रांसफ़र Tân Sơn Nhất – District 7 | ASCON → एयरपोर्ट ट्रांसफ़र Tân Sơn Nhất से घर तक | ASCON
+- **hi/house-rules** description: डिस्ट्रिक्ट 7, हो ची मिन्ह के ASCON LIVING में रहने के नियम: एंट्री, जूते, किचन, छत पर बारबेक्यू, पड़ोसी और सुरक्षा. सवाल WhatsApp पर. → हो ची मिन्ह के ASCON LIVING में रहने के नियम: एंट्री, जूते, किचन, छत पर बारबेक्यू, पड़ोसी और सुरक्षा. सवाल WhatsApp पर.
+- **hi/house/kitchen** description: डिस्ट्रिक्ट 7 के घर में पूरा किचन: काले ग्लास वाला कुकटॉप, ओवन, माइक्रोवेव, राइस कुकर, एयर फ़्रायर, लगभग 540 लीटर का फ्रिज और वॉशिंग मशीन. → हो ची मिन्ह के घर में पूरा किचन: काले ग्लास वाला कुकटॉप, ओवन, माइक्रोवेव, राइस कुकर, एयर फ़्रायर, लगभग 540 लीटर का फ्रिज और वॉशिंग मशीन.
+- **hi/house/outside** title: साइगॉन में नदी किनारे घर, डिस्ट्रिक्ट 7 | ASCON LIVING → साइगॉन में नदी किनारे घर | ASCON LIVING
+- **hi/location** h1: हम कहाँ हैं: तान हुंग, डिस्ट्रिक्ट 7, नदी के किनारे → हम कहाँ हैं: तान हुंग, नदी के किनारे
+- **hi/location** title: District 7 Ho Chi Minh: नदी किनारे घर | ASCON LIVING → हो ची मिन्ह: नदी किनारे घर | ASCON LIVING
+- **hi/rooftop** description: डिस्ट्रिक्ट 7 के घर पर लगभग 56–60 m² की छत: स्मोकर वाला काला बैरल बारबेक्यू, रतन सोफ़ा, गहरे रंग की मेज़ और सोलर लाइट. → हो ची मिन्ह के घर पर लगभग 56–60 m² की छत: स्मोकर वाला काला बैरल बारबेक्यू, रतन सोफ़ा, गहरे रंग की मेज़ और सोलर लाइट.
+- **id/booking** description: Pesan rumah utuh ASCON LIVING di Distrik 7 lewat WhatsApp/Zalo +84 909 410 382, email, Airbnb, atau Trip.com. Antar jemput bandara bisa diatur. → Pesan rumah utuh ASCON LIVING di Ho Chi Minh lewat WhatsApp/Zalo +84 909 410 382, email, Airbnb, atau Trip.com. Antar jemput bandara bisa diatur.
+- **id/faq** description: Tanya jawab seputar ASCON LIVING, Distrik 7 Ho Chi Minh: akses masuk, kamar, kamar mandi, karaoke, BBQ rooftop, WiFi, dapur, dan cara pesan. → Tanya jawab seputar ASCON LIVING, Ho Chi Minh: akses masuk, kamar, kamar mandi, karaoke, BBQ rooftop, WiFi, dapur, dan cara pesan.
+- **id/house-rules** description: Aturan rumah ASCON LIVING di Distrik 7: akses masuk, sepatu dan sandal, dapur, BBQ di rooftop, dan tetangga. Hubungi kami lewat WhatsApp. → Aturan rumah ASCON LIVING di Ho Chi Minh: akses masuk, sepatu dan sandal, dapur, BBQ di rooftop, dan tetangga. Hubungi kami lewat WhatsApp.
+- **id/house/bedroom-2** description: Kamar tidur 2 di rumah Distrik 7, Ho Chi Minh: kasur 160×200 cm, smart TV, tirai abu-abu gelap, dan kamar mandi dalam dengan air panas. → Kamar tidur 2 di rumah di Ho Chi Minh: kasur 160×200 cm, smart TV, tirai abu-abu gelap, dan kamar mandi dalam dengan air panas.
+- **id/house/karaoke-entertainment** description: Ruang karaoke pribadi di rumah sewa Distrik 7: mikrofon, PlayStation dengan PlayStation Plus dan 2 controller, proyektor 4K dengan layar tripod, dan TV 4K. → Ruang karaoke pribadi di rumah sewa di Ho Chi Minh: mikrofon, PlayStation dengan PlayStation Plus dan 2 controller, proyektor 4K dengan layar tripod, dan TV 4K.
+- **id/house/kitchen** description: Dapur lengkap di rumah sewa Distrik 7: kompor kaca hitam, oven, microwave, rice cooker, air fryer, kulkas sekitar 540 L, meja makan, dan mesin cuci. → Dapur lengkap di rumah sewa di Ho Chi Minh: kompor kaca hitam, oven, microwave, rice cooker, air fryer, kulkas sekitar 540 L, meja makan, dan mesin cuci.
+- **id/location** h1: Lokasi kami: Distrik 7, persis di tepi sungai → Lokasi kami: Ho Chi Minh, persis di tepi sungai
+- **id/location** title: Penginapan di Distrik 7 Ho Chi Minh | ASCON LIVING → Penginapan di Ho Chi Minh: lokasi | ASCON LIVING
+- **id/rooftop** h1: Rooftop untuk bakar-bakar dengan latar District 1 → Rooftop untuk bakar-bakar dengan latar gedung-gedung Saigon
+- **it** description: Casa intera sul fiume nel Distretto 7 di Ho Chi Minh: 3 camere con bagno, karaoke privato, terrazza con barbecue, Wi-Fi fino a 1 Gbit/s. Scriveteci. → Casa intera sul fiume a Ho Chi Minh: 3 camere con bagno, karaoke privato, terrazza con barbecue, Wi-Fi fino a 1 Gbit/s. Scriveteci.
+- **it/booking** description: Prenotate ASCON LIVING, casa intera nel Distretto 7 di Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb o Trip.com. Transfer dall'aeroporto. → Prenotate ASCON LIVING, casa intera a Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb o Trip.com. Transfer dall'aeroporto.
+- **it/faq** description: Risposte su ASCON LIVING nel Distretto 7 di Ho Chi Minh: entrata, camere, bagni, karaoke, barbecue in terrazza, Wi-Fi, cucina, sicurezza e prenotazione. → Risposte su ASCON LIVING a Ho Chi Minh: entrata, camere, bagni, karaoke, barbecue in terrazza, Wi-Fi, cucina, sicurezza e prenotazione.
+- **it/house-rules** description: Regole del soggiorno ad ASCON LIVING, Distretto 7 di Ho Chi Minh: entrata, scarpe, cucina, barbecue in terrazza, vicinato e sicurezza. Domande su WhatsApp. → Regole del soggiorno ad ASCON LIVING a Ho Chi Minh: entrata, scarpe, cucina, barbecue in terrazza, vicinato e sicurezza. Domande su WhatsApp.
+- **it/house/karaoke-entertainment** title: Karaoke privato e PlayStation a Saigon | ASCON LIVING → Casa a Saigon con karaoke e PlayStation | ASCON LIVING
+- **it/house/kitchen** description: Cucina attrezzata in casa nel Distretto 7: piano cottura in vetro nero, forno, microonde, cuociriso, friggitrice ad aria, frigo da circa 540 L e lavatrice. → Cucina attrezzata in casa a Ho Chi Minh: piano cottura in vetro nero, forno, microonde, cuociriso, friggitrice ad aria, frigo da circa 540 L e lavatrice.
+- **it/house/outside** title: Casa sul fiume a Saigon, Distretto 7 | ASCON LIVING → Casa sul fiume a Saigon: esterni | ASCON LIVING
+- **it/location** h1: Dove siamo: Tân Hưng, Distretto 7, sul fiume → Dove siamo: Tân Hưng, sul fiume
+- **it/location** title: Distretto 7, HCMC: casa sul fiume | ASCON LIVING → Dove siamo a Ho Chi Minh: casa sul fiume | ASCON LIVING
+- **it/rooftop** description: Terrazza di circa 56–60 m² in casa nel Distretto 7 di Ho Chi Minh: barbecue a barile nero con affumicatore, divano in rattan, tavolo e luci solari. → Terrazza di circa 56–60 m² in casa a Ho Chi Minh: barbecue a barile nero con affumicatore, divano in rattan, tavolo e luci solari.
+- **ja** description: ホーチミン7区（タンフン）の一軒家を一棟まるごと貸切。各寝室にバスルーム、カラオケとPlayStationのエンタメルーム、川を望むルーフトップBBQ。 → ホーチミン（タンフン）の一軒家を一棟まるごと貸切。各寝室にバスルーム、カラオケとPlayStationのエンタメルーム、川を望むルーフトップBBQ。
+- **ja** h1: ホーチミンの宿泊は、7区の一棟貸し民泊ASCON LIVINGで → ホーチミンの宿泊は、川沿いの一棟貸し民泊ASCON LIVINGで
+- **ja** title: ホーチミン宿泊 7区の一棟貸し民泊 | ASCON LIVING → ホーチミン宿泊 川沿いの一棟貸し民泊 | ASCON LIVING
+- **ja/booking** description: ASCON LIVING（ホーチミン7区の一棟貸し）はAirbnb・Trip.comからご予約、またはWhatsApp・Zaloで事前にご相談いただけます。空港送迎も一緒にご依頼ください。 → ASCON LIVING（ホーチミンの一棟貸し）はAirbnb・Trip.comからご予約、またはWhatsApp・Zaloで事前にご相談いただけます。空港送迎も一緒にご依頼ください。
+- **ja/booking** h1: ホーチミン宿泊のご予約：7区の一軒家を貸し切る方法 → ホーチミン宿泊のご予約：川沿いの一軒家を貸し切る方法
+- **ja/booking** title: ホーチミン宿泊のご予約 7区の一棟貸し | ASCON LIVING → ホーチミン宿泊のご予約 川沿いの一棟貸し | ASCON LIVING
+- **ja/families** description: ホーチミンの家族旅行・子連れ旅行に、7区の一軒家を一棟貸切。各寝室にバスルーム、自炊できるキッチン、洗濯機、雨の日の映画とカラオケ、屋上BBQ。 → ホーチミンの家族旅行・子連れ旅行に、川沿いの一軒家を一棟貸切。各寝室にバスルーム、自炊できるキッチン、洗濯機、雨の日の映画とカラオケ、屋上BBQ。
+- **ja/families** h1: ホーチミン家族旅行の宿泊に：三世代で過ごせる7区の一棟貸し → ホーチミン家族旅行の宿泊に：三世代で過ごせる川沿いの一棟貸し
+- **ja/faq** description: ASCON LIVING（ホーチミン7区の一棟貸し）のよくあるご質問。寝室とバスルーム、カラオケとPlayStation、セルフチェックイン、Wi-Fi、洗濯機、空港送迎について。 → ASCON LIVING（ホーチミンの一棟貸し）のよくあるご質問。寝室とバスルーム、カラオケとPlayStation、セルフチェックイン、Wi-Fi、洗濯機、空港送迎について。
+- **ja/groups** description: ご友人や同僚とのホーチミン旅行に、7区の一軒家を貸切。専用バスルーム付き寝室3室、カラオケとPlayStation、4Kプロジェクター、川を望む屋上BBQ。 → ご友人や同僚とのホーチミン旅行に、川沿いの一軒家を貸切。専用バスルーム付き寝室3室、カラオケとPlayStation、4Kプロジェクター、川を望む屋上BBQ。
+- **ja/house** title: 家のご案内 ホーチミン7区の一軒家 | ASCON → 家のご案内 ホーチミンの一軒家 | ASCON
+- **ja/house-rules** description: ASCON LIVING（ホーチミン7区の一棟貸し）のハウスルール。セルフチェックインと外門の鍵、住宅街でのご配慮、家と設備の扱いについてご案内します。 → ASCON LIVING（ホーチミンの一棟貸し）のハウスルール。セルフチェックインと外門の鍵、住宅街でのご配慮、家と設備の扱いについてご案内します。
+- **ja/house-rules** h1: ハウスルール：ホーチミン7区の一軒家で心地よく過ごすために → ハウスルール：ホーチミンの一軒家で心地よく過ごすために
+- **ja/house-rules** title: ハウスルール ホーチミン7区の一棟貸し | ASCON LIVING → ハウスルール ホーチミンの一棟貸し | ASCON LIVING
+- **ja/house/bedroom-2** description: ホーチミン7区の一棟貸しのベッドルーム2。160×200cmベッド、スマートテレビ、専用バスルーム、エアコン、カーテン付きの窓。前室から入るお部屋。 → ホーチミンの一棟貸しのベッドルーム2。160×200cmベッド、スマートテレビ、専用バスルーム、エアコン、カーテン付きの窓。前室から入るお部屋。
+- **ja/house/karaoke-entertainment** description: カラオケ用マイク、PlayStationとPlayStation Plus、天井設置の4Kプロジェクターとスクリーン、大型4Kテレビ。ホーチミン7区の一棟貸しの貸切エンタメルーム。 → カラオケ用マイク、PlayStationとPlayStation Plus、天井設置の4Kプロジェクターとスクリーン、大型4Kテレビ。ホーチミンの一棟貸しの貸切エンタメルーム。
+- **ja/house/karaoke-entertainment** title: カラオケのあるホーチミンの宿 エンタメルーム | ASCON LIVING → ホーチミンの一棟貸し エンタメルームとカラオケ | ASCON LIVING
+- **ja/house/kitchen** description: コンロ、オーブン、炊飯器、エアフライヤー、トースター、約540Lの冷蔵庫と長いダイニングテーブル。洗濯機も使える、ホーチミン7区の一棟貸しのキッチン。 → コンロ、オーブン、炊飯器、エアフライヤー、トースター、約540Lの冷蔵庫と長いダイニングテーブル。洗濯機も使える、ホーチミンの一棟貸しのキッチン。
+- **ja/house/living-room** description: ホーチミン7区の一棟貸しの約40㎡のリビング。大型L字ソファ、75インチ4KテレビとNetflix、エアコン、ほかのバスルームと同じ設備のゲスト用トイレ。 → ホーチミンの一棟貸しの約40㎡のリビング。大型L字ソファ、75インチ4KテレビとNetflix、エアコン、ほかのバスルームと同じ設備のゲスト用トイレ。
+- **ja/house/master-bedroom** description: ホーチミン7区の一棟貸しのマスターベッドルーム。約55㎡、180×200cmベッド、55インチ4Kテレビ、専用バルコニーとバスルーム、ワイヤレス充電付きドレッサー。 → ホーチミンの一棟貸しのマスターベッドルーム。約55㎡、180×200cmベッド、55インチ4Kテレビ、専用バルコニーとバスルーム、ワイヤレス充電付きドレッサー。
+- **ja/house/outside** description: 川沿いにあるホーチミン7区の一軒家。白い手すりとオーニングのテラスから、川と1区のスカイラインを望めます。 → 川沿いにあるホーチミンの一軒家。白い手すりとオーニングのテラスから、川と中心街のスカイラインを望めます。
+- **ja/location** description: ASCON LIVINGの住所は389A Đường Trần Xuân Soạn, タンフン（7区）, ホーチミン。近くの食堂や屋台、ルーフトップから見る川と1区の街並み、空港送迎のご案内。 → ASCON LIVINGの住所は389A Đường Trần Xuân Soạn, タンフン, ホーチミン。近くの食堂や屋台、ルーフトップから見る川と1区の街並み、空港送迎のご案内。
+- **ja/location** h1: ホーチミン7区での宿泊：タンフンの川沿いの一軒家 → ホーチミンでの宿泊：タンフンの川沿いの一軒家
+- **ja/location** title: ホーチミン7区の宿泊エリア タンフンの立地 | ASCON LIVING → ホーチミンの宿泊エリア タンフンの立地 | ASCON LIVING
+- **ja/rooftop** description: 約56〜60㎡のルーフトップテラス。BBQグリル、ラタンのアウトドアソファ、テーブル、熱帯植物、ソーラーライトとストリングライト、川と1区のスカイラインの眺め。 → 約56〜60㎡のルーフトップテラス。BBQグリル、ラタンのアウトドアソファ、テーブル、熱帯植物、ソーラーライトとストリングライト、川と中心街のスカイラインの眺め。
+- **ja/rooftop** h1: ルーフトップBBQ：川と1区のスカイラインを望む貸切の屋上 → ルーフトップBBQ：川と中心街のスカイラインを望む貸切の屋上
+- **ko** description: 호치민 7군(떤흥) 강변 독채 숙소. 욕실 딸린 침실 3개, 노래방·PlayStation 엔터테인먼트룸, 강과 1군 스카이라인이 보이는 루프탑 BBQ. 가족·단체 여행에. → 호치민 떤흥 강변 독채 숙소. 욕실 딸린 침실 3개, 노래방·PlayStation 엔터테인먼트룸, 강과 도심 스카이라인이 보이는 루프탑 BBQ. 가족·단체 여행에.
+- **ko** h1: 호치민 숙소, 우리 일행만 쓰는 7군 독채 ASCON LIVING → 호치민 숙소, 우리 일행만 쓰는 강변 독채 ASCON LIVING
+- **ko** title: 호치민 숙소 7군 독채 – 집 한 채 통째로 | ASCON LIVING → 호치민 숙소 강변 독채 – 집 한 채 통째로 | ASCON LIVING
+- **ko/booking** description: ASCON LIVING 호치민 7군 독채는 Airbnb·Trip.com에서 예약하거나 카카오톡 채널, WhatsApp, Zalo로 먼저 문의할 수 있습니다. 공항 픽업도 함께 요청하세요. → ASCON LIVING 호치민 독채는 Airbnb·Trip.com에서 예약하거나 카카오톡 채널, WhatsApp, Zalo로 먼저 문의할 수 있습니다. 공항 픽업도 함께 요청하세요.
+- **ko/booking** h1: 호치민 숙소 예약: 7군 독채를 통째로 예약하는 방법 → 호치민 숙소 예약: 강변 독채를 통째로 예약하는 방법
+- **ko/booking** title: 호치민 숙소 예약 – 7군 독채 ASCON LIVING → 호치민 숙소 예약 – 강변 독채 ASCON LIVING
+- **ko/families** description: 호치민 가족여행 숙소로 7군 독채를 통째로. 욕실 딸린 침실 3개, 직접 요리하는 주방, 세탁기, 비 오는 날 영화·노래방, 루프탑 BBQ까지 한 집에서. → 호치민 가족여행 숙소로 강변 독채를 통째로. 욕실 딸린 침실 3개, 직접 요리하는 주방, 세탁기, 비 오는 날 영화·노래방, 루프탑 BBQ까지 한 집에서.
+- **ko/families** h1: 호치민 가족여행 숙소: 3대가 함께 머무는 7군 독채 → 호치민 가족여행 숙소: 3대가 함께 머무는 강변 독채
+- **ko/families** title: 호치민 가족여행 숙소 – 7군 독채, 침실마다 욕실 | ASCON LIVING → 호치민 가족여행 숙소 – 강변 독채, 침실마다 욕실 | ASCON LIVING
+- **ko/faq** description: ASCON LIVING 호치민 7군 독채 FAQ. 침실과 욕실, 노래방과 PlayStation, 셀프 체크인, 와이파이, 세탁기, 공항 픽업에 대한 답변을 모았습니다. → ASCON LIVING 호치민 독채 FAQ. 침실과 욕실, 노래방과 PlayStation, 셀프 체크인, 와이파이, 세탁기, 공항 픽업에 대한 답변을 모았습니다.
+- **ko/groups** description: 친구·동료 단체여행을 위한 호치민 7군 독채. 욕실 딸린 침실 3개, 노래방과 PlayStation, 4K 프로젝터, 강이 보이는 루프탑 바비큐. 우리끼리 집 한 채. → 친구·동료 단체여행을 위한 호치민 독채. 욕실 딸린 침실 3개, 노래방과 PlayStation, 4K 프로젝터, 강이 보이는 루프탑 바비큐. 우리끼리 집 한 채.
+- **ko/groups** h1: 호치민 단체 숙소: 노래방과 루프탑 BBQ가 있는 7군 독채 → 호치민 단체 숙소: 노래방과 루프탑 BBQ가 있는 강변 독채
+- **ko/groups** title: 호치민 단체 숙소 – 노래방·루프탑 BBQ 7군 독채 | ASCON LIVING → 호치민 단체 숙소 – 노래방·루프탑 BBQ 강변 독채 | ASCON LIVING
+- **ko/house** title: 집 소개 – 호치민 7군 독채 방별 안내 | ASCON → 집 소개 – 호치민 독채 방별 안내 | ASCON
+- **ko/house-rules** h1: 하우스 룰: 호치민 7군 독채에서 편하게 머물기 위한 약속 → 하우스 룰: 호치민 독채에서 편하게 머물기 위한 약속
+- **ko/house-rules** title: 하우스 룰 – 호치민 7군 독채 ASCON LIVING → 하우스 룰 – 호치민 독채 ASCON LIVING
+- **ko/house/bedroom-2** description: 호치민 7군 독채의 침실 2. 160×200cm 침대, 스마트 TV, 전용 욕실, 개별 에어컨, 커튼 달린 창문, 수건이 있는 옷장. 전실에서 바로 들어가는 방. → 호치민 독채의 침실 2. 160×200cm 침대, 스마트 TV, 전용 욕실, 개별 에어컨, 커튼 달린 창문, 수건이 있는 옷장. 전실에서 바로 들어가는 방.
+- **ko/house/karaoke-entertainment** description: 노래방 마이크, PlayStation과 PlayStation Plus, 천장형 4K 프로젝터와 스크린, 대형 4K TV. 호치민 7군 독채 안의 우리 일행 전용 엔터테인먼트룸. → 노래방 마이크, PlayStation과 PlayStation Plus, 천장형 4K 프로젝터와 스크린, 대형 4K TV. 호치민 독채 안의 우리 일행 전용 엔터테인먼트룸.
+- **ko/house/karaoke-entertainment** title: 노래방 있는 호치민 숙소 – 엔터테인먼트룸 | ASCON LIVING → 호치민 독채 숙소 – 노래방 엔터테인먼트룸 | ASCON LIVING
+- **ko/house/kitchen** description: 레인지, 오븐, 밥솥, 에어프라이어, 토스터, 약 540L 양문형 냉장고와 긴 식탁. 투숙객이 쓸 수 있는 세탁기까지 갖춘 호치민 7군 독채의 주방. → 레인지, 오븐, 밥솥, 에어프라이어, 토스터, 약 540L 양문형 냉장고와 긴 식탁. 투숙객이 쓸 수 있는 세탁기까지 갖춘 호치민 독채의 주방.
+- **ko/house/living-room** description: 호치민 7군 독채의 약 40㎡ 거실. 대형 L자 소파, 75인치 4K TV와 넷플릭스, 에어컨, 욕실과 같은 설비의 게스트 화장실. 일행이 모두 모이는 중심 공간. → 호치민 독채의 약 40㎡ 거실. 대형 L자 소파, 75인치 4K TV와 넷플릭스, 에어컨, 욕실과 같은 설비의 게스트 화장실. 일행이 모두 모이는 중심 공간.
+- **ko/house/master-bedroom** description: 호치민 7군 독채의 마스터 침실. 약 55㎡, 180×200cm 침대, 55인치 4K TV, 전용 발코니와 욕실, 조명 거울 화장대와 무선 충전 패드, 개별 에어컨. → 호치민 독채의 마스터 침실. 약 55㎡, 180×200cm 침대, 55인치 4K TV, 전용 발코니와 욕실, 조명 거울 화장대와 무선 충전 패드, 개별 에어컨.
+- **ko/house/outside** description: 강가에 있는 호치민 7군 독채. 흰 난간과 어닝이 있는 테라스에서 강과 1군 스카이라인이 보입니다. → 강가에 있는 호치민 독채. 흰 난간과 어닝이 있는 테라스에서 강과 도심 스카이라인이 보입니다.
+- **ko/location** description: ASCON LIVING 주소는 389A Đường Trần Xuân Soạn, 떤흥(7군), 호치민. 주변 식당과 길거리 음식, 루프탑에서 보이는 강과 1군 스카이라인, 공항 픽업 안내. → ASCON LIVING 주소는 389A Đường Trần Xuân Soạn, 떤흥, 호치민. 주변 식당과 길거리 음식, 루프탑에서 보이는 강과 도심 스카이라인, 공항 픽업 안내.
+- **ko/location** h1: 호치민 7군 숙소 위치: 떤흥의 강변 독채 → 호치민 숙소 위치: 떤흥의 강변 독채
+- **ko/location** title: 호치민 7군 숙소 위치 – 떤흥 강변 독채 | ASCON LIVING → 호치민 숙소 위치 – 떤흥 강변 독채 | ASCON LIVING
+- **ko/rooftop** description: 약 56–60㎡ 루프탑 테라스. 바비큐 그릴, 라탄 아웃도어 소파, 식탁, 열대 식물, 솔라·스트링 조명, 강과 1군 스카이라인 전망. 우리 일행만의 옥상. → 약 56–60㎡ 루프탑 테라스. 바비큐 그릴, 라탄 아웃도어 소파, 식탁, 열대 식물, 솔라·스트링 조명, 강과 도심 스카이라인 전망. 우리 일행만의 옥상.
+- **ko/rooftop** h1: 호치민 루프탑 BBQ: 강과 1군 스카이라인을 보는 우리만의 옥상 → 호치민 루프탑 BBQ: 강과 도심 스카이라인을 보는 우리만의 옥상
+- **ms** description: Rumah penuh tepi sungai di Daerah 7, Ho Chi Minh: 3 bilik tidur en-suite, bilik karaoke, BBQ atas bumbung dan WiFi 1 Gbit/s. Tanya tarikh melalui WhatsApp. → Rumah penuh tepi sungai di Ho Chi Minh: 3 bilik tidur en-suite, bilik karaoke, BBQ atas bumbung dan WiFi 1 Gbit/s. Tanya tarikh melalui WhatsApp.
+- **ms/booking** description: Tempah ASCON LIVING di Daerah 7, Ho Chi Minh, melalui WhatsApp/Zalo +84 909 410 382, Airbnb atau Trip.com. Pemindahan lapangan terbang boleh diatur. → Tempah ASCON LIVING di Ho Chi Minh, melalui WhatsApp/Zalo +84 909 410 382, Airbnb atau Trip.com. Pemindahan lapangan terbang boleh diatur.
+- **ms/faq** description: Semua jawapan tentang homestay ASCON LIVING di Daerah 7: cara masuk, bilik tidur, bilik air, karaoke, BBQ bumbung, WiFi, dapur dan tempahan. → Semua jawapan tentang homestay ASCON LIVING di Ho Chi Minh: cara masuk, bilik tidur, bilik air, karaoke, BBQ bumbung, WiFi, dapur dan tempahan.
+- **ms/house-rules** description: Panduan ringkas untuk penginapan di ASCON LIVING, Daerah 7: cara masuk, penggunaan rumah dan dapur, BBQ dan jiran. Hubungi kami di WhatsApp. → Panduan ringkas untuk penginapan di ASCON LIVING, Ho Chi Minh: cara masuk, penggunaan rumah dan dapur, BBQ dan jiran. Hubungi kami di WhatsApp.
+- **ms/house/bedroom-2** description: Bilik tidur 2 di rumah penuh Daerah 7, Ho Chi Minh: katil 160×200 cm, smart TV, langsir kelabu gelap dan bilik air en-suite dengan air panas. → Bilik tidur 2 di rumah penuh di Ho Chi Minh: katil 160×200 cm, smart TV, langsir kelabu gelap dan bilik air en-suite dengan air panas.
+- **ms/house/karaoke-entertainment** description: Bilik karaoke peribadi dalam rumah penuh Daerah 7: mikrofon, PlayStation dengan PlayStation Plus dan 2 pengawal, projektor 4K, skrin tripod dan TV 4K. → Bilik karaoke peribadi dalam rumah penuh di Ho Chi Minh: mikrofon, PlayStation dengan PlayStation Plus dan 2 pengawal, projektor 4K, skrin tripod dan TV 4K.
+- **ms/house/kitchen** description: Dapur lengkap di rumah penuh Daerah 7: dapur masak kaca hitam, ketuhar, periuk nasi, air fryer, peti sejuk kira-kira 540 L dan mesin basuh untuk tetamu. → Dapur lengkap di rumah penuh di Ho Chi Minh: dapur masak kaca hitam, ketuhar, periuk nasi, air fryer, peti sejuk kira-kira 540 L dan mesin basuh untuk tetamu.
+- **ms/location** h1: Di mana kami berada: tepi sungai di District 7 → Di mana kami berada: tepi sungai di Ho Chi Minh
+- **ms/location** title: Ho Chi Minh District 7: Lokasi ASCON LIVING → Rumah di Ho Chi Minh: Lokasi ASCON LIVING
+- **ms/rooftop** h1: Teres bumbung: BBQ sambil melihat District 1 → Teres bumbung: BBQ sambil melihat bandar Saigon
+- **nl** description: Heel huis aan de rivier in District 7, Ho Chi Minh: 3 slaapkamers met eigen badkamer, privé-karaoke, dakterras met barbecue, wifi tot 1 Gbit/s. → Heel huis aan de rivier in Ho Chi Minh: 3 slaapkamers met eigen badkamer, privé-karaoke, dakterras met barbecue, wifi tot 1 Gbit/s.
+- **nl/booking** description: Boek ASCON LIVING, een heel huis in District 7, Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb of Trip.com. Luchthaventransfer mogelijk. → Boek ASCON LIVING, een heel huis in Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb of Trip.com. Luchthaventransfer mogelijk.
+- **nl/faq** description: Antwoorden over ASCON LIVING in District 7, Ho Chi Minh: toegang, kamers, badkamers, karaoke, barbecue op het dak, wifi, keuken, boeken. → Antwoorden over ASCON LIVING in Ho Chi Minh: toegang, kamers, badkamers, karaoke, barbecue op het dak, wifi, keuken, boeken.
+- **nl/house-rules** description: Huisregels van ASCON LIVING in District 7, Ho Chi Minh: toegang, schoenen, keuken, barbecue op het daken buren. Vragen via WhatsApp. → Huisregels van ASCON LIVING in Ho Chi Minh: toegang, schoenen, keuken, barbecue op het daken buren. Vragen via WhatsApp.
+- **nl/house/kitchen** description: Uitgeruste keuken in District 7: kookplaat met zwart glas, oven, magnetron, rijstkoker, airfryer, koelkast van ca. 540 liter en wasmachine. → Uitgeruste keuken in Ho Chi Minh: kookplaat met zwart glas, oven, magnetron, rijstkoker, airfryer, koelkast van ca. 540 liter en wasmachine.
+- **nl/house/outside** title: Huis aan de rivier in Saigon, District 7 | ASCON LIVING → Huis aan de rivier in Saigon: buiten | ASCON LIVING
+- **nl/location** h1: Waar we zitten: Tân Hưng, District 7, aan het water → Waar we zitten: Tân Hưng, aan het water
+- **nl/location** title: District 7, Ho Chi Minh: huis aan de rivier | ASCON LIVING → Locatie in Ho Chi Minh: huis aan de rivier | ASCON LIVING
+- **nl/rooftop** description: Dakterras van ca. 56–60 m² in District 7, Ho Chi Minh: zwarte vatbarbecue met smoker, rotan bank, donkere tafel en zonnelampjes. → Dakterras van ca. 56–60 m² in Ho Chi Minh: zwarte vatbarbecue met smoker, rotan bank, donkere tafel en zonnelampjes.
+- **pa** h1: Ho Chi Minh City, District 7 ਵਿੱਚ ਪੂਰਾ ਘਰ – ਪਰਿਵਾਰ ਅਤੇ ਗਰੁੱਪ ਲਈ → Ho Chi Minh City ਵਿੱਚ ਪੂਰਾ ਘਰ – ਪਰਿਵਾਰ ਅਤੇ ਗਰੁੱਪ ਲਈ
+- **pa** title: Ho Chi Minh City District 7: ਪੂਰਾ ਘਰ | ASCON LIVING → Ho Chi Minh City ਵਿੱਚ ਪੂਰਾ ਘਰ | ASCON LIVING
+- **pa/guide/airport-transfer** description: Tân Sơn Nhất ਏਅਰਪੋਰਟ (SGN) ਤੋਂ Tân Hưng, ਸਾਬਕਾ District 7 ਵਿੱਚ ASCON LIVING ਤੱਕ: ਬੇਨਤੀ 'ਤੇ ਨਿੱਜੀ ਟ੍ਰਾਂਸਫ਼ਰ, ਰਾਈਡ ਐਪ ਜਾਂ ਟੈਕਸੀ। → Tân Sơn Nhất ਏਅਰਪੋਰਟ (SGN) ਤੋਂ Tân Hưng ਵਿੱਚ ASCON LIVING ਤੱਕ: ਬੇਨਤੀ 'ਤੇ ਨਿੱਜੀ ਟ੍ਰਾਂਸਫ਼ਰ, ਰਾਈਡ ਐਪ ਜਾਂ ਟੈਕਸੀ।
+- **pa/guide/airport-transfer** title: ਏਅਰਪੋਰਟ ਟ੍ਰਾਂਸਫ਼ਰ Tân Sơn Nhất – District 7 | ASCON → ਏਅਰਪੋਰਟ ਟ੍ਰਾਂਸਫ਼ਰ Tân Sơn Nhất ਤੋਂ ਘਰ ਤੱਕ | ASCON
+- **pl/house-rules** description: Zasady pobytu w ASCON LIVING, Dystrykt 7, Ho Chi Minh: wejście, obuwie, kuchnia, grill na dachu i sąsiedzi. Pytania przez WhatsApp. → Zasady pobytu w ASCON LIVING w Ho Chi Minh: wejście, obuwie, kuchnia, grill na dachu i sąsiedzi. Pytania przez WhatsApp.
+- **pl/house/outside** title: Dom nad rzeką w Sajgonie, Dystrykt 7 | ASCON LIVING → Dom nad rzeką w Sajgonie: na zewnątrz | ASCON LIVING
+- **pl/location** h1: Gdzie jesteśmy: Tân Hưng, Dystrykt 7, nad rzeką → Gdzie jesteśmy: Tân Hưng, nad rzeką
+- **pl/location** title: Dystrykt 7, Ho Chi Minh: dom nad rzeką | ASCON LIVING → Lokalizacja w Ho Chi Minh: dom nad rzeką | ASCON LIVING
+- **pt/booking** description: Reserve o ASCON LIVING, casa inteira no Distrito 7 de Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb ou Trip.com. Transfer do aeroporto. → Reserve o ASCON LIVING, casa inteira em Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb ou Trip.com. Transfer do aeroporto.
+- **pt/faq** description: Respostas sobre o ASCON LIVING no Distrito 7 de HCMC: entrada, quartos, banheiros, karaokê, churrasco no terraço, Wi-Fi, cozinha, segurança e reservas. → Respostas sobre o ASCON LIVING em Ho Chi Minh: entrada, quartos, banheiros, karaokê, churrasco no terraço, Wi-Fi, cozinha, segurança e reservas.
+- **pt/house-rules** description: Regras de hospedagem no ASCON LIVING, Distrito 7 de HCMC: entrada, calçados, cozinha, churrasco no terraço, vizinhos e segurança. Dúvidas pelo WhatsApp. → Regras de hospedagem no ASCON LIVING, Ho Chi Minh: entrada, calçados, cozinha, churrasco no terraço, vizinhos e segurança. Dúvidas pelo WhatsApp.
+- **pt/house/outside** title: Casa à beira do rio em Saigon, Distrito 7 | ASCON LIVING → Casa à beira do rio em Saigon: área externa | ASCON LIVING
+- **pt/location** h1: Onde ficar em Ho Chi Minh: à beira do rio, no Distrito 7 → Onde ficar em Ho Chi Minh: à beira do rio, em Tân Hưng
+- **pt/location** title: Onde ficar em Ho Chi Minh: Distrito 7 | ASCON LIVING → Onde ficar em Ho Chi Minh: casa no rio | ASCON LIVING
+- **pt/rooftop** description: Terraço de cerca de 56–60 m² em casa no Distrito 7 de Ho Chi Minh: churrasqueira de barril preta com defumador, sofá de rattan, mesa e luzes solares. → Terraço de cerca de 56–60 m² em casa em Ho Chi Minh: churrasqueira de barril preta com defumador, sofá de rattan, mesa e luzes solares.
+- **ru/house-rules** description: Правила проживания в ASCON LIVING, 7-й район Хошимина: вход в дом, обувь, кухня, барбекю на крыше, и соседи. Вопросы — в WhatsApp или Zalo. → Правила проживания в ASCON LIVING в Хошимине: вход в дом, обувь, кухня, барбекю на крыше, и соседи. Вопросы — в WhatsApp или Zalo.
+- **ru/house/karaoke-entertainment** title: Караоке и PlayStation в доме | ASCON LIVING → Дом в Хошимине с караоке и PlayStation | ASCON LIVING
+- **ru/location** h1: Где мы находимся: 7-й район Хошимина, на берегу реки → Где мы находимся: Хошимин, на берегу реки
+- **ru/location** title: Хошимин, 7-й район: дом у реки | ASCON LIVING → Хошимин: дом у реки, расположение | ASCON LIVING
+- **ru/rooftop** h1: Терраса на крыше: барбекю с видом на 1-й район → Терраса на крыше: барбекю с видом на центр Сайгона
+- **sv** description: Hela huset vid floden i District 7, Ho Chi Minh: 3 sovrum med eget badrum, privat karaoke, takterrass med grill och wifi upp till 1 Gbit/s. → Hela huset vid floden i Ho Chi Minh: 3 sovrum med eget badrum, privat karaoke, takterrass med grill och wifi upp till 1 Gbit/s.
+- **sv/booking** description: Boka ASCON LIVING, hela huset i District 7, Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, mejl, Airbnb eller Trip.com. Flygplatstransfer finns. → Boka ASCON LIVING, hela huset i Ho Chi Minh: WhatsApp/Zalo +84 909 410 382, mejl, Airbnb eller Trip.com. Flygplatstransfer finns.
+- **sv/faq** description: Svar om ASCON LIVING i District 7, Ho Chi Minh: entré, sovrum, badrum, karaoke, grill på taket, wifi, kök och bokning. → Svar om ASCON LIVING i Ho Chi Minh: entré, sovrum, badrum, karaoke, grill på taket, wifi, kök och bokning.
+- **sv/house-rules** description: Husregler på ASCON LIVING i District 7, Ho Chi Minh: entré, skor, kök, grill på taket och grannar. Frågor via WhatsApp. → Husregler på ASCON LIVING i Ho Chi Minh: entré, skor, kök, grill på taket och grannar. Frågor via WhatsApp.
+- **sv/house/kitchen** description: Fullt utrustat kök i District 7: spishäll med svart glas, ugn, mikrovågsugn, riskokare, airfryer, kylskåp på ca 540 liter och tvättmaskin. → Fullt utrustat kök i Ho Chi Minh: spishäll med svart glas, ugn, mikrovågsugn, riskokare, airfryer, kylskåp på ca 540 liter och tvättmaskin.
+- **sv/house/outside** title: Hus vid floden i Saigon, District 7 | ASCON LIVING → Hus vid floden i Saigon: uteplatser | ASCON LIVING
+- **sv/location** h1: Här bor ni: Tân Hưng, District 7, vid floden → Här bor ni: Tân Hưng, vid floden
+- **sv/location** title: District 7, Ho Chi Minh: hus vid floden | ASCON LIVING → Läge i Ho Chi Minh: hus vid floden | ASCON LIVING
+- **sv/rooftop** description: Takterrass på ca 56–60 m² i District 7, Ho Chi Minh: svart tunngrill som också är rökugn, rottingsoffa, mörkt bord och solcellslampor. → Takterrass på ca 56–60 m² i Ho Chi Minh: svart tunngrill som också är rökugn, rottingsoffa, mörkt bord och solcellslampor.
+- **th** description: บ้านพักทั้งหลังในเขต 7 โฮจิมินห์ 3 ห้องนอนพร้อมห้องน้ำในตัว ห้องคาราโอเกะและ PlayStation ดาดฟ้าบาร์บีคิววิวแม่น้ำและเส้นขอบฟ้าเขต 1 → บ้านพักทั้งหลังในโฮจิมินห์ 3 ห้องนอนพร้อมห้องน้ำในตัว ห้องคาราโอเกะและ PlayStation ดาดฟ้าบาร์บีคิววิวแม่น้ำและเส้นขอบฟ้าเขต 1
+- **th** title: ที่พักโฮจิมินห์ บ้านทั้งหลัง เขต 7 | ASCON LIVING → ที่พักโฮจิมินห์ บ้านทั้งหลังริมแม่น้ำ | ASCON LIVING
+- **th/booking** description: จอง ASCON LIVING บ้านพักทั้งหลังเขต 7 โฮจิมินห์ ผ่าน Airbnb หรือ Trip.com หรือสอบถามก่อนทาง WhatsApp และ Zalo ขอรถรับส่งสนามบินพร้อมการจองได้ → จอง ASCON LIVING บ้านพักทั้งหลังริมแม่น้ำ โฮจิมินห์ ผ่าน Airbnb หรือ Trip.com หรือสอบถามก่อนทาง WhatsApp และ Zalo ขอรถรับส่งสนามบินพร้อมการจองได้
+- **th/booking** h1: จองที่พักโฮจิมินห์: วิธีจองบ้านทั้งหลังในเขต 7 → จองที่พักโฮจิมินห์: วิธีจองบ้านทั้งหลังริมแม่น้ำ
+- **th/booking** title: จองที่พักโฮจิมินห์ บ้านทั้งหลังเขต 7 | ASCON LIVING → จองที่พักโฮจิมินห์ บ้านทั้งหลังริมแม่น้ำ | ASCON LIVING
+- **th/families** description: เที่ยวโฮจิมินห์กับครอบครัว เช่าบ้านทั้งหลังในเขต 7 ห้องนอน 3 ห้องพร้อมห้องน้ำในตัว ครัวทำอาหารได้ เครื่องซักผ้า หนังและคาราโอเกะวันฝนตก บาร์บีคิวดาดฟ้า → เที่ยวโฮจิมินห์กับครอบครัว เช่าบ้านทั้งหลังริมแม่น้ำ ห้องนอน 3 ห้องพร้อมห้องน้ำในตัว ครัวทำอาหารได้ เครื่องซักผ้า หนังและคาราโอเกะวันฝนตก บาร์บีคิวดาดฟ้า
+- **th/faq** description: คำถามที่พบบ่อยของ ASCON LIVING บ้านพักทั้งหลังเขต 7 โฮจิมินห์ ห้องนอนและห้องน้ำ คาราโอเกะ PlayStation เช็คอินเอง Wi-Fi เครื่องซักผ้า รถรับส่งสนามบิน → คำถามที่พบบ่อยของ ASCON LIVING บ้านพักทั้งหลังริมแม่น้ำ โฮจิมินห์ ห้องนอนและห้องน้ำ คาราโอเกะ PlayStation เช็คอินเอง Wi-Fi เครื่องซักผ้า รถรับส่งสนามบิน
+- **th/groups** description: เที่ยวโฮจิมินห์เป็นกลุ่ม เช่าบ้านทั้งหลังเขต 7 ห้องนอน 3 ห้องพร้อมห้องน้ำในตัว คาราโอเกะ PlayStation โปรเจกเตอร์ 4K และบาร์บีคิวบนดาดฟ้าวิวแม่น้ำ → เที่ยวโฮจิมินห์เป็นกลุ่ม เช่าบ้านทั้งหลังริมแม่น้ำ ห้องนอน 3 ห้องพร้อมห้องน้ำในตัว คาราโอเกะ PlayStation โปรเจกเตอร์ 4K และบาร์บีคิวบนดาดฟ้าวิวแม่น้ำ
+- **th/house-rules** description: กฎของบ้าน ASCON LIVING บ้านพักทั้งหลังเขต 7 โฮจิมินห์ การเช็คอินเองและกุญแจประตูรั้ว การเคารพเพื่อนบ้าน และการดูแลบ้านและอุปกรณ์ → กฎของบ้าน ASCON LIVING บ้านพักทั้งหลังริมแม่น้ำ โฮจิมินห์ การเช็คอินเองและกุญแจประตูรั้ว การเคารพเพื่อนบ้าน และการดูแลบ้านและอุปกรณ์
+- **th/house-rules** h1: กฎของบ้าน: อยู่สบายในบ้านพักทั้งหลังเขต 7 → กฎของบ้าน: อยู่สบายในบ้านพักทั้งหลังริมแม่น้ำ
+- **th/house-rules** title: กฎของบ้าน บ้านพักทั้งหลังเขต 7 โฮจิมินห์ | ASCON LIVING → กฎของบ้าน บ้านพักทั้งหลังริมแม่น้ำ โฮจิมินห์ | ASCON LIVING
+- **th/house/bedroom-2** description: ห้องนอน 2 ในบ้านพักทั้งหลังเขต 7 เตียง 160×200 ซม. สมาร์ททีวี ห้องน้ำในตัว แอร์แยก หน้าต่างพร้อมม่าน ตู้เสื้อผ้ามีผ้าเช็ดตัว เข้าจากโถงได้เลย → ห้องนอน 2 ในบ้านพักทั้งหลังริมแม่น้ำ เตียง 160×200 ซม. สมาร์ททีวี ห้องน้ำในตัว แอร์แยก หน้าต่างพร้อมม่าน ตู้เสื้อผ้ามีผ้าเช็ดตัว เข้าจากโถงได้เลย
+- **th/house/karaoke-entertainment** description: ไมโครโฟนคาราโอเกะ PlayStation และ PlayStation Plus โปรเจกเตอร์ 4K ติดเพดานพร้อมจอ และทีวี 4K ขนาดใหญ่ ห้องบันเทิงส่วนตัวในบ้านพักทั้งหลังเขต 7 → ไมโครโฟนคาราโอเกะ PlayStation และ PlayStation Plus โปรเจกเตอร์ 4K ติดเพดานพร้อมจอ และทีวี 4K ขนาดใหญ่ ห้องบันเทิงส่วนตัวในบ้านพักทั้งหลังริมแม่น้ำ
+- **th/house/kitchen** description: เตากระจก เตาอบ หม้อหุงข้าว หม้อทอดไร้น้ำมัน เครื่องปิ้งขนมปัง ตู้เย็นราว 540 ลิตร และโต๊ะอาหารยาว พร้อมเครื่องซักผ้าที่แขกใช้ได้ ในบ้านพักทั้งหลังเขต 7 → เตากระจก เตาอบ หม้อหุงข้าว หม้อทอดไร้น้ำมัน เครื่องปิ้งขนมปัง ตู้เย็นราว 540 ลิตร และโต๊ะอาหารยาว พร้อมเครื่องซักผ้าที่แขกใช้ได้ ในบ้านพักทั้งหลังริมแม่น้ำ
+- **th/house/living-room** description: ห้องนั่งเล่นราว 40 ตร.ม. ในบ้านพักทั้งหลังเขต 7 โซฟาตัว L ขนาดใหญ่ ทีวี 4K 75 นิ้วพร้อม Netflix แอร์ และห้องน้ำแขกที่อุปกรณ์เหมือนห้องน้ำอื่น → ห้องนั่งเล่นราว 40 ตร.ม. ในบ้านพักทั้งหลังริมแม่น้ำ โซฟาตัว L ขนาดใหญ่ ทีวี 4K 75 นิ้วพร้อม Netflix แอร์ และห้องน้ำแขกที่อุปกรณ์เหมือนห้องน้ำอื่น
+- **th/location** h1: ที่พักเขต 7 โฮจิมินห์: บ้านริมแม่น้ำในย่านเติ่นหึง → ที่พักโฮจิมินห์: บ้านริมแม่น้ำในย่านเติ่นหึง
+- **th/location** title: ที่พักเขต 7 โฮจิมินห์ ทำเลเติ่นหึงริมแม่น้ำ | ASCON LIVING → ที่พักโฮจิมินห์ ทำเลเติ่นหึงริมแม่น้ำ | ASCON LIVING
+- **th/rooftop** h1: บาร์บีคิวบนดาดฟ้า: วิวแม่น้ำและเขต 1 เฉพาะกลุ่มคุณ → บาร์บีคิวบนดาดฟ้า: วิวแม่น้ำและตึกสูงกลางเมือง เฉพาะกลุ่มคุณ
+- **tr** description: Ho Chi Minh 7. Bölge'de nehir kenarında 3 katlı kiralık ev: 250 m² üzeri alan, 3 banyolu yatak odası, karaoke odası ve nehir manzaralı çatı terası. → Ho Chi Minh'de nehir kenarında 3 katlı kiralık ev: 250 m² üzeri alan, 3 banyolu yatak odası, karaoke odası ve nehir manzaralı çatı terası.
+- **tr/booking** description: Ho Chi Minh 7. Bölge'de ASCON LIVING'i ayırtın: WhatsApp/Zalo +84 909 410 382, e-posta, Airbnb veya Trip.com. Havalimanı transferi eklenebilir. → Ho Chi Minh'de ASCON LIVING'i ayırtın: WhatsApp/Zalo +84 909 410 382, e-posta, Airbnb veya Trip.com. Havalimanı transferi eklenebilir.
+- **tr/house/kitchen** description: 7. Bölge'deki kiralık evin mutfağı: siyah cam ocak, fırın, mikrodalga, pirinç pişirici, airfryer, yaklaşık 540 litre buzdolabı ve çamaşır makinesi. → Ho Chi Minh'deki kiralık evin mutfağı: siyah cam ocak, fırın, mikrodalga, pirinç pişirici, airfryer, yaklaşık 540 litre buzdolabı ve çamaşır makinesi.
+- **tr/house/outside** description: Ho Chi Minh’te nehir kenarında ev: beyaz korkuluklu ve tenteli teras, karşıda nehir ve 1. Bölge silueti. → Ho Chi Minh’te nehir kenarında ev: beyaz korkuluklu ve tenteli teras, karşıda nehir ve şehir silueti.
+- **tr/location** description: ASCON LIVING, Ho Chi Minh 7. Bölge Tân Hưng'de, 389A Đường Trần Xuân Soạn adresinde, nehir kenarındaki bir konut mahallesinde. → ASCON LIVING, Ho Chi Minh, Tân Hưng'de, 389A Đường Trần Xuân Soạn adresinde, nehir kenarındaki bir konut mahallesinde.
+- **tr/location** h1: Nerede kalacaksınız: 7. Bölge, Tân Hưng → Nerede kalacaksınız: Tân Hưng, nehir kenarı
+- **tr/location** title: Konum: Ho Chi Minh 7. Bölge | ASCON LIVING → Konum: Ho Chi Minh, nehir kenarında ev | ASCON LIVING
+- **tr/rooftop** description: Yaklaşık 56–60 m² çatı terası: füme fırını olarak da kullanılan siyah varil barbekü, rattan kanepe, koyu masa, tente, nehir ve 1. Bölge silueti manzarası. → Yaklaşık 56–60 m² çatı terası: füme fırını olarak da kullanılan siyah varil barbekü, rattan kanepe, koyu masa, tente, nehir ve şehir silueti manzarası.
+- **tr/rooftop** h1: Çatı terası: nehir ve 1. Bölge silueti manzaralı açık hava salonu → Çatı terası: nehir ve şehir silueti manzaralı açık hava salonu
+- **tr/rooftop** title: Nehir Manzaralı Barbekülü Çatı Terası | ASCON LIVING → Çatı Terası ve Barbekü, Nehir Manzaralı | ASCON LIVING
+- **ur** h1: Ho Chi Minh City، District 7 میں پورا گھر – فیملی اور گروپ کے لیے → Ho Chi Minh City میں پورا گھر – فیملی اور گروپ کے لیے
+- **ur** title: Ho Chi Minh City District 7: پورا گھر | ASCON LIVING → Ho Chi Minh City میں پورا گھر | ASCON LIVING
+- **ur/guide/airport-transfer** description: Tân Sơn Nhất ایئرپورٹ (SGN) سے Tân Hưng، سابق District 7 میں ASCON LIVING تک: درخواست پر نجی ٹرانسفر، رائیڈ ایپ یا ٹیکسی۔ → Tân Sơn Nhất ایئرپورٹ (SGN) سے Tân Hưng میں ASCON LIVING تک: درخواست پر نجی ٹرانسفر، رائیڈ ایپ یا ٹیکسی۔
+- **ur/guide/airport-transfer** title: ایئرپورٹ ٹرانسفر Tân Sơn Nhất – District 7 | ASCON → ایئرپورٹ ٹرانسفر Tân Sơn Nhất سے گھر تک | ASCON
+- **vi** description: Thuê nhà nguyên căn theo ngày ven sông Quận 7: 3 phòng ngủ khép kín, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s. Đặt qua WhatsApp/Zalo 0909 410 382. → Thuê nhà nguyên căn theo ngày ven sông ở Sài Gòn: 3 phòng ngủ khép kín, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s. Đặt qua WhatsApp/Zalo 0909 410 382.
+- **vi** title: Homestay Quận 7 nguyên căn theo ngày, Sài Gòn | ASCON LIVING → Homestay nguyên căn ở Sài Gòn, TP. Hồ Chí Minh
+- **vi/booking** description: Đặt ASCON LIVING, nhà nguyên căn theo ngày tại Quận 7, qua WhatsApp/Zalo +84 909 410 382, email, Airbnb hoặc Trip.com. Có xe đưa đón sân bay. → Đặt ASCON LIVING, nhà nguyên căn theo ngày tại Sài Gòn, qua WhatsApp/Zalo +84 909 410 382, email, Airbnb hoặc Trip.com. Có xe đưa đón sân bay.
+- **vi/booking** h1: Đặt nhà nguyên căn theo ngày tại Quận 7 → Đặt nhà nguyên căn theo ngày tại Sài Gòn
+- **vi/booking** title: Đặt nhà nguyên căn theo ngày Quận 7 | ASCON LIVING → Đặt nhà nguyên căn theo ngày ở Sài Gòn | ASCON LIVING
+- **vi/faq** description: Giải đáp về ASCON LIVING Quận 7: nhận nhà, phòng ngủ, phòng tắm, karaoke, BBQ sân thượng, WiFi, bếp và đặt nhà nguyên căn theo ngày. → Giải đáp về ASCON LIVING Sài Gòn: nhận nhà, phòng ngủ, phòng tắm, karaoke, BBQ sân thượng, WiFi, bếp và đặt nhà nguyên căn theo ngày.
+- **vi/faq** title: Hỏi đáp homestay Sài Gòn Quận 7 | ASCON LIVING → Hỏi đáp homestay nguyên căn Sài Gòn | ASCON LIVING
+- **vi/groups** description: Nhà nguyên căn Quận 7 cho nhóm bạn và công ty: phòng karaoke riêng, PlayStation, BBQ sân thượng nhìn sông, WiFi mesh tới 1 Gbit/s. Nhận nhà bằng khóa mã số. → Nhà nguyên căn Sài Gòn cho nhóm bạn và công ty: phòng karaoke riêng, PlayStation, BBQ sân thượng nhìn sông, WiFi mesh tới 1 Gbit/s. Nhận nhà bằng khóa mã số.
+- **vi/groups** h1: Nhà nguyên căn Quận 7 cho nhóm: hát karaoke, nướng BBQ, ở chung một nhà → Nhà nguyên căn Sài Gòn cho nhóm: hát karaoke, nướng BBQ, ở chung một nhà
+- **vi/guide/airport-transfer** title: Đưa đón sân bay Tân Sơn Nhất – Quận 7 | ASCON → Đưa đón sân bay Tân Sơn Nhất về nhà | ASCON
+- **vi/house** description: Nhà nguyên căn Quận 7, homestay view sông có karaoke: 3 phòng ngủ giường đôi, bếp đầy đủ và phòng giải trí. → Nhà nguyên căn ở Sài Gòn, homestay view sông có karaoke: 3 phòng ngủ giường đôi, bếp đầy đủ và phòng giải trí.
+- **vi/house-rules** description: Nội quy ASCON LIVING Quận 7: cách vào nhà, giày dép, bếp, nướng BBQ trên sân thượng, và hàng xóm. Liên hệ chúng tôi qua WhatsApp hoặc Zalo. → Nội quy ASCON LIVING Sài Gòn: cách vào nhà, giày dép, bếp, nướng BBQ trên sân thượng, và hàng xóm. Liên hệ chúng tôi qua WhatsApp hoặc Zalo.
+- **vi/house-rules** title: Nội quy nhà ASCON LIVING Quận 7 → Nội quy homestay nguyên căn ASCON LIVING
+- **vi/house/bedroom-2** description: Phòng ngủ 2 trong nhà nguyên căn Quận 7: giường 160×200 cm, smart TV, rèm xám đậm và phòng tắm khép kín có nước nóng. Cửa mở ra hành lang. → Phòng ngủ 2 trong nhà nguyên căn ở Sài Gòn: giường 160×200 cm, smart TV, rèm xám đậm và phòng tắm khép kín có nước nóng. Cửa mở ra hành lang.
+- **vi/house/karaoke-entertainment** description: Phòng karaoke riêng trong nhà nguyên căn Quận 7: micro, PlayStation với PlayStation Plus và 2 tay cầm, máy chiếu 4K có màn chiếu chân đứng và TV 4K. → Phòng karaoke riêng trong nhà nguyên căn ở Sài Gòn: micro, PlayStation với PlayStation Plus và 2 tay cầm, máy chiếu 4K có màn chiếu chân đứng và TV 4K.
+- **vi/house/kitchen** description: Bếp đầy đủ trong nhà nguyên căn Quận 7: bếp mặt kính đen, lò nướng, lò vi sóng, nồi cơm điện, nồi chiên không dầu, tủ lạnh khoảng 540 lít và máy giặt. → Bếp đầy đủ trong nhà nguyên căn ở Sài Gòn: bếp mặt kính đen, lò nướng, lò vi sóng, nồi cơm điện, nồi chiên không dầu, tủ lạnh khoảng 540 lít và máy giặt.
+- **vi/house/kitchen** title: Bếp đầy đủ và phòng ăn | ASCON LIVING Quận 7 → Bếp và phòng ăn, nhà nguyên căn Sài Gòn | ASCON LIVING
+- **vi/house/living-room** description: Phòng khách khoảng 40 m² trong nhà nguyên căn Quận 7: sofa chữ L, TV 4K 75 inch, cửa kính, cây xanh và WiFi mesh tới 1 Gbit/s. Nơi cả nhà tụ họp. → Phòng khách khoảng 40 m² trong nhà nguyên căn ở Sài Gòn: sofa chữ L, TV 4K 75 inch, cửa kính, cây xanh và WiFi mesh tới 1 Gbit/s. Nơi cả nhà tụ họp.
+- **vi/house/outside** description: Nhà nguyên căn ven sông ở Sài Gòn: hiên lan can trắng có mái che, nhìn ra sông và đường chân trời Quận 1. → Nhà nguyên căn ven sông ở Sài Gòn: hiên lan can trắng có mái che, nhìn ra sông và đường chân trời thành phố.
+- **vi/house/outside** title: Homestay view sông Sài Gòn, Quận 7 | ASCON LIVING → Homestay Sài Gòn nguyên căn, view sông | ASCON LIVING
+- **vi/location** description: ASCON LIVING tại 389A Đường Trần Xuân Soạn, Tân Hưng, Quận 7, TP.HCM: nhà ven sông trong khu dân cư yên tĩnh, gần quán ăn và ẩm thực đường phố. → ASCON LIVING tại 389A Đường Trần Xuân Soạn, Tân Hưng, TP.HCM: nhà ven sông trong khu dân cư yên tĩnh, gần quán ăn và ẩm thực đường phố.
+- **vi/location** h1: Vị trí: homestay Quận 7 nằm ngay bờ sông → Vị trí: homestay Sài Gòn nằm ngay bờ sông
+- **vi/location** title: Homestay Quận 7 ven sông, Tân Hưng | ASCON LIVING → Homestay Sài Gòn ven sông, Tân Hưng | ASCON LIVING
+- **vi/rooftop** h1: Sân thượng BBQ: tiệc nướng ngắm đường chân trời Quận 1 → Sân thượng BBQ: tiệc nướng ngắm đường chân trời thành phố
+- **vi/rooftop** title: Sân thượng BBQ view sông Quận 7 | ASCON LIVING → Sân thượng nướng BBQ ở Sài Gòn, view sông | ASCON LIVING
+- **zh** description: 胡志明第七郡（新兴坊）整栋民宿，一组客人包下整栋房子。3间卧室均带独立卫浴，卡拉OK与PlayStation娱乐室，可看河景和第一郡天际线的屋顶烧烤。 → 胡志明（新兴坊）整栋民宿，一组客人包下整栋房子。3间卧室均带独立卫浴，卡拉OK与PlayStation娱乐室，可看河景和城市天际线的屋顶烧烤。
+- **zh** h1: 胡志明住宿首选：第七郡整栋包栋民宿 ASCON LIVING → 胡志明住宿首选：河畔整栋包栋民宿 ASCON LIVING
+- **zh** title: 胡志明住宿 第七郡整栋包栋民宿 | ASCON LIVING → 胡志明住宿 河畔整栋包栋民宿 | ASCON LIVING
+- **zh-tw** description: 胡志明市第七郡河畔整棟出租：3間附衛浴臥室、私人KTV、可看河景與第一郡天際線的頂樓烤肉露台、最高1 Gbit/s網路。全家出遊、朋友揪團都適合。 → 胡志明市河畔整棟出租：3間附衛浴臥室、私人KTV、可看河景與城市天際線的頂樓烤肉露台、最高1 Gbit/s網路。全家出遊、朋友揪團都適合。
+- **zh-tw/booking** description: 預訂胡志明市第七郡ASCON LIVING整棟住宿：WhatsApp／Zalo +84 909 410 382、Email、Airbnb或Trip.com，可加訂機場接送。 → 預訂胡志明市ASCON LIVING整棟住宿：WhatsApp／Zalo +84 909 410 382、Email、Airbnb或Trip.com，可加訂機場接送。
+- **zh-tw/faq** description: 胡志明市第七郡ASCON LIVING常見問題：入住方式、臥室、衛浴、KTV、頂樓烤肉、網路、廚房、安全與訂房。 → 胡志明市ASCON LIVING常見問題：入住方式、臥室、衛浴、KTV、頂樓烤肉、網路、廚房、安全與訂房。
+- **zh-tw/house-rules** description: 胡志明市第七郡ASCON LIVING房屋守則：入住方式、脫鞋、廚房、頂樓烤肉、鄰居與安全。有問題請用WhatsApp聯絡。 → 胡志明市ASCON LIVING房屋守則：入住方式、脫鞋、廚房、頂樓烤肉、鄰居與安全。有問題請用WhatsApp聯絡。
+- **zh-tw/house/kitchen** description: 第七郡整棟住宿的廚房：黑色玻璃面爐台、烤箱、微波爐、電子鍋、氣炸鍋、約540公升冰箱，還有洗衣機。 → 河畔整棟住宿的廚房：黑色玻璃面爐台、烤箱、微波爐、電子鍋、氣炸鍋、約540公升冰箱，還有洗衣機。
+- **zh-tw/house/outside** description: 胡志明市河畔包棟民宿：白色欄杆與遮雨棚的露台，面對河流與第一郡天際線。 → 胡志明市河畔包棟民宿：白色欄杆與遮雨棚的露台，面對河流與城市天際線。
+- **zh-tw/location** description: ASCON LIVING位於胡志明市第七郡新興郡389A Đường Trần Xuân Soạn，河畔住宅區，頂樓可看河景與第一郡天際線，附近就有在地小吃。 → ASCON LIVING位於胡志明市新興郡389A Đường Trần Xuân Soạn，河畔住宅區，頂樓可看河景與城市天際線，附近就有在地小吃。
+- **zh-tw/location** h1: 我們在哪裡：第七郡新興郡，就在河邊 → 我們在哪裡：新興郡，就在河邊
+- **zh-tw/location** title: 胡志明市第七郡河畔住宿｜交通與周邊 ASCON LIVING → 胡志明市河畔住宿｜交通與周邊 ASCON LIVING
+- **zh-tw/rooftop** description: 約56–60 m²頂樓露台：黑色桶型烤肉爐兼煙燻爐、藤編沙發、深色餐桌、局部遮陽棚和串燈，可欣賞河景與第一郡天際線。 → 約56–60 m²頂樓露台：黑色桶型烤肉爐兼煙燻爐、藤編沙發、深色餐桌、局部遮陽棚和串燈，可欣賞河景與城市天際線。
+- **zh-tw/rooftop** h1: 頂樓：看河景與第一郡天際線的露天客廳 → 頂樓：看河景與城市天際線的露天客廳
+- **zh-tw/rooftop** title: 河景頂樓露台與烤肉爐｜ASCON LIVING → 頂樓露台與烤肉爐，可看河景｜ASCON LIVING
+- **zh/booking** description: ASCON LIVING 胡志明第七郡整栋民宿可在 Airbnb、Trip.com 预订，也可先通过 WhatsApp、Zalo 咨询。机场接送可在预订时一起申请。 → ASCON LIVING 胡志明整栋民宿可在 Airbnb、Trip.com 预订，也可先通过 WhatsApp、Zalo 咨询。机场接送可在预订时一起申请。
+- **zh/booking** h1: 胡志明住宿预订：如何包下第七郡整栋民宿 → 胡志明住宿预订：如何包下河畔整栋民宿
+- **zh/booking** title: 胡志明住宿预订 第七郡整栋民宿 | ASCON LIVING → 胡志明住宿预订 河畔整栋民宿 | ASCON LIVING
+- **zh/families** description: 胡志明亲子游、三代同行，整栋包下第七郡民宿。3间卧室均带独立卫浴，能做饭的厨房，洗衣机，下雨天看电影唱K，屋顶烧烤。 → 胡志明亲子游、三代同行，整栋包下河畔民宿。3间卧室均带独立卫浴，能做饭的厨房，洗衣机，下雨天看电影唱K，屋顶烧烤。
+- **zh/families** h1: 胡志明亲子住宿：三代同堂也住得开的第七郡整栋民宿 → 胡志明亲子住宿：三代同堂也住得开的河畔整栋民宿
+- **zh/faq** description: ASCON LIVING 胡志明第七郡整栋民宿常见问题：卧室和卫浴、卡拉OK和PlayStation、自助入住、无线网络、洗衣机、机场接送。 → ASCON LIVING 胡志明整栋民宿常见问题：卧室和卫浴、卡拉OK和PlayStation、自助入住、无线网络、洗衣机、机场接送。
+- **zh/groups** description: 朋友、同事结伴去胡志明，包下第七郡整栋民宿。3间卧室带独立卫浴，卡拉OK和PlayStation，4K投影，能看河景的屋顶烧烤。 → 朋友、同事结伴去胡志明，包下河畔整栋民宿。3间卧室带独立卫浴，卡拉OK和PlayStation，4K投影，能看河景的屋顶烧烤。
+- **zh/groups** h1: 胡志明团体住宿：有卡拉OK和屋顶烧烤的第七郡包栋民宿 → 胡志明团体住宿：有卡拉OK和屋顶烧烤的河畔包栋民宿
+- **zh/house** title: 房屋介绍 胡志明第七郡整栋民宿 | ASCON → 房屋介绍 胡志明整栋民宿 | ASCON
+- **zh/house-rules** description: ASCON LIVING 胡志明第七郡整栋民宿住宿规则：自助入住与外大门钥匙、住宅区邻里礼貌、爱护房屋设施。 → ASCON LIVING 胡志明整栋民宿住宿规则：自助入住与外大门钥匙、住宅区邻里礼貌、爱护房屋设施。
+- **zh/house-rules** h1: 住宿规则：在第七郡整栋民宿住得舒心 → 住宿规则：在河畔整栋民宿住得舒心
+- **zh/house-rules** title: 住宿规则 胡志明第七郡整栋民宿 | ASCON LIVING → 住宿规则 胡志明整栋民宿 | ASCON LIVING
+- **zh/house/bedroom-2** description: 胡志明第七郡整栋民宿卧室2：160×200cm床、智能电视、独立卫浴、独立空调、带窗帘的窗户、放毛巾的衣柜。从前厅直接进入。 → 胡志明整栋民宿卧室2：160×200cm床、智能电视、独立卫浴、独立空调、带窗帘的窗户、放毛巾的衣柜。从前厅直接进入。
+- **zh/house/karaoke-entertainment** description: 卡拉OK麦克风、PlayStation与PlayStation Plus、吸顶4K投影仪和幕布、大尺寸4K电视。胡志明第七郡整栋民宿里只属于您这一组的娱乐室。 → 卡拉OK麦克风、PlayStation与PlayStation Plus、吸顶4K投影仪和幕布、大尺寸4K电视。胡志明整栋民宿里只属于您这一组的娱乐室。
+- **zh/house/kitchen** description: 玻璃面炉灶、烤箱、电饭锅、空气炸锅、烤面包机、约540升大容量冰箱和长餐桌，还有住客可用的洗衣机。胡志明第七郡整栋民宿的厨房。 → 玻璃面炉灶、烤箱、电饭锅、空气炸锅、烤面包机、约540升大容量冰箱和长餐桌，还有住客可用的洗衣机。胡志明整栋民宿的厨房。
+- **zh/house/living-room** description: 胡志明第七郡整栋民宿约40㎡客厅：大型L形沙发、75英寸4K电视与Netflix、空调、与其他卫浴配置相同的客用卫生间。全组人聚在一起的地方。 → 胡志明整栋民宿约40㎡客厅：大型L形沙发、75英寸4K电视与Netflix、空调、与其他卫浴配置相同的客用卫生间。全组人聚在一起的地方。
+- **zh/house/master-bedroom** description: 胡志明第七郡整栋民宿主卧：约55㎡，180×200cm床，55英寸4K电视，独立阳台和卫浴，带无线充电的化妆台，独立空调。 → 胡志明整栋民宿主卧：约55㎡，180×200cm床，55英寸4K电视，独立阳台和卫浴，带无线充电的化妆台，独立空调。
+- **zh/house/outside** description: 位于河边的胡志明第七郡整栋民宿：白色栏杆和遮阳篷的露台，可眺望河流与第一郡天际线。 → 位于河边的胡志明整栋民宿：白色栏杆和遮阳篷的露台，可眺望河流与城市天际线。
+- **zh/location** description: ASCON LIVING 地址：389A Đường Trần Xuân Soạn, 新兴坊（第七郡）, 胡志明市。附近有餐馆和街头小吃，屋顶可看河景和第一郡天际线，提供机场接送。 → ASCON LIVING 地址：389A Đường Trần Xuân Soạn, 新兴坊, 胡志明市。附近有餐馆和街头小吃，屋顶可看河景和城市天际线，提供机场接送。
+- **zh/location** h1: 胡志明第七郡住宿：新兴坊的河畔整栋民宿 → 胡志明住宿：新兴坊的河畔整栋民宿
+- **zh/location** title: 胡志明第七郡住宿位置 新兴坊河畔民宿 | ASCON LIVING → 胡志明住宿位置 新兴坊河畔民宿 | ASCON LIVING
+- **zh/rooftop** description: 约56–60㎡屋顶露台：烧烤炉、藤编户外沙发、餐桌、热带绿植、太阳能灯和串灯，河景与第一郡天际线尽收眼底。只属于您这一组的屋顶。 → 约56–60㎡屋顶露台：烧烤炉、藤编户外沙发、餐桌、热带绿植、太阳能灯和串灯，河景与城市天际线尽收眼底。只属于您这一组的屋顶。
+- **zh/rooftop** h1: 胡志明屋顶烧烤：看河景和第一郡天际线的独享露台 → 胡志明屋顶烧烤：看河景和城市天际线的独享露台

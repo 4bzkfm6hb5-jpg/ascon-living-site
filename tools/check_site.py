@@ -70,4 +70,20 @@ if not dom.endswith('.github.io'):
 if f'Sitemap: {SITE}/sitemap.xml' not in open(f'{D}/robots.txt').read(): errs.append((f'{D}/robots.txt','sitemap','wrong base'))
 for u in re.findall(r'<loc>([^<]+)</loc>',open(f'{D}/sitemap.xml').read()):
     if not u.startswith(SITE+'/'): errs.append(('sitemap.xml','loc',u)); break
+# no district names in <title>, <h1> or first 60 chars of meta description
+import importlib.util as _ilu
+_sp=_ilu.spec_from_file_location('district_scan',os.path.join(os.path.dirname(os.path.abspath(__file__)),'district_scan.py'))
+_ds=_ilu.module_from_spec(_sp); _sp.loader.exec_module(_ds)
+# run as library: collect hits
+_hits=[]
+import html as _html
+for f in sorted(glob.glob(f'{D}/*/**/index.html',recursive=True)):
+    s=open(f).read()
+    if 'noindex' in s: continue
+    t=_html.unescape(re.search(r'<title>(.*?)</title>',s).group(1))
+    h=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S); h=_html.unescape(re.sub('<[^>]+>','',h.group(1))) if h else ''
+    d=_html.unescape(re.search(r'<meta name="description" content="([^"]*)"',s).group(1))
+    for k,v in (('title',t),('h1',h),('desc',d)):
+        m=_ds.DIST.search(v)
+        if m: errs.append((f,'district',f'{k}:{m.group(0)}'))
 print(n,'pages'); [print(e) for e in errs[:60]]; print(len(errs),'issues')

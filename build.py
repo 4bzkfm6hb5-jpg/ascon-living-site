@@ -33,6 +33,17 @@ for _l,_o in _SEO.items():
     for _k,(_old,_new) in _o.get('replace',{}).items():
         if _old not in _h[_k]: raise SystemExit(f'seo_overrides: {_l} {_k} text not found: {_old}')
         if _new not in _h[_k]: _h[_k]=_h[_k].replace(_old,_new,1)
+    for _k,_add in _o.get('append',{}).items():
+        if _add.strip() not in _h[_k]: _h[_k]=_h[_k].rstrip()+_add
+for _l,_rules in _SEO.get('_rewrite',{}).items():
+    if _l not in C: continue
+    for _pg in C[_l]['pages'].values():
+        for _k in ('title','h1','description'):
+            if isinstance(_pg.get(_k),str):
+                for _old,_new in _rules: _pg[_k]=_pg[_k].replace(_old,_new)
+for _l,_pp in _SEO.get('_pages',{}).items():
+    for _pid,_v in _pp.items():
+        if _l in C and _pid in C[_l]['pages']: C[_l]['pages'][_pid].update(_v)
 # Language-switcher flags: self-hosted SVGs from flag-icons (MIT, tools/flags/LICENSE), copied to docs/assets/flags on every build.
 # Not emoji: Windows does not render emoji flags. pa is Gurmukhi (Indian Punjab) -> IN; ur -> PK.
 FLAG={'en':'gb','de':'de','vi':'vn','zh':'cn','zh-tw':'tw','ko':'kr','ja':'jp','th':'th','ms':'my','id':'id','ru':'ru','fr':'fr','es':'es','pt':'br','it':'it','hi':'in','ur':'pk','pa':'in','nl':'nl','pl':'pl','sv':'se','tr':'tr','ar':'sa'}

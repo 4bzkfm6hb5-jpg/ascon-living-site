@@ -4,21 +4,36 @@
   "set": {
    "title": "Overnachten in Ho Chi Minh: heel huis aan de rivier",
    "h1": "Overnachten in Ho Chi Minh: heel huis aan de rivier"
+  },
+  "append": {
+   "lead": " Elk van de drie slaapkamers heeft een eigen badkamer."
   }
  },
  "fr": {
   "set": {
-   "title": "Logement à Ho Chi Minh : maison entière au bord de l'eau"
+   "title": "Logement à Ho Chi Minh : maison entière au bord de l'eau",
+   "description": "Logement à Saigon : maison entière au bord de la rivière, 3 chambres avec chacune sa salle de bain privative, karaoké, barbecue sur le toit, Wi-Fi 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Chacune des trois chambres a sa propre salle de bain."
   }
  },
  "pl": {
   "set": {
-   "title": "Nocleg w Ho Chi Minh: cały dom nad rzeką | ASCON LIVING"
+   "title": "Nocleg w Ho Chi Minh: cały dom nad rzeką | ASCON LIVING",
+   "description": "Cały dom nad rzeką w Ho Chi Minh: 3 sypialnie, każda z własną łazienką, prywatne karaoke, taras na dachu z grillem, Wi-Fi do 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Każda z trzech sypialni ma własną łazienkę."
   }
  },
  "ms": {
   "set": {
-   "title": "Penginapan di Ho Chi Minh: sewa rumah penuh | ASCON LIVING"
+   "title": "Penginapan di Ho Chi Minh: sewa rumah penuh | ASCON LIVING",
+   "description": "Rumah penuh tepi sungai di Ho Chi Minh: 3 bilik tidur, setiap satu dengan bilik air sendiri, bilik karaoke, BBQ atas bumbung dan WiFi 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Setiap satu daripada tiga bilik tidur mempunyai bilik air sendiri."
   }
  },
  "sv": {
@@ -30,31 +45,50 @@
     "Ska ni resa till Ho Chi Minh med familjen eller vänner?",
     "Söker ni boende i Ho Chi Minh för familjen eller vänner?"
    ]
+  },
+  "append": {
+   "lead": " Varje sovrum har eget badrum."
   }
  },
  "it": {
   "set": {
-   "h1": "Dove dormire a Ho Chi Minh: una casa tutta vostra sul fiume"
+   "h1": "Dove dormire a Ho Chi Minh: una casa tutta vostra sul fiume",
+   "description": "Casa intera sul fiume a Ho Chi Minh: 3 camere, ognuna con il suo bagno privato, karaoke privato, terrazza con barbecue, Wi-Fi fino a 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Ognuna delle tre camere ha il suo bagno privato."
   }
  },
  "zh-tw": {
   "set": {
-   "h1": "胡志明市包棟民宿：西貢河畔，一整棟都是你們的"
+   "h1": "胡志明市包棟民宿：西貢河畔，一整棟都是你們的",
+   "description": "胡志明市河畔整棟出租：3間臥室，每間都有獨立衛浴，私人KTV、可看河景與城市天際線的頂樓烤肉露台、最高1 Gbit/s網路。全家出遊、朋友揪團都適合。"
+  },
+  "append": {
+   "lead": "每間臥室都有獨立衛浴。"
   }
  },
  "hi": {
   "set": {
-   "h1": "हो ची मिन्ह में ठहरने की जगह: नदी किनारे पूरा घर, सिर्फ़ आपके लिए"
+   "h1": "हो ची मिन्ह में ठहरने की जगह: नदी किनारे पूरा घर, सिर्फ़ आपके लिए",
+   "description": "हो ची मिन्ह में नदी किनारे पूरा घर: 3 बेडरूम, हर बेडरूम का अपना बाथरूम, प्राइवेट कराओके, छत पर बारबेक्यू, 1 Gbit/s तक Wi-Fi."
+  },
+  "append": {
+   "lead": " तीनों बेडरूम में हर एक का अपना बाथरूम है।"
   }
  },
  "de": {
   "set": {
-   "description": "Unterkunft in Ho-Chi-Minh-Stadt: das ganze ASCON LIVING Ferienhaus in Tân Hưng (Distrikt 7), 3 Schlafzimmer mit eigenem Bad, Dachterrasse, Karaoke."
+   "description": "Unterkunft in Ho-Chi-Minh-Stadt: das ganze ASCON LIVING Ferienhaus in Tân Hưng, jedes der 3 Schlafzimmer mit eigenem Bad, Dachterrasse, Karaoke."
   }
  },
  "vi": {
   "set": {
-   "title": "Homestay Quận 7 nguyên căn theo ngày, Sài Gòn | ASCON LIVING"
+   "title": "Homestay nguyên căn ở Sài Gòn | ASCON LIVING",
+   "description": "Thuê nhà nguyên căn theo ngày ven sông ở Sài Gòn: 3 phòng ngủ, mỗi phòng có phòng tắm riêng, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Cả 3 phòng ngủ đều có phòng tắm riêng."
   }
  },
  "en": {
@@ -63,6 +97,1080 @@
     "to the District 1 skyline.",
     "to the District 1 skyline. It is a vacation rental for one group at a time, so the whole house is yours for your stay."
    ]
+  },
+  "set": {
+   "description": "Rent the whole ASCON LIVING house in Tân Hưng, Ho Chi Minh City: 3 bedrooms, each with its own bathroom, rooftop with river view, karaoke and BBQ."
+  }
+ },
+ "_rewrite_doc": "Per-language (old,new) rewrites applied by build.py to title/h1/description of every page: no district names in title, H1 or meta-description start (19 Oct 2026).",
+ "_rewrite": {
+  "en": [
+   [
+    "Family Accommodation District 7, Saigon",
+    "Family Accommodation in Saigon"
+   ],
+   [
+    "Family accommodation District 7:",
+    "Family accommodation in Saigon:"
+   ],
+   [
+    "in District 7, Ho Chi Minh City",
+    "in Ho Chi Minh City"
+   ],
+   [
+    "Tân Sơn Nhất to District 7",
+    "Tân Sơn Nhất to the House"
+   ],
+   [
+    "Homestay District 7 Ho Chi Minh: Location",
+    "Homestay in Ho Chi Minh City: Location"
+   ],
+   [
+    "your homestay in District 7, Ho Chi Minh City",
+    "your homestay in Ho Chi Minh City"
+   ],
+   [
+    "house in Tân Hưng (District 7), Ho Chi Minh City",
+    "house in Tân Hưng, Ho Chi Minh City"
+   ],
+   [
+    "Tân Hưng (District 7), Ho Chi Minh City",
+    "Tân Hưng, Ho Chi Minh City"
+   ],
+   [
+    "in Tân Hưng, former District 7:",
+    "in Tân Hưng:"
+   ],
+   [
+    "to the District 1 skyline",
+    "to the city skyline"
+   ],
+   [
+    "and District 1 skyline",
+    "and the city skyline"
+   ]
+  ],
+  "de": [
+   [
+    "Haus in Distrikt 7, Ho-Chi-Minh-Stadt",
+    "Haus in Ho-Chi-Minh-Stadt"
+   ],
+   [
+    "Familienunterkunft in Distrikt 7, Saigon",
+    "Familienunterkunft in Saigon: ganzes Haus"
+   ],
+   [
+    "Familienunterkunft in Distrikt 7:",
+    "Familienunterkunft in Saigon:"
+   ],
+   [
+    "Familie in Distrikt 7, Ho-Chi-Minh-Stadt",
+    "Familie in Ho-Chi-Minh-Stadt"
+   ],
+   [
+    "Flughafentransfer Tân Sơn Nhất – District 7",
+    "Flughafentransfer ab Tân Sơn Nhất zum Haus"
+   ],
+   [
+    "Lage in Distrikt 7",
+    "Lage am Fluss"
+   ],
+   [
+    "eure Unterkunft in Distrikt 7, Ho-Chi-Minh-Stadt",
+    "eure Unterkunft am Fluss in Ho-Chi-Minh-Stadt"
+   ],
+   [
+    "Ferienhaus Ho-Chi-Minh-Stadt, Distrikt 7",
+    "Ferienhaus in Ho-Chi-Minh-Stadt: ganzes Haus"
+   ],
+   [
+    "Ferienhaus in Ho-Chi-Minh-Stadt (Distrikt 7):",
+    "Ferienhaus in Ho-Chi-Minh-Stadt:"
+   ],
+   [
+    "Tân Hưng (District 7), Ho-Chi-Minh-Stadt",
+    "Tân Hưng, Ho-Chi-Minh-Stadt"
+   ],
+   [
+    "Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt",
+    "Tân Hưng, Ho-Chi-Minh-Stadt"
+   ],
+   [
+    "in Tân Hưng, ehemals District 7:",
+    "in Tân Hưng:"
+   ],
+   [
+    "die Skyline von Distrikt 1",
+    "die Skyline der Stadt"
+   ]
+  ],
+  "ar": [
+   [
+    "في المنطقة 7 بمدينة هو تشي منه",
+    "في مدينة هو تشي منه"
+   ],
+   [
+    "مطبخ المنزل في المنطقة 7:",
+    "مطبخ المنزل في هو تشي منه:"
+   ],
+   [
+    "الموقع: المنطقة 7 في هو تشي منه",
+    "الموقع: منزل على النهر في هو تشي منه"
+   ],
+   [
+    "أين ستقيمون: المنطقة 7، تان هونغ",
+    "أين ستقيمون: تان هونغ، على ضفة النهر"
+   ],
+   [
+    "وأفق المنطقة 1",
+    "وأفق المدينة"
+   ],
+   [
+    "تان هونغ، المنطقة 7 بمدينة هو تشي منه",
+    "تان هونغ، مدينة هو تشي منه"
+   ]
+  ],
+  "es": [
+   [
+    "casa entera en el Distrito 7 de Ho Chi Minh",
+    "casa entera en Ho Chi Minh"
+   ],
+   [
+    "en el Distrito 7 de HCMC",
+    "en Ho Chi Minh"
+   ],
+   [
+    "una casa del Distrito 7 de Ho Chi Minh",
+    "una casa en Ho Chi Minh"
+   ],
+   [
+    "una casa del Distrito 7",
+    "una casa en Saigón"
+   ],
+   [
+    "ASCON LIVING, Distrito 7 de Ho Chi Minh",
+    "ASCON LIVING, Ho Chi Minh"
+   ],
+   [
+    "Distrito 7, Ho Chi Minh: casa junto al río",
+    "Ubicación en Ho Chi Minh: casa junto al río"
+   ],
+   [
+    "Dónde estamos: Distrito 7 de Saigón, a orillas del río",
+    "Dónde estamos: en Saigón, a orillas del río"
+   ],
+   [
+    "frente al Distrito 1",
+    "frente al skyline de Saigón"
+   ],
+   [
+    "Tân Hưng, Distrito 7, HCMC",
+    "Tân Hưng, Ho Chi Minh"
+   ],
+   [
+    "perfil del Distrito 1",
+    "perfil de la ciudad"
+   ]
+  ],
+  "fr": [
+   [
+    "maison entière dans le District 7 de Saigon",
+    "maison entière à Saigon"
+   ],
+   [
+    "FAQ logement à Saigon, District 7",
+    "FAQ logement à Saigon : maison entière"
+   ],
+   [
+    "Règles de séjour à ASCON LIVING, District 7 de Saigon",
+    "Règles de séjour chez ASCON LIVING à Saigon"
+   ],
+   [
+    "Réponses sur ASCON LIVING, District 7 de Saigon",
+    "Réponses sur ASCON LIVING à Saigon"
+   ],
+   [
+    "une maison du District 7 de Saigon",
+    "une maison à Saigon"
+   ],
+   [
+    "une maison du District 7",
+    "une maison à Saigon"
+   ],
+   [
+    "District 7 Saigon : maison au bord de l'eau",
+    "Où loger à Saigon : maison au bord de l'eau"
+   ],
+   [
+    "Où nous trouver : District 7, au bord de la rivière",
+    "Où nous trouver : à Saigon, au bord de la rivière"
+   ],
+   [
+    "face au District 1",
+    "face aux tours de Saigon"
+   ],
+   [
+    "Tân Hưng, District 7, Saigon",
+    "Tân Hưng, Hô Chi Minh-Ville"
+   ],
+   [
+    "les tours du District 1",
+    "les tours de la ville"
+   ]
+  ],
+  "hi": [
+   [
+    "डिस्ट्रिक्ट 7, हो ची मिन्ह में",
+    "हो ची मिन्ह में"
+   ],
+   [
+    "डिस्ट्रिक्ट 7, हो ची मिन्ह के",
+    "हो ची मिन्ह के"
+   ],
+   [
+    "एयरपोर्ट ट्रांसफ़र Tân Sơn Nhất – District 7",
+    "एयरपोर्ट ट्रांसफ़र Tân Sơn Nhất से घर तक"
+   ],
+   [
+    "Tân Hưng, पूर्व District 7 में",
+    "Tân Hưng में"
+   ],
+   [
+    "डिस्ट्रिक्ट 7 के घर में",
+    "हो ची मिन्ह के घर में"
+   ],
+   [
+    "साइगॉन में नदी किनारे घर, डिस्ट्रिक्ट 7",
+    "साइगॉन में नदी किनारे घर"
+   ],
+   [
+    "District 7 Ho Chi Minh: नदी किनारे घर",
+    "हो ची मिन्ह: नदी किनारे घर"
+   ],
+   [
+    "तान हुंग, डिस्ट्रिक्ट 7, नदी के किनारे",
+    "तान हुंग, नदी के किनारे"
+   ],
+   [
+    "डिस्ट्रिक्ट 7 के घर पर",
+    "हो ची मिन्ह के घर पर"
+   ],
+   [
+    "हो ची मिन्ह के डिस्ट्रिक्ट 7 में",
+    "हो ची मिन्ह में"
+   ],
+   [
+    "डिस्ट्रिक्ट 1 की स्काईलाइन",
+    "शहर की स्काईलाइन"
+   ],
+   [
+    "Tân Hưng (District 7), हो ची मिन्ह",
+    "Tân Hưng, हो ची मिन्ह"
+   ],
+   [
+    "Tân Hưng, डिस्ट्रिक्ट 7, हो ची मिन्ह",
+    "Tân Hưng, हो ची मिन्ह"
+   ]
+  ],
+  "pa": [
+   [
+    "Tân Sơn Nhất – District 7",
+    "Tân Sơn Nhất ਤੋਂ ਘਰ ਤੱਕ"
+   ],
+   [
+    "Tân Hưng, ਸਾਬਕਾ District 7 ਵਿੱਚ",
+    "Tân Hưng ਵਿੱਚ"
+   ],
+   [
+    "Ho Chi Minh City District 7: ਪੂਰਾ ਘਰ",
+    "Ho Chi Minh City ਵਿੱਚ ਪੂਰਾ ਘਰ"
+   ],
+   [
+    "Ho Chi Minh City, District 7 ਵਿੱਚ",
+    "Ho Chi Minh City ਵਿੱਚ"
+   ],
+   [
+    "Tân Hưng (District 7), ਹੋ ਚੀ",
+    "Tân Hưng, ਹੋ ਚੀ"
+   ],
+   [
+    "ASCON LIVING ਦਾ ਪਤਾ: 389A Trần Xuân Soạn, Tân Hưng (ਸਾਬਕਾ District 7), ਹੋ ਚੀ ਮਿਨ੍ਹ ਸ਼ਹਿਰ, Phú Mỹ Hưng ਨੇੜੇ, ਦਰਿਆ ਕੰਢੇ। ਸਮਾਂ ਅੰਦਾਜ਼ਨ।",
+    "ASCON LIVING ਦਾ ਪਤਾ: 389A Trần Xuân Soạn, Tân Hưng, ਹੋ ਚੀ ਮਿਨ੍ਹ ਸ਼ਹਿਰ, ਦਰਿਆ ਕੰਢੇ ਰਿਹਾਇਸ਼ੀ ਇਲਾਕੇ ਵਿੱਚ।"
+   ]
+  ],
+  "ur": [
+   [
+    "Tân Sơn Nhất – District 7",
+    "Tân Sơn Nhất سے گھر تک"
+   ],
+   [
+    "Tân Hưng، سابق District 7 میں",
+    "Tân Hưng میں"
+   ],
+   [
+    "Ho Chi Minh City District 7: پورا گھر",
+    "Ho Chi Minh City میں پورا گھر"
+   ],
+   [
+    "Ho Chi Minh City، District 7 میں",
+    "Ho Chi Minh City میں"
+   ],
+   [
+    "Tân Hưng (District 7)، ہو چی",
+    "Tân Hưng، ہو چی"
+   ],
+   [
+    "ASCON LIVING کا پتہ: 389A Trần Xuân Soạn، Tân Hưng (سابق District 7)، ہو چی منہ سٹی، Phú Mỹ Hưng کے قریب، دریا کنارے۔ سفر کا وقت اندازاً۔",
+    "ASCON LIVING کا پتہ: 389A Trần Xuân Soạn، Tân Hưng، ہو چی منہ سٹی، دریا کنارے رہائشی علاقے میں۔"
+   ]
+  ],
+  "id": [
+   [
+    "Penginapan di Distrik 7 Ho Chi Minh |",
+    "Penginapan di Ho Chi Minh: lokasi |"
+   ],
+   [
+    "di Distrik 7 lewat",
+    "di Ho Chi Minh lewat"
+   ],
+   [
+    "Distrik 7 Ho Chi Minh",
+    "Ho Chi Minh"
+   ],
+   [
+    "di Distrik 7:",
+    "di Ho Chi Minh:"
+   ],
+   [
+    "rumah Distrik 7, Ho Chi Minh",
+    "rumah di Ho Chi Minh"
+   ],
+   [
+    "rumah sewa Distrik 7",
+    "rumah sewa di Ho Chi Minh"
+   ],
+   [
+    "Lokasi kami: Distrik 7,",
+    "Lokasi kami: Ho Chi Minh,"
+   ],
+   [
+    "dengan latar District 1",
+    "dengan latar gedung-gedung Saigon"
+   ],
+   [
+    "gedung-gedung District 1",
+    "gedung-gedung kota"
+   ],
+   [
+    "Tân Hưng, Distrik 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
+   ],
+   [
+    "sungai ke District 1",
+    "sungai ke gedung-gedung kota"
+   ]
+  ],
+  "it": [
+   [
+    "nel Distretto 7 di Ho Chi Minh",
+    "a Ho Chi Minh"
+   ],
+   [
+    ", Distretto 7 di Ho Chi Minh",
+    " a Ho Chi Minh"
+   ],
+   [
+    "in casa nel Distretto 7",
+    "in casa a Ho Chi Minh"
+   ],
+   [
+    "Casa sul fiume a Saigon, Distretto 7",
+    "Casa sul fiume a Saigon: esterni"
+   ],
+   [
+    "Distretto 7, HCMC: casa sul fiume",
+    "Dove siamo a Ho Chi Minh: casa sul fiume"
+   ],
+   [
+    "Tân Hưng, Distretto 7, sul fiume",
+    "Tân Hưng, sul fiume"
+   ],
+   [
+    "skyline del Distretto 1",
+    "skyline della città"
+   ],
+   [
+    "Tân Hưng, Distretto 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
+   ]
+  ],
+  "ms": [
+   [
+    "di Daerah 7, Ho Chi Minh",
+    "di Ho Chi Minh"
+   ],
+   [
+    "di Daerah 7:",
+    "di Ho Chi Minh:"
+   ],
+   [
+    "ASCON LIVING, Daerah 7:",
+    "ASCON LIVING, Ho Chi Minh:"
+   ],
+   [
+    "rumah penuh Daerah 7, Ho Chi Minh",
+    "rumah penuh di Ho Chi Minh"
+   ],
+   [
+    "rumah penuh Daerah 7",
+    "rumah penuh di Ho Chi Minh"
+   ],
+   [
+    "Ho Chi Minh District 7: Lokasi ASCON LIVING",
+    "Rumah di Ho Chi Minh: Lokasi ASCON LIVING"
+   ],
+   [
+    "tepi sungai di District 7",
+    "tepi sungai di Ho Chi Minh"
+   ],
+   [
+    "sambil melihat District 1",
+    "sambil melihat bandar Saigon"
+   ],
+   [
+    "latar langit District 1",
+    "latar langit bandar"
+   ],
+   [
+    "Tân Hưng, Daerah 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
+   ]
+  ],
+  "nl": [
+   [
+    "in District 7, Ho Chi Minh",
+    "in Ho Chi Minh"
+   ],
+   [
+    "Uitgeruste keuken in District 7",
+    "Uitgeruste keuken in Ho Chi Minh"
+   ],
+   [
+    "Huis aan de rivier in Saigon, District 7",
+    "Huis aan de rivier in Saigon: buiten"
+   ],
+   [
+    "District 7, Ho Chi Minh: huis aan de rivier",
+    "Locatie in Ho Chi Minh: huis aan de rivier"
+   ],
+   [
+    "Tân Hưng, District 7, aan het water",
+    "Tân Hưng, aan het water"
+   ],
+   [
+    "skyline van District 1",
+    "skyline van de stad"
+   ],
+   [
+    "Tân Hưng, District 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
+   ]
+  ],
+  "pt": [
+   [
+    "casa inteira no Distrito 7 de Ho Chi Minh",
+    "casa inteira em Ho Chi Minh"
+   ],
+   [
+    "no Distrito 7 de HCMC",
+    "em Ho Chi Minh"
+   ],
+   [
+    "ASCON LIVING, Distrito 7 de HCMC",
+    "ASCON LIVING, Ho Chi Minh"
+   ],
+   [
+    "em casa no Distrito 7 de Ho Chi Minh",
+    "em casa em Ho Chi Minh"
+   ],
+   [
+    "Casa à beira do rio em Saigon, Distrito 7",
+    "Casa à beira do rio em Saigon: área externa"
+   ],
+   [
+    "Onde ficar em Ho Chi Minh: Distrito 7",
+    "Onde ficar em Ho Chi Minh: casa no rio"
+   ],
+   [
+    "à beira do rio, no Distrito 7",
+    "à beira do rio, em Tân Hưng"
+   ],
+   [
+    "skyline do Distrito 1",
+    "skyline da cidade"
+   ],
+   [
+    "Tân Hưng, Distrito 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
+   ]
+  ],
+  "sv": [
+   [
+    "i District 7, Ho Chi Minh",
+    "i Ho Chi Minh"
+   ],
+   [
+    "Fullt utrustat kök i District 7",
+    "Fullt utrustat kök i Ho Chi Minh"
+   ],
+   [
+    "Hus vid floden i Saigon, District 7",
+    "Hus vid floden i Saigon: uteplatser"
+   ],
+   [
+    "District 7, Ho Chi Minh: hus vid floden",
+    "Läge i Ho Chi Minh: hus vid floden"
+   ],
+   [
+    "Tân Hưng, District 7, vid floden",
+    "Tân Hưng, vid floden"
+   ],
+   [
+    "District 1:s skyline",
+    "stadens skyline"
+   ],
+   [
+    "Tân Hưng, District 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
+   ]
+  ],
+  "pl": [
+   [
+    "ASCON LIVING, Dystrykt 7, Ho Chi Minh",
+    "ASCON LIVING w Ho Chi Minh"
+   ],
+   [
+    "Dom nad rzeką w Sajgonie, Dystrykt 7",
+    "Dom nad rzeką w Sajgonie: na zewnątrz"
+   ],
+   [
+    "Dystrykt 7, Ho Chi Minh: dom nad rzeką",
+    "Lokalizacja w Ho Chi Minh: dom nad rzeką"
+   ],
+   [
+    "Tân Hưng, Dystrykt 7, nad rzeką",
+    "Tân Hưng, nad rzeką"
+   ],
+   [
+    "panoramę Dystryktu 1",
+    "panoramę miasta"
+   ],
+   [
+    "Tân Hưng, Dystrykt 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
+   ]
+  ],
+  "ru": [
+   [
+    "ASCON LIVING, 7-й район Хошимина",
+    "ASCON LIVING в Хошимине"
+   ],
+   [
+    "Хошимин, 7-й район: дом у реки",
+    "Хошимин: дом у реки, расположение"
+   ],
+   [
+    "Где мы находимся: 7-й район Хошимина, на берегу реки",
+    "Где мы находимся: Хошимин, на берегу реки"
+   ],
+   [
+    "с видом на 1-й район",
+    "с видом на центр Сайгона"
+   ],
+   [
+    "Tân Hưng, 7-й район Хошимина",
+    "Tân Hưng, Хошимин"
+   ],
+   [
+    "вид на реку и 1-й район",
+    "вид на реку и город"
+   ]
+  ],
+  "tr": [
+   [
+    "Ho Chi Minh 7. Bölge'de ASCON LIVING'i",
+    "Ho Chi Minh'de ASCON LIVING'i"
+   ],
+   [
+    "7. Bölge'deki kiralık evin mutfağı",
+    "Ho Chi Minh'deki kiralık evin mutfağı"
+   ],
+   [
+    "Konum: Ho Chi Minh 7. Bölge",
+    "Konum: Ho Chi Minh, nehir kenarında ev"
+   ],
+   [
+    "Nerede kalacaksınız: 7. Bölge, Tân Hưng",
+    "Nerede kalacaksınız: Tân Hưng, nehir kenarı"
+   ],
+   [
+    "Ho Chi Minh 7. Bölge Tân Hưng'de",
+    "Ho Chi Minh, Tân Hưng'de"
+   ],
+   [
+    "nehir ve 1. Bölge silueti",
+    "nehir ve şehir silueti"
+   ],
+   [
+    "Ho Chi Minh 7. Bölge'de nehir",
+    "Ho Chi Minh'de nehir"
+   ]
+  ],
+  "ja": [
+   [
+    "ホーチミン7区",
+    "ホーチミン"
+   ],
+   [
+    "タンフン（7区）",
+    "タンフン"
+   ],
+   [
+    "7区の",
+    "川沿いの"
+   ],
+   [
+    "1区のスカイライン",
+    "中心街のスカイライン"
+   ],
+   [
+    "川と1区の街並み",
+    "川と街の景色"
+   ]
+  ],
+  "ko": [
+   [
+    "호치민 7군 ",
+    "호치민 "
+   ],
+   [
+    "떤흥(7군)",
+    "떤흥"
+   ],
+   [
+    "7군 독채",
+    "강변 독채"
+   ],
+   [
+    "1군 스카이라인",
+    "도심 스카이라인"
+   ],
+   [
+    "호치민 7군(떤흥) ",
+    "호치민 떤흥 "
+   ]
+  ],
+  "zh": [
+   [
+    "第七郡整栋包栋民宿",
+    "河畔整栋包栋民宿"
+   ],
+   [
+    "胡志明第七郡",
+    "胡志明"
+   ],
+   [
+    "新兴坊（第七郡）",
+    "新兴坊"
+   ],
+   [
+    "第七郡整栋民宿",
+    "河畔整栋民宿"
+   ],
+   [
+    "第七郡包栋民宿",
+    "河畔包栋民宿"
+   ],
+   [
+    "第七郡民宿",
+    "河畔民宿"
+   ],
+   [
+    "第一郡天际线",
+    "城市天际线"
+   ]
+  ],
+  "zh-tw": [
+   [
+    "胡志明市第七郡",
+    "胡志明市"
+   ],
+   [
+    "第七郡整棟住宿",
+    "河畔整棟住宿"
+   ],
+   [
+    "第七郡新興郡",
+    "新興郡"
+   ],
+   [
+    "第一郡天際線",
+    "城市天際線"
+   ]
+  ],
+  "th": [
+   [
+    "บ้านทั้งหลังในเขต 7",
+    "บ้านทั้งหลังริมแม่น้ำ"
+   ],
+   [
+    "บ้านพักทั้งหลังเขต 7",
+    "บ้านพักทั้งหลังริมแม่น้ำ"
+   ],
+   [
+    "บ้านทั้งหลังเขต 7",
+    "บ้านทั้งหลังริมแม่น้ำ"
+   ],
+   [
+    "ที่พักเขต 7 โฮจิมินห์",
+    "ที่พักโฮจิมินห์"
+   ],
+   [
+    "และเขต 1",
+    "และตึกสูงกลางเมือง"
+   ],
+   [
+    "บ้านทั้งหลัง เขต 7",
+    "บ้านทั้งหลังริมแม่น้ำ"
+   ],
+   [
+    "บ้านพักทั้งหลังในเขต 7 โฮจิมินห์",
+    "บ้านพักทั้งหลังในโฮจิมินห์"
+   ],
+   [
+    "เส้นขอบฟ้าเขต 1",
+    "ตึกสูงกลางเมือง"
+   ],
+   [
+    "เติ่นหึง (เขต 7) โฮจิมินห์",
+    "เติ่นหึง โฮจิมินห์"
+   ]
+  ],
+  "vi": [
+   [
+    "Đặt nhà nguyên căn theo ngày Quận 7",
+    "Đặt nhà nguyên căn theo ngày ở Sài Gòn"
+   ],
+   [
+    "theo ngày tại Quận 7",
+    "theo ngày tại Sài Gòn"
+   ],
+   [
+    "Hỏi đáp homestay Sài Gòn Quận 7",
+    "Hỏi đáp homestay nguyên căn Sài Gòn"
+   ],
+   [
+    "ASCON LIVING Quận 7:",
+    "ASCON LIVING Sài Gòn:"
+   ],
+   [
+    "Nhà nguyên căn Quận 7 cho nhóm",
+    "Nhà nguyên căn Sài Gòn cho nhóm"
+   ],
+   [
+    "Đưa đón sân bay Tân Sơn Nhất – Quận 7",
+    "Đưa đón sân bay Tân Sơn Nhất về nhà"
+   ],
+   [
+    "Nội quy nhà ASCON LIVING Quận 7",
+    "Nội quy homestay nguyên căn ASCON LIVING"
+   ],
+   [
+    "Nhà nguyên căn Quận 7, homestay view sông",
+    "Nhà nguyên căn ở Sài Gòn, homestay view sông"
+   ],
+   [
+    "nhà nguyên căn Quận 7",
+    "nhà nguyên căn ở Sài Gòn"
+   ],
+   [
+    "Bếp đầy đủ và phòng ăn | ASCON LIVING Quận 7",
+    "Bếp và phòng ăn, nhà nguyên căn Sài Gòn | ASCON LIVING"
+   ],
+   [
+    "Homestay view sông Sài Gòn, Quận 7",
+    "Homestay Sài Gòn nguyên căn, view sông"
+   ],
+   [
+    "Homestay Quận 7 ven sông",
+    "Homestay Sài Gòn ven sông"
+   ],
+   [
+    "homestay Quận 7 nằm",
+    "homestay Sài Gòn nằm"
+   ],
+   [
+    "Tân Hưng, Quận 7, TP.HCM",
+    "Tân Hưng, TP.HCM"
+   ],
+   [
+    "Sân thượng BBQ view sông Quận 7",
+    "Sân thượng nướng BBQ ở Sài Gòn, view sông"
+   ],
+   [
+    "đường chân trời Quận 1",
+    "đường chân trời thành phố"
+   ],
+   [
+    "ven sông Quận 7:",
+    "ven sông ở Sài Gòn:"
+   ],
+   [
+    "ở Tân Hưng, Quận 7 cũ:",
+    "ở Tân Hưng:"
+   ],
+   [
+    "Tân Hưng (Quận 7 cũ), TP. Hồ Chí Minh",
+    "Tân Hưng, TP. Hồ Chí Minh"
+   ],
+   [
+    "nhìn về Quận 1",
+    "nhìn ra thành phố"
+   ]
+  ]
+ },
+ "_pages_doc": "Per-page field overrides {lang:{page_id:{field:value}}} (amenities at the end of titles).",
+ "_pages": {
+  "es": {
+   "room-entertainment": {
+    "title": "Casa en Saigón con karaoke y PlayStation | ASCON LIVING"
+   },
+   "house": {
+    "description": "Tres plantas y azotea: 3 dormitorios, cada uno con baño propio, salón de unos 40 m², cocina equipada y sala de karaoke con proyector 4K."
+   }
+  },
+  "it": {
+   "room-entertainment": {
+    "title": "Casa a Saigon con karaoke e PlayStation | ASCON LIVING"
+   },
+   "house": {
+    "description": "Tre piani e terrazza: 3 camere, ognuna con il suo bagno privato, soggiorno di circa 40 m², cucina attrezzata e sala karaoke con proiettore 4K."
+   }
+  },
+  "ja": {
+   "room-entertainment": {
+    "title": "エンタメルームとカラオケ | ASCON LIVING"
+   },
+   "groups": {
+    "title": "貸切一軒家とカラオケ | ASCON LIVING"
+   },
+   "house": {
+    "title": "家のご案内 ホーチミンの一軒家 | ASCON LIVING"
+   }
+  },
+  "ko": {
+   "room-entertainment": {
+    "title": "호치민 독채 숙소 – 노래방 엔터테인먼트룸 | ASCON LIVING"
+   },
+   "house": {
+    "title": "집 소개 – 호치민 독채 방별 안내 | ASCON LIVING"
+   }
+  },
+  "ru": {
+   "room-entertainment": {
+    "title": "Дом в Хошимине с караоке и PlayStation | ASCON LIVING"
+   },
+   "room-bedroom-2": {
+    "description": "Спальня 2 в доме в Хошимине: кровать 160×200 см, смарт-телевизор, тёмно-серые шторы и своя ванная комната с горячей водой. Вход из коридора."
+   }
+  },
+  "tr": {
+   "rooftop": {
+    "title": "Çatı Terası ve Barbekü, Nehir Manzaralı | ASCON LIVING"
+   },
+   "house": {
+    "description": "Üç kat ve çatı terası: her biri kendi banyolu 3 yatak odası, yaklaşık 40 m² salon, tam donanımlı mutfak ve 4K projektörlü karaoke odası."
+   }
+  },
+  "zh-tw": {
+   "rooftop": {
+    "title": "頂樓露台與烤肉爐，可看河景｜ASCON LIVING"
+   },
+   "house": {
+    "description": "三層樓加屋頂露台：3間臥室，每間都有獨立衛浴，約40㎡客廳、設備齊全的廚房，以及有4K投影機的卡拉OK娛樂室。"
+   },
+   "room-bedroom-2": {
+    "description": "胡志明整棟住宿臥室2：160×200 cm床、智慧電視、深灰色窗簾、立扇，以及有熱水和毛巾的獨立套房衛浴。"
+   },
+   "room-bedroom-3": {
+    "description": "沒有窗戶的臥室3：午睡也很暗，160×200 cm床、智慧電視、放備用毛巾和床單的玻璃衣櫃、獨立套房衛浴。"
+   },
+   "room-master": {
+    "description": "約55 m²的主臥：180×200 cm大床、55吋4K電視、陽台、附無線充電的化妝台、熨斗和獨立套房衛浴。"
+   }
+  },
+  "en": {
+   "house": {
+    "description": "Over 250 m² on three floors plus rooftop: 3 bedrooms, each with its own bathroom, 40 m² living room, full kitchen, karaoke room with 4K projector."
+   }
+  },
+  "fr": {
+   "house": {
+    "description": "Trois étages et un toit-terrasse : 3 chambres avec chacune sa salle de bain privative, salon d’environ 40 m², cuisine équipée et salle de karaoké 4K."
+   },
+   "room-master": {
+    "description": "Chambre principale d'environ 55 m² : lit 180×200 cm, TV 4K de 55 pouces, balcon, coiffeuse avec chargeur sans fil, fer à repasser, salle de bain privative."
+   }
+  },
+  "hi": {
+   "house": {
+    "description": "ASCON LIVING अंदर से: हो ची मिन्ह सिटी में पूरा घर, डबल बेड वाले 3 बेडरूम, हर एक का अपना बाथरूम, किचन और एंटरटेनमेंट रूम।"
+   },
+   "room-master": {
+    "description": "लगभग 55 m² का मास्टर बेडरूम: 180×200 cm बेड, 55 इंच 4K TV, बालकनी, वायरलेस चार्जिंग वाली ड्रेसिंग टेबल, प्रेस और अपना अटैच्ड बाथरूम."
+   },
+   "room-bedroom-2": {
+    "description": "हो ची मिन्ह के घर का बेडरूम 2: 160×200 cm बेड, स्मार्ट TV, गहरे ग्रे पर्दे, स्टैंड वाला पंखा और गर्म पानी व तौलियों वाला अपना अटैच्ड बाथरूम."
+   }
+  },
+  "id": {
+   "house": {
+    "description": "Tiga lantai plus rooftop: 3 kamar tidur, masing-masing dengan kamar mandi sendiri, ruang keluarga sekitar 40 m², dapur lengkap, dan ruang karaoke 4K."
+   }
+  },
+  "ms": {
+   "house": {
+    "description": "Tiga tingkat dan bumbung: 3 bilik tidur, setiap satu dengan bilik air sendiri, ruang tamu kira-kira 40 m², dapur lengkap dan bilik karaoke 4K."
+   }
+  },
+  "nl": {
+   "house": {
+    "description": "Drie verdiepingen en een dakterras: 3 slaapkamers, elk met eigen badkamer, woonkamer van ca. 40 m², uitgeruste keuken en karaokekamer met 4K-projector."
+   }
+  },
+  "pa": {
+   "house": {
+    "description": "ASCON LIVING ਅੰਦਰੋਂ: ਹੋ ਚੀ ਮਿਨ੍ਹ ਸ਼ਹਿਰ ਵਿੱਚ ਪੂਰਾ ਘਰ, ਡਬਲ ਬੈੱਡ ਵਾਲੇ 3 ਬੈੱਡਰੂਮ, ਹਰ ਇੱਕ ਦਾ ਆਪਣਾ ਬਾਥਰੂਮ, ਰਸੋਈ ਅਤੇ ਐਂਟਰਟੇਨਮੈਂਟ ਰੂਮ।"
+   }
+  },
+  "ur": {
+   "house": {
+    "description": "ASCON LIVING اندر سے: ہو چی منہ سٹی میں پورا گھر، ڈبل بیڈ والے 3 بیڈروم، ہر ایک کا اپنا باتھ روم، کچن اور انٹرٹینمنٹ روم۔"
+   }
+  },
+  "pl": {
+   "house": {
+    "description": "Trzy piętra i taras na dachu: 3 sypialnie, każda z własną łazienką, salon ok. 40 m², w pełni wyposażona kuchnia i pokój karaoke z projektorem 4K."
+   }
+  },
+  "pt": {
+   "house": {
+    "description": "Três andares e terraço: 3 quartos, cada um com banheiro privativo, sala de cerca de 40 m², cozinha equipada e sala de karaokê com projetor 4K."
+   }
+  },
+  "vi": {
+   "house": {
+    "description": "Nhà nguyên căn ở Sài Gòn có karaoke: 3 phòng ngủ giường đôi, mỗi phòng có phòng tắm riêng, bếp đầy đủ, phòng giải trí và view sông."
+   },
+   "room-master": {
+    "description": "Phòng ngủ chính khoảng 55 m²: giường 180×200 cm, TV 4K 55 inch, ban công riêng, bàn trang điểm có sạc không dây, bàn ủi và phòng tắm riêng."
+   },
+   "room-bedroom-2": {
+    "description": "Phòng ngủ 2 trong nhà nguyên căn ở Sài Gòn: giường 160×200 cm, smart TV, rèm xám đậm và phòng tắm riêng có nước nóng. Cửa mở ra hành lang."
+   },
+   "room-bedroom-3": {
+    "description": "Phòng ngủ 3 không có cửa sổ, tối và yên tĩnh: giường 160×200 cm, smart TV, tủ có khăn, ga và gối dự phòng, phòng tắm riêng. Hợp cho bé ngủ trưa."
+   }
+  },
+  "th": {
+   "house": {
+    "description": "บ้าน 3 ชั้นพร้อมดาดฟ้า ห้องนอน 3 ห้อง ทุกห้องมีห้องน้ำในตัว ห้องนั่งเล่นราว 40 ตร.ม. ครัว และห้องคาราโอเกะ ดูรูปและอุปกรณ์ทีละห้อง"
+   },
+   "room-master": {
+    "description": "ห้องนอนใหญ่ราว 55 ตร.ม. เตียง 180×200 ซม. ทีวี 4K 55 นิ้ว ระเบียงและห้องน้ำในตัว โต๊ะเครื่องแป้งพร้อมแท่นชาร์จไร้สาย แอร์แยก บ้านพักโฮจิมินห์"
+   }
+  }
+ },
+ "es": {
+  "set": {
+   "description": "Mejor que un hotel en Ho Chi Minh: casa entera junto al río, 3 dormitorios, cada uno con baño propio, karaoke, barbacoa en la azotea y WiFi de 1 Gbit/s."
+  },
+  "append": {
+   "lead": " Cada uno de los tres dormitorios tiene su propio baño."
+  }
+ },
+ "id": {
+  "set": {
+   "description": "Lebih leluasa dari hotel di Ho Chi Minh: sewa rumah utuh dengan 3 kamar tidur, masing-masing dengan kamar mandi sendiri, ruang karaoke dan BBQ rooftop."
+  },
+  "append": {
+   "lead": " Ketiga kamar tidurnya masing-masing punya kamar mandi sendiri."
+  }
+ },
+ "ja": {
+  "set": {
+   "description": "ホーチミン（タンフン）の一軒家を一棟まるごと貸切。各寝室に専用バスルーム、カラオケとPlayStationのエンタメルーム、川を望むルーフトップBBQ。"
+  }
+ },
+ "ko": {
+  "set": {
+   "description": "호치민 떤흥 강변 독채 숙소. 침실 3개마다 전용 욕실, 노래방·PlayStation 엔터테인먼트룸, 강과 도심 스카이라인이 보이는 루프탑 BBQ. 가족·단체 여행에."
+  }
+ },
+ "pa": {
+  "set": {
+   "description": "ਹੋ ਚੀ ਮਿਨ੍ਹ ਸ਼ਹਿਰ ਵਿੱਚ ਦਰਿਆ ਕੰਢੇ ਪੂਰਾ ਘਰ: ਡਬਲ ਬੈੱਡ ਵਾਲੇ 3 ਬੈੱਡਰੂਮ, ਹਰ ਬੈੱਡਰੂਮ ਦਾ ਆਪਣਾ ਬਾਥਰੂਮ, ਛੱਤ ਅਤੇ BBQ।"
+  },
+  "replace": {
+   "lead": [
+    "Tân Hưng ਵਿੱਚ, Phú Mỹ Hưng (ਸਾਬਕਾ District 7) ਨੇੜੇ, ਦਰਿਆ ਕੰਢੇ ਨਿੱਜੀ ਘਰ ਹੈ: ਡਬਲ ਬੈੱਡ ਵਾਲੇ 3 ਬੈੱਡਰੂਮ ਅਤੇ",
+    "Tân Hưng ਵਿੱਚ ਦਰਿਆ ਕੰਢੇ ਨਿੱਜੀ ਘਰ ਹੈ: ਡਬਲ ਬੈੱਡ ਵਾਲੇ 3 ਬੈੱਡਰੂਮ, ਹਰ ਬੈੱਡਰੂਮ ਦਾ ਆਪਣਾ ਬਾਥਰੂਮ, ਅਤੇ"
+   ]
+  }
+ },
+ "ur": {
+  "set": {
+   "description": "ہو چی منہ سٹی میں دریا کنارے پورا گھر: ڈبل بیڈ والے 3 بیڈروم، ہر بیڈروم کا اپنا باتھ روم، اور چھت پر ٹیرس۔"
+  },
+  "replace": {
+   "lead": [
+    "Tân Hưng میں، Phú Mỹ Hưng (سابق District 7) کے قریب، دریا کنارے نجی گھر ہے: ڈبل بیڈ والے 3 بیڈروم اور",
+    "Tân Hưng میں دریا کنارے نجی گھر ہے: ڈبل بیڈ والے 3 بیڈروم، ہر بیڈروم کا اپنا باتھ روم، اور"
+   ]
+  }
+ },
+ "pt": {
+  "set": {
+   "description": "Alternativa a hotel em Ho Chi Minh: casa inteira à beira do rio, 3 quartos, cada um com banheiro privativo, karaokê, churrasco no terraço e Wi-Fi."
+  },
+  "append": {
+   "lead": " Cada um dos três quartos tem banheiro privativo."
+  }
+ },
+ "ru": {
+  "set": {
+   "description": "Жилье в Хошимине целиком: дом у реки, 3 спальни, у каждой своя ванная, караоке, барбекю на крыше, Wi-Fi до 1 Гбит/с. Пишите в WhatsApp или Zalo."
+  },
+  "append": {
+   "lead": " У каждой из трёх спален своя ванная комната."
+  }
+ },
+ "th": {
+  "set": {
+   "description": "บ้านพักทั้งหลังในโฮจิมินห์ 3 ห้องนอน ทุกห้องมีห้องน้ำในตัว ห้องคาราโอเกะและ PlayStation ดาดฟ้าบาร์บีคิววิวแม่น้ำและเส้นขอบฟ้าเมือง"
+  }
+ },
+ "tr": {
+  "set": {
+   "description": "Ho Chi Minh'de nehir kenarında 3 katlı kiralık ev: 250 m² üzeri alan, her biri kendi banyolu 3 yatak odası, karaoke odası ve nehir manzaralı çatı terası."
+  },
+  "append": {
+   "lead": " Üç yatak odasının her birinin kendi banyosu var."
+  }
+ },
+ "ar": {
+  "append": {
+   "lead": " ولكل غرفة من غرف النوم الثلاث حمّامها الخاص."
   }
  }
 }
