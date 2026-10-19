@@ -1024,7 +1024,8 @@
     "description": "約55 m²的主臥：180×200 cm大床、55吋4K電視、陽台、附無線充電的化妝台、熨斗和獨立套房衛浴。"
    },
    "booking": {
-    "description": "胡志明市住宿訂房：預訂ASCON LIVING包棟民宿，可用WhatsApp／Zalo +84 909 410 382、Email、Airbnb或Trip.com，可加訂機場接送。"
+    "description": "胡志明市住宿訂房：預訂ASCON LIVING包棟民宿，可用WhatsApp／Zalo +84 909 410 382、Email、Airbnb或Trip.com，可加訂機場接送。",
+    "h1": "胡志明住宿，選整棟比飯店更自在"
    },
    "home": {
     "title": "胡志明市包棟民宿 整棟住宿 | ASCON LIVING",
@@ -1277,7 +1278,7 @@
     "lead": "Đi chơi cả đại gia đình cần không gian rộng, có bếp và yên tĩnh. Ở ASCON LIVING, mọi người ở chung một căn nhà tại Sài Gòn nhưng ai cũng có góc riêng."
    },
    "home": {
-    "title": "Homestay Sài Gòn, nhà nguyên căn TP.HCM | ASCON LIVING",
+    "title": "Homestay Sài Gòn nguyên căn | ASCON LIVING",
     "description": "Homestay Sài Gòn, nhà nguyên căn theo ngày tại TP. Hồ Chí Minh: 3 phòng ngủ có phòng tắm riêng, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s. Zalo 0909 410 382.",
     "h1": "Homestay Sài Gòn: thuê nhà nguyên căn theo ngày ở TP. Hồ Chí Minh",
     "lead": "Homestay Sài Gòn ASCON LIVING Riverside là căn nhà 3 tầng cùng sân thượng nằm ngay bờ sông ở phường Tân Hưng, TP. Hồ Chí Minh. Cả căn nhà hơn 250 m² chỉ dành riêng cho gia đình, nhóm bạn hoặc đồng nghiệp của bạn, không chung với khách khác. Cả 3 phòng ngủ đều có phòng tắm riêng."
@@ -1420,6 +1421,117 @@
    "lead": [
     "Tân Hưng میں، Phú Mỹ Hưng (سابق District 7) کے قریب، دریا کنارے نجی گھر ہے: ڈبل بیڈ والے 3 بیڈروم اور",
     "Tân Hưng میں دریا کنارے نجی گھر ہے: ڈبل بیڈ والے 3 بیڈروم، ہر بیڈروم کا اپنا باتھ روم، اور"
+   ]
+  }
+ },
+ "_body_doc": "Wording edits anywhere in a page {lang:{page_id:[[old,new]]}} (Website Ops review 19 Oct: keyword stuffing).",
+ "_body": {
+  "es": {
+   "home": [
+    [
+     "Salón de unos 40 m² en una casa entera en Ho Chi Minh:",
+     "Salón de unos 40 m² en la casa completa, en Ho Chi Minh:"
+    ],
+    [
+     "¿Se alquila la casa entera?",
+     "¿Se alquila la casa completa?"
+    ]
+   ]
+  },
+  "it": {
+   "home": [
+    [
+     "Perché una casa intera",
+     "Perché tutta la casa"
+    ],
+    [
+     "Soggiorno di circa 40 m² in casa intera a Ho Chi Minh:",
+     "Soggiorno di circa 40 m², con tutta la casa per voi a Ho Chi Minh:"
+    ]
+   ]
+  },
+  "pt": {
+   "home": [
+    [
+     "Sala de cerca de 40 m² em casa inteira em Ho Chi Minh:",
+     "Sala de cerca de 40 m², com a casa toda para vocês em Ho Chi Minh:"
+    ]
+   ]
+  },
+  "ms": {
+   "home": [
+    [
+     "dalam rumah penuh ini",
+     "dalam rumah ini"
+    ],
+    [
+     "Dapur lengkap di rumah penuh ini",
+     "Dapur lengkap di rumah ini"
+    ]
+   ]
+  },
+  "vi": {
+   "families": [
+    [
+     "Phòng karaoke riêng trong nhà nguyên căn Quận 7",
+     "Phòng karaoke riêng trong căn nhà"
+    ],
+    [
+     "Bếp đầy đủ trong nhà nguyên căn Quận 7",
+     "Bếp đầy đủ trong nhà"
+    ]
+   ]
+  },
+  "de": {
+   "rooftop": [
+    [
+     "Dachterrasse bei Tag mit",
+     "Das Dach bei Tag mit"
+    ],
+    [
+     "Rattansitzen und cremefarbenen Kissen auf der Dachterrasse",
+     "Rattansitzen und cremefarbenen Kissen auf dem Dach"
+    ],
+    [
+     "Lounge auf der Dachterrasse am Abend",
+     "Lounge oben auf dem Dach am Abend"
+    ],
+    [
+     "Kissen auf der Dachterrasse am Abend",
+     "Kissen auf dem Dach am Abend"
+    ],
+    [
+     "am weißen Geländer der Dachterrasse",
+     "am weißen Geländer oben auf dem Dach"
+    ],
+    [
+     "gesehen von der Dachterrasse",
+     "gesehen vom Dach"
+    ],
+    [
+     "Kaffee auf der Dachterrasse statt",
+     "Kaffee auf dem Dach statt"
+    ],
+    [
+     "Von der Dachterrasse schaut ihr",
+     "Von hier oben schaut ihr"
+    ],
+    [
+     "Die Dachterrasse erweitert den Wohnraum",
+     "Sie erweitert den Wohnraum"
+    ],
+    [
+     "Können wir auf der Dachterrasse grillen?",
+     "Können wir dort oben grillen?"
+    ],
+    [
+     "Was sieht man von der Dachterrasse?",
+     "Was sieht man von oben?"
+    ],
+    [
+     "Eure eigene Dachterrasse mit Flussblick?",
+     "Eure eigene Terrasse mit Flussblick?"
+    ]
    ]
   }
  }

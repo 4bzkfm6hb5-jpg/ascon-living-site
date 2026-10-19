@@ -44,6 +44,18 @@ for _l,_rules in _SEO.get('_rewrite',{}).items():
 for _l,_pp in _SEO.get('_pages',{}).items():
     for _pid,_v in _pp.items():
         if _l in C and _pid in C[_l]['pages']: C[_l]['pages'][_pid].update(_v)
+# '_body' {lang:{page_id:[[old,new],...]}}: wording edits anywhere in a page (body, captions, FAQ), applied last; old text must exist
+def _sub(o,a,b):
+    if isinstance(o,str): return o.replace(a,b)
+    if isinstance(o,list): return [_sub(x,a,b) for x in o]
+    if isinstance(o,dict): return {k:_sub(v,a,b) for k,v in o.items()}
+    return o
+for _l,_pp in _SEO.get('_body',{}).items():
+    for _pid,_rules in _pp.items():
+        if _l not in C or _pid not in C[_l]['pages']: continue
+        for _old,_new in _rules:
+            if _old not in json.dumps(C[_l]['pages'][_pid],ensure_ascii=False): raise SystemExit(f'seo_overrides _body: {_l}/{_pid} text not found: {_old}')
+            C[_l]['pages'][_pid]=_sub(C[_l]['pages'][_pid],_old,_new)
 # Language-switcher flags: self-hosted SVGs from flag-icons (MIT, tools/flags/LICENSE), copied to docs/assets/flags on every build.
 # Not emoji: Windows does not render emoji flags. pa is Gurmukhi (Indian Punjab) -> IN; ur -> PK.
 FLAG={'en':'gb','de':'de','vi':'vn','zh':'cn','zh-tw':'tw','ko':'kr','ja':'jp','th':'th','ms':'my','id':'id','ru':'ru','fr':'fr','es':'es','pt':'br','it':'it','hi':'in','ur':'pk','pa':'in','nl':'nl','pl':'pl','sv':'se','tr':'tr','ar':'sa'}
