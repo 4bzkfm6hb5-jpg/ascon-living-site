@@ -24,6 +24,15 @@ PUB=[l for l in LANGS if os.path.exists(f'{ROOT}/content/{l[0]}.json')]
 C={l[0]:json.load(open(f'{ROOT}/content/{l[0]}.json')) for l in PUB}
 import sys as _s; _s.path.insert(0,f'{ROOT}/tools'); import laundry as _laundry
 C={k:_laundry.apply(k,v) for k,v in C.items()}
+# home-page SEO wording overrides (tools/seo_overrides.json): survive content re-imports
+_SEO=json.load(open(f'{ROOT}/tools/seo_overrides.json'))
+for _l,_o in _SEO.items():
+    if _l.startswith('_') or _l not in C: continue
+    _h=C[_l]['pages']['home']
+    _h.update(_o.get('set',{}))
+    for _k,(_old,_new) in _o.get('replace',{}).items():
+        if _old not in _h[_k]: raise SystemExit(f'seo_overrides: {_l} {_k} text not found: {_old}')
+        if _new not in _h[_k]: _h[_k]=_h[_k].replace(_old,_new,1)
 # Language-switcher flags: self-hosted SVGs from flag-icons (MIT, tools/flags/LICENSE), copied to docs/assets/flags on every build.
 # Not emoji: Windows does not render emoji flags. pa is Gurmukhi (Indian Punjab) -> IN; ur -> PK.
 FLAG={'en':'gb','de':'de','vi':'vn','zh':'cn','zh-tw':'tw','ko':'kr','ja':'jp','th':'th','ms':'my','id':'id','ru':'ru','fr':'fr','es':'es','pt':'br','it':'it','hi':'in','ur':'pk','pa':'in','nl':'nl','pl':'pl','sv':'se','tr':'tr','ar':'sa'}

@@ -1,0 +1,68 @@
+{
+ "_doc": "Home-page SEO wording (Market Researcher, 19 Oct 2026). Applied by build.py after loading content/<lang>.json, so content re-imports keep it. 'set' replaces a field; 'replace' edits a field only if the old text is present.",
+ "nl": {
+  "set": {
+   "title": "Overnachten in Ho Chi Minh: heel huis aan de rivier",
+   "h1": "Overnachten in Ho Chi Minh: heel huis aan de rivier"
+  }
+ },
+ "fr": {
+  "set": {
+   "title": "Logement à Ho Chi Minh : maison entière au bord de l'eau"
+  }
+ },
+ "pl": {
+  "set": {
+   "title": "Nocleg w Ho Chi Minh: cały dom nad rzeką | ASCON LIVING"
+  }
+ },
+ "ms": {
+  "set": {
+   "title": "Penginapan di Ho Chi Minh: sewa rumah penuh | ASCON LIVING"
+  }
+ },
+ "sv": {
+  "set": {
+   "h1": "Boende i Ho Chi Minh: ert eget hus vid floden"
+  },
+  "replace": {
+   "lead": [
+    "Ska ni resa till Ho Chi Minh med familjen eller vänner?",
+    "Söker ni boende i Ho Chi Minh för familjen eller vänner?"
+   ]
+  }
+ },
+ "it": {
+  "set": {
+   "h1": "Dove dormire a Ho Chi Minh: una casa tutta vostra sul fiume"
+  }
+ },
+ "zh-tw": {
+  "set": {
+   "h1": "胡志明市包棟民宿：西貢河畔，一整棟都是你們的"
+  }
+ },
+ "hi": {
+  "set": {
+   "h1": "हो ची मिन्ह में ठहरने की जगह: नदी किनारे पूरा घर, सिर्फ़ आपके लिए"
+  }
+ },
+ "de": {
+  "set": {
+   "description": "Unterkunft in Ho-Chi-Minh-Stadt: das ganze ASCON LIVING Ferienhaus in Tân Hưng (Distrikt 7), 3 Schlafzimmer mit Bad, Dachterrasse mit Flussblick, Karaoke."
+  }
+ },
+ "vi": {
+  "set": {
+   "title": "Homestay Quận 7 nguyên căn theo ngày, Sài Gòn | ASCON LIVING"
+  }
+ },
+ "en": {
+  "replace": {
+   "lead": [
+    "to the District 1 skyline.",
+    "to the District 1 skyline. It is a vacation rental for one group at a time, so the whole house is yours for your stay."
+   ]
+  }
+ }
+}
