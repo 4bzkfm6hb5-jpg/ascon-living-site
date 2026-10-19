@@ -1090,6 +1090,9 @@
    },
    "rooftop": {
     "lead": "Quand le ciel vire à l'orange, tout le monde monte. Environ 56–60 m² pour griller, discuter et regarder les lumières du centre-ville s'allumer de l'autre côté de la rivière."
+   },
+   "travel-guide": {
+    "description": "L’appli guide gratuite d’ASCON : bons plans locaux, restaurants et visites, carte et aide pratique à Hô Chi Minh-Ville. S’ouvre dans le navigateur."
    }
   },
   "hi": {
@@ -1146,7 +1149,11 @@
     "lead": "Jarang ada penginapan di Ho Chi Minh yang benar-benar di pinggir air. Di ASCON LIVING, sungai mengalir di depan rumah dan gedung pusat kota berdiri di seberangnya."
    },
    "rooftop": {
-    "lead": "Begitu langit mulai jingga, semua naik ke atas. Rooftop sekitar 56–60 m² adalah tempat untuk memanggang, mengobrol, dan menyaksikan lampu pusat kota menyala di seberang sungai."
+    "lead": "Begitu langit mulai jingga, semua naik ke atas. Rooftop sekitar 56–60 m² adalah tempat untuk memanggang, mengobrol, dan menyaksikan lampu pusat kota menyala di seberang sungai.",
+    "description": "Rooftop sekitar 56–60 m² dengan BBQ dan smoker, sofa rotan, meja makan, tanaman tropis, lampu surya, dan pemandangan sungai ke gedung-gedung kota."
+   },
+   "room-entertainment": {
+    "description": "Ruang karaoke pribadi di rumah sewa di Ho Chi Minh: mikrofon, PlayStation dengan PlayStation Plus dan 2 controller, proyektor 4K, layar tripod, dan TV 4K."
    }
   },
   "ms": {
@@ -1176,6 +1183,15 @@
    },
    "rooftop": {
     "lead": "Bila matahari mula turun, semua orang naik ke atas. Teres bumbung kira-kira 56–60 m² ialah tempat untuk membakar, berbual dan melihat lampu pusat bandar menyala di seberang sungai."
+   },
+   "room-entertainment": {
+    "description": "Bilik karaoke peribadi dalam rumah di Ho Chi Minh: mikrofon, PlayStation dengan PlayStation Plus dan 2 pengawal, projektor 4K, skrin tripod dan TV 4K."
+   },
+   "room-kitchen": {
+    "description": "Dapur lengkap di rumah di Ho Chi Minh: dapur masak kaca hitam, ketuhar, periuk nasi, air fryer, peti sejuk kira-kira 540 L dan mesin basuh untuk tetamu."
+   },
+   "travel-guide": {
+    "description": "Aplikasi panduan pelancongan ASCON percuma: tip tempatan, tempat makan dan lawatan, peta dan bantuan praktikal di Ho Chi Minh. Dibuka dalam pelayar."
    }
   },
   "nl": {
@@ -1291,6 +1307,9 @@
    },
    "rooftop": {
     "lead": "Khi trời ngả màu cam, cả nhà kéo nhau lên sân thượng. Khoảng 56–60 m² để nướng thịt, trò chuyện và ngắm đèn trung tâm thành phố bật sáng bên kia sông."
+   },
+   "groups": {
+    "description": "Nhà nguyên căn Sài Gòn cho nhóm bạn và công ty: phòng karaoke riêng, PlayStation, BBQ sân thượng nhìn sông, WiFi tới 1 Gbit/s. Nhận nhà bằng khóa mã số."
    }
   },
   "th": {
@@ -1359,6 +1378,9 @@
    },
    "rooftop": {
     "lead": "Rund 56–60 m² ganz oben im Haus, nur für euch: Grill und Smoker, ein Outdoor-Sofa mit sieben Kissen, gepolsterte Hocker, ein Esstisch, lange Pflanzkästen und Solarleuchten, und vor euch der Fluss und die Skyline der Stadt."
+   },
+   "room-entertainment": {
+    "description": "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und 4K-Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
    }
   },
   "sv": {

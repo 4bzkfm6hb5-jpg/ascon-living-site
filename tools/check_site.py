@@ -46,6 +46,8 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     cj=any(c in f for c in CJKL); L=(lambda x:width(x)) if cj else (lambda x:sum(1 for ch in x if unicodedata.category(ch)!='Mn')) if '/th/' in f else len; tl,dl=(64,160) if cj else (60,160)
     if t and L(html.unescape(t.group(1)))>tl: errs.append((f,'title',L(html.unescape(t.group(1)))))
     if d and L(html.unescape(d.group(1)))>dl: errs.append((f,'desc',L(html.unescape(d.group(1)))))
+    # every meta description: at most 155 characters (Market Researcher / Website Ops, 19 Oct 2026)
+    if d and len(html.unescape(d.group(1)))>155: errs.append((f,'desc>155',len(html.unescape(d.group(1)))))
     if '**' in txt or '[//]' in txt: errs.append((f,'markdown',''))
 # laundry service 30 EUR per load must be stated in every published language
 for d in sorted(glob.glob(f'{D}/*/index.html')):
