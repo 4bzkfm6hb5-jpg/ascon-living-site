@@ -884,7 +884,7 @@
    },
    "home": {
     "title": "Dove dormire a Ho Chi Minh: casa intera | ASCON LIVING",
-    "description": "Dove dormire a Ho Chi Minh (Saigon): una casa intera solo per voi, 3 camere con bagno privato, karaoke privato, terrazza con barbecue, Wi-Fi fino a 1 Gbit/s.",
+    "description": "Dove dormire a Ho Chi Minh (Saigon): una casa intera solo per voi, 3 camere ognuna con bagno privato, karaoke, terrazza con barbecue, Wi-Fi 1 Gbit/s.",
     "h1": "Dove dormire a Ho Chi Minh: una casa intera tutta per voi",
     "lead": "Vi chiedete dove dormire a Ho Chi Minh in famiglia o con gli amici? Invece di tre stanze d'albergo separate, ecco una casa intera a Saigon di oltre 250 m² a Tân Hưng, affacciata sull'acqua. Ognuna delle tre camere ha il suo bagno privato."
    },
@@ -1078,7 +1078,7 @@
    },
    "home": {
     "title": "Logement à Hô Chi Minh-Ville (Saigon) | ASCON LIVING",
-    "description": "Logement à Saigon (Hô Chi Minh-Ville) : location d'une maison entière, 3 chambres avec salle de bain privative, karaoké, barbecue sur le toit, Wi-Fi 1 Gbit/s.",
+    "description": "Logement à Saigon (Hô Chi Minh-Ville) : une maison entière, 3 chambres chacune avec salle de bain privative, karaoké, barbecue sur le toit, Wi-Fi 1 Gbit/s.",
     "h1": "Logement à Hô Chi Minh-Ville : toute une maison rien que pour vous",
     "lead": "Un logement à Saigon (Hô Chi Minh-Ville) où toute la maison est à vous : ASCON LIVING Riverside compte trois étages avec toit-terrasse, au bord de la rivière à Tân Hưng. Plus de 250 m² rien que pour votre famille, vos amis ou votre équipe, sans voisins de palier. Chacune des trois chambres a sa propre salle de bain."
    },
@@ -1090,6 +1090,9 @@
    },
    "rooftop": {
     "lead": "Quand le ciel vire à l'orange, tout le monde monte. Environ 56–60 m² pour griller, discuter et regarder les lumières du centre-ville s'allumer de l'autre côté de la rivière."
+   },
+   "travel-guide": {
+    "description": "L’appli guide gratuite d’ASCON : bons plans locaux, restaurants et visites, carte et aide pratique à Hô Chi Minh-Ville. S’ouvre dans le navigateur."
    }
   },
   "hi": {
@@ -1136,7 +1139,7 @@
    },
    "home": {
     "title": "Penginapan di Ho Chi Minh: Rumah Utuh | ASCON LIVING",
-    "description": "Penginapan di Ho Chi Minh (Saigon): rumah utuh dengan 3 kamar tidur, masing-masing dengan kamar mandi sendiri, ruang karaoke, BBQ rooftop, dan WiFi 1 Gbit/s.",
+    "description": "Penginapan di Ho Chi Minh (Saigon): rumah utuh dengan 3 kamar tidur, masing-masing dengan kamar mandi sendiri, ruang karaoke, BBQ rooftop, WiFi 1 Gbit/s.",
     "lead": "Penginapan di Ho Chi Minh untuk liburan bareng keluarga atau teman jadi lebih seru kalau semua tinggal di bawah satu atap. ASCON LIVING Riverside adalah rumah tiga lantai plus rooftop di tepi sungai, homestay Saigon yang disewakan utuh hanya untuk rombongan Anda. Ketiga kamar tidurnya masing-masing punya kamar mandi sendiri."
    },
    "location": {
@@ -1146,7 +1149,11 @@
     "lead": "Jarang ada penginapan di Ho Chi Minh yang benar-benar di pinggir air. Di ASCON LIVING, sungai mengalir di depan rumah dan gedung pusat kota berdiri di seberangnya."
    },
    "rooftop": {
-    "lead": "Begitu langit mulai jingga, semua naik ke atas. Rooftop sekitar 56–60 m² adalah tempat untuk memanggang, mengobrol, dan menyaksikan lampu pusat kota menyala di seberang sungai."
+    "lead": "Begitu langit mulai jingga, semua naik ke atas. Rooftop sekitar 56–60 m² adalah tempat untuk memanggang, mengobrol, dan menyaksikan lampu pusat kota menyala di seberang sungai.",
+    "description": "Rooftop sekitar 56–60 m² dengan BBQ dan smoker, sofa rotan, meja makan, tanaman tropis, lampu surya, dan pemandangan sungai ke gedung-gedung kota."
+   },
+   "room-entertainment": {
+    "description": "Ruang karaoke pribadi di rumah sewa di Ho Chi Minh: mikrofon, PlayStation dengan PlayStation Plus dan 2 controller, proyektor 4K, layar tripod, dan TV 4K."
    }
   },
   "ms": {
@@ -1176,6 +1183,15 @@
    },
    "rooftop": {
     "lead": "Bila matahari mula turun, semua orang naik ke atas. Teres bumbung kira-kira 56–60 m² ialah tempat untuk membakar, berbual dan melihat lampu pusat bandar menyala di seberang sungai."
+   },
+   "room-entertainment": {
+    "description": "Bilik karaoke peribadi dalam rumah di Ho Chi Minh: mikrofon, PlayStation dengan PlayStation Plus dan 2 pengawal, projektor 4K, skrin tripod dan TV 4K."
+   },
+   "room-kitchen": {
+    "description": "Dapur lengkap di rumah di Ho Chi Minh: dapur masak kaca hitam, ketuhar, periuk nasi, air fryer, peti sejuk kira-kira 540 L dan mesin basuh untuk tetamu."
+   },
+   "travel-guide": {
+    "description": "Aplikasi panduan pelancongan ASCON percuma: tip tempatan, tempat makan dan lawatan, peta dan bantuan praktikal di Ho Chi Minh. Dibuka dalam pelayar."
    }
   },
   "nl": {
@@ -1279,7 +1295,7 @@
    },
    "home": {
     "title": "Homestay Sài Gòn nguyên căn | ASCON LIVING",
-    "description": "Homestay Sài Gòn, nhà nguyên căn theo ngày tại TP. Hồ Chí Minh: 3 phòng ngủ có phòng tắm riêng, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s. Zalo 0909 410 382.",
+    "description": "Homestay Sài Gòn, nhà nguyên căn tại TP. Hồ Chí Minh: 3 phòng ngủ có phòng tắm riêng, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s. Zalo 0909 410 382.",
     "h1": "Homestay Sài Gòn: thuê nhà nguyên căn theo ngày ở TP. Hồ Chí Minh",
     "lead": "Homestay Sài Gòn ASCON LIVING Riverside là căn nhà 3 tầng cùng sân thượng nằm ngay bờ sông ở phường Tân Hưng, TP. Hồ Chí Minh. Cả căn nhà hơn 250 m² chỉ dành riêng cho gia đình, nhóm bạn hoặc đồng nghiệp của bạn, không chung với khách khác. Cả 3 phòng ngủ đều có phòng tắm riêng."
    },
@@ -1291,6 +1307,9 @@
    },
    "rooftop": {
     "lead": "Khi trời ngả màu cam, cả nhà kéo nhau lên sân thượng. Khoảng 56–60 m² để nướng thịt, trò chuyện và ngắm đèn trung tâm thành phố bật sáng bên kia sông."
+   },
+   "groups": {
+    "description": "Nhà nguyên căn Sài Gòn cho nhóm bạn và công ty: phòng karaoke riêng, PlayStation, BBQ sân thượng nhìn sông, WiFi tới 1 Gbit/s. Nhận nhà bằng khóa mã số."
    }
   },
   "th": {
@@ -1359,6 +1378,9 @@
    },
    "rooftop": {
     "lead": "Rund 56–60 m² ganz oben im Haus, nur für euch: Grill und Smoker, ein Outdoor-Sofa mit sieben Kissen, gepolsterte Hocker, ein Esstisch, lange Pflanzkästen und Solarleuchten, und vor euch der Fluss und die Skyline der Stadt."
+   },
+   "room-entertainment": {
+    "description": "Privater Karaoke-Raum mit Mikrofonen, PlayStation mit PlayStation Plus, 4K-Projektor für Filmabende und 4K-Fernseher in eurem Haus in Ho-Chi-Minh-Stadt"
    }
   },
   "sv": {
