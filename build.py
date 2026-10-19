@@ -66,12 +66,23 @@ def section(s,code,u):
     if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'] if pid in C[code]['pages'])+'</div>')
     if s.get('cta'): o.append(cta(u))
     return '<section>'+''.join(o)+'</section>'
+def lodging_images():
+    # VacationRental.image: absolute URLs of our own house photos only (facts.json jsonld_images; no logos, no blurred/excluded shots).
+    # floorSize only where confirmed (facts.json jsonld_rooms[].m2); postalCode only when facts.json postal_code is set.
+    out=[]
+    for i in F['jsonld_images']:
+        w=max(IMG[i]['widths']); p=f'{OUT}/assets/img/{i}-{w}.webp'
+        if not os.path.exists(p): raise SystemExit(f'jsonld image missing: {p}')
+        out.append(SITE+f'/assets/img/{i}-{w}.webp')
+    if len(out)<8: raise SystemExit('VacationRental needs at least 8 images')
+    return out
 def lodging(code,c):
-    region='Ho-Chi-Minh-Stadt' if code=='de' else 'Ho Chi Minh City'
-    return {"@context":"https://schema.org","@type":"VacationRental","@id":SITE+'/#lodging',"name":F['name'],
-      "url":SITE+f'/{code}/',"image":[SITE+'/assets/img/hero-1440.webp',SITE+'/assets/img/og.jpg'],"logo":SITE+'/assets/img/logo-mark.png',
+    g=F.get('geo') or {}; geo=all(isinstance(g.get(k),(int,float)) for k in ('latitude','longitude'))
+    return {"@context":"https://schema.org","@type":"VacationRental","@id":SITE+'/#lodging',"identifier":F['identifier'],"name":F['name'],
+      "url":SITE+f'/{code}/',"additionalType":"House","image":lodging_images(),"logo":SITE+'/assets/img/logo-mark.png',
       "description":c['pages']['home']['description'],"telephone":F['phone_e164'],"email":F['email'],
-      "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":"Tân Hưng","addressRegion":region,"addressCountry":F['country']},
+      "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":"Tân Hưng","addressRegion":F['region'],"addressCountry":F['country'],**({"postalCode":F['postal_code']} if F.get('postal_code') else {})},
+      **({"geo":{"@type":"GeoCoordinates","latitude":g['latitude'],"longitude":g['longitude']},"latitude":g['latitude'],"longitude":g['longitude']} if geo else {}),
       "checkinTime":F['checkin'],"checkoutTime":F['checkout'],
       "knowsLanguage":F['languages'],"sameAs":[F['airbnb'],F['trip']],
       "contactPoint":[{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"email":F['email'],"url":F['wa']},{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"url":F['zalo']}],
@@ -79,7 +90,7 @@ def lodging(code,c):
       "containsPlace":{"@type":"Accommodation","additionalType":"EntirePlace","name":F['name'],"numberOfRooms":F['rooms'],"numberOfBedrooms":F['rooms'],
         "numberOfBathroomsTotal":F['bathrooms_full']+F['bathrooms_partial'],"numberOfFullBathrooms":F['bathrooms_full'],"numberOfPartialBathrooms":F['bathrooms_partial'],
         "bed":[{"@type":"BedDetails","numberOfBeds":1,"typeOfBed":"180×200 cm"},{"@type":"BedDetails","numberOfBeds":2,"typeOfBed":"160×200 cm"}],
-        "floorSize":{"@type":"QuantitativeValue","minValue":F['size_m2_min'],"unitCode":"MTK"},
+        "containsPlace":[dict({"@type":r['type'],"name":r['name']},**({"floorSize":{"@type":"QuantitativeValue","value":r['m2'],"unitCode":"MTK"}} if r.get('m2') else {}),**({"occupancy":{"@type":"QuantitativeValue","value":r['occupancy']}} if r.get('occupancy') else {})) for r in F['jsonld_rooms']],
         "amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Self check-in via keypad; the outer gate uses a key","value":True}]}}
 def legal(code):
     # imprint/privacy fall back to English where a language has no legal pages (lang attribute marks the switch)

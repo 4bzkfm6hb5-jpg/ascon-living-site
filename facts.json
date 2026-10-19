@@ -56,5 +56,53 @@
  "bathrooms_full": 3,
  "bathrooms_partial": 1,
  "size_m2_min": 250,
- "floors": 3
+ "floors": 3,
+ "postal_code": "",
+ "jsonld_images": [
+  "hero",
+  "living",
+  "living-2",
+  "bed1",
+  "bed2",
+  "bed3",
+  "bath",
+  "ent",
+  "roof-lounge",
+  "roof-day",
+  "roof-bbq"
+ ],
+ "jsonld_rooms": [
+  {
+   "type": "Room",
+   "name": "Master bedroom",
+   "m2": 55,
+   "occupancy": 2
+  },
+  {
+   "type": "Room",
+   "name": "Bedroom 2",
+   "occupancy": 2
+  },
+  {
+   "type": "Room",
+   "name": "Bedroom 3",
+   "occupancy": 2
+  },
+  {
+   "type": "Room",
+   "name": "Living room",
+   "m2": 40
+  },
+  {
+   "type": "Accommodation",
+   "name": "Rooftop terrace",
+   "m2": 56
+  }
+ ],
+ "identifier": "ascon-living-riverside",
+ "geo": {
+  "latitude": null,
+  "longitude": null
+ },
+ "region": "Ho Chi Minh City"
 }
