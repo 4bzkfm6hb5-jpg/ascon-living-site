@@ -84,7 +84,7 @@
  },
  "vi": {
   "set": {
-   "title": "Homestay nguyên căn ở Sài Gòn, TP. Hồ Chí Minh",
+   "title": "Homestay nguyên căn ở Sài Gòn | ASCON LIVING",
    "description": "Thuê nhà nguyên căn theo ngày ven sông ở Sài Gòn: 3 phòng ngủ, mỗi phòng có phòng tắm riêng, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s."
   },
   "append": {
@@ -132,6 +132,22 @@
    [
     "house in Tân Hưng (District 7), Ho Chi Minh City",
     "house in Tân Hưng, Ho Chi Minh City"
+   ],
+   [
+    "Tân Hưng (District 7), Ho Chi Minh City",
+    "Tân Hưng, Ho Chi Minh City"
+   ],
+   [
+    "in Tân Hưng, former District 7:",
+    "in Tân Hưng:"
+   ],
+   [
+    "to the District 1 skyline",
+    "to the city skyline"
+   ],
+   [
+    "and District 1 skyline",
+    "and the city skyline"
    ]
   ],
   "de": [
@@ -170,6 +186,22 @@
    [
     "Ferienhaus in Ho-Chi-Minh-Stadt (Distrikt 7):",
     "Ferienhaus in Ho-Chi-Minh-Stadt:"
+   ],
+   [
+    "Tân Hưng (District 7), Ho-Chi-Minh-Stadt",
+    "Tân Hưng, Ho-Chi-Minh-Stadt"
+   ],
+   [
+    "Tân Hưng (Distrikt 7), Ho-Chi-Minh-Stadt",
+    "Tân Hưng, Ho-Chi-Minh-Stadt"
+   ],
+   [
+    "in Tân Hưng, ehemals District 7:",
+    "in Tân Hưng:"
+   ],
+   [
+    "die Skyline von Distrikt 1",
+    "die Skyline der Stadt"
    ]
   ],
   "ar": [
@@ -192,6 +224,10 @@
    [
     "وأفق المنطقة 1",
     "وأفق المدينة"
+   ],
+   [
+    "تان هونغ، المنطقة 7 بمدينة هو تشي منه",
+    "تان هونغ، مدينة هو تشي منه"
    ]
   ],
   "es": [
@@ -226,6 +262,14 @@
    [
     "frente al Distrito 1",
     "frente al skyline de Saigón"
+   ],
+   [
+    "Tân Hưng, Distrito 7, HCMC",
+    "Tân Hưng, Ho Chi Minh"
+   ],
+   [
+    "perfil del Distrito 1",
+    "perfil de la ciudad"
    ]
   ],
   "fr": [
@@ -264,6 +308,14 @@
    [
     "face au District 1",
     "face aux tours de Saigon"
+   ],
+   [
+    "Tân Hưng, District 7, Saigon",
+    "Tân Hưng, Hô Chi Minh-Ville"
+   ],
+   [
+    "les tours du District 1",
+    "les tours de la ville"
    ]
   ],
   "hi": [
@@ -306,6 +358,18 @@
    [
     "हो ची मिन्ह के डिस्ट्रिक्ट 7 में",
     "हो ची मिन्ह में"
+   ],
+   [
+    "डिस्ट्रिक्ट 1 की स्काईलाइन",
+    "शहर की स्काईलाइन"
+   ],
+   [
+    "Tân Hưng (District 7), हो ची मिन्ह",
+    "Tân Hưng, हो ची मिन्ह"
+   ],
+   [
+    "Tân Hưng, डिस्ट्रिक्ट 7, हो ची मिन्ह",
+    "Tân Hưng, हो ची मिन्ह"
    ]
   ],
   "pa": [
@@ -324,6 +388,14 @@
    [
     "Ho Chi Minh City, District 7 ਵਿੱਚ",
     "Ho Chi Minh City ਵਿੱਚ"
+   ],
+   [
+    "Tân Hưng (District 7), ਹੋ ਚੀ",
+    "Tân Hưng, ਹੋ ਚੀ"
+   ],
+   [
+    "ASCON LIVING ਦਾ ਪਤਾ: 389A Trần Xuân Soạn, Tân Hưng (ਸਾਬਕਾ District 7), ਹੋ ਚੀ ਮਿਨ੍ਹ ਸ਼ਹਿਰ, Phú Mỹ Hưng ਨੇੜੇ, ਦਰਿਆ ਕੰਢੇ। ਸਮਾਂ ਅੰਦਾਜ਼ਨ।",
+    "ASCON LIVING ਦਾ ਪਤਾ: 389A Trần Xuân Soạn, Tân Hưng, ਹੋ ਚੀ ਮਿਨ੍ਹ ਸ਼ਹਿਰ, ਦਰਿਆ ਕੰਢੇ ਰਿਹਾਇਸ਼ੀ ਇਲਾਕੇ ਵਿੱਚ।"
    ]
   ],
   "ur": [
@@ -342,6 +414,14 @@
    [
     "Ho Chi Minh City، District 7 میں",
     "Ho Chi Minh City میں"
+   ],
+   [
+    "Tân Hưng (District 7)، ہو چی",
+    "Tân Hưng، ہو چی"
+   ],
+   [
+    "ASCON LIVING کا پتہ: 389A Trần Xuân Soạn، Tân Hưng (سابق District 7)، ہو چی منہ سٹی، Phú Mỹ Hưng کے قریب، دریا کنارے۔ سفر کا وقت اندازاً۔",
+    "ASCON LIVING کا پتہ: 389A Trần Xuân Soạn، Tân Hưng، ہو چی منہ سٹی، دریا کنارے رہائشی علاقے میں۔"
    ]
   ],
   "id": [
@@ -376,6 +456,18 @@
    [
     "dengan latar District 1",
     "dengan latar gedung-gedung Saigon"
+   ],
+   [
+    "gedung-gedung District 1",
+    "gedung-gedung kota"
+   ],
+   [
+    "Tân Hưng, Distrik 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
+   ],
+   [
+    "sungai ke District 1",
+    "sungai ke gedung-gedung kota"
    ]
   ],
   "it": [
@@ -402,6 +494,14 @@
    [
     "Tân Hưng, Distretto 7, sul fiume",
     "Tân Hưng, sul fiume"
+   ],
+   [
+    "skyline del Distretto 1",
+    "skyline della città"
+   ],
+   [
+    "Tân Hưng, Distretto 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
    ]
   ],
   "ms": [
@@ -436,6 +536,14 @@
    [
     "sambil melihat District 1",
     "sambil melihat bandar Saigon"
+   ],
+   [
+    "latar langit District 1",
+    "latar langit bandar"
+   ],
+   [
+    "Tân Hưng, Daerah 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
    ]
   ],
   "nl": [
@@ -458,6 +566,14 @@
    [
     "Tân Hưng, District 7, aan het water",
     "Tân Hưng, aan het water"
+   ],
+   [
+    "skyline van District 1",
+    "skyline van de stad"
+   ],
+   [
+    "Tân Hưng, District 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
    ]
   ],
   "pt": [
@@ -488,6 +604,14 @@
    [
     "à beira do rio, no Distrito 7",
     "à beira do rio, em Tân Hưng"
+   ],
+   [
+    "skyline do Distrito 1",
+    "skyline da cidade"
+   ],
+   [
+    "Tân Hưng, Distrito 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
    ]
   ],
   "sv": [
@@ -510,6 +634,14 @@
    [
     "Tân Hưng, District 7, vid floden",
     "Tân Hưng, vid floden"
+   ],
+   [
+    "District 1:s skyline",
+    "stadens skyline"
+   ],
+   [
+    "Tân Hưng, District 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
    ]
   ],
   "pl": [
@@ -528,6 +660,14 @@
    [
     "Tân Hưng, Dystrykt 7, nad rzeką",
     "Tân Hưng, nad rzeką"
+   ],
+   [
+    "panoramę Dystryktu 1",
+    "panoramę miasta"
+   ],
+   [
+    "Tân Hưng, Dystrykt 7, Ho Chi Minh",
+    "Tân Hưng, Ho Chi Minh"
    ]
   ],
   "ru": [
@@ -546,6 +686,14 @@
    [
     "с видом на 1-й район",
     "с видом на центр Сайгона"
+   ],
+   [
+    "Tân Hưng, 7-й район Хошимина",
+    "Tân Hưng, Хошимин"
+   ],
+   [
+    "вид на реку и 1-й район",
+    "вид на реку и город"
    ]
   ],
   "tr": [
@@ -594,6 +742,10 @@
    [
     "1区のスカイライン",
     "中心街のスカイライン"
+   ],
+   [
+    "川と1区の街並み",
+    "川と街の景色"
    ]
   ],
   "ko": [
@@ -694,6 +846,14 @@
    [
     "บ้านพักทั้งหลังในเขต 7 โฮจิมินห์",
     "บ้านพักทั้งหลังในโฮจิมินห์"
+   ],
+   [
+    "เส้นขอบฟ้าเขต 1",
+    "ตึกสูงกลางเมือง"
+   ],
+   [
+    "เติ่นหึง (เขต 7) โฮจิมินห์",
+    "เติ่นหึง โฮจิมินห์"
    ]
   ],
   "vi": [
@@ -764,6 +924,18 @@
    [
     "ven sông Quận 7:",
     "ven sông ở Sài Gòn:"
+   ],
+   [
+    "ở Tân Hưng, Quận 7 cũ:",
+    "ở Tân Hưng:"
+   ],
+   [
+    "Tân Hưng (Quận 7 cũ), TP. Hồ Chí Minh",
+    "Tân Hưng, TP. Hồ Chí Minh"
+   ],
+   [
+    "nhìn về Quận 1",
+    "nhìn ra thành phố"
    ]
   ]
  },
@@ -787,12 +959,21 @@
   },
   "ja": {
    "room-entertainment": {
-    "title": "ホーチミンの一棟貸し エンタメルームとカラオケ | ASCON LIVING"
+    "title": "エンタメルームとカラオケ | ASCON LIVING"
+   },
+   "groups": {
+    "title": "貸切一軒家とカラオケ | ASCON LIVING"
+   },
+   "house": {
+    "title": "家のご案内 ホーチミンの一軒家 | ASCON LIVING"
    }
   },
   "ko": {
    "room-entertainment": {
     "title": "호치민 독채 숙소 – 노래방 엔터테인먼트룸 | ASCON LIVING"
+   },
+   "house": {
+    "title": "집 소개 – 호치민 독채 방별 안내 | ASCON LIVING"
    }
   },
   "ru": {

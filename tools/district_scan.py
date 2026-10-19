@@ -10,7 +10,7 @@ if __name__=='__main__':
         t=html.unescape(re.search(r'<title>(.*?)</title>',s).group(1))
         h=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S); h=html.unescape(re.sub('<[^>]+>','',h.group(1))) if h else ''
         d=html.unescape(re.search(r'<meta name="description" content="([^"]*)"',s).group(1))
-        for k,v in (('title',t),('h1',h),('desc60',d[:60])):
+        for k,v in (('title',t),('h1',h),('desc',d)):
             m=DIST.search(v)
             if m: out.append((f,k,m.group(0),v if k!='desc60' else d))
     for o in out: print(json.dumps(o,ensure_ascii=False))

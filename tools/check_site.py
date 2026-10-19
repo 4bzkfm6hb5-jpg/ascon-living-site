@@ -83,7 +83,7 @@ for f in sorted(glob.glob(f'{D}/*/**/index.html',recursive=True)):
     t=_html.unescape(re.search(r'<title>(.*?)</title>',s).group(1))
     h=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S); h=_html.unescape(re.sub('<[^>]+>','',h.group(1))) if h else ''
     d=_html.unescape(re.search(r'<meta name="description" content="([^"]*)"',s).group(1))
-    for k,v in (('title',t),('h1',h),('desc60',d[:60])):
+    for k,v in (('title',t),('h1',h),('desc',d)):
         m=_ds.DIST.search(v)
         if m: errs.append((f,'district',f'{k}:{m.group(0)}'))
 print(n,'pages'); [print(e) for e in errs[:60]]; print(len(errs),'issues')
