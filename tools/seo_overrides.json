@@ -1,107 +1,5 @@
 {
  "_doc": "Home-page SEO wording (Market Researcher, 19 Oct 2026). Applied by build.py after loading content/<lang>.json, so content re-imports keep it. 'set' replaces a field; 'replace' edits a field only if the old text is present.",
- "nl": {
-  "set": {
-   "title": "Overnachten in Ho Chi Minh: heel huis aan de rivier",
-   "h1": "Overnachten in Ho Chi Minh: heel huis aan de rivier"
-  },
-  "append": {
-   "lead": " Elk van de drie slaapkamers heeft een eigen badkamer."
-  }
- },
- "fr": {
-  "set": {
-   "title": "Logement à Ho Chi Minh : maison entière au bord de l'eau",
-   "description": "Logement à Saigon : maison entière au bord de la rivière, 3 chambres avec chacune sa salle de bain privative, karaoké, barbecue sur le toit, Wi-Fi 1 Gbit/s."
-  },
-  "append": {
-   "lead": " Chacune des trois chambres a sa propre salle de bain."
-  }
- },
- "pl": {
-  "set": {
-   "title": "Nocleg w Ho Chi Minh: cały dom nad rzeką | ASCON LIVING",
-   "description": "Cały dom nad rzeką w Ho Chi Minh: 3 sypialnie, każda z własną łazienką, prywatne karaoke, taras na dachu z grillem, Wi-Fi do 1 Gbit/s."
-  },
-  "append": {
-   "lead": " Każda z trzech sypialni ma własną łazienkę."
-  }
- },
- "ms": {
-  "set": {
-   "title": "Penginapan di Ho Chi Minh: sewa rumah penuh | ASCON LIVING",
-   "description": "Rumah penuh tepi sungai di Ho Chi Minh: 3 bilik tidur, setiap satu dengan bilik air sendiri, bilik karaoke, BBQ atas bumbung dan WiFi 1 Gbit/s."
-  },
-  "append": {
-   "lead": " Setiap satu daripada tiga bilik tidur mempunyai bilik air sendiri."
-  }
- },
- "sv": {
-  "set": {
-   "h1": "Boende i Ho Chi Minh: ert eget hus vid floden"
-  },
-  "replace": {
-   "lead": [
-    "Ska ni resa till Ho Chi Minh med familjen eller vänner?",
-    "Söker ni boende i Ho Chi Minh för familjen eller vänner?"
-   ]
-  },
-  "append": {
-   "lead": " Varje sovrum har eget badrum."
-  }
- },
- "it": {
-  "set": {
-   "h1": "Dove dormire a Ho Chi Minh: una casa tutta vostra sul fiume",
-   "description": "Casa intera sul fiume a Ho Chi Minh: 3 camere, ognuna con il suo bagno privato, karaoke privato, terrazza con barbecue, Wi-Fi fino a 1 Gbit/s."
-  },
-  "append": {
-   "lead": " Ognuna delle tre camere ha il suo bagno privato."
-  }
- },
- "zh-tw": {
-  "set": {
-   "h1": "胡志明市包棟民宿：西貢河畔，一整棟都是你們的",
-   "description": "胡志明市河畔整棟出租：3間臥室，每間都有獨立衛浴，私人KTV、可看河景與城市天際線的頂樓烤肉露台、最高1 Gbit/s網路。全家出遊、朋友揪團都適合。"
-  },
-  "append": {
-   "lead": "每間臥室都有獨立衛浴。"
-  }
- },
- "hi": {
-  "set": {
-   "h1": "हो ची मिन्ह में ठहरने की जगह: नदी किनारे पूरा घर, सिर्फ़ आपके लिए",
-   "description": "हो ची मिन्ह में नदी किनारे पूरा घर: 3 बेडरूम, हर बेडरूम का अपना बाथरूम, प्राइवेट कराओके, छत पर बारबेक्यू, 1 Gbit/s तक Wi-Fi."
-  },
-  "append": {
-   "lead": " तीनों बेडरूम में हर एक का अपना बाथरूम है।"
-  }
- },
- "de": {
-  "set": {
-   "description": "Unterkunft in Ho-Chi-Minh-Stadt: das ganze ASCON LIVING Ferienhaus in Tân Hưng, jedes der 3 Schlafzimmer mit eigenem Bad, Dachterrasse, Karaoke."
-  }
- },
- "vi": {
-  "set": {
-   "title": "Homestay nguyên căn ở Sài Gòn | ASCON LIVING",
-   "description": "Thuê nhà nguyên căn theo ngày ven sông ở Sài Gòn: 3 phòng ngủ, mỗi phòng có phòng tắm riêng, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s."
-  },
-  "append": {
-   "lead": " Cả 3 phòng ngủ đều có phòng tắm riêng."
-  }
- },
- "en": {
-  "replace": {
-   "lead": [
-    "to the District 1 skyline.",
-    "to the District 1 skyline. It is a vacation rental for one group at a time, so the whole house is yours for your stay."
-   ]
-  },
-  "set": {
-   "description": "Rent the whole ASCON LIVING house in Tân Hưng, Ho Chi Minh City: 3 bedrooms, each with its own bathroom, rooftop with river view, karaoke and BBQ."
-  }
- },
  "_rewrite_doc": "Per-language (old,new) rewrites applied by build.py to title/h1/description of every page: no district names in title, H1 or meta-description start (19 Oct 2026).",
  "_rewrite": {
   "en": [
@@ -939,7 +837,7 @@
    ]
   ]
  },
- "_pages_doc": "Per-page field overrides {lang:{page_id:{field:value}}} (amenities at the end of titles).",
+ "_pages_doc": "Per-page field overrides {lang:{page_id:{field:value}}}, applied last. home/booking title/h1/description/lead: Market Researcher keyword update 19 Oct 2026 (core term + Ho Chi Minh/Saigon), en-suite wording kept; other pages: leads without district names.",
  "_pages": {
   "es": {
    "room-entertainment": {
@@ -947,6 +845,28 @@
    },
    "house": {
     "description": "Tres plantas y azotea: 3 dormitorios, cada uno con baño propio, salón de unos 40 m², cocina equipada y sala de karaoke con proyector 4K."
+   },
+   "booking": {
+    "title": "Alojamiento en Ho Chi Minh: reserva la casa | ASCON LIVING",
+    "description": "Alojamiento en Ho Chi Minh: reserva la casa entera ASCON LIVING por WhatsApp/Zalo +84 909 410 382, correo, Airbnb o Trip.com. Traslado al aeropuerto.",
+    "h1": "Alojamiento en Ho Chi Minh: reserva tu casa entera",
+    "lead": "Reserva tu alojamiento en Ho Chi Minh como prefieras: escríbenos directamente o reserva por una plataforma. Cuéntanos tus fechas y un poco sobre tu grupo."
+   },
+   "families": {
+    "lead": "Viajar con hijos y abuelos pide espacio, cocina y calma. En ASCON LIVING toda la familia comparte una casa en Ho Chi Minh, y cada uno tiene su rincón."
+   },
+   "home": {
+    "description": "Alojamiento en Ho Chi Minh (Saigón): una casa entera solo para tu grupo, 3 dormitorios con baño propio, karaoke, barbacoa en la azotea y WiFi de 1 Gbit/s.",
+    "lead": "Tu alojamiento en Ho Chi Minh (Saigón) es una casa entera: ASCON LIVING Riverside tiene tres plantas y azotea, a orillas del río en Tân Hưng. Más de 250 m² solo para tu familia, tus amigos o tu equipo, sin vecinos de habitación. Cada uno de los tres dormitorios tiene su propio baño."
+   },
+   "location": {
+    "lead": "La casa está en el barrio residencial de Tân Hưng, justo al borde del agua. Al otro lado del río se levantan las torres del centro; alrededor de la casa, la vida tranquila de los vecinos."
+   },
+   "room-outside": {
+    "lead": "En Ho Chi Minh hay pocos alojamientos realmente al borde del agua. En ASCON LIVING, el río pasa por delante de la casa y las torres del centro se levantan en la otra orilla."
+   },
+   "rooftop": {
+    "lead": "Cuando el cielo se vuelve naranja, todo el mundo sube. Unos 56–60 m² para asar, charlar y ver cómo se encienden las luces del centro al otro lado del río."
    }
   },
   "it": {
@@ -955,6 +875,24 @@
    },
    "house": {
     "description": "Tre piani e terrazza: 3 camere, ognuna con il suo bagno privato, soggiorno di circa 40 m², cucina attrezzata e sala karaoke con proiettore 4K."
+   },
+   "booking": {
+    "title": "Dove dormire a Ho Chi Minh: prenota la casa | ASCON LIVING",
+    "description": "Dove dormire a Ho Chi Minh: prenotate ASCON LIVING, casa intera a Saigon, via WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb o Trip.com.",
+    "h1": "Dove dormire a Ho Chi Minh: prenotate la casa intera",
+    "lead": "Cercate dove dormire a Ho Chi Minh con tutto il gruppo? Con una casa intera avete più spazio e serate insieme. Scriveteci direttamente o prenotate su una piattaforma."
+   },
+   "home": {
+    "title": "Dove dormire a Ho Chi Minh: casa intera | ASCON LIVING",
+    "description": "Dove dormire a Ho Chi Minh (Saigon): una casa intera solo per voi, 3 camere con bagno privato, karaoke privato, terrazza con barbecue, Wi-Fi fino a 1 Gbit/s.",
+    "h1": "Dove dormire a Ho Chi Minh: una casa intera tutta per voi",
+    "lead": "Vi chiedete dove dormire a Ho Chi Minh in famiglia o con gli amici? Invece di tre stanze d'albergo separate, ecco una casa intera a Saigon di oltre 250 m² a Tân Hưng, affacciata sull'acqua. Ognuna delle tre camere ha il suo bagno privato."
+   },
+   "location": {
+    "lead": "Una zona residenziale tranquilla, la vita dei vicini davanti al cancello e, dall'altra parte dell'acqua, lo skyline della città. Ecco dove si trova ASCON LIVING."
+   },
+   "room-outside": {
+    "lead": "ASCON LIVING si trova sul fiume, a Tân Hưng, Ho Chi Minh."
    }
   },
   "ja": {
@@ -966,6 +904,27 @@
    },
    "house": {
     "title": "家のご案内 ホーチミンの一軒家 | ASCON LIVING"
+   },
+   "booking": {
+    "title": "ホーチミン宿泊のご予約 一棟貸しの一軒家 | ASCON LIVING",
+    "description": "ホーチミン宿泊のご予約：一棟貸しの民泊ASCON LIVINGはAirbnb・Trip.comから、またはWhatsApp・Zaloで事前にご相談いただけます。空港送迎も一緒にご依頼ください。",
+    "h1": "ホーチミン宿泊のご予約：一軒家を貸し切る方法",
+    "lead": "ホーチミンの宿泊は、AirbnbやTrip.comからそのままご予約いただくか、まずはWhatsAppやZaloで部屋割りや日程をご相談ください。お一人のご予約で、皆さまが一緒にご滞在いただけます。"
+   },
+   "home": {
+    "title": "ホーチミン宿泊 一棟貸し民泊・一軒家 | ASCON LIVING",
+    "description": "ホーチミンの宿泊に、一軒家を一棟まるごと貸切できる民泊。各寝室に専用バスルーム、カラオケとPlayStationのエンタメルーム、ルーフトップBBQ。",
+    "h1": "ホーチミンの宿泊は、一棟貸し民泊ASCON LIVINGで",
+    "lead": "ASCON LIVINGは、ホーチミンでの宿泊に3階建てとルーフトップの一軒家を1組だけで貸し切れる民泊です。3つの寝室すべてに専用バスルームがあり、ご家族やグループでも落ち着いて過ごせます。"
+   },
+   "location": {
+    "lead": "ASCON LIVINGは、ホーチミンタンフン（Tân Hưng）の住宅街にあります。観光地の真ん中ではなく、地元の暮らしのそばに滞在し、屋上からは川の向こうに街のスカイラインを望めます。"
+   },
+   "rooftop": {
+    "lead": "約56〜60㎡のルーフトップは、皆さまだけで使える場所です。BBQグリルでお肉を焼きながら、川の向こうの街に灯りがともるのを眺めて夕食を。"
+   },
+   "room-outside": {
+    "lead": "ASCON LIVINGは川沿いに建つ一軒家です。白い手すりのテラスから、川の向こうの街のスカイラインを眺められます。"
    }
   },
   "ko": {
@@ -974,6 +933,27 @@
    },
    "house": {
     "title": "집 소개 – 호치민 독채 방별 안내 | ASCON LIVING"
+   },
+   "booking": {
+    "title": "호치민 숙소 예약 – 독채 | ASCON LIVING",
+    "description": "호치민 숙소 예약: ASCON LIVING 독채는 Airbnb·Trip.com에서 예약하거나 카카오톡 채널, WhatsApp, Zalo로 먼저 문의할 수 있습니다. 공항 픽업도 함께 요청하세요.",
+    "h1": "호치민 숙소 예약: 독채를 통째로 예약하는 방법",
+    "lead": "호치민 숙소는 Airbnb나 Trip.com에서 바로 예약하거나, 먼저 카카오톡으로 방 배정과 일정을 상담하세요. 한 사람이 집 전체를 예약하면 일행 모두가 함께 머뭅니다."
+   },
+   "home": {
+    "title": "호치민 숙소 독채 – 집 한 채 통째로 | ASCON LIVING",
+    "description": "호치민 숙소, 집 한 채를 통째로 쓰는 독채 민박. 전용 욕실이 딸린 침실 3개, 노래방·PlayStation 엔터테인먼트룸, 루프탑 BBQ. 가족·단체 여행에.",
+    "h1": "호치민 숙소, 우리 일행만 쓰는 독채 ASCON LIVING",
+    "lead": "호치민 숙소를 찾는다면 호텔 방 여러 개를 따로 잡을 필요가 없습니다. ASCON LIVING은 호치민 떤흥(Tân Hưng)에 있는 3층 단독주택과 루프탑을 한 팀이 통째로 쓰는 숙소입니다. 침실마다 전용 욕실이 있고, 저녁에는 노래방과 루프탑 BBQ가 기다립니다."
+   },
+   "location": {
+    "lead": "ASCON LIVING은 호치민 떤흥(Tân Hưng)의 주택가에 있습니다. 관광지 한복판이 아닌 현지 생활 속에서 머물고, 루프탑에 올라가면 강 건너 도심 스카이라인이 보입니다."
+   },
+   "rooftop": {
+    "lead": "약 56–60㎡의 루프탑은 우리 일행만 쓰는 공간입니다. 바비큐 그릴에 고기를 올리고, 강 건너 도심 스카이라인에 불이 켜지는 것을 보며 저녁을 먹습니다."
+   },
+   "room-outside": {
+    "lead": "ASCON LIVING은 강가에 있는 집입니다. 흰 난간의 테라스에서 강 건너 도심 스카이라인을 바라보세요."
    }
   },
   "ru": {
@@ -982,6 +962,26 @@
    },
    "room-bedroom-2": {
     "description": "Спальня 2 в доме в Хошимине: кровать 160×200 см, смарт-телевизор, тёмно-серые шторы и своя ванная комната с горячей водой. Вход из коридора."
+   },
+   "booking": {
+    "title": "Жилье в Хошимине: аренда дома посуточно | ASCON LIVING",
+    "description": "Жилье в Хошимине (Сайгон): забронируйте дом ASCON LIVING целиком через WhatsApp/Zalo +84 909 410 382, почту, Airbnb или Trip.com.",
+    "h1": "Жилье в Хошимине: как забронировать дом целиком",
+    "lead": "Забронировать жилье в Хошимине можно напрямую или через платформу — подойдёт любой вариант. Сообщите даты и пару слов о вашей группе."
+   },
+   "home": {
+    "title": "Жилье в Хошимине: аренда дома целиком | ASCON LIVING",
+    "description": "Жилье в Хошимине (Сайгон): аренда дома целиком, 3 спальни, у каждой своя ванная, караоке, барбекю на крыше, Wi-Fi до 1 Гбит/с. Пишите в WhatsApp или Zalo.",
+    "lead": "Жилье в Хошимине целиком для вашей компании: ASCON LIVING Riverside — трёхэтажный дом с террасой на крыше на берегу реки в квартале Тан Хынг. Более 250 м² принадлежат только вашей семье, друзьям или коллегам, без соседей за стенкой. У каждой из трёх спален своя ванная комната."
+   },
+   "location": {
+    "lead": "Дом стоит в жилом квартале Тан Хынг, прямо у воды. На другом берегу видны небоскрёбы центра, а вокруг дома течёт спокойная жизнь местных жителей."
+   },
+   "room-outside": {
+    "lead": "В Хошимине редко найдёшь жильё прямо у воды. В ASCON LIVING река течёт перед домом, а на другом берегу стоят небоскрёбы центра."
+   },
+   "rooftop": {
+    "lead": "Когда небо становится оранжевым, все поднимаются наверх. Около 56–60 м², чтобы жарить мясо, разговаривать и смотреть, как загораются огни центра за рекой."
    }
   },
   "tr": {
@@ -990,6 +990,21 @@
    },
    "house": {
     "description": "Üç kat ve çatı terası: her biri kendi banyolu 3 yatak odası, yaklaşık 40 m² salon, tam donanımlı mutfak ve 4K projektörlü karaoke odası."
+   },
+   "booking": {
+    "title": "Ho Chi Minh'te Kiralık Ev Ayırtın | ASCON LIVING",
+    "description": "Ho Chi Minh'te kiralık ev: ASCON LIVING'i WhatsApp/Zalo +84 909 410 382, e-posta, Airbnb veya Trip.com üzerinden ayırtın. Havalimanı transferi eklenebilir.",
+    "h1": "Ho Chi Minh'te kiralık ev: otel yerine bütün bir ev",
+    "lead": "Grubunuz için Ho Chi Minh'te kiralık ev mi arıyorsunuz? Bütün bir ev daha fazla alan ve akşamları birlikte oturacak bir yer sunar. Bize doğrudan yazabilir ya da platformlar üzerinden ayırtabilirsiniz."
+   },
+   "home": {
+    "title": "Ho Chi Minh'te Kiralık Ev, Saygon | ASCON LIVING",
+    "description": "Ho Chi Minh'te kiralık ev (Saygon): 3 katlı bütün ev sadece sizin, 250 m² üzeri alan, kendi banyolu 3 yatak odası, karaoke odası ve çatı terası.",
+    "h1": "Ho Chi Minh'te kiralık ev: bütün ev size ait",
+    "lead": "Ho Chi Minh'te kiralık ev arayanlar için bütün ev sizin, otelde dağınık odalar yok. Nehir kenarındaki sakin bir mahallede üç kat, bir çatı terası ve akşamları birlikte vakit geçirmek için bolca alan. Üç yatak odasının her birinin kendi banyosu var."
+   },
+   "location": {
+    "lead": "Sakin bir konut sokağı, kapının önünde mahallenin gündelik hayatı. ASCON LIVING, Ho Chi Minh şehrinde, nehir kenarında yer alıyor."
    }
   },
   "zh-tw": {
@@ -1007,11 +1022,42 @@
    },
    "room-master": {
     "description": "約55 m²的主臥：180×200 cm大床、55吋4K電視、陽台、附無線充電的化妝台、熨斗和獨立套房衛浴。"
+   },
+   "booking": {
+    "description": "胡志明市住宿訂房：預訂ASCON LIVING包棟民宿，可用WhatsApp／Zalo +84 909 410 382、Email、Airbnb或Trip.com，可加訂機場接送。",
+    "h1": "胡志明住宿，選整棟比飯店更自在"
+   },
+   "home": {
+    "title": "胡志明市包棟民宿 整棟住宿 | ASCON LIVING",
+    "description": "胡志明市包棟民宿，整棟只租給你們：3間臥室皆有獨立衛浴、私人KTV、頂樓烤肉露台、最高1 Gbit/s網路。全家出遊、朋友揪團都適合。",
+    "h1": "胡志明市包棟民宿 ASCON LIVING：一整棟都是你們的",
+    "lead": "和家人或朋友去胡志明市自由行，與其訂三間分開的飯店房間，不如直接住胡志明市包棟民宿。超過250 m²，位在新興（Tân Hưng），緊鄰河邊。 每間臥室都有獨立衛浴。"
    }
   },
   "en": {
    "house": {
     "description": "Over 250 m² on three floors plus rooftop: 3 bedrooms, each with its own bathroom, 40 m² living room, full kitchen, karaoke room with 4K projector."
+   },
+   "booking": {
+    "title": "Book a Vacation Rental in Ho Chi Minh City | ASCON LIVING",
+    "description": "Book the ASCON LIVING vacation rental in Ho Chi Minh City (Saigon), the whole house, on Airbnb or Trip.com, or message us on WhatsApp or Zalo.",
+    "h1": "Book your vacation rental in Ho Chi Minh City: the whole house",
+    "lead": "Book the whole vacation rental in Ho Chi Minh City on Airbnb or Trip.com, or send us a message first on WhatsApp or Zalo. We are happy to help you plan your stay."
+   },
+   "home": {
+    "title": "Ho Chi Minh Vacation Rental: Whole House | ASCON LIVING",
+    "description": "Vacation rental in Ho Chi Minh City (Saigon): the whole ASCON LIVING house for your group, 3 bedrooms with own bathrooms, karaoke and rooftop BBQ.",
+    "h1": "Vacation rental in Ho Chi Minh City: the whole house, just for you",
+    "lead": "A vacation rental in Ho Chi Minh City (Saigon) that is entirely yours: three floors plus a rooftop, three bedrooms that each have their own bathroom, an entertainment room for karaoke and movie nights, and plenty of room for long evenings together."
+   },
+   "location": {
+    "lead": "389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh City. Local life on the doorstep and, from the rooftop, a view across the river to the city skyline."
+   },
+   "room-outside": {
+    "lead": "ASCON LIVING stands at the river. Terraces with white metal railings and awnings look across the water to the city skyline, and the private rooftop sits above it all."
+   },
+   "rooftop": {
+    "lead": "Approx. 56–60 m² at the top of the house, only for you: BBQ and smoker, an outdoor sofa with seven cushions, padded stools, a dining table, long planters and solar lights, with the river and the city skyline in front of you."
    }
   },
   "fr": {
@@ -1020,6 +1066,30 @@
    },
    "room-master": {
     "description": "Chambre principale d'environ 55 m² : lit 180×200 cm, TV 4K de 55 pouces, balcon, coiffeuse avec chargeur sans fil, fer à repasser, salle de bain privative."
+   },
+   "booking": {
+    "title": "Logement à Saigon : réserver la maison | ASCON LIVING",
+    "description": "Logement à Saigon (Hô Chi Minh-Ville) : réservez la maison entière par WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb ou Trip.com. Transfert aéroport.",
+    "h1": "Logement à Saigon : réservez votre maison entière",
+    "lead": "Réservez votre logement à Saigon comme vous préférez : écrivez-nous directement ou passez par une plateforme. Indiquez-nous vos dates et quelques mots sur votre groupe."
+   },
+   "families": {
+    "lead": "Voyager avec les enfants et les grands-parents demande de l'espace, une cuisine et du calme. À ASCON LIVING, toute la famille partage une maison à Saigon, et chacun garde son coin à lui."
+   },
+   "home": {
+    "title": "Logement à Hô Chi Minh-Ville (Saigon) | ASCON LIVING",
+    "description": "Logement à Saigon (Hô Chi Minh-Ville) : location d'une maison entière, 3 chambres avec salle de bain privative, karaoké, barbecue sur le toit, Wi-Fi 1 Gbit/s.",
+    "h1": "Logement à Hô Chi Minh-Ville : toute une maison rien que pour vous",
+    "lead": "Un logement à Saigon (Hô Chi Minh-Ville) où toute la maison est à vous : ASCON LIVING Riverside compte trois étages avec toit-terrasse, au bord de la rivière à Tân Hưng. Plus de 250 m² rien que pour votre famille, vos amis ou votre équipe, sans voisins de palier. Chacune des trois chambres a sa propre salle de bain."
+   },
+   "location": {
+    "lead": "La maison se situe dans le quartier résidentiel de Tân Hưng, directement au bord de l'eau. En face se dressent les tours du centre-ville, tandis qu'autour de la maison règne le rythme paisible des habitants."
+   },
+   "room-outside": {
+    "lead": "À Saigon, rares sont les logements vraiment au bord de l'eau. À ASCON LIVING, la rivière coule devant la maison et les tours du centre-ville se dressent sur l'autre rive."
+   },
+   "rooftop": {
+    "lead": "Quand le ciel vire à l'orange, tout le monde monte. Environ 56–60 m² pour griller, discuter et regarder les lumières du centre-ville s'allumer de l'autre côté de la rivière."
    }
   },
   "hi": {
@@ -1031,21 +1101,104 @@
    },
    "room-bedroom-2": {
     "description": "हो ची मिन्ह के घर का बेडरूम 2: 160×200 cm बेड, स्मार्ट TV, गहरे ग्रे पर्दे, स्टैंड वाला पंखा और गर्म पानी व तौलियों वाला अपना अटैच्ड बाथरूम."
+   },
+   "booking": {
+    "title": "Ho Chi Minh homestay बुक करें: पूरा घर | ASCON LIVING",
+    "description": "Ho Chi Minh homestay: ASCON LIVING पूरा घर बुक करें, WhatsApp/Zalo +84 909 410 382, ईमेल, Airbnb या Trip.com से. एयरपोर्ट ट्रांसफ़र भी.",
+    "h1": "Ho Chi Minh homestay: होटल की जगह पूरा घर बुक कीजिए",
+    "lead": "पूरे ग्रुप के लिए हो ची मिन्ह में homestay ढूँढ रहे हैं? पूरे घर में ज़्यादा जगह और साथ बिताई शामें मिलती हैं। सीधे लिखिए या किसी प्लेटफ़ॉर्म से बुक कीजिए।"
+   },
+   "home": {
+    "title": "Ho Chi Minh homestay: पूरा घर किराए पर | ASCON LIVING",
+    "description": "Ho Chi Minh homestay: हो ची मिन्ह (साइगॉन) में पूरा घर सिर्फ़ आपके लिए, 3 बेडरूम, हर एक का अपना बाथरूम, प्राइवेट कराओके, छत पर बारबेक्यू, 1 Gbit/s Wi-Fi.",
+    "h1": "Ho Chi Minh homestay: साइगॉन में आपका अपना पूरा घर",
+    "lead": "परिवार या दोस्तों के साथ हो ची मिन्ह जा रहे हैं और homestay ढूँढ रहे हैं? तीन अलग होटल रूम की जगह 250 m² से बड़ा पूरा घर लीजिए, तान हुंग में, पानी के ठीक किनारे। तीनों बेडरूम में हर एक का अपना बाथरूम है।"
+   },
+   "location": {
+    "lead": "शांत रिहायशी गली, गेट के बाहर पड़ोसियों की रोज़मर्रा की ज़िंदगी, और पानी के उस पार शहर की ऊँची इमारतें। यही है ASCON LIVING का पता।"
+   },
+   "room-outside": {
+    "lead": "ASCON LIVING तान हुंग में नदी के किनारे है।"
    }
   },
   "id": {
    "house": {
     "description": "Tiga lantai plus rooftop: 3 kamar tidur, masing-masing dengan kamar mandi sendiri, ruang keluarga sekitar 40 m², dapur lengkap, dan ruang karaoke 4K."
+   },
+   "booking": {
+    "title": "Penginapan di Ho Chi Minh: Pesan Rumah Utuh | ASCON LIVING",
+    "description": "Penginapan di Ho Chi Minh: pesan rumah utuh ASCON LIVING lewat WhatsApp/Zalo +84 909 410 382, email, Airbnb, atau Trip.com. Bisa antar jemput bandara.",
+    "h1": "Penginapan di Ho Chi Minh: pesan rumah utuh Anda",
+    "lead": "Ingin pesan penginapan di Ho Chi Minh lewat chat langsung atau aplikasi pemesanan? Keduanya bisa. Kirim tanggal dan cerita singkat tentang rombongan Anda."
+   },
+   "families": {
+    "lead": "Bawa anak, kakek, dan nenek ke luar negeri butuh tempat yang lapang, dapur, dan suasana tenang. Di ASCON LIVING, satu keluarga besar menempati satu rumah utuh di Ho Chi Minh."
+   },
+   "home": {
+    "title": "Penginapan di Ho Chi Minh: Rumah Utuh | ASCON LIVING",
+    "description": "Penginapan di Ho Chi Minh (Saigon): rumah utuh dengan 3 kamar tidur, masing-masing dengan kamar mandi sendiri, ruang karaoke, BBQ rooftop, dan WiFi 1 Gbit/s.",
+    "lead": "Penginapan di Ho Chi Minh untuk liburan bareng keluarga atau teman jadi lebih seru kalau semua tinggal di bawah satu atap. ASCON LIVING Riverside adalah rumah tiga lantai plus rooftop di tepi sungai, homestay Saigon yang disewakan utuh hanya untuk rombongan Anda. Ketiga kamar tidurnya masing-masing punya kamar mandi sendiri."
+   },
+   "location": {
+    "lead": "Mau suasana tenang tapi tetap dekat kota? Rumah kami ada di kawasan perumahan Tân Hưng. Di depan rumah ada sungai, dan di seberangnya berdiri gedung-gedung pusat kota."
+   },
+   "room-outside": {
+    "lead": "Jarang ada penginapan di Ho Chi Minh yang benar-benar di pinggir air. Di ASCON LIVING, sungai mengalir di depan rumah dan gedung pusat kota berdiri di seberangnya."
+   },
+   "rooftop": {
+    "lead": "Begitu langit mulai jingga, semua naik ke atas. Rooftop sekitar 56–60 m² adalah tempat untuk memanggang, mengobrol, dan menyaksikan lampu pusat kota menyala di seberang sungai."
    }
   },
   "ms": {
    "house": {
     "description": "Tiga tingkat dan bumbung: 3 bilik tidur, setiap satu dengan bilik air sendiri, ruang tamu kira-kira 40 m², dapur lengkap dan bilik karaoke 4K."
+   },
+   "booking": {
+    "title": "Penginapan di Ho Chi Minh: Tempah Rumah | ASCON LIVING",
+    "description": "Penginapan di Ho Chi Minh: tempah rumah penuh ASCON LIVING melalui WhatsApp/Zalo +84 909 410 382, Airbnb atau Trip.com. Pemindahan lapangan terbang ada.",
+    "h1": "Penginapan di Ho Chi Minh: cara menempah ASCON LIVING Riverside",
+    "lead": "Sama ada anda suka menempah penginapan di Ho Chi Minh secara terus atau melalui platform tempahan, kami ada pilihan untuk anda. Beritahu kami tarikh dan rancangan percutian anda."
+   },
+   "families": {
+    "lead": "Bercuti dengan anak-anak, datuk dan nenek memerlukan ruang, dapur dan ketenangan. ASCON LIVING memberi seluruh keluarga satu rumah di Saigon, jadi semua boleh tidur, makan dan berehat mengikut rentak sendiri."
+   },
+   "home": {
+    "title": "Penginapan di Ho Chi Minh: Rumah Penuh | ASCON LIVING",
+    "description": "Penginapan di Ho Chi Minh (Saigon): homestay rumah penuh, 3 bilik tidur en-suite, bilik karaoke, BBQ atas bumbung dan WiFi 1 Gbit/s. Tanya di WhatsApp.",
+    "h1": "Penginapan di Ho Chi Minh: homestay untuk seisi keluarga dan geng anda",
+    "lead": "Penginapan di Ho Chi Minh yang khas untuk rombongan anda: satu rumah tiga tingkat dengan bumbung sendiri di tepi sungai. ASCON LIVING Riverside memberikan lebih 250 m² ruang peribadi, tanpa berkongsi lif, lobi atau dinding dengan tetamu lain."
+   },
+   "location": {
+    "lead": "ASCON LIVING terletak di kejiranan Tân Hưng, Ho Chi Minh, sebuah kawasan perumahan di tepi sungai. Di seberang air kelihatan bangunan tinggi pusat bandar, tetapi di sekeliling rumah suasananya kekal tenang."
+   },
+   "room-outside": {
+    "lead": "Tidak banyak penginapan di Ho Chi Minh yang betul-betul di tepi air. Di ASCON LIVING, sungai mengalir di depan rumah dan latar langit pusat bandar berdiri di seberang."
+   },
+   "rooftop": {
+    "lead": "Bila matahari mula turun, semua orang naik ke atas. Teres bumbung kira-kira 56–60 m² ialah tempat untuk membakar, berbual dan melihat lampu pusat bandar menyala di seberang sungai."
    }
   },
   "nl": {
    "house": {
     "description": "Drie verdiepingen en een dakterras: 3 slaapkamers, elk met eigen badkamer, woonkamer van ca. 40 m², uitgeruste keuken en karaokekamer met 4K-projector."
+   },
+   "booking": {
+    "title": "Overnachten in Ho Chi Minh: boek het huis | ASCON LIVING",
+    "description": "Overnachten in Ho Chi Minh: boek het hele vakantiehuis ASCON LIVING via WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb of Trip.com. Luchthaventransfer.",
+    "h1": "Overnachten in Ho Chi Minh: boek het hele vakantiehuis",
+    "lead": "Overnachten in Ho Chi Minh met de hele groep? Met een heel huis heb je meer ruimte en samen avonden. Schrijf ons direct of boek via een platform."
+   },
+   "home": {
+    "title": "Overnachten in Ho Chi Minh: vakantiehuis | ASCON LIVING",
+    "description": "Overnachten in Ho Chi Minh (Saigon) in een heel vakantiehuis: 3 slaapkamers met eigen badkamer, privé-karaoke, dakterras met barbecue, wifi tot 1 Gbit/s.",
+    "h1": "Overnachten in Ho Chi Minh: jullie eigen vakantiehuis in Saigon",
+    "lead": "Overnachten in Ho Chi Minh met familie of vrienden? Neem geen drie losse hotelkamers, maar een heel vakantiehuis van meer dan 250 m² in Tân Hưng, direct aan het water. Elk van de drie slaapkamers heeft een eigen badkamer."
+   },
+   "location": {
+    "lead": "Een rustige woonstraat, het dagelijks leven van de buren voor het hek en aan de overkant van het water de torens van het centrum. Dat is het adres van ASCON LIVING."
+   },
+   "room-outside": {
+    "lead": "ASCON LIVING ligt aan de rivier in Tân Hưng, Ho Chi Minh."
    }
   },
   "pa": {
@@ -1061,11 +1214,45 @@
   "pl": {
    "house": {
     "description": "Trzy piętra i taras na dachu: 3 sypialnie, każda z własną łazienką, salon ok. 40 m², w pełni wyposażona kuchnia i pokój karaoke z projektorem 4K."
+   },
+   "booking": {
+    "title": "Nocleg w Ho Chi Minh: zarezerwuj cały dom | ASCON LIVING",
+    "description": "Nocleg w Ho Chi Minh (Sajgon): zarezerwuj cały dom ASCON LIVING przez WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb lub Trip.com. Transfer z lotniska.",
+    "h1": "Nocleg w Ho Chi Minh: zarezerwujcie cały dom",
+    "lead": "Szukacie noclegu w Ho Chi Minh dla całej grupy? Cały dom daje więcej przestrzeni i wspólne wieczory. Napiszcie do nas bezpośrednio albo zarezerwujcie przez platformę."
+   },
+   "home": {
+    "title": "Nocleg w Ho Chi Minh (Sajgon): cały dom | ASCON LIVING",
+    "description": "Nocleg w Ho Chi Minh (Sajgon) w całym domu tylko dla was: 3 sypialnie z własnymi łazienkami, prywatne karaoke, taras na dachu z grillem, Wi-Fi do 1 Gbit/s.",
+    "h1": "Nocleg w Ho Chi Minh: cały dom tylko dla was",
+    "lead": "Szukacie noclegu w Ho Chi Minh dla rodziny lub przyjaciół? Zamiast trzech osobnych pokoi hotelowych wynajmijcie cały dom o powierzchni ponad 250 m² w Tân Hưng, w dawnym Sajgonie, tuż nad wodą. Każda z trzech sypialni ma własną łazienkę."
+   },
+   "location": {
+    "lead": "Spokojna osiedlowa uliczka, codzienne życie sąsiadów za bramą, a po drugiej stronie wody wieżowce centrum. Tak wygląda adres ASCON LIVING."
    }
   },
   "pt": {
    "house": {
     "description": "Três andares e terraço: 3 quartos, cada um com banheiro privativo, sala de cerca de 40 m², cozinha equipada e sala de karaokê com projetor 4K."
+   },
+   "booking": {
+    "title": "Hospedagem em Ho Chi Minh: reserve a casa | ASCON LIVING",
+    "description": "Hospedagem em Ho Chi Minh: reserve a casa inteira ASCON LIVING por WhatsApp/Zalo +84 909 410 382, e-mail, Airbnb ou Trip.com. Transfer do aeroporto.",
+    "h1": "Hospedagem em Ho Chi Minh: reserve sua casa inteira",
+    "lead": "Reserve sua hospedagem em Ho Chi Minh do jeito que preferir: fale direto com a gente ou reserve por uma plataforma. Conte suas datas e um pouco sobre o seu grupo."
+   },
+   "families": {
+    "lead": "Viajar com filhos e avós pede espaço, cozinha e sossego. No ASCON LIVING a família inteira divide uma casa em Ho Chi Minh, e cada um tem seu canto."
+   },
+   "home": {
+    "description": "Hospedagem em Ho Chi Minh (Saigon): casa inteira só para o seu grupo, 3 quartos com banheiro privativo, karaokê, churrasco no terraço e Wi-Fi de 1 Gbit/s.",
+    "lead": "Sua hospedagem em Ho Chi Minh (Saigon) é uma casa inteira, e todo mundo fica junto. O ASCON LIVING Riverside tem três andares com terraço na cobertura, na beira do rio em Tân Hưng. São mais de 250 m² só para a sua família, seus amigos ou sua equipe. Cada um dos três quartos tem banheiro privativo."
+   },
+   "location": {
+    "lead": "A casa fica no bairro residencial de Tân Hưng, bem na beira da água. Do outro lado do rio aparecem os prédios do centro; em volta da casa, o ritmo tranquilo dos moradores."
+   },
+   "room-outside": {
+    "lead": "O ASCON LIVING fica na beira do rio, em Tân Hưng, Saigon."
    }
   },
   "vi": {
@@ -1080,6 +1267,30 @@
    },
    "room-bedroom-3": {
     "description": "Phòng ngủ 3 không có cửa sổ, tối và yên tĩnh: giường 160×200 cm, smart TV, tủ có khăn, ga và gối dự phòng, phòng tắm riêng. Hợp cho bé ngủ trưa."
+   },
+   "booking": {
+    "title": "Homestay Sài Gòn: đặt nhà nguyên căn | ASCON LIVING",
+    "description": "Homestay Sài Gòn: đặt ASCON LIVING, nhà nguyên căn theo ngày tại TP.HCM, qua WhatsApp/Zalo +84 909 410 382, email, Airbnb, Trip.com. Có đưa đón sân bay.",
+    "h1": "Homestay Sài Gòn: đặt nhà nguyên căn theo ngày tại TP.HCM",
+    "lead": "Đặt homestay Sài Gòn bằng cách nhắn tin trực tiếp hay qua ứng dụng, cách nào cũng được. Chỉ cần gửi ngày đến, ngày đi và vài thông tin về nhóm của bạn."
+   },
+   "families": {
+    "lead": "Đi chơi cả đại gia đình cần không gian rộng, có bếp và yên tĩnh. Ở ASCON LIVING, mọi người ở chung một căn nhà tại Sài Gòn nhưng ai cũng có góc riêng."
+   },
+   "home": {
+    "title": "Homestay Sài Gòn nguyên căn | ASCON LIVING",
+    "description": "Homestay Sài Gòn, nhà nguyên căn theo ngày tại TP. Hồ Chí Minh: 3 phòng ngủ có phòng tắm riêng, phòng karaoke, BBQ sân thượng, WiFi 1 Gbit/s. Zalo 0909 410 382.",
+    "h1": "Homestay Sài Gòn: thuê nhà nguyên căn theo ngày ở TP. Hồ Chí Minh",
+    "lead": "Homestay Sài Gòn ASCON LIVING Riverside là căn nhà 3 tầng cùng sân thượng nằm ngay bờ sông ở phường Tân Hưng, TP. Hồ Chí Minh. Cả căn nhà hơn 250 m² chỉ dành riêng cho gia đình, nhóm bạn hoặc đồng nghiệp của bạn, không chung với khách khác. Cả 3 phòng ngủ đều có phòng tắm riêng."
+   },
+   "location": {
+    "lead": "Căn nhà nằm trong khu dân cư phường Tân Hưng, sát bờ sông. Bên kia sông là đường chân trời thành phố, còn quanh nhà là nhịp sống bình yên của người dân địa phương."
+   },
+   "room-outside": {
+    "lead": "Hiếm có chỗ ở nào tại Sài Gòn nằm sát mép nước. Ở ASCON LIVING, dòng sông chảy ngay trước nhà và đường chân trời thành phố ở phía bên kia."
+   },
+   "rooftop": {
+    "lead": "Khi trời ngả màu cam, cả nhà kéo nhau lên sân thượng. Khoảng 56–60 m² để nướng thịt, trò chuyện và ngắm đèn trung tâm thành phố bật sáng bên kia sông."
    }
   },
   "th": {
@@ -1088,33 +1299,107 @@
    },
    "room-master": {
     "description": "ห้องนอนใหญ่ราว 55 ตร.ม. เตียง 180×200 ซม. ทีวี 4K 55 นิ้ว ระเบียงและห้องน้ำในตัว โต๊ะเครื่องแป้งพร้อมแท่นชาร์จไร้สาย แอร์แยก บ้านพักโฮจิมินห์"
+   },
+   "booking": {
+    "title": "ที่พักโฮจิมินห์ จองบ้านพักทั้งหลัง | ASCON LIVING",
+    "description": "ที่พักโฮจิมินห์ จอง ASCON LIVING บ้านพักทั้งหลังผ่าน Airbnb หรือ Trip.com หรือสอบถามก่อนทาง WhatsApp และ Zalo ขอรถรับส่งสนามบินพร้อมการจองได้",
+    "h1": "ที่พักโฮจิมินห์: วิธีจองบ้านพักทั้งหลัง",
+    "lead": "จองที่พักโฮจิมินห์ผ่าน Airbnb หรือ Trip.com ได้ทันที หรือทักมาถามเรื่องการจัดห้องและแผนเที่ยวก่อนทาง WhatsApp หรือ Zalo คนเดียวจอง ทั้งกลุ่มเข้าพักด้วยกัน"
+   },
+   "home": {
+    "title": "ที่พักโฮจิมินห์ บ้านพักทั้งหลัง ไซง่อน | ASCON LIVING",
+    "description": "ที่พักโฮจิมินห์ (ไซง่อน) แบบบ้านพักทั้งหลัง 3 ห้องนอนพร้อมห้องน้ำในตัว ห้องคาราโอเกะและ PlayStation ดาดฟ้าบาร์บีคิว เช่าเพียงกลุ่มเดียว",
+    "lead": "หาที่พักโฮจิมินห์สำหรับทริปนี้ ไม่ต้องจองโรงแรมหลายห้อง ASCON LIVING คือบ้านพัก 3 ชั้นพร้อมดาดฟ้าในย่านเติ่นหึง (Tân Hưng) ที่ให้คุณเช่าทั้งหลังเพียงกลุ่มเดียว ทุกห้องนอนมีห้องน้ำในตัว ตกเย็นมีคาราโอเกะและบาร์บีคิวบนดาดฟ้ารออยู่"
+   },
+   "location": {
+    "lead": "ASCON LIVING อยู่ในย่านที่อยู่อาศัยของเติ่นหึง (Tân Hưng) ไม่ใช่ย่านท่องเที่ยวจ๋า แต่เป็นชีวิตประจำวันของไซ่ง่อน ขึ้นดาดฟ้าแล้วเห็นเส้นขอบฟ้าเมือง อยู่อีกฝั่งแม่น้ำ"
+   },
+   "room-outside": {
+    "lead": "ASCON LIVING เป็นบ้านริมแม่น้ำ ยืนชมแม่น้ำและตึกสูงกลางเมือง จากเฉลียงราวสีขาว"
+   },
+   "rooftop": {
+    "lead": "ดาดฟ้าราว 56–60 ตร.ม. เป็นของกลุ่มคุณเท่านั้น ย่างเนื้อบนเตา ชมไฟเมือง สว่างขึ้นอีกฝั่งแม่น้ำ แล้วทานมื้อเย็นด้วยกัน"
    }
-  }
- },
- "es": {
-  "set": {
-   "description": "Mejor que un hotel en Ho Chi Minh: casa entera junto al río, 3 dormitorios, cada uno con baño propio, karaoke, barbacoa en la azotea y WiFi de 1 Gbit/s."
   },
-  "append": {
-   "lead": " Cada uno de los tres dormitorios tiene su propio baño."
-  }
- },
- "id": {
-  "set": {
-   "description": "Lebih leluasa dari hotel di Ho Chi Minh: sewa rumah utuh dengan 3 kamar tidur, masing-masing dengan kamar mandi sendiri, ruang karaoke dan BBQ rooftop."
+  "ar": {
+   "booking": {
+    "title": "سكن في هو تشي منه: احجزوا المنزل كاملًا | ASCON LIVING",
+    "description": "سكن في هو تشي منه: احجزوا منزل ASCON LIVING كاملًا عبر واتساب/زالو ‎+84 909 410 382، أو البريد، أو Airbnb، أو Trip.com، مع توصيل من المطار.",
+    "h1": "سكن في هو تشي منه: منزل كامل بدلًا من فندق",
+    "lead": "هل تبحثون عن سكن في هو تشي منه لمجموعتكم؟ المنزل الكامل يمنحكم مساحة أكبر ومكانًا تجتمعون فيه في المساء. يمكنكم مراسلتنا مباشرة أو الحجز عبر المنصات."
+   },
+   "home": {
+    "title": "سكن في هو تشي منه (سايغون): منزل كامل | ASCON LIVING",
+    "description": "سكن في هو تشي منه (سايغون): منزل كامل من 3 طوابق لمجموعتكم وحدكم، أكثر من 250 م²، و3 غرف نوم بحمامات خاصة، وغرفة كاريوكي، وسطح للشواء.",
+    "h1": "سكن في هو تشي منه: منزل كامل لكم وحدكم",
+    "lead": "سكن في هو تشي منه لمجموعتكم: بدلًا من غرف فندقية متفرقة، المنزل كله لكم. ثلاثة طوابق وسطح في حي سكني هادئ على ضفة النهر، مع مساحة واسعة لقضاء الأمسيات معًا. ولكل غرفة من غرف النوم الثلاث حمّامها الخاص."
+   },
+   "location": {
+    "lead": "شارع سكني هادئ، وأمام البوابة تفاصيل الحياة اليومية للجيران. يقع ASCON LIVING في مدينة هو تشي منه على ضفة النهر."
+   }
   },
-  "append": {
-   "lead": " Ketiga kamar tidurnya masing-masing punya kamar mandi sendiri."
-  }
- },
- "ja": {
-  "set": {
-   "description": "ホーチミン（タンフン）の一軒家を一棟まるごと貸切。各寝室に専用バスルーム、カラオケとPlayStationのエンタメルーム、川を望むルーフトップBBQ。"
-  }
- },
- "ko": {
-  "set": {
-   "description": "호치민 떤흥 강변 독채 숙소. 침실 3개마다 전용 욕실, 노래방·PlayStation 엔터테인먼트룸, 강과 도심 스카이라인이 보이는 루프탑 BBQ. 가족·단체 여행에."
+  "de": {
+   "booking": {
+    "title": "Ferienhaus in Ho-Chi-Minh-Stadt buchen | ASCON LIVING",
+    "description": "Bucht das ganze ASCON LIVING Ferienhaus in Ho-Chi-Minh-Stadt (Saigon) bei Airbnb oder Trip.com oder schreibt uns per WhatsApp oder Zalo.",
+    "h1": "Ferienhaus in Ho-Chi-Minh-Stadt buchen: das ganze Haus für euch",
+    "lead": "Bucht eure Unterkunft in Ho-Chi-Minh-Stadt, das ganze Ferienhaus, bei Airbnb oder Trip.com oder schreibt uns vorher per WhatsApp oder Zalo. Wir helfen euch gern bei der Planung."
+   },
+   "home": {
+    "title": "Ferienhaus in Ho-Chi-Minh-Stadt (Saigon) | ASCON LIVING",
+    "description": "Ferienhaus in Ho-Chi-Minh-Stadt (Saigon): das ganze ASCON LIVING Haus nur für euch, 3 Schlafzimmer mit eigenem Bad, Karaoke, Grill auf dem Dach.",
+    "h1": "Ferienhaus in Ho-Chi-Minh-Stadt: das ganze Haus nur für euch",
+    "lead": "Ein Ferienhaus in Ho-Chi-Minh-Stadt (Saigon), das ganz euch gehört: drei Etagen plus Dachterrasse, drei Schlafzimmer mit jeweils eigenem Bad, ein Entertainment-Raum für Karaoke- und Filmabende und viel Platz für lange Abende zusammen."
+   },
+   "location": {
+    "lead": "389A Đường Trần Xuân Soạn, Tân Hưng, Ho-Chi-Minh-Stadt. Vietnamesischer Alltag vor der Haustür und von der Dachterrasse ein Blick über den Fluss auf die Skyline der Stadt."
+   },
+   "room-outside": {
+    "lead": "ASCON LIVING steht am Fluss. Terrassen mit weißem Metallgeländer und Markisen blicken über das Wasser auf die Skyline der Stadt, und darüber liegt die private Dachterrasse."
+   },
+   "rooftop": {
+    "lead": "Rund 56–60 m² ganz oben im Haus, nur für euch: Grill und Smoker, ein Outdoor-Sofa mit sieben Kissen, gepolsterte Hocker, ein Esstisch, lange Pflanzkästen und Solarleuchten, und vor euch der Fluss und die Skyline der Stadt."
+   }
+  },
+  "sv": {
+   "booking": {
+    "title": "Boende i Ho Chi Minh: boka hela huset | ASCON LIVING",
+    "description": "Boende i Ho Chi Minh (Saigon): boka hela huset ASCON LIVING via WhatsApp/Zalo +84 909 410 382, mejl, Airbnb eller Trip.com. Flygplatstransfer finns."
+   },
+   "home": {
+    "description": "Boende i Ho Chi Minh (Saigon): hela huset för er grupp, 3 sovrum med eget badrum, privat karaoke, takterrass med grill och wifi upp till 1 Gbit/s.",
+    "h1": "Boende i Ho Chi Minh: ert eget hus i Saigon",
+    "lead": "Letar ni boende i Ho Chi Minh för familjen eller vännerna? I stället för tre separata hotellrum får ni ett helt hus på över 250 m² i Tân Hưng, alldeles vid vattnet. Varje sovrum har eget badrum."
+   },
+   "location": {
+    "lead": "En lugn bostadsgata, grannarnas vardag utanför grinden och på andra sidan vattnet skyskraporna i centrum. Det är adressen till ASCON LIVING."
+   },
+   "room-outside": {
+    "lead": "ASCON LIVING ligger vid floden i Tân Hưng, Ho Chi Minh."
+   }
+  },
+  "zh": {
+   "booking": {
+    "title": "胡志明住宿预订 整栋包栋民宿 | ASCON LIVING",
+    "description": "胡志明住宿预订：ASCON LIVING 整栋民宿可在 Airbnb、Trip.com 预订，也可先通过 WhatsApp、Zalo 咨询。机场接送可在预订时一起申请。",
+    "h1": "胡志明住宿预订：如何包下整栋民宿",
+    "lead": "预订胡志明住宿，可直接在 Airbnb 或 Trip.com 下单，或者先用 WhatsApp、Zalo 咨询房间安排和行程。一人预订，全组同住。"
+   },
+   "home": {
+    "title": "胡志明住宿 整栋包栋民宿 | ASCON LIVING",
+    "description": "胡志明住宿（西贡）整栋民宿，一组客人包下整栋房子。3间卧室均带独立卫浴，卡拉OK与PlayStation娱乐室，屋顶露台可烧烤。",
+    "h1": "胡志明住宿首选：整栋包栋民宿 ASCON LIVING",
+    "lead": "胡志明住宿不用再订好几间酒店房间。ASCON LIVING 位于胡志明市新兴坊（Tân Hưng），三层独栋加屋顶露台，整栋只租给一组客人。每间卧室都有独立卫浴，晚上还有卡拉OK和屋顶烧烤。"
+   },
+   "location": {
+    "lead": "ASCON LIVING 位于胡志明新兴坊（Tân Hưng）的住宅区。不在游客区中心，而在本地生活里；上到屋顶，河对岸就是城市天际线。"
+   },
+   "rooftop": {
+    "lead": "约56–60㎡的屋顶是 只供您这一组使用的空间。烧烤炉上烤着肉，看河对岸市中心的灯光亮起，吃一顿晚饭。"
+   },
+   "room-outside": {
+    "lead": "ASCON LIVING 是一栋建在河边的房子。在白色栏杆的露台上，眺望河对岸的城市天际线。"
+   }
   }
  },
  "pa": {
@@ -1139,38 +1424,115 @@
    ]
   }
  },
- "pt": {
-  "set": {
-   "description": "Alternativa a hotel em Ho Chi Minh: casa inteira à beira do rio, 3 quartos, cada um com banheiro privativo, karaokê, churrasco no terraço e Wi-Fi."
+ "_body_doc": "Wording edits anywhere in a page {lang:{page_id:[[old,new]]}} (Website Ops review 19 Oct: keyword stuffing).",
+ "_body": {
+  "es": {
+   "home": [
+    [
+     "Salón de unos 40 m² en una casa entera en Ho Chi Minh:",
+     "Salón de unos 40 m² en la casa completa, en Ho Chi Minh:"
+    ],
+    [
+     "¿Se alquila la casa entera?",
+     "¿Se alquila la casa completa?"
+    ]
+   ]
   },
-  "append": {
-   "lead": " Cada um dos três quartos tem banheiro privativo."
-  }
- },
- "ru": {
-  "set": {
-   "description": "Жилье в Хошимине целиком: дом у реки, 3 спальни, у каждой своя ванная, караоке, барбекю на крыше, Wi-Fi до 1 Гбит/с. Пишите в WhatsApp или Zalo."
+  "it": {
+   "home": [
+    [
+     "Perché una casa intera",
+     "Perché tutta la casa"
+    ],
+    [
+     "Soggiorno di circa 40 m² in casa intera a Ho Chi Minh:",
+     "Soggiorno di circa 40 m², con tutta la casa per voi a Ho Chi Minh:"
+    ]
+   ]
   },
-  "append": {
-   "lead": " У каждой из трёх спален своя ванная комната."
-  }
- },
- "th": {
-  "set": {
-   "description": "บ้านพักทั้งหลังในโฮจิมินห์ 3 ห้องนอน ทุกห้องมีห้องน้ำในตัว ห้องคาราโอเกะและ PlayStation ดาดฟ้าบาร์บีคิววิวแม่น้ำและเส้นขอบฟ้าเมือง"
-  }
- },
- "tr": {
-  "set": {
-   "description": "Ho Chi Minh'de nehir kenarında 3 katlı kiralık ev: 250 m² üzeri alan, her biri kendi banyolu 3 yatak odası, karaoke odası ve nehir manzaralı çatı terası."
+  "pt": {
+   "home": [
+    [
+     "Sala de cerca de 40 m² em casa inteira em Ho Chi Minh:",
+     "Sala de cerca de 40 m², com a casa toda para vocês em Ho Chi Minh:"
+    ]
+   ]
   },
-  "append": {
-   "lead": " Üç yatak odasının her birinin kendi banyosu var."
-  }
- },
- "ar": {
-  "append": {
-   "lead": " ولكل غرفة من غرف النوم الثلاث حمّامها الخاص."
+  "ms": {
+   "home": [
+    [
+     "dalam rumah penuh ini",
+     "dalam rumah ini"
+    ],
+    [
+     "Dapur lengkap di rumah penuh ini",
+     "Dapur lengkap di rumah ini"
+    ]
+   ]
+  },
+  "vi": {
+   "families": [
+    [
+     "Phòng karaoke riêng trong nhà nguyên căn Quận 7",
+     "Phòng karaoke riêng trong căn nhà"
+    ],
+    [
+     "Bếp đầy đủ trong nhà nguyên căn Quận 7",
+     "Bếp đầy đủ trong nhà"
+    ]
+   ]
+  },
+  "de": {
+   "rooftop": [
+    [
+     "Dachterrasse bei Tag mit",
+     "Das Dach bei Tag mit"
+    ],
+    [
+     "Rattansitzen und cremefarbenen Kissen auf der Dachterrasse",
+     "Rattansitzen und cremefarbenen Kissen auf dem Dach"
+    ],
+    [
+     "Lounge auf der Dachterrasse am Abend",
+     "Lounge oben auf dem Dach am Abend"
+    ],
+    [
+     "Kissen auf der Dachterrasse am Abend",
+     "Kissen auf dem Dach am Abend"
+    ],
+    [
+     "am weißen Geländer der Dachterrasse",
+     "am weißen Geländer oben auf dem Dach"
+    ],
+    [
+     "gesehen von der Dachterrasse",
+     "gesehen vom Dach"
+    ],
+    [
+     "Kaffee auf der Dachterrasse statt",
+     "Kaffee auf dem Dach statt"
+    ],
+    [
+     "Von der Dachterrasse schaut ihr",
+     "Von hier oben schaut ihr"
+    ],
+    [
+     "Die Dachterrasse erweitert den Wohnraum",
+     "Sie erweitert den Wohnraum"
+    ],
+    [
+     "Können wir auf der Dachterrasse grillen?",
+     "Können wir dort oben grillen?"
+    ],
+    [
+     "Was sieht man von der Dachterrasse?",
+     "Was sieht man von oben?"
+    ],
+    [
+     "Eure eigene Dachterrasse mit Flussblick?",
+     "Eure eigene Terrasse mit Flussblick?"
+    ]
+   ]
   }
  }
 }
