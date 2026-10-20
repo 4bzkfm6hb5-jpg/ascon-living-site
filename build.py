@@ -124,7 +124,7 @@ def lodging(code,c):
       "knowsLanguage":F['languages'],"sameAs":[F['airbnb'],F['trip']],
       "contactPoint":[{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"email":F['email'],"url":F['wa']},{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"url":F['zalo']}],
       "amenityFeature":[{"@type":"LocationFeatureSpecification","name":a,"value":True} for a in F['amenities']],
-      "containsPlace":{"@type":"Accommodation","additionalType":"EntirePlace","name":F['name'],"numberOfRooms":F['rooms'],"numberOfBedrooms":F['rooms'],
+      "containsPlace":{"@type":"Accommodation","additionalType":"EntirePlace","occupancy":{"@type":"QuantitativeValue","value":F['occupancy_total']},"name":F['name'],"numberOfRooms":F['rooms'],"numberOfBedrooms":F['rooms'],
         "numberOfBathroomsTotal":F['bathrooms_full']+F['bathrooms_partial'],"numberOfFullBathrooms":F['bathrooms_full'],"numberOfPartialBathrooms":F['bathrooms_partial'],
         "bed":[{"@type":"BedDetails","numberOfBeds":1,"typeOfBed":"180×200 cm"},{"@type":"BedDetails","numberOfBeds":2,"typeOfBed":"160×200 cm"}],
         "containsPlace":[dict({"@type":r['type'],"name":r['name']},**({"floorSize":{"@type":"QuantitativeValue","value":r['m2'],"unitCode":"MTK"}} if r.get('m2') else {}),**({"occupancy":{"@type":"QuantitativeValue","value":r['occupancy']}} if r.get('occupancy') else {})) for r in F['jsonld_rooms']],
