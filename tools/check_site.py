@@ -80,8 +80,10 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
         im=v.get('image',[])
         if len(im)<8 or any(not u.startswith(SITE+'/assets/img/') or 'logo' in u or not os.path.exists(D+u[len(SITE):]) for u in im): errs.append((f,'vr-image',len(im)))
         if v.get('additionalType')!='House': errs.append((f,'vr-type',v.get('additionalType')))
-        t=json.dumps({k:x for k,x in v.items() if k!='containsPlace'})+json.dumps({k:x for k,x in v.get('containsPlace',{}).items() if k!='containsPlace'})
-        for k in ('aggregateRating','"review','occupancy','minValue','maxValue'):  # no total max guests; occupancy only per bedroom
+        t=json.dumps({k:x for k,x in v.items() if k!='containsPlace'})  # occupancy allowed on EntirePlace (= sum of bedrooms) and per bedroom
+        cp=v.get('containsPlace',{}); _o=(cp.get('occupancy') or {}).get('value')
+        if _o!=sum((r.get('occupancy') or {}).get('value',0) for r in cp.get('containsPlace',[])): errs.append((f,'vr-occ-total',_o))
+        for k in ('aggregateRating','"review','occupancy','minValue','maxValue'):  # occupancy only on EntirePlace + bedrooms
             if k in json.dumps(v) if k!='occupancy' else k in t: errs.append((f,'vr-field',k))
         if v.get('identifier')!=_F['identifier']: errs.append((f,'vr-id',v.get('identifier')))
         for r in v.get('containsPlace',{}).get('containsPlace',[]):

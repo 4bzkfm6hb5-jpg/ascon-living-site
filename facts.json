@@ -100,6 +100,7 @@
   }
  ],
  "identifier": "ascon-living-riverside",
+ "occupancy_total": 6,
  "geo": {
   "latitude": 10.7516358,
   "longitude": 106.7103995
