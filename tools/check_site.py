@@ -72,6 +72,35 @@ if not dom.endswith('.github.io'):
 if f'Sitemap: {SITE}/sitemap.xml' not in open(f'{D}/robots.txt').read(): errs.append((f'{D}/robots.txt','sitemap','wrong base'))
 for u in re.findall(r'<loc>([^<]+)</loc>',open(f'{D}/sitemap.xml').read()):
     if not u.startswith(SITE+'/'): errs.append(('sitemap.xml','loc',u)); break
+# VacationRental JSON-LD (Search Console): >=8 own absolute image URLs, House, confirmed floorSize values only, no ratings/reviews/occupancy
+for f in glob.glob(f'{D}/**/*.html',recursive=True):
+    for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>',open(f).read(),re.S):
+        v=json.loads(b)
+        if v.get('@type')!='VacationRental': continue
+        im=v.get('image',[])
+        if len(im)<8 or any(not u.startswith(SITE+'/assets/img/') or 'logo' in u or not os.path.exists(D+u[len(SITE):]) for u in im): errs.append((f,'vr-image',len(im)))
+        if v.get('additionalType')!='House': errs.append((f,'vr-type',v.get('additionalType')))
+        t=json.dumps({k:x for k,x in v.items() if k!='containsPlace'})+json.dumps({k:x for k,x in v.get('containsPlace',{}).items() if k!='containsPlace'})
+        for k in ('aggregateRating','"review','occupancy','minValue','maxValue'):  # no total max guests; occupancy only per bedroom
+            if k in json.dumps(v) if k!='occupancy' else k in t: errs.append((f,'vr-field',k))
+        if v.get('identifier')!=_F['identifier']: errs.append((f,'vr-id',v.get('identifier')))
+        for r in v.get('containsPlace',{}).get('containsPlace',[]):
+            o=r.get('occupancy')
+            if o and not ('bedroom' in r.get('name','').lower() and o.get('value')==2): errs.append((f,'vr-occ',r.get('name')))
+        for r in v.get('containsPlace',{}).get('containsPlace',[]):
+            fs=r.get('floorSize')
+            if fs and not (isinstance(fs.get('value'),(int,float)) and fs.get('unitCode')=='MTK'): errs.append((f,'vr-floor',r.get('name')))
+# LCP hero/cover: fetchpriority=high, not lazy, and a matching <link rel=preload> in <head> (same srcset/sizes -> single download)
+for f in glob.glob(f'{D}/*/**/index.html',recursive=True):
+    s=open(f).read()
+    if 'noindex' in s: continue
+    m=re.search(r'<img [^>]*fetchpriority="high"[^>]*>',s)
+    if not m: continue
+    im=m.group(0)
+    if 'loading="lazy"' in im: errs.append((f,'lcp','lazy'))
+    g=lambda t,a: (re.search(a+r'="([^"]*)"',t) or [None,None])[1]
+    head=s.split('</head>')[0]; pl=re.search(r'<link rel="preload" as="image"[^>]*>',head)
+    if not pl or g(pl.group(0),'imagesrcset')!=g(im,'srcset') or g(pl.group(0),'imagesizes')!=g(im,'sizes') or g(pl.group(0),'href')!=g(im,'src'): errs.append((f,'lcp','preload mismatch'))
 # no district names in <title>, <h1> or first 60 chars of meta description
 import importlib.util as _ilu
 _sp=_ilu.spec_from_file_location('district_scan',os.path.join(os.path.dirname(os.path.abspath(__file__)),'district_scan.py'))

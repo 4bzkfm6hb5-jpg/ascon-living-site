@@ -71,8 +71,13 @@ def sub(s,code): return s.replace('{L}',f'{BASE}/{code}/').replace('{phone_e164}
 def pic(name,alt,eager=False,sizes='(min-width:900px) 380px, 100vw'):
     m=IMG[name]; ws=m['widths']; src=f'{BASE}/assets/img/{name}-'
     ss=', '.join(f'{src}{w}.webp {w}w' for w in ws); w=ws[-1]; h=round(m['h']*w/m['w'])
-    attrs='fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
+    attrs='fetchpriority="high" decoding="async"' if eager else 'loading="lazy" decoding="async"'
     return f'<img src="{src}{ws[min(1,len(ws)-1)]}.webp" srcset="{ss}" sizes="{sizes}" width="{w}" height="{h}" alt="{html.escape(alt)}" {attrs}>'
+def preload(name,sizes):
+    # <head> preload for the LCP hero/cover: same src/srcset/sizes as pic(..., eager=True), so it is fetched once
+    m=IMG[name]; ws=m['widths']; src=f'{BASE}/assets/img/{name}-'
+    ss=', '.join(f'{src}{w}.webp {w}w' for w in ws)
+    return f'<link rel="preload" as="image" href="{src}{ws[min(1,len(ws)-1)]}.webp" imagesrcset="{ss}" imagesizes="{sizes}" type="image/webp" fetchpriority="high">'
 def cta(u):
     return (f'<p><a class="btn b1" href="{F["airbnb"]}" rel="noopener">{u["book_airbnb"]}</a>'
             f'<a class="btn b2" href="{F["trip"]}" rel="noopener">{u["book_trip"]}</a>'
@@ -98,12 +103,23 @@ def section(s,code,u):
     if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'] if pid in C[code]['pages'])+'</div>')
     if s.get('cta'): o.append(cta(u))
     return '<section>'+''.join(o)+'</section>'
+def lodging_images():
+    # VacationRental.image: absolute URLs of our own house photos only (facts.json jsonld_images; no logos, no blurred/excluded shots).
+    # floorSize only where confirmed (facts.json jsonld_rooms[].m2); postalCode only when facts.json postal_code is set.
+    out=[]
+    for i in F['jsonld_images']:
+        w=max(IMG[i]['widths']); p=f'{OUT}/assets/img/{i}-{w}.webp'
+        if not os.path.exists(p): raise SystemExit(f'jsonld image missing: {p}')
+        out.append(SITE+f'/assets/img/{i}-{w}.webp')
+    if len(out)<8: raise SystemExit('VacationRental needs at least 8 images')
+    return out
 def lodging(code,c):
-    region='Ho-Chi-Minh-Stadt' if code=='de' else 'Ho Chi Minh City'
-    return {"@context":"https://schema.org","@type":"VacationRental","@id":SITE+'/#lodging',"name":F['name'],
-      "url":SITE+f'/{code}/',"image":[SITE+'/assets/img/hero-1440.webp',SITE+'/assets/img/og.jpg'],"logo":SITE+'/assets/img/logo-mark.png',
+    g=F.get('geo') or {}; geo=all(isinstance(g.get(k),(int,float)) for k in ('latitude','longitude'))
+    return {"@context":"https://schema.org","@type":"VacationRental","@id":SITE+'/#lodging',"identifier":F['identifier'],"name":F['name'],
+      "url":SITE+f'/{code}/',"additionalType":"House","image":lodging_images(),"logo":SITE+'/assets/img/logo-mark.png',
       "description":c['pages']['home']['description'],"telephone":F['phone_e164'],"email":F['email'],
-      "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":"Tân Hưng","addressRegion":region,"addressCountry":F['country']},
+      "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":"Tân Hưng","addressRegion":F['region'],"addressCountry":F['country'],**({"postalCode":F['postal_code']} if F.get('postal_code') else {})},
+      **({"geo":{"@type":"GeoCoordinates","latitude":g['latitude'],"longitude":g['longitude']},"latitude":g['latitude'],"longitude":g['longitude']} if geo else {}),
       "checkinTime":F['checkin'],"checkoutTime":F['checkout'],
       "knowsLanguage":F['languages'],"sameAs":[F['airbnb'],F['trip']],
       "contactPoint":[{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"email":F['email'],"url":F['wa']},{"@type":"ContactPoint","contactType":"reservations","telephone":F['phone_e164'],"url":F['zalo']}],
@@ -111,7 +127,7 @@ def lodging(code,c):
       "containsPlace":{"@type":"Accommodation","additionalType":"EntirePlace","name":F['name'],"numberOfRooms":F['rooms'],"numberOfBedrooms":F['rooms'],
         "numberOfBathroomsTotal":F['bathrooms_full']+F['bathrooms_partial'],"numberOfFullBathrooms":F['bathrooms_full'],"numberOfPartialBathrooms":F['bathrooms_partial'],
         "bed":[{"@type":"BedDetails","numberOfBeds":1,"typeOfBed":"180×200 cm"},{"@type":"BedDetails","numberOfBeds":2,"typeOfBed":"160×200 cm"}],
-        "floorSize":{"@type":"QuantitativeValue","minValue":F['size_m2_min'],"unitCode":"MTK"},
+        "containsPlace":[dict({"@type":r['type'],"name":r['name']},**({"floorSize":{"@type":"QuantitativeValue","value":r['m2'],"unitCode":"MTK"}} if r.get('m2') else {}),**({"occupancy":{"@type":"QuantitativeValue","value":r['occupancy']}} if r.get('occupancy') else {})) for r in F['jsonld_rooms']],
         "amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Self check-in via keypad; the outer gate uses a key","value":True}]}}
 def legal(code):
     # imprint/privacy fall back to English where a language has no legal pages (lang attribute marks the switch)
@@ -155,12 +171,14 @@ def page(l,pid):
     picker=('<details class="lang"><summary>🌐 '+flag(code,False)+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid] if pid in C[x[0]]["pages"] else ""}" hreflang="{x[1]}" lang="{x[1]}"'+(' aria-current="true"' if x[0]==code else '')+f'>{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
     lm=IMG['logo-mark']; lf=IMG['logo-full']
     if pid=='home':
+        pre=preload(p["hero"][0],"100vw")
         top=(f'<div class="hero">{pic(p["hero"][0],p["hero"][1],True,"100vw")}<div class="in"><h1>{html.escape(p["h1"])}</h1>'
              f'<p>{html.escape(p["lead"])}</p><p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u)}</div></div><div class="wrap">')
     else:
+        pre=preload(p["cover"][0],"(min-width:900px) 900px, 100vw") if p.get('cover') else ''
         top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')+(f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,"(min-width:900px) 900px, 100vw")}</figure>' if p.get('cover') else '')
     body=''.join(section(s,code,u) for s in p['sections'])
-    return f'''<!doctype html><html lang="{hl}" dir="{dirn}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f'''<!doctype html><html lang="{hl}" dir="{dirn}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{pre}
 <title>{html.escape(title)}</title><meta name="description" content="{html.escape(p['description'])}"><link rel="canonical" href="{canon}">{alts}
 <meta property="og:type" content="website"><meta property="og:site_name" content="ASCON LIVING"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(p['description'])}"><meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/img/og.jpg"><meta property="og:locale" content="{hl.replace('-','_')}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{BASE}/favicon.png"><meta name="theme-color" content="#14233f">{fontlink}<style>{css}</style>{ldh}</head>
