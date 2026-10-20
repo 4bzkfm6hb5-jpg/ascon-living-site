@@ -46,6 +46,8 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     cj=any(c in f for c in CJKL); L=(lambda x:width(x)) if cj else (lambda x:sum(1 for ch in x if unicodedata.category(ch)!='Mn')) if '/th/' in f else len; tl,dl=(64,160) if cj else (60,160)
     if t and L(html.unescape(t.group(1)))>tl: errs.append((f,'title',L(html.unescape(t.group(1)))))
     if d and L(html.unescape(d.group(1)))>dl: errs.append((f,'desc',L(html.unescape(d.group(1)))))
+    # every meta description: at most 155 characters (Market Researcher / Website Ops, 19 Oct 2026)
+    if d and len(html.unescape(d.group(1)))>155: errs.append((f,'desc>155',len(html.unescape(d.group(1)))))
     if '**' in txt or '[//]' in txt: errs.append((f,'markdown',''))
 # laundry service 30 EUR per load must be stated in every published language
 for d in sorted(glob.glob(f'{D}/*/index.html')):
@@ -99,4 +101,20 @@ for f in glob.glob(f'{D}/*/**/index.html',recursive=True):
     g=lambda t,a: (re.search(a+r'="([^"]*)"',t) or [None,None])[1]
     head=s.split('</head>')[0]; pl=re.search(r'<link rel="preload" as="image"[^>]*>',head)
     if not pl or g(pl.group(0),'imagesrcset')!=g(im,'srcset') or g(pl.group(0),'imagesizes')!=g(im,'sizes') or g(pl.group(0),'href')!=g(im,'src'): errs.append((f,'lcp','preload mismatch'))
+# no district names in <title>, <h1> or first 60 chars of meta description
+import importlib.util as _ilu
+_sp=_ilu.spec_from_file_location('district_scan',os.path.join(os.path.dirname(os.path.abspath(__file__)),'district_scan.py'))
+_ds=_ilu.module_from_spec(_sp); _sp.loader.exec_module(_ds)
+# run as library: collect hits
+_hits=[]
+import html as _html
+for f in sorted(glob.glob(f'{D}/*/**/index.html',recursive=True)):
+    s=open(f).read()
+    if 'noindex' in s: continue
+    t=_html.unescape(re.search(r'<title>(.*?)</title>',s).group(1))
+    h=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S); h=_html.unescape(re.sub('<[^>]+>','',h.group(1))) if h else ''
+    d=_html.unescape(re.search(r'<meta name="description" content="([^"]*)"',s).group(1))
+    for k,v in (('title',t),('h1',h),('desc',d)):
+        m=_ds.DIST.search(v)
+        if m: errs.append((f,'district',f'{k}:{m.group(0)}'))
 print(n,'pages'); [print(e) for e in errs[:60]]; print(len(errs),'issues')
