@@ -213,6 +213,7 @@ def main():
     else: open(f'{OUT}/CNAME','w').write(DOMAIN+'\n')
     open(f'{OUT}/robots.txt','w').write(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
     open(f'{OUT}/.nojekyll','w').write('')
+    shutil.copyfile(f'{ROOT}/tools/llms.txt',f'{OUT}/llms.txt')  # /llms.txt, byte-identical copy of tools/llms.txt
     codes=json.dumps([[x[0],x[1]] for x in PUB])
     links=''.join(f'<li><a href="{BASE}/{x[0]}/" hreflang="{x[1]}" lang="{x[1]}">{x[2]}</a></li>' for x in PUB)
     open(f'{OUT}/index.html','w').write(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ASCON LIVING – Ho Chi Minh City</title>
