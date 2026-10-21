@@ -70,6 +70,9 @@ if not dom.endswith('.github.io'):
     cn=open(f'{D}/CNAME').read().strip() if os.path.exists(f'{D}/CNAME') else None
     if cn!=dom: errs.append((f'{D}/CNAME','cname',str(cn)))
 if f'Sitemap: {SITE}/sitemap.xml' not in open(f'{D}/robots.txt').read(): errs.append((f'{D}/robots.txt','sitemap','wrong base'))
+# IndexNow key file: docs/<key>.txt containing exactly the key
+_k=_F.get('indexnow_key','')
+if not re.fullmatch(r'[0-9a-f]{32}',_k) or not os.path.isfile(f'{D}/{_k}.txt') or open(f'{D}/{_k}.txt').read()!=_k: errs.append((D,'indexnow','key file missing/wrong'))
 # /llms.txt: byte-identical to tools/llms.txt, every asconliving.com link must exist
 _lt=os.path.join(os.path.dirname(os.path.abspath(__file__)),'llms.txt')
 if not os.path.isfile(f'{D}/llms.txt') or open(f'{D}/llms.txt','rb').read()!=open(_lt,'rb').read(): errs.append((f'{D}/llms.txt','llms','missing or differs from tools/llms.txt'))
