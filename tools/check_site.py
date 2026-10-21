@@ -70,6 +70,12 @@ if not dom.endswith('.github.io'):
     cn=open(f'{D}/CNAME').read().strip() if os.path.exists(f'{D}/CNAME') else None
     if cn!=dom: errs.append((f'{D}/CNAME','cname',str(cn)))
 if f'Sitemap: {SITE}/sitemap.xml' not in open(f'{D}/robots.txt').read(): errs.append((f'{D}/robots.txt','sitemap','wrong base'))
+# /llms.txt: byte-identical to tools/llms.txt, every asconliving.com link must exist
+_lt=os.path.join(os.path.dirname(os.path.abspath(__file__)),'llms.txt')
+if not os.path.isfile(f'{D}/llms.txt') or open(f'{D}/llms.txt','rb').read()!=open(_lt,'rb').read(): errs.append((f'{D}/llms.txt','llms','missing or differs from tools/llms.txt'))
+else:
+    for u in re.findall(re.escape(SITE)+r'(/[^)\s]*)',open(_lt,encoding='utf-8').read()):
+        if not os.path.exists(D+u+('index.html' if u.endswith('/') else '')): errs.append((f'{D}/llms.txt','llms-link',u))
 for u in re.findall(r'<loc>([^<]+)</loc>',open(f'{D}/sitemap.xml').read()):
     if not u.startswith(SITE+'/'): errs.append(('sitemap.xml','loc',u)); break
 # VacationRental JSON-LD (Search Console): >=8 own absolute image URLs, House, confirmed floorSize values only, no ratings/reviews/occupancy
