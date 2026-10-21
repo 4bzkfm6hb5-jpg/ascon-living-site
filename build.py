@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Static site builder. Add content/<code>.json to publish a language; nothing else needed."""
-import json, os, html, shutil, datetime
+import json, os, glob, html, shutil, datetime
 ROOT=os.path.dirname(os.path.abspath(__file__)); OUT=os.path.join(ROOT,'docs')
 F=json.load(open(f'{ROOT}/facts.json'))
 # Single settings for where the site lives (facts.json): absolute origin for canonical/hreflang/og/JSON-LD/sitemap,
@@ -213,6 +213,8 @@ def main():
     else: open(f'{OUT}/CNAME','w').write(DOMAIN+'\n')
     open(f'{OUT}/robots.txt','w').write(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
     open(f'{OUT}/.nojekyll','w').write('')
+    for _f in glob.glob(f'{OUT}/'+'[0-9a-f]'*32+'.txt'): os.remove(_f)
+    open(f"{OUT}/{F['indexnow_key']}.txt",'w').write(F['indexnow_key'])  # IndexNow key file
     shutil.copyfile(f'{ROOT}/tools/llms.txt',f'{OUT}/llms.txt')  # /llms.txt, byte-identical copy of tools/llms.txt
     codes=json.dumps([[x[0],x[1]] for x in PUB])
     links=''.join(f'<li><a href="{BASE}/{x[0]}/" hreflang="{x[1]}" lang="{x[1]}">{x[2]}</a></li>' for x in PUB)
