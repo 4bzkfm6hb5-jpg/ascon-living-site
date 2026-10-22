@@ -4,6 +4,7 @@ body{margin:0;font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,var(--ff,
 h1,h2,h3{font-family:Georgia,"Times New Roman",var(--ff,serif),serif;color:var(--n);line-height:1.2;font-weight:600}
 h1{font-size:clamp(1.8rem,5vw,3rem);margin:.2em 0 .4em}h2{font-size:clamp(1.35rem,3.4vw,1.9rem);margin:1.8em 0 .5em}h3{font-size:1.15rem}
 a{color:var(--g)}img{max-width:100%;height:auto;display:block;border-radius:var(--r)}
+picture{display:block}.hero picture{position:absolute;inset:0}
 .skip{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.skip:focus{width:auto;height:auto;clip:auto;top:8px;inset-inline-start:8px;background:#fff;padding:8px;z-index:9}
 header{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.96);border-bottom:1px solid #e8e3da}
 .bar{display:flex;align-items:center;gap:12px;max-width:1180px;margin:auto;padding:8px 16px}
@@ -32,15 +33,12 @@ figure{margin:0}figcaption{font-size:.85rem;color:var(--m);padding:4px 2px}
 .card a{text-decoration:none;font-weight:600}
 ul.chk{padding-inline-start:1.2em}ul.chk li{margin:.2em 0}
 .note{background:#fff4e8;border-inline-start:4px solid var(--o);padding:12px 16px;border-radius:8px}
-.faq details{background:#fff;border-radius:10px;padding:12px 16px;margin:8px 0}.faq summary{font-weight:600;cursor:pointer}
-footer{background:var(--n);color:#d9deea;margin-top:48px}footer .wrap{max-width:1180px;margin:auto;padding:32px 16px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-footer a{color:#fff}footer img{height:90px;width:auto;border-radius:0}
-.fab{position:fixed;bottom:16px;inset-inline-end:16px;z-index:6;width:56px;height:56px;border-radius:50%;background:#1fa855;display:grid;place-items:center;box-shadow:0 6px 20px rgba(0,0,0,.25)}
-.fab svg{width:30px;height:30px;fill:#fff}
 .bookbox{background:#fff;border:2px solid var(--n);border-radius:var(--r);padding:16px 18px;margin:28px 0}
 .bookbox p{margin:.35em 0}
 .topbook{margin:8px 0 4px}
 .bookbar{display:none}
+nav.toc{background:#fff;border-radius:var(--r);padding:14px 18px;margin:8px 0 20px;box-shadow:0 2px 12px rgba(20,35,63,.06)}
+nav.toc ol{margin:.4em 0 0;padding-inline-start:1.2em}nav.toc a{text-decoration:none}
 @media(max-width:899px){
 .bookbar{display:flex;position:fixed;bottom:0;inset-inline:0;z-index:7;background:#fff;border-top:1px solid #e8e3da;padding:8px 12px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -4px 16px rgba(20,35,63,.08)}
 .bookbar .btn{flex:1;text-align:center;margin:0}
@@ -50,10 +48,16 @@ body{padding-bottom:72px}
 @media(min-width:900px){.hero{min-height:86vh}}
 [lang=ur] body,[lang=ur] h1,[lang=ur] h2{line-height:2.1}[lang=ur] h1,[lang=ur] h2,[lang=ur] h3{font-family:var(--ff)}
 .tbl{overflow-x:auto}.tbl table{width:100%;border-collapse:collapse;font-size:.95rem}.tbl th,.tbl td{text-align:start;vertical-align:top;padding:10px 12px;border-bottom:1px solid #e3e6ec}.tbl th{width:34%;color:var(--n);font-weight:600}
-.faq summary h2{display:inline;font-size:1rem;font-family:inherit;margin:0;font-weight:600;color:inherit}
 [lang=ko] body,[lang=ko] h1,[lang=ko] h2,[lang=ko] h3{font-family:"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Noto Sans CJK KR",system-ui,sans-serif;word-break:keep-all}
 [lang=ja] body,[lang=ja] h1,[lang=ja] h2,[lang=ja] h3{font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","YuGothic","Meiryo","Noto Sans JP","Noto Sans CJK JP",system-ui,sans-serif;line-break:strict}
 [lang=zh-Hans] body,[lang=zh-Hans] h1,[lang=zh-Hans] h2,[lang=zh-Hans] h3{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Noto Sans CJK SC",system-ui,sans-serif;line-break:strict}
 [lang=th] body,[lang=th] h1,[lang=th] h2,[lang=th] h3{font-family:"Leelawadee UI","Thonburi","Sukhumvit Set","Noto Sans Thai",system-ui,sans-serif;line-height:1.8}
-
 [lang=zh-TW] body,[lang=zh-TW] h1,[lang=zh-TW] h2,[lang=zh-TW] h3{font-family:"PingFang TC","Microsoft JhengHei","Noto Sans TC","Noto Sans CJK TC",system-ui,sans-serif;line-break:strict}
+/*@deferred*/
+.faq details{background:#fff;border-radius:10px;padding:12px 16px;margin:8px 0}.faq summary{font-weight:600;cursor:pointer}
+.faq summary h2{display:inline;font-size:1rem;font-family:inherit;margin:0;font-weight:600;color:inherit}
+footer{background:var(--n);color:#d9deea;margin-top:48px}footer .wrap{max-width:1180px;margin:auto;padding:32px 16px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+footer a{color:#fff}footer img{height:90px;width:auto;border-radius:0}
+.fab{position:fixed;bottom:16px;inset-inline-end:16px;z-index:6;width:56px;height:56px;border-radius:50%;background:#1fa855;display:grid;place-items:center;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.fab svg{width:30px;height:30px;fill:#fff}
+@media(max-width:899px){.fab{bottom:76px}}

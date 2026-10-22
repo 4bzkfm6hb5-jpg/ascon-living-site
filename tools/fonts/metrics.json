@@ -1,0 +1,60 @@
+{
+ "Noto Sans Arabic": {
+  "family": "Site Arabic",
+  "ascent": "137.4%",
+  "descent": "73.8%",
+  "lineGap": "0.0%",
+  "locals": [
+   "Noto Sans Arabic",
+   "Noto Naskh Arabic",
+   "Tahoma",
+   "Arial"
+  ],
+  "files": {
+   "400": "site-arabic-400.woff2",
+   "700": "site-arabic-700.woff2"
+  }
+ },
+ "Noto Sans Devanagari": {
+  "family": "Site Devanagari",
+  "ascent": "89.6%",
+  "descent": "40.8%",
+  "lineGap": "0.0%",
+  "locals": [
+   "Noto Sans Devanagari",
+   "Nirmala UI",
+   "Mangal"
+  ],
+  "files": {
+   "400": "site-devanagari-400.woff2",
+   "700": "site-devanagari-700.woff2"
+  }
+ },
+ "Noto Nastaliq Urdu": {
+  "family": "Site Urdu",
+  "ascent": "190.4%",
+  "descent": "59.6%",
+  "lineGap": "0.0%",
+  "locals": [
+   "Noto Nastaliq Urdu"
+  ],
+  "files": {
+   "400": "site-urdu-400.woff2",
+   "700": "site-urdu-700.woff2"
+  }
+ },
+ "Noto Sans Gurmukhi": {
+  "family": "Site Gurmukhi",
+  "ascent": "89.6%",
+  "descent": "40.8%",
+  "lineGap": "0.0%",
+  "locals": [
+   "Noto Sans Gurmukhi",
+   "Nirmala UI"
+  ],
+  "files": {
+   "400": "site-gurmukhi-400.woff2",
+   "700": "site-gurmukhi-700.woff2"
+  }
+ }
+}

@@ -37,7 +37,7 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     for m in re.finditer(r'(?:href|src)="('+re.escape(B)+r'/(?!/)[^"#?]*)',s):
         p=m.group(1)[len(B):]; fp=D+p+('index.html' if p.endswith('/') else '')
         if not os.path.exists(fp): errs.append((f,'link',p))
-    for m in re.finditer(r'srcset="([^"]+)"',s):
+    for m in re.finditer(r'(?:srcset|imagesrcset)="([^"]+)"',s):
         for u in m.group(1).split(','):
             p=u.strip().split()[0][len(B):]
             if not os.path.exists(D+p): errs.append((f,'img',p))
@@ -109,9 +109,17 @@ for f in glob.glob(f'{D}/*/**/index.html',recursive=True):
     if not m: continue
     im=m.group(0)
     if 'loading="lazy"' in im: errs.append((f,'lcp','lazy'))
+    if not re.search(r'\bwidth="\d+"', im) or not re.search(r'\bheight="\d+"', im): errs.append((f,'lcp','dimensions'))
     g=lambda t,a: (re.search(a+r'="([^"]*)"',t) or [None,None])[1]
+    pre_i=s.rfind('<picture>', 0, m.start())
+    chunk=s[pre_i:m.end()] if pre_i!=-1 and m.start()-pre_i<2500 else im
+    avif=re.search(r'<source [^>]*type="image/avif"[^>]*>', chunk)
+    srcset=g(avif.group(0),'srcset') if avif else g(im,'srcset')
+    sizes=g(im,'sizes') or (g(avif.group(0),'sizes') if avif else None)
+    href=g(im,'src')
+    if avif and href and href.endswith('.webp'): href=href[:-5]+'.avif'
     head=s.split('</head>')[0]; pl=re.search(r'<link rel="preload" as="image"[^>]*>',head)
-    if not pl or g(pl.group(0),'imagesrcset')!=g(im,'srcset') or g(pl.group(0),'imagesizes')!=g(im,'sizes') or g(pl.group(0),'href')!=g(im,'src'): errs.append((f,'lcp','preload mismatch'))
+    if not pl or g(pl.group(0),'imagesrcset')!=srcset or g(pl.group(0),'imagesizes')!=sizes or g(pl.group(0),'href')!=href: errs.append((f,'lcp','preload mismatch'))
 # no district names in <title>, <h1> or first 60 chars of meta description
 import importlib.util as _ilu
 _sp=_ilu.spec_from_file_location('district_scan',os.path.join(os.path.dirname(os.path.abspath(__file__)),'district_scan.py'))
