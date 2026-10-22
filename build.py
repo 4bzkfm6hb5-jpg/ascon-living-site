@@ -10,7 +10,11 @@ from urllib.parse import urlparse as _up
 DOMAIN=_up(SITE).netloc  # docs/CNAME for GitHub Pages custom domain (not written for *.github.io)
 PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','families/'),('groups','groups/'),
 ('location','location/'),('booking','booking/'),('faq','faq/'),('rules','house-rules/'),('guide','guide/'),
-('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),('travel-guide','travel-guide/'),
+('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),
+# City notes below use guest-note-* slugs so they do not collide with other guide articles on the same topics.
+('guide-note-rain','guide/guest-note-rain-day/'),('guide-note-day','guide/guest-note-one-day/'),
+('guide-note-group','guide/guest-note-together/'),('guide-note-food','guide/guest-note-street-eats/'),
+('travel-guide','travel-guide/'),
 ('imprint','imprint/'),('privacy','privacy/')]
 # Room detail pages: published per language only once content/<code>.json has pages.<id> (no placeholders)
 ROOMS=[('room-entertainment','house/karaoke-entertainment/'),('room-living','house/living-room/'),('room-kitchen','house/kitchen/'),('room-master','house/master-bedroom/'),
@@ -64,6 +68,10 @@ def flag(code,lazy=True):
     return f'<img class="flag" src="{BASE}/assets/flags/{f}.svg" width="20" height="15" alt=""'+(' loading="lazy"' if lazy else '')+' decoding="async">' if f else ''
   # laundry service 30 EUR per load in every language
 def HAS(pid): return [x for x in PUB if pid in C[x[0]]['pages']]
+def xdef(pid):
+    # x-default must be a language that actually publishes the page (English when it does).
+    hs=HAS(pid)
+    return next((x[0] for x in hs if x[0]=='en'), hs[0][0])
 TODAY=datetime.date.today().isoformat()
 WA_SVG='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.7-.5z"/></svg>'
 def url(code,pid): return f'{BASE}/{code}/{SLUG[pid]}'
@@ -149,7 +157,7 @@ def seo_bad(code,p,suffix):
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
     title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
-    alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in HAS(pid))+f'<link rel="alternate" hreflang="x-default" href="{SITE}/en/{SLUG[pid]}">'
+    alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in HAS(pid))+f'<link rel="alternate" hreflang="x-default" href="{SITE}/{xdef(pid)}/{SLUG[pid]}">'
     fontlink=''; css=CSS
     if font:
         fontlink=f'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={font.replace(" ","+")}:wght@400;600&display=swap" media="print" onload="this.media=&#39;all&#39;">'
@@ -205,7 +213,7 @@ def main():
     for l in PUB:
         for pid,slug in PAGES:
             if pid not in C[l[0]]['pages']: continue
-            alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in HAS(pid))+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/en/{slug}"/>'
+            alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in HAS(pid))+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/{xdef(pid)}/{slug}"/>'
             sm.append(f'<url><loc>{SITE}/{l[0]}/{slug}</loc><lastmod>{TODAY}</lastmod>{alts}</url>')
     sm.append('</urlset>'); open(f'{OUT}/sitemap.xml','w').write('\n'.join(sm))
     if DOMAIN.endswith('.github.io'):

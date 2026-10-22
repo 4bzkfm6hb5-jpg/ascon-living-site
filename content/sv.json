@@ -2758,6 +2758,35 @@
      ]
     },
     {
+     "_guest_notes": 1,
+     "h2": "Fyra ämnen för en dag i Saigon",
+     "p": [
+      "Fyra sidor om regn, en enda dag i centrum, en utflykt med familj eller sällskap, och gatumat."
+     ],
+     "cards": [
+      [
+       "Saigon en regnig dag",
+       "guide-note-rain",
+       "Museer, täckt marknad och kaféer när det regnar."
+      ],
+      [
+       "Saigon på en dag",
+       "guide-note-day",
+       "Ett varv i centrum, utan att försöka se allt."
+      ],
+      [
+       "Saigon med familj eller sällskap",
+       "guide-note-group",
+       "Zoo, vattenmarionetter och en delad måltid."
+      ],
+      [
+       "Gatumat i Saigon",
+       "guide-note-food",
+       "Phở, bánh mì, cơm tấm och hur man väljer ett stånd."
+      ]
+     ]
+    },
+    {
      "p": [
       "Boka och få tillgång till appen: WhatsApp eller Zalo +84 909 410 382."
      ],
@@ -3197,6 +3226,173 @@
     },
     {
      "cta": true
+    }
+   ]
+  },
+  "guide-note-rain": {
+   "title": "Saigon i regn: inomhus",
+   "description": "I tropiska Ho Chi Minh är skurar vanliga från maj till november. Museer, palats, post, täckt marknad och kaféer gör att dagen kan fortsätta inomhus.",
+   "h1": "Saigon en regnig dag",
+   "lead": "Regn behöver inte ställa in en dag i Ho Chi Minh. Museer, en täckt marknad och kaféer är den vanliga planen inomhus.",
+   "sections": [
+    {
+     "h2": "Regnmånaderna",
+     "p": [
+      "Ho Chi Minh har tropiskt klimat. Kraftiga skurar är vanliga ungefär från maj till november, och torrare väder är mer typiskt från december till april. Efter ett häftigt regn kan vatten stå kvar en stund på låga ställen och sedan rinna undan. Under de blötare månaderna hör ett stopp inomhus hemma i dagen."
+     ]
+    },
+    {
+     "h2": "Platser inomhus",
+     "ul": [
+      "Krigsmuseet, konstmuseet och historiska museet.",
+      "Självständighetspalatset, med representationsrum och utställningar inomhus.",
+      "Centralposten och katedralen ligger i samma centrala område.",
+      "Ben Thanh-marknaden är en täckt marknad, med mat och småvaror.",
+      "Jadekejsarens pagod: man tar av skorna och klär sig återhållsamt, som i många pagoder.",
+      "Vattenmarionetter spelas i en sal.",
+      "Kaféer och butiker med luftkonditionering fungerar när en skur börjar."
+     ]
+    },
+    {
+     "h2": "Så kan dagen läggas",
+     "p": [
+      "Välj ett museum eller palatset. Spara den täckta marknaden eller ett kafé till den blötaste delen. Gågatan Nguyen Hue kan vänta till slutet om regnet lättar. Katedral, post och gågata ligger i samma centrala område. Öppettiderna ändras: kontrollera dem på plats."
+     ]
+    },
+    {
+     "h2": "Fler sidor på den här webbplatsen",
+     "p": [
+      "För att fylla ut en regnig dag, öppna <a href=\"{L}guide/\">reseguide till Saigon</a> och <a href=\"{L}travel-guide/\">guide till platser för den som bor där</a>. Huset presenteras på <a href=\"{L}\">startsidan</a>."
+     ]
+    },
+    {
+     "note": "Om ni vill bo i Ho Chi Minh visar sidan för bokning och kontakt hur ni bokar huset. <a class=\"btn b1\" href=\"{L}booking/\">Bokning och kontakt</a>"
+    }
+   ]
+  },
+  "guide-note-day": {
+   "title": "Saigon på en dag i centrum",
+   "description": "En dag i Saigon räcker för centrum: katedral, post, bokgata, gågata och Ben Thanh-marknaden, plus ett museum eller palatset. Kontrollera tiderna på plats.",
+   "h1": "Saigon på en dag",
+   "lead": "En dag i Ho Chi Minh räcker för centrum. En dag räcker inte för varje museum och varje kvarter.",
+   "sections": [
+    {
+     "h2": "Ett varv i centrum",
+     "p": [
+      "Katedralen, centralposten, bokgatan Nguyen Van Binh och gågatan Nguyen Hue ligger i samma centrala område, och många går till fots mellan dem. Ben Thanh-marknaden är det vanliga stoppet för en måltid eller en titt på stånden. Lägg till palatset eller ett museum, inte alla andra punkter samma dag."
+     ]
+    },
+    {
+     "h2": "Mellan platserna",
+     "ul": [
+      "I centrum ligger flera av punkterna nära nog för att gå.",
+      "Stadsbussar och metron från Ben Thanh-området täcker längre sträckor.",
+      "Taxibilar och bilar som beställs i en app är mycket vanliga. Be om taxametern, eller bekräfta resan i appen innan ni åker.",
+      "Motorcyklar är en del av trafiken. Gå över i fotgängarnas takt och stanna inte mitt i."
+     ]
+    },
+    {
+     "h2": "Spara till en annan dag",
+     "p": [
+      "Djurparken, en pagod, ett andra museum eller en plats utanför staden, som tunnlarna i Cu Chi, behöver en egen dag. Under centrumdagen räcker en gatamåltid och ett kaffe. Phở, bánh mì eller cơm tấm är lätta att hitta. Iskaffe med kondenserad mjölk är den vanligaste lokala varianten."
+     ]
+    },
+    {
+     "h2": "Fler sidor på den här webbplatsen",
+     "p": [
+      "För att lägga dagen lugnare, öppna <a href=\"{L}guide/\">reseguide till Saigon</a> och <a href=\"{L}travel-guide/\">guide till platser för den som bor där</a>. Huset presenteras på <a href=\"{L}\">startsidan</a>."
+     ]
+    },
+    {
+     "note": "Om ni vill bo i Ho Chi Minh visar sidan för bokning och kontakt hur ni bokar huset. <a class=\"btn b1\" href=\"{L}booking/\">Bokning och kontakt</a>"
+    }
+   ]
+  },
+  "guide-note-group": {
+   "title": "Saigon med familj eller sällskap",
+   "description": "Saigon med barn eller sällskap fungerar bättre med ett stopp utomhus och ett inomhus: zoo, vattenmarionetter, ett museum och en delad måltid.",
+   "h1": "Saigon med familj eller i sällskap",
+   "lead": "Ho Chi Minh passar familjer och sällskap om dagen har ett stopp utomhus och ett inomhus.",
+   "sections": [
+    {
+     "h2": "Med barn",
+     "ul": [
+      "Saigons djurpark och botaniska trädgård är en gammal stadspark, med skuggiga gångar.",
+      "Vattenmarionetter ses i en sal och går att följa utan mycket tal.",
+      "Täckta marknader är livliga. Håll barn i handen vid gatan och mellan stånden.",
+      "Mitt på dagen är det ofta varmt. Morgon och sen eftermiddag passar utomhus. Mitt på dagen passar ett museum, ett kafé eller en paus.",
+      "Drick vatten på flaska eller filtrerat vatten.",
+      "Vid pagoder och kyrkor passar återhållsamma kläder. I pagoder tar man oftast av sig skorna."
+     ]
+    },
+    {
+     "h2": "Med ett sällskap",
+     "p": [
+      "Ett sällskap kan beställa flera små rätter vid ett stånd, eller några tallrikar på ett ställe med phở eller cơm tấm. Gågatan Nguyen Hue och ytan framför operan är enkla mötesplatser på kvällen. Välj ett museum eller palatset så att sällskapet håller ihop, och lämna tid utan schema i stället för att pressa in varje punkt."
+     ]
+    },
+    {
+     "h2": "För alla",
+     "ul": [
+      "Motorcykeltrafiken är tät. Gå över tillsammans med andra, i jämn takt.",
+      "Små stånd tar oftast emot kontanter. En del visar också en QR-kod för en överföring.",
+      "Från ungefär maj till november är en lista med platser inomhus bra att ha."
+     ]
+    },
+    {
+     "h2": "Fler sidor på den här webbplatsen",
+     "p": [
+      "Med familj eller sällskap, öppna <a href=\"{L}guide/\">reseguide till Saigon</a> och <a href=\"{L}travel-guide/\">guide till platser för den som bor där</a>. Huset presenteras på <a href=\"{L}\">startsidan</a>."
+     ]
+    },
+    {
+     "note": "Om ni vill bo i Ho Chi Minh visar sidan för bokning och kontakt hur ni bokar huset. <a class=\"btn b1\" href=\"{L}booking/\">Bokning och kontakt</a>"
+    }
+   ]
+  },
+  "guide-note-food": {
+   "title": "Gatumat i Saigon",
+   "description": "Gatumat i Saigon pågår från frukost till kväll: phở, bánh mì, cơm tấm, bánh xèo och kaffe med mjölk. Välj ett stånd där de lagar maten framför er.",
+   "h1": "Gatumat i Saigon",
+   "lead": "Kök på trottoaren är ett vanligt sätt att äta i Ho Chi Minh, från frukost till sent på kvällen.",
+   "sections": [
+    {
+     "h2": "Rätter som syns ofta",
+     "ul": [
+      "Phở: soppa med risnudlar, ofta med nötkött eller kyckling.",
+      "Bánh mì: baguette med kött, pickles, örter och chili.",
+      "Cơm tấm: brutet ris med grillat revben, ägg och tillbehör.",
+      "Hủ tiếu och andra nudelsoppor på klar buljong.",
+      "Bánh xèo: knaprig salt pannkaka, med örter.",
+      "Gỏi cuốn: färska rullar med örter.",
+      "Chè: söta soppdesserter.",
+      "Cà phê sữa đá är iskaffe med kondenserad mjölk. Bạc xỉu är mjölkigare."
+     ]
+    },
+    {
+     "h2": "Vid ståndet",
+     "p": [
+      "Ståndet ställer låga pallar på trottoaren. Ett välbesökt stånd, där rätterna kommer snabbt, är det vanliga valet. Se att maten lagas framför er. Vill ni ha mindre chili, säg det när ni beställer. Vegetarisk mat markeras ofta med ordet chay."
+     ]
+    },
+    {
+     "h2": "Vana att ha med sig",
+     "ul": [
+      "Frukosten är en viktig tid för gatumat, särskilt phở och bánh mì. På kvällen kommer mer grillat och snäckor.",
+      "Ben Thanh-marknaden och många kvartersgator har sittplatser och mat att ta med.",
+      "Små stånd vill ofta ha kontanter. En del visar en QR-kod för en överföring.",
+      "Välj mat som lagas framför er och serveras varm. Drick vatten på flaska eller filtrerat vatten.",
+      "Ni behöver inte jaga ett känt namn. Ett vanligt, fullt stånd är stadens mönster."
+     ]
+    },
+    {
+     "h2": "Fler sidor på den här webbplatsen",
+     "p": [
+      "För fler ställen att äta och gå, öppna <a href=\"{L}guide/\">reseguide till Saigon</a> och <a href=\"{L}travel-guide/\">guide till platser för den som bor där</a>. Huset presenteras på <a href=\"{L}\">startsidan</a>."
+     ]
+    },
+    {
+     "note": "Om ni vill bo i Ho Chi Minh visar sidan för bokning och kontakt hur ni bokar huset. <a class=\"btn b1\" href=\"{L}booking/\">Bokning och kontakt</a>"
     }
    ]
   }

@@ -2721,6 +2721,35 @@
      ]
     },
     {
+     "_guest_notes": 1,
+     "h2": "Quatro temas para um dia em Saigon",
+     "p": [
+      "Quatro páginas sobre a chuva, um único dia no centro, uma saída em família ou em grupo, e a comida de rua."
+     ],
+     "cards": [
+      [
+       "Saigon em dia de chuva",
+       "guide-note-rain",
+       "Museus, mercado coberto e cafés quando chove."
+      ],
+      [
+       "Saigon em um dia",
+       "guide-note-day",
+       "Uma volta pelo centro, sem tentar ver tudo."
+      ],
+      [
+       "Saigon em família ou em grupo",
+       "guide-note-group",
+       "Zoológico, marionetes de água e uma refeição compartilhada."
+      ],
+      [
+       "Comida de rua em Saigon",
+       "guide-note-food",
+       "Phở, bánh mì, cơm tấm e como escolher uma banca."
+      ]
+     ]
+    },
+    {
      "p": [
       "Reserve e acesse o aplicativo: WhatsApp ou Zalo +84 909 410 382."
      ],
@@ -3188,6 +3217,173 @@
     },
     {
      "cta": true
+    }
+   ]
+  },
+  "guide-note-rain": {
+   "title": "Saigon na chuva: planos cobertos",
+   "description": "Em Ho Chi Minh, os aguaceiros são comuns de maio a novembro. Museus, palácio, correios, mercado coberto e cafés permitem seguir o dia em local coberto.",
+   "h1": "Saigon em um dia de chuva",
+   "lead": "A chuva não precisa cancelar um dia em Ho Chi Minh. Museus, um mercado coberto e cafés são o plano habitual em local abrigado.",
+   "sections": [
+    {
+     "h2": "Os meses de chuva",
+     "p": [
+      "Ho Chi Minh tem clima tropical. Aguaceiros fortes são comuns de maio a novembro, e o tempo mais seco é mais típico de dezembro a abril. Depois de uma chuva forte, pontos baixos podem reter água por um momento e depois escoar. Nos meses úmidos, vale ter uma parada coberta no dia."
+     ]
+    },
+    {
+     "h2": "Lugares cobertos",
+     "ul": [
+      "Museu dos Vestígios de Guerra, Museu de Belas Artes e Museu de História.",
+      "Palácio da Independência, com salas de recepção e exposições internas.",
+      "Os correios centrais e a catedral ficam na mesma área central.",
+      "O mercado Ben Thanh é um mercado coberto, com comida e pequenos artigos.",
+      "Pagode do Imperador de Jade: tira-se o calçado e veste-se com discrição, como em muitos pagodes.",
+      "Os espetáculos de marionetes de água acontecem em uma sala.",
+      "Cafés e lojas com ar-condicionado servem quando um aguaceiro começa."
+     ]
+    },
+    {
+     "h2": "Como organizar o dia",
+     "p": [
+      "Escolha um museu ou o palácio. Deixe o mercado coberto ou um café para a hora de chuva mais intensa. A rua de pedestres Nguyen Hue pode ficar para o fim se a chuva diminuir. A catedral, os correios e a rua de pedestres ficam na mesma área central. Os horários mudam: confirme no local."
+     ]
+    },
+    {
+     "h2": "Mais páginas neste site",
+     "p": [
+      "Para completar um dia de chuva, abra o <a href=\"{L}guide/\">guia de viagem de Saigon</a> e o <a href=\"{L}travel-guide/\">guia de lugares para quem se hospeda</a>. A casa é apresentada na <a href=\"{L}\">página inicial</a>."
+     ]
+    },
+    {
+     "note": "Se você quiser se hospedar em Ho Chi Minh, a página de reserva e contato mostra como reservar a casa. <a class=\"btn b1\" href=\"{L}booking/\">Reserva e contato</a>"
+    }
+   ]
+  },
+  "guide-note-day": {
+   "title": "Saigon em um dia no centro",
+   "description": "Um dia em Saigon cobre bem o centro: catedral, correios, rua dos livros, rua de pedestres e o mercado Ben Thanh, mais um museu ou o palácio.",
+   "h1": "Saigon em um dia",
+   "lead": "Um dia em Ho Chi Minh dá para o centro. Um dia não dá para cada museu e cada bairro.",
+   "sections": [
+    {
+     "h2": "Uma volta pelo centro",
+     "p": [
+      "A catedral, os correios centrais, a rua dos livros Nguyen Van Binh e a rua de pedestres Nguyen Hue ficam na mesma área central, e muita gente caminha de um ponto a outro. O mercado Ben Thanh é a parada habitual para comer ou ver as bancas. Acrescente o palácio ou um museu, não todos os outros pontos no mesmo dia."
+     ]
+    },
+    {
+     "h2": "Ir de um lugar a outro",
+     "ul": [
+      "No centro, vários desses pontos ficam perto o bastante para ir a pé.",
+      "Ônibus urbanos e o metrô que sai da área de Ben Thanh cobrem trechos mais longos.",
+      "Táxis e carros pedidos em um aplicativo são muito usados. Peça o taxímetro, ou confirme a corrida no aplicativo antes de sair.",
+      "As motos fazem parte do trânsito. Atravesse no ritmo dos pedestres e não pare no meio."
+     ]
+    },
+    {
+     "h2": "O que deixar para outro dia",
+     "p": [
+      "O zoológico, um pagode, um segundo museu ou um lugar fora da cidade, como os túneis de Cu Chi, pedem um dia próprio. No dia de centro, bastam uma refeição de rua e um café. Phở, bánh mì ou cơm tấm aparecem com facilidade. O café gelado com leite condensado é a versão local mais comum."
+     ]
+    },
+    {
+     "h2": "Mais páginas neste site",
+     "p": [
+      "Para montar o dia com mais calma, abra o <a href=\"{L}guide/\">guia de viagem de Saigon</a> e o <a href=\"{L}travel-guide/\">guia de lugares para quem se hospeda</a>. A casa é apresentada na <a href=\"{L}\">página inicial</a>."
+     ]
+    },
+    {
+     "note": "Se você quiser se hospedar em Ho Chi Minh, a página de reserva e contato mostra como reservar a casa. <a class=\"btn b1\" href=\"{L}booking/\">Reserva e contato</a>"
+    }
+   ]
+  },
+  "guide-note-group": {
+   "title": "Saigon com a família ou em grupo",
+   "description": "Saigon com crianças ou em grupo funciona melhor com um passeio ao ar livre e outro coberto: zoológico, marionetes, um museu e uma refeição compartilhada.",
+   "h1": "Saigon em família ou em grupo",
+   "lead": "Ho Chi Minh combina com famílias e com grupos quando o dia mistura um ponto ao ar livre e outro coberto.",
+   "sections": [
+    {
+     "h2": "Com crianças",
+     "ul": [
+      "O zoológico e jardim botânico de Saigon é um parque antigo da cidade, com caminhos à sombra.",
+      "As marionetes de água são vistas em uma sala e acompanhadas sem muito diálogo.",
+      "Mercados cobertos são movimentados. Segure a mão das crianças perto da rua e entre as bancas.",
+      "O meio do dia costuma ser quente. Manhã e fim de tarde servem para o ar livre. O meio do dia serve para um museu, um café ou um descanso.",
+      "Beba água engarrafada ou filtrada.",
+      "Em pagodes e igrejas, roupa discreta é o esperado. Nos pagodes, em geral se tira o calçado."
+     ]
+    },
+    {
+     "h2": "Com um grupo",
+     "p": [
+      "Um grupo pode pedir vários pratos pequenos em uma banca, ou algumas porções em uma casa de phở ou cơm tấm. A rua de pedestres Nguyen Hue e o espaço em frente à ópera são pontos de encontro fáceis à noite. Escolham um museu ou o palácio para permanecer juntos, e deixem um tempo sem roteiro em vez de encaixar cada monumento."
+     ]
+    },
+    {
+     "h2": "Notas para todos",
+     "ul": [
+      "O trânsito de motos é denso. Atravesse com outras pessoas, em ritmo constante.",
+      "Bancas pequenas em geral aceitam dinheiro. Algumas também mostram um código QR para uma transferência.",
+      "De maio a novembro, tenha à mão uma lista de lugares cobertos."
+     ]
+    },
+    {
+     "h2": "Mais páginas neste site",
+     "p": [
+      "Em família ou em grupo, abra o <a href=\"{L}guide/\">guia de viagem de Saigon</a> e o <a href=\"{L}travel-guide/\">guia de lugares para quem se hospeda</a>. A casa é apresentada na <a href=\"{L}\">página inicial</a>."
+     ]
+    },
+    {
+     "note": "Se você quiser se hospedar em Ho Chi Minh, a página de reserva e contato mostra como reservar a casa. <a class=\"btn b1\" href=\"{L}booking/\">Reserva e contato</a>"
+    }
+   ]
+  },
+  "guide-note-food": {
+   "title": "Comida de rua em Saigon",
+   "description": "A comida de rua em Saigon vai do café da manhã à noite: phở, bánh mì, cơm tấm, bánh xèo e café com leite. Escolha uma banca onde cozinhem na sua frente.",
+   "h1": "Comida de rua em Saigon",
+   "lead": "Cozinhar na calçada é um jeito comum de comer em Ho Chi Minh, do café da manhã até tarde da noite.",
+   "sections": [
+    {
+     "h2": "Pratos que aparecem com frequência",
+     "ul": [
+      "Phở: sopa de macarrão de arroz, em geral com carne bovina ou frango.",
+      "Bánh mì: baguete com carne, picles, ervas e pimenta.",
+      "Cơm tấm: arroz quebrado com costela grelhada, ovo e acompanhamentos.",
+      "Hủ tiếu e outras sopas de macarrão em caldo claro.",
+      "Bánh xèo: panqueca salgada e crocante, com ervas.",
+      "Gỏi cuốn: rolinhos frescos com ervas.",
+      "Chè: sobremesas em forma de caldo doce.",
+      "O cà phê sữa đá é café gelado com leite condensado. O bạc xỉu leva menos café e mais leite."
+     ]
+    },
+    {
+     "h2": "Na banca",
+     "p": [
+      "A banca põe bancos baixos na calçada. Uma banca movimentada, com pratos que saem rápido, é a escolha habitual. Veja a comida ser feita na sua frente. Se quiser menos pimenta, diga ao pedir. Comida vegetariana costuma ser marcada com a palavra chay."
+     ]
+    },
+    {
+     "h2": "Hábitos úteis",
+     "ul": [
+      "O café da manhã é um horário forte de comida de rua, sobretudo phở e bánh mì. À noite há mais grelhados e caracóis.",
+      "O mercado Ben Thanh e muitas ruas de bairro têm lugares para sentar e comida para levar.",
+      "Bancas pequenas em geral preferem dinheiro. Algumas mostram um código QR para uma transferência.",
+      "Escolha comida feita na sua frente e servida quente. Beba água engarrafada ou filtrada.",
+      "Não é preciso correr atrás de um nome famoso. Uma banca comum e cheia é o padrão da cidade."
+     ]
+    },
+    {
+     "h2": "Mais páginas neste site",
+     "p": [
+      "Para mais lugares onde comer e caminhar, abra o <a href=\"{L}guide/\">guia de viagem de Saigon</a> e o <a href=\"{L}travel-guide/\">guia de lugares para quem se hospeda</a>. A casa é apresentada na <a href=\"{L}\">página inicial</a>."
+     ]
+    },
+    {
+     "note": "Se você quiser se hospedar em Ho Chi Minh, a página de reserva e contato mostra como reservar a casa. <a class=\"btn b1\" href=\"{L}booking/\">Reserva e contato</a>"
     }
    ]
   }

@@ -2576,6 +2576,35 @@
      ]
     },
     {
+     "_guest_notes": 1,
+     "h2": "Bốn chủ đề cho ngày ở Sài Gòn",
+     "p": [
+      "Bốn bài dưới đây nói về ngày mưa, một ngày trong trung tâm, đi cùng gia đình hoặc nhóm, và đồ ăn vỉa hè."
+     ],
+     "cards": [
+      [
+       "Sài Gòn ngày mưa",
+       "guide-note-rain",
+       "Bảo tàng, chợ có mái và quán cà phê khi trời mưa."
+      ],
+      [
+       "Sài Gòn trong một ngày",
+       "guide-note-day",
+       "Một vòng trung tâm, không cố xem hết mọi nơi."
+      ],
+      [
+       "Sài Gòn cùng gia đình hoặc nhóm",
+       "guide-note-group",
+       "Thảo Cầm Viên, múa rối nước và bữa ăn dùng chung."
+      ],
+      [
+       "Đồ ăn đường phố Sài Gòn",
+       "guide-note-food",
+       "Phở, bánh mì, cơm tấm và cách chọn quán vỉa hè."
+      ]
+     ]
+    },
+    {
      "p": [
       "Đặt phòng và nhận quyền truy cập ứng dụng: WhatsApp hoặc Zalo +84 909 410 382."
      ],
@@ -3157,6 +3186,173 @@
      "p": [
       "<a class=\"btn b1\" href=\"{guide}\" rel=\"noopener\">Mở ứng dụng ASCON Guide</a>"
      ]
+    }
+   ]
+  },
+  "guide-note-rain": {
+   "title": "Sài Gòn ngày mưa: ở trong nhà",
+   "description": "Sài Gòn các tháng mưa, thường từ tháng 5 đến tháng 11, vẫn đi chơi được. Bảo tàng, Dinh Độc Lập, bưu điện, chợ có mái và quán cà phê là chỗ trú mưa.",
+   "h1": "Sài Gòn ngày mưa, chơi trong nhà",
+   "lead": "Mưa không có nghĩa là hủy cả ngày ở Thành phố Hồ Chí Minh. Bảo tàng, chợ có mái và quán cà phê là cách làm thường gặp.",
+   "sections": [
+    {
+     "h2": "Những tháng hay mưa",
+     "p": [
+      "Thành phố Hồ Chí Minh thuộc khí hậu nhiệt đới. Mưa lớn thường gặp khoảng từ tháng 5 đến tháng 11. Từ khoảng tháng 12 đến tháng 4, trời khô hơn. Sau mưa lớn, chỗ trũng có thể đọng nước một lúc rồi thoát. Trong các tháng ẩm, nên có một điểm trong nhà trong kế hoạch."
+     ]
+    },
+    {
+     "h2": "Chỗ ở trong nhà hoặc có mái",
+     "ul": [
+      "Bảo tàng Chứng tích Chiến tranh, Bảo tàng Mỹ thuật và Bảo tàng Lịch sử.",
+      "Dinh Độc Lập, với các phòng tiếp khách và phần trưng bày trong nhà.",
+      "Bưu điện thành phố và Nhà thờ Đức Bà nằm cùng một khu trung tâm.",
+      "Chợ Bến Thành là chợ có mái, có đồ ăn và hàng nhỏ.",
+      "Chùa Ngọc Hoàng: cởi giày và ăn mặc gọn gàng, như ở nhiều chùa khác.",
+      "Múa rối nước được diễn trong nhà.",
+      "Quán cà phê và cửa hàng có máy lạnh dùng được khi cơn mưa bắt đầu."
+     ]
+    },
+    {
+     "h2": "Cách xếp một ngày",
+     "p": [
+      "Chọn một bảo tàng hoặc Dinh Độc Lập. Dành chợ có mái hoặc một quán cà phê cho lúc mưa nặng. Phố đi bộ Nguyễn Huệ để cuối ngày nếu mưa dịu. Nhà thờ, bưu điện và phố đi bộ nằm cùng khu trung tâm. Giờ mở cửa hay đổi, nên hỏi tại chỗ trước khi đi."
+     ]
+    },
+    {
+     "h2": "Đọc thêm trên cùng website",
+     "p": [
+      "Để nối một ngày mưa với phần còn lại của chuyến đi, xem <a href=\"{L}guide/\">cẩm nang Sài Gòn</a>, <a href=\"{L}travel-guide/\">gợi ý địa điểm cho khách ở</a> và <a href=\"{L}guide/hcmc-with-family/\">bài đi cùng gia đình</a>. Ngôi nhà được giới thiệu trên <a href=\"{L}\">trang chủ</a>."
+     ]
+    },
+    {
+     "note": "Nếu bạn muốn ở lại Thành phố Hồ Chí Minh, trang đặt phòng và liên hệ cho biết cách đặt nhà. <a class=\"btn b1\" href=\"{L}booking/\">Đặt phòng và liên hệ</a>"
+    }
+   ]
+  },
+  "guide-note-day": {
+   "title": "Sài Gòn trong một ngày ở trung tâm",
+   "description": "Một ngày ở Sài Gòn đủ cho khu trung tâm: Nhà thờ Đức Bà, bưu điện, phố đi bộ Nguyễn Huệ và Chợ Bến Thành, thêm một bảo tàng hoặc Dinh Độc Lập.",
+   "h1": "Sài Gòn trong một ngày",
+   "lead": "Một ngày ở Thành phố Hồ Chí Minh xem được khu trung tâm. Một ngày không xem hết mọi bảo tàng và mọi khu phố.",
+   "sections": [
+    {
+     "h2": "Một vòng trung tâm",
+     "p": [
+      "Nhà thờ Đức Bà, bưu điện thành phố, Đường Sách Nguyễn Văn Bình và phố đi bộ Nguyễn Huệ nằm cùng khu trung tâm, nên nhiều người đi bộ giữa các điểm này. Chợ Bến Thành là chỗ quen để ăn hoặc xem hàng. Nên thêm Dinh Độc Lập hoặc một bảo tàng, không cộng thêm mọi địa danh khác trong cùng ngày."
+     ]
+    },
+    {
+     "h2": "Đi giữa các điểm",
+     "ul": [
+      "Trong khu trung tâm, nhiều điểm nằm gần nhau nên có thể đi bộ.",
+      "Xe buýt và tuyến metro đi từ khu Chợ Bến Thành dùng cho quãng dài hơn.",
+      "Taxi và xe gọi qua ứng dụng rất phổ biến. Nhờ tài xế bật đồng hồ, hoặc xác nhận chuyến trong ứng dụng trước khi đi.",
+      "Xe máy là một phần của giao thông. Sang đường theo nhịp người đi bộ, không dừng giữa dòng xe."
+     ]
+    },
+    {
+     "h2": "Nên để ngày khác",
+     "p": [
+      "Thảo Cầm Viên, một ngôi chùa, bảo tàng thứ hai, hoặc điểm ngoài thành phố như địa đạo Củ Chi, cần một ngày riêng. Trong ngày ở trung tâm, một bữa ăn đường phố và một ly cà phê là đủ. Phở, bánh mì hoặc cơm tấm đều dễ gặp. Cà phê sữa đá là kiểu uống quen."
+     ]
+    },
+    {
+     "h2": "Đọc thêm trên cùng website",
+     "p": [
+      "Để ghép một ngày ở trung tâm với các ý khác, xem <a href=\"{L}guide/\">cẩm nang Sài Gòn</a>, <a href=\"{L}travel-guide/\">gợi ý địa điểm cho khách ở</a> và <a href=\"{L}guide/hcmc-with-family/\">bài đi cùng gia đình</a>. Ngôi nhà được giới thiệu trên <a href=\"{L}\">trang chủ</a>."
+     ]
+    },
+    {
+     "note": "Nếu bạn muốn ở lại Thành phố Hồ Chí Minh, trang đặt phòng và liên hệ cho biết cách đặt nhà. <a class=\"btn b1\" href=\"{L}booking/\">Đặt phòng và liên hệ</a>"
+    }
+   ]
+  },
+  "guide-note-group": {
+   "title": "Sài Gòn cùng gia đình hoặc nhóm",
+   "description": "Đi Sài Gòn cùng gia đình hoặc nhóm nên có một chỗ ngoài trời và một chỗ trong nhà: Thảo Cầm Viên, múa rối nước, một bảo tàng và một bữa ăn chung.",
+   "h1": "Sài Gòn với gia đình hoặc nhóm",
+   "lead": "Thành phố Hồ Chí Minh hợp với gia đình và với nhóm nếu ngày được chia giữa một điểm ngoài trời và một điểm trong nhà.",
+   "sections": [
+    {
+     "h2": "Khi đi với trẻ em",
+     "ul": [
+      "Thảo Cầm Viên là vườn thú và thảo cầm viên lâu đời của thành phố, có lối đi có bóng cây.",
+      "Múa rối nước diễn trong nhà, dễ xem mà không cần nhiều lời thoại.",
+      "Chợ có mái rất đông. Nắm tay trẻ em gần đường và giữa các dãy hàng.",
+      "Giữa trưa thường nóng. Buổi sáng và cuối chiều hợp với ngoài trời. Giữa ngày hợp với bảo tàng, quán cà phê hoặc nghỉ.",
+      "Nên uống nước đóng chai hoặc nước đã lọc.",
+      "Ở chùa và nhà thờ, ăn mặc gọn gàng. Ở chùa thường cởi giày."
+     ]
+    },
+    {
+     "h2": "Khi đi một nhóm",
+     "p": [
+      "Nhóm có thể gọi vài món nhỏ ở quán vỉa hè, hoặc vài đĩa ở quán phở hay cơm tấm. Phố đi bộ Nguyễn Huệ và khoảng trống trước Nhà hát Thành phố là chỗ hẹn buổi tối dễ tìm. Chọn một bảo tàng hoặc Dinh Độc Lập để cả nhóm ở cùng nhau, và chừa thời gian không xếp lịch thay vì nhồi mọi địa danh."
+     ]
+    },
+    {
+     "h2": "Ghi chú chung",
+     "ul": [
+      "Giao thông xe máy dày đặc. Sang đường cùng người khác, với nhịp đều.",
+      "Quầy nhỏ thường nhận tiền mặt. Một số chỗ cũng có mã QR để chuyển khoản.",
+      "Khoảng từ tháng 5 đến tháng 11, nên giữ sẵn một danh sách điểm trong nhà."
+     ]
+    },
+    {
+     "h2": "Đọc thêm trên cùng website",
+     "p": [
+      "Khi đi cùng gia đình hoặc một nhóm, xem <a href=\"{L}guide/\">cẩm nang Sài Gòn</a>, <a href=\"{L}travel-guide/\">gợi ý địa điểm cho khách ở</a> và <a href=\"{L}guide/hcmc-with-family/\">bài đi cùng gia đình</a>. Ngôi nhà được giới thiệu trên <a href=\"{L}\">trang chủ</a>."
+     ]
+    },
+    {
+     "note": "Nếu bạn muốn ở lại Thành phố Hồ Chí Minh, trang đặt phòng và liên hệ cho biết cách đặt nhà. <a class=\"btn b1\" href=\"{L}booking/\">Đặt phòng và liên hệ</a>"
+    }
+   ]
+  },
+  "guide-note-food": {
+   "title": "Đồ ăn đường phố ở Sài Gòn",
+   "description": "Đồ ăn đường phố Sài Gòn có từ sáng đến tối: phở, bánh mì, cơm tấm, hủ tiếu, bánh xèo và cà phê sữa đá. Nên chọn quán thấy người ta nấu trước mặt.",
+   "h1": "Đồ ăn đường phố ở Sài Gòn",
+   "lead": "Bếp trên vỉa hè là cách ăn bình thường ở Thành phố Hồ Chí Minh, từ bữa sáng đến khuya.",
+   "sections": [
+    {
+     "h2": "Món hay gặp",
+     "ul": [
+      "Phở: soup bánh phở, thường với bò hoặc gà.",
+      "Bánh mì: ổ bánh với thịt, đồ chua, rau thơm và ớt.",
+      "Cơm tấm: cơm tấm với sườn nướng, bì, chả và trứng.",
+      "Hủ tiếu và các soup sợi trong khác.",
+      "Bánh xèo: bánh giòn, ăn kèm rau.",
+      "Gỏi cuốn: cuốn tươi với rau thơm.",
+      "Chè: các món ngọt.",
+      "Cà phê sữa đá là kiểu uống quen. Bạc xỉu nhạt cà phê hơn và nhiều sữa hơn."
+     ]
+    },
+    {
+     "h2": "Ở quán vỉa hè",
+     "p": [
+      "Quán đặt ghế thấp trên vỉa hè. Quán đông, món ra nhanh, là lựa chọn quen. Nên chọn chỗ nấu trước mặt bạn. Nếu muốn ít ớt, nói lúc gọi. Món chay thường được ghi chữ chay."
+     ]
+    },
+    {
+     "h2": "Thói quen hữu ích",
+     "ul": [
+      "Bữa sáng là giờ ăn đường phố lớn, nhất là phở và bánh mì. Buổi tối có thêm đồ nướng và ốc.",
+      "Chợ Bến Thành và nhiều tuyến phố trong khu dân cư đều có quán ngồi và quán mang đi.",
+      "Quầy nhỏ thường nhận tiền mặt. Một số chỗ có mã QR để chuyển khoản.",
+      "Chọn món được nấu trước mặt và ăn nóng. Uống nước đóng chai hoặc nước đã lọc.",
+      "Không cần tìm một cái tên nổi tiếng. Quán bình thường mà đông khách là kiểu ăn của thành phố."
+     ]
+    },
+    {
+     "h2": "Đọc thêm trên cùng website",
+     "p": [
+      "Nếu muốn thêm chỗ ăn và chỗ đi, xem <a href=\"{L}guide/\">cẩm nang Sài Gòn</a>, <a href=\"{L}travel-guide/\">gợi ý địa điểm cho khách ở</a> và <a href=\"{L}guide/hcmc-with-family/\">bài đi cùng gia đình</a>. Ngôi nhà được giới thiệu trên <a href=\"{L}\">trang chủ</a>."
+     ]
+    },
+    {
+     "note": "Nếu bạn muốn ở lại Thành phố Hồ Chí Minh, trang đặt phòng và liên hệ cho biết cách đặt nhà. <a class=\"btn b1\" href=\"{L}booking/\">Đặt phòng và liên hệ</a>"
     }
    ]
   }

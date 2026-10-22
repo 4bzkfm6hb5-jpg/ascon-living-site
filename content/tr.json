@@ -2799,6 +2799,35 @@
      ]
     },
     {
+     "_guest_notes": 1,
+     "h2": "Saygon’da bir gün için dört konu",
+     "p": [
+      "Yağmur, merkezde tek gün, aile veya grup çıkışı ve sokak yemeği üzerine dört sayfa."
+     ],
+     "cards": [
+      [
+       "Yağmurlu günde Saygon",
+       "guide-note-rain",
+       "Yağmurda müze, kapalı pazar ve kafeler."
+      ],
+      [
+       "Saygon’u bir günde",
+       "guide-note-day",
+       "Merkezde bir tur, her yeri görmeye çalışmadan."
+      ],
+      [
+       "Saygon aile veya grupla",
+       "guide-note-group",
+       "Hayvanat bahçesi, su kuklası ve ortak sofra."
+      ],
+      [
+       "Saygon sokak lezzetleri",
+       "guide-note-food",
+       "Phở, bánh mì, cơm tấm ve tezgâh seçimi."
+      ]
+     ]
+    },
+    {
      "p": [
       "Rezervasyonla uygulamaya erişin: WhatsApp/Zalo +84 909 410 382."
      ],
@@ -3282,6 +3311,173 @@
     },
     {
      "cta": true
+    }
+   ]
+  },
+  "guide-note-rain": {
+   "title": "Yağmurlu günde Saygon: kapalı plan",
+   "description": "Ho Chi Minh’de sağanaklar mayıstan kasıma kadar sık görülür. Müze, saray, postane, kapalı pazar ve kafeler günü kuru yerde sürdürmeyi sağlar.",
+   "h1": "Yağmurlu bir günde Saygon",
+   "lead": "Yağmur, Ho Chi Minh’de bir günü iptal etmek zorunda değildir. Müze, kapalı pazar ve kafeler alışılmış kapalı plandır.",
+   "sections": [
+    {
+     "h2": "Yağmur ayları",
+     "p": [
+      "Ho Chi Minh tropikal iklimdedir. Şiddetli sağanaklar yaklaşık mayıstan kasıma kadar yaygındır; daha kuru hava aralıktan nisana daha tipiktir. Sert bir yağmurdan sonra alçak yerlerde su bir süre durup sonra çekilebilir. Nemli aylarda günün içinde kapalı bir durak bulundurmak yerinde olur."
+     ]
+    },
+    {
+     "h2": "Kapalı yerler",
+     "ul": [
+      "Savaş Kalıntıları Müzesi, Güzel Sanatlar Müzesi ve Tarih Müzesi.",
+      "Bağımsızlık Sarayı: kabul salonları ve iç mekân sergileri.",
+      "Merkez postane ile katedral aynı merkez bölgededir.",
+      "Ben Thanh Pazarı kapalı bir pazardır; yemek ve küçük eşya vardır.",
+      "Yeşim İmparator Tapınağı: birçok tapınakta olduğu gibi ayakkabı çıkarılır, sade giyinilir.",
+      "Su kuklası gösterileri bir salonda oynanır.",
+      "Sağanak başlayınca kafeler ve klimalı dükkânlar işe yarar."
+     ]
+    },
+    {
+     "h2": "Günü dizmek",
+     "p": [
+      "Bir müze ya da sarayı seçin. Kapalı pazarı veya bir kafeyi en yoğun yağmura ayırın. Yağmur dinerse Nguyen Hue yürüyüş sokağı günün sonuna kalabilir. Katedral, postane ve yürüyüş sokağı aynı merkez bölgededir. Açılış saatleri değişir: yerinde kontrol edin."
+     ]
+    },
+    {
+     "h2": "Bu sitedeki diğer sayfalar",
+     "p": [
+      "Yağmurlu günü tamamlamak için <a href=\"{L}guide/\">Saygon gezi rehberi</a> ile <a href=\"{L}travel-guide/\">konaklayanlar için yer rehberi</a>. Ev, <a href=\"{L}\">ana sayfada</a> tanıtılır."
+     ]
+    },
+    {
+     "note": "Ho Chi Minh’de kalmak isterseniz, rezervasyon ve iletişim sayfası evin nasıl rezerve edileceğini anlatır. <a class=\"btn b1\" href=\"{L}booking/\">Rezervasyon ve iletişim</a>"
+    }
+   ]
+  },
+  "guide-note-day": {
+   "title": "Saygon’da bir gün: merkez",
+   "description": "Saygon’da bir gün merkeze yeter: katedral, postane, kitap sokağı, yürüyüş sokağı ve Ben Thanh Pazarı, artı bir müze ya da saray. Saati yerinde sorun.",
+   "h1": "Saygon’da bir gün",
+   "lead": "Ho Chi Minh’de bir gün merkeze yeter. Bir gün her müzeye ve her mahalleye yetmez.",
+   "sections": [
+    {
+     "h2": "Merkez turu",
+     "p": [
+      "Katedral, merkez postane, Nguyen Van Binh kitap sokağı ve Nguyen Hue yürüyüş sokağı aynı merkez bölgededir; birçok kişi aralarında yürür. Ben Thanh Pazarı yemek ya da tezgâh bakmak için alışılmış duraktır. Aynı güne sarayı ya da bir müzeyi ekleyin, kalan her noktayı değil."
+     ]
+    },
+    {
+     "h2": "Noktalar arasında",
+     "ul": [
+      "Merkezde bu durakların bir kısmı yürünecek kadar yakındır.",
+      "Şehir otobüsleri ve Ben Thanh çevresinden kalkan metro daha uzun aralıkları kapsar.",
+      "Taksi ve uygulamadan çağrılan arabalar çok kullanılır. Şoförden taksimetreyi açmasını isteyin ya da yola çıkmadan önce uygulamada yolculuğu onaylayın.",
+      "Motosikletler trafiğin parçasıdır. Yayaların temposunda geçin, akışın ortasında durmayın."
+     ]
+    },
+    {
+     "h2": "Başka güne bırakın",
+     "p": [
+      "Hayvanat bahçesi, bir tapınak, ikinci müze ya da Cu Chi tünelleri gibi kent dışındaki bir yer ayrı gün ister. Merkez gününde bir sokak yemeği ve bir kahve yeter. Phở, bánh mì ya da cơm tấm kolay bulunur. Kondanse sütlü buzlu kahve en yaygın yerel biçimdir."
+     ]
+    },
+    {
+     "h2": "Bu sitedeki diğer sayfalar",
+     "p": [
+      "Günü daha sakin kurmak için <a href=\"{L}guide/\">Saygon gezi rehberi</a> ile <a href=\"{L}travel-guide/\">konaklayanlar için yer rehberi</a>. Ev, <a href=\"{L}\">ana sayfada</a> tanıtılır."
+     ]
+    },
+    {
+     "note": "Ho Chi Minh’de kalmak isterseniz, rezervasyon ve iletişim sayfası evin nasıl rezerve edileceğini anlatır. <a class=\"btn b1\" href=\"{L}booking/\">Rezervasyon ve iletişim</a>"
+    }
+   ]
+  },
+  "guide-note-group": {
+   "title": "Saygon aile veya grupla",
+   "description": "Çocuklarla ya da grupla Saygon, günde bir açık hava ve bir kapalı durakla daha rahattır: hayvanat bahçesi, su kuklası, bir müze ve ortak sofra.",
+   "h1": "Saygon’da aile veya grup",
+   "lead": "Ho Chi Minh, gün bir açık hava durağı ve bir kapalı durak içerirse ailelere ve gruplara uyar.",
+   "sections": [
+    {
+     "h2": "Çocuklarla",
+     "ul": [
+      "Saygon hayvanat bahçesi ve botanik bahçesi, gölgeli yolları olan eski bir kent parkıdır.",
+      "Su kuklaları bir salonda izlenir, çok konuşma olmadan da takip edilir.",
+      "Kapalı pazarlar kalabalıktır. Yol kenarında ve tezgâhlar arasında çocukların elini tutun.",
+      "Günün ortası genellikle sıcaktır. Sabah ve geç öğleden sonra dışarıya uyar. Öğle, müze, kafe ya da dinlenme için uygundur.",
+      "Şişe suyu ya da süzülmüş su için.",
+      "Tapınak ve kiliselerde sade giyim beklenir. Tapınaklarda genellikle ayakkabı çıkarılır."
+     ]
+    },
+    {
+     "h2": "Bir grupla",
+     "p": [
+      "Grup, bir tezgahta birkaç küçük tabak ya da bir phở veya cơm tấm yerinde birkaç porsiyon isteyebilir. Nguyen Hue yürüyüş sokağı ve opera önündeki alan akşam için kolay buluşma noktalarıdır. Birlikte kalmak için bir müze ya da saray seçin; her noktayı aynı güne sıkıştırmak yerine programsız bir süre bırakın."
+     ]
+    },
+    {
+     "h2": "Herkes için notlar",
+     "ul": [
+      "Motosiklet trafiği yoğundur. Başkalarıyla birlikte, dengeli bir tempoda geçin.",
+      "Küçük tezgâhlar genellikle nakit alır. Bazılarında havale için bir QR kodu da vardır.",
+      "Mayıstan kasıma kadar kapalı yerlerin bir listesini el altında tutun."
+     ]
+    },
+    {
+     "h2": "Bu sitedeki diğer sayfalar",
+     "p": [
+      "Aile veya grupla gidecekseniz <a href=\"{L}guide/\">Saygon gezi rehberi</a> ile <a href=\"{L}travel-guide/\">konaklayanlar için yer rehberi</a>. Ev, <a href=\"{L}\">ana sayfada</a> tanıtılır."
+     ]
+    },
+    {
+     "note": "Ho Chi Minh’de kalmak isterseniz, rezervasyon ve iletişim sayfası evin nasıl rezerve edileceğini anlatır. <a class=\"btn b1\" href=\"{L}booking/\">Rezervasyon ve iletişim</a>"
+    }
+   ]
+  },
+  "guide-note-food": {
+   "title": "Saygon sokak lezzetleri",
+   "description": "Saygon sokak yemeği kahvaltıdan akşama sürer: phở, bánh mì, cơm tấm, bánh xèo ve sütlü kahve. Yemeğin önünüzde piştiği kalabalık bir tezgâh seçin.",
+   "h1": "Saygon’da sokak yemeği",
+   "lead": "Kaldırımda pişirmek, Ho Chi Minh’de kahvaltıdan geceye kadar olağan bir yeme biçimidir.",
+   "sections": [
+    {
+     "h2": "Sık görülen yemekler",
+     "ul": [
+      "Phở: pirinç eriştesi çorbası, çoğu zaman dana ya da tavukla.",
+      "Bánh mì: et, turşu, ot ve acı biberli baget.",
+      "Cơm tấm: ızgara pirzola, yumurta ve yanlarla kırık pirinç.",
+      "Hủ tiếu ve berrak sulu diğer erişte çorbaları.",
+      "Bánh xèo: otlarla yenilen çıtır tuzlu krep.",
+      "Gỏi cuốn: otlu taze sarma.",
+      "Chè: tatlı çorbalar.",
+      "Cà phê sữa đá, kondanse sütlü buzlu kahvedir. Bạc xỉu daha sütlüdür."
+     ]
+    },
+    {
+     "h2": "Tezgahta",
+     "p": [
+      "Tezgâh kaldırıma alçak tabure koyar. Yemeklerin hızlı çıktığı kalabalık tezgâh alışılmış seçimdir. Yemeğin önünüzde pişmesine bakın. Daha az acı isterseniz siparişte söyleyin. Vejetaryen yemekler çoğu zaman chay sözcüğüyle işaretlenir."
+     ]
+    },
+    {
+     "h2": "İş gören alışkanlıklar",
+     "ul": [
+      "Kahvaltı, özellikle phở ve bánh mì için önemli bir sokak yemeği saatidir. Akşam ızgara ve salyangoz artar.",
+      "Ben Thanh Pazarı ve birçok mahalle sokağında oturarak yenen ve paket yerler vardır.",
+      "Küçük tezgâhlar çoğu zaman nakit ister. Bazılarında havale için QR kodu vardır.",
+      "Önünüzde pişen ve sıcak servis edilen yemeği seçin. Şişe suyu ya da süzülmüş su için.",
+      "Ünlü bir adın peşine düşmek gerekmez. Sıradan ve kalabalık bir tezgâh kentin biçimidir."
+     ]
+    },
+    {
+     "h2": "Bu sitedeki diğer sayfalar",
+     "p": [
+      "Yemek ve yürümek için daha fazla yer arıyorsanız <a href=\"{L}guide/\">Saygon gezi rehberi</a> ile <a href=\"{L}travel-guide/\">konaklayanlar için yer rehberi</a>. Ev, <a href=\"{L}\">ana sayfada</a> tanıtılır."
+     ]
+    },
+    {
+     "note": "Ho Chi Minh’de kalmak isterseniz, rezervasyon ve iletişim sayfası evin nasıl rezerve edileceğini anlatır. <a class=\"btn b1\" href=\"{L}booking/\">Rezervasyon ve iletişim</a>"
     }
    ]
   }

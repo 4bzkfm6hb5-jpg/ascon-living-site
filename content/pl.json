@@ -2746,6 +2746,35 @@
      ]
     },
     {
+     "_guest_notes": 1,
+     "h2": "Cztery tematy na dzień w Sajgonie",
+     "p": [
+      "Cztery strony o deszczu, jednym dniu w centrum, wyjściu z rodziną lub grupą oraz jedzeniu ulicznym."
+     ],
+     "cards": [
+      [
+       "Sajgon w deszczu",
+       "guide-note-rain",
+       "Muzea, zadaszony targ i kawiarnie, gdy pada."
+      ],
+      [
+       "Sajgon w jeden dzień",
+       "guide-note-day",
+       "Pętla po centrum, bez próby zobaczenia wszystkiego."
+      ],
+      [
+       "Sajgon z rodziną lub grupą",
+       "guide-note-group",
+       "Zoo, lalki wodne i wspólny posiłek."
+      ],
+      [
+       "Jedzenie uliczne w Sajgonie",
+       "guide-note-food",
+       "Phở, bánh mì, cơm tấm i wybór stoiska."
+      ]
+     ]
+    },
+    {
      "p": [
       "Zarezerwujcie i otrzymajcie dostęp do aplikacji: WhatsApp lub Zalo +84 909 410 382."
      ],
@@ -3185,6 +3214,173 @@
     },
     {
      "cta": true
+    }
+   ]
+  },
+  "guide-note-rain": {
+   "title": "Sajgon w deszczu: pod dachem",
+   "description": "W Ho Chi Minh ulewy są częste od maja do listopada. Muzea, pałac, poczta, zadaszony targ i kawiarnie pozwalają dokończyć dzień w suchym miejscu.",
+   "h1": "Sajgon w deszczowy dzień",
+   "lead": "Deszcz nie musi skreślać dnia w Ho Chi Minh. Muzea, zadaszony targ i kawiarnie to zwykły plan pod dachem.",
+   "sections": [
+    {
+     "h2": "Miesiące deszczu",
+     "p": [
+      "Ho Chi Minh ma klimat tropikalny. Silne ulewy są częste mniej więcej od maja do listopada, a suchsza pogoda jest typowsza od grudnia do kwietnia. Po dużym deszczu niższe miejsca mogą chwilę trzymać wodę, potem ona odpływa. W wilgotniejszych miesiącach w planie dnia powinien być przystanek pod dachem."
+     ]
+    },
+    {
+     "h2": "Miejsca pod dachem",
+     "ul": [
+      "Muzeum Śladów Wojny, Muzeum Sztuk Pięknych i Muzeum Historii.",
+      "Pałac Niepodległości, z salami przyjęć i wystawami w środku.",
+      "Poczta główna i katedra leżą w tej samej części centrum.",
+      "Targ Ben Thanh jest zadaszony: jest tam jedzenie i drobne towary.",
+      "Świątynia Nefrytowego Cesarza: zdejmuje się buty i ubiera spokojnie, jak w wielu świątyniach.",
+      "Teatr lalek wodnych gra w sali.",
+      "Kawiarnie i sklepy z klimatyzacją przydają się, gdy zaczyna się ulewa."
+     ]
+    },
+    {
+     "h2": "Jak ułożyć dzień",
+     "p": [
+      "Wybierzcie jedno muzeum albo pałac. Zadaszony targ lub kawiarnię zostawcie na najmocniejszy deszcz. Deptak Nguyen Hue może być na koniec, jeśli deszcz słabnie. Katedra, poczta i deptak są w tej samej części centrum. Godziny otwarcia się zmieniają: sprawdźcie je na miejscu."
+     ]
+    },
+    {
+     "h2": "Więcej stron w tym serwisie",
+     "p": [
+      "Aby dopełnić deszczowy dzień, otwórzcie <a href=\"{L}guide/\">przewodnik po Sajgonie</a> i <a href=\"{L}travel-guide/\">przewodnik po miejscach dla gości</a>. Dom jest opisany na <a href=\"{L}\">stronie głównej</a>."
+     ]
+    },
+    {
+     "note": "Jeśli chcecie zostać w Ho Chi Minh, strona rezerwacji i kontaktu wyjaśnia, jak zarezerwować dom. <a class=\"btn b1\" href=\"{L}booking/\">Rezerwacja i kontakt</a>"
+    }
+   ]
+  },
+  "guide-note-day": {
+   "title": "Sajgon w jeden dzień w centrum",
+   "description": "Jeden dzień w Sajgonie wystarcza na centrum: katedra, poczta, ulica książek, deptak i targ Ben Thanh, plus jedno muzeum albo pałac. Sprawdźcie godziny.",
+   "h1": "Sajgon w jeden dzień",
+   "lead": "Jeden dzień w Ho Chi Minh wystarcza na centrum. Jeden dzień nie wystarcza na każde muzeum i każdą dzielnicę.",
+   "sections": [
+    {
+     "h2": "Pętla po centrum",
+     "p": [
+      "Katedra, poczta główna, ulica książek Nguyen Van Binh i deptak Nguyen Hue leżą w tej samej części centrum, więc wiele osób chodzi między nimi pieszo. Targ Ben Thanh to zwykły przystanek na posiłek albo obejrzenie stoisk. Dołóżcie pałac albo jedno muzeum, nie wszystkie pozostałe punkty tego samego dnia."
+     ]
+    },
+    {
+     "h2": "Między miejscami",
+     "ul": [
+      "W centrum kilka z tych punktów leży na tyle blisko, że da się iść pieszo.",
+      "Autobusy miejskie i metro z okolicy Ben Thanh obejmują dłuższe odcinki.",
+      "Taksówki i auta zamawiane w aplikacji są bardzo częste. Poproście o taksometr albo potwierdźcie kurs w aplikacji przed wyjazdem.",
+      "Motocykle są częścią ruchu. Przechodźcie w tempie pieszych i nie zatrzymujcie się w środku jezdni."
+     ]
+    },
+    {
+     "h2": "Na inny dzień",
+     "p": [
+      "Zoo, świątynia, drugie muzeum albo miejsce poza miastem, takie jak tunele Cu Chi, potrzebują osobnego dnia. W dniu po centrum wystarczą jeden posiłek uliczny i kawa. Phở, bánh mì albo cơm tấm łatwo znaleźć. Mrożona kawa z mlekiem skondensowanym to najczęstsza lokalna wersja."
+     ]
+    },
+    {
+     "h2": "Więcej stron w tym serwisie",
+     "p": [
+      "Aby ułożyć dzień spokojniej, otwórzcie <a href=\"{L}guide/\">przewodnik po Sajgonie</a> i <a href=\"{L}travel-guide/\">przewodnik po miejscach dla gości</a>. Dom jest opisany na <a href=\"{L}\">stronie głównej</a>."
+     ]
+    },
+    {
+     "note": "Jeśli chcecie zostać w Ho Chi Minh, strona rezerwacji i kontaktu wyjaśnia, jak zarezerwować dom. <a class=\"btn b1\" href=\"{L}booking/\">Rezerwacja i kontakt</a>"
+    }
+   ]
+  },
+  "guide-note-group": {
+   "title": "Sajgon z rodziną albo grupą",
+   "description": "Sajgon z dziećmi albo grupą układa się lepiej, gdy dzień ma jeden punkt na zewnątrz i jeden pod dachem: zoo, lalki wodne, muzeum i wspólny posiłek.",
+   "h1": "Sajgon z rodziną lub grupą",
+   "lead": "Ho Chi Minh pasuje rodzinom i grupom, jeśli dzień łączy jeden punkt na zewnątrz i jeden pod dachem.",
+   "sections": [
+    {
+     "h2": "Z dziećmi",
+     "ul": [
+      "Zoo i ogród botaniczny w Sajgonie to dawny park miejski, z cienistymi alejkami.",
+      "Lalki wodne ogląda się w sali, bez dużej ilości dialogu.",
+      "Zadaszone targi są pełne ludzi. Trzymajcie dzieci za rękę przy ulicy i między stoiskami.",
+      "W środku dnia bywa gorąco. Ranek i późne popołudnie pasują na zewnątrz. Południe pasuje na muzeum, kawiarnię albo odpoczynek.",
+      "Pijcie wodę butelkowaną albo filtrowaną.",
+      "W świątyniach i kościołach oczekuje się spokojnego stroju. W świątyniach zwykle zdejmuje się buty."
+     ]
+    },
+    {
+     "h2": "Z grupą",
+     "p": [
+      "Grupa może zamówić kilka małych dań na stoisku albo kilka talerzy w lokalu z phở lub cơm tấm. Deptak Nguyen Hue i plac przed operą to proste wieczorne punkty zbiórki. Wybierzcie jedno muzeum albo pałac, żeby zostać razem, i zostawcie czas bez planu zamiast upychać każdy punkt w jeden dzień."
+     ]
+    },
+    {
+     "h2": "Dla wszystkich",
+     "ul": [
+      "Ruch motocykli jest gęsty. Przechodźcie razem z innymi, równym tempem.",
+      "Małe stoiska zwykle biorą gotówkę. Niektóre pokazują też kod QR do przelewu.",
+      "Od maja do listopada miejcie pod ręką listę miejsc pod dachem."
+     ]
+    },
+    {
+     "h2": "Więcej stron w tym serwisie",
+     "p": [
+      "Z rodziną lub grupą otwórzcie <a href=\"{L}guide/\">przewodnik po Sajgonie</a> i <a href=\"{L}travel-guide/\">przewodnik po miejscach dla gości</a>. Dom jest opisany na <a href=\"{L}\">stronie głównej</a>."
+     ]
+    },
+    {
+     "note": "Jeśli chcecie zostać w Ho Chi Minh, strona rezerwacji i kontaktu wyjaśnia, jak zarezerwować dom. <a class=\"btn b1\" href=\"{L}booking/\">Rezerwacja i kontakt</a>"
+    }
+   ]
+  },
+  "guide-note-food": {
+   "title": "Jedzenie uliczne w Sajgonie",
+   "description": "Jedzenie uliczne w Sajgonie trwa od śniadania do wieczora: phở, bánh mì, cơm tấm, bánh xèo i kawa z mlekiem. Wybierzcie stoisko, gdzie gotują na oczach.",
+   "h1": "Jedzenie uliczne w Sajgonie",
+   "lead": "Kuchnia na chodniku to zwykły sposób jedzenia w Ho Chi Minh, od śniadania do późnego wieczora.",
+   "sections": [
+    {
+     "h2": "Dania, które widać często",
+     "ul": [
+      "Phở: zupa z makaronem ryżowym, często z wołowiną albo kurczakiem.",
+      "Bánh mì: bagietka z mięsem, piklami, ziołami i chili.",
+      "Cơm tấm: kruszony ryż z grillowanym żeberkiem, jajkiem i dodatkami.",
+      "Hủ tiếu i inne zupy z makaronem na klarownym rosole.",
+      "Bánh xèo: chrupiący słony naleśnik, z ziołami.",
+      "Gỏi cuốn: świeże rolki z ziołami.",
+      "Chè: słodkie zupy deserowe.",
+      "Cà phê sữa đá to mrożona kawa z mlekiem skondensowanym. Bạc xỉu ma więcej mleka."
+     ]
+    },
+    {
+     "h2": "Przy stoisku",
+     "p": [
+      "Stoisko stawia niskie stołki na chodniku. Zajęte stoisko, z którego dania wychodzą szybko, to zwykły wybór. Patrzcie, czy gotują na waszych oczach. Jeśli chcecie mniej chili, powiedzcie przy zamówieniu. Jedzenie wegetariańskie często oznaczają słowem chay."
+     ]
+    },
+    {
+     "h2": "Przydatne nawyki",
+     "ul": [
+      "Śniadanie to ważna pora jedzenia ulicznego, zwłaszcza phở i bánh mì. Wieczorem dochodzą grille i ślimaki.",
+      "Targ Ben Thanh i wiele ulic osiedlowych ma miejsca siedzące i jedzenie na wynos.",
+      "Małe stoiska często wolą gotówkę. Niektóre pokazują kod QR do przelewu.",
+      "Wybierajcie jedzenie gotowane na waszych oczach i podawane gorące. Pijcie wodę butelkowaną albo filtrowaną.",
+      "Nie trzeba gonić słynnej nazwy. Zwykłe, pełne stoisko to miejski zwyczaj."
+     ]
+    },
+    {
+     "h2": "Więcej stron w tym serwisie",
+     "p": [
+      "Po więcej miejsc do jedzenia i spaceru otwórzcie <a href=\"{L}guide/\">przewodnik po Sajgonie</a> i <a href=\"{L}travel-guide/\">przewodnik po miejscach dla gości</a>. Dom jest opisany na <a href=\"{L}\">stronie głównej</a>."
+     ]
+    },
+    {
+     "note": "Jeśli chcecie zostać w Ho Chi Minh, strona rezerwacji i kontaktu wyjaśnia, jak zarezerwować dom. <a class=\"btn b1\" href=\"{L}booking/\">Rezerwacja i kontakt</a>"
     }
    ]
   }

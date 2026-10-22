@@ -2749,6 +2749,35 @@
      ]
     },
     {
+     "_guest_notes": 1,
+     "h2": "Vier onderwerpen voor een dag in Saigon",
+     "p": [
+      "Vier pagina’s over regen, één dag in het centrum, een uitstap met gezin of groep, en streetfood."
+     ],
+     "cards": [
+      [
+       "Saigon op een regendag",
+       "guide-note-rain",
+       "Musea, een overdekte markt en cafés als het regent."
+      ],
+      [
+       "Saigon op één dag",
+       "guide-note-day",
+       "Een ronde door het centrum, zonder alles te willen zien."
+      ],
+      [
+       "Saigon met gezin of groep",
+       "guide-note-group",
+       "Dierentuin, waterpoppen en een gedeelde maaltijd."
+      ],
+      [
+       "Streetfood in Saigon",
+       "guide-note-food",
+       "Phở, bánh mì, cơm tấm en hoe je een kraam kiest."
+      ]
+     ]
+    },
+    {
      "p": [
       "Boek en krijg toegang tot de app: WhatsApp of Zalo +84 909 410 382."
      ],
@@ -3176,6 +3205,173 @@
     },
     {
      "cta": true
+    }
+   ]
+  },
+  "guide-note-rain": {
+   "title": "Saigon in de regen: binnen blijven",
+   "description": "In het tropische Ho Chi Minh zijn buien gewoon van mei tot november. Musea, paleis, postkantoor, overdekte markt en cafés laten de dag droog verdergaan.",
+   "h1": "Saigon op een regenachtige dag",
+   "lead": "Regen hoeft een dag in Ho Chi Minh niet te schrappen. Musea, een overdekte markt en cafés zijn het gebruikelijke plan binnen.",
+   "sections": [
+    {
+     "h2": "De regenmaanden",
+     "p": [
+      "Ho Chi Minh heeft een tropisch klimaat. Zware buien zijn gebruikelijk van ongeveer mei tot november, en droger weer is typischer van december tot april. Na een harde bui kan water op lage plekken even blijven staan en daarna weglopen. In de nattere maanden hoort een stop onder dak in de dag."
+     ]
+    },
+    {
+     "h2": "Plekken onder dak",
+     "ul": [
+      "Oorlogsmuseum, museum voor schone kunsten en geschiedenismuseum.",
+      "Onafhankelijkheidspaleis, met ontvangstzalen en tentoonstellingen binnen.",
+      "Het centrale postkantoor en de kathedraal liggen in hetzelfde centrale gebied.",
+      "Ben Thanh-markt is een overdekte markt, met eten en kleine spullen.",
+      "Jade Emperor-pagode: schoenen uit en bedekt gekleed, zoals in veel pagodes.",
+      "Waterpoppen worden in een zaal opgevoerd.",
+      "Cafés en winkels met airco zijn handig als een bui begint."
+     ]
+    },
+    {
+     "h2": "De dag indelen",
+     "p": [
+      "Kies één museum of het paleis. Bewaar de overdekte markt of een café voor het natste deel. De wandelstraat Nguyen Hue kan aan het eind als de regen afneemt. Kathedraal, postkantoor en wandelstraat liggen in hetzelfde centrale gebied. Openingstijden veranderen: controleer ze ter plaatse."
+     ]
+    },
+    {
+     "h2": "Meer pagina’s op deze site",
+     "p": [
+      "Om een regendag af te maken, open je de <a href=\"{L}guide/\">reisgids voor Saigon</a> en de <a href=\"{L}travel-guide/\">gids met plekken voor wie er verblijft</a>. Het huis staat op de <a href=\"{L}\">startpagina</a>."
+     ]
+    },
+    {
+     "note": "Als je in Ho Chi Minh wilt overnachten, legt de pagina voor boeken en contact uit hoe je het huis reserveert. <a class=\"btn b1\" href=\"{L}booking/\">Boeken en contact</a>"
+    }
+   ]
+  },
+  "guide-note-day": {
+   "title": "Saigon op één dag in het centrum",
+   "description": "Eén dag in Saigon dekt het centrum: kathedraal, postkantoor, boekenstraat, wandelstraat en de Ben Thanh-markt, plus één museum of het paleis.",
+   "h1": "Saigon op één dag",
+   "lead": "Eén dag in Ho Chi Minh is genoeg voor het centrum. Eén dag is niet genoeg voor elk museum en elke buurt.",
+   "sections": [
+    {
+     "h2": "Een ronde door het centrum",
+     "p": [
+      "De kathedraal, het centrale postkantoor, boekenstraat Nguyen Van Binh en wandelstraat Nguyen Hue liggen in hetzelfde centrale gebied, en veel mensen lopen van de ene plek naar de andere. Ben Thanh-markt is de gebruikelijke stop om te eten of kramen te bekijken. Voeg het paleis of één museum toe, niet ook nog elk ander monument."
+     ]
+    },
+    {
+     "h2": "Van plek naar plek",
+     "ul": [
+      "In het centrum liggen verschillende van deze punten dicht genoeg bij elkaar om te lopen.",
+      "Stadsbussen en de metro vanuit het gebied van Ben Thanh dekken langere stukken.",
+      "Taxi’s en auto’s die je in een app bestelt zijn heel gebruikelijk. Vraag om de meter, of bevestig de rit in de app voordat je vertrekt.",
+      "Motoren horen bij het verkeer. Steek over in het tempo van de voetgangers en blijf niet midden op de weg stilstaan."
+     ]
+    },
+    {
+     "h2": "Bewaren voor een andere dag",
+     "p": [
+      "De dierentuin, een pagode, een tweede museum of een plek buiten de stad, zoals de tunnels van Cu Chi, vragen een eigen dag. Op de centrumdag volstaan een maaltijd op straat en een koffie. Phở, bánh mì of cơm tấm zijn makkelijk te vinden. IJskoffie met gecondenseerde melk is de meest gewone lokale versie."
+     ]
+    },
+    {
+     "h2": "Meer pagina’s op deze site",
+     "p": [
+      "Om de dag rustiger in te delen, open je de <a href=\"{L}guide/\">reisgids voor Saigon</a> en de <a href=\"{L}travel-guide/\">gids met plekken voor wie er verblijft</a>. Het huis staat op de <a href=\"{L}\">startpagina</a>."
+     ]
+    },
+    {
+     "note": "Als je in Ho Chi Minh wilt overnachten, legt de pagina voor boeken en contact uit hoe je het huis reserveert. <a class=\"btn b1\" href=\"{L}booking/\">Boeken en contact</a>"
+    }
+   ]
+  },
+  "guide-note-group": {
+   "title": "Saigon met gezin of een groep",
+   "description": "Saigon met kinderen of een groep werkt beter met één stop buiten en één binnen: dierentuin, waterpoppen, een museum en een gedeelde maaltijd.",
+   "h1": "Saigon met gezin of groep",
+   "lead": "Ho Chi Minh past bij gezinnen en groepen als de dag één buitenstop en één binnenstop heeft.",
+   "sections": [
+    {
+     "h2": "Met kinderen",
+     "ul": [
+      "De dierentuin en botanische tuin van Saigon is een oud stadspark, met schaduwrijke paden.",
+      "Waterpoppen zie je in een zaal, ook zonder veel gesproken tekst.",
+      "Overdekte markten zijn druk. Houd kinderen bij de hand bij de weg en tussen de kramen.",
+      "Midden op de dag is het vaak heet. Ochtend en late middag passen bij buiten. Het middaguur past bij een museum, een café of rust.",
+      "Drink water uit een fles of gefilterd water.",
+      "Bij pagodes en kerken past bedekte kleding. In pagodes doe je meestal je schoenen uit."
+     ]
+    },
+    {
+     "h2": "Met een groep",
+     "p": [
+      "Een groep kan een paar kleine gerechten aan een kraam bestellen, of een paar borden in een zaak voor phở of cơm tấm. Wandelstraat Nguyen Hue en de ruimte voor de opera zijn eenvoudige ontmoetingspunten in de avond. Kies één museum of het paleis zodat de groep bij elkaar blijft, en laat tijd zonder programma in plaats van elk monument in dezelfde dag te proppen."
+     ]
+    },
+    {
+     "h2": "Voor iedereen",
+     "ul": [
+      "Het motorverkeer is dicht. Steek met anderen over, in een gelijkmatig tempo.",
+      "Kleine kramen nemen meestal contant geld aan. Sommige tonen ook een QR-code voor een overschrijving.",
+      "Van mei tot november is een lijst met plekken onder dak handig."
+     ]
+    },
+    {
+     "h2": "Meer pagina’s op deze site",
+     "p": [
+      "Met gezin of groep open je de <a href=\"{L}guide/\">reisgids voor Saigon</a> en de <a href=\"{L}travel-guide/\">gids met plekken voor wie er verblijft</a>. Het huis staat op de <a href=\"{L}\">startpagina</a>."
+     ]
+    },
+    {
+     "note": "Als je in Ho Chi Minh wilt overnachten, legt de pagina voor boeken en contact uit hoe je het huis reserveert. <a class=\"btn b1\" href=\"{L}booking/\">Boeken en contact</a>"
+    }
+   ]
+  },
+  "guide-note-food": {
+   "title": "Streetfood in Saigon",
+   "description": "Streetfood in Saigon loopt van ontbijt tot avond: phở, bánh mì, cơm tấm, bánh xèo en koffie met melk. Kies een kraam waar ze voor je ogen koken.",
+   "h1": "Eten op straat in Saigon",
+   "lead": "Koken op de stoep is een gewone manier van eten in Ho Chi Minh, van het ontbijt tot laat in de avond.",
+   "sections": [
+    {
+     "h2": "Gerechten die je vaak ziet",
+     "ul": [
+      "Phở: soep met rijstnoedels, vaak met rund of kip.",
+      "Bánh mì: stokbrood met vlees, pickles, kruiden en chili.",
+      "Cơm tấm: gebroken rijst met gegrilde rib, ei en bijgerechten.",
+      "Hủ tiếu en andere noedelsoepen op een heldere bouillon.",
+      "Bánh xèo: knapperige hartige pannenkoek, met kruiden.",
+      "Gỏi cuốn: verse rolletjes met kruiden.",
+      "Chè: zoete soepdesserts.",
+      "Cà phê sữa đá is ijskoffie met gecondenseerde melk. Bạc xỉu is melkiger."
+     ]
+    },
+    {
+     "h2": "Aan de kraam",
+     "p": [
+      "De kraam zet lage krukjes op de stoep. Een drukke kraam, waar gerechten snel komen, is de gewone keuze. Kijk of er voor je ogen wordt gekookt. Wil je minder chili, zeg dat bij het bestellen. Vegetarisch eten staat vaak aangegeven met het woord chay."
+     ]
+    },
+    {
+     "h2": "Handige gewoonten",
+     "ul": [
+      "Het ontbijt is een belangrijk uur voor streetfood, vooral phở en bánh mì. ’s Avonds komen er meer grillgerechten en slakken.",
+      "Ben Thanh-markt en veel buurtstraten hebben zitplaatsen en eten om mee te nemen.",
+      "Kleine kramen willen vaak contant geld. Sommige tonen een QR-code voor een overschrijving.",
+      "Kies eten dat voor je ogen wordt gekookt en warm wordt geserveerd. Drink water uit een fles of gefilterd water.",
+      "Je hoeft geen beroemde naam achterna. Een gewone, drukke kraam is het patroon van de stad."
+     ]
+    },
+    {
+     "h2": "Meer pagina’s op deze site",
+     "p": [
+      "Voor meer plekken om te eten en te lopen, open je de <a href=\"{L}guide/\">reisgids voor Saigon</a> en de <a href=\"{L}travel-guide/\">gids met plekken voor wie er verblijft</a>. Het huis staat op de <a href=\"{L}\">startpagina</a>."
+     ]
+    },
+    {
+     "note": "Als je in Ho Chi Minh wilt overnachten, legt de pagina voor boeken en contact uit hoe je het huis reserveert. <a class=\"btn b1\" href=\"{L}booking/\">Boeken en contact</a>"
     }
    ]
   }

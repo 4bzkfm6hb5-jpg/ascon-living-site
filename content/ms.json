@@ -2570,6 +2570,35 @@
      ]
     },
     {
+     "_guest_notes": 1,
+     "h2": "Empat topik untuk sehari di Saigon",
+     "p": [
+      "Empat halaman tentang hujan, satu hari di pusat bandar, keluar bersama keluarga atau kumpulan, dan makanan jalanan."
+     ],
+     "cards": [
+      [
+       "Saigon pada hari hujan",
+       "guide-note-rain",
+       "Muzium, pasar beratap, dan kafe semasa hujan."
+      ],
+      [
+       "Saigon dalam satu hari",
+       "guide-note-day",
+       "Pusingan di pusat bandar, tanpa cuba melihat semua."
+      ],
+      [
+       "Saigon bersama keluarga atau kumpulan",
+       "guide-note-group",
+       "Zoo, wayang air, dan hidangan berkongsi."
+      ],
+      [
+       "Makanan jalanan di Saigon",
+       "guide-note-food",
+       "Phở, bánh mì, cơm tấm, dan cara memilih gerai."
+      ]
+     ]
+    },
+    {
      "p": [
       "Tempah penginapan dan dapatkan akses aplikasi: WhatsApp atau Zalo +84 909 410 382."
      ],
@@ -2980,6 +3009,173 @@
     },
     {
      "cta": true
+    }
+   ]
+  },
+  "guide-note-rain": {
+   "title": "Saigon waktu hujan: di dalam bangunan",
+   "description": "Di Ho Chi Minh, hujan lebat biasa dari Mei hingga November. Muzium, istana, pejabat pos, pasar beratap dan kafe membantu meneruskan hari di tempat kering.",
+   "h1": "Saigon pada hari hujan",
+   "lead": "Hujan tidak semestinya membatalkan sehari di Ho Chi Minh. Muzium, pasar beratap dan kafe ialah pelan biasa di dalam bangunan.",
+   "sections": [
+    {
+     "h2": "Bulan hujan",
+     "p": [
+      "Ho Chi Minh beriklim tropika. Hujan lebat biasa kira-kira dari Mei hingga November, dan cuaca lebih kering lebih tipikal dari Disember hingga April. Selepas hujan deras, tempat rendah boleh menakung air seketika lalu mengalir. Pada bulan lembap, satu hentian beratap patut ada dalam hari itu."
+     ]
+    },
+    {
+     "h2": "Tempat beratap",
+     "ul": [
+      "Muzium Tinggalan Perang, Muzium Seni Halus dan Muzium Sejarah.",
+      "Istana Kemerdekaan, dengan dewan sambutan dan pameran di dalam.",
+      "Pejabat pos pusat dan katedral berada di kawasan pusat yang sama.",
+      "Pasar Ben Thanh ialah pasar beratap, dengan makanan dan barang kecil.",
+      "Tokong Maharaja Jed: kasut ditanggalkan dan pakaian sopan, seperti di banyak tokong.",
+      "Wayang air dipersembahkan di dalam dewan.",
+      "Kafe dan kedai berhawa dingin berguna apabila hujan bermula."
+     ]
+    },
+    {
+     "h2": "Cara susun hari",
+     "p": [
+      "Pilih satu muzium atau istana. Simpan pasar beratap atau kafe untuk bahagian hujan yang paling lebat. Jalan pejalan kaki Nguyen Hue boleh di akhir jika hujan reda. Katedral, pejabat pos dan jalan itu berada di kawasan pusat yang sama. Waktu buka berubah: sahkan di tempat."
+     ]
+    },
+    {
+     "h2": "Halaman lain di laman ini",
+     "p": [
+      "Untuk melengkapkan hari hujan, buka <a href=\"{L}guide/\">panduan pelancongan Saigon</a> dan <a href=\"{L}travel-guide/\">panduan tempat untuk tetamu yang menginap</a>. Rumah diperkenalkan di <a href=\"{L}\">halaman utama</a>."
+     ]
+    },
+    {
+     "note": "Jika anda ingin menginap di Ho Chi Minh, halaman tempahan dan hubungan menerangkan cara menempah rumah itu. <a class=\"btn b1\" href=\"{L}booking/\">Tempahan dan hubungi</a>"
+    }
+   ]
+  },
+  "guide-note-day": {
+   "title": "Saigon sehari di pusat bandar",
+   "description": "Sehari di Saigon memadai untuk pusat bandar: katedral, pejabat pos, jalan buku, jalan pejalan kaki dan Pasar Ben Thanh, serta satu muzium atau istana.",
+   "h1": "Saigon dalam satu hari",
+   "lead": "Sehari di Ho Chi Minh memadai untuk pusat bandar. Sehari tidak memadai untuk setiap muzium dan setiap kawasan.",
+   "sections": [
+    {
+     "h2": "Pusingan di pusat",
+     "p": [
+      "Katedral, pejabat pos pusat, jalan buku Nguyen Van Binh dan jalan pejalan kaki Nguyen Hue berada di kawasan pusat yang sama, jadi ramai orang berjalan antara tempat itu. Pasar Ben Thanh ialah hentian biasa untuk makan atau melihat gerai. Tambah istana atau satu muzium, bukan semua tempat lain pada hari yang sama."
+     ]
+    },
+    {
+     "h2": "Dari satu tempat ke tempat lain",
+     "ul": [
+      "Di pusat, beberapa tempat ini cukup dekat untuk berjalan kaki.",
+      "Bas bandar dan metro dari kawasan Ben Thanh merangkumi jarak yang lebih jauh.",
+      "Teksi dan kereta yang ditempah melalui aplikasi sangat biasa. Minta pemandu menggunakan meter, atau sahkan perjalanan dalam aplikasi sebelum bertolak.",
+      "Motosikal ialah sebahagian daripada lalu lintas. Lintasi mengikut rentak pejalan kaki, jangan berhenti di tengah arus."
+     ]
+    },
+    {
+     "h2": "Simpan untuk hari lain",
+     "p": [
+      "Zoo, sebuah tokong, muzium kedua, atau tempat di luar bandar seperti terowong Cu Chi, memerlukan hari sendiri. Pada hari di pusat, satu hidangan jalanan dan satu kopi sudah memadai. Phở, bánh mì atau cơm tấm mudah ditemui. Kopi ais dengan susu pekat ialah bentuk tempatan yang paling biasa."
+     ]
+    },
+    {
+     "h2": "Halaman lain di laman ini",
+     "p": [
+      "Untuk menyusun hari dengan lebih tenang, buka <a href=\"{L}guide/\">panduan pelancongan Saigon</a> dan <a href=\"{L}travel-guide/\">panduan tempat untuk tetamu yang menginap</a>. Rumah diperkenalkan di <a href=\"{L}\">halaman utama</a>."
+     ]
+    },
+    {
+     "note": "Jika anda ingin menginap di Ho Chi Minh, halaman tempahan dan hubungan menerangkan cara menempah rumah itu. <a class=\"btn b1\" href=\"{L}booking/\">Tempahan dan hubungi</a>"
+    }
+   ]
+  },
+  "guide-note-group": {
+   "title": "Saigon bersama keluarga atau kumpulan",
+   "description": "Saigon bersama kanak-kanak atau kumpulan lebih mudah jika ada tempat terbuka dan tempat beratap: zoo, wayang air, satu muzium dan hidangan bersama.",
+   "h1": "Saigon dengan keluarga atau kumpulan",
+   "lead": "Ho Chi Minh sesuai untuk keluarga dan kumpulan jika hari dibahagi antara satu tempat terbuka dan satu tempat beratap.",
+   "sections": [
+    {
+     "h2": "Bersama kanak-kanak",
+     "ul": [
+      "Zoo dan taman botani Saigon ialah taman bandar yang lama, dengan laluan yang teduh.",
+      "Wayang air ditonton di dalam dewan dan boleh diikuti tanpa banyak dialog.",
+      "Pasar beratap sesak. Pegang tangan kanak-kanak berhampiran jalan dan antara gerai.",
+      "Tengah hari biasanya panas. Pagi dan lewat petang sesuai di luar. Tengah hari sesuai untuk muzium, kafe atau rehat.",
+      "Minum air berbotol atau air yang ditapis.",
+      "Di tokong dan gereja, pakaian sopan dijangka. Di tokong biasanya kasut ditanggalkan."
+     ]
+    },
+    {
+     "h2": "Bersama kumpulan",
+     "p": [
+      "Kumpulan boleh memesan beberapa hidangan kecil di gerai, atau beberapa pinggan di kedai phở atau cơm tấm. Jalan pejalan kaki Nguyen Hue dan ruang di hadapan rumah opera ialah tempat bertemu yang mudah pada waktu malam. Pilih satu muzium atau istana supaya kekal bersama, dan tinggalkan masa tanpa jadual daripada memasukkan setiap tempat."
+     ]
+    },
+    {
+     "h2": "Nota untuk semua",
+     "ul": [
+      "Lalu lintas motosikal padat. Lintasi bersama orang lain, dengan langkah yang rata.",
+      "Gerai kecil biasanya menerima wang tunai. Sesetengahnya juga memaparkan kod QR untuk pindahan.",
+      "Dari sekitar Mei hingga November, sediakan senarai tempat beratap."
+     ]
+    },
+    {
+     "h2": "Halaman lain di laman ini",
+     "p": [
+      "Bersama keluarga atau kumpulan, buka <a href=\"{L}guide/\">panduan pelancongan Saigon</a> dan <a href=\"{L}travel-guide/\">panduan tempat untuk tetamu yang menginap</a>. Rumah diperkenalkan di <a href=\"{L}\">halaman utama</a>."
+     ]
+    },
+    {
+     "note": "Jika anda ingin menginap di Ho Chi Minh, halaman tempahan dan hubungan menerangkan cara menempah rumah itu. <a class=\"btn b1\" href=\"{L}booking/\">Tempahan dan hubungi</a>"
+    }
+   ]
+  },
+  "guide-note-food": {
+   "title": "Makanan jalanan di Saigon",
+   "description": "Makanan jalanan di Saigon bermula dari sarapan hingga malam: phở, bánh mì, cơm tấm, bánh xèo dan kopi susu. Pilih gerai yang memasak di hadapan anda.",
+   "h1": "Makanan jalanan di Saigon",
+   "lead": "Memasak di kaki lima ialah cara makan yang biasa di Ho Chi Minh, dari sarapan hingga lewat malam.",
+   "sections": [
+    {
+     "h2": "Hidangan yang kerap kelihatan",
+     "ul": [
+      "Phở: sup mi beras, selalunya dengan daging lembu atau ayam.",
+      "Bánh mì: baguette dengan daging, jeruk, herba dan cili.",
+      "Cơm tấm: nasi patah dengan rusuk bakar, telur dan lauk.",
+      "Hủ tiếu dan sup mi lain dengan kuah jernih.",
+      "Bánh xèo: lempeng masin yang rangup, dengan herba.",
+      "Gỏi cuốn: gulungan segar dengan herba.",
+      "Chè: hidangan manis berkuah.",
+      "Cà phê sữa đá ialah kopi ais dengan susu pekat. Bạc xỉu lebih banyak susu."
+     ]
+    },
+    {
+     "h2": "Di gerai",
+     "p": [
+      "Gerai meletakkan bangku rendah di kaki lima. Gerai yang sesak, dengan hidangan yang keluar cepat, ialah pilihan biasa. Lihat makanan dimasak di hadapan anda. Jika mahu kurang cili, katakan semasa memesan. Makanan vegetarian sering ditanda dengan perkataan chay."
+     ]
+    },
+    {
+     "h2": "Tabiat yang berguna",
+     "ul": [
+      "Sarapan ialah waktu penting makanan jalanan, terutama phở dan bánh mì. Pada waktu malam ada lebih banyak hidangan bakar dan siput.",
+      "Pasar Ben Thanh dan banyak jalan kejiranan ada tempat duduk dan makanan bungkus.",
+      "Gerai kecil sering lebih suka wang tunai. Sesetengahnya memaparkan kod QR untuk pindahan.",
+      "Pilih makanan yang dimasak di hadapan anda dan dihidang panas. Minum air berbotol atau air yang ditapis.",
+      "Tidak perlu mengejar nama yang terkenal. Gerai biasa yang sesak ialah corak bandar ini."
+     ]
+    },
+    {
+     "h2": "Halaman lain di laman ini",
+     "p": [
+      "Jika mahu lebih banyak tempat makan dan berjalan, buka <a href=\"{L}guide/\">panduan pelancongan Saigon</a> dan <a href=\"{L}travel-guide/\">panduan tempat untuk tetamu yang menginap</a>. Rumah diperkenalkan di <a href=\"{L}\">halaman utama</a>."
+     ]
+    },
+    {
+     "note": "Jika anda ingin menginap di Ho Chi Minh, halaman tempahan dan hubungan menerangkan cara menempah rumah itu. <a class=\"btn b1\" href=\"{L}booking/\">Tempahan dan hubungi</a>"
     }
    ]
   }
