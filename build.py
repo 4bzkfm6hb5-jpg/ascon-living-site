@@ -10,7 +10,15 @@ from urllib.parse import urlparse as _up
 DOMAIN=_up(SITE).netloc  # docs/CNAME for GitHub Pages custom domain (not written for *.github.io)
 PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','families/'),('groups','groups/'),
 ('location','location/'),('booking','booking/'),('faq','faq/'),('rules','house-rules/'),('guide','guide/'),
-('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),('travel-guide','travel-guide/'),
+('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),
+('guide-sights','guide/saigon-sights/'),('guide-markets','guide/saigon-markets/'),('guide-coffee','guide/saigon-coffee/'),
+('guide-river','guide/saigon-river/'),('guide-evenings','guide/saigon-evenings/'),('guide-daytrips','guide/mekong-cu-chi/'),
+('guide-weather','guide/saigon-weather/'),('guide-arrival','guide/from-the-airport/'),('guide-practical','guide/money-sim-apps/'),
+('guide-traffic','guide/traffic-safety/'),
+('guide-ko-family','guide/ko-family-journey/'),('guide-ko-course','guide/ko-independent-route/'),('guide-ko-sing','guide/ko-noraebang/'),
+('guide-ja-family','guide/ja-family-journey/'),('guide-ja-course','guide/ja-model-course/'),('guide-ja-long','guide/ja-long-stay/'),
+('audience','whole-house/'),
+('travel-guide','travel-guide/'),
 ('imprint','imprint/'),('privacy','privacy/')]
 # Room detail pages: published per language only once content/<code>.json has pages.<id> (no placeholders)
 ROOMS=[('room-entertainment','house/karaoke-entertainment/'),('room-living','house/living-room/'),('room-kitchen','house/kitchen/'),('room-master','house/master-bedroom/'),
@@ -64,6 +72,33 @@ def flag(code,lazy=True):
     return f'<img class="flag" src="{BASE}/assets/flags/{f}.svg" width="20" height="15" alt=""'+(' loading="lazy"' if lazy else '')+' decoding="async">' if f else ''
   # laundry service 30 EUR per load in every language
 def HAS(pid): return [x for x in PUB if pid in C[x[0]]['pages']]
+def _xcode(pid):
+    have=[x[0] for x in HAS(pid)]
+    return 'en' if 'en' in have else have[0]
+def _merge_city():
+    # City guides for en/de/ko/ja (content/city_guides.py). Loaded here so SEO checks see the pages.
+    import importlib.util as _iu
+    _p=f'{ROOT}/content/city_guides.py'
+    if not os.path.exists(_p): return
+    _spec=_iu.spec_from_file_location('city_guides',_p)
+    _mod=_iu.module_from_spec(_spec); _spec.loader.exec_module(_mod)
+    for code,pack in _mod.GUIDES.items():
+        if code not in C: continue
+        C[code]['ui'].update(pack.get('ui',{}))
+        C[code]['pages'].update(pack.get('pages',{}))
+        g=C[code]['pages'].get('guide')
+        if not g or not pack.get('hub_cards'): continue
+        for s in g['sections']:
+            s.pop('cards',None)
+        g['sections']=[s for s in g['sections'] if s]
+        g['sections'].insert(1 if g['sections'] else 0, {'h2':pack['hub_h2'],'cards':pack['hub_cards']})
+        g['toc']=True
+        g['book']=True
+        g['related']=pack.get('hub_related',['home'])
+        for pid,rel in pack.get('also',{}).items():
+            if pid in C[code]['pages']:
+                C[code]['pages'][pid]['book']=True
+                C[code]['pages'][pid]['related']=rel
 TODAY=datetime.date.today().isoformat()
 WA_SVG='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.7-.5z"/></svg>'
 def url(code,pid): return f'{BASE}/{code}/{SLUG[pid]}'
@@ -85,7 +120,9 @@ def cta(u):
             f'<a class="btn zl" href="{F["zalo"]}" rel="noopener">{u["zalo"]}</a></p>')
 def section(s,code,u):
     o=[]
-    if 'h2' in s: o.append(f'<h2>{html.escape(s["h2"])}</h2>')
+    if 'h2' in s:
+        _ida=f' id="{s["_id"]}"' if s.get('_id') else ''
+        o.append(f'<h2{_ida}>{html.escape(s["h2"])}</h2>')
     if 'note' in s: o.append(f'<p class="note">{sub(s["note"],code)}</p>')
     for p in s.get('p',[]): o.append(f'<p>{sub(p,code)}</p>')
     for kind,val in s.get('flow',[]):
@@ -149,7 +186,7 @@ def seo_bad(code,p,suffix):
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
     title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
-    alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in HAS(pid))+f'<link rel="alternate" hreflang="x-default" href="{SITE}/en/{SLUG[pid]}">'
+    alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in HAS(pid))+f'<link rel="alternate" hreflang="x-default" href="{SITE}/{_xcode(pid)}/{SLUG[pid]}">'
     fontlink=''; css=CSS
     if font:
         fontlink=f'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={font.replace(" ","+")}:wght@400;600&display=swap" media="print" onload="this.media=&#39;all&#39;">'
@@ -163,7 +200,7 @@ def page(l,pid):
         crumbs.append({"@type":"ListItem","position":len(crumbs)+1,"name":p['h1'],"item":canon})
     ld.append({"@context":"https://schema.org","@type":"WebPage","name":title,"description":p['description'],"url":canon,"inLanguage":hl,"isPartOf":{"@type":"WebSite","name":F['name'],"url":SITE+'/'}})
     ld.append({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":crumbs})
-    if pid.startswith('guide-'): ld.append({"@context":"https://schema.org","@type":"Article","headline":p['h1'],"description":p['description'],"inLanguage":hl,"image":SITE+'/assets/img/og.jpg',"author":{"@type":"Organization","name":F['name']},"mainEntityOfPage":canon,"dateModified":TODAY})
+    if pid=='guide' or pid.startswith('guide-'): ld.append({"@context":"https://schema.org","@type":"Article","headline":p['h1'],"description":p['description'],"inLanguage":hl,"image":SITE+'/assets/img/og.jpg',"datePublished":"2026-10-22","dateModified":TODAY,"author":{"@type":"Organization","name":"ASCON LIVING"},"mainEntityOfPage":canon})
     if any(s.get('faq') for s in p['sections']): ld.append({"@context":"https://schema.org","@type":"FAQPage","inLanguage":hl,"mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for s in p['sections'] for q,a in s.get('faq',[])]})
     ldh=''.join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False).replace('</','<\\/')+'</script>' for x in ld)
     navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else 'house' if pid.startswith('room-') else '')
@@ -177,7 +214,28 @@ def page(l,pid):
     else:
         pre=preload(p["cover"][0],"(min-width:900px) 900px, 100vw") if p.get('cover') else ''
         top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')+(f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,"(min-width:900px) 900px, 100vw")}</figure>' if p.get('cover') else '')
-    body=''.join(section(s,code,u) for s in p['sections'])
+    anchored=[]; toc=[]
+    for s in p['sections']:
+        s=dict(s)
+        if 'h2' in s:
+            s['_id']=f's{len(toc)+1}'
+            toc.append((s['_id'],s['h2']))
+        anchored.append(s)
+    body=''.join(section(s,code,u) for s in anchored)
+    if p.get('toc') and len(toc)>=2 and u.get('toc_label'):
+        _tl=html.escape(u['toc_label'])
+        body=f'<nav class="toc" aria-label="{_tl}"><p>{_tl}</p><ol>'+''.join(f'<li><a href="#{i}">{html.escape(t)}</a></li>' for i,t in toc)+'</ol></nav>'+body
+    if p.get('related'):
+        _lis=[]
+        for _rp in p['related']:
+            if _rp not in C[code]['pages']: continue
+            _lab=u['home'] if _rp=='home' else C[code]['pages'][_rp]['h1']
+            _lis.append(f'<li><a href="{url(code,_rp)}">{html.escape(_lab)}</a></li>')
+        if _lis:
+            body+=f'<section class="rel"><h2>{html.escape(u.get("related_h","More to read"))}</h2><ul class="chk">{"".join(_lis)}</ul></section>'
+    if p.get('book') and u.get('book_line'):
+        _line=p['book'] if isinstance(p['book'],str) else u['book_line']
+        body+=f'<aside class="bookbox"><p>{html.escape(_line)}</p><p><a class="btn b1" href="{url(code,"booking")}">{html.escape(u.get("book_btn","Booking and contact"))}</a></p></aside>'
     return f'''<!doctype html><html lang="{hl}" dir="{dirn}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{pre}
 <title>{html.escape(title)}</title><meta name="description" content="{html.escape(p['description'])}"><link rel="canonical" href="{canon}">{alts}
 <meta property="og:type" content="website"><meta property="og:site_name" content="ASCON LIVING"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(p['description'])}"><meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/img/og.jpg"><meta property="og:locale" content="{hl.replace('-','_')}"><meta name="twitter:card" content="summary_large_image">
@@ -190,6 +248,7 @@ def page(l,pid):
 <div><strong>{u['more_label']}</strong><br>{legal(code)}<br><a href="{F['guide']}" rel="noopener">{u['guest_guide']}</a></div></div></footer>
 <a class="fab" href="{F['wa']}" rel="noopener" aria-label="{u['whatsapp']}">{WA_SVG}</a></body></html>'''
 def main():
+    _merge_city()
     for code,*_ in LANGS: shutil.rmtree(f'{OUT}/{code}',ignore_errors=True)
     shutil.rmtree(f'{OUT}/assets/flags',ignore_errors=True); shutil.copytree(f'{ROOT}/tools/flags',f'{OUT}/assets/flags')
     errs=[f'{l[0]}/{pid}: title {len(C[l[0]]["pages"][pid]["title"])} chars, width {width(C[l[0]]["pages"][pid]["title"])} / desc {len(C[l[0]]["pages"][pid]["description"])} chars, width {width(C[l[0]]["pages"][pid]["description"])}' for l in PUB for pid,_ in PAGES if pid in C[l[0]]['pages'] and seo_bad(l[0],C[l[0]]['pages'][pid],C[l[0]].get('title_suffix',''))]
@@ -205,7 +264,7 @@ def main():
     for l in PUB:
         for pid,slug in PAGES:
             if pid not in C[l[0]]['pages']: continue
-            alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in HAS(pid))+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/en/{slug}"/>'
+            alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in HAS(pid))+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/{_xcode(pid)}/{slug}"/>'
             sm.append(f'<url><loc>{SITE}/{l[0]}/{slug}</loc><lastmod>{TODAY}</lastmod>{alts}</url>')
     sm.append('</urlset>'); open(f'{OUT}/sitemap.xml','w').write('\n'.join(sm))
     if DOMAIN.endswith('.github.io'):
