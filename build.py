@@ -10,7 +10,9 @@ from urllib.parse import urlparse as _up
 DOMAIN=_up(SITE).netloc  # docs/CNAME for GitHub Pages custom domain (not written for *.github.io)
 PAGES=[('home',''),('house','house/'),('rooftop','rooftop/'),('families','families/'),('groups','groups/'),
 ('location','location/'),('booking','booking/'),('faq','faq/'),('rules','house-rules/'),('guide','guide/'),
-('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),('travel-guide','travel-guide/'),
+('guide-family','guide/hcmc-with-family/'),('guide-airport','guide/airport-transfer/'),('guide-app','guide/ascon-guide-app/'),
+('guide-rain','guide/saigon-rainy-day/'),('guide-day','guide/saigon-one-day/'),('guide-party','guide/saigon-with-family/'),('guide-food','guide/saigon-street-food/'),
+('travel-guide','travel-guide/'),
 ('imprint','imprint/'),('privacy','privacy/')]
 # Room detail pages: published per language only once content/<code>.json has pages.<id> (no placeholders)
 ROOMS=[('room-entertainment','house/karaoke-entertainment/'),('room-living','house/living-room/'),('room-kitchen','house/kitchen/'),('room-master','house/master-bedroom/'),
@@ -56,6 +58,18 @@ for _l,_pp in _SEO.get('_body',{}).items():
         for _old,_new in _rules:
             if _old not in json.dumps(C[_l]['pages'][_pid],ensure_ascii=False): raise SystemExit(f'seo_overrides _body: {_l}/{_pid} text not found: {_old}')
             C[_l]['pages'][_pid]=_sub(C[_l]['pages'][_pid],_old,_new)
+# Extra guide pages (KO, JA, EN, DE) and keyword-first titles / length-safe descriptions.
+_GP=json.load(open(f'{ROOT}/tools/guide_pages.json'))
+for _l,_pp in _GP.items():
+    if _l not in C: continue
+    _h2=_pp.get('_heading')
+    _pages={k:v for k,v in _pp.items() if not str(k).startswith('_')}
+    C[_l]['pages'].update(_pages)
+    if _h2 and 'guide' in C[_l]['pages']:
+        C[_l]['pages']['guide']['sections'].append({'h2':_h2,'cards':[[v['card_title'],k,v['card_text']] for k,v in _pages.items()]})
+import seo_market as _seo_market
+_seo_market.apply(C)
+import site_copy as _copy
 # Language-switcher flags: self-hosted SVGs from flag-icons (MIT, tools/flags/LICENSE), copied to docs/assets/flags on every build.
 # Not emoji: Windows does not render emoji flags. pa is Gurmukhi (Indian Punjab) -> IN; ur -> PK.
 FLAG={'en':'gb','de':'de','vi':'vn','zh':'cn','zh-tw':'tw','ko':'kr','ja':'jp','th':'th','ms':'my','id':'id','ru':'ru','fr':'fr','es':'es','pt':'br','it':'it','hi':'in','ur':'pk','pa':'in','nl':'nl','pl':'pl','sv':'se','tr':'tr','ar':'sa'}
@@ -83,7 +97,20 @@ def cta(u):
             f'<a class="btn b2" href="{F["trip"]}" rel="noopener">{u["book_trip"]}</a>'
             f'<a class="btn wa" href="{F["wa"]}" rel="noopener">{u["whatsapp"]}</a>'
             f'<a class="btn zl" href="{F["zalo"]}" rel="noopener">{u["zalo"]}</a></p>')
-def section(s,code,u):
+def is_guide(pid): return pid=='guide' or pid=='travel-guide' or str(pid).startswith('guide-')
+def related_block(code,pid,c):
+    ids=[p for p,_s in PAGES if is_guide(p) and p in c['pages']]
+    i=ids.index(pid) if pid in ids else 0
+    sibs=(ids[i+1:]+ids[:i])[:3]
+    items=[f'<li><a href="{url(code,p)}">{html.escape(c["pages"][p]["h1"])}</a></li>' for p in sibs]
+    items.append(f'<li><a href="{url(code,"home")}">{html.escape(c["pages"]["home"]["h1"])}</a></li>')
+    h2=_copy.MORE.get(code,_copy.MORE['en'])
+    return f'<section class="related"><h2>{html.escape(h2)}</h2><ul class="chk">{"".join(items)}</ul></section>'
+def book_box(code,c):
+    sent=_copy.BOOK.get(code,_copy.BOOK['en'])
+    label=dict(c['nav']).get('booking',c['ui'].get('book_airbnb',''))
+    return f'<aside class="bookbox"><p>{html.escape(sent)}</p><p><a class="btn b1" href="{url(code,"booking")}">{html.escape(label)}</a></p></aside>'
+def section(s,code,u,guide=False):
     o=[]
     if 'h2' in s: o.append(f'<h2>{html.escape(s["h2"])}</h2>')
     if 'note' in s: o.append(f'<p class="note">{sub(s["note"],code)}</p>')
@@ -101,7 +128,7 @@ def section(s,code,u):
     if 'imgs' in s: o.append('<div class="grid">'+''.join(f'<figure>{pic(i[0]+"@"+code if i[0]+"@"+code in IMG else i[0],i[1])}<figcaption>{html.escape(i[2] if len(i)>2 and i[2] else i[1])}</figcaption></figure>' for i in s['imgs'])+'</div>')
     if 'faq' in s: o.append('<div class="faq">'+''.join(f'<details><summary><h2 class="q">{html.escape(q)}</h2></summary><p>{sub(a,code)}</p></details>' for q,a in s['faq'])+'</div>')
     if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'] if pid in C[code]['pages'])+'</div>')
-    if s.get('cta'): o.append(cta(u))
+    if s.get('cta') and not guide: o.append(cta(u))
     return '<section>'+''.join(o)+'</section>'
 def lodging_images():
     # VacationRental.image: absolute URLs of our own house photos only (facts.json jsonld_images; no logos, no blurred/excluded shots).
@@ -176,19 +203,22 @@ def page(l,pid):
              f'<p>{html.escape(p["lead"])}</p><p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u)}</div></div><div class="wrap">')
     else:
         pre=preload(p["cover"][0],"(min-width:900px) 900px, 100vw") if p.get('cover') else ''
-        top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')+(f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,"(min-width:900px) 900px, 100vw")}</figure>' if p.get('cover') else '')
-    body=''.join(section(s,code,u) for s in p['sections'])
+        booktop='' if pid=='booking' else f'<p class="topbook"><a class="btn b1" href="{url(code,"booking")}">{html.escape(dict(c["nav"]).get("booking",u.get("book_airbnb","")))}</a></p>'
+        top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')+booktop+(f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,"(min-width:900px) 900px, 100vw")}</figure>' if p.get('cover') else '')
+    guide=is_guide(pid)
+    body=''.join(section(s,code,u,guide) for s in p['sections'])+(related_block(code,pid,c)+book_box(code,c) if guide else '')
     return f'''<!doctype html><html lang="{hl}" dir="{dirn}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{pre}
 <title>{html.escape(title)}</title><meta name="description" content="{html.escape(p['description'])}"><link rel="canonical" href="{canon}">{alts}
 <meta property="og:type" content="website"><meta property="og:site_name" content="ASCON LIVING"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(p['description'])}"><meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/img/og.jpg"><meta property="og:locale" content="{hl.replace('-','_')}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{BASE}/favicon.png"><meta name="theme-color" content="#14233f">{fontlink}<style>{css}</style>{ldh}</head>
-<body><a class="skip" href="#main">{u['skip']}</a><header><div class="bar"><a class="brand" href="{url(code,'home')}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm['w']}" height="{lm['h']}" alt="ASCON LIVING logo">ASCON LIVING</a>{picker}</div><nav class="main" aria-label="Main">{nav}</nav></header>
+<body><a class="skip" href="#main">{u['skip']}</a><header><div class="bar"><a class="brand" href="{url(code,'home')}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm['w']}" height="{lm['h']}" alt="ASCON LIVING logo" decoding="async">ASCON LIVING</a>{picker}</div><nav class="main" aria-label="Main">{nav}</nav></header>
 <main id="main">{top}{body}</div></main>
 <footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf['w']}" height="{lf['h']}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u['motto']}</p></div>
 <div><strong>{u['address_label']}</strong><br>{F['street']}<br>{u.get('locality',F['locality'])}, Vietnam</div>
 <div><strong>{u['contact_label']}</strong><br><a href="tel:{F['phone_e164']}">{F['phone']}</a><br><a href="mailto:{F['email']}">{F['email']}</a><br><a href="{F['wa']}" rel="noopener">WhatsApp</a> · <a href="{F['zalo']}" rel="noopener">Zalo</a>{u.get('extra_contact','')}</div>
 <div><strong>{u['more_label']}</strong><br>{legal(code)}<br><a href="{F['guide']}" rel="noopener">{u['guest_guide']}</a></div></div></footer>
-<a class="fab" href="{F['wa']}" rel="noopener" aria-label="{u['whatsapp']}">{WA_SVG}</a></body></html>'''
+<a class="fab" href="{F['wa']}" rel="noopener" aria-label="{u['whatsapp']}">{WA_SVG}</a>
+<div class="bookbar"><a class="btn b1" href="{F['wa'] if pid=='booking' else url(code,'booking')}"{' rel="noopener"' if pid=='booking' else ''}>{html.escape(u['whatsapp'] if pid=='booking' else dict(c['nav']).get('booking',u.get('book_airbnb','')))}</a></div></body></html>'''
 def main():
     for code,*_ in LANGS: shutil.rmtree(f'{OUT}/{code}',ignore_errors=True)
     shutil.rmtree(f'{OUT}/assets/flags',ignore_errors=True); shutil.copytree(f'{ROOT}/tools/flags',f'{OUT}/assets/flags')

@@ -37,6 +37,16 @@ footer{background:var(--n);color:#d9deea;margin-top:48px}footer .wrap{max-width:
 footer a{color:#fff}footer img{height:90px;width:auto;border-radius:0}
 .fab{position:fixed;bottom:16px;inset-inline-end:16px;z-index:6;width:56px;height:56px;border-radius:50%;background:#1fa855;display:grid;place-items:center;box-shadow:0 6px 20px rgba(0,0,0,.25)}
 .fab svg{width:30px;height:30px;fill:#fff}
+.bookbox{background:#fff;border:2px solid var(--n);border-radius:var(--r);padding:16px 18px;margin:28px 0}
+.bookbox p{margin:.35em 0}
+.topbook{margin:8px 0 4px}
+.bookbar{display:none}
+@media(max-width:899px){
+.bookbar{display:flex;position:fixed;bottom:0;inset-inline:0;z-index:7;background:#fff;border-top:1px solid #e8e3da;padding:8px 12px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -4px 16px rgba(20,35,63,.08)}
+.bookbar .btn{flex:1;text-align:center;margin:0}
+.fab{bottom:76px}
+body{padding-bottom:72px}
+}
 @media(min-width:900px){.hero{min-height:86vh}}
 [lang=ur] body,[lang=ur] h1,[lang=ur] h2{line-height:2.1}[lang=ur] h1,[lang=ur] h2,[lang=ur] h3{font-family:var(--ff)}
 .tbl{overflow-x:auto}.tbl table{width:100%;border-collapse:collapse;font-size:.95rem}.tbl th,.tbl td{text-align:start;vertical-align:top;padding:10px 12px;border-bottom:1px solid #e3e6ec}.tbl th{width:34%;color:var(--n);font-weight:600}
