@@ -6,7 +6,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "rooftop-dining-table-rattan-seats"
  },
  "roof-day": {
   "w": 1440,
@@ -15,7 +16,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "rooftop-daytime-rattan-sofa"
  },
  "roof-night": {
   "w": 1440,
@@ -24,7 +26,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "rooftop-evening-string-lights"
  },
  "roof-evening": {
   "w": 1440,
@@ -33,7 +36,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "rooftop-evening-rattan-sofa"
  },
  "roof-evening-2": {
   "w": 1440,
@@ -42,15 +46,17 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "rooftop-evening-dining-under-awning"
  },
  "roof-skyline": {
-  "w": 1360,
-  "h": 752,
+  "w": 960,
+  "h": 531,
   "widths": [
    480,
    960
-  ]
+  ],
+  "file": "rooftop-night-city-skyline"
  },
  "roof-bbq": {
   "w": 1440,
@@ -59,7 +65,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "rooftop-black-barrel-grill"
  },
  "living": {
   "w": 1440,
@@ -68,7 +75,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "living-room-white-l-shaped-sofa"
  },
  "living-2": {
   "w": 1440,
@@ -77,7 +85,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "living-room-sofa-cushions-and-plant"
  },
  "living-tv": {
   "w": 1440,
@@ -86,7 +95,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "living-room-television-fluted-wall"
  },
  "living-3": {
   "w": 1440,
@@ -95,7 +105,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "living-room-glass-doors-grey-curtains"
  },
  "kitchen": {
   "w": 1440,
@@ -104,7 +115,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "kitchen-dark-cabinets-dining-table"
  },
  "kitchen-dining": {
   "w": 1440,
@@ -113,7 +125,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "dining-table-cream-chairs-glass-doors"
  },
  "kitchen-2": {
   "w": 1440,
@@ -122,7 +135,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "kitchen-l-shaped-counter-cooktop"
  },
  "kitchen-3": {
   "w": 1440,
@@ -131,15 +145,17 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "kitchen-kettle-toaster-microwave-shelf"
  },
  "kitchen-fridge": {
-  "w": 1080,
-  "h": 1440,
+  "w": 960,
+  "h": 1280,
   "widths": [
    480,
    960
-  ]
+  ],
+  "file": "kitchen-open-side-by-side-refrigerator"
  },
  "kitchen-dishes": {
   "w": 1440,
@@ -148,7 +164,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "kitchen-cabinet-plates-and-bowls"
  },
  "kitchen-rice": {
   "w": 1440,
@@ -157,7 +174,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "kitchen-rice-cooker-on-worktop"
  },
  "kitchen-micro": {
   "w": 1440,
@@ -166,7 +184,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "kitchen-microwave-on-shelf"
  },
  "bed1": {
   "w": 1440,
@@ -175,7 +194,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "master-bedroom-bed-and-windows"
  },
  "bed1-2": {
   "w": 1440,
@@ -184,7 +204,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "master-bedroom-dressing-table"
  },
  "bed1-3": {
   "w": 1440,
@@ -193,7 +214,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "master-bedroom-television-and-fan"
  },
  "bed2": {
   "w": 1440,
@@ -202,7 +224,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "second-bedroom-bed-and-painting"
  },
  "bed2-2": {
   "w": 1440,
@@ -211,7 +234,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "second-bedroom-window-television-fan"
  },
  "bed2-3": {
   "w": 1440,
@@ -220,7 +244,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "second-bedroom-leaf-art-and-television"
  },
  "bed3": {
   "w": 1440,
@@ -229,7 +254,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "third-bedroom-bed-fluted-panels"
  },
  "bed3-2": {
   "w": 1440,
@@ -238,7 +264,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "third-bedroom-television-and-wardrobe"
  },
  "bed3-3": {
   "w": 1440,
@@ -247,7 +274,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "third-bedroom-open-wardrobe-linens"
  },
  "bath": {
   "w": 1440,
@@ -256,7 +284,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "bathroom-black-shower-cream-tiles"
  },
  "bath-2": {
   "w": 1440,
@@ -265,7 +294,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "bathroom-round-mirror-white-towels"
  },
  "bath-3": {
   "w": 1440,
@@ -274,7 +304,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "bathroom-white-towels-on-rail"
  },
  "bath-4": {
   "w": 1440,
@@ -283,7 +314,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "bathroom-black-shower-head-shelf"
  },
  "bath-5": {
   "w": 1440,
@@ -292,7 +324,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "bathroom-wall-mounted-hair-dryer"
  },
  "bath-6": {
   "w": 1440,
@@ -301,7 +334,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "bathroom-glass-shelf-cups"
  },
  "ent": {
   "w": 1440,
@@ -310,7 +344,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "entertainment-room-sectional-sofa"
  },
  "ent-karaoke": {
   "w": 1440,
@@ -319,7 +354,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "karaoke-room-green-light-sofa"
  },
  "ent-cinema": {
   "w": 1440,
@@ -328,7 +364,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "entertainment-room-projector-screen"
  },
  "ent-tv": {
   "w": 1440,
@@ -337,7 +374,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "entertainment-room-wall-television-sofa"
  },
  "ent-mics": {
   "w": 1440,
@@ -346,7 +384,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "karaoke-microphones-on-coffee-table"
  },
  "ent-ps": {
   "w": 1440,
@@ -355,7 +394,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "wall-mounted-game-console-controllers"
  },
  "hall-desk": {
   "w": 1440,
@@ -364,7 +404,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "anteroom-desk-and-office-chair"
  },
  "hall-landing": {
   "w": 1440,
@@ -373,7 +414,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "anteroom-doors-and-desk"
  },
  "hall-vanity": {
   "w": 1440,
@@ -382,7 +424,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "anteroom-dressing-table-round-mirror"
  },
  "hall-window": {
   "w": 1440,
@@ -391,7 +434,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "hallway-window-grey-curtains"
  },
  "hall-prints": {
   "w": 1440,
@@ -400,7 +444,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "framed-crane-prints-above-plant"
  },
  "hall-entry": {
   "w": 1440,
@@ -409,7 +454,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "hallway-dark-doors-shoe-rack"
  },
  "hall-shoes": {
   "w": 1440,
@@ -418,7 +464,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "entrance-shoe-rack-slippers"
  },
  "hall-stairs-2": {
   "w": 1440,
@@ -427,7 +474,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "hallway-stairs-black-railing"
  },
  "hall-lamp": {
   "w": 1440,
@@ -436,7 +484,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "hallway-ceiling-light"
  },
  "kitchen-counter": {
   "w": 1440,
@@ -445,7 +494,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "kitchen-patterned-tile-backsplash"
  },
  "living-tvwall": {
   "w": 1440,
@@ -454,7 +504,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "living-room-television-and-sideboard"
  },
  "bed1-vanity": {
   "w": 1440,
@@ -463,7 +514,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "master-bedroom-vanity-round-mirror"
  },
  "bed1-charge": {
   "w": 1440,
@@ -472,7 +524,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "master-bedroom-bedside-outlets"
  },
  "bed1-wardrobe": {
   "w": 1440,
@@ -481,7 +534,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "master-bedroom-open-wardrobe"
  },
  "bed2-wardrobe": {
   "w": 960,
@@ -489,7 +543,8 @@
   "widths": [
    480,
    960
-  ]
+  ],
+  "file": "second-bedroom-open-wardrobe"
  },
  "bed3-wardrobe": {
   "w": 1440,
@@ -498,7 +553,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "third-bedroom-mirrored-wardrobe"
  },
  "bath-dryer": {
   "w": 1440,
@@ -507,7 +563,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "bathroom-hair-dryer-white-vanity"
  },
  "ent-led": {
   "w": 1440,
@@ -516,7 +573,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "entertainment-room-television-light-strips"
  },
  "workspace-2": {
   "w": 1440,
@@ -525,15 +583,17 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "framed-crane-prints-above-plant"
  },
  "kitchen-laundry": {
-  "w": 1080,
-  "h": 1440,
+  "w": 960,
+  "h": 1280,
   "widths": [
    480,
    960
-  ]
+  ],
+  "file": "kitchen-front-loading-washing-machine"
  },
  "kitchen-laundry-2": {
   "w": 1440,
@@ -542,7 +602,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "laundry-bags-beside-kitchen"
  },
  "hall": {
   "w": 1440,
@@ -551,7 +612,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "anteroom-two-black-doors"
  },
  "stairs": {
   "w": 1440,
@@ -560,7 +622,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "granite-stairs-black-metal-railing"
  },
  "entrance": {
   "w": 1440,
@@ -569,7 +632,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "entrance-hall-staircase-keypad"
  },
  "hero": {
   "w": 1440,
@@ -578,7 +642,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "rooftop-terrace-river-skyline-dusk"
  },
  "roof-terrace": {
   "w": 1440,
@@ -587,7 +652,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "rooftop-terrace-river-skyline-dusk"
  },
  "river-balcony": {
   "w": 1440,
@@ -596,7 +662,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "terrace-railing-plants-and-city"
  },
  "river-city": {
   "w": 1440,
@@ -605,7 +672,8 @@
    480,
    960,
    1440
-  ]
+  ],
+  "file": "river-view-toward-city-skyline"
  },
  "logo-mark": {
   "w": 93,
@@ -621,7 +689,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "app-category"
  },
  "app-place": {
   "w": 390,
@@ -629,7 +698,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "app-place"
  },
  "app-map": {
   "w": 390,
@@ -637,7 +707,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "app-map"
  },
  "app-practical": {
   "w": 390,
@@ -645,14 +716,16 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "app-practical"
  },
  "app-place@de": {
   "w": 366,
   "h": 445,
   "widths": [
    366
-  ]
+  ],
+  "file": "app-place@de"
  },
  "app-category@de": {
   "w": 390,
@@ -660,14 +733,16 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "app-category@de"
  },
  "app-practical@de": {
   "w": 366,
   "h": 1036,
   "widths": [
    366
-  ]
+  ],
+  "file": "app-practical@de"
  },
  "app-map@de": {
   "w": 390,
@@ -675,7 +750,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "app-map@de"
  },
  "tg-welcome": {
   "w": 390,
@@ -683,7 +759,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-welcome"
  },
  "tg-welcome@de": {
   "w": 390,
@@ -691,7 +768,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-welcome@de"
  },
  "tg-welcome@vi": {
   "w": 390,
@@ -699,7 +777,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-welcome@vi"
  },
  "tg-welcome@ko": {
   "w": 390,
@@ -707,7 +786,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-welcome@ko"
  },
  "tg-welcome@ja": {
   "w": 390,
@@ -715,7 +795,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-welcome@ja"
  },
  "tg-welcome@zh": {
   "w": 390,
@@ -723,7 +804,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-welcome@zh"
  },
  "tg-welcome@fr": {
   "w": 390,
@@ -731,231 +813,8 @@
   "widths": [
    390,
    780
-  ]
- },
- "tg-picker": {
-  "w": 390,
-  "h": 396,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-picker@de": {
-  "w": 390,
-  "h": 396,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-picker@vi": {
-  "w": 390,
-  "h": 396,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-picker@ko": {
-  "w": 390,
-  "h": 396,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-picker@ja": {
-  "w": 390,
-  "h": 396,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-picker@zh": {
-  "w": 390,
-  "h": 396,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-picker@fr": {
-  "w": 390,
-  "h": 396,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-categories": {
-  "w": 390,
-  "h": 552,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-categories@de": {
-  "w": 390,
-  "h": 552,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-categories@vi": {
-  "w": 390,
-  "h": 552,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-categories@ko": {
-  "w": 390,
-  "h": 454,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-categories@ja": {
-  "w": 390,
-  "h": 454,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-categories@zh": {
-  "w": 390,
-  "h": 454,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-categories@fr": {
-  "w": 390,
-  "h": 454,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-map": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-map@de": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-map@vi": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-map@ko": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-map@ja": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-map@zh": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-map@fr": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-practical": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-practical@de": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-practical@vi": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-practical@ko": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-practical@ja": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-practical@zh": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-practical@fr": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
+  ],
+  "file": "tg-welcome@fr"
  },
  "tg-welcome@es": {
   "w": 390,
@@ -963,39 +822,8 @@
   "widths": [
    390,
    780
-  ]
- },
- "tg-picker@es": {
-  "w": 390,
-  "h": 396,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-categories@es": {
-  "w": 390,
-  "h": 424,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-map@es": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-practical@es": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
+  ],
+  "file": "tg-welcome@es"
  },
  "tg-welcome@pt": {
   "w": 390,
@@ -1003,39 +831,8 @@
   "widths": [
    390,
    780
-  ]
- },
- "tg-picker@pt": {
-  "w": 390,
-  "h": 396,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-categories@pt": {
-  "w": 390,
-  "h": 424,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-map@pt": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
- },
- "tg-practical@pt": {
-  "w": 390,
-  "h": 844,
-  "widths": [
-   390,
-   780
-  ]
+  ],
+  "file": "tg-welcome@pt"
  },
  "tg-welcome@ar": {
   "w": 390,
@@ -1043,7 +840,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-welcome@ar"
  },
  "tg-welcome@zh-tw": {
   "w": 390,
@@ -1051,7 +849,89 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-welcome@zh-tw"
+ },
+ "tg-picker": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-picker"
+ },
+ "tg-picker@de": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-picker@de"
+ },
+ "tg-picker@vi": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-picker@vi"
+ },
+ "tg-picker@ko": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-picker@ko"
+ },
+ "tg-picker@ja": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-picker@ja"
+ },
+ "tg-picker@zh": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-picker@zh"
+ },
+ "tg-picker@fr": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-picker@fr"
+ },
+ "tg-picker@es": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-picker@es"
+ },
+ "tg-picker@pt": {
+  "w": 390,
+  "h": 396,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-picker@pt"
  },
  "tg-picker@ar": {
   "w": 390,
@@ -1059,7 +939,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-picker@ar"
  },
  "tg-picker@zh-tw": {
   "w": 390,
@@ -1067,7 +948,89 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-picker@zh-tw"
+ },
+ "tg-categories": {
+  "w": 390,
+  "h": 552,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-categories"
+ },
+ "tg-categories@de": {
+  "w": 390,
+  "h": 552,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-categories@de"
+ },
+ "tg-categories@vi": {
+  "w": 390,
+  "h": 552,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-categories@vi"
+ },
+ "tg-categories@ko": {
+  "w": 390,
+  "h": 454,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-categories@ko"
+ },
+ "tg-categories@ja": {
+  "w": 390,
+  "h": 454,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-categories@ja"
+ },
+ "tg-categories@zh": {
+  "w": 390,
+  "h": 454,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-categories@zh"
+ },
+ "tg-categories@fr": {
+  "w": 390,
+  "h": 454,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-categories@fr"
+ },
+ "tg-categories@es": {
+  "w": 390,
+  "h": 424,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-categories@es"
+ },
+ "tg-categories@pt": {
+  "w": 390,
+  "h": 424,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-categories@pt"
  },
  "tg-categories@ar": {
   "w": 390,
@@ -1075,7 +1038,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-categories@ar"
  },
  "tg-categories@zh-tw": {
   "w": 390,
@@ -1083,7 +1047,89 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-categories@zh-tw"
+ },
+ "tg-map": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-map"
+ },
+ "tg-map@de": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-map@de"
+ },
+ "tg-map@vi": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-map@vi"
+ },
+ "tg-map@ko": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-map@ko"
+ },
+ "tg-map@ja": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-map@ja"
+ },
+ "tg-map@zh": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-map@zh"
+ },
+ "tg-map@fr": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-map@fr"
+ },
+ "tg-map@es": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-map@es"
+ },
+ "tg-map@pt": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-map@pt"
  },
  "tg-map@ar": {
   "w": 390,
@@ -1091,7 +1137,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-map@ar"
  },
  "tg-map@zh-tw": {
   "w": 390,
@@ -1099,7 +1146,89 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-map@zh-tw"
+ },
+ "tg-practical": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-practical"
+ },
+ "tg-practical@de": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-practical@de"
+ },
+ "tg-practical@vi": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-practical@vi"
+ },
+ "tg-practical@ko": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-practical@ko"
+ },
+ "tg-practical@ja": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-practical@ja"
+ },
+ "tg-practical@zh": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-practical@zh"
+ },
+ "tg-practical@fr": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-practical@fr"
+ },
+ "tg-practical@es": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-practical@es"
+ },
+ "tg-practical@pt": {
+  "w": 390,
+  "h": 844,
+  "widths": [
+   390,
+   780
+  ],
+  "file": "tg-practical@pt"
  },
  "tg-practical@ar": {
   "w": 390,
@@ -1107,7 +1236,8 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-practical@ar"
  },
  "tg-practical@zh-tw": {
   "w": 390,
@@ -1115,6 +1245,7 @@
   "widths": [
    390,
    780
-  ]
+  ],
+  "file": "tg-practical@zh-tw"
  }
 }
