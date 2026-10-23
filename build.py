@@ -63,6 +63,8 @@ import sys as _s; _s.path.insert(0,f'{ROOT}/tools'); import laundry as _laundry
 import house_alts
 FONTS=json.load(open(f'{ROOT}/tools/fonts/metrics.json')) if os.path.exists(f'{ROOT}/tools/fonts/metrics.json') else {}
 C={k:_laundry.apply(k,v) for k,v in C.items()}
+import owner_facts as _owner
+C={k:_owner.apply(k,v) for k,v in C.items()}
 # home-page SEO wording overrides (tools/seo_overrides.json): survive content re-imports
 _SEO=json.load(open(f'{ROOT}/tools/seo_overrides.json'))
 for _l,_o in _SEO.items():
