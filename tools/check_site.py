@@ -3,7 +3,10 @@ import re,os,glob,json,html,sys
 D=sys.argv[1] if len(sys.argv)>1 else 'docs'
 _F=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','facts.json')))
 B=_F.get('base_path','').rstrip('/'); SITE=_F['site_url'].rstrip('/')
-bad=re.compile(r'(?i)\bvilla\b|\bpool\b|PS5|Hisense|Optoma|\bFPT\b|\bLG\b|Landmark 81|Agoda|Vrbo|halal|smart lock|smoke detector|Rauchmelder|first.aid|Erste.Hilfe|parking|Parkpl|three balcon|drei Balkon|password.protected|passwortgesch|exclusive for ASCON|Exklusiv für ASCON|luggage storage|Gepäckaufbewahrung|50 EUR|50 €|€50|card lock|Kartenschloss|fire.extinguisher|Feuerlöscher')
+bad=re.compile(r'(?i)\bvilla\b|\bpool\b|Hisense|\bFPT\b|\bLG\b|Landmark 81|Agoda|Vrbo|halal|smart lock|smoke detector|Rauchmelder|first.aid|Erste.Hilfe|parking|Parkpl|three balcon|drei Balkon|password.protected|passwortgesch|exclusive for ASCON|Exklusiv für ASCON|luggage storage|Gepäckaufbewahrung|50 EUR|50 €|€50|card lock|Kartenschloss|fire.extinguisher|Feuerlöscher')
+# Owner confirmed PS5 and the Optoma 4K projector for the website. Those names stay in body copy.
+# They must not be headline keywords: title and h1 lead with the accommodation, not the gear.
+headban=re.compile(r'(?i)karaoke|karaoké|karaokê|play\s*station|\bps5\b|optoma|노래방|가라오케|カラオケ|卡拉\s*OK|\bKTV\b|คาราโอเกะ|كاريوكي|كاراوكي|караоке|कराओके|ਕਰਾਓਕੇ|کراؤکے|noraebang|\bgaming\b|ゲーミング|게임')
 # KO/JA/ZH (+TH/MS/ID) equivalents: villa, parking, pool, safety devices, lyrics, minutes, Landmark 81, Phu My Hung, card/smart lock, pets, luggage, app password, EUR
 bad2=re.compile(r'빌라|ヴィラ|別墅|别墅|주차|駐車|パーキング|停车|泊车|수영장|プール|泳池|游泳池|화재경보기|구급상자|소화기|비상구|비상등|火災警報器|救急箱|消火器|非常口|非常灯|烟雾报警器|急救箱|灭火器|安全出口|应急灯|가사|歌詞|歌词|'
  r'\d+\s*(?:분|分钟|分(?![子析配野別]))|랜드마크|ランドマーク|地标|푸미흥|フーミーフン|富美兴|카드키|カードキー|房卡|스마트 ?도어락|スマートロック|智能锁|반려동물|(?<!カー)ペット|宠物|짐 ?보관|行李寄存|'
@@ -45,6 +48,9 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     t=re.search(r'<title>(.*?)</title>',s); d=re.search(r'<meta name="description" content="(.*?)"',s)
     cj=any(c in f for c in CJKL); L=(lambda x:width(x)) if cj else (lambda x:sum(1 for ch in x if unicodedata.category(ch)!='Mn')) if '/th/' in f else len; tl,dl=(64,160) if cj else (60,160)
     if t and L(html.unescape(t.group(1)))>tl: errs.append((f,'title',L(html.unescape(t.group(1)))))
+    if t and headban.search(html.unescape(t.group(1))): errs.append((f,'headline',html.unescape(t.group(1))[:90]))
+    h1m=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S)
+    if h1m and headban.search(html.unescape(re.sub('<[^>]+>','',h1m.group(1)))): errs.append((f,'headline-h1',html.unescape(re.sub('<[^>]+>','',h1m.group(1)))[:90]))
     if d and L(html.unescape(d.group(1)))>dl: errs.append((f,'desc',L(html.unescape(d.group(1)))))
     # every meta description: at most 155 characters (Market Researcher / Website Ops, 19 Oct 2026)
     if d and len(html.unescape(d.group(1)))>155: errs.append((f,'desc>155',len(html.unescape(d.group(1)))))
@@ -102,7 +108,7 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
             fs=r.get('floorSize')
             if fs and not (isinstance(fs.get('value'),(int,float)) and fs.get('unitCode')=='MTK'): errs.append((f,'vr-floor',r.get('name')))
 # LCP hero/cover: fetchpriority=high, not lazy, and a matching <link rel=preload> in <head> (same srcset/sizes -> single download)
-for f in glob.glob(f'{D}/*/**/index.html',recursive=True):
+for f in glob.glob(f'{D}/**/index.html',recursive=True):
     s=open(f).read()
     if 'noindex' in s: continue
     m=re.search(r'<img [^>]*fetchpriority="high"[^>]*>',s)
@@ -127,7 +133,7 @@ _ds=_ilu.module_from_spec(_sp); _sp.loader.exec_module(_ds)
 # run as library: collect hits
 _hits=[]
 import html as _html
-for f in sorted(glob.glob(f'{D}/*/**/index.html',recursive=True)):
+for f in sorted(glob.glob(f'{D}/**/index.html',recursive=True)):
     s=open(f).read()
     if 'noindex' in s: continue
     t=_html.unescape(re.search(r'<title>(.*?)</title>',s).group(1))

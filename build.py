@@ -81,6 +81,7 @@ for _l,_pp in _GP.items():
 import seo_market as _seo_market
 _seo_market.apply(C)
 import site_copy as _copy
+import front
 # Language-switcher flags: self-hosted SVGs from flag-icons (MIT, tools/flags/LICENSE), copied to docs/assets/flags on every build.
 # Not emoji: Windows does not render emoji flags. pa is Gurmukhi (Indian Punjab) -> IN; ur -> PK.
 FLAG={'en':'gb','de':'de','vi':'vn','zh':'cn','zh-tw':'tw','ko':'kr','ja':'jp','th':'th','ms':'my','id':'id','ru':'ru','fr':'fr','es':'es','pt':'br','it':'it','hi':'in','ur':'pk','pa':'in','nl':'nl','pl':'pl','sv':'se','tr':'tr','ar':'sa'}
@@ -136,8 +137,9 @@ def stem(name):
     return IMG[name].get('file') or house_alts.SLUG.get(name) or name
 def alt_of(name, code, fallback):
     row=house_alts.ALTS.get(name)
-    if not row: return fallback
-    return row.get(code) or row.get('en') or fallback
+    alt=(row.get(code) or row.get('en') or fallback) if row else fallback
+    if code=='ko': alt=alt.replace('가라오케','노래방')
+    return alt
 def pic(name,alt,eager=False,sizes='(min-width:900px) 380px, 100vw', code='en'):
     m=IMG[name]; ws=m['widths']; src=f'{BASE}/assets/img/{stem(name)}-'
     webp=', '.join(f'{src}{w}.webp {w}w' for w in ws)
@@ -210,11 +212,74 @@ def font_css(spec):
         out.append(f'@font-face{{font-family:"{fam}";font-style:normal;font-weight:{weight};font-display:swap;src:url({BASE}/assets/fonts/{fn}) format("woff2")}}')
         out.append(f'@font-face{{font-family:"{fb}";font-style:normal;font-weight:{weight};font-display:swap;src:{locs};ascent-override:{asc};descent-override:{desc};line-gap-override:{gap};size-adjust:100%}}')
     return ''.join(out)
-def cta(u):
-    return (f'<p><a class="btn b1" href="{F["airbnb"]}" rel="noopener">{u["book_airbnb"]}</a>'
-            f'<a class="btn b2" href="{F["trip"]}" rel="noopener">{u["book_trip"]}</a>'
-            f'<a class="btn wa" href="{F["wa"]}" rel="noopener">{u["whatsapp"]}</a>'
-            f'<a class="btn zl" href="{F["zalo"]}" rel="noopener">{u["zalo"]}</a></p>')
+# Agoda is not a live booking link. Owner rule: only Airbnb (1789707041970520479)
+# and Trip.com (136163015) until the owner supplies a real Agoda URL and approves it.
+def cta(u, code):
+    air=(F['airbnb'], u['book_airbnb'])
+    trip=(F['trip'], u['book_trip'])
+    pair=[trip, air] if code in front.TRIP_FIRST else [air, trip]
+    books=''.join(f'<a class="btn primary{" second" if n else ""}" href="{href}" rel="noopener">{html.escape(label)}</a>' for n,(href,label) in enumerate(pair))
+    contacts=(f'<a class="btn channel wa" href="{F["wa"]}" rel="noopener">{html.escape(u["whatsapp"])}</a>'
+              f'<a class="btn channel zl" href="{F["zalo"]}" rel="noopener">{html.escape(u["zalo"])}</a>')
+    reach=(f'<p class="reach"><a href="tel:{F["phone_e164"]}">{F["phone"]}</a>'
+           f' · <a href="mailto:{F["email"]}">{F["email"]}</a></p>')
+    return (f'<p class="kicker">{html.escape(front.KICKER.get(code, front.KICKER["en"]))}</p>'
+            f'<div class="book-primary">{books}</div><div class="channels">{contacts}</div>{reach}')
+def aria(code):
+    return front.ARIA.get(code, front.ARIA['en'])
+def carousel(keys, code, kind, lead=False):
+    prev,nxt,_close=aria(code)
+    slides=[]
+    for i,key in enumerate(keys):
+        alt=alt_of(key, code, 'ASCON LIVING')
+        eager=(kind=='hero' or lead) and i==0
+        sizes='100vw' if kind=='hero' else '(min-width:900px) 900px, 100vw'
+        slides.append(f'<div class="car-slide" data-index="{i}"><figure>{pic(key, alt, eager, sizes, code)}<figcaption>{html.escape(alt)}</figcaption></figure></div>')
+    thumbs=''
+    if kind=='gallery':
+        bits=[]
+        for i,key in enumerate(keys):
+            m=IMG[key]; w=m['widths'][0]
+            bits.append(f'<button type="button" data-go="{i}" aria-label="{i+1}"><img src="{BASE}/assets/img/{stem(key)}-{w}.webp" alt="" loading="lazy" decoding="async"></button>')
+        thumbs=f'<div class="car-thumbs">{"".join(bits)}</div>'
+    auto=' data-auto="5500"' if kind=='hero' else ''
+    light=' data-lightbox="1"' if kind in ('gallery','mini') else ''
+    count=f'<p class="car-count">1 / {len(keys)}</p>' if kind=='gallery' else ''
+    return (f'<div class="carousel {kind}" data-carousel{auto}{light} tabindex="0">'
+            f'<div class="car-viewport"><div class="car-track">{"".join(slides)}</div></div>'
+            f'<button type="button" class="car-btn prev" aria-label="{html.escape(prev)}"></button>'
+            f'<button type="button" class="car-btn next" aria-label="{html.escape(nxt)}"></button>'
+            f'<div class="car-dots"></div>{count}{thumbs}</div>')
+_ICON={
+ 'house':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"/></svg>',
+ 'bed':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18V8m0 6h18v4M3 14h10a4 4 0 0 1 4-4h4"/></svg>',
+ 'size':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4"/></svg>',
+ 'roof':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 14 12 6l9 8M6 13v7h12v-7"/></svg>',
+ 'river':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2M3 14c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2"/></svg>',
+}
+def facts_html(code):
+    rows=front.FACTS.get(code, front.FACTS['en'])
+    icons=('house','bed','size','roof','river')
+    cells=''.join(f'<li class="fact">{_ICON[icons[i]]}<strong>{html.escape(a)}</strong><span>{html.escape(b)}</span></li>' for i,(a,b) in enumerate(rows))
+    return f'<ul class="facts">{cells}</ul>'
+def reviews_html(code):
+    h=front.REV_H.get(code, front.REV_H['en'])
+    q=html.escape(front.QUOTE)
+    card=f'<article class="review-card"><p class="stars" aria-hidden="true">☆☆☆☆☆</p><p class="review-quote">{q}</p><p class="review-meta">[GUEST NAME] · Google · [GOOGLE RATING]</p></article>'
+    note='Placeholder — add real Google reviews only. No quote, name or star count on this page is real yet.'
+    return (f'<section class="reviews" id="guest-reviews"><h2>{html.escape(h)}</h2>'
+            f'<p class="rating-slot">[GOOGLE RATING] · [REVIEW COUNT]</p>'
+            f'<p class="note">{html.escape(note)} {q}</p>'
+            f'<div class="review-grid">{card}{card}{card}</div></section>')
+def gallery_html(code):
+    h=front.GALLERY_H.get(code, front.GALLERY_H['en'])
+    return f'<section class="gallery-block" id="gallery"><h2>{html.escape(h)}</h2>{carousel(front.gallery_keys(), code, "gallery")}</section>'
+def lightbox(code):
+    _prev,nxt,close=aria(code)
+    return (f'<div class="lb" hidden><button type="button" class="lb-x" aria-label="{html.escape(close)}">×</button>'
+            f'<button type="button" class="lb-prev car-btn prev" aria-label="{html.escape(_prev)}"></button>'
+            f'<figure><img alt=""><figcaption></figcaption></figure>'
+            f'<button type="button" class="lb-next car-btn next" aria-label="{html.escape(nxt)}"></button></div>')
 def is_guide(pid): return pid=='guide' or pid=='travel-guide' or str(pid).startswith('guide-')
 def related_block(code,pid,c):
     ids=[p for p,_s in PAGES if is_guide(p) and p in c['pages']]
@@ -228,7 +293,7 @@ def book_box(code,c):
     sent=_copy.BOOK.get(code,_copy.BOOK['en'])
     label=dict(c['nav']).get('booking',c['ui'].get('book_airbnb',''))
     return f'<aside class="bookbox"><p>{html.escape(sent)}</p><p><a class="btn b1" href="{url(code,"booking")}">{html.escape(label)}</a></p></aside>'
-def section(s,code,u,guide=False):
+def section(s,code,u,guide=False,skip_imgs=False):
     o=[]
     if 'h2' in s:
         _ida=f' id="{s["_id"]}"' if s.get('_id') else ''
@@ -245,10 +310,13 @@ def section(s,code,u,guide=False):
         for p in bl.get('p',[]): o.append(f'<p>{sub(p,code)}</p>')
     if 'ul' in s: o.append('<ul class="chk">'+''.join(f'<li>{sub(x,code)}</li>' for x in s['ul'])+'</ul>')
     if 'table' in s: o.append('<div class="tbl"><table>'+''.join(f'<tr><th scope="row">{html.escape(k)}</th><td>{sub(v,code)}</td></tr>' for k,v in s['table'])+'</table></div>'+(f'<p class="note">{html.escape(s["table_note"])}</p>' if s.get('table_note') else ''))
-    if 'imgs' in s: o.append('<div class="grid">'+''.join(f'<figure>{pic(i[0]+"@"+code if i[0]+"@"+code in IMG else i[0],i[1],code=code)}<figcaption>{html.escape(i[2] if len(i)>2 and i[2] else i[1])}</figcaption></figure>' for i in s['imgs'])+'</div>')
+    if 'imgs' in s and not skip_imgs:
+        keys=[(i[0]+'@'+code if i[0]+'@'+code in IMG else i[0]) for i in s['imgs']]
+        if len(keys)>=2: o.append(carousel(keys, code, 'mini'))
+        else: o.append('<div class="grid">'+''.join(f'<figure>{pic(i[0]+"@"+code if i[0]+"@"+code in IMG else i[0],i[1],code=code)}<figcaption>{html.escape(i[2] if len(i)>2 and i[2] else i[1])}</figcaption></figure>' for i in s['imgs'])+'</div>')
     if 'faq' in s: o.append('<div class="faq">'+''.join(f'<details><summary><h2 class="q">{html.escape(q)}</h2></summary><p>{sub(a,code)}</p></details>' for q,a in s['faq'])+'</div>')
     if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'] if pid in C[code]['pages'])+'</div>')
-    if s.get('cta') and not guide: o.append(cta(u))
+    if s.get('cta') and not guide: o.append(cta(u, code))
     return '<section>'+''.join(o)+'</section>'
 def lodging_images():
     # VacationRental.image: absolute URLs of our own house photos only (facts.json jsonld_images; no logos, no blurred/excluded shots).
@@ -317,17 +385,30 @@ def page(l,pid):
     if any(s.get('faq') for s in p['sections']): ld.append({"@context":"https://schema.org","@type":"FAQPage","inLanguage":hl,"mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for s in p['sections'] for q,a in s.get('faq',[])]})
     ldh=''.join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False).replace('</','<\\/')+'</script>' for x in ld)
     navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else 'house' if pid.startswith('room-') else '')
-    nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(v)}</a>' for k,v in c['nav'])
+    _labels=dict(c['nav'])
+    nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(_labels[k])}</a>' for k in front.NAV if k in _labels)
     picker=('<details class="lang"><summary>🌐 '+flag(code,False)+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid] if pid in C[x[0]]["pages"] else ""}" hreflang="{x[1]}" lang="{x[1]}"'+(' aria-current="true"' if x[0]==code else '')+f'>{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
     lm=IMG['logo-mark']; lf=IMG['logo-full']
+    roomish=pid.startswith('room-') or pid=='rooftop'
+    room_keys=[]
+    if roomish:
+        if p.get('cover'): room_keys.append(p['cover'][0])
+        for _s in p['sections']:
+            for _im in _s.get('imgs') or []:
+                _k=_im[0].split('@')[0]
+                if _k not in room_keys: room_keys.append(_k)
+    use_room=roomish and len(room_keys)>=2
     if pid=='home':
-        pre=preload(p["hero"][0],"100vw")
-        top=(f'<div class="hero">{pic(p["hero"][0],p["hero"][1],True,"100vw",code)}<div class="in"><h1>{html.escape(p["h1"])}</h1>'
-             f'<p>{html.escape(p["lead"])}</p><p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u)}</div></div><div class="wrap">')
+        pre=preload(front.HERO[0],'100vw')
+        top=(f'<div class="hero-wrap">{carousel(front.HERO, code, "hero")}'
+             f'<div class="in"><h1>{html.escape(p["h1"])}</h1>'
+             f'<p>{html.escape(p["lead"])}</p><p class="price">{html.escape(front.PRICE.get(code, front.PRICE["en"]))}</p>'
+             f'<p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u, code)}</div></div><div class="wrap">')
     else:
-        pre=preload(p["cover"][0],"(min-width:900px) 900px, 100vw") if p.get('cover') else ''
-        booktop='' if pid=='booking' else f'<p class="topbook"><a class="btn b1" href="{url(code,"booking")}">{html.escape(dict(c["nav"]).get("booking",u.get("book_airbnb","")))}</a></p>'
-        top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')+booktop+(f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,"(min-width:900px) 900px, 100vw",code)}</figure>' if p.get('cover') else '')
+        pre=preload(room_keys[0] if use_room else p['cover'][0], '(min-width:900px) 900px, 100vw') if (use_room or p.get('cover')) else ''
+        booktop='' if pid=='booking' else f'<p class="topbook"><a class="btn primary" href="{url(code,"booking")}">{html.escape(dict(c["nav"]).get("booking",u.get("book_airbnb","")))}</a></p>'
+        visual=carousel(room_keys, code, 'mini', True) if use_room else (f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,"(min-width:900px) 900px, 100vw",code)}</figure>' if p.get('cover') else '')
+        top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')+booktop+visual
     guide=is_guide(pid)
     anchored=[]; toc=[]
     for s in p['sections']:
@@ -336,7 +417,9 @@ def page(l,pid):
             s['_id']=f's{len(toc)+1}'
             toc.append((s['_id'],s['h2']))
         anchored.append(s)
-    body=''.join(section(s,code,u,guide) for s in anchored)
+    body=''.join(section(s,code,u,guide,use_room) for s in anchored)
+    if pid=='home':
+        body=facts_html(code)+body+gallery_html(code)+reviews_html(code)
     if p.get('toc') and len(toc)>=2 and u.get('toc_label'):
         _tl=html.escape(u['toc_label'])
         body=f'<nav class="toc" aria-label="{_tl}"><p>{_tl}</p><ol>'+''.join(f'<li><a href="#{i}">{html.escape(t)}</a></li>' for i,t in toc)+'</ol></nav>'+body
@@ -363,7 +446,8 @@ def page(l,pid):
            f'<div><strong>{u["contact_label"]}</strong><br><a href="tel:{F["phone_e164"]}">{F["phone"]}</a><br><a href="mailto:{F["email"]}">{F["email"]}</a><br><a href="{F["wa"]}" rel="noopener">WhatsApp</a> · <a href="{F["zalo"]}" rel="noopener">Zalo</a>{u.get("extra_contact","")}</div>'
            f'<div><strong>{u["more_label"]}</strong><br>{legal(code)}<br><a href="{F["guide"]}" rel="noopener">{u["guest_guide"]}</a></div></div></footer>'
            f'<a class="fab" href="{F["wa"]}" rel="noopener" aria-label="{u["whatsapp"]}">{WA_SVG}</a>'
-           f'<div class="bookbar"><a class="btn b1" href="{F["wa"] if pid=="booking" else url(code,"booking")}"{" rel=\"noopener\"" if pid=="booking" else ""}>{html.escape(u["whatsapp"] if pid=="booking" else dict(c["nav"]).get("booking",u.get("book_airbnb","")))}</a></div></body>')
+           f'{lightbox(code)}'
+           f'<div class="bookbar"><a class="btn primary" href="{F["airbnb"]}" rel="noopener">{html.escape(front.KICKER.get(code, front.KICKER["en"]))}</a></div></body>')
     css=filter_css(CRIT, inner, hl, dirn)
     if font and font in FONTS:
         fam=FONTS[font]['family']
@@ -376,11 +460,48 @@ def page(l,pid):
     return minify_html(f'''<!doctype html><html lang="{hl}" dir="{dirn}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{pre}{fontlink}
 <title>{html.escape(title)}</title><meta name="description" content="{html.escape(p['description'])}"><link rel="canonical" href="{canon}">{alts}
 <meta property="og:type" content="website"><meta property="og:site_name" content="ASCON LIVING"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(p['description'])}"><meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/img/og.jpg"><meta property="og:locale" content="{hl.replace('-','_')}"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="{BASE}/favicon.png"><meta name="theme-color" content="#14233f"><style>{css}</style>{defer}{ldh}</head>
+<link rel="icon" href="{BASE}/favicon.png"><meta name="theme-color" content="#14233f"><style>{css}</style>{defer}{ldh}<script src="{BASE}/assets/site.js" defer></script></head>
+{inner}</html>''')
+def root_page():
+    code='en'; u=C['en']['ui']; hl,lname='en','English'
+    title='Homestay Ho Chi Minh City – Whole House, 3 Bedrooms'
+    h1='Homestay Ho Chi Minh City – Whole House, 3 Bedrooms Each With Private Bath'
+    desc='Whole-house homestay in Ho Chi Minh City: 3 bedrooms, each with a private bathroom, rooftop terrace and river view.'
+    lead='A whole house on the river in Ho Chi Minh City. Three floors, more than 250 m², and three bedrooms that each have their own bathroom.'
+    gear='The entertainment room has karaoke, a PS5 (PlayStation 5) with PlayStation Plus, gaming, a 4K cinema system (Optoma 4K projector) and Netflix.'
+    canon=SITE+'/'
+    alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/">' for x in PUB)+f'<link rel="alternate" hreflang="x-default" href="{canon}">'
+    labels=dict(C['en']['nav'])
+    nav=''.join(f'<a href="{url("en",k)}">{html.escape(labels[k])}</a>' for k in front.NAV if k in labels)
+    picker=('<details class="lang"><summary>🌐 '+flag('en',False)+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/" hreflang="{x[1]}" lang="{x[1]}">{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
+    lm=IMG['logo-mark']; lf=IMG['logo-full']
+    hero=(f'<div class="hero-wrap">{carousel(front.HERO, code, "hero")}<div class="in"><h1>{html.escape(h1)}</h1>'
+          f'<p>{html.escape(lead)}</p><p class="price">{html.escape(front.PRICE["en"])} · {html.escape(front.PRICE["de"])}</p>'
+          f'<p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u, code)}</div></div>')
+    body=facts_html(code)+f'<p class="lead">{html.escape(gear)}</p>'+gallery_html(code)+reviews_html(code)
+    ld={"@context":"https://schema.org","@type":"WebPage","name":title,"description":desc,"url":canon,"inLanguage":"en","isPartOf":{"@type":"WebSite","name":F['name'],"url":SITE+'/'}}
+    ldh='<script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False).replace('</','<\\/')+'</script>'
+    inner=(f'<body><a class="skip" href="#main">{u["skip"]}</a><header><div class="bar"><a class="brand" href="{canon}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm["w"]}" height="{lm["h"]}" alt="ASCON LIVING logo" decoding="async">ASCON LIVING</a>{picker}</div><nav class="main" aria-label="Main">{nav}</nav></header>'
+           f'<main id="main">{hero}<div class="wrap">{body}</div></main>'
+           f'<footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf["w"]}" height="{lf["h"]}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u["motto"]}</p></div>'
+           f'<div><strong>{u["address_label"]}</strong><br>{F["street"]}<br>{u.get("locality",F["locality"])}, Vietnam</div>'
+           f'<div><strong>{u["contact_label"]}</strong><br><a href="tel:{F["phone_e164"]}">{F["phone"]}</a><br><a href="mailto:{F["email"]}">{F["email"]}</a><br><a href="{F["wa"]}" rel="noopener">WhatsApp</a> · <a href="{F["zalo"]}" rel="noopener">Zalo</a></div>'
+           f'<div><strong>{u["more_label"]}</strong><br>{legal("en")}</div></div></footer>'
+           f'<a class="fab" href="{F["wa"]}" rel="noopener" aria-label="{u["whatsapp"]}">{WA_SVG}</a>{lightbox(code)}'
+           f'<div class="bookbar"><a class="btn primary" href="{F["airbnb"]}" rel="noopener">{html.escape(front.KICKER["en"])}</a></div></body>')
+    css=minify_css(filter_css(CRIT, inner, hl, 'ltr'))
+    defer=(f'<link rel="stylesheet" href="{BASE}/assets/site.css" media="print" onload="this.media=&#39;all&#39;">'
+           f'<noscript><link rel="stylesheet" href="{BASE}/assets/site.css"></noscript>')
+    pre=preload(front.HERO[0], '100vw')
+    return minify_html(f'''<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{pre}
+<title>{html.escape(title)}</title><meta name="description" content="{html.escape(desc)}"><link rel="canonical" href="{canon}">{alts}
+<meta property="og:type" content="website"><meta property="og:site_name" content="ASCON LIVING"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/img/og.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{BASE}/favicon.png"><meta name="theme-color" content="#14233f"><style>{css}</style>{defer}{ldh}<script src="{BASE}/assets/site.js" defer></script></head>
 {inner}</html>''')
 def main():
     _merge_city()
     _append_market_cards()
+    front.prepare(C)
     for code,*_ in LANGS: shutil.rmtree(f'{OUT}/{code}',ignore_errors=True)
     shutil.rmtree(f'{OUT}/assets/flags',ignore_errors=True); shutil.copytree(f'{ROOT}/tools/flags',f'{OUT}/assets/flags')
     errs=[f'{l[0]}/{pid}: title {len(C[l[0]]["pages"][pid]["title"])} chars, width {width(C[l[0]]["pages"][pid]["title"])} / desc {len(C[l[0]]["pages"][pid]["description"])} chars, width {width(C[l[0]]["pages"][pid]["description"])}' for l in PUB for pid,_ in PAGES if pid in C[l[0]]['pages'] and seo_bad(l[0],C[l[0]]['pages'][pid],C[l[0]].get('title_suffix',''))]
@@ -393,6 +514,8 @@ def main():
             open(f'{d}index.html','w').write(page(l,pid)); urls.append(f'{SITE}/{l[0]}/{slug}')
     # sitemap with hreflang alternates (published languages only). One loc per URL.
     sm=['<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+    root_alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/"/>' for x in PUB)+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/"/>'
+    sm.append(f'<url><loc>{SITE}/</loc><lastmod>{TODAY}</lastmod>{root_alts}</url>')
     seen=set()
     for l in PUB:
         for pid,slug in PAGES:
@@ -411,12 +534,9 @@ def main():
     for _f in glob.glob(f'{OUT}/'+'[0-9a-f]'*32+'.txt'): os.remove(_f)
     open(f"{OUT}/{F['indexnow_key']}.txt",'w').write(F['indexnow_key'])  # IndexNow key file
     shutil.copyfile(f'{ROOT}/tools/llms.txt',f'{OUT}/llms.txt')  # /llms.txt, byte-identical copy of tools/llms.txt
-    codes=json.dumps([[x[0],x[1]] for x in PUB])
     links=''.join(f'<li><a href="{BASE}/{x[0]}/" hreflang="{x[1]}" lang="{x[1]}">{x[2]}</a></li>' for x in PUB)
-    open(f'{OUT}/index.html','w').write(minify_html(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ASCON LIVING – Ho Chi Minh City</title>
-<link rel="canonical" href="{SITE}/en/"><meta http-equiv="refresh" content="2;url={BASE}/en/"><meta name="robots" content="noindex,follow">
-<script>(function(){{var p={codes},n=(navigator.languages||[navigator.language||'en']);for(var i=0;i<n.length;i++){{var c=n[i].toLowerCase();for(var j=0;j<p.length;j++){{var h=p[j][1].toLowerCase();if(c===h||c.split('-')[0]===h.split('-')[0]){{location.replace('{BASE}/'+p[j][0]+'/');return}}}}}}location.replace('{BASE}/en/')}})()</script>
-<style>body{{font-family:system-ui,sans-serif;padding:2rem;color:#14233f}}</style></head><body><h1>ASCON LIVING</h1><p>Choose your language:</p><ul>{links}</ul></body></html>'''))
+    open(f'{OUT}/index.html','w').write(root_page())
+    shutil.copyfile(f'{ROOT}/tools/site.js', f'{OUT}/assets/site.js')
     en=C['en']['ui']
     open(f'{OUT}/assets/site.css','w').write(minify_css(REST))
     os.makedirs(f'{OUT}/assets/fonts', exist_ok=True)
