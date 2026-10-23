@@ -208,31 +208,32 @@ ENT = {
            'Hela huset: karaoke, PS5, gaming, ett 4K-biosystem (Optoma 4K-projektor) och Netflix.'),
 }
 
+# Market Researcher, 23 Oct 2026. These replace the earlier homepage title suggestions.
 HOME = {
     'en': {
-        'title': 'Homestay Saigon – Whole House Rental Ho Chi Minh City',
-        'h1': 'Homestay Saigon – whole house rental in Ho Chi Minh City',
-        'description': 'Homestay in Saigon: rent the whole house in Ho Chi Minh City. 3 bedrooms, each with its own bathroom, a rooftop and a river view.',
+        'title': 'Saigon House Rental – Whole Homestay | ASCON LIVING',
+        'h1': 'Saigon house rental: a whole homestay just for your group',
+        'description': 'Rent a whole house in Saigon: 3 en-suite bedrooms, rooftop with BBQ, karaoke and PlayStation room, full kitchen, self check-in. Book direct.',
     },
     'de': {
-        'title': 'Unterkunft Ho-Chi-Minh-Stadt – ganzes Haus, 3 Bäder',
-        'h1': 'Unterkunft Ho-Chi-Minh-Stadt – ganzes Haus, 3 Schlafzimmer mit eigenem Bad',
-        'description': 'Unterkunft in Ho-Chi-Minh-Stadt: ganzes Haus, 3 Schlafzimmer mit eigenem Bad, Dachterrasse und Flussblick, über 250 m².',
+        'title': 'Ferienhaus Ho Chi Minh Stadt – ganzes Haus | ASCON LIVING',
+        'h1': 'Ferienhaus in Ho Chi Minh Stadt – das ganze Haus für euch',
+        'description': 'Ferienhaus in Ho Chi Minh Stadt (Saigon) ganz für euch: 3 Schlafzimmer mit eigenem Bad, Dachterrasse mit BBQ, Karaoke, Küche, Self-Check-in.',
     },
     'ja': {
-        'title': 'ホーチミン 一軒家 宿泊 | ASCON LIVING',
-        'h1': 'ホーチミン 一軒家 宿泊',
-        'description': 'ホーチミンの一軒家を一棟貸し。寝室3室はそれぞれ専用バスルーム。250㎡超、ルーフトップ、川の眺め。',
+        'title': 'ホーチミンの一軒家貸切宿泊 | ASCON LIVING',
+        'h1': 'ホーチミンで一軒家まるごと貸切の宿泊先',
+        'description': 'ホーチミンで一軒家をまるごと貸切。専用バス付き寝室3室、ルーフトップBBQ、カラオケ・PlayStation、フルキッチン、セルフチェックイン。家族・グループ旅行に。',
     },
     'vi': {
-        'title': 'Homestay nguyên căn TP.HCM | ASCON LIVING',
-        'h1': 'Homestay nguyên căn TP.HCM',
-        'description': 'Homestay nguyên căn tại TP. Hồ Chí Minh: 3 phòng ngủ, mỗi phòng có phòng tắm riêng, sân thượng và view sông.',
+        'title': 'Homestay Sài Gòn nguyên căn – cả ngôi nhà | ASCON LIVING',
+        'h1': 'Homestay Sài Gòn nguyên căn dành riêng cho nhóm của bạn',
+        'description': 'Homestay Sài Gòn nguyên căn: 3 phòng ngủ có WC riêng, sân thượng BBQ, phòng karaoke và PlayStation, bếp đầy đủ, tự check-in. Đặt trực tiếp.',
     },
     'ko': {
-        'title': '호치민 숙소 독채 | ASCON LIVING',
-        'h1': '호치민 숙소, 우리 일행만 쓰는 독채',
-        'description': '호치민 숙소, 집 한 채를 통째로 쓰는 독채. 침실 3개에 각각 전용 욕실, 루프탑, 강 전망.',
+        'title': '호치민 숙소 추천 – 독채 단독주택 통째로 | ASCON LIVING',
+        'h1': '호치민 숙소 추천: 우리 일행만 쓰는 독채 ASCON LIVING',
+        'description': '호치민 숙소 추천, 집 한 채를 통째로 쓰는 독채. 전용 욕실 딸린 침실 3개, 루프탑 BBQ, 노래방·PlayStation, 풀 주방, 셀프 체크인. 가족·단체 여행에.',
     },
 }
 
@@ -572,4 +573,6 @@ def prepare(C):
         if lang == 'ko':
             # UI strings are outside pages; keep 노래방, never 가라오케.
             pack['ui'] = _walk(pack.get('ui', {}), lang)
+    import landings
+    landings.install(C)
     return C

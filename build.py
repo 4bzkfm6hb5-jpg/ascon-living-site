@@ -82,6 +82,12 @@ import seo_market as _seo_market
 _seo_market.apply(C)
 import site_copy as _copy
 import front
+import landings
+PAGES.extend(landings.PAGE_SLUGS)
+SLUG=dict(PAGES)
+# Landing slugs may repeat across languages (ko and ja both use hochiminh-group-stay/).
+# Each id is published in only one language, so the files do not collide.
+if len(SLUG)!=len(PAGES): raise SystemExit('duplicate page id')
 # Language-switcher flags: self-hosted SVGs from flag-icons (MIT, tools/flags/LICENSE), copied to docs/assets/flags on every build.
 # Not emoji: Windows does not render emoji flags. pa is Gurmukhi (Indian Punjab) -> IN; ur -> PK.
 FLAG={'en':'gb','de':'de','vi':'vn','zh':'cn','zh-tw':'tw','ko':'kr','ja':'jp','th':'th','ms':'my','id':'id','ru':'ru','fr':'fr','es':'es','pt':'br','it':'it','hi':'in','ur':'pk','pa':'in','nl':'nl','pl':'pl','sv':'se','tr':'tr','ar':'sa'}
@@ -364,7 +370,8 @@ def seo_bad(code,p,suffix):
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
     title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
-    alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in HAS(pid))+f'<link rel="alternate" hreflang="x-default" href="{SITE}/{xdef(pid)}/{SLUG[pid]}">'
+    _alt=landings.hreflang_html(pid, SITE)
+    alts=_alt if _alt else ''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{SLUG[pid]}">' for x in HAS(pid))+f'<link rel="alternate" hreflang="x-default" href="{SITE}/{xdef(pid)}/{SLUG[pid]}">'
     fontlink=''; fontfaces=''
     if font and font in FONTS:
         spec=FONTS[font]; fam=spec['family']
@@ -387,7 +394,12 @@ def page(l,pid):
     navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else 'house' if pid.startswith('room-') else '')
     _labels=dict(c['nav'])
     nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(_labels[k])}</a>' for k in front.NAV if k in _labels)
-    picker=('<details class="lang"><summary>🌐 '+flag(code,False)+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/{SLUG[pid] if pid in C[x[0]]["pages"] else ""}" hreflang="{x[1]}" lang="{x[1]}"'+(' aria-current="true"' if x[0]==code else '')+f'>{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
+    def _switch(dest):
+        custom=landings.picker_slug(pid, dest)
+        if custom is None: path=SLUG[pid] if pid in C[dest]['pages'] else ''
+        else: path=custom
+        return f'{BASE}/{dest}/{path}'
+    picker=('<details class="lang"><summary>🌐 '+flag(code,False)+lname+'</summary><ul>'+''.join(f'<li><a href="{_switch(x[0])}" hreflang="{x[1]}" lang="{x[1]}"'+(' aria-current="true"' if x[0]==code else '')+f'>{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
     lm=IMG['logo-mark']; lf=IMG['logo-full']
     roomish=pid.startswith('room-') or pid=='rooftop'
     room_keys=[]
@@ -523,7 +535,8 @@ def main():
             loc=f'{SITE}/{l[0]}/{slug}'
             if loc in seen: continue
             seen.add(loc)
-            alts=''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in HAS(pid))+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/{xdef(pid)}/{slug}"/>'
+            _alt=landings.hreflang_sitemap(pid, SITE)
+            alts=_alt if _alt else ''.join(f'<xhtml:link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/{slug}"/>' for x in HAS(pid))+f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/{xdef(pid)}/{slug}"/>'
             sm.append(f'<url><loc>{loc}</loc><lastmod>{TODAY}</lastmod>{alts}</url>')
     sm.append('</urlset>'); open(f'{OUT}/sitemap.xml','w').write('\n'.join(sm))
     if DOMAIN.endswith('.github.io'):

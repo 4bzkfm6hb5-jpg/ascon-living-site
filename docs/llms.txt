@@ -100,6 +100,24 @@ Address: 389A Đường Trần Xuân Soạn, Tân Hưng, Ho Chi Minh City, Vietn
 - [Tiếng Việt](https://asconliving.com/vi/), [中文](https://asconliving.com/zh/), [繁體中文](https://asconliving.com/zh-tw/), [日本語](https://asconliving.com/ja/), [한국어](https://asconliving.com/ko/), [ไทย](https://asconliving.com/th/), [Bahasa Indonesia](https://asconliving.com/id/), [Bahasa Melayu](https://asconliving.com/ms/)
 - [हिन्दी](https://asconliving.com/hi/), [ਪੰਜਾਬੀ](https://asconliving.com/pa/), [اردو](https://asconliving.com/ur/), [العربية](https://asconliving.com/ar/)
 
+## Booking pages
+
+- [Saigon house rental](https://asconliving.com/en/saigon-house-rental/)
+- [Ho Chi Minh City homestay](https://asconliving.com/en/ho-chi-minh-city-homestay/)
+- [Group accommodation in Saigon](https://asconliving.com/en/group-accommodation-saigon/)
+- [Ferienhaus Ho Chi Minh Stadt](https://asconliving.com/de/ferienhaus-ho-chi-minh-stadt/)
+- [Unterkunft in Saigon](https://asconliving.com/de/unterkunft-saigon/)
+- [Gruppenunterkunft Saigon](https://asconliving.com/de/gruppenunterkunft-saigon/)
+- [호치민 독채 숙소](https://asconliving.com/ko/hochiminh-dokchae/)
+- [호치민 가족 숙소](https://asconliving.com/ko/hochiminh-family-stay/)
+- [호치민 단체 숙소](https://asconliving.com/ko/hochiminh-group-stay/)
+- [ホーチミン 一軒家貸切](https://asconliving.com/ja/hochiminh-ikkenya-kashikiri/)
+- [ホーチミン グループ宿泊](https://asconliving.com/ja/hochiminh-group-stay/)
+- [ホーチミン 家族旅行・長期滞在](https://asconliving.com/ja/hochiminh-family-long-stay/)
+- [Homestay nguyên căn Sài Gòn](https://asconliving.com/vi/homestay-sai-gon-nguyen-can/)
+- [Homestay Sài Gòn cho nhóm](https://asconliving.com/vi/homestay-sai-gon-cho-nhom/)
+- [Homestay Sài Gòn theo ngày](https://asconliving.com/vi/homestay-sai-gon-theo-ngay/)
+
 ## Optional
 
 - [Imprint](https://asconliving.com/en/imprint/)
