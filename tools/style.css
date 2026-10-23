@@ -52,7 +52,8 @@ details.lang li a{display:flex;align-items:center;gap:10px;padding:8px 10px;text
 .carousel.gallery,.carousel.mini{margin:12px 0 20px}
 .carousel.gallery .car-dots,.carousel.mini .car-dots{position:static;transform:none;justify-content:center;margin:10px 0}
 .carousel.gallery .car-dots button,.carousel.mini .car-dots button{background:#d9d3c8}
-.carousel.gallery img,.carousel.mini img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:16px}
+/* Inline aspect-ratio on lazy slides follows the file. A portrait frame was stretching the whole flex track and leaving empty space under the visible photo. */
+.carousel.gallery .car-slide img,.carousel.mini .car-slide img{width:100%;height:auto;aspect-ratio:3/2 !important;object-fit:cover;border-radius:16px}
 .car-count{text-align:center;color:var(--m);font-size:.85rem;margin:0}
 .car-thumbs{display:flex;gap:8px;overflow-x:auto;padding:8px 0 4px;scroll-snap-type:x mandatory}
 .car-thumbs button{flex:0 0 92px;padding:0;border:2px solid transparent;border-radius:10px;background:none;cursor:pointer;scroll-snap-align:start}
