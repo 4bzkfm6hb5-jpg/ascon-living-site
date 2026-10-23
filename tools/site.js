@@ -156,5 +156,27 @@
     });
   }
 
+
+  // Photo grid: open any photo in the lightbox, browse the whole set.
+  document.querySelectorAll('[data-pgrid]').forEach(function (block) {
+    var items = [].slice.call(block.querySelectorAll('.pg-item'));
+    function open(n) {
+      if (!lb) return;
+      lbSlides = items.map(function (f) {
+        var img = f.querySelector('img'); var cap = f.querySelector('figcaption');
+        return { src: f.getAttribute('data-full') || (img && img.src), alt: img ? img.alt : '', cap: cap ? cap.textContent : '' };
+      });
+      lbIndex = n; showLb(); lb.hidden = false; document.body.classList.add('lb-open');
+      var x = lb.querySelector('.lb-x'); if (x) x.focus();
+    }
+    items.forEach(function (f, n) {
+      f.addEventListener('click', function () { open(n); });
+      f.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(n); } });
+    });
+  });
+  // Close the mobile menu after choosing a link.
+  document.querySelectorAll('nav.main a').forEach(function (a) {
+    a.addEventListener('click', function () { var t = document.getElementById('navt'); if (t) t.checked = false; });
+  });
   document.querySelectorAll('[data-carousel]').forEach(setup);
 })();

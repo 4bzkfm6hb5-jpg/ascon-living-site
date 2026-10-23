@@ -291,7 +291,10 @@ def reviews_html(code):
             f'<div class="review-grid">{"".join(cards)}</div></section>')
 def gallery_html(code):
     h=front.GALLERY_H.get(code, front.GALLERY_H['en'])
-    return f'<section class="gallery-block" id="gallery"><h2>{html.escape(h)}</h2>{carousel(front.gallery_keys(), code, "gallery")}</section>'
+    keys=[k for k in front.gallery_keys() if k in IMG]
+    first,rest=keys[:12],keys[12:]
+    more=f'<details class="pg-more"><summary>+{len(rest)}</summary><div class="pgrid">{_pg(rest,code)}</div></details>' if rest else ''
+    return f'<section class="gallery-block" id="gallery" data-pgrid><h2>{html.escape(h)}</h2><div class="pgrid">{_pg(first,code)}</div>{more}</section>'
 def lightbox(code):
     _prev,nxt,close=aria(code)
     return (f'<div class="lb" hidden><button type="button" class="lb-x" aria-label="{html.escape(close)}">×</button>'
@@ -379,6 +382,43 @@ def seo_bad(code,p,suffix):
     if code in CJK: return width(t)>64 or width(d)>160 or len(d)>155
     if code=='th': return glen(t)>60 or glen(d)>160 or len(d)>155
     return len(t)>60 or len(d)>160 or len(d)>155
+NAV_GROUPS=[('house',['house','rooftop']),('families',['families','groups']),('location',['location','guide']),('travel-guide',[]),('faq',['faq','rules'])]
+BURGER='<input type="checkbox" id="navt" class="navt" aria-hidden="true" tabindex="-1"><label for="navt" class="burger" aria-label="Menu"><span></span></label>'
+def nav_html(code, cur=''):
+    lab=dict(C[code]['nav'])
+    def a(k, cls=''):
+        return f'<a href="{url(code,k)}"'+(f' class="{cls}"' if cls else '')+(' aria-current="page"' if k==cur else '')+f'>{html.escape(lab[k])}</a>'
+    o=[a('home')] if 'home' in lab else []
+    for head,kids in NAV_GROUPS:
+        if head not in lab: continue
+        kids=[k for k in kids if k in lab and k!=head]
+        if not kids: o.append(a(head)); continue
+        on=' on' if cur in [head]+kids else ''
+        o.append(f'<div class="dd{on}">'+a(head)+'<div class="ddm">'+''.join(a(k) for k in kids)+'</div></div>')
+    if 'booking' in lab: o.append(a('booking','navbook'))
+    return ''.join(o)
+_AICON={
+ 'ps':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9h12a3 3 0 0 1 3 3v3a2 2 0 0 1-3.6 1.2L16 14H8l-1.4 2.2A2 2 0 0 1 3 15v-3a3 3 0 0 1 3-3zM8 11v2M7 12h2M16 11.5h.01M18 12.5h.01"/></svg>',
+ 'mic':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3zM6 11a6 6 0 0 0 12 0M12 17v4M9 21h6"/></svg>',
+ 'game':'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg>',
+ 'film':'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="14" height="12" rx="2"/><path d="m17 10 4-2v8l-4-2"/></svg>',
+ 'bbq':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16a8 8 0 0 1-16 0zM8 17l-2 4M16 17l2 4M9 3c1 1 1 2 0 3M12 2c1 1 1 3 0 4M15 3c1 1 1 2 0 3"/></svg>',
+}
+BBQ={'en':'Rooftop BBQ','de':'Grill auf der Dachterrasse','vi':'BBQ trên sân thượng','zh':'屋顶烧烤','zh-tw':'屋頂烤肉','hi':'छत पर BBQ','es':'Barbacoa en la azotea','ar':'شواء على السطح','fr':'Barbecue sur le toit','pt':'Churrasco no terraço','ru':'Барбекю на крыше','ur':'چھت پر BBQ','id':'BBQ di rooftop','ja':'屋上BBQ','ko':'루프탑 바비큐','pa':'ਛੱਤ ਤੇ BBQ','th':'บาร์บีคิวบนดาดฟ้า','ms':'BBQ di bumbung','it':'Barbecue in terrazza','nl':'BBQ op het dakterras','tr':'Çatıda barbekü','pl':'Grill na dachu','sv':'Grill på takterrassen'}
+def amen_html(code):
+    g=lambda d: d.get(code, d['en'])
+    fx=front.FACTS.get(code, front.FACTS['en'])
+    items=[('ps','PS5',g(front.PS)),('mic',g(front.KARAOKE),''),('game',g(front.GAMING),''),('film',g(front.CINEMA),'Netflix'),('bbq',g(BBQ),''),('river',fx[4][0],fx[4][1])]
+    cells=''.join(f'<li>{(_AICON.get(k) or _ICON[k])}<strong>{html.escape(a)}</strong>'+(f'<span>{html.escape(b)}</span>' if b and b!=a else '')+'</li>' for k,a,b in items)
+    return f'<section class="amen"><h2>{html.escape(g(front.ENT_H2))}</h2><ul class="amen-grid">{cells}</ul></section>'
+def _pg(keys, code, eager_n=0):
+    o=[]
+    for key in keys:
+        alt=alt_of(key, code, 'ASCON LIVING')
+        full=f'{BASE}/assets/img/{stem(key)}-{max(IMG[key]["widths"])}.webp'
+        o.append(f'<figure class="pg-item" data-full="{full}" tabindex="0">{pic(key, alt, False, "(min-width:900px) 380px, 50vw", code)}<figcaption>{html.escape(alt)}</figcaption></figure>')
+    return ''.join(o)
+
 def page(l,pid):
     code,hl,lname,dirn,font=l; c=C[code]; u=c['ui']; p=c['pages'][pid]
     title=p['title']+c.get('title_suffix',''); canon=SITE+f'/{code}/{SLUG[pid]}'
@@ -405,7 +445,7 @@ def page(l,pid):
     ldh=''.join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False).replace('</','<\\/')+'</script>' for x in ld)
     navcur=pid if pid in dict(c['nav']) else ('guide' if pid.startswith('guide') else 'house' if pid.startswith('room-') else '')
     _labels=dict(c['nav'])
-    nav=''.join(f'<a href="{url(code,k)}"'+(' aria-current="page"' if k==navcur else '')+f'>{html.escape(_labels[k])}</a>' for k in front.NAV if k in _labels)
+    nav=nav_html(code, navcur if navcur else ('home' if pid=='home' else ''))
     def _switch(dest):
         custom=landings.picker_slug(pid, dest)
         if custom is None: path=SLUG[pid] if pid in C[dest]['pages'] else ''
@@ -443,7 +483,7 @@ def page(l,pid):
         anchored.append(s)
     body=''.join(section(s,code,u,guide,use_room) for s in anchored)
     if pid=='home':
-        body=facts_html(code)+body+gallery_html(code)+reviews_html(code)
+        body=facts_html(code)+amen_html(code)+body+gallery_html(code)+reviews_html(code)
     if p.get('toc') and len(toc)>=2 and u.get('toc_label'):
         _tl=html.escape(u['toc_label'])
         body=f'<nav class="toc" aria-label="{_tl}"><p>{_tl}</p><ol>'+''.join(f'<li><a href="#{i}">{html.escape(t)}</a></li>' for i,t in toc)+'</ol></nav>'+body
@@ -463,7 +503,7 @@ def page(l,pid):
         body+=f'<aside class="bookbox"><p>{html.escape(_line)}</p><p><a class="btn b1" href="{url(code,"booking")}">{html.escape(_btn)}</a></p></aside>'
     elif guide:
         body+=book_box(code,c)
-    inner=(f'<body><a class="skip" href="#main">{u["skip"]}</a><header><div class="bar"><a class="brand" href="{url(code,"home")}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm["w"]}" height="{lm["h"]}" alt="ASCON LIVING logo" decoding="async">ASCON LIVING</a>{picker}</div><nav class="main" aria-label="Main">{nav}</nav></header>'
+    inner=(f'<body><a class="skip" href="#main">{u["skip"]}</a><header class="site"><div class="bar"><a class="brand" href="{url(code,"home")}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm["w"]}" height="{lm["h"]}" alt="ASCON LIVING logo" decoding="async"><span>ASCON LIVING</span></a>{BURGER}<nav class="main" aria-label="Main">{nav}</nav>{picker}</div></header>'
            f'<main id="main">{top}{body}</div></main>'
            f'<footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf["w"]}" height="{lf["h"]}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u["motto"]}</p></div>'
            f'<div><strong>{u["address_label"]}</strong><br>{F["street"]}<br>{u.get("locality",F["locality"])}, Vietnam</div>'
@@ -496,16 +536,16 @@ def root_page():
     canon=SITE+'/'
     alts=''.join(f'<link rel="alternate" hreflang="{x[1]}" href="{SITE}/{x[0]}/">' for x in PUB)+f'<link rel="alternate" hreflang="x-default" href="{canon}">'
     labels=dict(C['en']['nav'])
-    nav=''.join(f'<a href="{url("en",k)}">{html.escape(labels[k])}</a>' for k in front.NAV if k in labels)
+    nav=nav_html('en','home')
     picker=('<details class="lang"><summary>🌐 '+flag('en',False)+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/" hreflang="{x[1]}" lang="{x[1]}">{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
     lm=IMG['logo-mark']; lf=IMG['logo-full']
     hero=(f'<div class="hero-wrap">{hero_still(code)}<div class="in"><h1>{html.escape(h1)}</h1>'
           f'<p>{html.escape(lead)}</p>{price_line("en")}'
           f'<p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u, code)}</div></div>')
-    body=facts_html(code)+f'<p class="lead">{html.escape(gear)}</p>'+gallery_html(code)+reviews_html(code)
+    body=facts_html(code)+amen_html(code)+f'<p class="lead">{html.escape(gear)}</p>'+gallery_html(code)+reviews_html(code)
     ld={"@context":"https://schema.org","@type":"WebPage","name":title,"description":desc,"url":canon,"inLanguage":"en","isPartOf":{"@type":"WebSite","name":F['name'],"url":SITE+'/'}}
     ldh='<script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False).replace('</','<\\/')+'</script>'
-    inner=(f'<body><a class="skip" href="#main">{u["skip"]}</a><header><div class="bar"><a class="brand" href="{canon}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm["w"]}" height="{lm["h"]}" alt="ASCON LIVING logo" decoding="async">ASCON LIVING</a>{picker}</div><nav class="main" aria-label="Main">{nav}</nav></header>'
+    inner=(f'<body><a class="skip" href="#main">{u["skip"]}</a><header class="site"><div class="bar"><a class="brand" href="{canon}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm["w"]}" height="{lm["h"]}" alt="ASCON LIVING logo" decoding="async"><span>ASCON LIVING</span></a>{BURGER}<nav class="main" aria-label="Main">{nav}</nav>{picker}</div></header>'
            f'<main id="main">{hero}<div class="wrap">{body}</div></main>'
            f'<footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf["w"]}" height="{lf["h"]}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u["motto"]}</p></div>'
            f'<div><strong>{u["address_label"]}</strong><br>{F["street"]}<br>{u.get("locality",F["locality"])}, Vietnam</div>'
