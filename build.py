@@ -231,6 +231,10 @@ def cta(u, code):
            f' · <a href="mailto:{F["email"]}">{F["email"]}</a></p>')
     return (f'<p class="kicker">{html.escape(front.KICKER.get(code, front.KICKER["en"]))}</p>'
             f'<div class="book-primary">{books}</div><div class="channels">{contacts}</div>{reach}')
+def price_line(code):
+    # Nightly rate is not published. This link goes to the booking page, which has WhatsApp, Zalo, phone and email.
+    label=html.escape(front.PRICE.get(code, front.PRICE['en']))
+    return f'<p class="price"><a href="{url(code,"booking")}">{label}</a></p>'
 def aria(code):
     return front.ARIA.get(code, front.ARIA['en'])
 def carousel(keys, code, kind, lead=False):
@@ -414,7 +418,7 @@ def page(l,pid):
         pre=preload(front.HERO[0],'100vw')
         top=(f'<div class="hero-wrap">{carousel(front.HERO, code, "hero")}'
              f'<div class="in"><h1>{html.escape(p["h1"])}</h1>'
-             f'<p>{html.escape(p["lead"])}</p><p class="price">{html.escape(front.PRICE.get(code, front.PRICE["en"]))}</p>'
+             f'<p>{html.escape(p["lead"])}</p>{price_line(code)}'
              f'<p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u, code)}</div></div><div class="wrap">')
     else:
         pre=preload(room_keys[0] if use_room else p['cover'][0], '(min-width:900px) 900px, 100vw') if (use_room or p.get('cover')) else ''
@@ -488,7 +492,7 @@ def root_page():
     picker=('<details class="lang"><summary>🌐 '+flag('en',False)+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/" hreflang="{x[1]}" lang="{x[1]}">{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
     lm=IMG['logo-mark']; lf=IMG['logo-full']
     hero=(f'<div class="hero-wrap">{carousel(front.HERO, code, "hero")}<div class="in"><h1>{html.escape(h1)}</h1>'
-          f'<p>{html.escape(lead)}</p><p class="price">{html.escape(front.PRICE["en"])} · {html.escape(front.PRICE["de"])}</p>'
+          f'<p>{html.escape(lead)}</p>{price_line("en")}'
           f'<p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u, code)}</div></div>')
     body=facts_html(code)+f'<p class="lead">{html.escape(gear)}</p>'+gallery_html(code)+reviews_html(code)
     ld={"@context":"https://schema.org","@type":"WebPage","name":title,"description":desc,"url":canon,"inLanguage":"en","isPartOf":{"@type":"WebSite","name":F['name'],"url":SITE+'/'}}

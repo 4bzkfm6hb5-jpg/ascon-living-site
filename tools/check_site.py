@@ -55,6 +55,8 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     # every meta description: at most 155 characters (Market Researcher / Website Ops, 19 Oct 2026)
     if d and len(html.unescape(d.group(1)))>155: errs.append((f,'desc>155',len(html.unescape(d.group(1)))))
     if '**' in txt or '[//]' in txt: errs.append((f,'markdown',''))
+    if re.search(r'\[(?:PRICE|PREIS|GIÁ|PRECIO|PRIX|PREÇO|PREZZO|PRIJS|CENA|PRIS)\]', plain):
+        errs.append((f,'price-token','nightly placeholder'))
 # laundry service 30 EUR per load must be stated in every published language
 for d in sorted(glob.glob(f'{D}/*/index.html')):
     ld=os.path.dirname(d)
