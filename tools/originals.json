@@ -1,0 +1,1079 @@
+{
+ "rooms": {
+  "rooftop": [
+   "orig-rooftop-01",
+   "orig-rooftop-02",
+   "orig-rooftop-03",
+   "orig-rooftop-04",
+   "orig-rooftop-05",
+   "orig-rooftop-06",
+   "orig-rooftop-07",
+   "orig-rooftop-08",
+   "orig-rooftop-09",
+   "orig-rooftop-10",
+   "orig-rooftop-11",
+   "orig-rooftop-12",
+   "orig-rooftop-13",
+   "orig-rooftop-14"
+  ],
+  "living": [
+   "orig-living-01",
+   "orig-living-02",
+   "orig-living-03",
+   "orig-living-04",
+   "orig-living-05",
+   "orig-living-06",
+   "orig-living-07",
+   "orig-living-08",
+   "orig-living-09",
+   "orig-living-10"
+  ],
+  "entertainment": [
+   "orig-entertainment-01",
+   "orig-entertainment-02",
+   "orig-entertainment-03",
+   "orig-entertainment-04",
+   "orig-entertainment-05",
+   "orig-entertainment-06",
+   "orig-entertainment-07",
+   "orig-entertainment-08",
+   "orig-entertainment-09",
+   "orig-entertainment-10",
+   "orig-entertainment-11",
+   "orig-entertainment-12",
+   "orig-entertainment-13",
+   "orig-entertainment-14",
+   "orig-entertainment-15"
+  ],
+  "kitchen": [
+   "orig-kitchen-01",
+   "orig-kitchen-02",
+   "orig-kitchen-03",
+   "orig-kitchen-04",
+   "orig-kitchen-05",
+   "orig-kitchen-06",
+   "orig-kitchen-07",
+   "orig-kitchen-08",
+   "orig-kitchen-09",
+   "orig-kitchen-10",
+   "orig-kitchen-11",
+   "orig-kitchen-12",
+   "orig-kitchen-13",
+   "orig-kitchen-14",
+   "orig-kitchen-15",
+   "orig-kitchen-16",
+   "orig-kitchen-17"
+  ],
+  "bedroom-1": [
+   "orig-bedroom-1-01",
+   "orig-bedroom-1-02",
+   "orig-bedroom-1-03",
+   "orig-bedroom-1-04",
+   "orig-bedroom-1-05",
+   "orig-bedroom-1-06",
+   "orig-bedroom-1-07",
+   "orig-bedroom-1-08",
+   "orig-bedroom-1-09",
+   "orig-bedroom-1-10",
+   "orig-bedroom-1-11",
+   "orig-bedroom-1-12",
+   "orig-bedroom-1-13"
+  ],
+  "bedroom-2": [
+   "orig-bedroom-2-01",
+   "orig-bedroom-2-02",
+   "orig-bedroom-2-03",
+   "orig-bedroom-2-04",
+   "orig-bedroom-2-05",
+   "orig-bedroom-2-06",
+   "orig-bedroom-2-07"
+  ],
+  "bedroom-3": [
+   "orig-bedroom-3-01",
+   "orig-bedroom-3-02",
+   "orig-bedroom-3-03",
+   "orig-bedroom-3-04",
+   "orig-bedroom-3-05",
+   "orig-bedroom-3-06",
+   "orig-bedroom-3-07",
+   "orig-bedroom-3-08",
+   "orig-bedroom-3-09"
+  ],
+  "hallway": [
+   "orig-hallway-01",
+   "orig-hallway-02",
+   "orig-hallway-03",
+   "orig-hallway-04",
+   "orig-hallway-05",
+   "orig-hallway-06",
+   "orig-hallway-07",
+   "orig-hallway-08",
+   "orig-hallway-09",
+   "orig-hallway-10"
+  ]
+ },
+ "img": {
+  "orig-rooftop-01": {
+   "w": 1440,
+   "h": 960,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-rooftop-01",
+   "room": "rooftop"
+  },
+  "orig-rooftop-02": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-02",
+   "room": "rooftop"
+  },
+  "orig-rooftop-03": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-03",
+   "room": "rooftop"
+  },
+  "orig-rooftop-04": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-04",
+   "room": "rooftop"
+  },
+  "orig-rooftop-05": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-05",
+   "room": "rooftop"
+  },
+  "orig-rooftop-06": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-06",
+   "room": "rooftop"
+  },
+  "orig-rooftop-07": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-07",
+   "room": "rooftop"
+  },
+  "orig-rooftop-08": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-08",
+   "room": "rooftop"
+  },
+  "orig-rooftop-09": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-09",
+   "room": "rooftop"
+  },
+  "orig-rooftop-10": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-10",
+   "room": "rooftop"
+  },
+  "orig-rooftop-11": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-11",
+   "room": "rooftop"
+  },
+  "orig-rooftop-12": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-12",
+   "room": "rooftop"
+  },
+  "orig-rooftop-13": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-13",
+   "room": "rooftop"
+  },
+  "orig-rooftop-14": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-rooftop-14",
+   "room": "rooftop"
+  },
+  "orig-living-01": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-living-01",
+   "room": "room-living"
+  },
+  "orig-living-02": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-living-02",
+   "room": "room-living"
+  },
+  "orig-living-03": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-living-03",
+   "room": "room-living"
+  },
+  "orig-living-04": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-living-04",
+   "room": "room-living"
+  },
+  "orig-living-05": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-living-05",
+   "room": "room-living"
+  },
+  "orig-living-06": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-living-06",
+   "room": "room-living"
+  },
+  "orig-living-07": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-living-07",
+   "room": "room-living"
+  },
+  "orig-living-08": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-living-08",
+   "room": "room-living"
+  },
+  "orig-living-09": {
+   "w": 1440,
+   "h": 892,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-living-09",
+   "room": "room-living"
+  },
+  "orig-living-10": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-living-10",
+   "room": "room-living"
+  },
+  "orig-entertainment-01": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-entertainment-01",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-02": {
+   "w": 1440,
+   "h": 960,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-02",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-03": {
+   "w": 1440,
+   "h": 960,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-03",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-04": {
+   "w": 1440,
+   "h": 960,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-04",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-05": {
+   "w": 1440,
+   "h": 1024,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-05",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-06": {
+   "w": 1440,
+   "h": 960,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-06",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-07": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-entertainment-07",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-08": {
+   "w": 1440,
+   "h": 785,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-08",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-09": {
+   "w": 1440,
+   "h": 816,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-09",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-10": {
+   "w": 1440,
+   "h": 811,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-10",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-11": {
+   "w": 1440,
+   "h": 809,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-11",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-12": {
+   "w": 1440,
+   "h": 836,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-12",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-13": {
+   "w": 1440,
+   "h": 960,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-13",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-14": {
+   "w": 1440,
+   "h": 834,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-14",
+   "room": "room-entertainment"
+  },
+  "orig-entertainment-15": {
+   "w": 1440,
+   "h": 960,
+   "widths": [
+    480,
+    960,
+    1440
+   ],
+   "file": "orig-entertainment-15",
+   "room": "room-entertainment"
+  },
+  "orig-kitchen-01": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-01",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-02": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-02",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-03": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-03",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-04": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-04",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-05": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-05",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-06": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-06",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-07": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-07",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-08": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-08",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-09": {
+   "w": 480,
+   "h": 314,
+   "widths": [
+    480
+   ],
+   "file": "orig-kitchen-09",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-10": {
+   "w": 480,
+   "h": 383,
+   "widths": [
+    480
+   ],
+   "file": "orig-kitchen-10",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-11": {
+   "w": 480,
+   "h": 333,
+   "widths": [
+    480
+   ],
+   "file": "orig-kitchen-11",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-12": {
+   "w": 480,
+   "h": 376,
+   "widths": [
+    480
+   ],
+   "file": "orig-kitchen-12",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-13": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-13",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-14": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-14",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-15": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-15",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-16": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-16",
+   "room": "room-kitchen"
+  },
+  "orig-kitchen-17": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-kitchen-17",
+   "room": "room-kitchen"
+  },
+  "orig-bedroom-1-01": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-01",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-02": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-02",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-03": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-03",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-04": {
+   "w": 960,
+   "h": 688,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-04",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-05": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-05",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-06": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-06",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-07": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-07",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-08": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-08",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-09": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-09",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-10": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-10",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-11": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-11",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-12": {
+   "w": 960,
+   "h": 583,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-12",
+   "room": "room-master"
+  },
+  "orig-bedroom-1-13": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-1-13",
+   "room": "room-master"
+  },
+  "orig-bedroom-2-01": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-2-01",
+   "room": "room-bedroom-2"
+  },
+  "orig-bedroom-2-02": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-2-02",
+   "room": "room-bedroom-2"
+  },
+  "orig-bedroom-2-03": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-2-03",
+   "room": "room-bedroom-2"
+  },
+  "orig-bedroom-2-04": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-2-04",
+   "room": "room-bedroom-2"
+  },
+  "orig-bedroom-2-05": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-2-05",
+   "room": "room-bedroom-2"
+  },
+  "orig-bedroom-2-06": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-2-06",
+   "room": "room-bedroom-2"
+  },
+  "orig-bedroom-2-07": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-2-07",
+   "room": "room-bedroom-2"
+  },
+  "orig-bedroom-3-01": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-3-01",
+   "room": "room-bedroom-3"
+  },
+  "orig-bedroom-3-02": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-3-02",
+   "room": "room-bedroom-3"
+  },
+  "orig-bedroom-3-03": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-3-03",
+   "room": "room-bedroom-3"
+  },
+  "orig-bedroom-3-04": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-3-04",
+   "room": "room-bedroom-3"
+  },
+  "orig-bedroom-3-05": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-3-05",
+   "room": "room-bedroom-3"
+  },
+  "orig-bedroom-3-06": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-3-06",
+   "room": "room-bedroom-3"
+  },
+  "orig-bedroom-3-07": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-3-07",
+   "room": "room-bedroom-3"
+  },
+  "orig-bedroom-3-08": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-3-08",
+   "room": "room-bedroom-3"
+  },
+  "orig-bedroom-3-09": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-bedroom-3-09",
+   "room": "room-bedroom-3"
+  },
+  "orig-hallway-01": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-01",
+   "room": "room-hallway"
+  },
+  "orig-hallway-02": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-02",
+   "room": "room-hallway"
+  },
+  "orig-hallway-03": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-03",
+   "room": "room-hallway"
+  },
+  "orig-hallway-04": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-04",
+   "room": "room-hallway"
+  },
+  "orig-hallway-05": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-05",
+   "room": "room-hallway"
+  },
+  "orig-hallway-06": {
+   "w": 960,
+   "h": 518,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-06",
+   "room": "room-hallway"
+  },
+  "orig-hallway-07": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-07",
+   "room": "room-hallway"
+  },
+  "orig-hallway-08": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-08",
+   "room": "room-hallway"
+  },
+  "orig-hallway-09": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-09",
+   "room": "room-hallway"
+  },
+  "orig-hallway-10": {
+   "w": 960,
+   "h": 536,
+   "widths": [
+    480,
+    960
+   ],
+   "file": "orig-hallway-10",
+   "room": "room-hallway"
+  }
+ },
+ "hero": "orig-rooftop-08"
+}

@@ -31,6 +31,28 @@ PAGES+=ROOMS
 SLUG=dict(PAGES)
 if len(SLUG)!=len(PAGES) or len(set(SLUG.values()))!=len(PAGES): raise SystemExit('duplicate page id or slug')
 IMG=json.load(open(f'{ROOT}/tools/images.json'))
+import sys as _s0; _s0.path.insert(0,f'{ROOT}/tools'); import originals as _orig
+os.makedirs(f'{OUT}/assets/img',exist_ok=True)
+_OM=_orig.build(f'{OUT}/assets/img')
+IMG.update(_OM['img']); IMG.update(_orig.app_shots(f'{OUT}/assets/img'))
+ORIG_ROOM={k:v['room'] for k,v in _OM['img'].items()}
+# Every old (edited) house photo key now points at an original from the same room.
+_PREFIX=[('roof','rooftop'),('river','rooftop'),('hero','rooftop'),('bed1','bedroom-1'),('bed2','bedroom-2'),('bed3','bedroom-3'),
+         ('kitchen','kitchen'),('living','living'),('ent','entertainment'),('hall','hallway'),('entrance','hallway'),('stairs','hallway'),('workspace','hallway')]
+_BATH=[k for r in ('bedroom-1','bedroom-2','bedroom-3') for k in _OM['rooms'][r][::-1]]
+_cnt={}
+for _k in sorted(list(IMG)):
+    if _k in _OM['img'] or _k.startswith(('tg-','app-','logo','ga-')): continue
+    if _k=='roof-terrace': IMG[_k]=_OM['img'][_OM['hero']]; ORIG_ROOM[_k]='rooftop'; continue
+    room='bath' if _k.startswith('bath') else next((r for pre,r in _PREFIX if _k.startswith(pre)),None)
+    if not room: continue
+    pool=_BATH if room=='bath' else _OM['rooms'][room]
+    i=_cnt.get(room,0); _cnt[room]=i+1
+    o=pool[i%len(pool)]; IMG[_k]=_OM['img'][o]; ORIG_ROOM[_k]=_OM['img'][o]['room'] if room!='bath' else 'room-bathrooms'
+_rr=[[k for k in _OM['rooms'][r] if k!=_OM['hero']] for r in ('rooftop','living','entertainment','kitchen','bedroom-1','bedroom-2','bedroom-3','hallway')]
+_rr[0]=_rr[0][1:]+_rr[0][:1]  # stairwell shot last
+ORIG_GALLERY=[_OM['hero']]+[x for i in range(max(map(len,_rr))) for x in (l[i] for l in _rr if i<len(l))]
+ORIG_HERO=_OM['hero']
 LANGS=json.load(open(f'{ROOT}/languages.json'))
 _CSS_RAW=open(f'{ROOT}/tools/style.css').read()
 if '/*@deferred*/' not in _CSS_RAW: raise SystemExit('style.css missing /*@deferred*/ marker')
@@ -142,6 +164,10 @@ def sub(s,code): return s.replace('{L}',f'{BASE}/{code}/').replace('{phone_e164}
 def stem(name):
     return IMG[name].get('file') or house_alts.SLUG.get(name) or name
 def alt_of(name, code, fallback):
+    if name.split('@')[0] in ORIG_ROOM:
+        pid=ORIG_ROOM[name.split('@')[0]]; pg=C.get(code,C['en'])['pages']
+        lab=(pg.get(pid) or C['en']['pages'].get(pid) or {}).get('h1')
+        return f'{lab} – ASCON LIVING' if lab else 'ASCON LIVING'
     row=house_alts.ALTS.get(name)
     alt=(row.get(code) or row.get('en') or fallback) if row else fallback
     if code=='ko': alt=alt.replace('가라오케','노래방')
@@ -291,10 +317,10 @@ def reviews_html(code):
             f'<div class="review-grid">{"".join(cards)}</div></section>')
 def gallery_html(code):
     h=front.GALLERY_H.get(code, front.GALLERY_H['en'])
-    keys=[k for k in front.gallery_keys() if k in IMG]
+    keys=list(ORIG_GALLERY)
     first,rest=keys[:12],keys[12:]
     more=f'<details class="pg-more"><summary>+{len(rest)}</summary><div class="pgrid">{_pg(rest,code)}</div></details>' if rest else ''
-    return f'<section class="gallery-block" id="gallery" data-pgrid><h2>{html.escape(h)}</h2><div class="pgrid">{_pg(first,code)}</div>{more}</section>'
+    return f'<section class="gallery-block" id="gallery" data-pgrid><h2>{html.escape(h)}</h2><div class="pgrid">{_pg(first,code,1)}</div>{more}</section>'
 def lightbox(code):
     _prev,nxt,close=aria(code)
     return (f'<div class="lb" hidden><button type="button" class="lb-x" aria-label="{html.escape(close)}">×</button>'
@@ -314,6 +340,7 @@ def book_box(code,c):
     sent=_copy.BOOK.get(code,_copy.BOOK['en'])
     label=dict(c['nav']).get('booking',c['ui'].get('book_airbnb',''))
     return f'<aside class="bookbox"><p>{html.escape(sent)}</p><p><a class="btn b1" href="{url(code,"booking")}">{html.escape(label)}</a></p></aside>'
+GA_ALT={'en':'Guest app: amenities of the house','de':'Gäste-App: Ausstattung des Hauses','vi':'Ứng dụng khách: tiện nghi trong nhà','zh':'住客应用：房屋设施','ko':'게스트 앱: 집 편의시설','ja':'ゲストアプリ：館内設備','fr':'Appli invités : équipements de la maison','es':'App para huéspedes: equipamiento de la casa','pt':'App de hóspedes: comodidades da casa','ar':'تطبيق الضيوف: مرافق المنزل'}
 def section(s,code,u,guide=False,skip_imgs=False):
     o=[]
     if 'h2' in s:
@@ -331,9 +358,15 @@ def section(s,code,u,guide=False,skip_imgs=False):
         for p in bl.get('p',[]): o.append(f'<p>{sub(p,code)}</p>')
     if 'ul' in s: o.append('<ul class="chk">'+''.join(f'<li>{sub(x,code)}</li>' for x in s['ul'])+'</ul>')
     if 'table' in s: o.append('<div class="tbl"><table>'+''.join(f'<tr><th scope="row">{html.escape(k)}</th><td>{sub(v,code)}</td></tr>' for k,v in s['table'])+'</table></div>'+(f'<p class="note">{html.escape(s["table_note"])}</p>' if s.get('table_note') else ''))
-    if 'imgs' in s and not skip_imgs:
+    if s.get('imgs') and not skip_imgs:
+        if any(i[0].startswith('tg-') for i in s['imgs']):
+            alt1=s['imgs'][0][1]; alt2=GA_ALT.get(code,GA_ALT['en'])
+            figs=''.join(f'<figure>{pic(k+"@"+code if k+"@"+code in IMG else k, a, False, "(min-width:900px) 300px, 45vw", code)}<figcaption>{html.escape(a)}</figcaption></figure>' for k,a in (('ga-1',alt1),('ga-2',alt2)))
+            o.append(f'<div class="phones">{figs}</div>')
+            s=dict(s); s['imgs']=[]
         keys=[(i[0]+'@'+code if i[0]+'@'+code in IMG else i[0]) for i in s['imgs']]
-        if len(keys)>=2: o.append(carousel(keys, code, 'mini'))
+        if not keys: pass
+        elif len(keys)>=2: o.append(carousel(keys, code, 'mini'))
         else: o.append('<div class="grid">'+''.join(f'<figure>{pic(i[0]+"@"+code if i[0]+"@"+code in IMG else i[0],i[1],code=code)}<figcaption>{html.escape(i[2] if len(i)>2 and i[2] else i[1])}</figcaption></figure>' for i in s['imgs'])+'</div>')
     if 'faq' in s: o.append('<div class="faq">'+''.join(f'<details><summary><h2 class="q">{html.escape(q)}</h2></summary><p>{sub(a,code)}</p></details>' for q,a in s['faq'])+'</div>')
     if 'cards' in s: o.append('<div class="cards">'+''.join(f'<div class="card"><a href="{url(code,pid)}">{html.escape(t)}</a><p>{html.escape(d)}</p></div>' for t,pid,d in s['cards'] if pid in C[code]['pages'])+'</div>')
@@ -413,10 +446,10 @@ def amen_html(code):
     return f'<section class="amen"><h2>{html.escape(g(front.ENT_H2))}</h2><ul class="amen-grid">{cells}</ul></section>'
 def _pg(keys, code, eager_n=0):
     o=[]
-    for key in keys:
+    for n,key in enumerate(keys):
         alt=alt_of(key, code, 'ASCON LIVING')
         full=f'{BASE}/assets/img/{stem(key)}-{max(IMG[key]["widths"])}.webp'
-        o.append(f'<figure class="pg-item" data-full="{full}" tabindex="0">{pic(key, alt, False, "(min-width:900px) 380px, 50vw", code)}<figcaption>{html.escape(alt)}</figcaption></figure>')
+        o.append(f'<figure class="pg-item" data-full="{full}" tabindex="0">{pic(key, alt, False, "(min-width:900px) 760px, 100vw" if n==0 and eager_n==1 else "(min-width:900px) 380px, 50vw", code)}<figcaption>{html.escape(alt)}</figcaption></figure>')
     return ''.join(o)
 
 def page(l,pid):
@@ -461,6 +494,9 @@ def page(l,pid):
             for _im in _s.get('imgs') or []:
                 _k=_im[0].split('@')[0]
                 if _k not in room_keys: room_keys.append(_k)
+    _rk=[k for k,v in IMG.items() if k in _OM['img'] and v.get('room')==pid]
+    if pid=='room-bathrooms': _rk=_BATH[:9]
+    if _rk: room_keys=_rk; roomish=True
     use_room=roomish and len(room_keys)>=2
     if pid=='home':
         pre=preload(front.HERO_PHOTO,'100vw')
