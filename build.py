@@ -235,6 +235,11 @@ def price_line(code):
     # Nightly rate is not published. This link goes to the booking page, which has WhatsApp, Zalo, phone and email.
     label=html.escape(front.PRICE.get(code, front.PRICE['en']))
     return f'<p class="price"><a href="{url(code,"booking")}">{label}</a></p>'
+PHOTO_SIZES='(min-width:900px) 560px, 100vw'
+def hero_still(code):
+    key=front.HERO_PHOTO
+    alt=alt_of(key, code, 'Rooftop terrace looking over the river to the city skyline')
+    return f'<div class="hero-still">{pic(key, alt, True, "100vw", code)}</div>'
 def aria(code):
     return front.ARIA.get(code, front.ARIA['en'])
 def carousel(keys, code, kind, lead=False):
@@ -243,7 +248,7 @@ def carousel(keys, code, kind, lead=False):
     for i,key in enumerate(keys):
         alt=alt_of(key, code, 'ASCON LIVING')
         eager=(kind=='hero' or lead) and i==0
-        sizes='100vw' if kind=='hero' else '(min-width:900px) 900px, 100vw'
+        sizes='100vw' if kind=='hero' else PHOTO_SIZES
         slides.append(f'<div class="car-slide" data-index="{i}"><figure>{pic(key, alt, eager, sizes, code)}<figcaption>{html.escape(alt)}</figcaption></figure></div>')
     thumbs=''
     if kind=='gallery':
@@ -418,15 +423,15 @@ def page(l,pid):
                 if _k not in room_keys: room_keys.append(_k)
     use_room=roomish and len(room_keys)>=2
     if pid=='home':
-        pre=preload(front.HERO[0],'100vw')
-        top=(f'<div class="hero-wrap">{carousel(front.HERO, code, "hero")}'
+        pre=preload(front.HERO_PHOTO,'100vw')
+        top=(f'<div class="hero-wrap">{hero_still(code)}'
              f'<div class="in"><h1>{html.escape(p["h1"])}</h1>'
              f'<p>{html.escape(p["lead"])}</p>{price_line(code)}'
              f'<p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u, code)}</div></div><div class="wrap">')
     else:
-        pre=preload(room_keys[0] if use_room else p['cover'][0], '(min-width:900px) 900px, 100vw') if (use_room or p.get('cover')) else ''
+        pre=preload(room_keys[0] if use_room else p['cover'][0], PHOTO_SIZES) if (use_room or p.get('cover')) else ''
         booktop='' if pid=='booking' else f'<p class="topbook"><a class="btn primary" href="{url(code,"booking")}">{html.escape(dict(c["nav"]).get("booking",u.get("book_airbnb","")))}</a></p>'
-        visual=carousel(room_keys, code, 'mini', True) if use_room else (f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,"(min-width:900px) 900px, 100vw",code)}</figure>' if p.get('cover') else '')
+        visual=carousel(room_keys, code, 'mini', True) if use_room else (f'<figure class="cover">{pic(p["cover"][0],p["cover"][1],True,PHOTO_SIZES,code)}</figure>' if p.get('cover') else '')
         top=f'<div class="wrap ph"><h1>{html.escape(p["h1"])}</h1>'+(f'<p class="lead">{html.escape(p["lead"])}</p>' if p.get('lead') else '')+booktop+visual
     guide=is_guide(pid)
     anchored=[]; toc=[]
@@ -494,7 +499,7 @@ def root_page():
     nav=''.join(f'<a href="{url("en",k)}">{html.escape(labels[k])}</a>' for k in front.NAV if k in labels)
     picker=('<details class="lang"><summary>🌐 '+flag('en',False)+lname+'</summary><ul>'+''.join(f'<li><a href="{BASE}/{x[0]}/" hreflang="{x[1]}" lang="{x[1]}">{flag(x[0])}<span>{x[2]}</span></a></li>' for x in PUB)+'</ul></details>')
     lm=IMG['logo-mark']; lf=IMG['logo-full']
-    hero=(f'<div class="hero-wrap">{carousel(front.HERO, code, "hero")}<div class="in"><h1>{html.escape(h1)}</h1>'
+    hero=(f'<div class="hero-wrap">{hero_still(code)}<div class="in"><h1>{html.escape(h1)}</h1>'
           f'<p>{html.escape(lead)}</p>{price_line("en")}'
           f'<p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u, code)}</div></div>')
     body=facts_html(code)+f'<p class="lead">{html.escape(gear)}</p>'+gallery_html(code)+reviews_html(code)
@@ -511,7 +516,7 @@ def root_page():
     css=minify_css(filter_css(CRIT, inner, hl, 'ltr'))
     defer=(f'<link rel="stylesheet" href="{BASE}/assets/site.css" media="print" onload="this.media=&#39;all&#39;">'
            f'<noscript><link rel="stylesheet" href="{BASE}/assets/site.css"></noscript>')
-    pre=preload(front.HERO[0], '100vw')
+    pre=preload(front.HERO_PHOTO, '100vw')
     return minify_html(f'''<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{pre}
 <title>{html.escape(title)}</title><meta name="description" content="{html.escape(desc)}"><link rel="canonical" href="{canon}">{alts}
 <meta property="og:type" content="website"><meta property="og:site_name" content="ASCON LIVING"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{canon}"><meta property="og:image" content="{SITE}/assets/img/og.jpg"><meta name="twitter:card" content="summary_large_image">

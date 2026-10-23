@@ -10,8 +10,9 @@ import os, re, json, unicodedata
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
-# Bright, real house photos for the hero (not the dusk rooftop).
-HERO = ['living', 'bed1', 'roof-day', 'river-city', 'kitchen']
+# Homepage hero is one static photo: the terrace, the river, and the city skyline.
+# File: rooftop-terrace-river-skyline-dusk
+HERO_PHOTO = 'roof-terrace'
 NAV = ['booking', 'house', 'rooftop', 'location', 'faq']
 # Trip.com leads where it is the stronger of the two allowed platforms.
 TRIP_FIRST = {'ko', 'ja', 'vi', 'zh', 'zh-tw'}

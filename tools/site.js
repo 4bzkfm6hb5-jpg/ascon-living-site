@@ -31,6 +31,7 @@
 
     function paint() {
       var w = view ? view.clientWidth : root.clientWidth;
+      if (view && slides[i] && !root.classList.contains('hero')) view.style.height = slides[i].scrollHeight + 'px';
       if (track && w) track.style.transform = 'translateX(' + (-i * w) + 'px)';
       slides.forEach(function (s, n) { s.setAttribute('aria-hidden', n === i ? 'false' : 'true'); });
       if (dots) [].forEach.call(dots.children, function (d, n) {
@@ -100,6 +101,10 @@
     root.addEventListener('mouseleave', start);
     root.addEventListener('focusin', stop);
     root.addEventListener('focusout', start);
+    slides.forEach(function (s) {
+      var img = s.querySelector('img');
+      if (img && !img.complete) img.addEventListener('load', paint);
+    });
     window.addEventListener('resize', paint);
     document.addEventListener('visibilitychange', function () { if (document.hidden) stop(); else start(); });
     go(0);
