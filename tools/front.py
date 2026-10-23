@@ -341,7 +341,31 @@ ARIA = {
     'ur': ('پچھلی تصویر', 'اگلی تصویر', 'بند کریں'),
     'pa': ('ਪਿਛਲੀ ਤਸਵੀਰ', 'ਅਗਲੀ ਤਸਵੀਰ', 'ਬੰਦ ਕਰੋ'),
 }
-QUOTE = '[echte Google-Bewertung einfügen]'
+# Three Google reviews, each 5 of 5. Names and wording are the guest's.
+# The third quote is Vietnamese on /vi/, German on /de/, and English on every other page.
+REVIEWS = [
+    {
+        'name': 'Irsa Mazhar',
+        'text': {'en': 'Excellent House, I love to visit it again. Amazing Place.'},
+    },
+    {
+        'name': 'Azeem Jutt',
+        'text': {'en': 'A Beautiful Place with an Amazing View! We had a wonderful stay at this beautiful holiday home. The house is lovely, clean, comfortable, and well maintained. The view is absolutely stunning, especially being able to see the water and enjoy the peaceful surroundings. It\'s the perfect place to relax, unwind, and enjoy a little getaway. Everything was great, and we would definitely recommend this place to anyone looking for a relaxing stay with beautiful views. We would love to come back again! ❤️'},
+    },
+    {
+        'name': 'an nguyen',
+        'text': {
+            'vi': 'Căn nhà có sân thượng cho buổi tối trọn vẹn, các dịp lễ có thể xem pháo hoa, dùng bếp nướng rồi thư giãn cùng bạn bè. Dưới tầng có cả phòng chiếu phim kèm karaoke. Với đầy đủ mọi thứ như vậy còn gì tuyệt vời hơn. Có dịp chắc chắn sẽ quay lại với gia đình.',
+            'de': 'Das Haus hat eine Dachterrasse, die perfekt für Abende ist, wo man Feuerwerk schauen, grillen und mit Freunden entspannen kann. Unten gibt es sogar ein Heimkino mit Karaoke. Mit allem, was man sich wünschen kann – was will man mehr? Wir kommen auf jeden Fall mit unserer Familie wieder!',
+            'en': 'The house has a rooftop terrace that\'s perfect for evenings — on holidays you can watch the fireworks, use the BBQ and relax with friends. Downstairs there\'s even a home cinema with karaoke. With everything you could wish for, what more could you want? We\'ll definitely be back with our family!',
+        },
+    },
+]
+def review_quote(code, item):
+    texts = item['text']
+    if code in texts:
+        return texts[code], code
+    return texts['en'], 'en'
 
 _HEAD = re.compile(
     r'(?i)(?:play\s*station(?:\s*5|\s*plus)?|\bps5\b|optoma|'

@@ -57,6 +57,8 @@ for f in glob.glob(f'{D}/**/*.html',recursive=True):
     if '**' in txt or '[//]' in txt: errs.append((f,'markdown',''))
     if re.search(r'\[(?:PRICE|PREIS|GIÁ|PRECIO|PRIX|PREÇO|PREZZO|PRIJS|CENA|PRIS)\]', plain):
         errs.append((f,'price-token','nightly placeholder'))
+    if '[GUEST NAME]' in plain or 'echte Google-Bewertung' in plain or '[GOOGLE RATING]' in plain or '[REVIEW COUNT]' in plain:
+        errs.append((f,'review-token','placeholder'))
 # laundry service 30 EUR per load must be stated in every published language
 for d in sorted(glob.glob(f'{D}/*/index.html')):
     ld=os.path.dirname(d)

@@ -274,13 +274,16 @@ def facts_html(code):
     return f'<ul class="facts">{cells}</ul>'
 def reviews_html(code):
     h=front.REV_H.get(code, front.REV_H['en'])
-    q=html.escape(front.QUOTE)
-    card=f'<article class="review-card"><p class="stars" aria-hidden="true">☆☆☆☆☆</p><p class="review-quote">{q}</p><p class="review-meta">[GUEST NAME] · Google · [GOOGLE RATING]</p></article>'
-    note='Placeholder — add real Google reviews only. No quote, name or star count on this page is real yet.'
+    cards=[]
+    for item in front.REVIEWS:
+        text, lang=front.review_quote(code, item)
+        lang_attr=f' lang="{lang}"' if lang!=code else ''
+        cards.append(
+            f'<article class="review-card"><p class="stars" aria-label="5/5">★★★★★</p>'
+            f'<p class="review-quote"{lang_attr}>{html.escape(text)}</p>'
+            f'<p class="review-meta">{html.escape(item["name"])} · Google</p></article>')
     return (f'<section class="reviews" id="guest-reviews"><h2>{html.escape(h)}</h2>'
-            f'<p class="rating-slot">[GOOGLE RATING] · [REVIEW COUNT]</p>'
-            f'<p class="note">{html.escape(note)} {q}</p>'
-            f'<div class="review-grid">{card}{card}{card}</div></section>')
+            f'<div class="review-grid">{"".join(cards)}</div></section>')
 def gallery_html(code):
     h=front.GALLERY_H.get(code, front.GALLERY_H['en'])
     return f'<section class="gallery-block" id="gallery"><h2>{html.escape(h)}</h2>{carousel(front.gallery_keys(), code, "gallery")}</section>'
