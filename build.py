@@ -419,6 +419,7 @@ def seo_bad(code,p,suffix):
     return len(t)>60 or len(d)>160 or len(d)>155
 NAV_GROUPS=[('house',['house','rooftop']),('families',['families','groups']),('location',['location','guide']),('travel-guide',[]),('faq',['faq','rules'])]
 BURGER='<input type="checkbox" id="navt" class="navt" aria-hidden="true" tabindex="-1"><label for="navt" class="burger" aria-label="Menu"><span></span></label>'
+import sys as _s; _s.path.insert(0,'tools'); import trust
 def nav_html(code, cur=''):
     lab=dict(C[code]['nav'])
     def a(k, cls=''):
@@ -430,6 +431,7 @@ def nav_html(code, cur=''):
         if not kids: o.append(a(head)); continue
         on=' on' if cur in [head]+kids else ''
         o.append(f'<div class="dd{on}">'+a(head)+'<div class="ddm">'+''.join(a(k) for k in kids)+'</div></div>')
+    o.append(trust.nav_link(code, url(code,'home')))
     if 'booking' in lab: o.append(a('booking','navbook'))
     return ''.join(o)
 _AICON={
@@ -468,6 +470,7 @@ def page(l,pid):
         fontlink=f'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={font.replace(" ","+")}:wght@400;600&display=swap" media="print" onload="this.media=&#39;all&#39;">'
     ld=[]
     if pid in ('home','house','booking','location'): ld.append(lodging(code,c))
+    if pid=='home': ld.append(trust.org_ld(F,SITE))
     crumbs=[{"@type":"ListItem","position":1,"name":u['home'],"item":SITE+f'/{code}/'}]
     if pid!='home':
         if pid.startswith('room-'): crumbs.append({"@type":"ListItem","position":2,"name":c['pages']['house']['h1'],"item":SITE+f'/{code}/house/'})
@@ -521,7 +524,7 @@ def page(l,pid):
         anchored.append(s)
     body=''.join(section(s,code,u,guide,use_room) for s in anchored)
     if pid=='home':
-        body=facts_html(code)+amen_html(code)+body+gallery_html(code)+reviews_html(code)
+        body=facts_html(code)+amen_html(code)+body+gallery_html(code)+trust.section(code)+reviews_html(code)
     if p.get('toc') and len(toc)>=2 and u.get('toc_label'):
         _tl=html.escape(u['toc_label'])
         body=f'<nav class="toc" aria-label="{_tl}"><p>{_tl}</p><ol>'+''.join(f'<li><a href="#{i}">{html.escape(t)}</a></li>' for i,t in toc)+'</ol></nav>'+body
@@ -544,7 +547,7 @@ def page(l,pid):
     inner=(f'<body><a class="skip" href="#main">{u["skip"]}</a><header class="site"><div class="bar"><a class="brand" href="{url(code,"home")}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm["w"]}" height="{lm["h"]}" alt="ASCON LIVING logo" decoding="async"><span>ASCON LIVING</span></a>{BURGER}<nav class="main" aria-label="Main">{nav}</nav>{picker}</div></header>'
            f'<main id="main">{top}{body}</div></main>'
            f'<footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf["w"]}" height="{lf["h"]}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u["motto"]}</p></div>'
-           f'<div><strong>{u["address_label"]}</strong><br>{F["street"]}<br>{u.get("locality",F["locality"])}, Vietnam</div>'
+           f'<div><strong>{u["address_label"]}</strong><br>{trust.footer_legal()}{F["street"]}<br>{u.get("locality",F["locality"])}, Vietnam</div>'
            f'<div><strong>{u["contact_label"]}</strong><br><a href="tel:{F["phone_e164"]}">{F["phone"]}</a><br><a href="mailto:{F["email"]}">{F["email"]}</a><br><a href="{F["wa"]}" rel="noopener">WhatsApp</a> · <a href="{F["zalo"]}" rel="noopener">Zalo</a>{u.get("extra_contact","")}</div>'
            f'<div><strong>{u["more_label"]}</strong><br>{legal(code)}<br><a href="{F["guide"]}" rel="noopener">{u["guest_guide"]}</a></div></div></footer>'
            f'<a class="fab" href="{F["wa"]}" rel="noopener" aria-label="{u["whatsapp"]}">{WA_SVG}</a>'
@@ -580,13 +583,13 @@ def root_page():
     hero=(f'<div class="hero-wrap">{hero_still(code)}<div class="in"><h1>{html.escape(h1)}</h1>'
           f'<p>{html.escape(lead)}</p>{price_line("en")}'
           f'<p class="motto" dir="ltr" lang="en">{u["motto"]}</p>{cta(u, code)}</div></div>')
-    body=facts_html(code)+amen_html(code)+f'<p class="lead">{html.escape(gear)}</p>'+gallery_html(code)+reviews_html(code)
+    body=facts_html(code)+amen_html(code)+f'<p class="lead">{html.escape(gear)}</p>'+gallery_html(code)+trust.section(code)+reviews_html(code)
     ld={"@context":"https://schema.org","@type":"WebPage","name":title,"description":desc,"url":canon,"inLanguage":"en","isPartOf":{"@type":"WebSite","name":F['name'],"url":SITE+'/'}}
-    ldh='<script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False).replace('</','<\\/')+'</script>'
+    ldh='<script type="application/ld+json">'+json.dumps(trust.org_ld(F,SITE),ensure_ascii=False).replace('</','<\\/')+'</script>'+'<script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False).replace('</','<\\/')+'</script>'
     inner=(f'<body><a class="skip" href="#main">{u["skip"]}</a><header class="site"><div class="bar"><a class="brand" href="{canon}"><img src="{BASE}/assets/img/logo-mark.webp" width="{lm["w"]}" height="{lm["h"]}" alt="ASCON LIVING logo" decoding="async"><span>ASCON LIVING</span></a>{BURGER}<nav class="main" aria-label="Main">{nav}</nav>{picker}</div></header>'
            f'<main id="main">{hero}<div class="wrap">{body}</div></main>'
            f'<footer><div class="wrap"><div><img src="{BASE}/assets/img/logo-full.webp" width="{lf["w"]}" height="{lf["h"]}" alt="ASCON LIVING" loading="lazy"><p class="motto" dir="ltr" lang="en">{u["motto"]}</p></div>'
-           f'<div><strong>{u["address_label"]}</strong><br>{F["street"]}<br>{u.get("locality",F["locality"])}, Vietnam</div>'
+           f'<div><strong>{u["address_label"]}</strong><br>{trust.footer_legal()}{F["street"]}<br>{u.get("locality",F["locality"])}, Vietnam</div>'
            f'<div><strong>{u["contact_label"]}</strong><br><a href="tel:{F["phone_e164"]}">{F["phone"]}</a><br><a href="mailto:{F["email"]}">{F["email"]}</a><br><a href="{F["wa"]}" rel="noopener">WhatsApp</a> · <a href="{F["zalo"]}" rel="noopener">Zalo</a></div>'
            f'<div><strong>{u["more_label"]}</strong><br>{legal("en")}</div></div></footer>'
            f'<a class="fab" href="{F["wa"]}" rel="noopener" aria-label="{u["whatsapp"]}">{WA_SVG}</a>{lightbox(code)}'
