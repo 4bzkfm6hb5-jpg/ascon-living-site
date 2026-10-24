@@ -1,5 +1,7 @@
 """Trust signals: Organization JSON-LD, host section, legal name in footer. Facts only from facts.json / owner brief."""
 import html
+MAPS_CID='https://maps.google.com/?cid=17859511616385277447'
+MAPS_PLACE='https://www.google.com/maps/place/Ascon+Living/@10.7517294,106.7104039,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fc4400c25e1:0xf7d9bb30fc9b5e07'
 LEGAL='CONG TY TNHH ASCON LIVING VIET NAM'
 # (menu label, heading, text, languages, reviews link)
 ABOUT={
@@ -35,13 +37,14 @@ def section(code):
     return (f'<section class="about-host" id="about-host"><h2>{html.escape(h)}</h2><p>{html.escape(p)}</p>'
             f'<p>{html.escape(langs)}</p><p><a href="#guest-reviews">{html.escape(rev)} ★★★★★</a></p></section>')
 def org_ld(F, SITE):
-    same=[F['airbnb'], F['trip']]
+    same=[F['airbnb'], F['trip'], MAPS_CID, MAPS_PLACE]
     return {"@context":"https://schema.org","@type":["Organization","LodgingBusiness"],"@id":SITE+'/#organization',
       "name":F['name'],"legalName":LEGAL,"url":SITE+'/',"logo":SITE+'/assets/img/logo-mark.png',"image":SITE+'/assets/img/og.jpg',
       "telephone":F['phone_e164'],"email":F['email'],
       "address":{"@type":"PostalAddress","streetAddress":F['street'],"addressLocality":"Tân Hưng","addressRegion":"Ho Chi Minh City","addressCountry":"VN"},
       "geo":{"@type":"GeoCoordinates","latitude":10.7516358,"longitude":106.7103995},
       "founder":{"@type":"Person","name":"Zishan","knowsLanguage":["de","en","hi","pa","ur","vi"]},
-      "knowsLanguage":["de","en","hi","pa","ur","vi"],"sameAs":same}
+      "knowsLanguage":["de","en","hi","pa","ur","vi"],"sameAs":same,"hasMap":MAPS_CID,
+      "identifier":{"@type":"PropertyValue","propertyID":"kgmid","value":"/g/11zz87221z"}}
 def footer_legal():
     return f'{LEGAL}<br>'

@@ -172,7 +172,7 @@ CONTACTH={'ko':'연락처','ja':'連絡先','zh':'联系方式'}
 CONTACT={'ko':['전화·WhatsApp: <a href="tel:{phone_e164}">{phone}</a>','Zalo: <a href="https://zalo.me/84909410382" rel="noopener">{phone}</a>',f'카카오톡 채널: <a href="{KAKAO}" rel="noopener">아스콘리빙</a>','이메일: <a href="mailto:{email}">{email}</a>'],
  'ja':['電話・WhatsApp：<a href="tel:{phone_e164}">{phone}</a>','Zalo：<a href="https://zalo.me/84909410382" rel="noopener">{phone}</a>','メール：<a href="mailto:{email}">{email}</a>'],
  'zh':['电话・WhatsApp：<a href="tel:{phone_e164}">{phone}</a>','Zalo：<a href="https://zalo.me/84909410382" rel="noopener">{phone}</a>','邮箱：<a href="mailto:{email}">{email}</a>']}
-MAPS='https://www.google.com/maps/search/?api=1&query=389A+Tr%E1%BA%A7n+Xu%C3%A2n+So%E1%BA%A1n+T%C3%A2n+H%C6%B0ng+Ho+Chi+Minh+City'
+MAPS='https://maps.app.goo.gl/dWaV1CXyhsnkbRz77'
 MAPSEC={'ko':{'h2':'지도','p':[f'<a href="{MAPS}" rel="noopener">Google 지도에서 주소 열기</a>. 자세한 도착 안내는 예약 후 보내드립니다.']},
  'ja':{'h2':'地図','p':[f'<a href="{MAPS}" rel="noopener">Googleマップで住所を開く</a>。詳しい到着案内はご予約後にお送りします。']},
  'zh':{'h2':'地图','p':[f'<a href="{MAPS}" rel="noopener">在 Google 地图中打开地址</a>。详细的到达说明会在预订后发送。']}}
